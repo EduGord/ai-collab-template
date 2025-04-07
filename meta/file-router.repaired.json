@@ -1,0 +1,13 @@
+{
+  "schemas": {
+    "memory.schema": "schemas/memory.schema.json",
+    "pipeline.schema": "schemas/pipeline.schema.json",
+    "routine-manifest.schema": "schemas/routine-manifest.schema.json"
+  },
+  "broken_schemas": {
+    "context-router.schema": "schemas/context-router.schema.json",
+    "feature.schema": "schemas/feature.schema.json"
+  },
+  "status": "repaired_partial",
+  "note": "Auto-regenerated from fallback due to corruption in schema-index.json"
+}

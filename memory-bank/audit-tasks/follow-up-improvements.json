@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Resolve TODOs in full-project-audit.json",
+    "file": "memory-bank/audit-tasks/full-project-audit.json",
+    "agent": "structurekeeper",
+    "priority": "high",
+    "action": "Refactor or complete all TODO entries."
+  },
+  {
+    "title": "Fix missing identity reference: feedbacker in dev-diary.md",
+    "file": "docs/dev-diary.md",
+    "agent": "docbot",
+    "priority": "medium",
+    "action": "Link to `identities/feedbacker.identity.md` where mentioned."
+  },
+  {
+    "title": "Fix missing identity reference: realtime-llm-assistant in README-ONBOARDING.md",
+    "file": "docs/README-ONBOARDING.md",
+    "agent": "docbot",
+    "priority": "medium",
+    "action": "Link to `identities/realtime-llm-assistant.identity.md`."
+  },
+  {
+    "title": "Fix missing identity references in AGENT_LOG.md",
+    "file": "AGENT_LOG.md",
+    "agent": "docbot",
+    "priority": "medium",
+    "action": "Add links to identities for all listed agents."
+  },
+  {
+    "title": "Fix missing identity reference: structurekeeper in project-mission-and-alignment.md",
+    "file": "framework/memory/project-mission-and-alignment.md",
+    "agent": "docbot",
+    "priority": "medium",
+    "action": "Link to `identities/structurekeeper.identity.md` where mentioned."
+  },
+  {
+    "title": "Create or assign pipeline for agent: coveragebot",
+    "file": "framework/pipelines/",
+    "agent": "planner",
+    "priority": "high",
+    "action": "Generate `coveragebot-auto-pipeline.yaml` using standard pipeline template."
+  },
+  {
+    "title": "Create or assign pipeline for agent: llmrouter",
+    "file": "framework/pipelines/",
+    "agent": "planner",
+    "priority": "high",
+    "action": "Generate `llmrouter-auto-pipeline.yaml` using standard pipeline template."
+  },
+  {
+    "title": "Create or assign pipeline for agent: realtime-llm-assistant",
+    "file": "framework/pipelines/",
+    "agent": "planner",
+    "priority": "high",
+    "action": "Generate `realtime-llm-assistant-auto-pipeline.yaml` using standard pipeline template."
+  },
+  {
+    "title": "Create or assign pipeline for agent: reviewkeeper",
+    "file": "framework/pipelines/",
+    "agent": "planner",
+    "priority": "high",
+    "action": "Generate `reviewkeeper-auto-pipeline.yaml` using standard pipeline template."
+  },
+  {
+    "title": "Create or assign pipeline for agent: structurekeeper",
+    "file": "framework/pipelines/",
+    "agent": "planner",
+    "priority": "high",
+    "action": "Generate `structurekeeper-auto-pipeline.yaml` using standard pipeline template."
+  }
+]

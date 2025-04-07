@@ -1,0 +1,10 @@
+changelog-agent.json
+version-manifest-v0.23.0-pre.json
+docs/README.md
+logs/executions/live-llm-task-execution.json
+logs/executions/extended-task-execution.json
+logs/executions/final-plan-cleanup-execution.json
+memory-bank/audit-tasks/follow-up-improvements.json
+meta/file-router.repaired.json
+schemas/schema-index.repaired.json
+framework/pipelines/release-diff-pipeline.yaml
