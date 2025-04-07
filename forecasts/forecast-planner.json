@@ -1,0 +1,10 @@
+{
+  "agent": "planner",
+  "forecast": "Introduce phase-aware scheduling of agents and register Gantt-style timeline.",
+  "priority": "high",
+  "tags": [
+    "timeline",
+    "governance",
+    "roadmap"
+  ]
+}

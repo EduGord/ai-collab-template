@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "if": "pipeline-execution-begins",
+      "then": "initiate-log-entry"
+    },
+    {
+      "if": "pipeline-phase-completes",
+      "then": "append-log-segment"
+    },
+    {
+      "if": "agent-error-detected",
+      "then": "capture-exception-context"
+    }
+  ]
+}

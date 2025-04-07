@@ -1,0 +1,9 @@
+{
+  "from": "planner-agent",
+  "to": "audit-agent",
+  "intent": "coordinate-task",
+  "payload": {
+    "message": "Let's collaborate on plan review."
+  },
+  "linkedTask": null
+}

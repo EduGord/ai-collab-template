@@ -1,0 +1,9 @@
+{
+  "from": "bootstrap-agent",
+  "to": "training-agent",
+  "intent": "coordinate-task",
+  "payload": {
+    "message": "Let's collaborate on plan review."
+  },
+  "linkedTask": null
+}

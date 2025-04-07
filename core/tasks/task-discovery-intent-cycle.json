@@ -1,0 +1,13 @@
+{
+  "id": "discovery-intent-cycle",
+  "title": "Trigger intent-based discovery loop",
+  "description": "Let agents propose and align around the next major phase based on internal memory, logs, and feature growth.",
+  "priority": "high",
+  "status": "completed",
+  "tags": [
+    "discovery",
+    "intent",
+    "next-evolution"
+  ],
+  "owner": "llm-assistant"
+}

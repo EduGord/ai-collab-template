@@ -1,0 +1,26 @@
+{
+  "id": "routine-definition",
+  "description": "Schema defining the structure of a routine across agents and pipelines",
+  "fields": [
+    {
+      "name": "routineId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "linkedAgent",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "triggerEvent",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "expectedOutput",
+      "type": "string",
+      "required": false
+    }
+  ]
+}

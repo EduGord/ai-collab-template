@@ -1,0 +1,6 @@
+[
+  "Read current task graph",
+  "Check assigned tasks and update statuses",
+  "Handle fallback and resolution if agents are stuck",
+  "Commit next active step to plan"
+]

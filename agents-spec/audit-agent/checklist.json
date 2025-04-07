@@ -1,0 +1,14 @@
+[
+  "Scan logs/ for recent execution results",
+  "Compare context-router with real filesystem",
+  "Ensure memory-bank/index.json references all active files",
+  "Generate diff reports if mismatches found",
+  "Log findings to audit-trail",
+  "Run validate-project-structure routine on version tags",
+  "Ensure feature-map.json is up to date with evolving plans"
+]
+<!-- linked feature: memory bank -->
+<!-- linked feature: tasks -->
+<!-- linked feature: agents -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: routines -->

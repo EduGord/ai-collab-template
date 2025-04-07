@@ -1,0 +1,13 @@
+{
+  "id": "user-goal-setting",
+  "title": "Trigger human-user goal planning round",
+  "description": "Generate, log, and execute user-proposed goals based on current framework state and evolution needs.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "goal",
+    "user",
+    "intent"
+  ],
+  "owner": "planner"
+}

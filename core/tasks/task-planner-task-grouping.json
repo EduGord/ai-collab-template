@@ -1,0 +1,12 @@
+{
+  "id": "planner-task-grouping",
+  "title": "Auto-group task queue by feature area",
+  "description": "Refactor task listing by categorizing them into meaningful clusters (docs, memory, schema, feedback, etc.).",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "task-management",
+    "planner"
+  ],
+  "owner": "planner"
+}

@@ -1,0 +1,15 @@
+{
+  "patterns": [
+    {
+      "context": "plan-failures",
+      "detectedPattern": "missing tasks.json in plan folder",
+      "recommendedFix": "ensure all plans contain decomposed `tasks.json` before planner execution"
+    },
+    {
+      "context": "agent-underperformance",
+      "detectedPattern": "checklist missing context-aware step",
+      "recommendedFix": "add active-context awareness in all agent checklists"
+    }
+  ],
+  "lastUpdated": "2025-04-06T20:45:00Z"
+}

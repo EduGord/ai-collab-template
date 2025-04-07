@@ -1,0 +1,20 @@
+{
+  "rules": [
+    {
+      "if": "document-ingested",
+      "then": "auto-classify-and-tag"
+    },
+    {
+      "if": "knowledge-query-issued",
+      "then": "perform-semantic-search"
+    },
+    {
+      "if": "long-form-content-added",
+      "then": "generate-summary"
+    },
+    {
+      "if": "usage-patterns-identified",
+      "then": "adjust-indexing-weighting"
+    }
+  ]
+}

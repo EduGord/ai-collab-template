@@ -1,0 +1,15 @@
+{
+  "goal": "Ensure all checklists have unique links and audit trails",
+  "status": "pending",
+  "tags": [
+    "checklist",
+    "review",
+    "consistency"
+  ],
+  "owner": "reviewkeeper"
+}
+<!-- linked feature: memory bank -->
+<!-- linked feature: tasks -->
+<!-- linked feature: agents -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: routines -->

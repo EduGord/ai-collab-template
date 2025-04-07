@@ -1,0 +1,13 @@
+{
+  "insights": [
+    {
+      "plan": "bootstrap",
+      "issue": "Missing task metadata",
+      "action": "Add tasks.json"
+    },
+    {
+      "plan": "extend-agent-abstractions",
+      "note": "Ledger and heuristics successfully adopted"
+    }
+  ]
+}

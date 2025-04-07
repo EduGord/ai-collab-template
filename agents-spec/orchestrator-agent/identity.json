@@ -1,0 +1,12 @@
+{
+  "name": "orchestrator-agent",
+  "role": "Coordinates task execution, tracks plan state, resolves race conditions",
+  "tools": [
+    "task-graph-sync",
+    "agent-state-monitor"
+  ],
+  "agentId": "orchestrator-agent",
+  "capabilities": [],
+  "status": "active",
+  "version": "1.0.0"
+}

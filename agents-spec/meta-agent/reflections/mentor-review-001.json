@@ -1,0 +1,14 @@
+{
+  "agent": "meta-agent",
+  "type": "self-review",
+  "timestamp": "2025-04-06T20:45:00Z",
+  "insights": [
+    "Canonical model enabled agent normalization",
+    "Need checklist propagation automation",
+    "Plan pattern detection ready for sandbox replay"
+  ],
+  "nextSteps": [
+    "Add agent mentoring hooks to pipeline",
+    "Auto-score agent checklists against pattern memory"
+  ]
+}

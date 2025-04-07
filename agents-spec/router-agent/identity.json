@@ -1,0 +1,13 @@
+{
+  "name": "router-agent",
+  "role": "Adapts context-router.json based on LLM session and memory state",
+  "tools": [
+    "rule-checker",
+    "context-matcher",
+    "memory-pruner"
+  ],
+  "agentId": "router-agent",
+  "capabilities": [],
+  "status": "active",
+  "version": "1.0.0"
+}

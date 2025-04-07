@@ -1,0 +1,14 @@
+{
+  "loadedFiles": [
+    "intent.json",
+    "plans/bootstrap/plan.json",
+    "agents-spec/bootstrap-agent/identity.json",
+    "agents-spec/bootstrap-agent/checklist.json",
+    "context-router.json"
+  ],
+  "loadedAgents": [
+    "bootstrap-agent"
+  ],
+  "intentScope": "initialize-template",
+  "planPhase": "scaffold-generated"
+}

@@ -1,0 +1,22 @@
+{
+  "controllerId": "trust-orchestration-v1",
+  "description": "Assigns tasks and routines based on trust scores from evolution metrics",
+  "logic": [
+    {
+      "condition": "score >= 0.9",
+      "action": "delegate scoring and mentorship tasks"
+    },
+    {
+      "condition": "score < 0.85",
+      "action": "restrict to checklist-bound routines only"
+    }
+  ],
+  "source": "logs/evaluations/agent-evolution-scores.json",
+  "appliedAgents": [
+    "planner-agent",
+    "meta-agent",
+    "evolve-agent",
+    "governance-agent"
+  ],
+  "status": "active"
+}

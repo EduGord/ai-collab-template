@@ -1,0 +1,24 @@
+{
+  "tasks": {
+    "generate-routine-gap-detection": {
+      "dependsOn": [],
+      "agent": "evolve-agent"
+    },
+    "generate-self-review-hook": {
+      "dependsOn": [
+        "generate-routine-gap-detection"
+      ],
+      "agent": "evolve-agent"
+    },
+    "generate-llm-session-router": {
+      "dependsOn": [],
+      "agent": "router-agent"
+    },
+    "generate-system-evolve-cycle": {
+      "dependsOn": [
+        "generate-self-review-hook"
+      ],
+      "agent": "evolve-agent"
+    }
+  }
+}

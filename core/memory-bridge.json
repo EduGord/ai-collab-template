@@ -1,0 +1,22 @@
+{
+  "linkedProjects": [
+    {
+      "name": "corrida-poc",
+      "path": "../corrida-poc/memory-bank",
+      "mountMode": "readonly",
+      "agentsAllowed": [
+        "planner-agent",
+        "docs-agent"
+      ],
+      "logAccess": true
+    }
+  ],
+  "description": "TBD",
+  "priority": "medium",
+  "version": "v1.0",
+  "tags": [
+    "task",
+    "agent",
+    "llm"
+  ]
+}

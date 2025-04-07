@@ -1,0 +1,8 @@
+id: live-deployment-feedback-cycle
+trigger: real-time/live
+agent: feedbacker
+description: Summarize agent interactions with user and generate task improvements from live data
+steps:
+  - Review recent logs for open questions or missed features
+  - Create task entries to improve handling of user goals
+  - Summarize feedback and mark as closed or escalated

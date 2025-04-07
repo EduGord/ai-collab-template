@@ -1,0 +1,147 @@
+{
+  "orchestrator-agent": {
+    "coordinates": [
+      "all"
+    ],
+    "triggers": [
+      "rotinas agendadas",
+      "decis\u00f5es do usu\u00e1rio",
+      "mudan\u00e7as de escopo"
+    ],
+    "delegates_to": [
+      "planner-agent",
+      "tasking-agent",
+      "docs-agent",
+      "governance-agent",
+      "dev-agent",
+      "tooling-agent"
+    ]
+  },
+  "planner-agent": {
+    "generates": [
+      "structured-plans.json"
+    ],
+    "supports": [
+      "orchestrator-agent",
+      "tasking-agent"
+    ]
+  },
+  "tasking-agent": {
+    "updates": [
+      "90-task-pending-list.json"
+    ],
+    "notifies": [
+      "docs-agent",
+      "orchestrator-agent",
+      "governance-agent"
+    ]
+  },
+  "docs-agent": {
+    "maintains": [
+      "memory-bank",
+      "README.md",
+      "contextos de IA"
+    ],
+    "triggered_by": [
+      "tasking-agent",
+      "user"
+    ],
+    "contributes_to": [
+      "project continuity"
+    ]
+  },
+  "governance-agent": {
+    "validates": [
+      "identity.json",
+      "core-checklist.json",
+      "00-core-agent-map.json"
+    ],
+    "owns": [
+      "suggest-checklist-and-identity-updates-during-session.json"
+    ]
+  },
+  "tooling-agent": {
+    "monitors": [
+      "logs",
+      "comportamento de intera\u00e7\u00e3o"
+    ],
+    "generates": [
+      "scripts",
+      "tools/*.py",
+      "utils-log.md"
+    ]
+  },
+  "training-specialist": {
+    "consumes": [
+      "running-plan-form.json",
+      "validation-rules"
+    ],
+    "generates": [
+      "diagn\u00f3stico",
+      "alertas",
+      "mensagens"
+    ],
+    "collaboratesWith": [
+      "compliance-agent",
+      "support-agent"
+    ]
+  },
+  "frontend-agent": {
+    "generates": [
+      "form-ui"
+    ],
+    "integrates_with": [
+      "validation-schema.json",
+      "form-schema.json"
+    ]
+  },
+  "support-agent": {
+    "interprets": [
+      "plano de treino"
+    ],
+    "communicates_to": [
+      "usu\u00e1rio final"
+    ]
+  },
+  "compliance-agent": {
+    "audits": [
+      "regras cl\u00ednicas",
+      "KPIs esportivos"
+    ],
+    "validates": [
+      "viabilidade de treinos"
+    ]
+  },
+  "ux-review-agent": {
+    "reviews": [
+      "experi\u00eancia do usu\u00e1rio",
+      "mensagens de valida\u00e7\u00e3o"
+    ],
+    "suggests_to": [
+      "frontend-agent",
+      "training-specialist"
+    ]
+  },
+  "dev-agent": {
+    "maintains": [
+      "estrutura do projeto",
+      "scripts",
+      "schemas"
+    ],
+    "responsible_for": [
+      "validate-project-structure-recursively"
+    ]
+  },
+  "intent-parser-agent": {
+    "role": "new",
+    "description": "intent-parser-agent was added during architectural refactor for specific responsibility."
+  },
+  "automator-agent": {
+    "role": "new",
+    "description": "automator-agent was added during architectural refactor for specific responsibility."
+  },
+  "narrator-agent": {
+    "role": "new",
+    "description": "narrator-agent was added during architectural refactor for specific responsibility."
+  }
+}

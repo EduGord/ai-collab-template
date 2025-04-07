@@ -1,0 +1,15 @@
+{
+  "id": "plan-retrospective",
+  "entrypoint": "planner-agent",
+  "description": "Analyzes completed/failed plans for improvement and learning.",
+  "steps": [
+    {
+      "agent": "planner-agent",
+      "action": "analyze outcome"
+    },
+    {
+      "agent": "docs-agent",
+      "action": "document findings"
+    }
+  ]
+}

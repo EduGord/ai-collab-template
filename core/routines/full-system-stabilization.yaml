@@ -1,0 +1,29 @@
+routine_id: full-system-stabilization
+title: Final Project System Sync & Onboarding Routine
+description: >
+  Synchronizes and validates the entire project before exporting as a stable release.
+  Ensures all systems—memory, pipelines, agents, tasks, docs, schemas—are compliant and routable.
+frequency: one-time
+trigger:
+  - project-finalization
+  - pre-release-export
+phases:
+  - id: memory-bank-sync
+    agent: logger-agent
+    task: task-bootstrap-log-resumable-pipeline
+  - id: validate-router-and-schemas
+    agent: router-agent
+    task: task-validate-file-router-logic
+  - id: confirm-onboarding-docs
+    agent: ux-agent
+    task: task-summarize-docs-for-agent-memory
+  - id: audit-canonical-agent-compliance
+    agent: orchestrator-agent
+    task: task-validate-canonical-agent-compliance
+  - id: onboarding-self-test-trigger
+    agent: realtime-llm-assistant
+    task: task-generate-onboarding-core-context-module
+outputs:
+  - system_validation_log
+  - updated_memory_index
+  - release_ready_flag

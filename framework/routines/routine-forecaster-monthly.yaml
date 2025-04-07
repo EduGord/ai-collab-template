@@ -1,0 +1,7 @@
+routine:
+  name: forecast-refresh
+  frequency: monthly
+  actions:
+    - analyze agent_log.json
+    - analyze memory_bank.json
+    - update forecast.md with trends

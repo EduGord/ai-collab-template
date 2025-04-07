@@ -1,0 +1,13 @@
+{
+  "id": "fix-missing-core-agents",
+  "title": "Create missing folder: core/agents",
+  "description": "Auto-generate required folder to complete framework compliance.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "fix",
+    "structure",
+    "compliance"
+  ],
+  "owner": "structurekeeper"
+}

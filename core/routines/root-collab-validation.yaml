@@ -1,0 +1,28 @@
+routine_id: root-collab-validation
+title: Root Collaboration Validation Cycle
+description: >
+  Ensures that the system remains aligned with the foundational collaboration goal. 
+  This includes reflection integrity, memory coherence, file-router validation, 
+  and root orchestrator agent checklist enforcement.
+frequency: weekly
+trigger:
+  - memory_change
+  - pipeline_update
+  - routine_schedule
+phases:
+  - id: validate_reflection_integrity
+    agent: orchestrator-agent
+    task: task-register-prompt-as-reflection
+  - id: validate_memory_and_router
+    agent: router-agent
+    task: task-validate-file-router-logic
+  - id: agent_checklist_reenforcement
+    agent: orchestrator-agent
+    task: task-create-root-orchestrator-agent
+  - id: validate_log_resumability
+    agent: realtime-llm-assistant
+    task: task-bootstrap-log-resumable-pipeline
+outputs:
+  - routine_report
+  - reflection_log
+  - updated_router_index

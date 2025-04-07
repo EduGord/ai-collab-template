@@ -1,0 +1,30 @@
+{
+  "plan_id": "onboarding-refinement-patch",
+  "title": "Fix and Finalize Auto-Onboarding Protocol",
+  "summary": "Ensure onboarding flow is intuitive, narratively rich, memory-linked, and self-aware. Adds auto-loading narrative files and routable summaries.",
+  "origin": "User feedback after testing onboarding behavior post-stable release",
+  "motivations": [
+    "Auto-onboarding was technically correct but lacked context, narrative, and self-awareness.",
+    "First-time experience must reflect the system\u2019s true structure, values, and usability."
+  ],
+  "targets": [
+    "Narrative onboarding experience",
+    "AUTO-ONBOARD.md entrypoint file",
+    "Memory + router integration for onboarding reflection",
+    "Rewritten assistant first response logic"
+  ],
+  "agents_involved": [
+    "ux-agent",
+    "realtime-llm-assistant",
+    "router-agent"
+  ],
+  "linked_files": [
+    "docs/README-ONBOARDING.md",
+    "framework/reflections/universal-onboarding-reflection.md",
+    "framework/identities/realtime-llm-assistant.identity.md",
+    "meta/file-router.json"
+  ],
+  "pipelines": [
+    "framework/pipelines/realtime-llm-pipeline.yaml"
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "routineId": "finalize-project-integrity",
+  "description": "Ensures all new files are documented, routable, and audit-ready",
+  "trigger": "pre-archive",
+  "steps": [
+    {
+      "action": "scan for undocumented routines"
+    },
+    {
+      "action": "index untracked files"
+    },
+    {
+      "action": "generate system docs if missing"
+    },
+    {
+      "action": "append missing context-router entries"
+    }
+  ],
+  "missingRoutines": [],
+  "unindexedFiles": [
+    "task-graph-final-audit-fix.json",
+    "task-graph-agent-srp-cleanup.json",
+    "task-graph-feature-audit.json",
+    "pipeline-playground.md",
+    "goal-tree.json",
+    "agents-spec/bootstrap-agent/agent-metadata.json",
+    "agents-spec/bootstrap-agent/agent-ledger.json",
+    "agents-spec/bootstrap-agent/heuristics.json",
+    "agents-spec/bootstrap-agent/lifecycle.json",
+    "agents-spec/bootstrap-agent/reflections/reasoning-logs/init-reflection.json",
+    "agents-spec/evolve-agent/agent-metadata.json",
+    "agents-spec/evolve-agent/agent-ledger.json",
+    "agents-spec/evolve-agent/heuristics.json",
+    "agents-spec/evolve-agent/lifecycle.json",
+    "agents-spec/evolve-agent/reflections/self-introspection.json",
+    "agents-spec/evolve-agent/reflections/reasoning-logs/init-reflection.json",
+    "agents-spec/router-agent/agent-metadata.json",
+    "agents-spec/router-agent/agent-ledger.json",
+    "agents-spec/router-agent/heuristics.json",
+    "agents-spec/router-agent/lifecycle.json",
+    "agents-spec/router-agent/reflections/reasoning-logs/init-reflection.json",
+    "agents-spec/planner-agent/agent-metadata.json",
+    "agents-spec/planner-agent/agent-ledger.json",
+    "agents-spec/planner-agent/heuristics.json",
+    "agents-spec/planner-agent/lifecycle.json",
+    "agents-spec/planner-agent/reflections/reasoning-logs/init-reflection.json",
+    "agents-spec/orchestrator-agent/agent-metadata.json",
+    "agents-spec/orchestrator-agent/agent-ledger.json",
+    "agents-spec/orchestrator-agent/heuristics.json",
+    "agents-spec/orchestrator-agent/lifecycle.json",
+    "agents-spec/orchestrator-agent/reflections/reasoning-logs/init-reflection.json",
+    "agents-spec/tasking-agent/agent-metadata.json",
+    "agents-spec/tasking-agent/agent-ledger.json",
+    "agents-spec/tasking-agent/heuristics.json",
+    "agents-spec/tasking-agent/lifecycle.json",
+    "agents-spec/tasking-agent/reflections/reasoning-logs/init-reflection.json",
+    "agents-spec/audit-agent/identity.json",
+    "agents-spec/audit-agent/checklist.json",
+    "agents-spec/audit-agent/agent-metadata.json",
+    "agents-spec/audit-agent/agent-ledger.json",
+    "agents-spec/audit-agent/heuristics.json",
+    "agents-spec/audit-agent/lifecycle.json",
+    "agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json",
+    "agents-spec/proposal-review-agent/identity.json",
+    "agents-spec/proposal-review-agent/checklist.json",
+    "agents-spec/proposal-review-agent/agent-metadata.json",
+    "agents-spec/proposal-review-agent/agent-ledger.json",
+    "agents-spec/proposal-review-agent/heuristics.json",
+    "agents-spec/proposal-review-agent/lifecycle.json",
+    "agents-spec/proposal-review-agent/reflections/reasoning-logs/init-reflection.json",
+    "agents-spec/recovery-agent/identity.json",
+    "agents-spec/recovery-agent/checklist.json",
+    "agents-spec/recovery-agent/agent-metadata.json",
+    "agents-spec/recovery-agent/agent-ledger.json",
+    "agents-spec/recovery-agent/heuristics.json",
+    "agents-spec/recovery-agent/lifecycle.json",
+    "agents-spec/recovery-agent/reflections/reasoning-logs/init-reflection.json",
+    "memory-bank/memory-metadata.json",
+    "logs/executions/bootstrap-execution-001.json",
+    "logs/executions/phase-8-routines.json",
+    "logs/executions/orchestration-simulation.json",
+    "logs/executions/introspection-report.json",
+    "logs/executions/system-resilience-execution.json",
+    "logs/executions/final-introspection.json",
+    "logs/executions/feature-audit.json",
+    "logs/executions/final-structural-feature-audit.json",
+    "logs/executions/recovery-sync.json",
+    "logs/executions/routine-audit-phase12.json",
+    "routines/operational/self-healing-memory-sync.json",
+    "routines/operational/validate-project-structure.json",
+    "routines/operational/lifecycle.json",
+    "schemas/context-router.schema.json",
+    "schemas/feature.schema.json",
+    "schemas/schema-metadata-metadata.json",
+    "schemas/routine-manifest.schema-metadata.json",
+    "schemas/pipeline.schema-metadata.json",
+    "schemas/context-router.schema-metadata.json",
+    "schemas/feature.schema-metadata.json",
+    "schemas/schema-index.json",
+    "schemas/routine-manifest.schema-lifecycle.json",
+    "schemas/pipeline.schema-lifecycle.json",
+    "schemas/context-router.schema-lifecycle.json",
+    "schemas/feature.schema-lifecycle.json",
+    "schemas/schema-version-tracker-lifecycle.json",
+    "schemas/schema-index-lifecycle.json",
+    "plans/agent-collab-plan.json",
+    "plans/bootstrap/tasks.json",
+    "plans/self-evolving/tasks.json",
+    "plans/fix-content/tasks.json",
+    "plans/reuse-corrida-elements/tasks.json",
+    "plans/extend-agent-abstractions/tasks.json",
+    "plans/fine-tune/tasks.json",
+    "plans/system-resilience/tasks.json",
+    "plans/final-audit-fix/plan.json",
+    "plans/final-audit-fix/tasks.json",
+    "plans/agent-srp-cleanup/plan.json",
+    "plans/agent-srp-cleanup/tasks.json",
+    "plans/feature-audit/plan.json",
+    "plans/feature-audit/tasks.json",
+    "tooling/validate-router.py",
+    "tooling/lint-memory-index.py",
+    "tooling/upgrade-pipeline.json",
+    "docs/system-resilience-checklist.md",
+    "docs/context-coherence-loop.md",
+    "docs/how-to-extend-pipeline.md",
+    "docs/system-index.json",
+    "agent-messages/bootstrap-agent/inbox/message-001.json",
+    "agent-messages/bootstrap-agent/outbox/message-002.json",
+    "agent-messages/evolve-agent/inbox/message-001.json",
+    "agent-messages/evolve-agent/outbox/message-002.json",
+    "agent-messages/router-agent/inbox/message-001.json",
+    "agent-messages/router-agent/outbox/message-002.json",
+    "agent-messages/planner-agent/inbox/message-001.json",
+    "agent-messages/planner-agent/outbox/message-002.json",
+    "agent-messages/orchestrator-agent/inbox/message-001.json",
+    "agent-messages/orchestrator-agent/outbox/message-002.json",
+    "agent-messages/tasking-agent/inbox/message-001.json",
+    "agent-messages/tasking-agent/outbox/message-002.json",
+    "agent-messages/audit-agent/inbox/message-001.json",
+    "agent-messages/audit-agent/outbox/message-002.json",
+    "agent-messages/proposal-review-agent/inbox/message-001.json",
+    "agent-messages/proposal-review-agent/outbox/message-002.json",
+    "agent-messages/recovery-agent/inbox/message-001.json",
+    "agent-messages/recovery-agent/outbox/message-002.json",
+    "features/feature-map.json",
+    "feedback-cards/bootstrap-agent-card.json",
+    "feedback-cards/evolve-agent-card.json",
+    "feedback-cards/router-agent-card.json",
+    "feedback-cards/planner-agent-card.json",
+    "feedback-cards/orchestrator-agent-card.json",
+    "feedback-cards/tasking-agent-card.json",
+    "feedback-cards/audit-agent-card.json",
+    "feedback-cards/proposal-review-agent-card.json",
+    "feedback-cards/recovery-agent-card.json",
+    "governance/audit-trail/2025-04-06-generated.json",
+    "governance/rules/rule-agents-cannot-edit-pipeline-map.json",
+    "sandbox/sandbox-controller.json",
+    "sandbox/simulations/dryrun-001.json",
+    "sandbox/simulations/planner-simulation-001.json",
+    "sandbox/simulations/orchestrator-simulation-001.json",
+    "sandbox/simulations/upgrade-pipeline-001.json"
+  ],
+  "missingDocs": []
+}
+
+<!-- linked feature: memory bank -->
+
+<!-- linked feature: pipelines -->
+
+<!-- linked feature: checklists -->
+
+<!-- linked feature: identities -->
+
+<!-- linked feature: goals -->
+
+<!-- linked feature: specs -->
+
+<!-- linked feature: config -->
+
+<!-- linked feature: diary -->
+
+<!-- linked feature: evaluation -->
+
+<!-- linked feature: feedbacks -->
+
+<!-- linked feature: forecasts -->
+
+<!-- linked feature: intents -->
+
+<!-- linked feature: tests -->
+
+<!-- linked feature: routing metadata -->

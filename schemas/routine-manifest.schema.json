@@ -1,0 +1,17 @@
+{
+  "description": "Standard routine manifest describing system-wide available routines",
+  "fields": [
+    "id",
+    "trigger",
+    "agent",
+    "logPath",
+    "contextType"
+  ],
+  "example": {
+    "id": "routine-gap-detection",
+    "trigger": "agent-task-audit",
+    "agent": "evolve-agent",
+    "logPath": "logs/executions/phase-8-routines.json",
+    "contextType": "contextual"
+  }
+}

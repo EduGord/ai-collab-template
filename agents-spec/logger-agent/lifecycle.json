@@ -1,0 +1,9 @@
+{
+  "phases": [
+    "init",
+    "active",
+    "reflecting",
+    "archived"
+  ],
+  "agent": "logger-agent"
+}

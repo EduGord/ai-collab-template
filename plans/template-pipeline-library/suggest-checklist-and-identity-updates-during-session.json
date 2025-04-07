@@ -1,0 +1,21 @@
+{
+  "title": "Atualização de Identidade e Checklist por Interação",
+  "description": "Permite que agentes monitorem interações e proponham atualizações de suas próprias identidades, rotinas e checklists.",
+  "owner_agent": "governance-agent",
+  "triggers": [
+    "mudança de escopo",
+    "inclusão de novas tarefas",
+    "nova decisão de arquitetura"
+  ],
+  "steps": [
+    "Monitorar interações e alterações nos arquivos de escopo",
+    "Comparar contexto com identidade e checklist atual",
+    "Emitir sugestão de atualização, expansão ou simplificação"
+  ],
+  "frequency": "contínua ou por evento",
+  "outputs": [
+    "identity.json",
+    "core-checklist.json",
+    "00-core-agent-map.json"
+  ]
+}

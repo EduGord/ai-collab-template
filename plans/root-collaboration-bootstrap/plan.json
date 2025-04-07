@@ -1,0 +1,33 @@
+{
+  "plan_id": "root-collaboration-bootstrap",
+  "title": "Root Collaboration Bootstrap",
+  "summary": "Foundation of the framework to support canonical AI-human collaboration. Establishes memory routing, context management, task logging, and agent coordination.",
+  "origin": "User's foundational intent prompt",
+  "motivations": [
+    "Context window limitations",
+    "Task continuity and logging",
+    "Fragmented interaction tools",
+    "Need for efficient, extensible protocols"
+  ],
+  "targets": [
+    "LLM-agent alignment",
+    "Memory-guided reasoning",
+    "Resilient, resumable pipelines",
+    "Canonical meta-collaboration patterns"
+  ],
+  "linked_files": [
+    "meta/intent.json",
+    "meta/file-router.json",
+    "memory-bank/memory-metadata.json"
+  ],
+  "agents_involved": [
+    "orchestrator-agent",
+    "bootstrap-agent",
+    "router-agent",
+    "realtime-llm-assistant"
+  ],
+  "pipelines": [
+    "framework/pipelines/realtime-llm-pipeline.yaml",
+    "framework/pipelines/agent_task_pipeline.yaml"
+  ]
+}

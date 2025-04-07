@@ -1,0 +1,30 @@
+{
+  "id": "routine-gap-detection",
+  "trigger": [
+    "manual",
+    "periodic"
+  ],
+  "entrypoint": "planner-agent",
+  "description": "Detecta rotinas frequentemente utilizadas que ainda n\u00e3o foram formalizadas como pipelines.",
+  "steps": [
+    {
+      "agent": "planner-agent",
+      "action": "analisar hist\u00f3rico de execu\u00e7\u00e3o"
+    },
+    {
+      "agent": "docs-agent",
+      "action": "verificar refer\u00eancias a rotinas em mem\u00f3ria e READMEs"
+    },
+    {
+      "agent": "orchestrator-agent",
+      "action": "formalizar sugest\u00f5es como pipelines"
+    },
+    {
+      "agent": "governance-agent",
+      "action": "validar conformidade com spec e identidade"
+    }
+  ],
+  "outputs": [
+    "suggested-pipelines.md"
+  ]
+}

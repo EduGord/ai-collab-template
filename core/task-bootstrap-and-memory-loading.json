@@ -1,0 +1,14 @@
+{
+  "id": "bootstrap-and-memory-loading",
+  "title": "Bootstrap framework and load project tree + contents",
+  "description": "Load full project tree and file contents into memory. Use memory bank, agents, pipelines, routines, logs, and tasks to understand the system structure.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "bootstrap",
+    "load",
+    "memory",
+    "structure"
+  ],
+  "owner": "planner"
+}

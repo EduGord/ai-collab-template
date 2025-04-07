@@ -1,0 +1,13 @@
+{
+  "id": "schema-diff-viewer",
+  "title": "Create config schema diff tool",
+  "description": "Generate a diff viewer between schema-config versions with changelog projection.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "schema",
+    "diff",
+    "tools"
+  ],
+  "owner": "schemaenforcer"
+}

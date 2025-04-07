@@ -1,0 +1,13 @@
+{
+  "id": "regenerate-file-router",
+  "title": "Rebuild metadata-rich file-router.json index",
+  "description": "Scan all content and embed type, tags, linked agent, task purpose into file-router.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "fix",
+    "metadata",
+    "routing"
+  ],
+  "owner": "llm-assistant"
+}

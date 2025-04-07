@@ -1,0 +1,13 @@
+{
+  "id": "llm-routing-runtime",
+  "title": "Enable real-time re-routing based on runtime state",
+  "description": "Add capability for llm-assistant to dynamically suggest alternate task paths during execution",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "routing",
+    "llm",
+    "assist"
+  ],
+  "owner": "llm-assistant"
+}

@@ -1,0 +1,6 @@
+[
+  "Receive generated plan from planner-agent",
+  "Check if steps align with objective",
+  "Ensure schema expectations match plan output",
+  "Add approval or send back revision feedback"
+]

@@ -1,0 +1,8 @@
+{
+  "name": "evolve-agent",
+  "role": "Scans the system for architectural evolution opportunities, routine gaps, and agent upgrade signals",
+  "agentId": "evolve-agent",
+  "capabilities": [],
+  "status": "active",
+  "version": "1.0.0"
+}

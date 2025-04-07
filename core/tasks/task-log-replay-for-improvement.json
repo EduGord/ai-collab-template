@@ -1,0 +1,13 @@
+{
+  "id": "log-replay-for-improvement",
+  "title": "Replay logs to identify missing features or broken patterns",
+  "description": "Let feedbacker and llm-assistant replay logs to surface blind spots or drift in behavior.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "log",
+    "drift",
+    "gap-detection"
+  ],
+  "owner": "feedbacker"
+}

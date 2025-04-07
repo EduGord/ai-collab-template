@@ -1,0 +1,40 @@
+{
+  "threads": [
+    {
+      "threadId": "T001",
+      "title": "Launch Stable Agent Collaboration Framework",
+      "goals": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "owner": "meta-agent",
+      "priority": "critical",
+      "start": "2025-04-01",
+      "status": "active"
+    },
+    {
+      "threadId": "T002",
+      "title": "Evolve Self-Reflective Planning Engine",
+      "goals": [
+        "G4",
+        "G5"
+      ],
+      "owner": "planner-agent",
+      "start": "2025-04-06",
+      "status": "initiated"
+    },
+    {
+      "threadId": "T003",
+      "title": "Create Cross-Project Memory Sync Engine",
+      "goals": [
+        "G6",
+        "G7"
+      ],
+      "owner": "router-agent",
+      "priority": "high",
+      "start": "2025-04-06",
+      "status": "new"
+    }
+  ]
+}

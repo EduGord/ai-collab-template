@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "id": "task-author-auto-onboard-md",
+      "title": "Write AUTO-ONBOARD.md as default narrative entrypoint",
+      "description": "Create a human+agent-readable markdown file that narratively explains the system on load.",
+      "linked_agent": "ux-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-route-onboard-docs",
+      "title": "Route AUTO-ONBOARD.md and universal onboarding reflection in file-router",
+      "description": "Patch file-router to include narrative onboarding files with context tags.",
+      "linked_agent": "router-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-inject-first-response-hook",
+      "title": "Link onboarding memory and doc into realtime-llm-assistant startup logic",
+      "description": "Ensure the assistant loads onboarding context on ZIP uploads or new sessions.",
+      "linked_agent": "realtime-llm-assistant",
+      "status": "pending"
+    },
+    {
+      "id": "task-test-simulated-load",
+      "title": "Simulate a new session ZIP load to validate onboarding response",
+      "description": "Ensure system narrates its structure and guidance as intended.",
+      "linked_agent": "realtime-llm-assistant",
+      "status": "pending"
+    }
+  ]
+}

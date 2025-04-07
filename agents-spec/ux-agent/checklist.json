@@ -1,0 +1,8 @@
+{
+  "agent": "ux-agent",
+  "user_feedback_processing": true,
+  "log_summary_enabled": true,
+  "pipeline_interaction_analysis": true,
+  "reflection_reporting": true,
+  "plan_recommendation_flagging": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "docbot-onboarding-doc",
+  "title": "Create onboarding.md for first-time users",
+  "description": "Generate a clear onboarding doc that introduces users to agent roles, pipelines, memory, and task system.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "onboarding",
+    "documentation"
+  ],
+  "owner": "docbot"
+}

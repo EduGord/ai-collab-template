@@ -1,0 +1,13 @@
+{
+  "id": "docbot-version-changelog",
+  "title": "Document past version features and changes",
+  "description": "Generate docs summarizing changes for each past release (v1 \u2192 v18).",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "docs",
+    "changelog",
+    "versions"
+  ],
+  "owner": "docbot"
+}

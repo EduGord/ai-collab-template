@@ -1,0 +1,13 @@
+{
+  "id": "refactor-root-structure",
+  "title": "Refactor root folder to reduce bloat and improve routing",
+  "description": "Move non-core README and config files into organized folders like /docs and /meta to keep root clean.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "structure",
+    "docs",
+    "organization"
+  ],
+  "owner": "structurekeeper"
+}

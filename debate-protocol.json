@@ -1,0 +1,4 @@
+{
+  "structure": ["propose", "respond", "vote"],
+  "rules": {"maxRounds": 3, "tieBreaker": "meta-agent"}
+}

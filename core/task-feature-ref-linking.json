@@ -1,0 +1,14 @@
+{
+  "id": "feature-ref-linking",
+  "title": "Ensure all core features are referenced across all documentation and tooling files",
+  "description": "Patch and validate that all features (agents, memory bank, pipelines, etc.) are linked in the project files for discoverability and LLM-friendly routing.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "features",
+    "reference",
+    "routing",
+    "linking"
+  ],
+  "owner": "docbot"
+}

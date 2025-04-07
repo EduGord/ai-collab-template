@@ -1,0 +1,9 @@
+{
+  "agent": "forecaster",
+  "forecast": "Predict saturation points for checklist density and routine collisions.",
+  "priority": "low",
+  "tags": [
+    "forecast",
+    "governance"
+  ]
+}

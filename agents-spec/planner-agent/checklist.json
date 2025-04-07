@@ -1,0 +1,6 @@
+[
+  "Parse current intent or goal from user or plan",
+  "Break down into atomic tasks",
+  "Define dependencies and agent assignments",
+  "Log task plan and return feedback loop suggestions"
+]

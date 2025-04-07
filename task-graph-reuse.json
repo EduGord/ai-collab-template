@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "generalize-routine-manifest": {
+      "agent": "evolve-agent"
+    },
+    "standardize-pipeline-format": {
+      "agent": "evolve-agent"
+    },
+    "import-quick-pipeline-doc": {
+      "agent": "evolve-agent"
+    },
+    "enhance-canonical-model-with-routines": {
+      "agent": "evolve-agent"
+    }
+  }
+}

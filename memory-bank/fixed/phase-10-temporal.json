@@ -1,0 +1,16 @@
+{
+  "phase": 10,
+  "name": "Longitudinal Simulation and Temporal Insight",
+  "goals": [
+    "Create end-to-end test scenarios with time-aware feedback and evolution",
+    "Simulate agent runs and behavior across checkpoints",
+    "Replay past prompt-response sessions for analysis",
+    "Expose episodic memory and future forecasting routines"
+  ],
+  "features": [
+    "simulations/<scenario>/ with checkpoint and scoring",
+    "prompt-replay.json for full interaction capture",
+    "timeline-memory.json extension with future expectations",
+    "diary/agent.json and diary/human.json for narrative memory"
+  ]
+}

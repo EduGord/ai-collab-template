@@ -1,0 +1,9 @@
+routine:
+  name: "realtime-llm-loop"
+  frequency: "weekly"
+  actions:
+    - check realtime_llm_prompt.txt
+    - parse latest memory_bank.json
+    - analyze task alignment and agent health
+    - generate response in realtime_llm_output.md
+    - update dev-diary.md with decisions

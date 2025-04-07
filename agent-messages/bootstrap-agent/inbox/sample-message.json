@@ -1,0 +1,5 @@
+{
+  "from": "meta-agent",
+  "intent": "review-init",
+  "message": "Confirm initialization complete and submit setup log."
+}

@@ -1,0 +1,624 @@
+{
+  "rules": [
+    {
+      "pattern": "README.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "README-LLM.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "README-HUMAN.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "README-ONBOARDING.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "context-router.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "intent.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "active-context.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "memory-bridge.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "llm-capabilities.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "debate-protocol.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "delegation-protocol.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agent-registry.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "override-rules.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "manual-mode.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "failsafe-agent.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "eval-hooks.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "human-feedback.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "feedback-integrator-agent.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agent-evolution.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "performance-milestones.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "persona-guide.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "collab-etiquette.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "task-graph.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "feedback-propagation.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "external-agent-descriptors.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "consensus-engine.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "prompt-replay.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "task-graph-fix-content.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "task-graph-reuse.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "task-graph-fine-tune.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "changelog-agent.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "task-graph-system-resilience.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/bootstrap-agent/identity.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/bootstrap-agent/checklist.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/bootstrap-agent/agent-state.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/bootstrap-agent/ux-profile.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/bootstrap-agent/reflections/sample.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/evolve-agent/identity.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/evolve-agent/checklist.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/evolve-agent/reflections/routine-gap-detection.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/evolve-agent/reflections/self-review-hook.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/evolve-agent/reflections/system-evolve-cycle.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/router-agent/identity.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/router-agent/checklist.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/router-agent/reflections/llm-session-router.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/planner-agent/identity.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/planner-agent/checklist.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/planner-agent/checklists/core-checklist.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/orchestrator-agent/identity.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/orchestrator-agent/checklist.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/orchestrator-agent/checklists/core-checklist.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/tasking-agent/identity.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/tasking-agent/checklist.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agents-spec/tasking-agent/checklists/core-checklist.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "canonical-model/routine-definition.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "memory-bank/index.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "memory-bank/fixed/phase-8-self-evolving.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "memory-bank/fixed/phase-9-federation.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "memory-bank/fixed/phase-10-temporal.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "routines/operational/routine-metadata.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "routines/operational/routine-gap-detection.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "routines/operational/self-review-hook.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "routines/operational/llm-session-router.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "routines/operational/system-evolve-cycle.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "routines/operational/self-introspection.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "schemas/schema-metadata.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "schemas/routine-manifest.schema.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "schemas/pipeline.schema.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "plans/bootstrap/plan.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "plans/self-evolving/plan.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "plans/fix-content/plan.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "plans/reuse-corrida-elements/plan.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "plans/extend-agent-abstractions/plan.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "plans/fine-tune/plan.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "plans/system-resilience/plan.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "simulations/onboarding/phase1-simulation.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "missions/onboarding.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "tooling/bootstrap_template.py",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "tooling/validate-context.py",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "tooling/diff-schema.py",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "docs/how-to-add-agent.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "docs/design-principles.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "docs/example-workflows.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "docs/system-checklist.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "docs/routines-index.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "docs/quick-pipeline-format.md",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "evaluation-results/bootstrap/eval.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "agent-messages/bootstrap-agent/inbox/sample-message.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "forecasts/bootstrap-agent/timeline-memory.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "intents/intent-types.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "diary/agent.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "diary/human.json",
+      "context": "auto-discovered",
+      "reason": "Added via automated routing sync"
+    },
+    {
+      "pattern": "routines/operational/routine-manifest.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "memory-bank/evolving/pending-tasks.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "schemas/schema-version-tracker.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "docs/README-QUICK-PIPELINE.md",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "plans/template-pipeline-library/context-compression-pipeline.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "plans/template-pipeline-library/conversation-to-pipeline.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "plans/template-pipeline-library/ethics-audit-pipeline.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "plans/template-pipeline-library/routine-gap-detection-pipeline.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json",
+      "context": "load-if-template-imported",
+      "reason": "Imported from corrida-poc as reusable framework logic"
+    },
+    {
+      "pattern": "schemas/lifecycle-metadata.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    },
+    {
+      "pattern": "schemas/debate-vote.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    },
+    {
+      "pattern": "routines/evaluation/plan-retrospective.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    },
+    {
+      "pattern": "routines/conversational/debate.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    },
+    {
+      "pattern": "plans/self-evolve/retrospective-insights.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    },
+    {
+      "pattern": "agents-spec/voting-agent/identity.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    },
+    {
+      "pattern": "governance/lifecycle-policy.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    },
+    {
+      "pattern": "sandbox/simulations/retrospective-bootstrap.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    },
+    {
+      "pattern": "sandbox/simulations/debate-vote-001.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    },
+    {
+      "pattern": "sandbox/sandbox-simulations.json",
+      "context": "auto",
+      "reason": "New Phase 11-12 feature file required for runtime reasoning",
+      "linkedAgents": [
+        "planner-agent",
+        "orchestrator-agent",
+        "voting-agent"
+      ]
+    }
+  ]
+}

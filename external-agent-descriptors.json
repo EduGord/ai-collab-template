@@ -1,0 +1,12 @@
+{
+  "agents": [
+    {
+      "name": "planner-agent@project-X",
+      "url": "https://example.org/agent/planner",
+      "capabilities": [
+        "planning",
+        "advice"
+      ]
+    }
+  ]
+}

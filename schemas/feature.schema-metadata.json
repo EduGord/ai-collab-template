@@ -1,0 +1,15 @@
+{
+  "schema": "feature.schema.json",
+  "ownerAgent": "planner-agent",
+  "usedIn": [
+    "conversation-to-pipeline"
+  ],
+  "status": "stable",
+  "versionHistory": [
+    "1.0.0"
+  ],
+  "exposedTo": [
+    "human",
+    "agent"
+  ]
+}

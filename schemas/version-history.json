@@ -1,0 +1,16 @@
+{
+  "schema": "version-history",
+  "description": "Tracks version changes, triggers, and rollback info",
+  "fields": {
+    "file": "string",
+    "previousVersion": "string",
+    "newVersion": "string",
+    "changedBy": "string",
+    "timestamp": "datetime",
+    "rollbackAvailable": "boolean"
+  }
+}
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

@@ -1,0 +1,15 @@
+pipeline:
+  name: "agent-task-pipeline"
+  trigger: ["task.created", "file.updated"]
+  steps:
+    - agent: docbot
+      on: ["README*", "*.md"]
+    - agent: structurekeeper
+      on: ["*.json", "*/"]
+    - log: agent_log
+    - status: update_task_dashboard
+
+# Root alignment validation step
+
+  - id: root-meta-alignment-check
+    routine: root-collab-validation

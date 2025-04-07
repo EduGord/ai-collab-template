@@ -1,0 +1,8 @@
+routine:
+  name: feedback-log-summary
+  frequency: weekly
+  actions:
+    - scan agent_log.json
+    - summarize last N entries
+    - append to evaluation.md
+    - confirm entry in dev-diary.md

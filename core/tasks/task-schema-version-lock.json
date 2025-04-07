@@ -1,0 +1,12 @@
+{
+  "id": "schema-version-lock",
+  "title": "Version-lock schema rules",
+  "description": "Make schema-config.json version-aware with backwards compatibility support and changelog.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "schema",
+    "versioning"
+  ],
+  "owner": "schemaenforcer"
+}

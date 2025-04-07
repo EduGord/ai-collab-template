@@ -1,0 +1,12 @@
+{
+  "planId": "G1-FORK-01",
+  "title": "Agent Collaboration \u2014 Performance Fork",
+  "owner": "planner-agent",
+  "tasks": [
+    "benchmark-agent-tokens",
+    "compare-routine-efficiency",
+    "generate-refactor-suggestions"
+  ],
+  "timeline": "2025-Q2",
+  "parentPlan": "G1"
+}

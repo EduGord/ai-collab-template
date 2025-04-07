@@ -1,0 +1,19 @@
+{
+  "id": "global-resilience-audit",
+  "title": "Run a global audit to detect missing metadata, references, or outdated content",
+  "description": "Audit all project folders and files, ensure metadata, versioning, identities, checklists, and logs are correctly linked and documented. Register recovery tasks to enforce long-term resilience.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "resilience",
+    "audit",
+    "metadata",
+    "routing"
+  ],
+  "owner": "schemaenforcer"
+}
+<!-- linked feature: memory bank -->
+<!-- linked feature: tasks -->
+<!-- linked feature: agents -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: routines -->

@@ -1,0 +1,26 @@
+{
+  "pipelineId": "agent-upgrade-pipeline",
+  "executedBy": "meta-agent",
+  "steps": [
+    {
+      "step": 1,
+      "agent": "meta-agent",
+      "action": "scan-agent-performance",
+      "outcome": "Identified underused agent: `orchestrator-agent`, flagged for review"
+    },
+    {
+      "step": 2,
+      "agent": "planner-agent",
+      "action": "propose-checklist-upgrade",
+      "outcome": "Generated checklist-enhancement for `orchestrator-agent`"
+    },
+    {
+      "step": 3,
+      "agent": "governance-agent",
+      "action": "approve-promotion-or-deprecation",
+      "outcome": "Approved checklist upgrade and confirmed `planner-agent` is stable"
+    }
+  ],
+  "result": "success",
+  "timestamp": "2025-04-06T19:05:00Z"
+}

@@ -1,0 +1,11 @@
+{
+  "strategy": "weighted-vote",
+  "rules": {
+    "trustBoostOnAccuracy": 0.1,
+    "penaltyOnFailure": 0.2
+  }
+}
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

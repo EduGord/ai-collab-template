@@ -1,0 +1,7 @@
+pipeline:
+  name: auto-pipeline-forecaster
+  trigger: [memory_bank.json]
+  steps:
+    - agent: forecaster
+      on: ["*"]
+    - log: agent_log

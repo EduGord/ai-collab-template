@@ -1,0 +1,13 @@
+{
+  "id": "agent-alignment-scan",
+  "title": "Validate agent alignment with user identity",
+  "description": "Ensure that all agent responsibilities and pipelines align with user identity goals and checklist.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "alignment",
+    "identity",
+    "pipeline"
+  ],
+  "owner": "planner"
+}

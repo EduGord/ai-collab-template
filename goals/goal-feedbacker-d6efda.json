@@ -1,0 +1,10 @@
+{
+  "goal": "Add feedback loop for agent action reviews and diary evaluation",
+  "status": "pending",
+  "tags": [
+    "feedback",
+    "logs",
+    "evaluation"
+  ],
+  "owner": "feedbacker"
+}

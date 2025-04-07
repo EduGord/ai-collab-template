@@ -1,0 +1,305 @@
+[
+  {
+    "id": "cli-001",
+    "title": "Inject CLI utility for task listing",
+    "status": "pending",
+    "description": "TBD",
+    "priority": "medium",
+    "version": "v1.0",
+    "tags": [
+      "task",
+      "agent",
+      "llm"
+    ],
+    "trigger": "manual",
+    "agent": "unassigned",
+    "task_id": "task-tbd"
+  },
+  {
+    "id": "cli-002",
+    "title": "Implement agent status tracker in memory",
+    "status": "pending",
+    "description": "TBD",
+    "priority": "medium",
+    "version": "v1.0",
+    "tags": [
+      "task",
+      "agent",
+      "llm"
+    ],
+    "trigger": "manual",
+    "agent": "unassigned",
+    "task_id": "task-tbd"
+  },
+  {
+    "id": "cli-003",
+    "title": "Render task dashboard in terminal or markdown",
+    "status": "pending",
+    "description": "TBD",
+    "priority": "medium",
+    "version": "v1.0",
+    "tags": [
+      "task",
+      "agent",
+      "llm"
+    ],
+    "trigger": "manual",
+    "agent": "unassigned",
+    "task_id": "task-tbd"
+  },
+  {
+    "agent": "docbot",
+    "task_id": "seed-docbot-phase-task",
+    "description": "docbot prepares for next operational roadmap cycle.",
+    "priority": "medium",
+    "status": "completed",
+    "trigger": "resync",
+    "tags": [
+      "resync",
+      "planning",
+      "expansion"
+    ]
+  },
+  {
+    "agent": "planner",
+    "task_id": "seed-planner-phase-task",
+    "description": "planner prepares for next operational roadmap cycle.",
+    "priority": "medium",
+    "status": "completed",
+    "trigger": "resync",
+    "tags": [
+      "resync",
+      "planning",
+      "expansion"
+    ]
+  },
+  {
+    "agent": "schemaenforcer",
+    "task_id": "seed-schemaenforcer-phase-task",
+    "description": "schemaenforcer prepares for next operational roadmap cycle.",
+    "priority": "medium",
+    "status": "completed",
+    "trigger": "resync",
+    "tags": [
+      "resync",
+      "planning",
+      "expansion"
+    ]
+  },
+  {
+    "agent": "feedbacker",
+    "task_id": "seed-feedbacker-phase-task",
+    "description": "feedbacker prepares for next operational roadmap cycle.",
+    "priority": "medium",
+    "status": "completed",
+    "trigger": "resync",
+    "tags": [
+      "resync",
+      "planning",
+      "expansion"
+    ]
+  },
+  {
+    "agent": "forecaster",
+    "task_id": "seed-forecaster-phase-task",
+    "description": "forecaster prepares for next operational roadmap cycle.",
+    "priority": "medium",
+    "status": "completed",
+    "trigger": "resync",
+    "tags": [
+      "resync",
+      "planning",
+      "expansion"
+    ]
+  },
+  {
+    "agent": "planner",
+    "task_id": "runtime-scale-planner",
+    "description": "Begin preparing agent runtime orchestration logic.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "intent:scale-runtime",
+    "tags": [
+      "runtime",
+      "distributed",
+      "scale"
+    ]
+  },
+  {
+    "agent": "docbot",
+    "task_id": "runtime-scale-docbot",
+    "description": "Begin preparing agent runtime orchestration logic.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "intent:scale-runtime",
+    "tags": [
+      "runtime",
+      "distributed",
+      "scale"
+    ]
+  },
+  {
+    "agent": "schemaenforcer",
+    "task_id": "runtime-scale-schemaenforcer",
+    "description": "Begin preparing agent runtime orchestration logic.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "intent:scale-runtime",
+    "tags": [
+      "runtime",
+      "distributed",
+      "scale"
+    ]
+  },
+  {
+    "agent": "feedbacker",
+    "task_id": "runtime-scale-feedbacker",
+    "description": "Begin preparing agent runtime orchestration logic.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "intent:scale-runtime",
+    "tags": [
+      "runtime",
+      "distributed",
+      "scale"
+    ]
+  },
+  {
+    "agent": "forecaster",
+    "task_id": "runtime-scale-forecaster",
+    "description": "Begin preparing agent runtime orchestration logic.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "intent:scale-runtime",
+    "tags": [
+      "runtime",
+      "distributed",
+      "scale"
+    ]
+  },
+  {
+    "agent": "planner",
+    "task_id": "simulate-zone-relay",
+    "description": "Simulate cross-zone communication through message passing.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "cluster-simulation",
+    "tags": [
+      "zone",
+      "relay",
+      "message"
+    ]
+  },
+  {
+    "agent": "schemaenforcer",
+    "task_id": "full-system-audit",
+    "description": "Each agent assumes its identity and verifies checklists, docs, logs, routines, pipelines, and specs.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "integrity-sweep",
+    "tags": [
+      "audit",
+      "compliance",
+      "self-check",
+      "docs"
+    ]
+  },
+  {
+    "agent": "planner",
+    "task_id": "agent-driven-evolution",
+    "description": "Each agent proposes and applies improvements to structure, routing, and modularity using its checklist, docs, and responsibilities.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "evolution",
+    "tags": [
+      "evolution",
+      "routing",
+      "structure",
+      "autonomy"
+    ]
+  },
+  {
+    "agent": "planner",
+    "task_id": "bootstrap-and-memory-loading",
+    "description": "Load full project tree and file contents into memory. Use memory bank, agents, pipelines, routines, logs, and tasks to understand the system structure.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "framework-routine",
+    "tags": [
+      "bootstrap",
+      "load",
+      "memory",
+      "structure"
+    ]
+  },
+  {
+    "agent": "planner",
+    "task_id": "agent-identity-review",
+    "description": "Agents should assume their identities, check their checklist, pipelines, links, logs, and documentation and register improvements as new tasks.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "framework-routine",
+    "tags": [
+      "agents",
+      "identity",
+      "validation",
+      "resilience"
+    ]
+  },
+  {
+    "agent": "schemaenforcer",
+    "task_id": "global-resilience-audit",
+    "description": "Audit all project folders and files, ensure metadata, versioning, identities, checklists, and logs are correctly linked and documented. Register recovery tasks to enforce long-term resilience.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "framework-routine",
+    "tags": [
+      "resilience",
+      "audit",
+      "metadata",
+      "routing"
+    ]
+  },
+  {
+    "agent": "docbot",
+    "task_id": "feature-ref-linking",
+    "description": "Patch and validate that all features (agents, memory bank, pipelines, etc.) are linked in the project files for discoverability and LLM-friendly routing.",
+    "priority": "medium",
+    "status": "completed",
+    "trigger": "framework-routine",
+    "tags": [
+      "features",
+      "reference",
+      "routing",
+      "linking"
+    ]
+  },
+  {
+    "agent": "planner",
+    "task_id": "ongoing-validation-cycle",
+    "description": "Read all memory tasks and allow agents to assume identity, filter by their capabilities and execute in order, registering output in logs and memory.",
+    "priority": "high",
+    "status": "completed",
+    "trigger": "framework-routine",
+    "tags": [
+      "execution",
+      "agents",
+      "logs",
+      "task-routing"
+    ]
+  },
+  {
+    "agent": "llm-assistant",
+    "task_id": "restructure-root-layout",
+    "description": "Refactor file organization and routing to reduce clutter in the root directory. Group related files under clean subfolders and improve maintainability.",
+    "priority": "high",
+    "status": "queued",
+    "trigger": "self-optimization",
+    "tags": [
+      "structure",
+      "routing",
+      "refactor",
+      "llm-agent"
+    ]
+  }
+]

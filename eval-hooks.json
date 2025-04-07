@@ -1,0 +1,11 @@
+{
+  "routines": {
+    "bootstrap-init": {
+      "expect": ["folder structure created", "files initialized"]
+    }
+  }
+}
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

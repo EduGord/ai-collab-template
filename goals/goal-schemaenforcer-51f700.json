@@ -1,0 +1,15 @@
+{
+  "goal": "Automate schema drift detection and compliance enforcement",
+  "status": "pending",
+  "tags": [
+    "schema",
+    "compliance",
+    "audit"
+  ],
+  "owner": "schemaenforcer"
+}
+<!-- linked feature: memory bank -->
+<!-- linked feature: tasks -->
+<!-- linked feature: agents -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: routines -->

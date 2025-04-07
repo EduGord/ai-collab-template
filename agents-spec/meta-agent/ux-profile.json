@@ -1,0 +1,10 @@
+{
+  "ui_elements": [
+    "status-badge",
+    "log-summary",
+    "task-controls"
+  ],
+  "visual_priority": "default",
+  "feedback_loop_enabled": true,
+  "agent": "meta-agent"
+}

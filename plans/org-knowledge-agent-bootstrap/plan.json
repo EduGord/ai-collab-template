@@ -1,0 +1,34 @@
+{
+  "plan_id": "org-knowledge-agent-bootstrap",
+  "title": "Organizational Knowledge Management Agent",
+  "summary": "Design and implement an AI agent for advanced project organization, document handling, and intelligent knowledge retrieval using AI and information science.",
+  "origin": "Manifesto for the AI Agent of Organization and Knowledge Management",
+  "motivations": [
+    "Information overload in large projects",
+    "Need for semantically aware document management",
+    "Integration of library science and AI for project organization"
+  ],
+  "targets": [
+    "Automated classification and cataloging",
+    "Semantic information retrieval",
+    "Knowledge capture, summarization, and indexing",
+    "Integration with productivity tools",
+    "Reporting and analytics"
+  ],
+  "linked_files": [
+    "schemas/canonical-agent-model.json",
+    "framework/pipelines/",
+    "core/routines/",
+    "docs/README-ONBOARDING.md"
+  ],
+  "agents_involved": [
+    "logger-agent",
+    "ux-agent",
+    "realtime-llm-assistant",
+    "router-agent"
+  ],
+  "pipelines": [
+    "framework/pipelines/agent_task_pipeline.yaml",
+    "framework/pipelines/realtime-llm-pipeline.yaml"
+  ]
+}

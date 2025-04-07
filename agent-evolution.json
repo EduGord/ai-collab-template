@@ -1,0 +1,5 @@
+{
+  "bootstrap-agent": [
+    {"version": "v1", "change": "initialization script added"}
+  ]
+}

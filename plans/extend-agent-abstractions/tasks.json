@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "taskId": "G1-T1",
+      "goal": "Enhance Agent Collaboration",
+      "agent": "planner-agent",
+      "action": "decompose-goal",
+      "description": "Analyze dependencies and required routines for goal G1"
+    },
+    {
+      "taskId": "G1-T2",
+      "goal": "Enhance Agent Collaboration",
+      "agent": "orchestrator-agent",
+      "action": "assign-plan",
+      "description": "Create and route a plan to achieve goal G1"
+    },
+    {
+      "taskId": "G2-T1",
+      "goal": "Enable Sandbox Simulations",
+      "agent": "planner-agent",
+      "action": "decompose-goal",
+      "description": "Analyze dependencies and required routines for goal G2"
+    },
+    {
+      "taskId": "G2-T2",
+      "goal": "Enable Sandbox Simulations",
+      "agent": "orchestrator-agent",
+      "action": "assign-plan",
+      "description": "Create and route a plan to achieve goal G2"
+    }
+  ]
+}

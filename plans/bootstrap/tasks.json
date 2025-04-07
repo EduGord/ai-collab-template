@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": "T1",
+      "desc": "Scan all pipeline files for compliance"
+    },
+    {
+      "id": "T2",
+      "desc": "Generate audit logs for missing metadata"
+    },
+    {
+      "id": "T3",
+      "desc": "Prepare feedback files for all agents"
+    }
+  ]
+}

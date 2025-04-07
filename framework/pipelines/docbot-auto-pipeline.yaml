@@ -1,0 +1,7 @@
+pipeline:
+  name: auto-pipeline-docbot
+  trigger: [memory_bank.json]
+  steps:
+    - agent: docbot
+      on: ["*"]
+    - log: agent_log

@@ -1,0 +1,14 @@
+{
+  "id": "rebuild-core-structure",
+  "title": "Recreate essential framework folders for live identity operations",
+  "description": "Recreate any missing directories under core/ required for checklists, identities, and routines.",
+  "priority": "critical",
+  "status": "completed",
+  "tags": [
+    "infrastructure",
+    "repair",
+    "core",
+    "live-mode"
+  ],
+  "owner": "llm-assistant"
+}

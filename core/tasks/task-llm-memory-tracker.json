@@ -1,0 +1,13 @@
+{
+  "id": "llm-memory-tracker",
+  "title": "Track runtime memory usage by thread",
+  "description": "Track and visualize memory impact by execution thread for future optimization.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "llm",
+    "memory",
+    "runtime"
+  ],
+  "owner": "llm-assistant"
+}

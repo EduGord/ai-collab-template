@@ -1,0 +1,7 @@
+pipeline:
+  name: auto-pipeline-schemaenforcer
+  trigger: [memory_bank.json]
+  steps:
+    - agent: schemaenforcer
+      on: ["*"]
+    - log: agent_log

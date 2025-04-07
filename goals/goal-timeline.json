@@ -1,0 +1,34 @@
+{
+  "milestones": [
+    {
+      "goalId": "G1",
+      "events": [
+        {
+          "timestamp": "2025-04-01",
+          "event": "Defined initial schema for messaging"
+        },
+        {
+          "timestamp": "2025-04-05",
+          "event": "Deployed planner-agent decomposition pipeline"
+        },
+        {
+          "timestamp": "2025-04-06",
+          "event": "Simulated orchestrator routing task"
+        }
+      ]
+    },
+    {
+      "goalId": "G2",
+      "events": [
+        {
+          "timestamp": "2025-04-01",
+          "event": "Enabled sandbox dry-run mode"
+        },
+        {
+          "timestamp": "2025-04-06",
+          "event": "Logged planner-agent sandbox simulation"
+        }
+      ]
+    }
+  ]
+}

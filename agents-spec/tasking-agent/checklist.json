@@ -1,0 +1,6 @@
+[
+  "Receive task proposals",
+  "Query agent registry for matching skills",
+  "Assign task and write to agent-messages/inbox",
+  "Monitor task completion from execution logs"
+]

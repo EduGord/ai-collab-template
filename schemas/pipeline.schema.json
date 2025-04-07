@@ -1,0 +1,23 @@
+{
+  "description": "Canonical schema for defining pipelines and their execution steps",
+  "fields": [
+    "pipelineId",
+    "description",
+    "steps",
+    "agentMap",
+    "inputSchema",
+    "outputSchema"
+  ],
+  "example": {
+    "pipelineId": "conversation-to-plan",
+    "steps": [
+      "parse-conversation",
+      "extract-intent",
+      "generate-plan"
+    ],
+    "agentMap": {
+      "parser": "llm-agent",
+      "planner": "evolve-agent"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "agentId": "planner-agent",
+    "timestamp": "2025-04-06T21:00:00Z",
+    "score": 0.82,
+    "confidence": 0.9,
+    "criteria": [
+      "reflection present",
+      "partial success",
+      "missed pattern"
+    ],
+    "reflections": [
+      "needs stronger checklist validation"
+    ]
+  },
+  {
+    "agentId": "meta-agent",
+    "timestamp": "2025-04-06T21:00:00Z",
+    "score": 0.95,
+    "confidence": 0.98,
+    "criteria": [
+      "complete reflection",
+      "mentorship actions",
+      "pattern logging"
+    ],
+    "reflections": [
+      "effective oversight"
+    ]
+  }
+]

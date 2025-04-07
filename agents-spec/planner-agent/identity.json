@@ -1,0 +1,12 @@
+{
+  "name": "planner-agent",
+  "role": "Decomposes user intent into tasks, maps dependencies, suggests flows",
+  "tools": [
+    "goal-parser",
+    "pipeline-proposer"
+  ],
+  "agentId": "planner-agent",
+  "capabilities": [],
+  "status": "active",
+  "version": "1.0.0"
+}

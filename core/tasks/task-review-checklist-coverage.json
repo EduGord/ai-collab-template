@@ -1,0 +1,13 @@
+{
+  "id": "review-checklist-coverage",
+  "title": "Patch missing or unlinked checklists",
+  "description": "Ensure all checklists in core/checklists are actively linked to agents, routines, or identities.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "checklist",
+    "linkage",
+    "coverage"
+  ],
+  "owner": "docbot"
+}

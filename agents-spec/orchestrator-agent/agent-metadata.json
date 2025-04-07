@@ -1,0 +1,23 @@
+{
+  "agent": "orchestrator-agent",
+  "domains": [
+    "planning",
+    "execution"
+  ],
+  "inputs": [
+    "intent.json",
+    "task-spec.json"
+  ],
+  "outputs": [
+    "execution-log.json"
+  ],
+  "decisionScope": [
+    "task-assignment",
+    "pipeline-selection"
+  ],
+  "relationships": {
+    "delegatesTo": [],
+    "supervisedBy": [],
+    "relatedTo": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "strictness": {
+    "config/llm-context-router.json": "warn",
+    "docs/api-schema.yaml": "fail",
+    "llm-context-router.json": "warn",
+    "schema-config.json": "warn"
+  }
+}
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

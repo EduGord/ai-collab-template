@@ -1,0 +1,16 @@
+{
+  "title": "Orchestrator Integrity & Oversight Checklist",
+  "relatedFiles": [
+    "00-core-agent-map.json",
+    "90-task-pending-list.json",
+    "80-execution-model.json",
+    "memory-bank/*"
+  ],
+  "checkItems": [
+    "✅ Verificar se todas as identidades estão atualizadas com responsabilidades, contratos e colaborações",
+    "✅ Validar se todas as rotinas estão presentes e com agentes atribuídos",
+    "✅ Confirmar se todas as pendências têm dono e prioridade",
+    "✅ Garantir que o Memory Bank tenha contexto fixo e variável bem definido",
+    "✅ Coordenar a execução das rotinas e tarefas entre agentes"
+  ]
+}

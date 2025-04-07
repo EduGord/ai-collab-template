@@ -1,0 +1,13 @@
+{
+  "id": "llm-context-suggestions",
+  "title": "Enable contextual task suggestions at runtime",
+  "description": "Trigger suggestion logic from logs, memory, pipeline state while LLM operates.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "llm",
+    "routing",
+    "context"
+  ],
+  "owner": "llm-assistant"
+}

@@ -1,0 +1,13 @@
+{
+  "forkId": "G1-FORK-01",
+  "sourcePlan": "plans/agent-collab-plan.json",
+  "forkedBy": "human",
+  "forkReason": "Performance tuning track",
+  "newOwner": "planner-agent",
+  "tasksAdded": [
+    "benchmark-agent-tokens",
+    "compare-routine-efficiency"
+  ],
+  "timestamp": "2025-04-06T19:45:00Z",
+  "status": "propagated"
+}

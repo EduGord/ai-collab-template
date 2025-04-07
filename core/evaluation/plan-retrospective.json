@@ -1,0 +1,54 @@
+{
+  "trigger": "post-plan-execution",
+  "steps": [
+    "load execution logs",
+    "analyze task outcomes",
+    "suggest plan or checklist updates",
+    "write to retrospective-insights.json"
+  ],
+  "description": "Retrospective review of plan performance to trigger evolution"
+}
+
+<!-- linked feature: memory bank -->
+
+<!-- linked feature: tasks -->
+
+<!-- linked feature: pipelines -->
+
+<!-- linked feature: agents -->
+
+<!-- linked feature: checklists -->
+
+<!-- linked feature: routines -->
+
+<!-- linked feature: identities -->
+
+<!-- linked feature: goals -->
+
+<!-- linked feature: specs -->
+
+<!-- linked feature: schemas -->
+
+<!-- linked feature: config -->
+
+<!-- linked feature: diary -->
+
+<!-- linked feature: evaluation -->
+
+<!-- linked feature: feedbacks -->
+
+<!-- linked feature: forecasts -->
+
+<!-- linked feature: governance -->
+
+<!-- linked feature: intents -->
+
+<!-- linked feature: plans -->
+
+<!-- linked feature: simulations -->
+
+<!-- linked feature: tests -->
+
+<!-- linked feature: tooling -->
+
+<!-- linked feature: routing metadata -->

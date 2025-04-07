@@ -1,0 +1,16 @@
+id: human-user
+name: Primary Project Collaborator
+role: Architect, Product Owner, Developer
+goals:
+  - Design long-term AI-human orchestration systems
+  - Evolve framework based on real-world usage
+  - Maintain structure, memory, and clarity across sessions
+agents_linked:
+  - llm-assistant
+  - planner
+  - feedbacker
+  - docbot
+checklists:
+  - user-live-session-checklist.yaml
+routines:
+  - live-deployment-feedback-cycle.yaml

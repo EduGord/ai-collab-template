@@ -1,0 +1,13 @@
+{
+  "id": "snapshot-live-user-release",
+  "title": "Zip and log the first post-identity framework release",
+  "description": "Package current working version with all identity and feedback cycles completed after human-user integration.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "release",
+    "snapshot",
+    "user"
+  ],
+  "owner": "llm-assistant"
+}

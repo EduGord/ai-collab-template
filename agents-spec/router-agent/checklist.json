@@ -1,0 +1,12 @@
+[
+  "Parse llm-capabilities.json",
+  "Modify context-router.json with session optimizations",
+  "Store versioned context router backup",
+  "Run validate-router.py to check coverage",
+  "Run lint-memory-index.py for missing memory links",
+  "Auto-repair router and memory index if gaps found"
+]
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

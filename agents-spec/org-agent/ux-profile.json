@@ -1,0 +1,9 @@
+{
+  "ui_elements": [
+    "summary-cards",
+    "feedback-indicators",
+    "semantic-query-view"
+  ],
+  "visual_priority": "contextual",
+  "feedback_loop_enabled": true
+}

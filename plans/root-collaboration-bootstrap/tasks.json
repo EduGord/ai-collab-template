@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "id": "task-bootstrap-memory-bank",
+      "title": "Bootstrap Memory Bank for Root Plan",
+      "description": "Seed foundational prompt as long-term memory. Enable memory routing logic and file tagging.",
+      "linked_agent": "bootstrap-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-create-root-orchestrator-agent",
+      "title": "Create Root Orchestrator Agent",
+      "description": "Establish agent responsible for context validation, memory syncs, and orchestrating canonical plans.",
+      "linked_agent": "orchestrator-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-register-prompt-as-reflection",
+      "title": "Register Foundational Prompt as Agent Reflection",
+      "description": "Store original user prompt as a formal agent reflection for dynamic reasoning reference.",
+      "linked_agent": "orchestrator-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-validate-file-router-logic",
+      "title": "Validate File Routing Metadata and Inference",
+      "description": "Ensure that file-router guides the AI based on metadata for context inclusion/exclusion.",
+      "linked_agent": "router-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-bootstrap-log-resumable-pipeline",
+      "title": "Bootstrap Logging Layer and Resume Protocol",
+      "description": "Implement task logging for resumable pipeline execution and agent awareness.",
+      "linked_agent": "realtime-llm-assistant",
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "task-clarify-readme-entry",
+    "title": "Define main README entrypoint",
+    "description": "Choose one README file as the central hub or consolidate READMEs into a unified format with TOC.",
+    "priority": "high"
+  },
+  {
+    "id": "task-folder-structure",
+    "title": "Establish standard folder structure",
+    "description": "Add src/, tests/, and docs/ directories where applicable to improve maintainability.",
+    "priority": "medium"
+  },
+  {
+    "id": "task-context-router-clarify",
+    "title": "Clarify context-router.json purpose",
+    "description": "Move file to config/ and/or rename for clarity. Example: llm-context-router.json.",
+    "priority": "medium"
+  },
+  {
+    "id": "task-readme-human-expand",
+    "title": "Expand README-HUMAN.md with setup and usage",
+    "description": "Include setup instructions, environment requirements, and common CLI commands.",
+    "priority": "medium"
+  },
+  {
+    "id": "task-add-test-scaffolding",
+    "title": "Initialize unit test structure",
+    "description": "Create test boilerplate in `tests/` folder and validate imports.",
+    "priority": "high"
+  },
+  {
+    "id": "task-api-schema-validation",
+    "title": "Define and validate API schema",
+    "description": "If applicable, document or validate OpenAPI schema or endpoint contracts.",
+    "priority": "medium"
+  },
+  {
+    "id": "task-init-agent-pipelines",
+    "title": "Setup agent pipeline logic",
+    "description": "Define pipelines between memory, tasks, logs, and agents. Use YAML or JSON schemas.",
+    "priority": "high"
+  },
+  {
+    "id": "task-add-coverage-scan",
+    "title": "Generate code coverage report",
+    "description": "Use coverage.py or similar tool to measure test coverage in `src/`.",
+    "priority": "high"
+  },
+  {
+    "id": "task-automated-review-pass",
+    "title": "Perform automated code and doc review",
+    "description": "Run reviewkeeper on all files and produce suggestions or flags in logs.",
+    "priority": "high"
+  },
+  {
+    "id": "task-improve-test-coverage",
+    "title": "Improve test coverage in core modules",
+    "description": "Add specific test cases to increase coverage in `core.py` and `utils.py`.",
+    "priority": "high"
+  },
+  {
+    "id": "task-enhance-readmes",
+    "title": "Merge or link multiple README files",
+    "description": "Unify `README.md`, `README-HUMAN.md`, and `README-LLM.md` or create a hub index.",
+    "priority": "medium"
+  },
+  {
+    "id": "task-schema-validate-router",
+    "title": "Validate context-router schema",
+    "description": "Ensure `llm-context-router.json` follows consistent schema, possibly add schema reference.",
+    "priority": "medium"
+  },
+  {
+    "id": "task-expand-test-core",
+    "title": "Add real assertions to `test_core.py`",
+    "description": "Go beyond the placeholder test and assert real functionality.",
+    "priority": "high"
+  },
+  {
+    "id": "routine-feedback-audit",
+    "title": "Add weekly audit routine for feedback loops",
+    "description": "Ensure `feedbacker` checks logs and updates `evaluation.md` after each pipeline cycle.",
+    "priority": "high"
+  },
+  {
+    "id": "routine-forecast-refresh",
+    "title": "Create monthly forecast refresh routine",
+    "description": "Forecaster should analyze new logs and memory once per month to refresh `forecast.md`.",
+    "priority": "medium"
+  },
+  {
+    "id": "docbot-check-identity-links",
+    "title": "Validate that all identities link to their checklists and docs",
+    "description": "Add backlinks from identity files to checklists and linked files to improve discoverability.",
+    "priority": "medium"
+  },
+  {
+    "id": "missing-checklists-reviewkeeper",
+    "title": "Create checklist for reviewkeeper responsibilities",
+    "description": "Define structured responsibilities for reviewkeeper including trigger points and review types.",
+    "priority": "high"
+  },
+  {
+    "id": "agent-state-dash",
+    "title": "Build live agent state dashboard",
+    "description": "Summarize agent status, responsibilities, and recent activity using CLI and memory service.",
+    "priority": "medium"
+  },
+  {
+    "id": "mission-drift-watchdog",
+    "title": "Introduce routine for mission/goals drift checks",
+    "description": "Ensure ongoing alignment between `plan.md`, `mission`, and generated task flow.",
+    "priority": "high"
+  },
+  {
+    "id": "wh-sim-001",
+    "title": "Simulated pipeline via webhook",
+    "description": "Run full cycle from external ingestion to feedback summary.",
+    "status": "pending"
+  },
+  {
+    "id": "docbot-checklink-review",
+    "title": "Ensure all docs link back to agent identity files",
+    "description": "Bi-directionally link identity files and the docs/checklists they reference or manage.",
+    "priority": "medium"
+  },
+  {
+    "id": "structurekeeper-validate-paths",
+    "title": "Validate checklist and pipeline paths for all agents",
+    "description": "Ensure folder and file structure used in checklists/pipelines exists and matches framework.",
+    "priority": "high"
+  },
+  {
+    "id": "reviewkeeper-pipeline-mapping",
+    "title": "Map reviewkeeper actions to specific pipeline events",
+    "description": "Ensure reviewkeeper knows when to trigger based on `*.py`, `*.md`, and config changes.",
+    "priority": "high"
+  },
+  {
+    "id": "coveragebot-report-diff",
+    "title": "Add diff-based coverage reporting",
+    "description": "Have coveragebot compare current vs previous reports and highlight changes.",
+    "priority": "medium"
+  },
+  {
+    "id": "llmrouter-routing-validation",
+    "title": "Validate llm-router has example inputs and edge cases",
+    "description": "Simulate incoming requests to router and check fallback/target coverage.",
+    "priority": "medium"
+  },
+  {
+    "id": "schemaenforcer-strictness-levels",
+    "title": "Add strictness levels to schema checks",
+    "description": "Allow schemaenforcer to be configured for 'warn' or 'fail' mode per file.",
+    "priority": "low"
+  },
+  {
+    "id": "feedbacker-flag-patterns",
+    "title": "Enable feedbacker to detect repeated agent errors or patterns",
+    "description": "Detect issues in logs like skipped logs, missing identity links, repeated failures.",
+    "priority": "medium"
+  },
+  {
+    "id": "forecaster-trend-tracker",
+    "title": "Implement trend tracking log for forecaster",
+    "description": "Add file to track predictions and actual outcomes for validation of forecast models.",
+    "priority": "low"
+  },
+  {
+    "id": "planner-task-meta-checker",
+    "title": "Check if all tasks include description, status, and priority",
+    "description": "Ensure all planned/generated tasks are compliant with canonical structure.",
+    "priority": "high"
+  },
+  {
+    "id": "realtime-llm-prompt-resolver",
+    "title": "Add structured JSON response support to realtime_llm_output",
+    "description": "Standardize output blocks for LLM integration in `realtime_llm_output.md`",
+    "priority": "medium"
+  }
+]

@@ -1,0 +1,13 @@
+pipeline:
+  name: "llm-trigger-pipeline"
+  trigger: ["memory_bank.json", "agent_log.json", "realtime_llm_prompt.txt"]
+  steps:
+    - agent: realtime-llm-assistant
+      on: ["*"]
+    - write: realtime_llm_output.md
+    - log: agent_log
+
+# Root alignment validation step
+
+  - id: root-meta-alignment-check
+    routine: root-collab-validation

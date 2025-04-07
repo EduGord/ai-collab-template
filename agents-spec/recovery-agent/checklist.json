@@ -1,0 +1,6 @@
+[
+  "Monitor failed executions in logs/",
+  "Check agent-state.json for task drops or hangs",
+  "Trigger fallback routines if needed",
+  "Log recovery plan and agent resolution summary"
+]

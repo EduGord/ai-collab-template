@@ -1,0 +1,15 @@
+{
+  "statuses": [
+    "experimental",
+    "stable",
+    "deprecated"
+  ],
+  "appliesTo": [
+    "agents",
+    "schemas",
+    "routines",
+    "plans"
+  ],
+  "status": "stable",
+  "updated": "2025-04-06T21:40:00Z"
+}

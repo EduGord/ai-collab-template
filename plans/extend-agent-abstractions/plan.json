@@ -1,0 +1,13 @@
+{
+  "objective": "Integrate abstract agents from corrida-poc for planning, orchestration, and tasking",
+  "tasks": [
+    "import-planner-agent",
+    "import-orchestrator-agent",
+    "import-tasking-agent"
+  ],
+  "timestamp": "2025-04-06T16:29:26.484768",
+  "agents": [
+    "evolve-agent"
+  ],
+  "version": "v1.1"
+}

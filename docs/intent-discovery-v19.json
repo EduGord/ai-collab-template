@@ -1,0 +1,30 @@
+{
+  "cycle": "v19",
+  "intents": [
+    {
+      "agent": "planner",
+      "intent": "Add milestone-based calendar and task due dates",
+      "priority": "high"
+    },
+    {
+      "agent": "docbot",
+      "intent": "Create AI-friendly summary cards for each doc",
+      "priority": "medium"
+    },
+    {
+      "agent": "schemaenforcer",
+      "intent": "Build a config diff tool for schema change previews",
+      "priority": "high"
+    },
+    {
+      "agent": "llm-assistant",
+      "intent": "Track real-time memory usage per execution thread",
+      "priority": "medium"
+    },
+    {
+      "agent": "feedbacker",
+      "intent": "Start trend analysis over time (weekly log summaries)",
+      "priority": "medium"
+    }
+  ]
+}

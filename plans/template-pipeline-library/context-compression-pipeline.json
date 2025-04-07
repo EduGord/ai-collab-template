@@ -1,0 +1,15 @@
+{
+  "id": "context-compression",
+  "entrypoint": "narrator-agent",
+  "description": "Compresses memory and active context into distilled summaries.",
+  "steps": [
+    {
+      "agent": "narrator-agent",
+      "action": "summarize memory-bank"
+    },
+    {
+      "agent": "docs-agent",
+      "action": "format compressed output"
+    }
+  ]
+}

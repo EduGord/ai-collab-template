@@ -1,0 +1,8 @@
+{
+  "simulationId": "sandbox-replay-001",
+  "replayedFile": "sandbox/simulations/fork-propagation-001.json",
+  "matchPattern": "missing tasks.json in plan folder",
+  "result": "warning-triggered",
+  "agent": "planner-agent",
+  "timestamp": "2025-04-06T21:00:00Z"
+}

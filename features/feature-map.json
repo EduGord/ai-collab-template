@@ -1,0 +1,175 @@
+{
+  "feature-0": {
+    "featureName": "Agent Checklists",
+    "ownedByAgent": "planner-agent",
+    "scope": "agents-spec/*/checklist.json",
+    "expectedFiles": [
+      "agents-spec/*/checklist.json"
+    ],
+    "description": "Each agent has a checklist describing responsibilities"
+  },
+  "feature-1": {
+    "featureName": "Memory Routing",
+    "ownedByAgent": "router-agent",
+    "scope": "context-router.json",
+    "expectedFiles": [
+      "context-router.json"
+    ],
+    "description": "Dynamic file routing is always up-to-date"
+  },
+  "feature-2": {
+    "featureName": "Audit Trail System",
+    "ownedByAgent": "audit-agent",
+    "scope": "logs/executions/",
+    "expectedFiles": [
+      "logs/executions/",
+      "routines/operational/validate-project-structure.json"
+    ],
+    "description": "The project contains routines and logs to track structural validity"
+  },
+  "feature-3": {
+    "featureName": "Agent Identity Metadata",
+    "ownedByAgent": "bootstrap-agent",
+    "scope": "agents-spec/*/identity.json",
+    "expectedFiles": [
+      "agents-spec/*/identity.json"
+    ],
+    "description": "Each agent has a defined identity including tone, tools, role"
+  },
+  "feature-4": {
+    "featureName": "Self-Healing Routine",
+    "ownedByAgent": "recovery-agent",
+    "scope": "routines/operational/self-healing-memory-sync.json",
+    "expectedFiles": [
+      "routines/operational/self-healing-memory-sync.json"
+    ],
+    "description": "Recovery mechanisms auto-fix memory/routing mismatch"
+  },
+  "goal-threading": {
+    "status": "active",
+    "files": [
+      "goals/goal-threads.json",
+      "goals/goal-timeline.json"
+    ],
+    "routines": [
+      "plan-retrospective",
+      "system-evolve-cycle"
+    ]
+  },
+  "temporal-memory": {
+    "status": "active",
+    "files": [
+      "memory-bank/memory-metadata.json"
+    ],
+    "notes": "Includes time-based memory scoping for lifelong and session-specific data"
+  },
+  "trust-orchestration": {
+    "status": "active",
+    "files": [
+      "governance/trust-orchestration.json",
+      "logs/evaluations/agent-evolution-scores.json"
+    ],
+    "linkedRoutines": [
+      "calculate-agent-evolution-score"
+    ],
+    "notes": "Dynamic agent task delegation based on behavior score"
+  },
+  "upgrade-proposal-system": {
+    "status": "active",
+    "files": [
+      "tooling/upgrade-proposals.json",
+      "logs/evaluations/upgrade-responses.json"
+    ],
+    "linkedAgents": [
+      "meta-agent",
+      "planner-agent"
+    ],
+    "notes": "Auto-proposes upgrades based on agent logs, score, and pattern audit"
+  },
+  "agent-review-loop": {
+    "status": "active",
+    "files": [
+      "memory-bank/audit-tasks/agent-identity-review.json",
+      "memory-bank/audit-tasks/agent-group-improvement-tasks.json"
+    ],
+    "linkedRoutines": [
+      "validate-agent-structure"
+    ],
+    "notes": "Each agent performs identity+checklist review and proposes structural upgrades"
+  },
+  "planner-task-expansion": {
+    "status": "active",
+    "files": [
+      "memory-bank/evolving/pending-tasks.json"
+    ],
+    "linkedAgents": [
+      "planner-agent"
+    ],
+    "notes": "Planner auto-generates tasks from agent reflections and metadata analysis"
+  },
+  "canonical-pipeline-model": {
+    "status": "planned",
+    "files": [
+      "schemas/canonical-pipeline-model.json",
+      "pipeline-index.json"
+    ],
+    "linkedTasks": [
+      "PHASE-022"
+    ],
+    "notes": "Defines standard pipeline schema"
+  },
+  "agent-communication-protocol": {
+    "status": "planned",
+    "files": [
+      "schemas/agent-message.json",
+      "docs/agent-communication.md"
+    ],
+    "linkedTasks": [
+      "PHASE-023"
+    ],
+    "notes": "Allows structured inter-agent messaging"
+  },
+  "execution-replay-hooks": {
+    "status": "planned",
+    "files": [
+      "routines/evaluation/sandbox-replay-evaluator.json"
+    ],
+    "linkedTasks": [
+      "PHASE-024"
+    ],
+    "notes": "Enable agents to replay and reflect on past executions"
+  },
+  "cross-agent-memory-access": {
+    "status": "planned",
+    "files": [
+      "schemas/memory-access.json",
+      "memory-bank/memory-bridge.json"
+    ],
+    "linkedTasks": [
+      "PHASE-025"
+    ],
+    "notes": "Defines who can read/write from where"
+  },
+  "ai-entry-protocol": {
+    "status": "planned",
+    "files": [
+      "docs/AI-entry-protocol.md",
+      "schemas/context-snapshot.json"
+    ],
+    "linkedTasks": [
+      "PHASE-026"
+    ],
+    "notes": "Enables new AIs to enter system with situational awareness"
+  },
+  "recovery-mode": {
+    "status": "planned",
+    "files": [
+      "docs/recovery-mode.md",
+      "schemas/recovery-state.json"
+    ],
+    "linkedTasks": [
+      "PHASE-027"
+    ],
+    "notes": "Global fallback procedure and state restoration"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "protocolId": "co-creation-v1",
+  "description": "Defines structured interaction between human contributors and AI agents",
+  "roles": [
+    "human",
+    "agent",
+    "observer",
+    "reviewer"
+  ],
+  "permissions": {
+    "human": [
+      "propose-task",
+      "approve-plan",
+      "edit-schema"
+    ],
+    "agent": [
+      "generate-plan",
+      "simulate-execution",
+      "log-reflection"
+    ],
+    "observer": [
+      "view-all"
+    ],
+    "reviewer": [
+      "score-output",
+      "approve-upgrade"
+    ]
+  },
+  "entrypoints": [
+    "missions/",
+    "diary/human.json",
+    "sandbox/"
+  ]
+}

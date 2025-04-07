@@ -1,0 +1,6 @@
+{
+  "status": "stable",
+  "linkedAgents": [
+    "planner-agent"
+  ]
+}

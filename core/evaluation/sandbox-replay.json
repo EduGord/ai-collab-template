@@ -1,0 +1,57 @@
+{
+  "routineId": "sandbox-replay",
+  "description": "Replays past simulation steps to recreate agent decisions and timing",
+  "trigger": "on-demand",
+  "inputs": [
+    "sandbox/simulations/*.json",
+    "logs/executions/execution-trace.json"
+  ],
+  "steps": [
+    "Identify linked simulation steps",
+    "Trace agent output and context state",
+    "Reproduce the decision chain",
+    "Log replay results and divergence (if any)"
+  ]
+}
+
+<!-- linked feature: memory bank -->
+
+<!-- linked feature: tasks -->
+
+<!-- linked feature: pipelines -->
+
+<!-- linked feature: agents -->
+
+<!-- linked feature: checklists -->
+
+<!-- linked feature: routines -->
+
+<!-- linked feature: identities -->
+
+<!-- linked feature: goals -->
+
+<!-- linked feature: specs -->
+
+<!-- linked feature: schemas -->
+
+<!-- linked feature: config -->
+
+<!-- linked feature: diary -->
+
+<!-- linked feature: evaluation -->
+
+<!-- linked feature: feedbacks -->
+
+<!-- linked feature: forecasts -->
+
+<!-- linked feature: governance -->
+
+<!-- linked feature: intents -->
+
+<!-- linked feature: plans -->
+
+<!-- linked feature: tests -->
+
+<!-- linked feature: tooling -->
+
+<!-- linked feature: routing metadata -->

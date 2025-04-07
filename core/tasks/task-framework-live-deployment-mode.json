@@ -1,0 +1,14 @@
+{
+  "id": "framework-live-deployment-mode",
+  "title": "Recovered task: framework-live-deployment-mode",
+  "description": "Activate real-time mode where all LLM interactions follow and modify framework state live.",
+  "priority": "critical",
+  "status": "active",
+  "tags": [
+    "live",
+    "deployment",
+    "orchestration",
+    "framework"
+  ],
+  "owner": "llm-assistant"
+}

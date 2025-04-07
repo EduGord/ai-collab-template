@@ -1,0 +1,10 @@
+routine:
+  name: recovery-bootstrap
+  frequency: once
+  actions:
+    - validate memory_bank.json
+    - sync schema-config.json strictness
+    - parse tasks.json and goals/ directory
+    - initialize agent-pipeline bindings
+    - update dev-diary.md and AGENT_LOG.md
+    - trigger planner to generate roadmap

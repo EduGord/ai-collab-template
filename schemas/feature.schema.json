@@ -1,0 +1,38 @@
+{
+  "id": "feature-manifest-entry",
+  "description": "Describes a system capability and its required structure or coverage",
+  "fields": [
+    {
+      "name": "featureName",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "ownedByAgent",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "scope",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "expectedFiles",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "required": true
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "required": true
+    }
+  ]
+}
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

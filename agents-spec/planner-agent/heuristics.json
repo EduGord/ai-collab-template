@@ -1,0 +1,20 @@
+{
+  "preferences": [
+    {
+      "rule": "prefer-stable-schemas",
+      "weight": 0.9
+    },
+    {
+      "rule": "minimize-token-usage",
+      "weight": 0.7
+    }
+  ],
+  "scoring": {
+    "complexityPenalty": 1.2,
+    "reuseBonus": 1.5
+  }
+}
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

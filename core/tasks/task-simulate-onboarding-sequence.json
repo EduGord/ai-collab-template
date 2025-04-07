@@ -1,0 +1,14 @@
+{
+  "id": "simulate-onboarding-sequence",
+  "title": "Simulate onboarding from registered template",
+  "description": "Trigger simulation of onboarding a new project based on this template's capabilities and documentation. Log every LLM instruction for user onboarding clarity.",
+  "priority": "high",
+  "status": "completed",
+  "tags": [
+    "onboarding",
+    "simulation",
+    "init",
+    "framework"
+  ],
+  "owner": "llm-assistant"
+}

@@ -1,0 +1,13 @@
+{
+  "schemas": [
+    "schema-metadata.json",
+    "routine-manifest.schema.json",
+    "pipeline.schema.json",
+    "context-router.schema.json",
+    "feature.schema.json"
+  ]
+}
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

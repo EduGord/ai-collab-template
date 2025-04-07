@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": "task-generate-onboarding-core-context-module",
+      "title": "Generate Onboarding Context Module",
+      "description": "Create a memory and logic module that allows LLMs to summarize core concepts and artifacts automatically.",
+      "linked_agent": "realtime-llm-assistant",
+      "status": "pending"
+    },
+    {
+      "id": "task-link-onboarding-to-reflections-and-router",
+      "title": "Link Onboarding Content to Router and Reflections",
+      "description": "Ensure onboarding docs are routable and accessible by any agent reflection engine.",
+      "linked_agent": "router-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-summarize-docs-for-agent-memory",
+      "title": "Summarize Project Docs into Agent Memory Entries",
+      "description": "UX agent summarizes onboarding documents and key frameworks into long-term memory with routable IDs.",
+      "linked_agent": "ux-agent",
+      "status": "pending"
+    }
+  ]
+}

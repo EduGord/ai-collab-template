@@ -1,0 +1,13 @@
+{
+  "id": "update-checklist-doc-links",
+  "title": "Update checklists and docs to new file locations",
+  "description": "Patch routines, checklists, and identity files to reflect new routing paths after folder restructure.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "patch",
+    "docs",
+    "routing"
+  ],
+  "owner": "docbot"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "audit-v21-before-v22",
+  "title": "Run full audit on v21 structure and metadata before v22 release",
+  "description": "Trigger pipeline+checklist+routine audits to confirm everything is valid and ready for v22.",
+  "priority": "critical",
+  "status": "queued",
+  "tags": [
+    "audit",
+    "release",
+    "checklist",
+    "pipeline"
+  ],
+  "owner": "llm-assistant"
+}

@@ -1,0 +1,55 @@
+{
+  "trigger": "after-phase-completion",
+  "steps": [
+    "review agent reflections",
+    "scan project memory for structural gaps",
+    "append proposed features to next phase template"
+  ],
+  "description": "Agent self-evolution cycle after major plan completions"
+}
+
+<!-- linked feature: memory bank -->
+
+<!-- linked feature: tasks -->
+
+<!-- linked feature: pipelines -->
+
+<!-- linked feature: agents -->
+
+<!-- linked feature: logs -->
+
+<!-- linked feature: checklists -->
+
+<!-- linked feature: routines -->
+
+<!-- linked feature: identities -->
+
+<!-- linked feature: goals -->
+
+<!-- linked feature: specs -->
+
+<!-- linked feature: schemas -->
+
+<!-- linked feature: config -->
+
+<!-- linked feature: diary -->
+
+<!-- linked feature: evaluation -->
+
+<!-- linked feature: feedbacks -->
+
+<!-- linked feature: forecasts -->
+
+<!-- linked feature: governance -->
+
+<!-- linked feature: intents -->
+
+<!-- linked feature: plans -->
+
+<!-- linked feature: simulations -->
+
+<!-- linked feature: tests -->
+
+<!-- linked feature: tooling -->
+
+<!-- linked feature: routing metadata -->

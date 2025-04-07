@@ -1,0 +1,13 @@
+{
+  "name": "audit-agent",
+  "role": "Handles audit logs, memory validation, and context inspections",
+  "tools": [
+    "schema-validator",
+    "log-indexer",
+    "diff-scanner"
+  ],
+  "agentId": "audit-agent",
+  "capabilities": [],
+  "status": "active",
+  "version": "1.0.0"
+}

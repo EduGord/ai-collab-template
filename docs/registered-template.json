@@ -1,0 +1,15 @@
+{
+  "template_id": "ai-collab-template-v13",
+  "description": "Fully modular, memory-routed, multi-agent framework with clustered layout and navigation system",
+  "version": "v13",
+  "created_by": "llm-assistant",
+  "registered_at": "2025-04-06T23:07:38.478426Z",
+  "tags": [
+    "template",
+    "multi-agent",
+    "routing",
+    "framework",
+    "resilient"
+  ],
+  "status": "active"
+}

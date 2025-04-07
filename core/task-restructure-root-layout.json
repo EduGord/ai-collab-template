@@ -1,0 +1,14 @@
+{
+  "id": "restructure-root-layout",
+  "title": "Reorganize and simplify root folder structure",
+  "description": "Refactor file organization and routing to reduce clutter in the root directory. Group related files under clean subfolders and improve maintainability.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "structure",
+    "routing",
+    "refactor",
+    "llm-agent"
+  ],
+  "owner": "llm-assistant"
+}

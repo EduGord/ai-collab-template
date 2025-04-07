@@ -1,0 +1,8 @@
+{
+  "phases": [
+    "init",
+    "active",
+    "reflecting",
+    "archived"
+  ]
+}

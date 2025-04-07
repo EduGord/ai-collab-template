@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "output-safety",
+    "loop-detection",
+    "execution-thresholds"
+  ]
+}
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

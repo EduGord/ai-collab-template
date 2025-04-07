@@ -1,0 +1,11 @@
+{
+  "goalId": "G1",
+  "title": "Agent Collaboration Enhancement",
+  "tasks": [
+    "setup-agent-messages",
+    "link-ledger-to-planner-outputs",
+    "validate-agent-to-agent-delegation"
+  ],
+  "ownerAgent": "orchestrator-agent",
+  "timestamp": "2025-04-06T18:22:30Z"
+}

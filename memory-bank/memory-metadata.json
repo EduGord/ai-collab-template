@@ -1,0 +1,27 @@
+{
+  "files": [],
+  "metadata": {
+    "example.json": {
+      "purpose": "used in training pipeline",
+      "loadMode": "context-heavy",
+      "ttl": "session",
+      "ownerAgent": "training-agent"
+    }
+  },
+  "scopes": {
+    "long-term": [
+      "goal-tree.json",
+      "goal-threads.json",
+      "agent-ledger.json"
+    ],
+    "session": [
+      "active-context.json",
+      "sandbox/simulations/*"
+    ],
+    "permanent": [
+      "schemas/*",
+      "agents-spec/*/identity.json",
+      "docs/*"
+    ]
+  }
+}

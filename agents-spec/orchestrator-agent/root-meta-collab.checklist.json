@@ -1,0 +1,10 @@
+{
+  "agent": "root-orchestrator-agent",
+  "context_validation": true,
+  "file_router_integration": true,
+  "memory_sync_enabled": true,
+  "log_tracking_mandatory": true,
+  "reflection_review_frequency": "per-cycle",
+  "pipeline_guardian": true,
+  "resilience_hooks_required": true
+}

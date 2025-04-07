@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "fix-routine-metadata": {
+      "agent": "evolve-agent"
+    },
+    "fix-llm-session-router-routine": {
+      "agent": "evolve-agent"
+    },
+    "enrich-doc-how-to-add-agent": {
+      "agent": "evolve-agent"
+    },
+    "enrich-doc-example-workflows": {
+      "agent": "evolve-agent"
+    },
+    "fix-bootstrap-plan-format": {
+      "agent": "evolve-agent"
+    }
+  }
+}

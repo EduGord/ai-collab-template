@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "id": "task-design-org-agent-spec",
+      "title": "Design Agent Identity and Heuristics",
+      "description": "Define the organizational knowledge agent\u2019s identity, checklist, lifecycle, and decision heuristics.",
+      "linked_agent": "realtime-llm-assistant",
+      "status": "pending"
+    },
+    {
+      "id": "task-automated-cataloging-logic",
+      "title": "Implement Classification and Cataloging Logic",
+      "description": "Develop ML/NLP methods to classify and tag documents automatically.",
+      "linked_agent": "router-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-document-summarizer-module",
+      "title": "Create Document and Meeting Summarizer",
+      "description": "Use NLP summarization techniques to extract key points from documents and logs.",
+      "linked_agent": "ux-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-semantic-retrieval-index",
+      "title": "Build Semantic Information Retrieval Engine",
+      "description": "Develop search functionality with semantic indexing and relevance scoring.",
+      "linked_agent": "router-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-integrate-productivity-systems",
+      "title": "Integrate with Productivity Tools",
+      "description": "Enable connections to project tools like calendars, Trello, Notion, etc.",
+      "linked_agent": "realtime-llm-assistant",
+      "status": "pending"
+    },
+    {
+      "id": "task-usage-reporting-dashboard",
+      "title": "Create Analytics and Reporting Dashboard",
+      "description": "Log usage and effectiveness data. Display insights in an interactive dashboard.",
+      "linked_agent": "logger-agent",
+      "status": "pending"
+    },
+    {
+      "id": "task-validate-canonical-agent-compliance",
+      "title": "Validate Canonical Compliance for All Agents",
+      "description": "Scan and report any agent missing required fields or files per the canonical-agent-model v2.",
+      "linked_agent": "realtime-llm-assistant",
+      "status": "done"
+    },
+    {
+      "id": "task-patch-incomplete-agents",
+      "title": "Patch Non-Compliant Agents to Match Canonical Model",
+      "description": "Generate missing files for all incomplete agents using reference schema.",
+      "linked_agent": "realtime-llm-assistant",
+      "status": "pending"
+    }
+  ]
+}

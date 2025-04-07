@@ -1,0 +1,13 @@
+{
+  "id": "generate-file-router",
+  "title": "Create metadata-based file-router.json",
+  "description": "Scan project files and write a file-router map linking metadata, agents, tasks, and purpose of each file.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "routing",
+    "metadata",
+    "index"
+  ],
+  "owner": "llm-assistant"
+}

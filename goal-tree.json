@@ -1,0 +1,28 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "title": "Enhance Agent Collaboration",
+      "description": "Improve agent-to-agent messaging and delegation flows",
+      "priority": "high",
+      "requires": [],
+      "relatedPlans": [
+        "extend-agent-abstractions",
+        "agent-srp-cleanup"
+      ],
+      "progress": 0.0
+    },
+    {
+      "id": "G2",
+      "title": "Enable Sandbox Simulations",
+      "description": "Allow agent execution without writing to memory or disk",
+      "priority": "medium",
+      "requires": [],
+      "relatedPlans": [
+        "bootstrap",
+        "fine-tune"
+      ],
+      "progress": 0.0
+    }
+  ]
+}

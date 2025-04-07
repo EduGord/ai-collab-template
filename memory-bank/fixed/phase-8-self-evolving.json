@@ -1,0 +1,16 @@
+{
+  "phase": 8,
+  "name": "Self-Evolving Intelligence",
+  "goals": [
+    "Detect and resolve routine gaps automatically",
+    "Enable agents to suggest improvements to their own identities and checklists",
+    "Tie LLM capabilities to context-routing in real time",
+    "Formalize reflection-to-architecture evolution loop"
+  ],
+  "features": [
+    "routine-gap-detection.json for autonomous scan of routines",
+    "self-review-hook.json for agent self-feedback and checklist updates",
+    "llm-session-router.json for runtime memory adaptation",
+    "system-evolve-cycle.json for post-project evolution planning"
+  ]
+}

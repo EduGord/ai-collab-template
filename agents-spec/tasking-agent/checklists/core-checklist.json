@@ -1,0 +1,14 @@
+{
+  "title": "tasking-agent Core Checklist",
+  "relatedFiles": [
+    "logs/",
+    "memory-bank/",
+    "scripts/",
+    "form-schema.json"
+  ],
+  "checkItems": [
+    "✅ Criar tarefas a partir de interações, comandos ou modificações detectadas",
+    "✅ Manter o `90-task-pending-list.json` sempre atualizado",
+    "✅ Atribuir tarefas automaticamente a agentes responsáveis"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "enhance-file-router-metadata",
+    "title": "Enrich file-router.json metadata",
+    "description": "Expand the existing file-router.json to include comprehensive metadata such as purpose, responsible agents, expected content structure, and references to associated tasks, identities, and routines.",
+    "priority": "high",
+    "status": "queued",
+    "tags": [
+        "routing",
+        "metadata",
+        "organization"
+    ],
+    "owner": "llm-assistant"
+}

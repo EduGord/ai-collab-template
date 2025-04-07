@@ -1,0 +1,14 @@
+{
+  "id": "agent-goal-generation",
+  "title": "Let agents propose next feature goals and roadmap entries",
+  "description": "Each agent reflects on logs, tasks, specs, and current state to generate meaningful next-step goals and evolution roadmap entries.",
+  "priority": "high",
+  "status": "completed",
+  "tags": [
+    "roadmap",
+    "goals",
+    "evolution",
+    "multi-agent"
+  ],
+  "owner": "planner"
+}

@@ -1,0 +1,25 @@
+{
+  "version": "v15.1",
+  "goals": [
+    {
+      "agent": "docbot",
+      "goal": "Generate onboarding.md for first-time users"
+    },
+    {
+      "agent": "planner",
+      "goal": "Auto-group task queue by feature area"
+    },
+    {
+      "agent": "schemaenforcer",
+      "goal": "Version-lock schema rules for major releases"
+    },
+    {
+      "agent": "feedbacker",
+      "goal": "Summarize execution feedback monthly"
+    },
+    {
+      "agent": "llm-assistant",
+      "goal": "Provide real-time re-routing during runtime decisions"
+    }
+  ]
+}

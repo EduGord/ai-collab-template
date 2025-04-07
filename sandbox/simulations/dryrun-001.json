@@ -1,0 +1,19 @@
+{
+  "goal": "G1",
+  "agents": [
+    "planner-agent",
+    "orchestrator-agent"
+  ],
+  "simulatedTasks": [
+    {
+      "agent": "planner-agent",
+      "action": "analyze-goal-tree"
+    },
+    {
+      "agent": "orchestrator-agent",
+      "action": "propose-task-dispatch"
+    }
+  ],
+  "outcome": "pending",
+  "notes": "Sandboxed simulation initialized."
+}

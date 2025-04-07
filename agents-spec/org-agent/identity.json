@@ -1,0 +1,20 @@
+{
+  "agent_id": "org-agent",
+  "role": "Organizational Knowledge Management Agent",
+  "description": "Handles intelligent classification, summarization, retrieval, and integration of knowledge for project organization using AI techniques.",
+  "category": "knowledge-manager",
+  "traits": [
+    "semantic-aware",
+    "cataloging",
+    "summarizing",
+    "retrieval-specialist",
+    "tool-integrator"
+  ],
+  "entry_point_tasks": [
+    "task-design-org-agent-spec",
+    "task-automated-cataloging-logic",
+    "task-semantic-retrieval-index"
+  ],
+  "linked_plan": "org-knowledge-agent-bootstrap",
+  "persistent_memory_tag": "org-mgmt"
+}

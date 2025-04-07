@@ -1,0 +1,17 @@
+{
+  "objective": "Fine-tune project structure and descriptions using concepts from corrida-poc",
+  "tasks": [
+    "refine-canonical-models",
+    "audit-and-update-agent-identities",
+    "expand-checklists-with-corrida-logic",
+    "refine-routines-formatting",
+    "validate-and-version-pipelines",
+    "enrich-documentation-with-concepts"
+  ],
+  "agents": [
+    "evolve-agent",
+    "planner-agent"
+  ],
+  "timestamp": "2025-04-06T16:33:42.338387",
+  "version": "v1.2"
+}

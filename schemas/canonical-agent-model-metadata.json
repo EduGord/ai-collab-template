@@ -1,0 +1,9 @@
+{
+  "ownerAgent": "realtime-llm-assistant",
+  "usage": "Defines canonical structure for all agents",
+  "linkedRoutines": [
+    "root-collab-validation"
+  ],
+  "status": "active",
+  "version": "v2"
+}

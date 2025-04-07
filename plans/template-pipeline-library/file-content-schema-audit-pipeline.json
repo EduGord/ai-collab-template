@@ -1,0 +1,39 @@
+{
+  "id": "file-content-schema-audit-pipeline",
+  "entrypoint": "tooling-agent",
+  "description": "Validates if file contents match expected structural purpose. Detects execution states in routines, misplaced spec fields, or runtime data in identity files.",
+  "phases": [
+    {
+      "phase": 1,
+      "agents": [
+        "tooling-agent",
+        "compliance-agent"
+      ],
+      "output": "content-misuse-detected.json"
+    },
+    {
+      "phase": 2,
+      "agents": [
+        "governance-agent",
+        "training-agent"
+      ],
+      "output": "field-violations.json"
+    },
+    {
+      "phase": 3,
+      "agents": [
+        "planner-agent",
+        "dev-agent"
+      ],
+      "output": "refactor-suggestions-content.json"
+    },
+    {
+      "phase": 4,
+      "agents": [
+        "orchestrator-agent",
+        "Tony"
+      ],
+      "output": "content-consensus.md"
+    }
+  ]
+}

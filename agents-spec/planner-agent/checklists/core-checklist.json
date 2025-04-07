@@ -1,0 +1,12 @@
+{
+  "title": "planner-agent Core Checklist",
+  "relatedFiles": [
+    "90-task-pending-list.json",
+    "routines"
+  ],
+  "checkItems": [
+    "✅ Transformar objetivos amplos em planos executáveis",
+    "✅ Atribuir subtarefas a agentes responsáveis",
+    "✅ Mapear dependências e cronologia de execução"
+  ]
+}

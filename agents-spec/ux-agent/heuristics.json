@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "if": "user-feedback-contains-frustration",
+      "then": "suggest-task-adjustment"
+    },
+    {
+      "if": "pipeline-log-length > threshold",
+      "then": "summarize-for-user-and-truncate"
+    },
+    {
+      "if": "plan-execution-deviates-from-goal",
+      "then": "raise-alignment-flag"
+    }
+  ]
+}

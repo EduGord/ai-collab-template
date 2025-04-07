@@ -1,0 +1,14 @@
+{
+  "id": "ethics-audit",
+  "entrypoint": "compliance-agent",
+  "steps": [
+    {
+      "agent": "compliance-agent",
+      "action": "evaluate decisions"
+    },
+    {
+      "agent": "governance-agent",
+      "action": "apply compliance flags"
+    }
+  ]
+}

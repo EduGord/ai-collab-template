@@ -1,0 +1,22 @@
+{
+  "id": "conversation-to-pipeline",
+  "entrypoint": "orchestrator-agent",
+  "description": "Detecta padr\u00f5es em conversas e converte em pipelines reutiliz\u00e1veis",
+  "steps": [
+    {
+      "agent": "orchestrator-agent",
+      "action": "detectar padr\u00e3o em conversa"
+    },
+    {
+      "agent": "tooling-agent",
+      "action": "gerar estrutura m\u00ednima de pipeline"
+    },
+    {
+      "agent": "docs-agent",
+      "action": "registrar no template-library"
+    }
+  ],
+  "outputs": [
+    "generated-pipelines/"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "planner-milestone-calendar",
+  "title": "Implement milestone-based task calendar",
+  "description": "Introduce due dates, time-based triggers and planning hooks into task flow.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "milestone",
+    "calendar",
+    "planner"
+  ],
+  "owner": "planner"
+}

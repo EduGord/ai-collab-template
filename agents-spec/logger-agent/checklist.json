@@ -1,0 +1,8 @@
+{
+  "agent": "logger-agent",
+  "structured_log_format": "memory.schema.json",
+  "resumable_pipelines_enabled": true,
+  "retrospective_analysis_hook": true,
+  "log_integrity_checks": true,
+  "linked_to_memory_bank": true
+}

@@ -1,0 +1,7 @@
+pipeline:
+  name: auto-pipeline-feedbacker
+  trigger: [memory_bank.json]
+  steps:
+    - agent: feedbacker
+      on: ["*"]
+    - log: agent_log

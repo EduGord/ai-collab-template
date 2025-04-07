@@ -1,0 +1,55 @@
+{
+  "trigger": "system-start",
+  "steps": [
+    "list all project files",
+    "cross-check routing and memory map coverage",
+    "verify checklist and identity for each agent",
+    "log result in introspection-report.json",
+    "suggest tasks for any inconsistencies"
+  ],
+  "description": "This routine audits the framework itself to ensure runtime behaviors follow defined templates."
+}
+
+<!-- linked feature: memory bank -->
+
+<!-- linked feature: pipelines -->
+
+<!-- linked feature: agents -->
+
+<!-- linked feature: logs -->
+
+<!-- linked feature: checklists -->
+
+<!-- linked feature: routines -->
+
+<!-- linked feature: identities -->
+
+<!-- linked feature: goals -->
+
+<!-- linked feature: specs -->
+
+<!-- linked feature: schemas -->
+
+<!-- linked feature: config -->
+
+<!-- linked feature: diary -->
+
+<!-- linked feature: evaluation -->
+
+<!-- linked feature: feedbacks -->
+
+<!-- linked feature: forecasts -->
+
+<!-- linked feature: governance -->
+
+<!-- linked feature: intents -->
+
+<!-- linked feature: plans -->
+
+<!-- linked feature: simulations -->
+
+<!-- linked feature: tests -->
+
+<!-- linked feature: tooling -->
+
+<!-- linked feature: routing metadata -->

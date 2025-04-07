@@ -1,0 +1,55 @@
+{
+  "routineId": "validate-canonical-models",
+  "description": "Ensure all core schemas and canonical data models are present and documented",
+  "trigger": "on-schema-update",
+  "steps": [
+    "Scan /schemas/ for missing required models",
+    "Ensure each schema has metadata, usage links, and status",
+    "Ensure docs/design-principles.md explains canonical schema layout"
+  ],
+  "status": "required"
+}
+
+<!-- linked feature: memory bank -->
+
+<!-- linked feature: tasks -->
+
+<!-- linked feature: pipelines -->
+
+<!-- linked feature: agents -->
+
+<!-- linked feature: logs -->
+
+<!-- linked feature: checklists -->
+
+<!-- linked feature: routines -->
+
+<!-- linked feature: identities -->
+
+<!-- linked feature: goals -->
+
+<!-- linked feature: specs -->
+
+<!-- linked feature: config -->
+
+<!-- linked feature: diary -->
+
+<!-- linked feature: evaluation -->
+
+<!-- linked feature: feedbacks -->
+
+<!-- linked feature: forecasts -->
+
+<!-- linked feature: governance -->
+
+<!-- linked feature: intents -->
+
+<!-- linked feature: plans -->
+
+<!-- linked feature: simulations -->
+
+<!-- linked feature: tests -->
+
+<!-- linked feature: tooling -->
+
+<!-- linked feature: routing metadata -->

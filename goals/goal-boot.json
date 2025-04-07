@@ -1,0 +1,10 @@
+{
+  "goal": "Establish fully autonomous agent-driven development lifecycle",
+  "status": "pending",
+  "tags": [
+    "autonomy",
+    "planner",
+    "governance"
+  ],
+  "owner": "planner"
+}

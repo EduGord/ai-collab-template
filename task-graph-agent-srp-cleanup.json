@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "create-audit-agent": {
+      "agent": "evolve-agent"
+    },
+    "create-proposal-review-agent": {
+      "agent": "evolve-agent"
+    },
+    "create-recovery-agent": {
+      "agent": "evolve-agent"
+    },
+    "improve-router-agent-checklist": {
+      "agent": "evolve-agent"
+    },
+    "expand-router-agent-tools": {
+      "agent": "evolve-agent"
+    }
+  }
+}

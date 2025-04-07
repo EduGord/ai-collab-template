@@ -1,0 +1,15 @@
+{
+  "goal": "Document all routines and pipelines with markdown summaries",
+  "status": "pending",
+  "tags": [
+    "documentation",
+    "pipelines",
+    "docbot"
+  ],
+  "owner": "docbot"
+}
+<!-- linked feature: memory bank -->
+<!-- linked feature: tasks -->
+<!-- linked feature: agents -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: routines -->

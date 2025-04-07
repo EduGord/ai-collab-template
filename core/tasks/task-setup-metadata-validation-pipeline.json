@@ -1,0 +1,13 @@
+{
+    "id": "setup-metadata-validation-pipeline",
+    "title": "Automate metadata validation across framework",
+    "description": "Establish an automated pipeline to validate consistency and completeness of metadata in files like file-router.json, identities, tasks, routines, and checklists on each commit or scheduled basis.",
+    "priority": "critical",
+    "status": "queued",
+    "tags": [
+        "validation",
+        "automation",
+        "pipeline"
+    ],
+    "owner": "schemaenforcer"
+}

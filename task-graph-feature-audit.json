@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "create-feature-schema": {
+      "agent": "evolve-agent"
+    },
+    "define-feature-manifest": {
+      "agent": "evolve-agent"
+    },
+    "add-feature-audit-routine": {
+      "agent": "audit-agent"
+    },
+    "extend-audit-agent-checklist": {
+      "agent": "audit-agent"
+    }
+  }
+}

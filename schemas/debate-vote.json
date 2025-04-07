@@ -1,0 +1,9 @@
+{
+  "id": "debate-vote",
+  "fields": [
+    "proposalId",
+    "agent",
+    "score",
+    "rationale"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "feedbacker-monthly-summary",
+  "title": "Generate monthly execution feedback summary",
+  "description": "Summarize log-based execution results by agent, task, and time period.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "feedback",
+    "summary"
+  ],
+  "owner": "feedbacker"
+}

@@ -1,0 +1,8 @@
+{
+  "agent": "org-agent",
+  "automatic_classification": true,
+  "semantic_search_enabled": true,
+  "summarization_capable": true,
+  "integration_ready": true,
+  "privacy_enforcement": true
+}

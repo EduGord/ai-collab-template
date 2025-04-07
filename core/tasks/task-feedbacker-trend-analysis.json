@@ -1,0 +1,13 @@
+{
+  "id": "feedbacker-trend-analysis",
+  "title": "Start trend analysis on logs (weekly)",
+  "description": "Aggregate execution log signals and generate weekly reports.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "feedback",
+    "trend",
+    "logs"
+  ],
+  "owner": "feedbacker"
+}

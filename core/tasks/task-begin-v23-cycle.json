@@ -1,0 +1,13 @@
+{
+  "id": "begin-v23-cycle",
+  "title": "Launch planning cycle for v23",
+  "description": "Initialize v23 intents and execution roadmap from recent audits and improvements.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "v23",
+    "roadmap",
+    "next-cycle"
+  ],
+  "owner": "planner"
+}

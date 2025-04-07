@@ -1,0 +1,27 @@
+{
+  "plan_id": "onboarding-agent-bootstrap",
+  "title": "Universal Onboarding Capability",
+  "summary": "Ensure any LLM or human presented with this project is automatically onboarded with core concepts, artifacts, and structure.",
+  "origin": "User prompt to make the system self-onboarding at any entry point",
+  "motivations": [
+    "Ease of contribution",
+    "Reduce onboarding time",
+    "Enable reusable template for future agent ecosystems"
+  ],
+  "targets": [
+    "Automatic onboarding when project context is presented",
+    "LLM agent understands all artifacts",
+    "Human-readable summaries available in memory and docs"
+  ],
+  "agents_involved": [
+    "realtime-llm-assistant",
+    "ux-agent",
+    "logger-agent"
+  ],
+  "linked_files": [
+    "docs/README-ONBOARDING.md",
+    "framework/identities/",
+    "schemas/canonical-agent-model.json",
+    "docs/final_comprehensive_project_summary.md"
+  ]
+}

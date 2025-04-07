@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Memory Entry Schema",
+  "description": "Canonical schema for structured memory entries within the system.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "content",
+    "tags",
+    "origin",
+    "timestamp"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the memory entry."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "reflection",
+        "log",
+        "file-snippet",
+        "directive",
+        "evaluation",
+        "task-status"
+      ],
+      "description": "Defines the source or class of the memory."
+    },
+    "content": {
+      "type": [
+        "string",
+        "object"
+      ],
+      "description": "The actual memory content, can be plain text or structured."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "volatile",
+          "recallable",
+          "long_term",
+          "log_reference",
+          "context_critical",
+          "agent_linked"
+        ]
+      },
+      "description": "Tags that define memory retention, importance, and linkages."
+    },
+    "origin": {
+      "type": "string",
+      "description": "Agent or process that originated this memory."
+    },
+    "linked_to": {
+      "type": "string",
+      "description": "Optional link to a task, agent, or file ID."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time of creation or logging."
+    }
+  }
+}

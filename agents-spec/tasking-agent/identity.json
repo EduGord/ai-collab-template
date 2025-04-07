@@ -1,0 +1,11 @@
+{
+  "name": "tasking-agent",
+  "role": "Assigns tasks to capable agents and logs expectations",
+  "tools": [
+    "agent-capability-map"
+  ],
+  "agentId": "tasking-agent",
+  "capabilities": [],
+  "status": "active",
+  "version": "1.0.0"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "planner-timeline-cycles",
+  "title": "Implement timeline-based execution cycles",
+  "description": "Define scheduled goal targets with expected timelines and retro review triggers.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "timeline",
+    "planner",
+    "schedule"
+  ],
+  "owner": "planner"
+}

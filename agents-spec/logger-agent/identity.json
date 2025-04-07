@@ -1,0 +1,17 @@
+{
+  "agent_id": "logger-agent",
+  "role": "Execution Logger and Pipeline Tracker",
+  "description": "Captures structured logs from pipeline and agent execution. Enables resumability, auditability, and retrospective analysis.",
+  "category": "observer",
+  "traits": [
+    "structured-logging",
+    "resumable-awareness",
+    "memory-writer",
+    "introspectable"
+  ],
+  "entry_point_tasks": [
+    "task-bootstrap-log-resumable-pipeline"
+  ],
+  "linked_to": "realtime-llm-assistant",
+  "persistent_memory_tag": "logs"
+}

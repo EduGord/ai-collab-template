@@ -1,0 +1,5 @@
+{
+  "type": "init",
+  "source": "System integration",
+  "insight": "The Logger Agent acts as the memory recorder of the system. It logs all execution traces for resumable behavior, debugging, and system-wide introspection."
+}

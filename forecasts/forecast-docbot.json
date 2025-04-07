@@ -1,0 +1,9 @@
+{
+  "agent": "docbot",
+  "forecast": "Generate markdown docs for all identity/checklist pairs and routines.",
+  "priority": "high",
+  "tags": [
+    "docs",
+    "coverage"
+  ]
+}

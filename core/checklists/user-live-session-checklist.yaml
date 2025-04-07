@@ -1,0 +1,8 @@
+id: user-live-session-checklist
+description: Checklist for tracking user-driven execution and feedback
+steps:
+  - [ ] Confirm live deployment mode active
+  - [ ] Interact using framework-routed prompts
+  - [ ] Evaluate feature completeness in responses
+  - [ ] Log unmet needs and propose tasks
+  - [ ] Trigger re-evaluation of agent performance

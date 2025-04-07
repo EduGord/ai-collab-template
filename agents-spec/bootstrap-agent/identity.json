@@ -1,0 +1,8 @@
+{
+  "name": "bootstrap-agent",
+  "role": "initial planner and project generator",
+  "agentId": "bootstrap-agent",
+  "capabilities": [],
+  "status": "active",
+  "version": "1.0.0"
+}

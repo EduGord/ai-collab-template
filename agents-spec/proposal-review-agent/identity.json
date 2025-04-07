@@ -1,0 +1,12 @@
+{
+  "name": "proposal-review-agent",
+  "role": "Reviews generated plans for consistency and alignment with original intent",
+  "tools": [
+    "intent-analyzer",
+    "schema-coverage-checker"
+  ],
+  "agentId": "proposal-review-agent",
+  "capabilities": [],
+  "status": "active",
+  "version": "1.0.0"
+}

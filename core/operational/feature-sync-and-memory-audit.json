@@ -1,0 +1,52 @@
+{
+  "routineId": "feature-sync-and-memory-audit",
+  "description": "Ensures all features are documented, memory-bank is up to date, and capabilities are routable",
+  "trigger": "on-version-freeze",
+  "steps": [
+    "Scan /features/ and ensure every capability is mapped to routines/files/agents",
+    "Scan memory-bank and rebuild index.json",
+    "Ensure /docs/system-index.json reflects latest feature-map"
+  ]
+}
+
+<!-- linked feature: memory bank -->
+
+<!-- linked feature: tasks -->
+
+<!-- linked feature: pipelines -->
+
+<!-- linked feature: logs -->
+
+<!-- linked feature: checklists -->
+
+<!-- linked feature: identities -->
+
+<!-- linked feature: goals -->
+
+<!-- linked feature: specs -->
+
+<!-- linked feature: schemas -->
+
+<!-- linked feature: config -->
+
+<!-- linked feature: diary -->
+
+<!-- linked feature: evaluation -->
+
+<!-- linked feature: feedbacks -->
+
+<!-- linked feature: forecasts -->
+
+<!-- linked feature: governance -->
+
+<!-- linked feature: intents -->
+
+<!-- linked feature: plans -->
+
+<!-- linked feature: simulations -->
+
+<!-- linked feature: tests -->
+
+<!-- linked feature: tooling -->
+
+<!-- linked feature: routing metadata -->

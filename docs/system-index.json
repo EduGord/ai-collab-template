@@ -1,0 +1,42 @@
+{
+  "agents": [
+    "bootstrap-agent",
+    "evolve-agent",
+    "planner-agent",
+    "orchestrator-agent",
+    "router-agent",
+    "voting-agent",
+    "meta-agent",
+    "governance-agent"
+  ],
+  "capabilities": [
+    "Goal decomposition & task assignment",
+    "Pipeline execution & orchestration",
+    "Checklist-based validation",
+    "Lifecycle tagging & trust modeling",
+    "Retrospective plan evolution",
+    "Sandboxed simulations",
+    "Memory indexing & routing",
+    "Agent-to-agent messaging",
+    "Multi-agent debate & arbitration",
+    "Cross-project memory federation"
+  ],
+  "activeRoutines": [
+    "plan-retrospective",
+    "self-healing-memory-sync",
+    "system-evolve-cycle",
+    "debate",
+    "validate-project-structure",
+    "recovery-controller",
+    "upgrade-pipeline"
+  ],
+  "simulationLogs": [
+    "retrospective-bootstrap.json",
+    "debate-vote-001.json",
+    "planner-simulation-001.json",
+    "upgrade-pipeline-001.json"
+  ],
+  "schemas": [
+    "schemas/canonical-agent-model.json"
+  ]
+}

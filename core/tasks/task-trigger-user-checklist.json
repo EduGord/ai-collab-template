@@ -1,0 +1,13 @@
+{
+  "id": "trigger-user-checklist",
+  "title": "Run the human-user live session checklist",
+  "description": "Trigger checklist to validate live session structure, agent alignment, and readiness for continuous ops.",
+  "priority": "critical",
+  "status": "queued",
+  "tags": [
+    "checklist",
+    "live",
+    "human-user"
+  ],
+  "owner": "llm-assistant"
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "agent-evolution-score",
+  "fields": {
+    "agentId": "string",
+    "timestamp": "datetime",
+    "score": "float",
+    "confidence": "float",
+    "criteria": [
+      "string"
+    ],
+    "reflections": [
+      "string"
+    ]
+  },
+  "status": "draft"
+}

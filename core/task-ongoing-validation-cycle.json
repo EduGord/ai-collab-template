@@ -1,0 +1,14 @@
+{
+  "id": "ongoing-validation-cycle",
+  "title": "Execute pending tasks aligned with agent specialization",
+  "description": "Read all memory tasks and allow agents to assume identity, filter by their capabilities and execute in order, registering output in logs and memory.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "execution",
+    "agents",
+    "logs",
+    "task-routing"
+  ],
+  "owner": "planner"
+}

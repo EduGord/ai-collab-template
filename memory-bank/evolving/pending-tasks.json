@@ -1,0 +1,997 @@
+{
+  "version": "1.0.0",
+  "tasks": [
+    {
+      "id": "validate-frontend-ux-mapping",
+      "description": "Confirmar se campos com requiredIf e visibleIf est\u00e3o aparecendo na etapa correta do wizard",
+      "priority": "high",
+      "category": "frontend",
+      "status": "done \u2705 (schema-validated)",
+      "completedAt": "2025-03-29T08:06:43.251433Z"
+    },
+    {
+      "id": "kpi-evaluation-logging",
+      "description": "Implementar estrutura de log para decis\u00f5es dos agentes de treino e valida\u00e7\u00e3o",
+      "priority": "medium",
+      "category": "orchestration",
+      "status": "done \u2705 (schema-validated)",
+      "completedAt": "2025-03-29T08:08:45.742009Z"
+    },
+    {
+      "id": "test-submission-edge-cases",
+      "description": "Rodar submiss\u00f5es reais com dados extremos e validar regras de seguran\u00e7a",
+      "priority": "high",
+      "category": "validation",
+      "status": "done \u2705 (schema-validated)",
+      "completedAt": "2025-03-29T08:06:43.251444Z"
+    },
+    {
+      "id": "agent-readme-missing",
+      "description": "Criar README.md explicativo em cada pasta de agente com escopo e exemplos de uso",
+      "priority": "low",
+      "category": "documentation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "review-routines-and-pending-tasks",
+      "description": "Revisar rotineiramente os arquivos project-todo.json e project-routines.json para garantir que nada est\u00e1 esquecido ou desatualizado",
+      "priority": "high",
+      "category": "orchestration",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "migrate-to-hybrid-memory-bank",
+      "description": "Adotar estrutura h\u00edbrida de documenta\u00e7\u00e3o persistente inspirada no Cursor Memory Bank para melhorar recupera\u00e7\u00e3o de contexto e onboarding de agentes.",
+      "priority": "high",
+      "category": "architecture",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "create-memory-bank-markdown-files",
+      "description": "Criar arquivos Markdown principais (projectBrief.md, activeContext.md, techContext.md, systemPatterns.md, etc.) com conte\u00fado inicial baseado nos arquivos .json existentes.",
+      "priority": "high",
+      "category": "documentation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "cross-validate-checklists-after-migration",
+      "description": "Revalidar todas as checklists dos agentes ap\u00f3s cria\u00e7\u00e3o dos arquivos de mem\u00f3ria persistente para garantir consist\u00eancia e cobertura.",
+      "priority": "high",
+      "category": "validation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "review-dev-agent-architecture-post-migration",
+      "description": "Assumir papel de dev-agent e revisar se arquitetura e organiza\u00e7\u00e3o do projeto continuam otimizadas ap\u00f3s ado\u00e7\u00e3o da estrutura h\u00edbrida.",
+      "priority": "high",
+      "category": "architecture",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "run-identity-checks-for-all-agents",
+      "description": "Assumir cada identidade dos agentes (training, frontend, dev, orchestrator) e validar se seu escopo est\u00e1 adequado, atualizado e completo ap\u00f3s a migra\u00e7\u00e3o.",
+      "priority": "medium",
+      "category": "agents",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "review-routines-and-todo-post-migration",
+      "description": "Revisar se todas as rotinas e tarefas pendentes do projeto est\u00e3o atualizadas e refletem a nova estrutura h\u00edbrida.",
+      "priority": "medium",
+      "category": "orchestration",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "document-memory-bank-usage-guidelines",
+      "description": "Criar instru\u00e7\u00f5es claras para humanos e IAs explicando como utilizar os novos arquivos Markdown da mem\u00f3ria persistente no contexto do projeto.",
+      "priority": "high",
+      "category": "documentation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "rename-core-jsons-for-clarity",
+      "description": "Renomear arquivos .json que guiam agentes (como ia-context.json) para nomes mais descritivos e com peso sem\u00e2ntico, ex: agents-map.json, routing-config.json, etc.",
+      "priority": "low",
+      "category": "refactor",
+      "status": "done \u2705 (schema-validated)",
+      "completedAt": "2025-03-29T08:55:06.361698Z"
+    },
+    {
+      "id": "plan-memory-bank-hybrid-migration",
+      "description": "Planejar ado\u00e7\u00e3o da arquitetura h\u00edbrida: manter JSONs para automa\u00e7\u00e3o e valida\u00e7\u00e3o r\u00edgida, e introduzir arquivos Markdown para persist\u00eancia de contexto e documenta\u00e7\u00e3o humana.",
+      "priority": "high",
+      "category": "architecture",
+      "status": "done \u2705 (schema-validated)",
+      "completedAt": "2025-03-29T08:55:06.361710Z"
+    },
+    {
+      "id": "create-memory-bank-docs",
+      "description": "Criar arquivos Markdown (projectBrief, productContext, activeContext, systemPatterns, techContext, progress) com base na estrutura do Cursor Memory Bank e integr\u00e1-los \u00e0 estrutura atual.",
+      "priority": "high",
+      "category": "documentation",
+      "status": "done \u2705 (schema-validated)",
+      "completedAt": "2025-03-29T08:55:06.361713Z"
+    },
+    {
+      "id": "validate-checklists-vs-memory-bank",
+      "description": "Verificar se os novos arquivos Markdown est\u00e3o corretamente mapeados nos checklists e rotinas.",
+      "priority": "medium",
+      "category": "validation",
+      "status": "done \u2705 (schema-validated)",
+      "completedAt": "2025-03-29T08:55:06.361715Z"
+    },
+    {
+      "id": "dev-agent-review-post-migration",
+      "description": "Assumir identidade do agente de desenvolvimento para revisar toda a estrutura do projeto ap\u00f3s ado\u00e7\u00e3o h\u00edbrida.",
+      "priority": "high",
+      "category": "audit",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "agent-identity-full-check",
+      "description": "Assumir identidade de todos os agentes (training, dev, frontend, orchestrator) e verificar se todos est\u00e3o com arquivos, escopo e comportamento esperados.",
+      "priority": "high",
+      "category": "identity-check",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "revisit-routines-and-dependencies",
+      "description": "Revisar se todas as rotinas e depend\u00eancias est\u00e3o atualizadas e compat\u00edveis com a nova estrutura h\u00edbrida.",
+      "priority": "high",
+      "category": "audit",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "document-memory-bank-usage",
+      "description": "Criar instru\u00e7\u00f5es claras sobre a nova estrutura do memory bank para humanos e IAs, com caminhos, exemplos e como evoluir esses documentos.",
+      "priority": "medium",
+      "category": "documentation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "create-training-kpi-core-checklist",
+      "description": "Criar checklist principal de valida\u00e7\u00e3o para o training-agent cobrindo todas as regras e arquivos de contexto",
+      "priority": "high",
+      "category": "checklist",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "complete-identity-dev-agent",
+      "description": "Revisar e completar identidade do agente dev-agent \u2014 campos ausentes: coreResponsibilities, inputContract, outputContract, collaboratesWith, tone, contextResponsibilities, enabledByDefault",
+      "priority": "high",
+      "category": "identity",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "complete-identity-frontend-agent",
+      "description": "Revisar e completar identidade do agente frontend-agent \u2014 campos ausentes: coreResponsibilities, inputContract, outputContract, collaboratesWith, tone, contextResponsibilities, enabledByDefault",
+      "priority": "high",
+      "category": "identity",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "complete-identity-training-specialist",
+      "description": "Revisar e completar identidade do agente training-specialist \u2014 campos ausentes: coreResponsibilities, inputContract, outputContract, collaboratesWith, tone, contextResponsibilities, enabledByDefault",
+      "priority": "high",
+      "category": "identity",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "review-routines-after-architecture-change",
+      "description": "Revisar se novas rotinas devem ser adicionadas ap\u00f3s mudan\u00e7as recentes (Memory Bank, reformula\u00e7\u00e3o de identidade, checklists)",
+      "priority": "medium",
+      "category": "routines",
+      "status": "done \u2705 (schema-validated)",
+      "completedAt": "2025-03-29T08:55:06.361720Z"
+    },
+    {
+      "id": "expand-memory-bank-with-rich-context",
+      "description": "Expandir o Memory Bank com mais hist\u00f3rico do projeto, instru\u00e7\u00f5es de navega\u00e7\u00e3o para IAs, e se\u00e7\u00f5es fixas/vari\u00e1veis para persist\u00eancia contextual eficiente.",
+      "priority": "high",
+      "category": "documentation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "review-project-structure-and-routing",
+      "description": "Revisar \u00e1rvore de diret\u00f3rios e organiza\u00e7\u00e3o de arquivos. Separar schemas, specs e implementa\u00e7\u00f5es; reavaliar roteamento de IA e agrupamentos l\u00f3gicos.",
+      "priority": "medium",
+      "category": "architecture",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "create-python-utils-for-agents",
+      "description": "Agrupar l\u00f3gicas \u00fateis utilizadas ao longo do projeto em scripts Python reutiliz\u00e1veis, como validadores, normalizadores, leitores de contexto, etc.",
+      "priority": "medium",
+      "category": "tools",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "document-memory-bank-usage-for-agents",
+      "description": "Criar instru\u00e7\u00f5es nos arquivos de identidade dos agentes e no core map sobre como utilizar e se beneficiar dos arquivos Markdown do Memory Bank.",
+      "priority": "high",
+      "category": "documentation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "review-identities-after-agent-expansion",
+      "description": "Revisar todas as identidades ap\u00f3s segrega\u00e7\u00e3o e adi\u00e7\u00e3o de novos agentes (docs-agent, support-agent). Garantir que cada um est\u00e1 com responsabilidades bem definidas e sem sobreposi\u00e7\u00e3o.",
+      "priority": "high",
+      "category": "identity-check",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "create-new-specialized-agents",
+      "description": "Criar diret\u00f3rios, identidades e checklists para os agentes: governance-agent, tooling-agent, ux-review-agent, compliance-agent, planner-agent, tasking-agent.",
+      "priority": "high",
+      "category": "identity-structure",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "assign-agent-responsibilities",
+      "description": "Definir e documentar claramente as responsabilidades exclusivas de cada novo agente e como interagem entre si.",
+      "priority": "high",
+      "category": "role-definition",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "update-memory-bank-with-new-agent-network",
+      "description": "Atualizar os arquivos do Memory Bank com o novo organograma de agentes e suas responsabilidades.",
+      "priority": "high",
+      "category": "documentation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "revalidate-agent-architecture-integrity",
+      "description": "Revalidar se todos os agentes existentes e novos possuem identidades, checklists e est\u00e3o corretamente posicionados na estrutura.",
+      "priority": "high",
+      "category": "validation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "validate-new-agent-identities",
+      "description": "Garantir que cada novo agente tenha sua identidade bem definida conforme recomenda\u00e7\u00e3o dos agentes existentes.",
+      "priority": "high",
+      "category": "identity-validation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "generate-missing-checklists-for-agents",
+      "description": "Verificar se todos os agentes possuem checklists abrangentes e atualizados, e gerar os que estiverem faltando.",
+      "priority": "high",
+      "category": "checklist-validation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "verify-and-extend-project-routines",
+      "description": "Revisar todas as rotinas do projeto e garantir que as novas funcionalidades e agentes estejam contemplados.",
+      "priority": "high",
+      "category": "routine-review",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "discuss-agent-polling-and-protocol-architecture",
+      "description": "Analisar viabilidade e valor de criar um agente especializado em polling entre agentes e/ou definir um protocolo can\u00f4nico de comunica\u00e7\u00e3o entre agentes.",
+      "priority": "medium",
+      "category": "agent-architecture",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "register-llm-session-routing-routine",
+      "description": "Criar rotina que garante que sempre que o usu\u00e1rio interagir com uma LLM generalista, os agentes planner, tasking e docs sejam ativados para gerar tarefas, enriquecer mem\u00f3ria e manter consist\u00eancia.",
+      "priority": "high",
+      "category": "llm-integration",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "auto-detect-tooling-opportunities-from-llm",
+      "description": "Criar mecanismo que permita ao tooling-agent identificar padr\u00f5es durante intera\u00e7\u00f5es com LLM e sugerir scripts utilit\u00e1rios reutiliz\u00e1veis.",
+      "priority": "high",
+      "category": "tooling",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "suggest-checklist-and-identity-updates-during-session",
+      "description": "Definir rotina para que agentes possam detectar necessidades de atualizar identidades, checklists e rotinas durante intera\u00e7\u00f5es e sugerir automaticamente revis\u00f5es.",
+      "priority": "high",
+      "category": "governance",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "review-spec-and-migrated-files-by-agents",
+      "description": "Cada agente deve revisar os arquivos restantes da pasta /spec e os migrados para verificar se est\u00e3o nos locais corretos, com conte\u00fado adequado e atualiza\u00e7\u00e3o de responsabilidade clara.",
+      "priority": "high",
+      "category": "agents",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "review-schemas-and-propose-improvements",
+      "description": "Cada agente deve revisar os arquivos de schemas (.json) do projeto e identificar melhorias estruturais, atributos faltantes ou refatora\u00e7\u00f5es.",
+      "priority": "high",
+      "category": "schemas",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "cross-agent-identity-and-checklist-review",
+      "description": "Cada agente deve revisar as identidades e checklists dos outros agentes, buscando lacunas, duplica\u00e7\u00f5es ou oportunidades de melhoria.",
+      "priority": "high",
+      "category": "governance",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "cross-review-forum-coordination",
+      "description": "Orchestrator deve conduzir f\u00f3rum entre agentes com base nas autocr\u00edticas e revis\u00f5es cruzadas. Planner estrutura, dev-agent otimiza e governance valida.",
+      "priority": "high",
+      "category": "orchestration",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "include-cross-review-in-routines",
+      "description": "Adicionar como rotina peri\u00f3dica a valida\u00e7\u00e3o cruzada entre identidades, checklists, rotinas e responsabilidades dos agentes.",
+      "priority": "medium",
+      "category": "routines",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "promote-strategic-discussions-between-agents",
+      "description": "Orchestrator deve organizar discuss\u00f5es entre os agentes sobre o estado atual do projeto para propor melhorias t\u00e9cnicas, estruturais e de documenta\u00e7\u00e3o.",
+      "priority": "high",
+      "category": "orchestration",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "review-existing-schemas-with-agents",
+      "description": "Todos os agentes devem revisar os arquivos de schema existentes (.json) e validar se s\u00e3o completos ou se precisam de extens\u00e3o/refatora\u00e7\u00e3o.",
+      "priority": "high",
+      "category": "schemas",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "validate-agent-files-against-schemas",
+      "description": "Validar que todos os arquivos dos agentes (identity, checklists, etc) seguem os schemas definidos corretamente.",
+      "priority": "high",
+      "category": "validation",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "agent-priority-suggestions-for-evolution",
+      "description": "Cada agente deve propor suas principais sugest\u00f5es de evolu\u00e7\u00e3o para o projeto, com foco em qualidade, manuten\u00e7\u00e3o e extensibilidade.",
+      "priority": "high",
+      "category": "planning",
+      "status": "done \u2705 (schema-validated)"
+    },
+    {
+      "id": "execute-architecture-review-pipeline",
+      "description": "Executar a pipeline de revis\u00e3o arquitetural com orquestra\u00e7\u00e3o completa",
+      "priority": "high",
+      "category": "orchestration",
+      "status": "done \u2705 (executed-by-tony)",
+      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "completedAt": "2025-03-29T14:48:49.044351Z"
+    },
+    {
+      "id": "register-validate-all-agents-pipeline",
+      "description": "Criar e registrar a rotina validate-all-agents com execu\u00e7\u00e3o autom\u00e1tica via automator-agent",
+      "priority": "medium",
+      "category": "automation",
+      "status": "done \u2705 (executed-by-tony)",
+      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "completedAt": "2025-03-29T15:01:32.380294Z"
+    },
+    {
+      "id": "execute-register-llm-session-routing-routine",
+      "description": "Executar rotina register-llm-session-routing-routine assumindo identidade de orchestrator-agent",
+      "priority": "high",
+      "category": "execution",
+      "status": "done \u2705 (executed-by-agent)",
+      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "executedBy": "orchestrator-agent",
+      "completedAt": "2025-03-29T15:04:24.635496Z"
+    },
+    {
+      "id": "execute-auto-detect-tooling-opportunities-from-llm",
+      "description": "Executar rotina auto-detect-tooling-opportunities-from-llm assumindo identidade de tooling-agent",
+      "priority": "high",
+      "category": "execution",
+      "status": "done \u2705 (executed-by-agent)",
+      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "executedBy": "tooling-agent",
+      "completedAt": "2025-03-29T15:04:24.635512Z"
+    },
+    {
+      "id": "execute-suggest-checklist-and-identity-updates-during-session",
+      "description": "Executar rotina suggest-checklist-and-identity-updates-during-session assumindo identidade de governance-agent",
+      "priority": "high",
+      "category": "execution",
+      "status": "done \u2705 (executed-by-agent)",
+      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "executedBy": "governance-agent",
+      "completedAt": "2025-03-29T15:04:24.635518Z"
+    },
+    {
+      "id": "execute-ui-review-pipeline",
+      "description": "Executar rotina ui-review-pipeline assumindo identidade de ux-review-agent",
+      "priority": "high",
+      "category": "execution",
+      "status": "done \u2705 (executed-by-agent)",
+      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "executedBy": "ux-review-agent",
+      "completedAt": "2025-03-29T15:04:24.635526Z"
+    },
+    {
+      "id": "execute-safe-automation-pipeline",
+      "description": "Executar rotina safe-automation-pipeline assumindo identidade de automator-agent",
+      "priority": "high",
+      "category": "execution",
+      "status": "done \u2705 (executed-by-agent)",
+      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "executedBy": "automator-agent",
+      "completedAt": "2025-03-29T15:04:24.635529Z"
+    },
+    {
+      "id": "execute-identity-governance-audit",
+      "description": "Executar rotina identity-governance-audit assumindo identidade de governance-agent",
+      "priority": "high",
+      "category": "execution",
+      "status": "done \u2705 (executed-by-agent)",
+      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "executedBy": "governance-agent",
+      "completedAt": "2025-03-29T15:04:24.635532Z"
+    },
+    {
+      "id": "execute-generate-plan-feedback-log",
+      "description": "Executar rotina generate-plan-feedback-log assumindo identidade de planner-agent",
+      "priority": "high",
+      "category": "execution",
+      "status": "done \u2705 (executed-by-agent)",
+      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "executedBy": "planner-agent",
+      "completedAt": "2025-03-29T15:04:24.635534Z"
+    },
+    {
+      "id": "execute-context-holder-migration-plan-v1",
+      "description": "Executar plano incremental de evolu\u00e7\u00e3o do memory-bank para contexto estruturado e distribu\u00eddo entre agentes",
+      "priority": "high",
+      "category": "architecture",
+      "status": "done \u2705 (executed-by-tony)",
+      "createdAt": "2025-03-29T15:14:56.924561Z",
+      "executedBy": "orchestrator-agent",
+      "completedAt": "2025-03-29T15:14:56.924568Z"
+    },
+    {
+      "id": "context-plan-task-44b86983",
+      "description": "Criar script snapshot-memory-bank.py",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "tooling-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409526Z"
+    },
+    {
+      "id": "context-plan-task-c50e6307",
+      "description": "Criar diret\u00f3rios archive/, logs/context/, deprecated/",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "dev-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409537Z"
+    },
+    {
+      "id": "context-plan-task-4daaf1b8",
+      "description": "Criar script validator-md-structure.py",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "governance-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409540Z"
+    },
+    {
+      "id": "context-plan-task-8da29b6f",
+      "description": "Atualizar arquivos fixos do contexto (projectBrief.md, techContext.md, etc)",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "docs-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409543Z"
+    },
+    {
+      "id": "context-plan-task-4e11f2ff",
+      "description": "Atualizar systemPatterns.md e guidelines.md",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "governance-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409545Z"
+    },
+    {
+      "id": "context-plan-task-bfd67ed9",
+      "description": "Atualizar spec-index.md com links atualizados",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "dev-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409547Z"
+    },
+    {
+      "id": "context-plan-task-fd3da9b0",
+      "description": "Criar e manter pending-automation.md",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "automator-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409550Z"
+    },
+    {
+      "id": "context-plan-task-c9f32ddf",
+      "description": "Criar e manter plans-log.md",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "planner-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409552Z"
+    },
+    {
+      "id": "context-plan-task-ff104755",
+      "description": "Criar e manter intent-patterns.md",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "intent-parser-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409554Z"
+    },
+    {
+      "id": "context-plan-task-e5654f97",
+      "description": "Criar e manter weekly.md",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "narrator-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409556Z"
+    },
+    {
+      "id": "context-plan-task-fac430ae",
+      "description": "Automatizar atualiza\u00e7\u00f5es do activeContext.md",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "automator-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409558Z"
+    },
+    {
+      "id": "context-plan-task-9cef8581",
+      "description": "Consolidar fatos em progress.md",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "docs-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409560Z"
+    },
+    {
+      "id": "context-plan-task-89e77641",
+      "description": "Inserir sum\u00e1rios em progress.md",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "narrator-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409563Z"
+    },
+    {
+      "id": "context-plan-task-fd8f2f74",
+      "description": "Gerar script sync-json-to-md.py",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "tooling-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409564Z"
+    },
+    {
+      "id": "context-plan-task-f3c13c0e",
+      "description": "Executar valida\u00e7\u00e3o final dos arquivos .md",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "governance-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409567Z"
+    },
+    {
+      "id": "context-plan-task-c38ee5a7",
+      "description": "Congelar vers\u00e3o v1 do novo memory-bank",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "orchestrator-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409568Z"
+    },
+    {
+      "id": "context-plan-task-dcc77f71",
+      "description": "Atualizar changelog e README t\u00e9cnico",
+      "priority": "high",
+      "category": "context",
+      "status": "done \u2705 (executed-by-agent)",
+      "assignedTo": "dev-agent",
+      "createdAt": "2025-03-29T15:15:11.302787Z",
+      "completedAt": "2025-03-29T15:25:20.409570Z"
+    },
+    {
+      "id": "task-603a1d0a",
+      "description": "Criar e registrar a rotina routine-gap-detection-pipeline.json",
+      "priority": "high",
+      "category": "architecture",
+      "assignedTo": "planner-agent",
+      "status": "done \u2705 (executed-by-tony)",
+      "createdAt": "2025-03-29T15:39:08.324680Z",
+      "completedAt": "2025-03-29T15:39:08.324680Z"
+    },
+    {
+      "id": "task-5b05e6a6",
+      "description": "Criar e registrar a rotina pipeline-template-library.json",
+      "priority": "high",
+      "category": "architecture",
+      "assignedTo": "docs-agent",
+      "status": "done \u2705 (executed-by-tony)",
+      "createdAt": "2025-03-29T15:39:08.324680Z",
+      "completedAt": "2025-03-29T15:39:08.324680Z"
+    },
+    {
+      "id": "task-49895b89",
+      "description": "Criar e registrar a rotina conversation-to-pipeline.json",
+      "priority": "high",
+      "category": "architecture",
+      "assignedTo": "orchestrator-agent",
+      "status": "done \u2705 (executed-by-tony)",
+      "createdAt": "2025-03-29T15:39:08.324680Z",
+      "completedAt": "2025-03-29T15:39:08.324680Z"
+    },
+    {
+      "id": "task-f4969ec9",
+      "description": "Criar e registrar a rotina fallback-resolution-pipeline.json",
+      "priority": "high",
+      "category": "architecture",
+      "assignedTo": "governance-agent",
+      "status": "done \u2705 (executed-by-tony)",
+      "createdAt": "2025-03-29T15:39:08.324680Z",
+      "completedAt": "2025-03-29T15:39:08.324680Z"
+    },
+    {
+      "id": "task-b70e43ac",
+      "description": "Criar e registrar a rotina autoindex-pipeline.json",
+      "priority": "high",
+      "category": "architecture",
+      "assignedTo": "tooling-agent",
+      "status": "done \u2705 (executed-by-tony)",
+      "createdAt": "2025-03-29T15:39:08.324680Z",
+      "completedAt": "2025-03-29T15:39:08.324680Z"
+    },
+    {
+      "taskId": "DOC-TUTORIALS-001",
+      "title": "Generate or Fix Agent Execution + Assumption Tutorials",
+      "status": "pending",
+      "category": "documentation"
+    },
+    {
+      "taskId": "GOV-UPGRADE-001",
+      "title": "Add Governance Routine for Upgrade Validation and Rollback Logic",
+      "status": "pending",
+      "category": "governance"
+    },
+    {
+      "taskId": "DOC-ONBOARDING-001",
+      "title": "Generate Onboarding + Tutorial Documentation Templates",
+      "status": "pending",
+      "category": "documentation"
+    },
+    {
+      "taskId": "GOV-RESILIENCE-001",
+      "title": "Add Resilience-Focused Governance Routines (Rollback, Re-entry, Recovery)",
+      "status": "pending",
+      "category": "governance"
+    },
+    {
+      "taskId": "PHASE-021",
+      "title": "Begin Phase 21 \u2013 Auto-Versioning, Changelog Diffing, and Rollback Framework",
+      "status": "pending",
+      "category": "evolution"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-001",
+      "title": "[GROUP-REVIEW-1] \u2192 Unify checklist schema across agents",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "bootstrap-agent",
+        "evolve-agent",
+        "router-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-1"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-002",
+      "title": "[GROUP-REVIEW-1] \u2192 Ensure all agents link at least one schema, routine, and plan",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "bootstrap-agent",
+        "evolve-agent",
+        "router-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-1"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-003",
+      "title": "[GROUP-REVIEW-1] \u2192 Create a shared agent-tool manifest or capability registry",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "bootstrap-agent",
+        "evolve-agent",
+        "router-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-1"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-004",
+      "title": "[GROUP-REVIEW-1] \u2192 Improve agent onboarding references in `/docs`",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "bootstrap-agent",
+        "evolve-agent",
+        "router-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-1"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-005",
+      "title": "[GROUP-REVIEW-1] \u2192 Add agent-to-agent protocol specs or comms simulation routines",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "bootstrap-agent",
+        "evolve-agent",
+        "router-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-1"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-006",
+      "title": "[GROUP-REVIEW-2] \u2192 Unify checklist schema across agents",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "planner-agent",
+        "orchestrator-agent",
+        "tasking-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-2"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-007",
+      "title": "[GROUP-REVIEW-2] \u2192 Ensure all agents link at least one schema, routine, and plan",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "planner-agent",
+        "orchestrator-agent",
+        "tasking-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-2"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-008",
+      "title": "[GROUP-REVIEW-2] \u2192 Create a shared agent-tool manifest or capability registry",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "planner-agent",
+        "orchestrator-agent",
+        "tasking-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-2"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-009",
+      "title": "[GROUP-REVIEW-2] \u2192 Improve agent onboarding references in `/docs`",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "planner-agent",
+        "orchestrator-agent",
+        "tasking-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-2"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-010",
+      "title": "[GROUP-REVIEW-2] \u2192 Add agent-to-agent protocol specs or comms simulation routines",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "planner-agent",
+        "orchestrator-agent",
+        "tasking-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-2"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-011",
+      "title": "[GROUP-REVIEW-3] \u2192 Unify checklist schema across agents",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "audit-agent",
+        "proposal-review-agent",
+        "recovery-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-3"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-012",
+      "title": "[GROUP-REVIEW-3] \u2192 Ensure all agents link at least one schema, routine, and plan",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "audit-agent",
+        "proposal-review-agent",
+        "recovery-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-3"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-013",
+      "title": "[GROUP-REVIEW-3] \u2192 Create a shared agent-tool manifest or capability registry",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "audit-agent",
+        "proposal-review-agent",
+        "recovery-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-3"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-014",
+      "title": "[GROUP-REVIEW-3] \u2192 Improve agent onboarding references in `/docs`",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "audit-agent",
+        "proposal-review-agent",
+        "recovery-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-3"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-015",
+      "title": "[GROUP-REVIEW-3] \u2192 Add agent-to-agent protocol specs or comms simulation routines",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "audit-agent",
+        "proposal-review-agent",
+        "recovery-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-3"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-016",
+      "title": "[GROUP-REVIEW-4] \u2192 Unify checklist schema across agents",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "voting-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-4"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-017",
+      "title": "[GROUP-REVIEW-4] \u2192 Ensure all agents link at least one schema, routine, and plan",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "voting-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-4"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-018",
+      "title": "[GROUP-REVIEW-4] \u2192 Create a shared agent-tool manifest or capability registry",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "voting-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-4"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-019",
+      "title": "[GROUP-REVIEW-4] \u2192 Improve agent onboarding references in `/docs`",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "voting-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-4"
+    },
+    {
+      "taskId": "PLNR-GROUP-TASK-020",
+      "title": "[GROUP-REVIEW-4] \u2192 Add agent-to-agent protocol specs or comms simulation routines",
+      "status": "pending",
+      "category": "planner-expansion",
+      "assignedAgent": "planner-agent",
+      "sourceGroup": [
+        "voting-agent"
+      ],
+      "parentTask": "GROUP-REVIEW-4"
+    },
+    {
+      "taskId": "PHASE-022",
+      "title": "Define Canonical Pipeline Model and Index",
+      "status": "pending",
+      "category": "schema-design"
+    },
+    {
+      "taskId": "PHASE-023",
+      "title": "Implement Agent Communication Protocol and Message Contracts",
+      "status": "pending",
+      "category": "agent-architecture"
+    },
+    {
+      "taskId": "PHASE-024",
+      "title": "Enable Execution Replay and Patch Memory/State Hooks",
+      "status": "pending",
+      "category": "evaluation-engine"
+    },
+    {
+      "taskId": "PHASE-025",
+      "title": "Define Cross-Agent Memory Access Model and Bridge",
+      "status": "pending",
+      "category": "memory-management"
+    },
+    {
+      "taskId": "PHASE-026",
+      "title": "Create AI Entry Protocol for Role Awareness and Re-entry",
+      "status": "pending",
+      "category": "llm-entrypoint"
+    },
+    {
+      "taskId": "PHASE-027",
+      "title": "Design and Implement Recovery Mode and State Contract",
+      "status": "pending",
+      "category": "resilience"
+    }
+  ]
+}

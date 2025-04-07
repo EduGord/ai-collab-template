@@ -1,0 +1,13 @@
+{
+  "id": "feedbacker-anomaly-detection",
+  "title": "Detect anomalies in execution logs",
+  "description": "Scan logs over time and surface unexpected task or agent behaviors.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "feedback",
+    "anomaly",
+    "logs"
+  ],
+  "owner": "feedbacker"
+}

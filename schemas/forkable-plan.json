@@ -1,0 +1,25 @@
+{
+  "schema": "forkable-plan",
+  "fields": [
+    "planId",
+    "source",
+    "forkReason",
+    "owner",
+    "tasks",
+    "timeline",
+    "parentPlan"
+  ],
+  "example": {
+    "planId": "G1-FORK-01",
+    "source": "plans/agent-collab-plan.json",
+    "forkReason": "New performance tuning track",
+    "owner": "human",
+    "tasks": [
+      "benchmark",
+      "compare",
+      "refactor"
+    ],
+    "timeline": "2025-Q2",
+    "parentPlan": "G1"
+  }
+}

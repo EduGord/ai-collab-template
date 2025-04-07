@@ -1,0 +1,18 @@
+{
+  "plan": "bootstrap",
+  "issuesFound": [
+    "tasks.json missing during execution",
+    "checklists were incomplete for planner-agent"
+  ],
+  "proposedActions": [
+    {
+      "type": "generate-missing-tasks",
+      "target": "plans/bootstrap/tasks.json"
+    },
+    {
+      "type": "enhance-checklist",
+      "target": "agents-spec/planner-agent/checklist.json"
+    }
+  ],
+  "triggeredBy": "routines/evaluation/plan-retrospective.json"
+}

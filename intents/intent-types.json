@@ -1,0 +1,8 @@
+{
+  "intents": [
+    "initialize-template",
+    "generate-agent",
+    "create-schema",
+    "execute-pipeline"
+  ]
+}

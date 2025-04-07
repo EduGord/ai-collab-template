@@ -1,0 +1,13 @@
+{
+  "id": "task-tbd",
+  "title": "Recovered task: task-tbd",
+  "description": "TBD",
+  "priority": "medium",
+  "status": "pending",
+  "tags": [
+    "task",
+    "agent",
+    "llm"
+  ],
+  "owner": "unassigned"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "feedback-loop-from-user",
+  "title": "Run live deployment feedback routine",
+  "description": "Use feedbacker to simulate summary of issues or needs based on human-user\u2019s live session logs.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "feedback",
+    "user",
+    "live-mode"
+  ],
+  "owner": "feedbacker"
+}

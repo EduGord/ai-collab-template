@@ -1,0 +1,14 @@
+{
+  "id": "agent-identity-review",
+  "title": "Assume each agent identity and validate its ecosystem",
+  "description": "Agents should assume their identities, check their checklist, pipelines, links, logs, and documentation and register improvements as new tasks.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "agents",
+    "identity",
+    "validation",
+    "resilience"
+  ],
+  "owner": "planner"
+}

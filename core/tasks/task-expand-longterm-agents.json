@@ -1,0 +1,13 @@
+{
+  "id": "expand-longterm-agents",
+  "title": "Add new agents for long-term governance, simulation, and scaling",
+  "description": "Define agents like `governor`, `resiliencebot`, `simulant`, and related checklists/pipelines.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "agents",
+    "governance",
+    "scaling"
+  ],
+  "owner": "planner"
+}

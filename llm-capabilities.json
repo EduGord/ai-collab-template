@@ -1,0 +1,19 @@
+{
+  "model": "gpt-4",
+  "features": [
+    "code-exec",
+    "file-read",
+    "context-aware"
+  ],
+  "limits": {
+    "contextWindow": 128000
+  },
+  "description": "TBD",
+  "priority": "medium",
+  "version": "v1.0",
+  "tags": [
+    "task",
+    "agent",
+    "llm"
+  ]
+}

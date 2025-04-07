@@ -1,0 +1,7 @@
+pipeline:
+  name: auto-pipeline-planner
+  trigger: [memory_bank.json]
+  steps:
+    - agent: planner
+      on: ["*"]
+    - log: agent_log

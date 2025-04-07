@@ -1,0 +1,25 @@
+{
+  "id": "context-router-entry",
+  "description": "Schema for a single context router rule",
+  "fields": [
+    {
+      "name": "pattern",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "context",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "reason",
+      "type": "string",
+      "required": false
+    }
+  ]
+}
+
+<!-- linked feature: memory bank -->
+<!-- linked feature: pipelines -->
+<!-- linked feature: agents -->

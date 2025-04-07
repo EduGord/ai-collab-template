@@ -1,0 +1,24 @@
+{
+  "tasks": {
+    "improve-readme": {
+      "dependsOn": [],
+      "agent": "evolve-agent"
+    },
+    "enrich-intent-json": {
+      "dependsOn": [],
+      "agent": "evolve-agent"
+    },
+    "expand-memory-bridge": {
+      "dependsOn": [],
+      "agent": "evolve-agent"
+    },
+    "write-manual-mode-guide": {
+      "dependsOn": [],
+      "agent": "evolve-agent"
+    },
+    "specify-feedback-integrator": {
+      "dependsOn": [],
+      "agent": "evolve-agent"
+    }
+  }
+}

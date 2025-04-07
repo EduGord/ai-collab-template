@@ -1,0 +1,14 @@
+{
+  "id": "create-pipeline-folder",
+  "title": "Create missing core/pipelines folder for agent execution",
+  "description": "Ensure pipelines folder exists so agents can run their orchestration triggers.",
+  "priority": "critical",
+  "status": "queued",
+  "tags": [
+    "fix",
+    "folder",
+    "agent",
+    "pipelines"
+  ],
+  "owner": "structurekeeper"
+}

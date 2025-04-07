@@ -1,0 +1,20 @@
+{
+  "taskId": "MB-FULL-AUDIT-001",
+  "title": "Audit Project Tree for Broken Links, Missing Docs, and Stale Content",
+  "summary": "Scanned entire project for unresolved references, empty or outdated files. Logged all to memory.",
+  "timestamp": "2025-04-06T21:30:00Z",
+  "missingReferences": [
+    "schemas/canonical-agent-instances.json",
+    "schemas/canonical-agent-instances.json"
+  ],
+  "missingDocs": [],
+  "outdatedFiles": [
+    "memory-bank/evolving/pending-tasks.json",
+    "schemas/lifecycle-metadata.json"
+  ],
+  "nextSteps": [
+    "Patch empty linkedRoutines, linkedFiles, linkedSchemas in affected files",
+    "Generate docs or replace TODO placeholders",
+    "Update deprecated or early-version content to match current system contracts"
+  ]
+}

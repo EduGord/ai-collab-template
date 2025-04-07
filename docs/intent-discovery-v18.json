@@ -1,0 +1,30 @@
+{
+  "cycle": "v18",
+  "intents": [
+    {
+      "agent": "planner",
+      "intent": "Introduce timeline-based execution cycles with goal deadlines",
+      "priority": "high"
+    },
+    {
+      "agent": "docbot",
+      "intent": "Document all past version features with change summaries",
+      "priority": "medium"
+    },
+    {
+      "agent": "schemaenforcer",
+      "intent": "Add type safety validation for config files at runtime",
+      "priority": "high"
+    },
+    {
+      "agent": "llm-assistant",
+      "intent": "Provide real-time task suggestions from execution context",
+      "priority": "high"
+    },
+    {
+      "agent": "feedbacker",
+      "intent": "Launch anomaly detection on execution logs for drift",
+      "priority": "medium"
+    }
+  ]
+}

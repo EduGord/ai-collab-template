@@ -1,0 +1,22 @@
+{
+  "id": "fallback-resolution",
+  "entrypoint": "automator-agent",
+  "description": "Ativa substitui\u00e7\u00e3o ou reencaminhamento em caso de falha de agente",
+  "steps": [
+    {
+      "agent": "automator-agent",
+      "action": "detectar falha em execu\u00e7\u00e3o"
+    },
+    {
+      "agent": "governance-agent",
+      "action": "verificar permiss\u00f5es de fallback"
+    },
+    {
+      "agent": "orchestrator-agent",
+      "action": "redirecionar tarefa para agente substituto"
+    }
+  ],
+  "outputs": [
+    "fallback-log.json"
+  ]
+}

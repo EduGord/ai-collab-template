@@ -1,0 +1,33 @@
+{
+  "tasks": {
+    "refine-canonical-models": {
+      "agent": "evolve-agent",
+      "dependsOn": []
+    },
+    "audit-and-update-agent-identities": {
+      "agent": "planner-agent",
+      "dependsOn": []
+    },
+    "expand-checklists-with-corrida-logic": {
+      "agent": "planner-agent",
+      "dependsOn": [
+        "audit-and-update-agent-identities"
+      ]
+    },
+    "refine-routines-formatting": {
+      "agent": "evolve-agent",
+      "dependsOn": []
+    },
+    "validate-and-version-pipelines": {
+      "agent": "evolve-agent",
+      "dependsOn": []
+    },
+    "enrich-documentation-with-concepts": {
+      "agent": "planner-agent",
+      "dependsOn": [
+        "refine-canonical-models",
+        "expand-checklists-with-corrida-logic"
+      ]
+    }
+  }
+}

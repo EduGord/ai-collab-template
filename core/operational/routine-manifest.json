@@ -1,0 +1,269 @@
+{
+  "version": "1.0",
+  "routines": [
+    {
+      "id": "remind-checklist-review",
+      "description": "Revisar checklists dos agentes após qualquer modificação em campos do formulário",
+      "frequency": "manual",
+      "triggeredBy": [
+        "mudança em running-plan-form.json"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "remind-kpi-adjustments",
+      "description": "Revalidar KPIs se as regras forem alteradas ou os objetivos forem ampliados",
+      "frequency": "manual",
+      "triggeredBy": [
+        "modificação em running-plan-validation-rules.json",
+        "novos objetivos"
+      ],
+      "assignedTo": "training-agent"
+    },
+    {
+      "id": "remind-schema-versioning",
+      "description": "Atualizar project-versions.json se qualquer schema ou spec for alterado",
+      "frequency": "manual",
+      "triggeredBy": [
+        "modificação em *.json"
+      ],
+      "assignedTo": "dev-agent"
+    },
+    {
+      "id": "review-checklists-on-form-change",
+      "description": "Revisar checklists do training-agent após mudanças no formulário",
+      "frequency": "manual",
+      "triggeredBy": [
+        "modificação em schemas/running-plan-form.json"
+      ],
+      "relatedFields": [
+        "agents-spec/training-agent/checklists/"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "review-pipeline-map",
+      "description": "Verificar consistência do fluxo da pipeline após qualquer mudança em agentes ou sequência",
+      "frequency": "manual",
+      "triggeredBy": [
+        "mudança em ia-context.json",
+        "inclusão de agentes"
+      ],
+      "relatedFields": [
+        "spec/pipeline-map.json"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "review-ia-context-after-evolution",
+      "description": "Revisar ia-context.json após qualquer modificação estrutural no projeto",
+      "frequency": "manual",
+      "triggeredBy": [
+        "evolution-proposals.json",
+        "modificação em arquivos de agentes"
+      ],
+      "relatedFields": [
+        "ia-context.json"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "revalidate-validation-rules-after-schema-changes",
+      "description": "Reavaliar as regras de validação sempre que houver mudanças nos campos do schema",
+      "frequency": "manual",
+      "triggeredBy": [
+        "modificação em schemas/running-plan-form.json"
+      ],
+      "relatedFields": [
+        "schemas/running-plan-validation-rules.json"
+      ],
+      "assignedTo": "training-agent"
+    },
+    {
+      "id": "review-context-spec-after-schema-or-pipeline-change",
+      "description": "Atualizar context-spec.md após mudanças no pipeline, schema ou agentes",
+      "frequency": "manual",
+      "triggeredBy": [
+        "mudança em pipeline-map.json",
+        "schema.json",
+        "agentes"
+      ],
+      "relatedFields": [
+        "spec/context-spec.md"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "revisar-checklists-quando-formulario-alterado",
+      "description": "Revisar todas as checklists do training-agent sempre que o formulário mudar",
+      "frequency": "manual",
+      "triggeredBy": [
+        "modificação em running-plan-form.json"
+      ],
+      "relatedFields": [
+        "agents-spec/training-agent/checklists/"
+      ],
+      "assignedTo": "training-agent"
+    },
+    {
+      "id": "revisar-mapa-pipeline-apos-modificacoes-agentes",
+      "description": "Revisar pipeline-map.json após adicionar, remover ou alterar agentes e etapas",
+      "frequency": "manual",
+      "triggeredBy": [
+        "mudança em ia-context.json",
+        "alterações em agents-spec/"
+      ],
+      "relatedFields": [
+        "spec/pipeline-map.json"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "revisar-ia-context-apos-expansao",
+      "description": "Verificar consistência de ia-context.json após evolução de agentes ou novas tarefas",
+      "frequency": "manual",
+      "triggeredBy": [
+        "adição de agentes",
+        "mudanças de identidade"
+      ],
+      "relatedFields": [
+        "ia-context.json"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "verificar-consistencia-das-regras-de-validacao",
+      "description": "Auditar alterações em running-plan-validation-rules.json e revisar implicações nos KPIs",
+      "frequency": "manual",
+      "triggeredBy": [
+        "alteração no arquivo de regras"
+      ],
+      "relatedFields": [
+        "schemas/running-plan-validation-rules.json"
+      ],
+      "assignedTo": "training-agent"
+    },
+    {
+      "id": "atualizar-context-spec-apos-grandes-modificacoes",
+      "description": "Revisar o contexto geral do projeto após mudanças significativas nas regras ou agentes",
+      "frequency": "manual",
+      "triggeredBy": [
+        "alteração em schemas",
+        "alterações em specs"
+      ],
+      "relatedFields": [
+        "spec/context-spec.md"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "review-training-checklists",
+      "description": "Revisar os checklists do agente de treino se o schema do formulário ou regras forem modificadas",
+      "frequency": "manual",
+      "triggeredBy": [
+        "mudança em running-plan-form.json",
+        "alteração em running-plan-validation-rules.json"
+      ],
+      "assignedTo": "training-agent"
+    },
+    {
+      "id": "review-pipeline-map",
+      "description": "Verificar se a sequência de execução entre agentes ainda está atualizada",
+      "frequency": "manual",
+      "triggeredBy": [
+        "inclusão de novos agentes",
+        "mudança em etapas do fluxo"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "review-ia-context",
+      "description": "Confirmar se o roteamento e escopos dos agentes ainda refletem o projeto real",
+      "frequency": "manual",
+      "triggeredBy": [
+        "mudança de escopo de agentes",
+        "adição de novos arquivos",
+        "nova identidade"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "review-validation-rules",
+      "description": "Revalidar regras e lógica de KPIs após ajustes estruturais ou novas metas",
+      "frequency": "manual",
+      "triggeredBy": [
+        "mudança em running-plan-validation-rules.json"
+      ],
+      "assignedTo": "training-agent"
+    },
+    {
+      "id": "review-context-spec",
+      "description": "Atualizar contexto geral se novos arquivos, agentes ou objetivos forem definidos",
+      "frequency": "manual",
+      "triggeredBy": [
+        "expansão do projeto",
+        "alteração de objetivos",
+        "nova persona"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "validate-agent-identity-integrity",
+      "description": "Assumir identidade de cada agente e verificar se escopo, arquivos e comportamento estão completos e atualizados.",
+      "frequency": "manual",
+      "triggeredBy": [
+        "modificações no projeto",
+        "mudança no pipeline",
+        "novos agentes"
+      ],
+      "assignedTo": "orchestrator-agent"
+    },
+    {
+      "id": "update-memory-bank-docs",
+      "description": "Revisar e atualizar os arquivos do Memory Bank com base no progresso, contexto ativo e mudanças de arquitetura.",
+      "frequency": "manual",
+      "triggeredBy": [
+        "mudança de contexto",
+        "nova arquitetura",
+        "expansão de escopo"
+      ],
+      "assignedTo": "orchestrator-agent"
+    }
+  ]
+}
+
+<!-- linked feature: memory bank -->
+
+<!-- linked feature: tasks -->
+
+<!-- linked feature: pipelines -->
+
+<!-- linked feature: logs -->
+
+<!-- linked feature: identities -->
+
+<!-- linked feature: goals -->
+
+<!-- linked feature: config -->
+
+<!-- linked feature: diary -->
+
+<!-- linked feature: evaluation -->
+
+<!-- linked feature: feedbacks -->
+
+<!-- linked feature: forecasts -->
+
+<!-- linked feature: governance -->
+
+<!-- linked feature: intents -->
+
+<!-- linked feature: plans -->
+
+<!-- linked feature: simulations -->
+
+<!-- linked feature: tests -->
+
+<!-- linked feature: tooling -->
+
+<!-- linked feature: routing metadata -->

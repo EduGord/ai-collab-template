@@ -1,0 +1,19 @@
+{
+  "proposals": [
+    {
+      "proposalId": "P1",
+      "agent": "planner-agent",
+      "score": 8.5,
+      "rationale": "More complete checklist coverage"
+    },
+    {
+      "proposalId": "P2",
+      "agent": "evolve-agent",
+      "score": 6.2,
+      "rationale": "Less detailed plan"
+    }
+  ],
+  "winner": "planner-agent",
+  "strategy": "score-max",
+  "notes": "Consensus reached via scoring"
+}

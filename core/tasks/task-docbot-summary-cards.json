@@ -1,0 +1,13 @@
+{
+  "id": "docbot-summary-cards",
+  "title": "Generate summary cards for all docs",
+  "description": "Summarize each documentation file into LLM-friendly metadata cards.",
+  "priority": "medium",
+  "status": "queued",
+  "tags": [
+    "docs",
+    "summary",
+    "cards"
+  ],
+  "owner": "docbot"
+}
