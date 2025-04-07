@@ -505,5 +505,39 @@
       "structure",
       "compliance"
     ]
+  },
+  {
+    "id": "task-fix-logs-v1",
+    "title": "Fix Logging System",
+    "description": "Ensure task execution logs are persisted and packaged with framework releases. Add structured logging to real-time interactions and update generate_framework_zip.py.",
+    "domain": "logging",
+    "agent": "agent.log.guardian",
+    "status": "completed",
+    "priority": "high",
+    "created_by": "framework-orchestrator",
+    "checklist": [
+      "Audit where logs should be persisted",
+      "Implement or patch logging hooks in task execution pipeline",
+      "Ensure logs/executions/ directory is created and populated",
+      "Update generate_framework_zip.py to include relevant logs",
+      "Validate with a mock run"
+    ]
+  },
+  {
+    "id": "task-fix-cli-v1",
+    "title": "Expand CLI Capabilities",
+    "description": "Improve CLI with onboarding, helper guides, simulated task runs, and testing. Include CLI simulation and replay mode using prompt-replay.json.",
+    "domain": "cli",
+    "agent": "agent.cli.builder",
+    "status": "completed",
+    "priority": "medium",
+    "created_by": "framework-orchestrator",
+    "checklist": [
+      "Review existing CLI implementation or scaffold new CLI structure",
+      "Add onboarding and simulated task flags",
+      "Integrate prompt-replay.json as test source",
+      "Write CLI documentation in docs/cli-guide.md",
+      "Create CLI interaction logs"
+    ]
   }
 ]
