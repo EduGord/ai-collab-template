@@ -4,5 +4,12 @@
   "log_summary_enabled": true,
   "pipeline_interaction_analysis": true,
   "reflection_reporting": true,
-  "plan_recommendation_flagging": true
+  "plan_recommendation_flagging": true,
+  "items": [
+    {
+      "id": "example-item",
+      "description": "Define checklist content here",
+      "status": "pending"
+    }
+  ]
 }

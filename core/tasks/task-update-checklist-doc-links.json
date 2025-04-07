@@ -9,5 +9,12 @@
     "docs",
     "routing"
   ],
-  "owner": "docbot"
+  "owner": "docbot",
+  "items": [
+    {
+      "id": "example-item",
+      "description": "Define checklist content here",
+      "status": "pending"
+    }
+  ]
 }

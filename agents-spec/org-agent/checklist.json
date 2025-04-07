@@ -4,5 +4,12 @@
   "semantic_search_enabled": true,
   "summarization_capable": true,
   "integration_ready": true,
-  "privacy_enforcement": true
+  "privacy_enforcement": true,
+  "items": [
+    {
+      "id": "example-item",
+      "description": "Define checklist content here",
+      "status": "pending"
+    }
+  ]
 }

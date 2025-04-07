@@ -6,5 +6,12 @@
   "log_tracking_mandatory": true,
   "reflection_review_frequency": "per-cycle",
   "pipeline_guardian": true,
-  "resilience_hooks_required": true
+  "resilience_hooks_required": true,
+  "items": [
+    {
+      "id": "example-item",
+      "description": "Define checklist content here",
+      "status": "pending"
+    }
+  ]
 }

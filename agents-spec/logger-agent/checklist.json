@@ -4,5 +4,12 @@
   "resumable_pipelines_enabled": true,
   "retrospective_analysis_hook": true,
   "log_integrity_checks": true,
-  "linked_to_memory_bank": true
+  "linked_to_memory_bank": true,
+  "items": [
+    {
+      "id": "example-item",
+      "description": "Define checklist content here",
+      "status": "pending"
+    }
+  ]
 }

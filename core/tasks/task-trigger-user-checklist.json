@@ -9,5 +9,12 @@
     "live",
     "human-user"
   ],
-  "owner": "llm-assistant"
+  "owner": "llm-assistant",
+  "items": [
+    {
+      "id": "example-item",
+      "description": "Define checklist content here",
+      "status": "pending"
+    }
+  ]
 }
