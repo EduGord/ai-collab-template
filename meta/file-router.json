@@ -4582,5 +4582,15 @@
       ],
       "include_in_context": true
     }
-  ]
+  ],
+  "canonical-model/audit-reflection.schema.json": {
+    "type": "schema",
+    "tags": [
+      "audit",
+      "reflection",
+      "canonical"
+    ],
+    "lines": 8,
+    "size": 1059
+  }
 }
