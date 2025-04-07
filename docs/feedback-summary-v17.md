@@ -1,3 +1,9 @@
+---
+title: feedback-summary-v17.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Feedback Summary — v17 Roadmap Execution
 
 ## Agent Execution Overview

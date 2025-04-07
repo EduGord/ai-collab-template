@@ -1,3 +1,9 @@
+---
+title: collaborative-network-spec.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Collaborative Agent Network Spec
 
 ## Objective

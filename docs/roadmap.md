@@ -1,3 +1,9 @@
+---
+title: roadmap.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Execution Roadmap
 
 ## Phase 1: Establish fully autonomous agent-driven development lifecycle

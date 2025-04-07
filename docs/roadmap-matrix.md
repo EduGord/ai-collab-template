@@ -1,3 +1,9 @@
+---
+title: roadmap-matrix.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Roadmap Matrix (Expanded)
 
 | Phase | Goal / Task                        | Agent(s)                   | Status        | Tags                       |

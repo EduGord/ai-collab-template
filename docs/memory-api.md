@@ -1,3 +1,9 @@
+---
+title: memory-api.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Memory API (File-Based)
 
 ## Files

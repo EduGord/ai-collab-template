@@ -1,3 +1,9 @@
+---
+title: planner.identity.md
+type: md
+description: Auto-generated routing metadata
+---
+
 **Name:** planner  
 **Role:** Converts intents into executable tasks  
 **Trust Level:** High  

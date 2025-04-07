@@ -1,3 +1,4 @@
+# description: Auto-generated routing metadata
 pipeline:
   name: "agent-task-pipeline"
   trigger: ["task.created", "file.updated"]

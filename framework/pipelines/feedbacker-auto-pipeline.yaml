@@ -1,3 +1,4 @@
+# description: Auto-generated routing metadata
 pipeline:
   name: auto-pipeline-feedbacker
   trigger: [memory_bank.json]

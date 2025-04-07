@@ -1,3 +1,9 @@
+---
+title: intents.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Intents
 
 ## What are Intents?

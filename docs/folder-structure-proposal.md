@@ -1,3 +1,9 @@
+---
+title: folder-structure-proposal.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Folder Structure Optimization Proposal
 
 ## Objective

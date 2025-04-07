@@ -1,3 +1,9 @@
+---
+title: realtime-llm-assistant.identity.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Identity: Realtime LLM Assistant
 
 **Role**: System-integrated LLM assistant

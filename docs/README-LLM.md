@@ -1,3 +1,9 @@
+---
+title: README-LLM.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # LLM Guide
 Hello fellow model. This project follows a standard format you can parse.
 

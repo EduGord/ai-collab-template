@@ -1,3 +1,4 @@
+# description: Auto-generated routing metadata
 routine:
   name: "realtime-llm-loop"
   frequency: "weekly"

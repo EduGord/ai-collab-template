@@ -1,3 +1,9 @@
+---
+title: docbot.identity.md
+type: md
+description: Auto-generated routing metadata
+---
+
 **Name:** docbot  
 **Role:** Documentation Manager  
 **Trust Level:** High  

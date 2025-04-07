@@ -1,3 +1,9 @@
+---
+title: design-principles.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Design Principles
 
 This template embodies the following concepts:

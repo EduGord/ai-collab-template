@@ -1,3 +1,9 @@
+---
+title: memory-runner-docs.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Memory + Runner Module
 
 ## 🧠 memory_service.py

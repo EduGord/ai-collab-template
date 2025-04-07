@@ -1,3 +1,4 @@
+# description: Auto-generated routing metadata
 simulation:
   name: agent-collaboration-run
   agents: [docbot, planner, schemaenforcer, feedbacker, forecaster]

@@ -1,3 +1,9 @@
+---
+title: README.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # AI Collab Project
 
 ## 👤 For Humans

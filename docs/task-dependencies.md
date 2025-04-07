@@ -1,3 +1,9 @@
+---
+title: task-dependencies.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Task Dependency Graph
 
 ## Concept

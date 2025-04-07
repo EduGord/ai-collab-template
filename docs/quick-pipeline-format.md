@@ -1,3 +1,9 @@
+---
+title: quick-pipeline-format.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Quick Pipeline Format
 
 This format allows lightweight definition of LLM-driven pipelines.

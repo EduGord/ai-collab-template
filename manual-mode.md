@@ -1,3 +1,9 @@
+---
+title: manual-mode.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Manual Override Guide
 
 To pause or override an agent:

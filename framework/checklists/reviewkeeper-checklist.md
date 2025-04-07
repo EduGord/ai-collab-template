@@ -1,7 +1,13 @@
+---
+title: reviewkeeper-checklist.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # reviewkeeper Checklist
 
-- [ ] Review new or modified `.py`, `.md`, `.json`, `.yaml` files after commits or task executions
-- [ ] Flag inconsistent naming, structure, or schema violations
-- [ ] Submit improvement suggestions to tasks.json
-- [ ] Log all review cycles to `evaluation.md` or `agent_log.json`
-- [ ] Monitor `docs/`, `src/`, and `config/` folders routinely
+- [x] Review new or modified `.py`, `.md`, `.json`, `.yaml` files after commits or task executions
+- [x] Flag inconsistent naming, structure, or schema violations
+- [x] Submit improvement suggestions to tasks.json
+- [x] Log all review cycles to `evaluation.md` or `agent_log.json`
+- [x] Monitor `docs/`, `src/`, and `config/` folders routinely

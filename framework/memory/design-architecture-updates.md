@@ -1,3 +1,9 @@
+---
+title: design-architecture-updates.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Design & Architecture Execution Log
 
 ## Completed

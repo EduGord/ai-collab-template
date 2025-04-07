@@ -1,3 +1,9 @@
+---
+title: README-HUMAN.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Human Guide
 Use the checklists, memory maps, and plan files to interact with this system.
 

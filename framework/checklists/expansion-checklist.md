@@ -1,3 +1,9 @@
+---
+title: expansion-checklist.md
+type: md
+description: Auto-generated routing metadata
+---
+
 - [ ] Initialize test scaffolding in `tests/`
 - [ ] Document or validate API structure (OpenAPI, REST, etc.)
 - [ ] Define agent pipeline logic in `pipelines/`

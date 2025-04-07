@@ -1,3 +1,9 @@
+---
+title: routines-index.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Routines Index
 | Name | Trigger | Description |
 |------|---------|-------------|

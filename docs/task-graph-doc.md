@@ -1,3 +1,9 @@
+---
+title: task-graph-doc.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Task Graph Visualizer
 
 ## `task_graph.py`

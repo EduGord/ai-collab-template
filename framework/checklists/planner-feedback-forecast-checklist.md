@@ -1,3 +1,9 @@
+---
+title: planner-feedback-forecast-checklist.md
+type: md
+description: Auto-generated routing metadata
+---
+
 - [x] Register feedbacker, planner, forecaster agents
 - [x] Define intents and doc layout
 - [x] Simulate task dependency graphing

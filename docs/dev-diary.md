@@ -1,3 +1,9 @@
+---
+title: dev-diary.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Developer Diary
 
 ## [Session - Initialization]

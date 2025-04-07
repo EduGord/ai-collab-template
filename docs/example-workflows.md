@@ -1,3 +1,9 @@
+---
+title: example-workflows.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Example Workflows
 
 ## Goal: Validate a Plan

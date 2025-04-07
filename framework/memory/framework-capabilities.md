@@ -1,3 +1,9 @@
+---
+title: framework-capabilities.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # AI Collab Framework – Capabilities Overview
 
 ## ✅ System Foundations

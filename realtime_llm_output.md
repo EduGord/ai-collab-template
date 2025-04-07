@@ -1,3 +1,9 @@
+---
+title: realtime_llm_output.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Realtime LLM Output
 
 ## Format Metadata

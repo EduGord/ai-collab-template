@@ -1,3 +1,9 @@
+---
+title: router-schema-reference.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # LLM Context Router - Schema Reference
 
 ## Location

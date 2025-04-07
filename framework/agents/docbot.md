@@ -1,3 +1,9 @@
+---
+title: docbot.md
+type: md
+description: Auto-generated routing metadata
+---
+
 **Agent Name:** docbot  
 **Role:** Manages and enhances all human-facing documentation including READMEs and onboarding guides.  
 **Responsibilities:**  

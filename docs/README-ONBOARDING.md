@@ -1,3 +1,9 @@
+---
+title: README-ONBOARDING.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Welcome to the AI-Human Collaboration Framework
 
 ## 🎯 Purpose

@@ -1,3 +1,9 @@
+---
+title: AGENT_LOG.md
+type: md
+description: Auto-generated routing metadata
+---
+
 [docbot] Suggested unified README.md format based on human and LLM files. Added TOC and routing hints.
 [structurekeeper] Proposed folder structure: `src/`, `tests/`, `docs/`, `config/`. Suggested renaming `context-router.json` to `llm-context-router.json`.
 [docbot] Ready to append quickstart instructions to `README-HUMAN.md`.

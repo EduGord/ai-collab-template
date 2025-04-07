@@ -1,3 +1,9 @@
+---
+title: final_comprehensive_project_summary.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Final Project Summary: Canonical AI-Human Collaboration Framework
 
 ## Mission

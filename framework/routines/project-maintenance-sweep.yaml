@@ -1,3 +1,4 @@
+# description: Auto-generated routing metadata
 routine:
   name: "project-maintenance-sweep"
   frequency: "weekly"

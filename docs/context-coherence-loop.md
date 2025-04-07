@@ -1,3 +1,9 @@
+---
+title: context-coherence-loop.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Context Coherence Loop
 
 To prevent context drift:

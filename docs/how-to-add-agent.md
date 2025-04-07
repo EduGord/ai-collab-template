@@ -1,3 +1,9 @@
+---
+title: how-to-add-agent.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # How to Add a New Agent
 
 1. Create a folder under `agents-spec/<agent-name>/`

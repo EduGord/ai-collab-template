@@ -1,3 +1,9 @@
+---
+title: TASK_EXECUTION_DASHBOARD.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # ✅ AI-Collab Project: Task Execution Dashboard
 
 This dashboard tracks the real-time execution status of tasks from the project review.

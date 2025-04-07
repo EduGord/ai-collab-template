@@ -1,0 +1,4426 @@
+[
+  {
+    "path": "agent-evolution.json",
+    "hash": "6e8402d033333a554cc3332de9a05282",
+    "size": 358,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750088Z"
+  },
+  {
+    "path": "agent-registry.json",
+    "hash": "8154117c27edea3775eabe9fe5777521",
+    "size": 2950,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750141Z"
+  },
+  {
+    "path": "AGENT_LOG.md",
+    "hash": "af91ae0ebee8dc46ed54ddeadf48fd23",
+    "size": 28516,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750590Z"
+  },
+  {
+    "path": "AUTO-ONBOARD.md",
+    "hash": "969e71800c88e45e14c249ebd7df8894",
+    "size": 1630,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750623Z"
+  },
+  {
+    "path": "changelog-agent.json",
+    "hash": "7175c17c56053292201950c1e5a6f263",
+    "size": 578,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750631Z"
+  },
+  {
+    "path": "collab-etiquette.md",
+    "hash": "dc0876b07e84f342d1c245fa6c546d54",
+    "size": 218,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750637Z"
+  },
+  {
+    "path": "consensus-engine.json",
+    "hash": "5c6c7a426c80573c9ec27b14445cf978",
+    "size": 217,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750643Z"
+  },
+  {
+    "path": "debate-protocol.json",
+    "hash": "7a8b1b6a8441bafc601c178840da76a3",
+    "size": 106,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750653Z"
+  },
+  {
+    "path": "delegation-protocol.json",
+    "hash": "cb5123c9ad5118a6eee8ebd7d410b9d1",
+    "size": 140,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750661Z"
+  },
+  {
+    "path": "eval-hooks.json",
+    "hash": "fee4e0567f32f06d690c135eb0e31779",
+    "size": 224,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750668Z"
+  },
+  {
+    "path": "external-agent-descriptors.json",
+    "hash": "cba1e922cad9c220d5b212f3a113c60f",
+    "size": 193,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750675Z"
+  },
+  {
+    "path": "failsafe-agent.json",
+    "hash": "150c12757de9af5b9a06347fab390aba",
+    "size": 196,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750682Z"
+  },
+  {
+    "path": "feedback-integrator-agent.json",
+    "hash": "c8848ec70e0bc011f2c9026745c377e2",
+    "size": 300,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750688Z"
+  },
+  {
+    "path": "feedback-propagation.json",
+    "hash": "6e9df8335ed1eb0f1bb470e4cce80831",
+    "size": 164,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750693Z"
+  },
+  {
+    "path": "goal-tree.json",
+    "hash": "ad90d00ebeb912d44f328db8ca89b346",
+    "size": 644,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750699Z"
+  },
+  {
+    "path": "human-feedback.json",
+    "hash": "06619011db70b223dbc603644b1b3c05",
+    "size": 115,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750704Z"
+  },
+  {
+    "path": "llm-capabilities.json",
+    "hash": "26bb7179fb893cba6341b3571427de09",
+    "size": 265,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750708Z"
+  },
+  {
+    "path": "manual-mode.md",
+    "hash": "d125ce3c583b8764d9bfc486d21768c2",
+    "size": 209,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.750713Z"
+  },
+  {
+    "path": "memory_bank.archived.json",
+    "hash": "9068f7a78168f72510344e00ad3c723e",
+    "size": 3216,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751126Z"
+  },
+  {
+    "path": "memory_bank.json",
+    "hash": "161a3e634332b6e1b9abca1d32e78fca",
+    "size": 13152,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751233Z"
+  },
+  {
+    "path": "override-rules.json",
+    "hash": "4ac0e0962570545bf193a0a9ef7fe90a",
+    "size": 179,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751242Z"
+  },
+  {
+    "path": "performance-milestones.json",
+    "hash": "e743a83fe9fa3c413b31b22edbaf4188",
+    "size": 90,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751247Z"
+  },
+  {
+    "path": "persona-guide.json",
+    "hash": "aaaddf10e757f6090a2775c8e777e5a6",
+    "size": 232,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751252Z"
+  },
+  {
+    "path": "pipeline-playground.md",
+    "hash": "94e9ae7d1238fe152dc4744556007187",
+    "size": 177,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751256Z"
+  },
+  {
+    "path": "prompt-replay.json",
+    "hash": "a98bebf5445236a000b348488d706b8b",
+    "size": 267,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751261Z"
+  },
+  {
+    "path": "realtime_llm_output.md",
+    "hash": "28e45c2ba26a9a1496c01983b81d7607",
+    "size": 589,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751267Z"
+  },
+  {
+    "path": "realtime_llm_prompt.txt",
+    "hash": "c78bdae9721d6a3dda7a5ca1c13c2153",
+    "size": 290,
+    "type": "txt",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751273Z"
+  },
+  {
+    "path": "task-graph-agent-srp-cleanup.json",
+    "hash": "5bf705845069980b8dc6ddd68fdac542",
+    "size": 376,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751279Z"
+  },
+  {
+    "path": "task-graph-feature-audit.json",
+    "hash": "518fb678c7089d95fbfd59578af4b998",
+    "size": 302,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751285Z"
+  },
+  {
+    "path": "task-graph-final-audit-fix.json",
+    "hash": "10d439124fe07c0dc624a65867749080",
+    "size": 384,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751290Z"
+  },
+  {
+    "path": "task-graph-fine-tune.json",
+    "hash": "84480dfeec0e96dddc2a32be605df7dc",
+    "size": 764,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751296Z"
+  },
+  {
+    "path": "task-graph-fix-content.json",
+    "hash": "b44c4806941fd6a7e6ccd1b8dfb84338",
+    "size": 471,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751302Z"
+  },
+  {
+    "path": "task-graph-reuse.json",
+    "hash": "b246e0868e8e256ae9c8e19c0ca31577",
+    "size": 323,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751307Z"
+  },
+  {
+    "path": "task-graph-system-resilience.json",
+    "hash": "8d2bab4411fb8c022e2c6188fcbffb0f",
+    "size": 825,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751314Z"
+  },
+  {
+    "path": "task-graph.json",
+    "hash": "0645faabce0372cf2dec927ef6c4d8ba",
+    "size": 500,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751320Z"
+  },
+  {
+    "path": "tasks.json",
+    "hash": "d502a8f7b2a526f468ed358a33ea2235",
+    "size": 1028,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751327Z"
+  },
+  {
+    "path": "agent-messages/audit-agent/inbox/message-001.json",
+    "hash": "d314ada6b1f0d657947a2eea6c2f419d",
+    "size": 176,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751333Z"
+  },
+  {
+    "path": "agent-messages/audit-agent/outbox/message-002.json",
+    "hash": "6a69ef198d6e00a17a659d2b383a2838",
+    "size": 177,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751338Z"
+  },
+  {
+    "path": "agent-messages/bootstrap-agent/inbox/message-001.json",
+    "hash": "78795e688dd530c36f0394cddcbb13bf",
+    "size": 180,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751342Z"
+  },
+  {
+    "path": "agent-messages/bootstrap-agent/inbox/sample-message.json",
+    "hash": "2aa247b60a4444d9cfdaa3d6e2a75e22",
+    "size": 123,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751348Z"
+  },
+  {
+    "path": "agent-messages/bootstrap-agent/outbox/message-002.json",
+    "hash": "dc3cca215a07088e1b538c177c3433ee",
+    "size": 181,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751363Z"
+  },
+  {
+    "path": "agent-messages/evolve-agent/inbox/message-001.json",
+    "hash": "256339c462ee8d2f78058714bfc27e73",
+    "size": 177,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751368Z"
+  },
+  {
+    "path": "agent-messages/evolve-agent/outbox/message-002.json",
+    "hash": "551771aca45f51a1563aed2a2c6e2be0",
+    "size": 178,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751372Z"
+  },
+  {
+    "path": "agent-messages/orchestrator-agent/inbox/message-001.json",
+    "hash": "699edeb839f6f414ebccbf430373b315",
+    "size": 183,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751376Z"
+  },
+  {
+    "path": "agent-messages/orchestrator-agent/outbox/message-002.json",
+    "hash": "b9c3b1ca3fd668e9e3add0c586b0d791",
+    "size": 184,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751381Z"
+  },
+  {
+    "path": "agent-messages/planner-agent/inbox/message-001.json",
+    "hash": "c4ef74e116e0481c303e4f5245de7e36",
+    "size": 178,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751385Z"
+  },
+  {
+    "path": "agent-messages/planner-agent/outbox/message-002.json",
+    "hash": "e9f6d2e4cc1c8b3134272efcea23bff6",
+    "size": 179,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751389Z"
+  },
+  {
+    "path": "agent-messages/proposal-review-agent/inbox/message-001.json",
+    "hash": "16ea002b5cc1b34de684458f52e91bf4",
+    "size": 186,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751394Z"
+  },
+  {
+    "path": "agent-messages/proposal-review-agent/outbox/message-002.json",
+    "hash": "9719429f5321fbc3d61fb321cc0bfa42",
+    "size": 187,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751399Z"
+  },
+  {
+    "path": "agent-messages/recovery-agent/inbox/message-001.json",
+    "hash": "d4aef0f9a64b92482fe233145eb68ea8",
+    "size": 179,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751403Z"
+  },
+  {
+    "path": "agent-messages/recovery-agent/outbox/message-002.json",
+    "hash": "268b28c3ad668d6eef7032b2e85281d0",
+    "size": 180,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751407Z"
+  },
+  {
+    "path": "agent-messages/router-agent/inbox/message-001.json",
+    "hash": "ed9dce561ce7d055d2e41510ce47099d",
+    "size": 177,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751411Z"
+  },
+  {
+    "path": "agent-messages/router-agent/outbox/message-002.json",
+    "hash": "b68609048027f437e6f84bf494770f8f",
+    "size": 178,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751416Z"
+  },
+  {
+    "path": "agent-messages/tasking-agent/inbox/message-001.json",
+    "hash": "4214a873d97df27a77251f6d8328c688",
+    "size": 178,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751420Z"
+  },
+  {
+    "path": "agent-messages/tasking-agent/outbox/message-002.json",
+    "hash": "55f36cab088db3e50533dbc9798a6287",
+    "size": 179,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751424Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/agent-ledger.json",
+    "hash": "97fab5f586ce4d918fc330e78941d550",
+    "size": 174,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751429Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/agent-metadata.json",
+    "hash": "8fbf659286c8e3893fa0e8dbd2c3fbd4",
+    "size": 351,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751435Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/agent-state.json",
+    "hash": "7a318358ef77ceffb5596b0d37137bd0",
+    "size": 105,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751440Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/checklist.json",
+    "hash": "b121f0322ad9a5210460712fae2e3e2a",
+    "size": 531,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751445Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/heuristics.json",
+    "hash": "730a6f86dd09905587d900e56d60b9cb",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751451Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/identity.json",
+    "hash": "0c329626b9381a732a15dbf6bb5d612b",
+    "size": 277,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751455Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/lifecycle.json",
+    "hash": "aa88dffc8f9f0ad1c41c804b020efda4",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751460Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/ux-profile.json",
+    "hash": "be5e54f7c59f62a34a43c53ba2e9466b",
+    "size": 176,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751464Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/reflections/sample.json",
+    "hash": "1c6afbd43fcb5dbb34560d1cc6547b70",
+    "size": 162,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751468Z"
+  },
+  {
+    "path": "agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "063a6c468b3bbdccec04ea2c26d95054",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751473Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/agent-ledger.json",
+    "hash": "97fab5f586ce4d918fc330e78941d550",
+    "size": 174,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751477Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/agent-metadata.json",
+    "hash": "b0aac47679c65a69c40d0ef6ffd0da1a",
+    "size": 355,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751482Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/agent-state.json",
+    "hash": "0659cb84216e094df16389437b35c623",
+    "size": 164,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751486Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/checklist.json",
+    "hash": "61531691db0b390e00a202f64cf82773",
+    "size": 180,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751490Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/heuristics.json",
+    "hash": "730a6f86dd09905587d900e56d60b9cb",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751495Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/identity.json",
+    "hash": "5cd86b9af0b0029934ed19b741e97871",
+    "size": 180,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751498Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/lifecycle.json",
+    "hash": "aa88dffc8f9f0ad1c41c804b020efda4",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751502Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/ux-profile.json",
+    "hash": "dcf4333f8e0812f7a974e14c3a834d67",
+    "size": 205,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751508Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/reflections/sample.json",
+    "hash": "838f61c66d2295e7c74636756c2b337f",
+    "size": 226,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751513Z"
+  },
+  {
+    "path": "agents-spec/bootstrap-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "063a6c468b3bbdccec04ea2c26d95054",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751517Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/agent-ledger.json",
+    "hash": "97fab5f586ce4d918fc330e78941d550",
+    "size": 174,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751521Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/agent-metadata.json",
+    "hash": "6ee6952dc81685993f534cd436d8f9d8",
+    "size": 352,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751527Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/agent-state.json",
+    "hash": "ef8fea0a3cc935af57f14780df3c875c",
+    "size": 106,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751531Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/checklist.json",
+    "hash": "66d27bab629c846b0a4eb5a51ca54e09",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751536Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/heuristics.json",
+    "hash": "730a6f86dd09905587d900e56d60b9cb",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751541Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/identity.json",
+    "hash": "bc38defac2757fc9139846b22072b9e0",
+    "size": 236,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751545Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/lifecycle.json",
+    "hash": "aa88dffc8f9f0ad1c41c804b020efda4",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751550Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/ux-profile.json",
+    "hash": "78da85d78aa84f33f310c5d214b3f5c4",
+    "size": 177,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751554Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/reflections/routine-gap-detection.json",
+    "hash": "17bddb39b9f92d41a1ec4cd9635a37bf",
+    "size": 245,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751559Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/reflections/sample.json",
+    "hash": "fd9d1c0b46b6a20b8db9b28e3fc9bcfe",
+    "size": 163,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751563Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/reflections/self-introspection.json",
+    "hash": "d6de307acd6927fbb8511d319450acd3",
+    "size": 318,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751567Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/reflections/self-review-hook.json",
+    "hash": "53b76af9a810d890a790e27c871b4a20",
+    "size": 243,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751572Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/reflections/system-evolve-cycle.json",
+    "hash": "0a4d4b2ff898344d5d5f5f76c9940e4f",
+    "size": 243,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751576Z"
+  },
+  {
+    "path": "agents-spec/evolve-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "063a6c468b3bbdccec04ea2c26d95054",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751581Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/agent-ledger.json",
+    "hash": "fae16b12b992082d9863800525785e9a",
+    "size": 77,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751586Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/agent-metadata.json",
+    "hash": "7cd695ef621273b6e851dfc1ceb3fe9c",
+    "size": 168,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751590Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/agent-state.json",
+    "hash": "3c1737f7b6abddeb1e68aacad0cf7b2a",
+    "size": 106,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751594Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/checklist.json",
+    "hash": "696cacd2eaf828fe4e2a60daf67f5381",
+    "size": 359,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751599Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/heuristics.json",
+    "hash": "9e83e5148de32376271c7c7d31fb271d",
+    "size": 287,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751604Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/identity.json",
+    "hash": "0fbfdf3f1d3ce16ef0f9dfc8de15c20d",
+    "size": 517,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751609Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/lifecycle.json",
+    "hash": "ffdd3f19c5ee488603a27dd9b9ced400",
+    "size": 107,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751614Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/ux-profile.json",
+    "hash": "4719bfc331de7d4fee2ad0637e41a51d",
+    "size": 177,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751619Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/reflections/sample.json",
+    "hash": "e183605c934e7e6259e3c5f790325a1d",
+    "size": 163,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751623Z"
+  },
+  {
+    "path": "agents-spec/logger-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "f7986581a9fa0c494115925094047e6e",
+    "size": 225,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751627Z"
+  },
+  {
+    "path": "agents-spec/meta-agent/agent-ledger.json",
+    "hash": "704cf652c4f535b7adc7dfe17017e8a4",
+    "size": 75,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751632Z"
+  },
+  {
+    "path": "agents-spec/meta-agent/agent-metadata.json",
+    "hash": "d557bc8052f88c8d13def00dd769da64",
+    "size": 164,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751636Z"
+  },
+  {
+    "path": "agents-spec/meta-agent/agent-state.json",
+    "hash": "680db4c5a3174637a5a6f25763ae5873",
+    "size": 104,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751640Z"
+  },
+  {
+    "path": "agents-spec/meta-agent/lifecycle.json",
+    "hash": "f4a1161e657343996695ff73e08a0e22",
+    "size": 105,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751644Z"
+  },
+  {
+    "path": "agents-spec/meta-agent/ux-profile.json",
+    "hash": "a323c4bfe81d5e94a1c40076ce8a52a4",
+    "size": 175,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751649Z"
+  },
+  {
+    "path": "agents-spec/meta-agent/reflections/mentor-review-001.json",
+    "hash": "16729397ae9a4d70c796c8fda3d97bd4",
+    "size": 386,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751668Z"
+  },
+  {
+    "path": "agents-spec/meta-agent/reflections/sample.json",
+    "hash": "490f999c85e7de9760ae32d5b670006e",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751675Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/agent-ledger.json",
+    "hash": "97fab5f586ce4d918fc330e78941d550",
+    "size": 174,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751682Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/agent-metadata.json",
+    "hash": "63223a90144862d94005f4a60cb9f406",
+    "size": 358,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751689Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/agent-state.json",
+    "hash": "e1b0de22558182312c3c992b7e0f8d2e",
+    "size": 112,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751696Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/checklist.json",
+    "hash": "618dc1ed8f5052fd15b727fb2871d090",
+    "size": 170,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751702Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/heuristics.json",
+    "hash": "730a6f86dd09905587d900e56d60b9cb",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751709Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/identity.json",
+    "hash": "62944d0dfa4139efcb3742c6da3befb7",
+    "size": 287,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751716Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/lifecycle.json",
+    "hash": "aa88dffc8f9f0ad1c41c804b020efda4",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751720Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/root-meta-collab.checklist.json",
+    "hash": "ee3814d0c844c170eaf5684e68b8f006",
+    "size": 420,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751725Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/root-meta-collab.identity.json",
+    "hash": "c6b0086e0d2359d4d3b75f8a603ec899",
+    "size": 615,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751731Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/ux-profile.json",
+    "hash": "34e43706ac5a2efce3ecdd30fe6dd60f",
+    "size": 183,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751735Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/checklists/core-checklist.json",
+    "hash": "9615d876cf8b98b167deae9f61c2122e",
+    "size": 832,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751741Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/reflections/root-prompt-reflection.json",
+    "hash": "a28ee83523238a17d95eb20cea676a5e",
+    "size": 519,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751746Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/reflections/sample.json",
+    "hash": "1e7b776df10d170557f3b19370c5352e",
+    "size": 169,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751750Z"
+  },
+  {
+    "path": "agents-spec/orchestrator-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "063a6c468b3bbdccec04ea2c26d95054",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751755Z"
+  },
+  {
+    "path": "agents-spec/org-agent/agent-ledger.json",
+    "hash": "e89498b21462c44c1eeea953297f8fef",
+    "size": 50,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751758Z"
+  },
+  {
+    "path": "agents-spec/org-agent/agent-metadata.json",
+    "hash": "b0aac47679c65a69c40d0ef6ffd0da1a",
+    "size": 355,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751763Z"
+  },
+  {
+    "path": "agents-spec/org-agent/agent-state.json",
+    "hash": "fc84bf7b58c72f25eda4ddec8154e3e6",
+    "size": 79,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751767Z"
+  },
+  {
+    "path": "agents-spec/org-agent/checklist.json",
+    "hash": "13c1363cef9c1c92d7df3fe436a85884",
+    "size": 328,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751771Z"
+  },
+  {
+    "path": "agents-spec/org-agent/heuristics.json",
+    "hash": "9b2f0d4d9e290e338571a8f5ba0a27c0",
+    "size": 375,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751775Z"
+  },
+  {
+    "path": "agents-spec/org-agent/identity.json",
+    "hash": "a50837bd770c0d7328728291e3c65344",
+    "size": 632,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751780Z"
+  },
+  {
+    "path": "agents-spec/org-agent/lifecycle.json",
+    "hash": "ce1b26d40cb059734032201d23879edc",
+    "size": 80,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751785Z"
+  },
+  {
+    "path": "agents-spec/org-agent/ux-profile.json",
+    "hash": "05ab694d8371e92fa9f15a8545d943b8",
+    "size": 168,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751788Z"
+  },
+  {
+    "path": "agents-spec/org-agent/reflections/sample.json",
+    "hash": "e22dc130cfe3e1d6468135e1ddef6131",
+    "size": 133,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751792Z"
+  },
+  {
+    "path": "agents-spec/org-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "86249cf8d2659e2396deabc87ae35b69",
+    "size": 295,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751806Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/agent-ledger.json",
+    "hash": "97fab5f586ce4d918fc330e78941d550",
+    "size": 174,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751810Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/agent-metadata.json",
+    "hash": "9ef13bf83d93c8633a6aa8131dac1d1d",
+    "size": 353,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751815Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/agent-state.json",
+    "hash": "4b2dbdc04554c1b792ef5de54c510d35",
+    "size": 107,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751819Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/checklist.json",
+    "hash": "efa1cabe19a51ccae90fb097b62c6398",
+    "size": 191,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751823Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/heuristics.json",
+    "hash": "730a6f86dd09905587d900e56d60b9cb",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751827Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/identity.json",
+    "hash": "4f7e70815a67302a1e48fa6f17688767",
+    "size": 268,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751832Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/lifecycle.json",
+    "hash": "aa88dffc8f9f0ad1c41c804b020efda4",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751836Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/ux-profile.json",
+    "hash": "5ec7a1718aaf203920bc2a96948cc1a7",
+    "size": 178,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751840Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/checklists/core-checklist.json",
+    "hash": "13cac69951491664f48e2264ad048c9e",
+    "size": 484,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751845Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/reflections/sample.json",
+    "hash": "142737c3f2a450be38e8db864357f160",
+    "size": 164,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751850Z"
+  },
+  {
+    "path": "agents-spec/planner-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "063a6c468b3bbdccec04ea2c26d95054",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751854Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/agent-ledger.json",
+    "hash": "97fab5f586ce4d918fc330e78941d550",
+    "size": 174,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751858Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/agent-metadata.json",
+    "hash": "1e5329d6268d3fb141eb5908b8dcbeac",
+    "size": 361,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751863Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/agent-state.json",
+    "hash": "4ab2e053d9535f60d987a5daf8505739",
+    "size": 115,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751867Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/checklist.json",
+    "hash": "9f1ab7300a354abd732331e275a89b69",
+    "size": 189,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751871Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/heuristics.json",
+    "hash": "730a6f86dd09905587d900e56d60b9cb",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751876Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/identity.json",
+    "hash": "8a84055318062677b46e75967bb26347",
+    "size": 300,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751880Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/lifecycle.json",
+    "hash": "aa88dffc8f9f0ad1c41c804b020efda4",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751884Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/ux-profile.json",
+    "hash": "62b7a82c45e25f372ed674d5720d5414",
+    "size": 186,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751888Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/reflections/sample.json",
+    "hash": "8ec13df218a05f247122d44cd614ff7f",
+    "size": 172,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751893Z"
+  },
+  {
+    "path": "agents-spec/proposal-review-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "063a6c468b3bbdccec04ea2c26d95054",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751897Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/agent-ledger.json",
+    "hash": "97fab5f586ce4d918fc330e78941d550",
+    "size": 174,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751901Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/agent-metadata.json",
+    "hash": "b7546cc559a92d65951790559ff9cf03",
+    "size": 354,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751905Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/agent-state.json",
+    "hash": "284f610307ae83294d5be28b9b036477",
+    "size": 108,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751909Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/checklist.json",
+    "hash": "fe180f56ac60efac1211a6037529089a",
+    "size": 187,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751913Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/heuristics.json",
+    "hash": "730a6f86dd09905587d900e56d60b9cb",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751918Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/identity.json",
+    "hash": "fa42e5981986c5f0184b28b352f9bdcc",
+    "size": 266,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751922Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/lifecycle.json",
+    "hash": "aa88dffc8f9f0ad1c41c804b020efda4",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751926Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/ux-profile.json",
+    "hash": "dcc8858ee59d0f94762b626f394272fb",
+    "size": 179,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751930Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/reflections/sample.json",
+    "hash": "92b353bf15668d1fd4acdaa6dc7b63a9",
+    "size": 165,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751934Z"
+  },
+  {
+    "path": "agents-spec/recovery-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "063a6c468b3bbdccec04ea2c26d95054",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751939Z"
+  },
+  {
+    "path": "agents-spec/router-agent/agent-ledger.json",
+    "hash": "97fab5f586ce4d918fc330e78941d550",
+    "size": 174,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751945Z"
+  },
+  {
+    "path": "agents-spec/router-agent/agent-metadata.json",
+    "hash": "7db595f16a61e0f47f921f31e7da1661",
+    "size": 352,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751952Z"
+  },
+  {
+    "path": "agents-spec/router-agent/agent-state.json",
+    "hash": "66d552bfc2597dd115484319ddf56902",
+    "size": 106,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751959Z"
+  },
+  {
+    "path": "agents-spec/router-agent/checklist.json",
+    "hash": "d42fd0bdcada0e32c2ab45d6fb7cd546",
+    "size": 398,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751965Z"
+  },
+  {
+    "path": "agents-spec/router-agent/heuristics.json",
+    "hash": "730a6f86dd09905587d900e56d60b9cb",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751973Z"
+  },
+  {
+    "path": "agents-spec/router-agent/identity.json",
+    "hash": "bf5dd40ba551600515f34901114cf1ff",
+    "size": 282,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751978Z"
+  },
+  {
+    "path": "agents-spec/router-agent/lifecycle.json",
+    "hash": "aa88dffc8f9f0ad1c41c804b020efda4",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751982Z"
+  },
+  {
+    "path": "agents-spec/router-agent/ux-profile.json",
+    "hash": "5d5a7d335e5b3ab47cc69f6bdb1ba20a",
+    "size": 177,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751986Z"
+  },
+  {
+    "path": "agents-spec/router-agent/reflections/llm-session-router.json",
+    "hash": "276ba5ba73ad4d2bec60a06ba0ef6b82",
+    "size": 249,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751991Z"
+  },
+  {
+    "path": "agents-spec/router-agent/reflections/sample.json",
+    "hash": "89b6bdc62c61818a9bc909e60308f628",
+    "size": 163,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751995Z"
+  },
+  {
+    "path": "agents-spec/router-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "063a6c468b3bbdccec04ea2c26d95054",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.751999Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/agent-ledger.json",
+    "hash": "97fab5f586ce4d918fc330e78941d550",
+    "size": 174,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752004Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/agent-metadata.json",
+    "hash": "90eceb8dee7f2e70953d422320ff272c",
+    "size": 353,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752009Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/agent-state.json",
+    "hash": "927bc4ccc7f86b911947e6ea63ac860c",
+    "size": 107,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752013Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/checklist.json",
+    "hash": "82fba93e893f4b2ca209f9d86d30d12b",
+    "size": 176,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752017Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/heuristics.json",
+    "hash": "730a6f86dd09905587d900e56d60b9cb",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752021Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/identity.json",
+    "hash": "8b6515927681018b5015036f6fef5690",
+    "size": 237,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752026Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/lifecycle.json",
+    "hash": "aa88dffc8f9f0ad1c41c804b020efda4",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752030Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/ux-profile.json",
+    "hash": "82046b1cc5b02f1839118b6ad3de3cbf",
+    "size": 178,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752034Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/checklists/core-checklist.json",
+    "hash": "437a660f313dcbd74f4076578d9e101a",
+    "size": 554,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752039Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/reflections/sample.json",
+    "hash": "5019abaddab98c47f4e5740bf0d46735",
+    "size": 164,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752044Z"
+  },
+  {
+    "path": "agents-spec/tasking-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "063a6c468b3bbdccec04ea2c26d95054",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752049Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/agent-ledger.json",
+    "hash": "8edd2cbca327deaecabd4b918b8d4a5f",
+    "size": 73,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752055Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/agent-metadata.json",
+    "hash": "aaa9032091e3eb2d1f494cd7c505abf3",
+    "size": 160,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752059Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/agent-state.json",
+    "hash": "745de958b80a57ede77cc4f2e2a61b69",
+    "size": 102,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752063Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/checklist.json",
+    "hash": "b7fb5527ac0813885e25c904d23a3c12",
+    "size": 343,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752067Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/heuristics.json",
+    "hash": "a4377c513c04f417808d711d48f27a04",
+    "size": 329,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752072Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/identity.json",
+    "hash": "b927976c569b4663f03a61820c571a98",
+    "size": 571,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752077Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/lifecycle.json",
+    "hash": "48b9b1a152a2f52e76981ccd8152ce0f",
+    "size": 103,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752081Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/ux-profile.json",
+    "hash": "e9afe43b16dc29292c8a8fbfc6f18aeb",
+    "size": 173,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752085Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/reflections/sample.json",
+    "hash": "7a11ab1fefe4e9a516e18925851aad8c",
+    "size": 159,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752089Z"
+  },
+  {
+    "path": "agents-spec/ux-agent/reflections/reasoning-logs/init-reflection.json",
+    "hash": "e4f5260c08aced78e55e996fb476bd58",
+    "size": 237,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752094Z"
+  },
+  {
+    "path": "agents-spec/voting-agent/agent-ledger.json",
+    "hash": "247fb0f926c0a6f59d35a157b8796c70",
+    "size": 77,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752099Z"
+  },
+  {
+    "path": "agents-spec/voting-agent/agent-metadata.json",
+    "hash": "c2ed73a323a009af8a958cdcea84f769",
+    "size": 168,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752103Z"
+  },
+  {
+    "path": "agents-spec/voting-agent/agent-state.json",
+    "hash": "273c733b7a9dcb6d59a7fad3acfc94ca",
+    "size": 106,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752106Z"
+  },
+  {
+    "path": "agents-spec/voting-agent/identity.json",
+    "hash": "ed271c55d01ee03727cd6067c182e228",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752111Z"
+  },
+  {
+    "path": "agents-spec/voting-agent/lifecycle.json",
+    "hash": "66810ee29f96c68d95ef1732c57aeb81",
+    "size": 107,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752115Z"
+  },
+  {
+    "path": "agents-spec/voting-agent/ux-profile.json",
+    "hash": "680357c2c493ce2079e857735ffb147a",
+    "size": 177,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752119Z"
+  },
+  {
+    "path": "agents-spec/voting-agent/reflections/sample.json",
+    "hash": "ff4b2938b2620c6923d71796b3f4bb30",
+    "size": 163,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752124Z"
+  },
+  {
+    "path": "canonical-model/routine-definition.json",
+    "hash": "09ba1c43194d890f8d57d3d0e0d2bc44",
+    "size": 500,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752129Z"
+  },
+  {
+    "path": "config/llm-context-router.json",
+    "hash": "62ca758da21f5ad81edf8811b1ec1adb",
+    "size": 19441,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752214Z"
+  },
+  {
+    "path": "config/schema-config.json",
+    "hash": "05ebc25756c513ec82f79bd3c24def64",
+    "size": 284,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752219Z"
+  },
+  {
+    "path": "core/forecast-task-docbot.json",
+    "hash": "961da3c4fb4ae914e3a16623aae06d22",
+    "size": 1112,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752226Z"
+  },
+  {
+    "path": "core/forecast-task-feedbacker.json",
+    "hash": "85f8532942530237b28fd47bb6629c93",
+    "size": 1118,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752233Z"
+  },
+  {
+    "path": "core/forecast-task-forecaster.json",
+    "hash": "945b649eb81e030dbe911d3de9309af9",
+    "size": 1131,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752244Z"
+  },
+  {
+    "path": "core/forecast-task-planner.json",
+    "hash": "59b4e891f2ba798cdf258d7311331ba3",
+    "size": 1117,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752251Z"
+  },
+  {
+    "path": "core/forecast-task-schemaenforcer.json",
+    "hash": "5424b7ae7c74278576799df6e8a76264",
+    "size": 1202,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752257Z"
+  },
+  {
+    "path": "core/memory-bridge.json",
+    "hash": "1a86f594225498fb4a78170217e31985",
+    "size": 370,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752261Z"
+  },
+  {
+    "path": "core/memory_bank.json",
+    "hash": "aaefc7d18cfd22b61c0bfd9da374348b",
+    "size": 7759,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752303Z"
+  },
+  {
+    "path": "core/task-agent-check-docbot.json",
+    "hash": "abe268fead4863c3a8ae17411168b1a6",
+    "size": 1120,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752309Z"
+  },
+  {
+    "path": "core/task-agent-check-feedbacker.json",
+    "hash": "9b5d3b58ebcd441106eb7541f04a7574",
+    "size": 1136,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752315Z"
+  },
+  {
+    "path": "core/task-agent-check-forecaster.json",
+    "hash": "aef5da8e322daf282bbac197078b4f8a",
+    "size": 1136,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752321Z"
+  },
+  {
+    "path": "core/task-agent-check-planner.json",
+    "hash": "1b38429d23efc4fb8adcdb4c46ad6d66",
+    "size": 1124,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752326Z"
+  },
+  {
+    "path": "core/task-agent-check-schemaenforcer.json",
+    "hash": "de61b4d48bb230d46094585bd1eb198f",
+    "size": 1152,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752333Z"
+  },
+  {
+    "path": "core/task-agent-driven-evolution.json",
+    "hash": "19355f230dc79fba5f6d78988f326b51",
+    "size": 1208,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752341Z"
+  },
+  {
+    "path": "core/task-agent-identity-review.json",
+    "hash": "73f508c6215e56ace0c3d3764cca1cc0",
+    "size": 415,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752348Z"
+  },
+  {
+    "path": "core/task-bootstrap-and-memory-loading.json",
+    "hash": "d0209fa8c0fa4885b3eebe0883aba5be",
+    "size": 423,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752354Z"
+  },
+  {
+    "path": "core/task-feature-ref-linking.json",
+    "hash": "90409caebf8569444bc3197e20c14495",
+    "size": 450,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752362Z"
+  },
+  {
+    "path": "core/task-full-system-audit.json",
+    "hash": "4500b96c30c9bda9ddccce976a97abd3",
+    "size": 986,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752370Z"
+  },
+  {
+    "path": "core/task-global-resilience-audit.json",
+    "hash": "da0e3cca9d4014741f38d22904165e95",
+    "size": 663,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752378Z"
+  },
+  {
+    "path": "core/task-ongoing-validation-cycle.json",
+    "hash": "43231fb44f1757aa56606eab681ff050",
+    "size": 422,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752382Z"
+  },
+  {
+    "path": "core/task-restructure-root-layout.json",
+    "hash": "1f2e352949fc239f88ab63c11cd225da",
+    "size": 422,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752387Z"
+  },
+  {
+    "path": "core/task-runtime-scale-docbot.json",
+    "hash": "cafd68e852e196508889f32d88a7b1dc",
+    "size": 1102,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752398Z"
+  },
+  {
+    "path": "core/task-runtime-scale-feedbacker.json",
+    "hash": "bd46729627a9eef0c501d69378c5d7b2",
+    "size": 1110,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752404Z"
+  },
+  {
+    "path": "core/task-runtime-scale-forecaster.json",
+    "hash": "6900fbd7fe3fa0778a61436a8ae19e9c",
+    "size": 1110,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752413Z"
+  },
+  {
+    "path": "core/task-runtime-scale-planner.json",
+    "hash": "a1d986ddc3a6235af9d5676667ebbad0",
+    "size": 1104,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752419Z"
+  },
+  {
+    "path": "core/task-runtime-scale-schemaenforcer.json",
+    "hash": "cd8b6fbab732cd840f9a4cb2984e83bc",
+    "size": 1118,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752425Z"
+  },
+  {
+    "path": "core/task-seed-docbot-phase-task.json",
+    "hash": "df9ad572b5baa649118895e6573b2b18",
+    "size": 1108,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752431Z"
+  },
+  {
+    "path": "core/task-seed-feedbacker-phase-task.json",
+    "hash": "0a4ecc81b07e91729d2a2023f478ab73",
+    "size": 1124,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752437Z"
+  },
+  {
+    "path": "core/task-seed-forecaster-phase-task.json",
+    "hash": "69435ec0602b016589bd1ece80ec0f0f",
+    "size": 1124,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752443Z"
+  },
+  {
+    "path": "core/task-seed-planner-phase-task.json",
+    "hash": "07aeed0bb7a78646206f1d3d98198c48",
+    "size": 1112,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752449Z"
+  },
+  {
+    "path": "core/task-seed-schemaenforcer-phase-task.json",
+    "hash": "3e5a02ba44214614f90b7017fd525dac",
+    "size": 1140,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752455Z"
+  },
+  {
+    "path": "core/task-simulate-zone-relay.json",
+    "hash": "94a133a3342e6d042cd48e45b896f2ce",
+    "size": 1146,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752461Z"
+  },
+  {
+    "path": "core/task-task-tbd.json",
+    "hash": "2a74af77656a11e9a03a8861a487c913",
+    "size": 989,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752468Z"
+  },
+  {
+    "path": "core/checklists/user-live-session-checklist.yaml",
+    "hash": "366e8db38de7c89a347c59a21a451aea",
+    "size": 346,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752473Z"
+  },
+  {
+    "path": "core/conversational/debate.json",
+    "hash": "2c478341f343a80f27ab851383513c79",
+    "size": 1049,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752479Z"
+  },
+  {
+    "path": "core/evaluation/calculate-agent-evolution-score.json",
+    "hash": "1aba36bf5bc0b3ab5435e64fb9be09d8",
+    "size": 1202,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752485Z"
+  },
+  {
+    "path": "core/evaluation/plan-retrospective.json",
+    "hash": "26119add1ad271ac7232c00b33753632",
+    "size": 1048,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752491Z"
+  },
+  {
+    "path": "core/evaluation/sandbox-replay.json",
+    "hash": "de73a2e6257d99671a8a5abbb0741971",
+    "size": 1165,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752497Z"
+  },
+  {
+    "path": "core/governance/enforce-resilience-logic.json",
+    "hash": "9e1ef266c02b3995625cfdb8c5b0a676",
+    "size": 1061,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752502Z"
+  },
+  {
+    "path": "core/governance/validate-upgrade-proposals.json",
+    "hash": "78c75b67c8fcce76291d75c487125cb2",
+    "size": 1133,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752512Z"
+  },
+  {
+    "path": "core/identities/user.yaml",
+    "hash": "085228ac06ff09a0c0b7a02683fba4ea",
+    "size": 428,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752703Z"
+  },
+  {
+    "path": "core/operational/feature-sync-and-memory-audit.json",
+    "hash": "c058bb0649cf22df1239cfeec87be7a8",
+    "size": 1147,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752712Z"
+  },
+  {
+    "path": "core/operational/finalize-project-integrity.json",
+    "hash": "b7e5fd2671ba4227fa6d73dc390cdedd",
+    "size": 8198,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752766Z"
+  },
+  {
+    "path": "core/operational/lifecycle.json",
+    "hash": "06a061c80b905150db372f0c5f16d63a",
+    "size": 831,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752775Z"
+  },
+  {
+    "path": "core/operational/llm-session-router.json",
+    "hash": "f099ad2ed1a60648d0763fc2ded6beda",
+    "size": 1110,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752786Z"
+  },
+  {
+    "path": "core/operational/pattern-audit.json",
+    "hash": "97a9ca75e2b15cbc23393b38100f4863",
+    "size": 1181,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752794Z"
+  },
+  {
+    "path": "core/operational/routine-gap-detection.json",
+    "hash": "3173b2dbfcafe0eb398c5fa8cf1a3332",
+    "size": 971,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752804Z"
+  },
+  {
+    "path": "core/operational/routine-manifest.json",
+    "hash": "baf48252368b1206d19cfe31e887f825",
+    "size": 8135,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752857Z"
+  },
+  {
+    "path": "core/operational/routine-metadata.json",
+    "hash": "55bca69ae6f040f6fc9bf8a646abe669",
+    "size": 955,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752864Z"
+  },
+  {
+    "path": "core/operational/self-healing-memory-sync.json",
+    "hash": "bd75647c9be635cd6f4ea31d3c4491e9",
+    "size": 1120,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752870Z"
+  },
+  {
+    "path": "core/operational/self-introspection.json",
+    "hash": "de3d26ff0a59ff198fcb55b65bff9f8e",
+    "size": 1157,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752878Z"
+  },
+  {
+    "path": "core/operational/self-review-hook.json",
+    "hash": "46b243bad274d7085bbb4d1981c7dcb8",
+    "size": 1051,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752886Z"
+  },
+  {
+    "path": "core/operational/sync-memory-feature-map.json",
+    "hash": "9347f4b68bfbffe41e8fd580950c1973",
+    "size": 1121,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752896Z"
+  },
+  {
+    "path": "core/operational/system-evolve-cycle.json",
+    "hash": "20c717d0feadabd3df75903223abd7d4",
+    "size": 1069,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752905Z"
+  },
+  {
+    "path": "core/operational/validate-canonical-models.json",
+    "hash": "e6d08f0701e0bf874778ee5b67cc4629",
+    "size": 1171,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752912Z"
+  },
+  {
+    "path": "core/operational/validate-full-framework-state.json",
+    "hash": "b5f4ffe23fbb96de18c36f8f67b5c24e",
+    "size": 1171,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752918Z"
+  },
+  {
+    "path": "core/operational/validate-project-structure.json",
+    "hash": "66dfb9f7b6fdbc99446ace6091fb735a",
+    "size": 1089,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752924Z"
+  },
+  {
+    "path": "core/routines/full-system-stabilization.yaml",
+    "hash": "2276deac9001970e8b3a6eb9d8c554d7",
+    "size": 1005,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752933Z"
+  },
+  {
+    "path": "core/routines/live-deployment-feedback-cycle.yaml",
+    "hash": "04c825a0bc4d4a7252cf1d32d49d2a6c",
+    "size": 356,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752946Z"
+  },
+  {
+    "path": "core/routines/root-collab-validation.yaml",
+    "hash": "df964733e3958189d1c25c8702bc03f4",
+    "size": 922,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752952Z"
+  },
+  {
+    "path": "core/tasks/task-agent-alignment-scan.json",
+    "hash": "8bcf215d63c280ff6c963bf6a321a291",
+    "size": 342,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752956Z"
+  },
+  {
+    "path": "core/tasks/task-agent-goal-generation.json",
+    "hash": "18d32912a2808479877e877e73f397da",
+    "size": 407,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752961Z"
+  },
+  {
+    "path": "core/tasks/task-audit-v21-before-v22.json",
+    "hash": "b67793ece476f3a3975205abde8b213f",
+    "size": 377,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752966Z"
+  },
+  {
+    "path": "core/tasks/task-begin-v23-cycle.json",
+    "hash": "ae16abc3c08775058c333eec27e3d72a",
+    "size": 301,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752971Z"
+  },
+  {
+    "path": "core/tasks/task-continuous-evolution-cycle.json",
+    "hash": "6169fb5a3796ff1352639d08e62054f8",
+    "size": 409,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752975Z"
+  },
+  {
+    "path": "core/tasks/task-create-pipeline-folder.json",
+    "hash": "d92f66fd881d9d0f3b836ff7219633e1",
+    "size": 355,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752980Z"
+  },
+  {
+    "path": "core/tasks/task-discovery-intent-cycle.json",
+    "hash": "99a441e99332d2f99e6aee107d1f343a",
+    "size": 359,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752985Z"
+  },
+  {
+    "path": "core/tasks/task-docbot-onboarding-doc.json",
+    "hash": "3006114d62507e3f4732fb5ab43987c4",
+    "size": 337,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752990Z"
+  },
+  {
+    "path": "core/tasks/task-docbot-summary-cards.json",
+    "hash": "633c3d58da22189c287d7f7ccd94c4a4",
+    "size": 295,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752994Z"
+  },
+  {
+    "path": "core/tasks/task-docbot-version-changelog.json",
+    "hash": "159fa955ad251ddbfbf23f2040dc4163",
+    "size": 316,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.752999Z"
+  },
+  {
+    "path": "core/tasks/task-document-folder-structure-guidelines.json",
+    "hash": "ae0f9f7348479fa57532e895dfb575ad",
+    "size": 471,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753004Z"
+  },
+  {
+    "path": "core/tasks/task-enhance-file-router-metadata.json",
+    "hash": "8c0a5a41006ce31a4c919675f07a6284",
+    "size": 474,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753008Z"
+  },
+  {
+    "path": "core/tasks/task-expand-longterm-agents.json",
+    "hash": "3592fd3b94c6abd22615e3428fab5dcf",
+    "size": 360,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753013Z"
+  },
+  {
+    "path": "core/tasks/task-feedback-loop-from-user.json",
+    "hash": "75bb91d898a6e854f4578f8e3fa888d8",
+    "size": 338,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753018Z"
+  },
+  {
+    "path": "core/tasks/task-feedbacker-anomaly-detection.json",
+    "hash": "45895e4f459a80cab93ffb38a917b7c8",
+    "size": 309,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753025Z"
+  },
+  {
+    "path": "core/tasks/task-feedbacker-monthly-summary.json",
+    "hash": "aefcbe4e0f071357ed54ce7483346dcd",
+    "size": 307,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753031Z"
+  },
+  {
+    "path": "core/tasks/task-feedbacker-trend-analysis.json",
+    "hash": "4bfd0b6fce0936874717383c62c73435",
+    "size": 300,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753044Z"
+  },
+  {
+    "path": "core/tasks/task-fix-missing-core-agents.json",
+    "hash": "c5c93e2d4a0a66e06cdb2144cead907b",
+    "size": 306,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753051Z"
+  },
+  {
+    "path": "core/tasks/task-framework-live-deployment-mode.json",
+    "hash": "da2bc86f9a6807e0e1d282dfae990fe9",
+    "size": 376,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753058Z"
+  },
+  {
+    "path": "core/tasks/task-generate-file-router.json",
+    "hash": "d0dde5eaf670a6ac8164b66aec251531",
+    "size": 345,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753063Z"
+  },
+  {
+    "path": "core/tasks/task-implement-cross-reference-system.json",
+    "hash": "e5baa6fde6f49f07c7bd849cc9419fef",
+    "size": 468,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753068Z"
+  },
+  {
+    "path": "core/tasks/task-llm-context-suggestions.json",
+    "hash": "a5c6e045e40d5d4a8abc08c6ec0588b9",
+    "size": 325,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753072Z"
+  },
+  {
+    "path": "core/tasks/task-llm-memory-tracker.json",
+    "hash": "71d68bba72315f0dfe582eb3a15873e6",
+    "size": 312,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753077Z"
+  },
+  {
+    "path": "core/tasks/task-llm-routing-runtime.json",
+    "hash": "bc3dd073cb6c79fb02dec5cd6601604f",
+    "size": 340,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753082Z"
+  },
+  {
+    "path": "core/tasks/task-log-replay-for-improvement.json",
+    "hash": "f59d4f74f300ccf50fc314f32a3bcf6b",
+    "size": 354,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753086Z"
+  },
+  {
+    "path": "core/tasks/task-planner-milestone-calendar.json",
+    "hash": "72e348c2950828126bc6cea80c0ee753",
+    "size": 320,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753091Z"
+  },
+  {
+    "path": "core/tasks/task-planner-task-grouping.json",
+    "hash": "72d7b1d9a8ed449d326417a0ab01eea9",
+    "size": 337,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753095Z"
+  },
+  {
+    "path": "core/tasks/task-planner-timeline-cycles.json",
+    "hash": "b9f0ac71dc4f7103f57c76c022e5d0b2",
+    "size": 323,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753100Z"
+  },
+  {
+    "path": "core/tasks/task-rebuild-core-structure.json",
+    "hash": "775a47f74f879f781142a15377238f2b",
+    "size": 392,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753106Z"
+  },
+  {
+    "path": "core/tasks/task-refactor-root-structure.json",
+    "hash": "c51658554743fa81352a904ee53072e2",
+    "size": 369,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753111Z"
+  },
+  {
+    "path": "core/tasks/task-regenerate-file-router.json",
+    "hash": "3e52bb5e36e95a74d341c79fce13f89c",
+    "size": 329,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753115Z"
+  },
+  {
+    "path": "core/tasks/task-review-checklist-coverage.json",
+    "hash": "0a3d6983ebf6551c0f1e206550cbc071",
+    "size": 476,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753119Z"
+  },
+  {
+    "path": "core/tasks/task-runtime-discovery-metadata-update.json",
+    "hash": "8f8c6efcb7befe9d72fc24585651326d",
+    "size": 514,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753124Z"
+  },
+  {
+    "path": "core/tasks/task-schema-diff-viewer.json",
+    "hash": "f234dc2ab282ab2f656cc020a65d269b",
+    "size": 306,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753129Z"
+  },
+  {
+    "path": "core/tasks/task-schema-runtime-validation.json",
+    "hash": "70b6b46db7313a4a38a5fe22a40c8e9f",
+    "size": 313,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753137Z"
+  },
+  {
+    "path": "core/tasks/task-schema-version-lock.json",
+    "hash": "505e2552a6f06679a575b84cd07d32d7",
+    "size": 304,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753141Z"
+  },
+  {
+    "path": "core/tasks/task-setup-metadata-validation-pipeline.json",
+    "hash": "53a801d843566677b31e6036d5364599",
+    "size": 497,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753146Z"
+  },
+  {
+    "path": "core/tasks/task-simulate-onboarding-sequence.json",
+    "hash": "9dc0d5a26c010d846fc57df334e75338",
+    "size": 436,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753151Z"
+  },
+  {
+    "path": "core/tasks/task-snapshot-live-user-release.json",
+    "hash": "9e106d45fe54e5aafc27853f9b4b15ed",
+    "size": 371,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753156Z"
+  },
+  {
+    "path": "core/tasks/task-task-tbd.json",
+    "hash": "143448786bceec338f370f2893538214",
+    "size": 209,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753161Z"
+  },
+  {
+    "path": "core/tasks/task-trigger-user-checklist.json",
+    "hash": "cc923b12d09d5cd9a39f1e7736299f9a",
+    "size": 494,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753165Z"
+  },
+  {
+    "path": "core/tasks/task-update-checklist-doc-links.json",
+    "hash": "ee0883b71bae86d65b112fa64d28cae0",
+    "size": 486,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753170Z"
+  },
+  {
+    "path": "core/tasks/task-user-goal-setting.json",
+    "hash": "1e3b369b24ede8c370b9bcd0c377dcd1",
+    "size": 325,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753174Z"
+  },
+  {
+    "path": "deployment/cluster-zones.json",
+    "hash": "96736b0d637b2217f0092dfe2e5ffc94",
+    "size": 1099,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753180Z"
+  },
+  {
+    "path": "deployment/deploy-config.json",
+    "hash": "7c9220e21fdf5e5d8fa7b519deb44949",
+    "size": 954,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753185Z"
+  },
+  {
+    "path": "diary/agent.json",
+    "hash": "d114e2f9241f743169cc3c2861d155b3",
+    "size": 83,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753190Z"
+  },
+  {
+    "path": "diary/human.json",
+    "hash": "6e87b4324df814356941eb6930641cc5",
+    "size": 328,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753194Z"
+  },
+  {
+    "path": "docs/api-schema.yaml",
+    "hash": "7b075d381cdf373e0c084d551945b6eb",
+    "size": 287,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753199Z"
+  },
+  {
+    "path": "docs/cli-dashboard.md",
+    "hash": "268048e74df459534385e266a537dbf4",
+    "size": 1096,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753205Z"
+  },
+  {
+    "path": "docs/context-coherence-loop.md",
+    "hash": "42ad805c8840280c2b64fa8af36ba18c",
+    "size": 329,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753210Z"
+  },
+  {
+    "path": "docs/design-principles.md",
+    "hash": "df1c9682079a086ababfda74d69ac493",
+    "size": 489,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753214Z"
+  },
+  {
+    "path": "docs/dev-diary.md",
+    "hash": "bbfd8ca96ba036644f41a76175e5f544",
+    "size": 28295,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753790Z"
+  },
+  {
+    "path": "docs/evaluation.md",
+    "hash": "374740ed5abb6afe11d0700c67ceee9c",
+    "size": 3786,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753827Z"
+  },
+  {
+    "path": "docs/example-workflows.md",
+    "hash": "60e4221085bef3db004eac0fa6040f38",
+    "size": 283,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753850Z"
+  },
+  {
+    "path": "docs/external-integration.md",
+    "hash": "4030dd2adf0313066a5d1de657e9ceb7",
+    "size": 1121,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753858Z"
+  },
+  {
+    "path": "docs/feedback-summary-v17.md",
+    "hash": "dce9be96af009df351b04fe40abbae25",
+    "size": 618,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753864Z"
+  },
+  {
+    "path": "docs/final_comprehensive_project_summary.md",
+    "hash": "8aaba51d490467e0b229bd48c871bc31",
+    "size": 953,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753874Z"
+  },
+  {
+    "path": "docs/folder-structure-proposal.md",
+    "hash": "511cb34853636677ecd6f467c65d6468",
+    "size": 1157,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753883Z"
+  },
+  {
+    "path": "docs/forecast-history.md",
+    "hash": "99fc6526fa791abce4c86d59d05c885b",
+    "size": 973,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753890Z"
+  },
+  {
+    "path": "docs/forecast.md",
+    "hash": "475212189c0e1e7c9f5f78a42720c635",
+    "size": 1167,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753897Z"
+  },
+  {
+    "path": "docs/governance.md",
+    "hash": "e4a8de61c9a43d7e1e2f630c441e463d",
+    "size": 1157,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753904Z"
+  },
+  {
+    "path": "docs/how-to-add-agent.md",
+    "hash": "d1357b474b7f26678c1f90674eb3ee77",
+    "size": 414,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753909Z"
+  },
+  {
+    "path": "docs/how-to-assume-agent.md",
+    "hash": "30d80032e2dd7ac9e9c8edd7b561afa9",
+    "size": 378,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753913Z"
+  },
+  {
+    "path": "docs/how-to-extend-pipeline.md",
+    "hash": "9e3b6887cb4a16a6f192b254b2d52a2b",
+    "size": 270,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753918Z"
+  },
+  {
+    "path": "docs/intent-discovery-v18.json",
+    "hash": "cce1ec704206c8ea56d4a3bd446456d0",
+    "size": 758,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753924Z"
+  },
+  {
+    "path": "docs/intent-discovery-v19.json",
+    "hash": "8d4de9040f71e43589a95f27eb396188",
+    "size": 725,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753929Z"
+  },
+  {
+    "path": "docs/intents.md",
+    "hash": "a3206a1bb92b2ae485f30b06e4e33c51",
+    "size": 1067,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753937Z"
+  },
+  {
+    "path": "docs/memory-api.md",
+    "hash": "b728479c144eca92b79c39008ca38fc9",
+    "size": 1123,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753959Z"
+  },
+  {
+    "path": "docs/memory-runner-docs.md",
+    "hash": "f11f7d69f6e69ee5f222149df2a38405",
+    "size": 1202,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.753969Z"
+  },
+  {
+    "path": "docs/navigation-index.json",
+    "hash": "3e591a74705c98fa5e61bd5634d9e22b",
+    "size": 74082,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754159Z"
+  },
+  {
+    "path": "docs/plan.md",
+    "hash": "c318144e1ecd4c5fff80d6ecd5abb35a",
+    "size": 1320,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754166Z"
+  },
+  {
+    "path": "docs/PROJECT-TASKS.md",
+    "hash": "ff1d267c791144e42ac5b03c43f2bdfe",
+    "size": 1361,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754178Z"
+  },
+  {
+    "path": "docs/quick-pipeline-format.md",
+    "hash": "0c06678daebb58f36e420b405dd1b50e",
+    "size": 281,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754184Z"
+  },
+  {
+    "path": "docs/README-HUMAN.md",
+    "hash": "e153ff2017a8bc434ef7cddbf0c80b62",
+    "size": 808,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754191Z"
+  },
+  {
+    "path": "docs/README-LLM.md",
+    "hash": "52057bae25e46c387c10bfc0dfa9ed1a",
+    "size": 373,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754196Z"
+  },
+  {
+    "path": "docs/README-ONBOARDING.md",
+    "hash": "c2203805a00573dbae544fce6b5ed112",
+    "size": 1624,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754207Z"
+  },
+  {
+    "path": "docs/README-QUICK-PIPELINE.md",
+    "hash": "8a9545bfbd293d1d40f1eedba176efaa",
+    "size": 2271,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754221Z"
+  },
+  {
+    "path": "docs/README.md",
+    "hash": "2e9f80f8a3046fe1dbb678bcd70fd92e",
+    "size": 1173,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754231Z"
+  },
+  {
+    "path": "docs/registered-template.json",
+    "hash": "77091dfb724695c8d7f6277528fa3a38",
+    "size": 386,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754236Z"
+  },
+  {
+    "path": "docs/reviewkeeper-report.md",
+    "hash": "ec0604a91d287e67c6b48a046c4ca5ec",
+    "size": 549,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754242Z"
+  },
+  {
+    "path": "docs/roadmap-agent-goal-proposals.json",
+    "hash": "bcadec7d0c8250b5cac92ec3f50f7bfc",
+    "size": 549,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754247Z"
+  },
+  {
+    "path": "docs/roadmap-matrix.md",
+    "hash": "9c755825a57e980cddcd9fa54e285176",
+    "size": 1734,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754259Z"
+  },
+  {
+    "path": "docs/roadmap.md",
+    "hash": "3f23cc02833ddc159ab7b96f7525fe19",
+    "size": 1730,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754267Z"
+  },
+  {
+    "path": "docs/router-schema-reference.md",
+    "hash": "d92ea4a50121badc8dfe7c9960e4e35a",
+    "size": 599,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754272Z"
+  },
+  {
+    "path": "docs/routines-index.md",
+    "hash": "e3e6844d84ac58648db66bec73e7cc06",
+    "size": 367,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754277Z"
+  },
+  {
+    "path": "docs/system-checklist.md",
+    "hash": "f12575c40e00fdc75e68af9294e74749",
+    "size": 284,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754281Z"
+  },
+  {
+    "path": "docs/system-index.json",
+    "hash": "ed857ac4c190c9ee7c228f8eb67d16dd",
+    "size": 1016,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754287Z"
+  },
+  {
+    "path": "docs/system-resilience-checklist.md",
+    "hash": "5d786e86c83f242bb77141c0ba8769d1",
+    "size": 380,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754292Z"
+  },
+  {
+    "path": "docs/task-dependencies.md",
+    "hash": "cd8b1a5e4f28611b309a019eb8e7a79a",
+    "size": 1208,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754298Z"
+  },
+  {
+    "path": "docs/task-graph-doc.md",
+    "hash": "ecd6f829e03419ea044b6a890ce7c393",
+    "size": 1024,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754353Z"
+  },
+  {
+    "path": "docs/webhook-integration.md",
+    "hash": "9db6e33619043899bcfef2cf96ef45fa",
+    "size": 1056,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754359Z"
+  },
+  {
+    "path": "evaluation-results/bootstrap/eval.json",
+    "hash": "77efcf997fd423d63d246d7dce0fe0e1",
+    "size": 219,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754365Z"
+  },
+  {
+    "path": "features/feature-map.json",
+    "hash": "25954d58abce7709f46e93e3240be80e",
+    "size": 4752,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754377Z"
+  },
+  {
+    "path": "feedback-cards/audit-agent-card.json",
+    "hash": "24c4032497e61f4aade43abbc48b31b7",
+    "size": 118,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754382Z"
+  },
+  {
+    "path": "feedback-cards/bootstrap-agent-card.json",
+    "hash": "68fdb5e680f3ad8ddd137c76f9f5c06b",
+    "size": 122,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754394Z"
+  },
+  {
+    "path": "feedback-cards/evolve-agent-card.json",
+    "hash": "96e73517adb7d3c907d72c70e6da6a86",
+    "size": 119,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754399Z"
+  },
+  {
+    "path": "feedback-cards/orchestrator-agent-card.json",
+    "hash": "2daa10d8c451423d5a68765b87f16e98",
+    "size": 125,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754405Z"
+  },
+  {
+    "path": "feedback-cards/planner-agent-card.json",
+    "hash": "32977a5ba84cb266d25478ec2cc3bef2",
+    "size": 120,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754411Z"
+  },
+  {
+    "path": "feedback-cards/proposal-review-agent-card.json",
+    "hash": "3417bf13fd2ce1e537646733e9f286b1",
+    "size": 128,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754418Z"
+  },
+  {
+    "path": "feedback-cards/recovery-agent-card.json",
+    "hash": "c37bad1bef8f48775af123689d767734",
+    "size": 121,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754424Z"
+  },
+  {
+    "path": "feedback-cards/router-agent-card.json",
+    "hash": "f1d4e57c31487029ca594bdca214543c",
+    "size": 119,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754430Z"
+  },
+  {
+    "path": "feedback-cards/tasking-agent-card.json",
+    "hash": "b01bb09252b7c5b442309979ce62e7bf",
+    "size": 120,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754435Z"
+  },
+  {
+    "path": "feedbacks/feedback-docbot.json",
+    "hash": "bf90f19022a3e725d6eb5032521a81eb",
+    "size": 161,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754439Z"
+  },
+  {
+    "path": "feedbacks/feedback-feedbacker.json",
+    "hash": "df5fa807e40fa9a3955853c53830296f",
+    "size": 169,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754444Z"
+  },
+  {
+    "path": "feedbacks/feedback-forecaster.json",
+    "hash": "75466b1a5cc97f07dfcac64229ec5482",
+    "size": 169,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754448Z"
+  },
+  {
+    "path": "feedbacks/feedback-planner.json",
+    "hash": "929a070f64d998fcd4eb0248e436f1b1",
+    "size": 163,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754452Z"
+  },
+  {
+    "path": "feedbacks/feedback-schemaenforcer.json",
+    "hash": "20e06d02ba13c8e00bc3062833524576",
+    "size": 177,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754464Z"
+  },
+  {
+    "path": "forecasts/forecast-docbot.json",
+    "hash": "0a95275f08c4137a5ef5343271ddc56f",
+    "size": 176,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754469Z"
+  },
+  {
+    "path": "forecasts/forecast-feedbacker.json",
+    "hash": "ccaf0eeee8699054f418876f338fb4fc",
+    "size": 182,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754473Z"
+  },
+  {
+    "path": "forecasts/forecast-forecaster.json",
+    "hash": "4cc0235febf2dce7d5263dabbcc01524",
+    "size": 187,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754478Z"
+  },
+  {
+    "path": "forecasts/forecast-planner.json",
+    "hash": "3bb787f863c228ecaeffe8c4c3f25d71",
+    "size": 206,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754482Z"
+  },
+  {
+    "path": "forecasts/forecast-schemaenforcer.json",
+    "hash": "b5929db236558f679173e29a010c9850",
+    "size": 209,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754589Z"
+  },
+  {
+    "path": "forecasts/bootstrap-agent/timeline-memory.json",
+    "hash": "0edaef9b964ee0d4f36a2c606674ec73",
+    "size": 206,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754602Z"
+  },
+  {
+    "path": "framework/agents/docbot.md",
+    "hash": "e48bde8d226ed5817f87232266875a11",
+    "size": 352,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754610Z"
+  },
+  {
+    "path": "framework/agents/structurekeeper.md",
+    "hash": "f9dfda7c8618d023d458928e289aa04f",
+    "size": 327,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754617Z"
+  },
+  {
+    "path": "framework/checklists/advanced-checklist.md",
+    "hash": "0e7003fed0e0fcdd47e849285602343d",
+    "size": 254,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754624Z"
+  },
+  {
+    "path": "framework/checklists/cli-interface-checklist.md",
+    "hash": "7357bf8e54277980ab0142817462fa04",
+    "size": 188,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754630Z"
+  },
+  {
+    "path": "framework/checklists/docbot-checklist.md",
+    "hash": "6d89bdf9429154deb4495bb45b32a3ae",
+    "size": 477,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754638Z"
+  },
+  {
+    "path": "framework/checklists/docs-restructure-checklist.md",
+    "hash": "8bb4f08489edf8fd2b52821383fe95cd",
+    "size": 381,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754642Z"
+  },
+  {
+    "path": "framework/checklists/expansion-checklist.md",
+    "hash": "77dbf1be8794a0f911e9b0acf677bbc8",
+    "size": 295,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754647Z"
+  },
+  {
+    "path": "framework/checklists/external-integration-checklist.md",
+    "hash": "6c1612d0a72c32cd98da467c6affcfc4",
+    "size": 217,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754653Z"
+  },
+  {
+    "path": "framework/checklists/feedbacker-checklist.md",
+    "hash": "cf5aeab5c21e6da24d161a2fa178a77e",
+    "size": 497,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754658Z"
+  },
+  {
+    "path": "framework/checklists/forecaster-checklist.md",
+    "hash": "7523f53ac8bb634634996d0a2fca175d",
+    "size": 497,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754663Z"
+  },
+  {
+    "path": "framework/checklists/integration-graph-checklist.md",
+    "hash": "0fe66007ab8ff3a2f651c545de66f2ed",
+    "size": 310,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754668Z"
+  },
+  {
+    "path": "framework/checklists/memory-enhancement-checklist.md",
+    "hash": "1b6bf51eac46aa6dbda7e48e8a8a862f",
+    "size": 227,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754672Z"
+  },
+  {
+    "path": "framework/checklists/planner-checklist.md",
+    "hash": "509064769fbf26b2ebcaf7b9e2151435",
+    "size": 482,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754676Z"
+  },
+  {
+    "path": "framework/checklists/planner-feedback-forecast-checklist.md",
+    "hash": "d32524a80282b25d001178bf5060fd93",
+    "size": 277,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754689Z"
+  },
+  {
+    "path": "framework/checklists/reviewkeeper-checklist.md",
+    "hash": "565026b07aa649225ec2bb04ba82cead",
+    "size": 370,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754694Z"
+  },
+  {
+    "path": "framework/checklists/runner-and-memory-checklist.md",
+    "hash": "5fd434013bb04a7edb08214a839c5b08",
+    "size": 249,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754700Z"
+  },
+  {
+    "path": "framework/checklists/schemaenforcer-checklist.md",
+    "hash": "1bbbd5df964d414a64ee67a23e9acc1f",
+    "size": 517,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754707Z"
+  },
+  {
+    "path": "framework/checklists/structurekeeper-checklist.md",
+    "hash": "944f627e59df1ed56c4b9433e1a1b727",
+    "size": 428,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754714Z"
+  },
+  {
+    "path": "framework/execution/AGENT_LOG.md",
+    "hash": "812a3eefb4c43872cf9d129fa068a1e5",
+    "size": 4852,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754730Z"
+  },
+  {
+    "path": "framework/execution/TASK_EXECUTION_DASHBOARD.md",
+    "hash": "93e95665ae48eca07869d20c6f0cf0db",
+    "size": 669,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754742Z"
+  },
+  {
+    "path": "framework/identities/coveragebot.identity.md",
+    "hash": "99c219eee1f7c12b7695b1100343fea5",
+    "size": 300,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754749Z"
+  },
+  {
+    "path": "framework/identities/docbot.identity.md",
+    "hash": "d2ae2997e9d4c01554c317d28e8f347d",
+    "size": 454,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754757Z"
+  },
+  {
+    "path": "framework/identities/feedbacker.identity.md",
+    "hash": "0703aeff54e4ee64d830cb244d64b420",
+    "size": 252,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754762Z"
+  },
+  {
+    "path": "framework/identities/forecaster.identity.md",
+    "hash": "351ea85c5624a998719ed3c5fc5d1412",
+    "size": 337,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754766Z"
+  },
+  {
+    "path": "framework/identities/llmrouter.identity.md",
+    "hash": "70f43e711f9319413a6134cf3914faab",
+    "size": 408,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754772Z"
+  },
+  {
+    "path": "framework/identities/planner.identity.md",
+    "hash": "84c547b916d869d96c434dcc19d37ee3",
+    "size": 324,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754777Z"
+  },
+  {
+    "path": "framework/identities/realtime-llm-assistant.identity.md",
+    "hash": "07c21db0c5e77ef87c1df19ada7922ac",
+    "size": 715,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754786Z"
+  },
+  {
+    "path": "framework/identities/reviewkeeper.identity.md",
+    "hash": "50de10d7fe4859c198818ea5df72c701",
+    "size": 499,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754793Z"
+  },
+  {
+    "path": "framework/identities/schemaenforcer.identity.md",
+    "hash": "6e220103758ce87ce3e1f0c8a91fe2a6",
+    "size": 334,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754799Z"
+  },
+  {
+    "path": "framework/identities/structurekeeper.identity.md",
+    "hash": "c5b36e50a6e3441f0491e849ec76ed46",
+    "size": 415,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754807Z"
+  },
+  {
+    "path": "framework/memory/design-architecture-updates.md",
+    "hash": "39314a051ba7b89b322b63f484bfb269",
+    "size": 475,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754813Z"
+  },
+  {
+    "path": "framework/memory/framework-capabilities.md",
+    "hash": "235047174de289b109d8e14ccb55c19f",
+    "size": 1675,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754831Z"
+  },
+  {
+    "path": "framework/memory/project-mission-and-alignment.md",
+    "hash": "23c31799a8a322e19b3fc1eb816c4c3b",
+    "size": 3086,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754862Z"
+  },
+  {
+    "path": "framework/memory/project-review_structure-clarity.md",
+    "hash": "4d73c9d0c0d4507d21192d49cfe56974",
+    "size": 284,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754869Z"
+  },
+  {
+    "path": "framework/pipelines/agent_task_pipeline.yaml",
+    "hash": "5c6d2f689fcd4d5d1ce527f47efe2745",
+    "size": 361,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754876Z"
+  },
+  {
+    "path": "framework/pipelines/docbot-auto-pipeline.yaml",
+    "hash": "a879ac1938a2ad5d59aa341258c9d627",
+    "size": 135,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754883Z"
+  },
+  {
+    "path": "framework/pipelines/feedbacker-auto-pipeline.yaml",
+    "hash": "212a30a9cd37caa9af163397050c8dbe",
+    "size": 143,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754889Z"
+  },
+  {
+    "path": "framework/pipelines/forecaster-auto-pipeline.yaml",
+    "hash": "5bed3a2ad179cb070c89394f194a5885",
+    "size": 143,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754893Z"
+  },
+  {
+    "path": "framework/pipelines/planner-auto-pipeline.yaml",
+    "hash": "f508d52366113b2e068269fe62fda3e4",
+    "size": 137,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754897Z"
+  },
+  {
+    "path": "framework/pipelines/realtime-llm-pipeline.yaml",
+    "hash": "2ed528b78467a68c6d73240ddeb1d759",
+    "size": 341,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754902Z"
+  },
+  {
+    "path": "framework/pipelines/schemaenforcer-auto-pipeline.yaml",
+    "hash": "81f3504b632bebef956a8d6082482c9b",
+    "size": 151,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754906Z"
+  },
+  {
+    "path": "framework/reflections/universal-onboarding-reflection.md",
+    "hash": "93fed3ea84413e833959481509cb9bf6",
+    "size": 1711,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754918Z"
+  },
+  {
+    "path": "framework/routines/project-maintenance-sweep.yaml",
+    "hash": "5bd56279b58c319845c29dc5b41f291d",
+    "size": 332,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754922Z"
+  },
+  {
+    "path": "framework/routines/routine-feedbacker-weekly.yaml",
+    "hash": "c26c4d432460e30abce456b58160491f",
+    "size": 192,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754926Z"
+  },
+  {
+    "path": "framework/routines/routine-forecaster-monthly.yaml",
+    "hash": "43ba705a87c9426d387f1d9a4db23612",
+    "size": 163,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754930Z"
+  },
+  {
+    "path": "framework/routines/routine-realtime-llm.yaml",
+    "hash": "234c63fd79ce742e3884a7d4751cc302",
+    "size": 279,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754935Z"
+  },
+  {
+    "path": "framework/routines/routine-recovery-bootstrap.yaml",
+    "hash": "27c911d1046826064b1c5c35e1cb67e6",
+    "size": 308,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754939Z"
+  },
+  {
+    "path": "framework/specs/clustering-spec.md",
+    "hash": "e0d223e46b71e8079d12b0bf831bae25",
+    "size": 476,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754944Z"
+  },
+  {
+    "path": "framework/specs/collaborative-network-spec.md",
+    "hash": "543bd1f0b2f5aacdcbaa5fa064e2c113",
+    "size": 554,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754949Z"
+  },
+  {
+    "path": "framework/tasks/tasks.json",
+    "hash": "75f4300b48dbdc90de6e4fb603627086",
+    "size": 6964,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754971Z"
+  },
+  {
+    "path": "goals/goal-boot.json",
+    "hash": "9ea8dd45a981d001c883fb111abf1744",
+    "size": 187,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754975Z"
+  },
+  {
+    "path": "goals/goal-docbot-6aff77.json",
+    "hash": "6a224f2336d8676af20483342d655786",
+    "size": 356,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754980Z"
+  },
+  {
+    "path": "goals/goal-feedbacker-d6efda.json",
+    "hash": "a3c983e6889c6e79286ab6c7d088c9cb",
+    "size": 189,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754984Z"
+  },
+  {
+    "path": "goals/goal-forecaster-3adeea.json",
+    "hash": "02088cb3cfd759d61a93b0511525edfc",
+    "size": 180,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754988Z"
+  },
+  {
+    "path": "goals/goal-reviewkeeper-e833d4.json",
+    "hash": "ea3f2d53e6ba478b055712c09e30d343",
+    "size": 357,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754993Z"
+  },
+  {
+    "path": "goals/goal-roadmap-boot.json",
+    "hash": "1911700cd652e4829322851587ea7d86",
+    "size": 191,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.754997Z"
+  },
+  {
+    "path": "goals/goal-schemaenforcer-51f700.json",
+    "hash": "ff55b10eb42baf37083d9111851b055c",
+    "size": 356,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755001Z"
+  },
+  {
+    "path": "goals/goal-threads.json",
+    "hash": "0367adfcd130add72978f46799479bb7",
+    "size": 798,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755009Z"
+  },
+  {
+    "path": "goals/goal-timeline.json",
+    "hash": "71e5ebceae69abbf74f4de2ce712fc03",
+    "size": 727,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755017Z"
+  },
+  {
+    "path": "governance/co-creation-protocol.json",
+    "hash": "10f7d4c1fa3bcc28e5c65decdd5303e1",
+    "size": 601,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755025Z"
+  },
+  {
+    "path": "governance/lifecycle-policy.json",
+    "hash": "755a5d528e20a7af4a10245a3b21176c",
+    "size": 469,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755033Z"
+  },
+  {
+    "path": "governance/trust-orchestration.json",
+    "hash": "cab7de086bb8c41c7ef60da09f4e8248",
+    "size": 557,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755037Z"
+  },
+  {
+    "path": "governance/audit-trail/2025-04-06-generated.json",
+    "hash": "6282e08de7658f9cad56f890bd0f49e5",
+    "size": 156,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755041Z"
+  },
+  {
+    "path": "governance/rules/rule-agents-cannot-edit-pipeline-map.json",
+    "hash": "833667ed8585cd798efb1279a38f8194",
+    "size": 221,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755045Z"
+  },
+  {
+    "path": "intents/intent-evolve-system.json",
+    "hash": "3fd869b8bb2b0b229235f571baa0ed50",
+    "size": 361,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755050Z"
+  },
+  {
+    "path": "intents/intent-scale-multi-agent-runtime.json",
+    "hash": "93adac378faac9d2ccfe44c5dbda1d45",
+    "size": 412,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755054Z"
+  },
+  {
+    "path": "intents/intent-types.json",
+    "hash": "15be64eba1cfcd58eda9979d94648ad0",
+    "size": 115,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755058Z"
+  },
+  {
+    "path": "logs/evaluations/agent-evolution-scores.json",
+    "hash": "3d834255bd6996ca56b14ef7306abab7",
+    "size": 581,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755063Z"
+  },
+  {
+    "path": "logs/evaluations/upgrade-responses.json",
+    "hash": "a521812db2c9fc1c2eea87cc4dfab919",
+    "size": 510,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755068Z"
+  },
+  {
+    "path": "logs/executions/bootstrap-execution-001.json",
+    "hash": "c5fdf59cb35e0b50319eeb0b0a055f95",
+    "size": 518,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755073Z"
+  },
+  {
+    "path": "logs/executions/feature-audit.json",
+    "hash": "33ec74451791f4b8537a84ae0206bbd3",
+    "size": 504,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755078Z"
+  },
+  {
+    "path": "logs/executions/final-introspection.json",
+    "hash": "1e9e4f8870af368d4ae997635711ec41",
+    "size": 2245,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755086Z"
+  },
+  {
+    "path": "logs/executions/final-structural-feature-audit.json",
+    "hash": "bc1b90b4cac2af658fa3eaab1f5cebaf",
+    "size": 617,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755091Z"
+  },
+  {
+    "path": "logs/executions/introspection-report.json",
+    "hash": "bd99bcd674584ffb081792dee8fb8a38",
+    "size": 7230,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755111Z"
+  },
+  {
+    "path": "logs/executions/orchestration-simulation.json",
+    "hash": "51648a23c11091ae0cf131e14f0733b0",
+    "size": 479,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755115Z"
+  },
+  {
+    "path": "logs/executions/phase-8-routines.json",
+    "hash": "99a7c0eb6914e465f974d44579e02ba4",
+    "size": 720,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755121Z"
+  },
+  {
+    "path": "logs/executions/recovery-sync.json",
+    "hash": "4eb67695a35d7ee466bedd3181f380b0",
+    "size": 3527,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755132Z"
+  },
+  {
+    "path": "logs/executions/routine-audit-phase12.json",
+    "hash": "9efdf48bda02199e0cdae4a2536e0aa3",
+    "size": 282,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755136Z"
+  },
+  {
+    "path": "logs/executions/system-resilience-execution.json",
+    "hash": "60da7049a96c0b43c9869eb3ff8eee87",
+    "size": 427,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755140Z"
+  },
+  {
+    "path": "memory-bank/index.json",
+    "hash": "6d1c251101beb2d6ddee08d33efb4cb2",
+    "size": 7064,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755157Z"
+  },
+  {
+    "path": "memory-bank/memory-metadata.json",
+    "hash": "caf9301dc138dd25a35235bbd4047946",
+    "size": 509,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755162Z"
+  },
+  {
+    "path": "memory-bank/pattern-memory.json",
+    "hash": "1b99b537eb524ab451b9e473243385ab",
+    "size": 472,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755167Z"
+  },
+  {
+    "path": "memory-bank/audit-tasks/agent-group-improvement-tasks.json",
+    "hash": "1ad8f8ca71c7225bbbca4a6aac5b7012",
+    "size": 5348,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755183Z"
+  },
+  {
+    "path": "memory-bank/audit-tasks/agent-identity-review.json",
+    "hash": "696bed7c7c0e53e9460208715ac3955b",
+    "size": 4929,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755205Z"
+  },
+  {
+    "path": "memory-bank/audit-tasks/full-project-audit.json",
+    "hash": "006f7c125be32bba94f9a43cc95d951d",
+    "size": 758,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755211Z"
+  },
+  {
+    "path": "memory-bank/audit-tasks/full-resilience-audit.json",
+    "hash": "219804e522951d5626fff9cd3edf7db2",
+    "size": 3910,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755223Z"
+  },
+  {
+    "path": "memory-bank/evolving/pending-tasks.json",
+    "hash": "4d8c40fe75ca7a7c3b20d05dd55382f2",
+    "size": 39965,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755307Z"
+  },
+  {
+    "path": "memory-bank/fixed/phase-10-temporal.json",
+    "hash": "95abf7d28e38d5d94f58625794b39b90",
+    "size": 612,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755312Z"
+  },
+  {
+    "path": "memory-bank/fixed/phase-8-self-evolving.json",
+    "hash": "378e3995c78ef42b4a6935416728c7e7",
+    "size": 619,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755317Z"
+  },
+  {
+    "path": "memory-bank/fixed/phase-9-federation.json",
+    "hash": "1fa224a4823ffd362bb56d010d053c2b",
+    "size": 619,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755322Z"
+  },
+  {
+    "path": "meta/active-context.json",
+    "hash": "fe691ca51810b4048d4daecf4cc072a3",
+    "size": 327,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755327Z"
+  },
+  {
+    "path": "meta/file-router.json",
+    "hash": "a8b1f3f2a2cad5ec56cebf5342af2b47",
+    "size": 86937,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755565Z"
+  },
+  {
+    "path": "meta/intent.json",
+    "hash": "860421e36ff34c923a1dfc6662a9f329",
+    "size": 206,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755570Z"
+  },
+  {
+    "path": "missions/04-fork-a-plan.md",
+    "hash": "e8c03926a2af90608369e8d78c2eb80c",
+    "size": 315,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755574Z"
+  },
+  {
+    "path": "missions/onboarding.md",
+    "hash": "665e160abc4f6fa32de50a6a96db6b7f",
+    "size": 169,
+    "type": "md",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755578Z"
+  },
+  {
+    "path": "plans/agent-collab-performance-fork.json",
+    "hash": "1a0c836aa326c26b8742156dae87df00",
+    "size": 279,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755583Z"
+  },
+  {
+    "path": "plans/agent-collab-plan.json",
+    "hash": "85b5a29f33ff08d055a6288fea98c16f",
+    "size": 268,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755588Z"
+  },
+  {
+    "path": "plans/agent-srp-cleanup/plan.json",
+    "hash": "64857884ac97956c0a854bf605e30314",
+    "size": 341,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755592Z"
+  },
+  {
+    "path": "plans/agent-srp-cleanup/tasks.json",
+    "hash": "50ebc64af0bc31800b9fbf102f3a6a57",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755596Z"
+  },
+  {
+    "path": "plans/bootstrap/plan.json",
+    "hash": "bb04563780ec4493b74f074fc898d057",
+    "size": 207,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755601Z"
+  },
+  {
+    "path": "plans/bootstrap/tasks.json",
+    "hash": "50ebc64af0bc31800b9fbf102f3a6a57",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755605Z"
+  },
+  {
+    "path": "plans/extend-agent-abstractions/plan.json",
+    "hash": "783af4361ba38438d88eeb1fd488fde2",
+    "size": 314,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755610Z"
+  },
+  {
+    "path": "plans/extend-agent-abstractions/tasks.json",
+    "hash": "f3bb0165c388a26969533da2b7763057",
+    "size": 905,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755616Z"
+  },
+  {
+    "path": "plans/feature-audit/plan.json",
+    "hash": "5105a3ef55069bee5d366c77de4b1a1f",
+    "size": 357,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755620Z"
+  },
+  {
+    "path": "plans/feature-audit/tasks.json",
+    "hash": "50ebc64af0bc31800b9fbf102f3a6a57",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755624Z"
+  },
+  {
+    "path": "plans/final-audit-fix/plan.json",
+    "hash": "5ebb0e05b65f4afad1c99640ae78bb23",
+    "size": 356,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755629Z"
+  },
+  {
+    "path": "plans/final-audit-fix/tasks.json",
+    "hash": "50ebc64af0bc31800b9fbf102f3a6a57",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755633Z"
+  },
+  {
+    "path": "plans/fine-tune/plan.json",
+    "hash": "21c7834844f38b451f681c64febbd0c8",
+    "size": 469,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755637Z"
+  },
+  {
+    "path": "plans/fine-tune/tasks.json",
+    "hash": "50ebc64af0bc31800b9fbf102f3a6a57",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755641Z"
+  },
+  {
+    "path": "plans/fix-content/plan.json",
+    "hash": "af1a40036455bfbdd5e0730a5627d734",
+    "size": 329,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755646Z"
+  },
+  {
+    "path": "plans/fix-content/tasks.json",
+    "hash": "50ebc64af0bc31800b9fbf102f3a6a57",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755650Z"
+  },
+  {
+    "path": "plans/onboarding-agent-bootstrap/plan.json",
+    "hash": "51477965a44f6f739b03084595a7494f",
+    "size": 911,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755656Z"
+  },
+  {
+    "path": "plans/onboarding-agent-bootstrap/tasks.json",
+    "hash": "4454dac8556139de05df0b72083ab10d",
+    "size": 980,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755661Z"
+  },
+  {
+    "path": "plans/onboarding-refinement-patch/plan.json",
+    "hash": "0cf9d9e86518fc9336bffd244a5c7823",
+    "size": 1152,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755668Z"
+  },
+  {
+    "path": "plans/onboarding-refinement-patch/tasks.json",
+    "hash": "7766968eef5e42903b1b770319d4385f",
+    "size": 1250,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755675Z"
+  },
+  {
+    "path": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "hash": "a6e2f6ad5353ddc97e9df49a3624a002",
+    "size": 1175,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755681Z"
+  },
+  {
+    "path": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "hash": "12da554cff818f5f0213eb6dd04289a3",
+    "size": 2368,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755689Z"
+  },
+  {
+    "path": "plans/reuse-corrida-elements/plan.json",
+    "hash": "b41c1978df081809aee1e44105a9e7f3",
+    "size": 362,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755694Z"
+  },
+  {
+    "path": "plans/reuse-corrida-elements/tasks.json",
+    "hash": "50ebc64af0bc31800b9fbf102f3a6a57",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755697Z"
+  },
+  {
+    "path": "plans/root-collaboration-bootstrap/plan.json",
+    "hash": "26767533be51bad8e4b0d7f6fedc09ac",
+    "size": 1020,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755704Z"
+  },
+  {
+    "path": "plans/root-collaboration-bootstrap/tasks.json",
+    "hash": "f88ecddbfca23a88947a337e185887d7",
+    "size": 1535,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755711Z"
+  },
+  {
+    "path": "plans/self-evolve/retrospective-insights.json",
+    "hash": "e4c179c74193aad4780363f57481a3a5",
+    "size": 250,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755715Z"
+  },
+  {
+    "path": "plans/self-evolving/plan.json",
+    "hash": "ef99fb20326ebeb23e2fa3b4cf859369",
+    "size": 347,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755719Z"
+  },
+  {
+    "path": "plans/self-evolving/tasks.json",
+    "hash": "50ebc64af0bc31800b9fbf102f3a6a57",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755724Z"
+  },
+  {
+    "path": "plans/system-resilience/plan.json",
+    "hash": "a09366f77b32e5ef0639df9436461f42",
+    "size": 642,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755729Z"
+  },
+  {
+    "path": "plans/system-resilience/tasks.json",
+    "hash": "50ebc64af0bc31800b9fbf102f3a6a57",
+    "size": 278,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755733Z"
+  },
+  {
+    "path": "plans/template-pipeline-library/context-compression-pipeline.json",
+    "hash": "1fea647a6bf3cb75da4a2f91ccf3178f",
+    "size": 338,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755737Z"
+  },
+  {
+    "path": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "hash": "c776577afb09407b3d8bd40a1028c0e6",
+    "size": 531,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755742Z"
+  },
+  {
+    "path": "plans/template-pipeline-library/ethics-audit-pipeline.json",
+    "hash": "ab1ac254fdbb97297128e1baf0dc298d",
+    "size": 253,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755746Z"
+  },
+  {
+    "path": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "hash": "96f9c7f01eb4335585a8a4744c8261b9",
+    "size": 542,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755751Z"
+  },
+  {
+    "path": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "hash": "23c5ba9023651960bca3fdd551f164ed",
+    "size": 882,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755757Z"
+  },
+  {
+    "path": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "hash": "3ec967bc835ba6233eeb694c9173a5c6",
+    "size": 321,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755762Z"
+  },
+  {
+    "path": "plans/template-pipeline-library/routine-gap-detection-pipeline.json",
+    "hash": "13d4b95928b6da645dcb2c7910a8eeb5",
+    "size": 749,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755767Z"
+  },
+  {
+    "path": "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json",
+    "hash": "e4f57e31cb6c7a7b40694ec3c3b344cd",
+    "size": 951,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755772Z"
+  },
+  {
+    "path": "runtime/shared_memory/messages.json",
+    "hash": "de4ac809b157ff922baa4db6269b2570",
+    "size": 1395,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755785Z"
+  },
+  {
+    "path": "runtime/shared_memory/subscriptions.json",
+    "hash": "76ddff708c0fc419032788bbc7846b5e",
+    "size": 1021,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755794Z"
+  },
+  {
+    "path": "sandbox/sandbox-controller.json",
+    "hash": "007976b930283f597ac2c79b9eb51261",
+    "size": 185,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755819Z"
+  },
+  {
+    "path": "sandbox/sandbox-simulations.json",
+    "hash": "9d1aed3fb4bf5ce4a53e1aa5a6854800",
+    "size": 258,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755825Z"
+  },
+  {
+    "path": "sandbox/simulations/debate-vote-001.json",
+    "hash": "70522f5768d0d4753ea53ad746abef9f",
+    "size": 398,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755832Z"
+  },
+  {
+    "path": "sandbox/simulations/dryrun-001.json",
+    "hash": "a380c9f521426d37fa6f00cc3b8fbbcc",
+    "size": 352,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755838Z"
+  },
+  {
+    "path": "sandbox/simulations/fork-propagation-001.json",
+    "hash": "025630b3c6e6a82e128b8fda7809fe76",
+    "size": 325,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755845Z"
+  },
+  {
+    "path": "sandbox/simulations/memory-sync-corrida-001.json",
+    "hash": "996ace23ea0c5bae8d6f17a0ec66f2e4",
+    "size": 267,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755852Z"
+  },
+  {
+    "path": "sandbox/simulations/orchestrator-simulation-001.json",
+    "hash": "0d5e04653dd73f0d296afadb4c9c15a0",
+    "size": 293,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755859Z"
+  },
+  {
+    "path": "sandbox/simulations/planner-simulation-001.json",
+    "hash": "84a3c0079d2ce0e5ec9f8f1bd817136c",
+    "size": 1855,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755869Z"
+  },
+  {
+    "path": "sandbox/simulations/planner-thread-aware-001.json",
+    "hash": "cd24cde63804118caffbc9c2750ee58f",
+    "size": 563,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755876Z"
+  },
+  {
+    "path": "sandbox/simulations/retrospective-bootstrap.json",
+    "hash": "4d1a18e7528ad16521602936f4656bad",
+    "size": 439,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755881Z"
+  },
+  {
+    "path": "sandbox/simulations/sandbox-replay-001.json",
+    "hash": "abc9680aaee9d61b5af829b8de685a0d",
+    "size": 264,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755886Z"
+  },
+  {
+    "path": "sandbox/simulations/upgrade-pipeline-001.json",
+    "hash": "1095beb1d139c46c3f58f3e95e360e19",
+    "size": 728,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755891Z"
+  },
+  {
+    "path": "schemas/agent-evolution-score.json",
+    "hash": "187b344549bf68fe0c01959a67fda417",
+    "size": 264,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755896Z"
+  },
+  {
+    "path": "schemas/canonical-agent-instances.json",
+    "hash": "e56e694307159f94337568c8db258459",
+    "size": 3433,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755906Z"
+  },
+  {
+    "path": "schemas/canonical-agent-model-metadata.json",
+    "hash": "fbd18a45e1a46e78323bdc5d510c6a74",
+    "size": 198,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755912Z"
+  },
+  {
+    "path": "schemas/canonical-agent-model.json",
+    "hash": "f07a8d85cdefce2888b1fa2227a3ef96",
+    "size": 1124,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755921Z"
+  },
+  {
+    "path": "schemas/context-router.schema-lifecycle.json",
+    "hash": "656250eddd8713232d5c67674e802799",
+    "size": 69,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755927Z"
+  },
+  {
+    "path": "schemas/context-router.schema-metadata.json",
+    "hash": "3ac1dcde49f66dd9a99c3e328aac488b",
+    "size": 235,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755933Z"
+  },
+  {
+    "path": "schemas/context-router.schema.json",
+    "hash": "249acf4549cd987747f822e0ea1c37c5",
+    "size": 472,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755941Z"
+  },
+  {
+    "path": "schemas/debate-vote.json",
+    "hash": "e8a24f77f7b37700fc668ccf227b662b",
+    "size": 104,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755947Z"
+  },
+  {
+    "path": "schemas/feature.schema-lifecycle.json",
+    "hash": "656250eddd8713232d5c67674e802799",
+    "size": 69,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755953Z"
+  },
+  {
+    "path": "schemas/feature.schema-metadata.json",
+    "hash": "59464a235d58f7d8c3b6c62de77d923f",
+    "size": 228,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755959Z"
+  },
+  {
+    "path": "schemas/feature.schema.json",
+    "hash": "4dbcd1058d3812188e9953ce44043116",
+    "size": 740,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755966Z"
+  },
+  {
+    "path": "schemas/forkable-plan.json",
+    "hash": "c90b5ad5709fcf2376ce994fe5454699",
+    "size": 446,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755971Z"
+  },
+  {
+    "path": "schemas/lifecycle-metadata.json",
+    "hash": "6cc8ea9032e193accae68790035cd529",
+    "size": 212,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755975Z"
+  },
+  {
+    "path": "schemas/memory.schema.json",
+    "hash": "511b9489bc48faa4e2c6983ca1393c56",
+    "size": 1578,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755982Z"
+  },
+  {
+    "path": "schemas/pipeline.schema-lifecycle.json",
+    "hash": "656250eddd8713232d5c67674e802799",
+    "size": 69,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755986Z"
+  },
+  {
+    "path": "schemas/pipeline.schema-metadata.json",
+    "hash": "8e40dae2175a2f481ee46d2ce8a99055",
+    "size": 229,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755990Z"
+  },
+  {
+    "path": "schemas/pipeline.schema.json",
+    "hash": "68b07d823958f427147baee2e6555c2c",
+    "size": 454,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755994Z"
+  },
+  {
+    "path": "schemas/routine-manifest.schema-lifecycle.json",
+    "hash": "656250eddd8713232d5c67674e802799",
+    "size": 69,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.755998Z"
+  },
+  {
+    "path": "schemas/routine-manifest.schema-metadata.json",
+    "hash": "6aca0bbb4d329bf95c36425edecc6d22",
+    "size": 237,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756002Z"
+  },
+  {
+    "path": "schemas/routine-manifest.schema.json",
+    "hash": "533d559709db2537d23e20defe2bbf33",
+    "size": 387,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756007Z"
+  },
+  {
+    "path": "schemas/schema-index-lifecycle.json",
+    "hash": "656250eddd8713232d5c67674e802799",
+    "size": 69,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756010Z"
+  },
+  {
+    "path": "schemas/schema-index.json",
+    "hash": "c7774f37c3781cd97e3c965988eae73b",
+    "size": 279,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756015Z"
+  },
+  {
+    "path": "schemas/schema-metadata-metadata.json",
+    "hash": "f171919455ec2f158d3d98b84c0e866f",
+    "size": 229,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756020Z"
+  },
+  {
+    "path": "schemas/schema-metadata.json",
+    "hash": "303719bdf9035dd0d00e0726b39b3cb6",
+    "size": 190,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756026Z"
+  },
+  {
+    "path": "schemas/schema-version-tracker-lifecycle.json",
+    "hash": "656250eddd8713232d5c67674e802799",
+    "size": 69,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756031Z"
+  },
+  {
+    "path": "schemas/schema-version-tracker.json",
+    "hash": "a5807ffaa2b6693de8f0b7a05bd096a1",
+    "size": 3617,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756047Z"
+  },
+  {
+    "path": "schemas/version-history.json",
+    "hash": "7404c65bafef86e9472a9520a322d5d6",
+    "size": 403,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756055Z"
+  },
+  {
+    "path": "simulations/sim-agent-collab.yaml",
+    "hash": "bf5841be66e79364098d3209580c8d4d",
+    "size": 183,
+    "type": "yaml",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756061Z"
+  },
+  {
+    "path": "simulations/onboarding/phase1-simulation.json",
+    "hash": "0ad6381ec00057c6b89968953f57acf9",
+    "size": 233,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756067Z"
+  },
+  {
+    "path": "task-graph/task-graph-root-collaboration-bootstrap.json",
+    "hash": "cf4eedc9711fe401fbadce11d2023546",
+    "size": 1400,
+    "type": "json",
+    "tags": [],
+    "last_synced": "2025-04-07T05:05:49.756075Z"
+  }
+]

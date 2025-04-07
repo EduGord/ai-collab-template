@@ -1,3 +1,9 @@
+---
+title: system-checklist.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Project Stabilization Checklist
 - [x] Identity and checklists created for bootstrap + evolve agents
 - [x] Memory bank and context router operational

@@ -1,3 +1,9 @@
+---
+title: how-to-assume-agent.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # How to Assume an Agent
 
 Agents in this system are file-scoped AI identities. To assume one:

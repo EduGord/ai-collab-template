@@ -1,3 +1,9 @@
+---
+title: structurekeeper.md
+type: md
+description: Auto-generated routing metadata
+---
+
 **Agent Name:** structurekeeper  
 **Role:** Enforces project folder structure and naming conventions.  
 **Responsibilities:**  

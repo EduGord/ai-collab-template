@@ -1,3 +1,9 @@
+---
+title: system-resilience-checklist.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # System Resilience Checklist
 
 - [ ] Verify context-router includes all valid project files

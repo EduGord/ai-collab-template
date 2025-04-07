@@ -1,3 +1,9 @@
+---
+title: cli-dashboard.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # CLI Dashboard Utilities
 
 ## Files

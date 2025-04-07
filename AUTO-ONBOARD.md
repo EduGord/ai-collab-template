@@ -1,3 +1,9 @@
+---
+title: AUTO-ONBOARD.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # 🤖 AUTO-ONBOARD: Welcome to the Canonical AI-Human Collaboration Framework
 
 You’ve just loaded a project built for resilient, intelligent collaboration with LLMs and autonomous agents.

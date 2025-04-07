@@ -1,3 +1,9 @@
+---
+title: README-QUICK-PIPELINE.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # 🚀 Guia de Reentrada Rápida na Pipeline
 
 Este projeto foi arquitetado com múltiplos agentes inteligentes, uma estrutura modular de memória e rotinas automatizadas. Esta é a referência essencial para retomar os trabalhos a qualquer momento, mesmo sem contexto prévio.

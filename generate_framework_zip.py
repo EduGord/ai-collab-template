@@ -10,8 +10,9 @@ def zip_project(source_dir, output_filename):
                 zipf.write(filepath, arcname)
 
 if __name__ == "__main__":
-    project_path = r"C:\Repos\ai-collab-template"
-    output_zip = os.path.join(project_path, "ai-collab-template.zip")
+    root_path = r"C:\Repos\ai-collab-template"
+    project_path = os.path.join(root_path, "ai-collab-template")
+    output_zip = os.path.join(root_path, "ai-collab-template.zip")
 
     zip_project(project_path, output_zip)
     print(f"\n✅ Framework project zipped successfully:\n{output_zip}")

@@ -1,3 +1,9 @@
+---
+title: clustering-spec.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Agent Clustering & Zone Sharding
 
 ## Zones

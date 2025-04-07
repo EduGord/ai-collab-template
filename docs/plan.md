@@ -1,3 +1,9 @@
+---
+title: plan.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Long-Term Plan
 
 ## Phase 1: Bootstrapping (DONE)

@@ -1,3 +1,9 @@
+---
+title: external-integration.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # External Agent & LLM Integration
 
 ## Components

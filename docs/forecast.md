@@ -1,3 +1,9 @@
+---
+title: forecast.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Forecast – Agent Workload & Direction
 
 ## Trends Observed

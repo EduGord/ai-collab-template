@@ -1,3 +1,9 @@
+---
+title: PROJECT-TASKS.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Project Task Overview
 
 This document tracks structural and documentation improvements derived from expert project review.

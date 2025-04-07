@@ -1,3 +1,9 @@
+---
+title: project-mission-and-alignment.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # AI Collab Framework – Mission Alignment Report
 
 ## 🧭 Original Project Mission

@@ -1,3 +1,9 @@
+---
+title: governance.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # Governance
 
 This framework operates under agent-guided protocols with memory-based execution and logging.

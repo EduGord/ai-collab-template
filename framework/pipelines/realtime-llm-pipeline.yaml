@@ -1,3 +1,4 @@
+# description: Auto-generated routing metadata
 pipeline:
   name: "llm-trigger-pipeline"
   trigger: ["memory_bank.json", "agent_log.json", "realtime_llm_prompt.txt"]

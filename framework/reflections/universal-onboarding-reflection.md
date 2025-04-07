@@ -1,3 +1,9 @@
+---
+title: universal-onboarding-reflection.md
+type: md
+description: Auto-generated routing metadata
+---
+
 # 🔰 Onboarding Summary for the Canonical AI-Human Collaboration Framework
 
 This project is a fully modular system to build intelligent LLM–human collaboration environments. It is designed around a set of agents, memory, pipelines, and routines that support context-rich, multi-agent orchestration.
