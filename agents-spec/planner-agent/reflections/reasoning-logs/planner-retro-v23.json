@@ -1,0 +1,17 @@
+{
+  "reflection_id": "planner-retro-v23",
+  "agent": "planner-agent",
+  "timestamp": "2025-04-07T05:57:44.914745",
+  "insights": [
+    "\u2705 Planned `planner-task-1`: Parse current intent or goal from user or plan",
+    "\u2705 Planned `planner-task-2`: Break down into atomic tasks",
+    "\u2705 Planned `planner-task-3`: Define dependencies and agent assignments",
+    "\u2705 Planned `planner-task-4`: Log task plan and return feedback loop suggestions"
+  ],
+  "proposed-improvements": [],
+  "next-actions": [
+    "Generate roadmap skeleton for v0.24.0",
+    "Tag priorities across agents",
+    "Integrate retrospective-based planning loops"
+  ]
+}
