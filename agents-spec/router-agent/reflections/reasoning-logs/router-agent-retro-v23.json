@@ -1,0 +1,12 @@
+{
+  "reflection_id": "router-agent-retro-v23",
+  "agent": "router-agent",
+  "timestamp": "2025-04-07T06:00:06.071112",
+  "insights": [],
+  "proposed-improvements": [],
+  "next-actions": [
+    "Verify file routing updates",
+    "Coordinate with orchestrator",
+    "Validate routing fallbacks"
+  ]
+}

@@ -1,20 +1,14 @@
-{
-  "preferences": [
-    {
-      "rule": "prefer-stable-schemas",
-      "weight": 0.9
-    },
-    {
-      "rule": "minimize-token-usage",
-      "weight": 0.7
-    }
-  ],
-  "scoring": {
-    "complexityPenalty": 1.2,
-    "reuseBonus": 1.5
+[
+  {
+    "id": "audit-basic-scope",
+    "trigger": "task completion or version release",
+    "action": "scan logs and agent plans for integrity violations",
+    "confidence": 0.9
+  },
+  {
+    "id": "audit-anomaly-check",
+    "trigger": "inconsistency in agent-state or file-router",
+    "action": "flag for manual review or auto-repair proposal",
+    "confidence": 0.85
   }
-}
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->
+]
