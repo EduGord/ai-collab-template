@@ -129,36 +129,31 @@
     }
   ],
   "logs": [
-    {
-      "timestamp": "2025-04-07T01:34:05.898237Z",
-      "action": "Registered UX Agent, Logger Agent, and Canonical Model patches in memory bank.",
-      "type": "system-update"
-    },
-    {
-      "timestamp": "2025-04-07T01:46:41.076046Z",
-      "action": "Registered org-agent patch and agent-wide compliance scan.",
-      "type": "system-update"
-    },
-    {
-      "timestamp": "2025-04-07T01:46:41.076046Z",
-      "action": "Registered universal onboarding summary in memory bank.",
-      "type": "task-execution"
-    },
-    {
-      "timestamp": "2025-04-07T01:46:41.076046Z",
-      "action": "File-router patched for onboarding flow",
-      "type": "system-update"
-    },
-    {
-      "timestamp": "2025-04-07T01:46:41.076046Z",
-      "action": "Final validation routine written to core/routines.",
-      "type": "system-update"
-    },
-    {
-      "timestamp": "2025-04-07T01:46:41.076046Z",
-      "action": "AUTO-ONBOARD.md routed and memory-logged.",
-      "type": "routing-update"
-    }
+    "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-2025-04-07T12:05:04.534409Z.json",
+    "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-2025-04-07T12:05:04.534409Z.json",
+    "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-2025-04-07T12:14:28.022943Z.json",
+    "/mnt/data/ai-collab-template/logs/executions/router-agent-log-2025-04-07T12:05:04.534409Z.json",
+    "logs/executions/audit-agent-log-2025-04-07T12_05_04.534409Z.json",
+    "logs/executions/bootstrap-agent-log-2025-04-07T12_05_04.534409Z.json",
+    "logs/executions/bootstrap-execution-001.json",
+    "logs/executions/extended-task-execution.json",
+    "logs/executions/feature-audit.json",
+    "logs/executions/final-introspection.json",
+    "logs/executions/final-orchestration-changelog.json",
+    "logs/executions/final-plan-cleanup-execution.json",
+    "logs/executions/final-structural-feature-audit.json",
+    "logs/executions/follow-up-task-execution-log.json",
+    "logs/executions/introspection-report.json",
+    "logs/executions/live-llm-task-execution.json",
+    "logs/executions/orchestration-simulation.json",
+    "logs/executions/phase-8-routines.json",
+    "logs/executions/planner-agent@project-X-onboarding-2025-04-07T12_14_28.022943Z.json",
+    "logs/executions/recovery-sync.json",
+    "logs/executions/resilience-hardening-v1-log.json",
+    "logs/executions/router-agent-log-2025-04-07T12_05_04.534409Z.json",
+    "logs/executions/routine-audit-phase12.json",
+    "logs/executions/system-resilience-execution.json",
+    "logs/executions/vNEXT-r3-diff.json"
   ],
   "cache": [],
   "auditTasks": [
@@ -298,9 +293,42 @@
     }
   },
   "checklists": [
-    "/mnt/data/ai-collab-template/framework/checklists/release-packaging-checklist.json"
+    "agents-spec/orchestrator-agent/checklists/core-checklist.json",
+    "agents-spec/planner-agent/checklists/core-checklist.json",
+    "agents-spec/tasking-agent/checklists/core-checklist.json",
+    "checklists/README.md",
+    "core/checklists/user-live-session-checklist.yaml",
+    "framework/checklists/advanced-checklist.md",
+    "framework/checklists/cli-interface-checklist.md",
+    "framework/checklists/docbot-checklist.md",
+    "framework/checklists/docs-restructure-checklist.md",
+    "framework/checklists/expansion-checklist.md",
+    "framework/checklists/external-integration-checklist.md",
+    "framework/checklists/feedbacker-checklist.md",
+    "framework/checklists/forecaster-checklist.md",
+    "framework/checklists/integration-graph-checklist.md",
+    "framework/checklists/memory-enhancement-checklist.md",
+    "framework/checklists/planner-checklist.md",
+    "framework/checklists/planner-feedback-forecast-checklist.md",
+    "framework/checklists/release-packaging-checklist.json",
+    "framework/checklists/reviewkeeper-checklist.md",
+    "framework/checklists/runner-and-memory-checklist.md",
+    "framework/checklists/schemaenforcer-checklist.md",
+    "framework/checklists/structurekeeper-checklist.md"
   ],
   "pipelines": [
-    "/mnt/data/ai-collab-template/framework/pipelines/pipeline-release-vNEXT.json"
+    "framework/pipelines/agent_task_pipeline.yaml",
+    "framework/pipelines/docbot-auto-pipeline.yaml",
+    "framework/pipelines/feedbacker-auto-pipeline.yaml",
+    "framework/pipelines/forecaster-auto-pipeline.yaml",
+    "framework/pipelines/pipeline-release-vNEXT.json",
+    "framework/pipelines/planner-auto-pipeline.yaml",
+    "framework/pipelines/realtime-llm-pipeline.yaml",
+    "framework/pipelines/release-diff-pipeline.yaml",
+    "framework/pipelines/schemaenforcer-auto-pipeline.yaml",
+    "pipelines/README.md"
+  ],
+  "tasks": [
+    "memory-bank/tasks/resilience-hardening-v1.json"
   ]
 }

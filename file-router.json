@@ -25,7 +25,7 @@
   },
   "AGENT_LOG.md": {
     "path": "AGENT_LOG.md",
-    "category": "agent",
+    "category": "uncategorized",
     "agent": null,
     "status": "active"
   },
@@ -91,6 +91,12 @@
   },
   "feedback-propagation.json": {
     "path": "feedback-propagation.json",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  "file-router.json": {
+    "path": "file-router.json",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -179,6 +185,12 @@
     "agent": null,
     "status": "active"
   },
+  "release.json": {
+    "path": "release.json",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   "task-graph-agent-srp-cleanup.json": {
     "path": "task-graph-agent-srp-cleanup.json",
     "category": "agent",
@@ -187,49 +199,49 @@
   },
   "task-graph-feature-audit.json": {
     "path": "task-graph-feature-audit.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "task-graph-final-audit-fix.json": {
     "path": "task-graph-final-audit-fix.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "task-graph-fine-tune.json": {
     "path": "task-graph-fine-tune.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "task-graph-fix-content.json": {
     "path": "task-graph-fix-content.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "task-graph-reuse.json": {
     "path": "task-graph-reuse.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "task-graph-system-resilience.json": {
     "path": "task-graph-system-resilience.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "task-graph.json": {
     "path": "task-graph.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "tasks.json": {
     "path": "tasks.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -415,12 +427,6 @@
   },
   ".git/logs/refs/remotes/origin/main": {
     "path": ".git/logs/refs/remotes/origin/main",
-    "category": "log",
-    "agent": null,
-    "status": "active"
-  },
-  ".git/logs/refs/remotes/origin/release/v0.24.0-pre": {
-    "path": ".git/logs/refs/remotes/origin/release/v0.24.0-pre",
     "category": "log",
     "agent": null,
     "status": "active"
@@ -809,6 +815,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/13/372d6244708b3baf7c328229712347ce7d784d": {
+    "path": ".git/objects/13/372d6244708b3baf7c328229712347ce7d784d",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/14/0cf0f2f3db37fb12bd147cf3771288acf5258b": {
     "path": ".git/objects/14/0cf0f2f3db37fb12bd147cf3771288acf5258b",
     "category": "uncategorized",
@@ -949,6 +961,12 @@
   },
   ".git/objects/1a/938ae0ec05baec1a1a33bf59a29098b00983d2": {
     "path": ".git/objects/1a/938ae0ec05baec1a1a33bf59a29098b00983d2",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/1a/c890e86c5457b4ed3fb3df18f19b1d8fc0af7f": {
+    "path": ".git/objects/1a/c890e86c5457b4ed3fb3df18f19b1d8fc0af7f",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -1211,6 +1229,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/26/eb853a407f65e351e3e8591e5da5c945066c9a": {
+    "path": ".git/objects/26/eb853a407f65e351e3e8591e5da5c945066c9a",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/27/3a1faec4e258d48dfdbba77d51946010ae0f52": {
     "path": ".git/objects/27/3a1faec4e258d48dfdbba77d51946010ae0f52",
     "category": "uncategorized",
@@ -1279,6 +1303,12 @@
   },
   ".git/objects/29/84bac4c65e499ea7ee02e31d17107d9ebfb822": {
     "path": ".git/objects/29/84bac4c65e499ea7ee02e31d17107d9ebfb822",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/29/8abba55e9d00471358b68088b01a76e868f528": {
+    "path": ".git/objects/29/8abba55e9d00471358b68088b01a76e868f528",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -1381,6 +1411,12 @@
   },
   ".git/objects/2d/ecf6c26f8b5eee73ba8d8291a71eea1cfaadb7": {
     "path": ".git/objects/2d/ecf6c26f8b5eee73ba8d8291a71eea1cfaadb7",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/2e/3a3940737c12b3d9c931084411924e5edb2bfa": {
+    "path": ".git/objects/2e/3a3940737c12b3d9c931084411924e5edb2bfa",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -1499,6 +1535,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/32/3dce0d8f3ea47e12ccf9d20f76a8dbf20b7c22": {
+    "path": ".git/objects/32/3dce0d8f3ea47e12ccf9d20f76a8dbf20b7c22",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/32/ba4f746f67e77a57b39a3622c7e078cd415c97": {
     "path": ".git/objects/32/ba4f746f67e77a57b39a3622c7e078cd415c97",
     "category": "uncategorized",
@@ -1555,6 +1597,12 @@
   },
   ".git/objects/35/b5428283b018224433735af1de340e2bda4484": {
     "path": ".git/objects/35/b5428283b018224433735af1de340e2bda4484",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/35/ceb53658577c21c6214bbd1e305fd09080c968": {
+    "path": ".git/objects/35/ceb53658577c21c6214bbd1e305fd09080c968",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -1871,6 +1919,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/42/5e33301274c0c687014e19957873eba56b621a": {
+    "path": ".git/objects/42/5e33301274c0c687014e19957873eba56b621a",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/42/8f68308568f43dc2db297b434e952a1a1a52fd": {
     "path": ".git/objects/42/8f68308568f43dc2db297b434e952a1a1a52fd",
     "category": "uncategorized",
@@ -1885,6 +1939,12 @@
   },
   ".git/objects/43/79e3d228776209b57e200b214f90215cf2ca3d": {
     "path": ".git/objects/43/79e3d228776209b57e200b214f90215cf2ca3d",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/43/878c49dcd5624cca854fd16c1c2cab9fb9e491": {
+    "path": ".git/objects/43/878c49dcd5624cca854fd16c1c2cab9fb9e491",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -1963,6 +2023,12 @@
   },
   ".git/objects/46/26af926854b18d3d06d15a2676f67490d9ef65": {
     "path": ".git/objects/46/26af926854b18d3d06d15a2676f67490d9ef65",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/46/4eeae530d5946e9d0c33592fb37592cce5e2b3": {
+    "path": ".git/objects/46/4eeae530d5946e9d0c33592fb37592cce5e2b3",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -2147,6 +2213,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/4e/e53bd14a5374d7615318358dfa62424f6a1c2e": {
+    "path": ".git/objects/4e/e53bd14a5374d7615318358dfa62424f6a1c2e",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/4f/15ef1df6e28c3fea249cdefdf2a5160f0fc892": {
     "path": ".git/objects/4f/15ef1df6e28c3fea249cdefdf2a5160f0fc892",
     "category": "uncategorized",
@@ -2273,6 +2345,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/53/54a758e7038393bf1a4749188fa48292943df8": {
+    "path": ".git/objects/53/54a758e7038393bf1a4749188fa48292943df8",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/53/a792784b3596601d87d26c11a7a6a9b1338784": {
     "path": ".git/objects/53/a792784b3596601d87d26c11a7a6a9b1338784",
     "category": "uncategorized",
@@ -2311,6 +2389,12 @@
   },
   ".git/objects/55/f85b17262d478ac3157e57ed41aac4ed5caa93": {
     "path": ".git/objects/55/f85b17262d478ac3157e57ed41aac4ed5caa93",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/56/66d658a3c91e4e38908eb263fdc414d7edacc1": {
+    "path": ".git/objects/56/66d658a3c91e4e38908eb263fdc414d7edacc1",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -2483,6 +2567,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/5f/465c4fdd8aa17c9bae5548f82eeaf3656e248e": {
+    "path": ".git/objects/5f/465c4fdd8aa17c9bae5548f82eeaf3656e248e",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/5f/5f80a6adbf8e7c916c148b4c5d678630f37884": {
     "path": ".git/objects/5f/5f80a6adbf8e7c916c148b4c5d678630f37884",
     "category": "uncategorized",
@@ -2563,6 +2653,12 @@
   },
   ".git/objects/64/2143502f3119ca538018af0e66c0fbfc9bb49c": {
     "path": ".git/objects/64/2143502f3119ca538018af0e66c0fbfc9bb49c",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/64/37f8a486fa985cc8c7bfcaf7d6b2723c30f14a": {
+    "path": ".git/objects/64/37f8a486fa985cc8c7bfcaf7d6b2723c30f14a",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -2975,6 +3071,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/76/ac4aa08553ad2fa28718b6b4640e29051ffddc": {
+    "path": ".git/objects/76/ac4aa08553ad2fa28718b6b4640e29051ffddc",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/76/f5c04de61304fc33195106863679d30ad6bc6e": {
     "path": ".git/objects/76/f5c04de61304fc33195106863679d30ad6bc6e",
     "category": "uncategorized",
@@ -3203,6 +3305,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/7f/1f4cf2b6e6711442ae024eb08d8c2e678720c2": {
+    "path": ".git/objects/7f/1f4cf2b6e6711442ae024eb08d8c2e678720c2",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/7f/5dcec15752347cfea37a9830290be2c9242eb1": {
     "path": ".git/objects/7f/5dcec15752347cfea37a9830290be2c9242eb1",
     "category": "uncategorized",
@@ -3247,6 +3355,12 @@
   },
   ".git/objects/80/68a73e4505ada6e0976c1d7d84f7b9666d8e61": {
     "path": ".git/objects/80/68a73e4505ada6e0976c1d7d84f7b9666d8e61",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/80/d097b9ebf4e03c7c7b39901378afc3ee13178f": {
+    "path": ".git/objects/80/d097b9ebf4e03c7c7b39901378afc3ee13178f",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -3395,6 +3509,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/89/751fb8306ef316b5346b95c9cea418bb51b9e8": {
+    "path": ".git/objects/89/751fb8306ef316b5346b95c9cea418bb51b9e8",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/89/9cf32bfa08421b3217527d4855ec2b10309792": {
     "path": ".git/objects/89/9cf32bfa08421b3217527d4855ec2b10309792",
     "category": "uncategorized",
@@ -3469,6 +3589,12 @@
   },
   ".git/objects/8c/e709011c92c85afc049aa8de9d41cc0d30aa62": {
     "path": ".git/objects/8c/e709011c92c85afc049aa8de9d41cc0d30aa62",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/8d/0c5b3ec05f6274496e76b5b3bee3085440b25d": {
+    "path": ".git/objects/8d/0c5b3ec05f6274496e76b5b3bee3085440b25d",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -3679,6 +3805,12 @@
   },
   ".git/objects/96/869f9017b8cb1c74fc54432a460f115deca326": {
     "path": ".git/objects/96/869f9017b8cb1c74fc54432a460f115deca326",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/96/c411e93823add1c9850bae491433f99fb90af9": {
+    "path": ".git/objects/96/c411e93823add1c9850bae491433f99fb90af9",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -3953,6 +4085,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/a3/2bce8b4230e55be9f6b7657207ff10d42c0307": {
+    "path": ".git/objects/a3/2bce8b4230e55be9f6b7657207ff10d42c0307",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/a3/47ef589bb6bd7db9202efc3d300ccc11b7a7df": {
     "path": ".git/objects/a3/47ef589bb6bd7db9202efc3d300ccc11b7a7df",
     "category": "uncategorized",
@@ -4157,6 +4295,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/ab/63d8d12c57601814dc207fa957af74302803f6": {
+    "path": ".git/objects/ab/63d8d12c57601814dc207fa957af74302803f6",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/ab/c9ec9fc25d89c279e4803ddbc9ad50977344cc": {
     "path": ".git/objects/ab/c9ec9fc25d89c279e4803ddbc9ad50977344cc",
     "category": "uncategorized",
@@ -4223,8 +4367,20 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/ae/6d3cb90f6f34d47802aa56c9db565adf3b9781": {
+    "path": ".git/objects/ae/6d3cb90f6f34d47802aa56c9db565adf3b9781",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/ae/83091606b4d04e6d9e4f916c6b9c2af9e5644c": {
     "path": ".git/objects/ae/83091606b4d04e6d9e4f916c6b9c2af9e5644c",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/ae/aa051e40fbb85b0c00362bf1f052c39d5956e9": {
+    "path": ".git/objects/ae/aa051e40fbb85b0c00362bf1f052c39d5956e9",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -4243,6 +4399,12 @@
   },
   ".git/objects/af/8e60f899ef5c8c492713d7d0986f2081aadbff": {
     "path": ".git/objects/af/8e60f899ef5c8c492713d7d0986f2081aadbff",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/af/e5ad3933179a93f13e5b5a7d4b92cdadd4e264": {
+    "path": ".git/objects/af/e5ad3933179a93f13e5b5a7d4b92cdadd4e264",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -4399,6 +4561,12 @@
   },
   ".git/objects/b6/7224662bae53f19d0b1d2285abab49a90c1487": {
     "path": ".git/objects/b6/7224662bae53f19d0b1d2285abab49a90c1487",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/b6/773efbe0076ced764b147e454134971a394831": {
+    "path": ".git/objects/b6/773efbe0076ced764b147e454134971a394831",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -4883,6 +5051,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/cb/4dc0732591b580e29fd9ca3947db2613421147": {
+    "path": ".git/objects/cb/4dc0732591b580e29fd9ca3947db2613421147",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/cb/6bf175ab51ea21becbe581d1c260f528a24103": {
     "path": ".git/objects/cb/6bf175ab51ea21becbe581d1c260f528a24103",
     "category": "uncategorized",
@@ -4915,6 +5089,12 @@
   },
   ".git/objects/cc/9cd89e07b13419e48e44930380e917e7f47426": {
     "path": ".git/objects/cc/9cd89e07b13419e48e44930380e917e7f47426",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/cc/b000967c540015b7918f41bcdfdbfffa7731ae": {
+    "path": ".git/objects/cc/b000967c540015b7918f41bcdfdbfffa7731ae",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -5095,6 +5275,12 @@
   },
   ".git/objects/d8/4016b7180a484f3d68545a0e91886e27b25473": {
     "path": ".git/objects/d8/4016b7180a484f3d68545a0e91886e27b25473",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/d9/4d45ce46cb2114d5153f2646a3524be4de418b": {
+    "path": ".git/objects/d9/4d45ce46cb2114d5153f2646a3524be4de418b",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -5477,6 +5663,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/e7/428f498b46c1fa0ef8ff05f43b0c277b044ae0": {
+    "path": ".git/objects/e7/428f498b46c1fa0ef8ff05f43b0c277b044ae0",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/e7/bbe71d2167c43aaa3b6cfae6ee346403ea91cb": {
     "path": ".git/objects/e7/bbe71d2167c43aaa3b6cfae6ee346403ea91cb",
     "category": "uncategorized",
@@ -5825,6 +6017,12 @@
     "agent": null,
     "status": "active"
   },
+  ".git/objects/fb/bf4bd3c5684ba7034819d3c11e722f47bb022f": {
+    "path": ".git/objects/fb/bf4bd3c5684ba7034819d3c11e722f47bb022f",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   ".git/objects/fb/c9fcb62a0b6ee94bd85b8e849b06a6135b4de9": {
     "path": ".git/objects/fb/c9fcb62a0b6ee94bd85b8e849b06a6135b4de9",
     "category": "uncategorized",
@@ -5875,6 +6073,12 @@
   },
   ".git/objects/fd/d0138b2b7baeacbb98cf8da216f55d4f065cbd": {
     "path": ".git/objects/fd/d0138b2b7baeacbb98cf8da216f55d4f065cbd",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  ".git/objects/fd/d4ac6fa5ab2e4e00f38a03bc8e946353013b0f": {
+    "path": ".git/objects/fd/d4ac6fa5ab2e4e00f38a03bc8e946353013b0f",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -5945,12 +6149,6 @@
     "agent": null,
     "status": "active"
   },
-  ".git/refs/remotes/origin/release/v0.24.0-pre": {
-    "path": ".git/refs/remotes/origin/release/v0.24.0-pre",
-    "category": "uncategorized",
-    "agent": null,
-    "status": "active"
-  },
   ".git/refs/tags/v0.23.0-pre": {
     "path": ".git/refs/tags/v0.23.0-pre",
     "category": "uncategorized",
@@ -5963,34 +6161,40 @@
     "agent": null,
     "status": "active"
   },
+  ".git/refs/tags/vNEXT-r1": {
+    "path": ".git/refs/tags/vNEXT-r1",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   "agent-messages/audit-agent/inbox/message-001.json": {
     "path": "agent-messages/audit-agent/inbox/message-001.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agent-messages/audit-agent/outbox/message-002.json": {
     "path": "agent-messages/audit-agent/outbox/message-002.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agent-messages/bootstrap-agent/inbox/message-001.json": {
     "path": "agent-messages/bootstrap-agent/inbox/message-001.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agent-messages/bootstrap-agent/inbox/sample-message.json": {
     "path": "agent-messages/bootstrap-agent/inbox/sample-message.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agent-messages/bootstrap-agent/outbox/message-002.json": {
     "path": "agent-messages/bootstrap-agent/outbox/message-002.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agent-messages/evolve-agent/inbox/message-001.json": {
@@ -6026,13 +6230,13 @@
   "agent-messages/planner-agent/inbox/message-001.json": {
     "path": "agent-messages/planner-agent/inbox/message-001.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agent-messages/planner-agent/outbox/message-002.json": {
     "path": "agent-messages/planner-agent/outbox/message-002.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agent-messages/proposal-review-agent/inbox/message-001.json": {
@@ -6062,13 +6266,13 @@
   "agent-messages/router-agent/inbox/message-001.json": {
     "path": "agent-messages/router-agent/inbox/message-001.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agent-messages/router-agent/outbox/message-002.json": {
     "path": "agent-messages/router-agent/outbox/message-002.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agent-messages/tasking-agent/inbox/message-001.json": {
@@ -6083,136 +6287,142 @@
     "agent": null,
     "status": "active"
   },
+  "agents/README.md": {
+    "path": "agents/README.md",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
   "agents-spec/audit-agent/agent-ledger.json": {
     "path": "agents-spec/audit-agent/agent-ledger.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/agent-metadata.json": {
     "path": "agents-spec/audit-agent/agent-metadata.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/agent-state.json": {
     "path": "agents-spec/audit-agent/agent-state.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/checklist.json": {
     "path": "agents-spec/audit-agent/checklist.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/heuristics.json": {
     "path": "agents-spec/audit-agent/heuristics.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/identity.json": {
     "path": "agents-spec/audit-agent/identity.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/lifecycle.json": {
     "path": "agents-spec/audit-agent/lifecycle.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/ux-profile.json": {
     "path": "agents-spec/audit-agent/ux-profile.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/reflections/sample.json": {
     "path": "agents-spec/audit-agent/reflections/sample.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/reflections/reasoning-logs/audit-retro-v23.json": {
     "path": "agents-spec/audit-agent/reflections/reasoning-logs/audit-retro-v23.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json": {
     "path": "agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/agent-ledger.json": {
     "path": "agents-spec/bootstrap-agent/agent-ledger.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/agent-metadata.json": {
     "path": "agents-spec/bootstrap-agent/agent-metadata.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/agent-state.json": {
     "path": "agents-spec/bootstrap-agent/agent-state.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/checklist.json": {
     "path": "agents-spec/bootstrap-agent/checklist.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/heuristics.json": {
     "path": "agents-spec/bootstrap-agent/heuristics.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/identity.json": {
     "path": "agents-spec/bootstrap-agent/identity.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/lifecycle.json": {
     "path": "agents-spec/bootstrap-agent/lifecycle.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/ux-profile.json": {
     "path": "agents-spec/bootstrap-agent/ux-profile.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/reflections/sample.json": {
     "path": "agents-spec/bootstrap-agent/reflections/sample.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/reflections/reasoning-logs/bootstrap-agent-retro-v23.json": {
     "path": "agents-spec/bootstrap-agent/reflections/reasoning-logs/bootstrap-agent-retro-v23.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/bootstrap-agent/reflections/reasoning-logs/init-reflection.json": {
     "path": "agents-spec/bootstrap-agent/reflections/reasoning-logs/init-reflection.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/evolve-agent/agent-ledger.json": {
@@ -6578,73 +6788,73 @@
   "agents-spec/planner-agent/agent-ledger.json": {
     "path": "agents-spec/planner-agent/agent-ledger.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/agent-metadata.json": {
     "path": "agents-spec/planner-agent/agent-metadata.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/agent-state.json": {
     "path": "agents-spec/planner-agent/agent-state.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/checklist.json": {
     "path": "agents-spec/planner-agent/checklist.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/heuristics.json": {
     "path": "agents-spec/planner-agent/heuristics.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/identity.json": {
     "path": "agents-spec/planner-agent/identity.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/lifecycle.json": {
     "path": "agents-spec/planner-agent/lifecycle.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/ux-profile.json": {
     "path": "agents-spec/planner-agent/ux-profile.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/checklists/core-checklist.json": {
     "path": "agents-spec/planner-agent/checklists/core-checklist.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/reflections/sample.json": {
     "path": "agents-spec/planner-agent/reflections/sample.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/reflections/reasoning-logs/init-reflection.json": {
     "path": "agents-spec/planner-agent/reflections/reasoning-logs/init-reflection.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/planner-agent/reflections/reasoning-logs/planner-retro-v23.json": {
     "path": "agents-spec/planner-agent/reflections/reasoning-logs/planner-retro-v23.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/proposal-review-agent/agent-ledger.json": {
@@ -6782,73 +6992,73 @@
   "agents-spec/router-agent/agent-ledger.json": {
     "path": "agents-spec/router-agent/agent-ledger.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/agent-metadata.json": {
     "path": "agents-spec/router-agent/agent-metadata.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/agent-state.json": {
     "path": "agents-spec/router-agent/agent-state.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/checklist.json": {
     "path": "agents-spec/router-agent/checklist.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/heuristics.json": {
     "path": "agents-spec/router-agent/heuristics.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/identity.json": {
     "path": "agents-spec/router-agent/identity.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/lifecycle.json": {
     "path": "agents-spec/router-agent/lifecycle.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/ux-profile.json": {
     "path": "agents-spec/router-agent/ux-profile.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/reflections/llm-session-router.json": {
     "path": "agents-spec/router-agent/reflections/llm-session-router.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/reflections/sample.json": {
     "path": "agents-spec/router-agent/reflections/sample.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/reflections/reasoning-logs/init-reflection.json": {
     "path": "agents-spec/router-agent/reflections/reasoning-logs/init-reflection.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/router-agent/reflections/reasoning-logs/router-agent-retro-v23.json": {
     "path": "agents-spec/router-agent/reflections/reasoning-logs/router-agent-retro-v23.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "agents-spec/tasking-agent/agent-ledger.json": {
@@ -7043,6 +7253,12 @@
     "agent": null,
     "status": "active"
   },
+  "checklists/README.md": {
+    "path": "checklists/README.md",
+    "category": "checklist",
+    "agent": null,
+    "status": "active"
+  },
   "config/llm-context-router.json": {
     "path": "config/llm-context-router.json",
     "category": "uncategorized",
@@ -7057,31 +7273,31 @@
   },
   "core/forecast-task-docbot.json": {
     "path": "core/forecast-task-docbot.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/forecast-task-feedbacker.json": {
     "path": "core/forecast-task-feedbacker.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/forecast-task-forecaster.json": {
     "path": "core/forecast-task-forecaster.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/forecast-task-planner.json": {
     "path": "core/forecast-task-planner.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/forecast-task-schemaenforcer.json": {
     "path": "core/forecast-task-schemaenforcer.json",
-    "category": "schema",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7141,109 +7357,109 @@
   },
   "core/task-bootstrap-and-memory-loading.json": {
     "path": "core/task-bootstrap-and-memory-loading.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-feature-ref-linking.json": {
     "path": "core/task-feature-ref-linking.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-full-system-audit.json": {
     "path": "core/task-full-system-audit.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-global-resilience-audit.json": {
     "path": "core/task-global-resilience-audit.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-ongoing-validation-cycle.json": {
     "path": "core/task-ongoing-validation-cycle.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-restructure-root-layout.json": {
     "path": "core/task-restructure-root-layout.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-runtime-scale-docbot.json": {
     "path": "core/task-runtime-scale-docbot.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-runtime-scale-feedbacker.json": {
     "path": "core/task-runtime-scale-feedbacker.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-runtime-scale-forecaster.json": {
     "path": "core/task-runtime-scale-forecaster.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-runtime-scale-planner.json": {
     "path": "core/task-runtime-scale-planner.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-runtime-scale-schemaenforcer.json": {
     "path": "core/task-runtime-scale-schemaenforcer.json",
-    "category": "schema",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-seed-docbot-phase-task.json": {
     "path": "core/task-seed-docbot-phase-task.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-seed-feedbacker-phase-task.json": {
     "path": "core/task-seed-feedbacker-phase-task.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-seed-forecaster-phase-task.json": {
     "path": "core/task-seed-forecaster-phase-task.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-seed-planner-phase-task.json": {
     "path": "core/task-seed-planner-phase-task.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-seed-schemaenforcer-phase-task.json": {
     "path": "core/task-seed-schemaenforcer-phase-task.json",
-    "category": "schema",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-simulate-zone-relay.json": {
     "path": "core/task-simulate-zone-relay.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/task-task-tbd.json": {
     "path": "core/task-task-tbd.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7423,19 +7639,19 @@
   },
   "core/tasks/task-audit-v21-before-v22.json": {
     "path": "core/tasks/task-audit-v21-before-v22.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-begin-v23-cycle.json": {
     "path": "core/tasks/task-begin-v23-cycle.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-continuous-evolution-cycle.json": {
     "path": "core/tasks/task-continuous-evolution-cycle.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7447,19 +7663,19 @@
   },
   "core/tasks/task-discovery-intent-cycle.json": {
     "path": "core/tasks/task-discovery-intent-cycle.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-docbot-onboarding-doc.json": {
     "path": "core/tasks/task-docbot-onboarding-doc.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-docbot-summary-cards.json": {
     "path": "core/tasks/task-docbot-summary-cards.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7471,13 +7687,13 @@
   },
   "core/tasks/task-document-folder-structure-guidelines.json": {
     "path": "core/tasks/task-document-folder-structure-guidelines.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-enhance-file-router-metadata.json": {
     "path": "core/tasks/task-enhance-file-router-metadata.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7489,25 +7705,25 @@
   },
   "core/tasks/task-feedback-loop-from-user.json": {
     "path": "core/tasks/task-feedback-loop-from-user.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-feedbacker-anomaly-detection.json": {
     "path": "core/tasks/task-feedbacker-anomaly-detection.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-feedbacker-monthly-summary.json": {
     "path": "core/tasks/task-feedbacker-monthly-summary.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-feedbacker-trend-analysis.json": {
     "path": "core/tasks/task-feedbacker-trend-analysis.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7519,37 +7735,37 @@
   },
   "core/tasks/task-framework-live-deployment-mode.json": {
     "path": "core/tasks/task-framework-live-deployment-mode.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-generate-file-router.json": {
     "path": "core/tasks/task-generate-file-router.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-implement-cross-reference-system.json": {
     "path": "core/tasks/task-implement-cross-reference-system.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-llm-context-suggestions.json": {
     "path": "core/tasks/task-llm-context-suggestions.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-llm-memory-tracker.json": {
     "path": "core/tasks/task-llm-memory-tracker.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-llm-routing-runtime.json": {
     "path": "core/tasks/task-llm-routing-runtime.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7561,37 +7777,37 @@
   },
   "core/tasks/task-planner-milestone-calendar.json": {
     "path": "core/tasks/task-planner-milestone-calendar.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-planner-task-grouping.json": {
     "path": "core/tasks/task-planner-task-grouping.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-planner-timeline-cycles.json": {
     "path": "core/tasks/task-planner-timeline-cycles.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-rebuild-core-structure.json": {
     "path": "core/tasks/task-rebuild-core-structure.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-refactor-root-structure.json": {
     "path": "core/tasks/task-refactor-root-structure.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-regenerate-file-router.json": {
     "path": "core/tasks/task-regenerate-file-router.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7603,25 +7819,25 @@
   },
   "core/tasks/task-runtime-discovery-metadata-update.json": {
     "path": "core/tasks/task-runtime-discovery-metadata-update.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-schema-diff-viewer.json": {
     "path": "core/tasks/task-schema-diff-viewer.json",
-    "category": "schema",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-schema-runtime-validation.json": {
     "path": "core/tasks/task-schema-runtime-validation.json",
-    "category": "schema",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-schema-version-lock.json": {
     "path": "core/tasks/task-schema-version-lock.json",
-    "category": "schema",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7633,19 +7849,19 @@
   },
   "core/tasks/task-simulate-onboarding-sequence.json": {
     "path": "core/tasks/task-simulate-onboarding-sequence.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-snapshot-live-user-release.json": {
     "path": "core/tasks/task-snapshot-live-user-release.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "core/tasks/task-task-tbd.json": {
     "path": "core/tasks/task-task-tbd.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7663,7 +7879,7 @@
   },
   "core/tasks/task-user-goal-setting.json": {
     "path": "core/tasks/task-user-goal-setting.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7795,7 +8011,7 @@
   },
   "docs/how-to-extend-pipeline.md": {
     "path": "docs/how-to-extend-pipeline.md",
-    "category": "doc",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
@@ -7835,9 +8051,15 @@
     "agent": null,
     "status": "active"
   },
+  "docs/ONBOARDING.md": {
+    "path": "docs/ONBOARDING.md",
+    "category": "doc",
+    "agent": null,
+    "status": "active"
+  },
   "docs/plan.md": {
     "path": "docs/plan.md",
-    "category": "plan",
+    "category": "doc",
     "agent": null,
     "status": "active"
   },
@@ -7849,7 +8071,7 @@
   },
   "docs/quick-pipeline-format.md": {
     "path": "docs/quick-pipeline-format.md",
-    "category": "doc",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
@@ -7939,7 +8161,7 @@
   },
   "docs/system-checklist.md": {
     "path": "docs/system-checklist.md",
-    "category": "doc",
+    "category": "checklist",
     "agent": null,
     "status": "active"
   },
@@ -7951,19 +8173,19 @@
   },
   "docs/system-resilience-checklist.md": {
     "path": "docs/system-resilience-checklist.md",
-    "category": "doc",
+    "category": "checklist",
     "agent": null,
     "status": "active"
   },
   "docs/task-dependencies.md": {
     "path": "docs/task-dependencies.md",
-    "category": "doc",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "docs/task-graph-doc.md": {
     "path": "docs/task-graph-doc.md",
-    "category": "doc",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -7985,6 +8207,12 @@
     "agent": null,
     "status": "active"
   },
+  "evaluations/README.md": {
+    "path": "evaluations/README.md",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   "features/feature-map.json": {
     "path": "features/feature-map.json",
     "category": "uncategorized",
@@ -7994,13 +8222,13 @@
   "feedback-cards/audit-agent-card.json": {
     "path": "feedback-cards/audit-agent-card.json",
     "category": "agent",
-    "agent": "audit-agent",
+    "agent": null,
     "status": "active"
   },
   "feedback-cards/bootstrap-agent-card.json": {
     "path": "feedback-cards/bootstrap-agent-card.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "feedback-cards/evolve-agent-card.json": {
@@ -8018,7 +8246,7 @@
   "feedback-cards/planner-agent-card.json": {
     "path": "feedback-cards/planner-agent-card.json",
     "category": "agent",
-    "agent": "planner-agent",
+    "agent": null,
     "status": "active"
   },
   "feedback-cards/proposal-review-agent-card.json": {
@@ -8036,7 +8264,7 @@
   "feedback-cards/router-agent-card.json": {
     "path": "feedback-cards/router-agent-card.json",
     "category": "agent",
-    "agent": "router-agent",
+    "agent": null,
     "status": "active"
   },
   "feedback-cards/tasking-agent-card.json": {
@@ -8108,7 +8336,7 @@
   "forecasts/bootstrap-agent/timeline-memory.json": {
     "path": "forecasts/bootstrap-agent/timeline-memory.json",
     "category": "agent",
-    "agent": "bootstrap-agent",
+    "agent": null,
     "status": "active"
   },
   "framework/agents/docbot.md": {
@@ -8143,7 +8371,7 @@
   },
   "framework/checklists/docs-restructure-checklist.md": {
     "path": "framework/checklists/docs-restructure-checklist.md",
-    "category": "doc",
+    "category": "checklist",
     "agent": null,
     "status": "active"
   },
@@ -8185,13 +8413,19 @@
   },
   "framework/checklists/planner-checklist.md": {
     "path": "framework/checklists/planner-checklist.md",
-    "category": "plan",
+    "category": "checklist",
     "agent": null,
     "status": "active"
   },
   "framework/checklists/planner-feedback-forecast-checklist.md": {
     "path": "framework/checklists/planner-feedback-forecast-checklist.md",
-    "category": "plan",
+    "category": "checklist",
+    "agent": null,
+    "status": "active"
+  },
+  "framework/checklists/release-packaging-checklist.json": {
+    "path": "framework/checklists/release-packaging-checklist.json",
+    "category": "checklist",
     "agent": null,
     "status": "active"
   },
@@ -8221,7 +8455,7 @@
   },
   "framework/execution/AGENT_LOG.md": {
     "path": "framework/execution/AGENT_LOG.md",
-    "category": "agent",
+    "category": "uncategorized",
     "agent": null,
     "status": "active"
   },
@@ -8339,9 +8573,15 @@
     "agent": null,
     "status": "active"
   },
+  "framework/pipelines/pipeline-release-vNEXT.json": {
+    "path": "framework/pipelines/pipeline-release-vNEXT.json",
+    "category": "pipeline",
+    "agent": null,
+    "status": "active"
+  },
   "framework/pipelines/planner-auto-pipeline.yaml": {
     "path": "framework/pipelines/planner-auto-pipeline.yaml",
-    "category": "plan",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
@@ -8413,7 +8653,7 @@
   },
   "framework/tasks/tasks.json": {
     "path": "framework/tasks/tasks.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8501,6 +8741,12 @@
     "agent": null,
     "status": "active"
   },
+  "identities/README.md": {
+    "path": "identities/README.md",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
   "intents/intent-evolve-system.json": {
     "path": "intents/intent-evolve-system.json",
     "category": "uncategorized",
@@ -8537,6 +8783,18 @@
     "agent": null,
     "status": "active"
   },
+  "logs/executions/audit-agent-log-2025-04-07T12_05_04.534409Z.json": {
+    "path": "logs/executions/audit-agent-log-2025-04-07T12_05_04.534409Z.json",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
+  "logs/executions/bootstrap-agent-log-2025-04-07T12_05_04.534409Z.json": {
+    "path": "logs/executions/bootstrap-agent-log-2025-04-07T12_05_04.534409Z.json",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
   "logs/executions/bootstrap-execution-001.json": {
     "path": "logs/executions/bootstrap-execution-001.json",
     "category": "log",
@@ -8569,7 +8827,7 @@
   },
   "logs/executions/final-plan-cleanup-execution.json": {
     "path": "logs/executions/final-plan-cleanup-execution.json",
-    "category": "plan",
+    "category": "log",
     "agent": null,
     "status": "active"
   },
@@ -8609,9 +8867,21 @@
     "agent": null,
     "status": "active"
   },
+  "logs/executions/planner-agent@project-X-onboarding-2025-04-07T12_14_28.022943Z.json": {
+    "path": "logs/executions/planner-agent@project-X-onboarding-2025-04-07T12_14_28.022943Z.json",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
   "logs/executions/recovery-sync.json": {
     "path": "logs/executions/recovery-sync.json",
     "category": "log",
+    "agent": null,
+    "status": "active"
+  },
+  "logs/executions/router-agent-log-2025-04-07T12_05_04.534409Z.json": {
+    "path": "logs/executions/router-agent-log-2025-04-07T12_05_04.534409Z.json",
+    "category": "agent",
     "agent": null,
     "status": "active"
   },
@@ -8665,25 +8935,25 @@
   },
   "memory-bank/audit-tasks/follow-up-improvements.json": {
     "path": "memory-bank/audit-tasks/follow-up-improvements.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "memory-bank/audit-tasks/full-project-audit.json": {
     "path": "memory-bank/audit-tasks/full-project-audit.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "memory-bank/audit-tasks/full-resilience-audit.json": {
     "path": "memory-bank/audit-tasks/full-resilience-audit.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "memory-bank/evolving/pending-tasks.json": {
     "path": "memory-bank/evolving/pending-tasks.json",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8753,6 +9023,12 @@
     "agent": null,
     "status": "active"
   },
+  "pipelines/README.md": {
+    "path": "pipelines/README.md",
+    "category": "pipeline",
+    "agent": null,
+    "status": "active"
+  },
   "plans/agent-collab-performance-fork.json": {
     "path": "plans/agent-collab-performance-fork.json",
     "category": "agent",
@@ -8791,7 +9067,7 @@
   },
   "plans/bootstrap/tasks.json": {
     "path": "plans/bootstrap/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8815,7 +9091,7 @@
   },
   "plans/feature-audit/tasks.json": {
     "path": "plans/feature-audit/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8827,7 +9103,7 @@
   },
   "plans/final-audit-fix/tasks.json": {
     "path": "plans/final-audit-fix/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8839,7 +9115,7 @@
   },
   "plans/fine-tune/tasks.json": {
     "path": "plans/fine-tune/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8851,7 +9127,7 @@
   },
   "plans/fix-content/tasks.json": {
     "path": "plans/fix-content/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8875,7 +9151,7 @@
   },
   "plans/onboarding-refinement-patch/tasks.json": {
     "path": "plans/onboarding-refinement-patch/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8899,7 +9175,7 @@
   },
   "plans/reuse-corrida-elements/tasks.json": {
     "path": "plans/reuse-corrida-elements/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8911,7 +9187,7 @@
   },
   "plans/root-collaboration-bootstrap/tasks.json": {
     "path": "plans/root-collaboration-bootstrap/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8929,7 +9205,7 @@
   },
   "plans/self-evolving/tasks.json": {
     "path": "plans/self-evolving/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -8941,55 +9217,61 @@
   },
   "plans/system-resilience/tasks.json": {
     "path": "plans/system-resilience/tasks.json",
-    "category": "plan",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "plans/template-pipeline-library/context-compression-pipeline.json": {
     "path": "plans/template-pipeline-library/context-compression-pipeline.json",
-    "category": "plan",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
   "plans/template-pipeline-library/conversation-to-pipeline.json": {
     "path": "plans/template-pipeline-library/conversation-to-pipeline.json",
-    "category": "plan",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
   "plans/template-pipeline-library/ethics-audit-pipeline.json": {
     "path": "plans/template-pipeline-library/ethics-audit-pipeline.json",
-    "category": "plan",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
   "plans/template-pipeline-library/fallback-resolution-pipeline.json": {
     "path": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
-    "category": "plan",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
   "plans/template-pipeline-library/file-content-schema-audit-pipeline.json": {
     "path": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
-    "category": "plan",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
   "plans/template-pipeline-library/plan-retrospective-pipeline.json": {
     "path": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
-    "category": "plan",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
   "plans/template-pipeline-library/routine-gap-detection-pipeline.json": {
     "path": "plans/template-pipeline-library/routine-gap-detection-pipeline.json",
-    "category": "plan",
+    "category": "pipeline",
     "agent": null,
     "status": "active"
   },
   "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json": {
     "path": "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json",
-    "category": "plan",
+    "category": "pipeline",
+    "agent": null,
+    "status": "active"
+  },
+  "routines/README.md": {
+    "path": "routines/README.md",
+    "category": "uncategorized",
     "agent": null,
     "status": "active"
   },
@@ -9313,19 +9595,19 @@
   },
   "src/task_editor.py": {
     "path": "src/task_editor.py",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "src/task_graph.py": {
     "path": "src/task_graph.py",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
   "src/task_streamer.py": {
     "path": "src/task_streamer.py",
-    "category": "uncategorized",
+    "category": "task",
     "agent": null,
     "status": "active"
   },
@@ -9337,7 +9619,91 @@
   },
   "task-graph/task-graph-root-collaboration-bootstrap.json": {
     "path": "task-graph/task-graph-root-collaboration-bootstrap.json",
+    "category": "task",
+    "agent": null,
+    "status": "active"
+  },
+  "tasks/README.md": {
+    "path": "tasks/README.md",
+    "category": "task",
+    "agent": null,
+    "status": "active"
+  },
+  "tests/README.md": {
+    "path": "tests/README.md",
     "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  "tooling/README.md": {
+    "path": "tooling/README.md",
+    "category": "uncategorized",
+    "agent": null,
+    "status": "active"
+  },
+  "memory-bank/tasks/resilience-hardening-v1.json": {
+    "path": "memory-bank/tasks/resilience-hardening-v1.json",
+    "category": "task",
+    "agent": null,
+    "status": "active"
+  },
+  "logs/executions/resilience-hardening-v1-log.json": {
+    "path": "logs/executions/resilience-hardening-v1-log.json",
+    "category": "log",
+    "agent": null,
+    "status": "active"
+  },
+  "docs/ROADMAP.md": {
+    "path": "docs/ROADMAP.md",
+    "category": "doc",
+    "agent": null,
+    "status": "active"
+  },
+  "logs/executions/vNEXT-r3-diff.json": {
+    "path": "logs/executions/vNEXT-r3-diff.json",
+    "category": "log",
+    "agent": null,
+    "status": "active"
+  },
+  "/mnt/data/ai-collab-template/agents-spec/audit-agent/checklist.json": {
+    "path": "/mnt/data/ai-collab-template/agents-spec/audit-agent/checklist.json",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
+  "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/checklist.json": {
+    "path": "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/checklist.json",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
+  "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-2025-04-07T12:05:04.534409Z.json": {
+    "path": "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-2025-04-07T12:05:04.534409Z.json",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
+  "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-2025-04-07T12:05:04.534409Z.json": {
+    "path": "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-2025-04-07T12:05:04.534409Z.json",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
+  "/mnt/data/ai-collab-template/logs/executions/router-agent-log-2025-04-07T12:05:04.534409Z.json": {
+    "path": "/mnt/data/ai-collab-template/logs/executions/router-agent-log-2025-04-07T12:05:04.534409Z.json",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
+  "/mnt/data/ai-collab-template/agents-spec/router-agent/checklist.json": {
+    "path": "/mnt/data/ai-collab-template/agents-spec/router-agent/checklist.json",
+    "category": "agent",
+    "agent": null,
+    "status": "active"
+  },
+  "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-2025-04-07T12:14:28.022943Z.json": {
+    "path": "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-2025-04-07T12:14:28.022943Z.json",
+    "category": "agent",
     "agent": null,
     "status": "active"
   }
