@@ -33,6 +33,4 @@ if __name__ == "__main__":
     elif len(sys.argv) == 3:
         set_status(sys.argv[1], sys.argv[2])
     else:
-        print("Usage:
-  python agent_control.py             # show all
-  python agent_control.py <agent> <status>")
+        print("Usage: python agent_control.py [agent_name status]")
