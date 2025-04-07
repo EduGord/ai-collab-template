@@ -167,5 +167,140 @@
     "memory-bank/audit-tasks/agent-identity-review.json",
     "memory-bank/audit-tasks/agent-group-improvement-tasks.json"
   ],
-  "features": []
+  "features": [],
+  "agents": {
+    "audit-agent": {
+      "agent_id": "audit-agent",
+      "status": "unknown",
+      "domains": [],
+      "memory_point": null,
+      "checklists": [
+        "/mnt/data/ai-collab-template/agents-spec/audit-agent/checklist.json"
+      ],
+      "pipelines": [],
+      "logs": [],
+      "pending_tasks": []
+    },
+    "bootstrap-agent": {
+      "agent_id": "bootstrap-agent",
+      "status": "unknown",
+      "domains": [],
+      "memory_point": null,
+      "checklists": [
+        "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/checklist.json"
+      ],
+      "pipelines": [],
+      "logs": [],
+      "pending_tasks": []
+    },
+    "router-agent": {
+      "agent_id": "router-agent",
+      "status": "unknown",
+      "domains": [],
+      "memory_point": null,
+      "checklists": [
+        "/mnt/data/ai-collab-template/agents-spec/router-agent/checklist.json"
+      ],
+      "pipelines": [],
+      "logs": [
+        "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-2025-04-07T12:05:04.534409Z.json",
+        "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-2025-04-07T12:05:04.534409Z.json",
+        "/mnt/data/ai-collab-template/logs/executions/router-agent-log-2025-04-07T12:05:04.534409Z.json"
+      ],
+      "pending_tasks": []
+    },
+    "planner-agent@project-X": {
+      "agent_id": "planner-agent@project-X",
+      "status": "external",
+      "domains": [
+        "planning",
+        "advice"
+      ],
+      "memory_point": null,
+      "checklists": [],
+      "pipelines": [],
+      "logs": [
+        "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-2025-04-07T12:14:28.022943Z.json"
+      ],
+      "pending_tasks": []
+    }
+  },
+  "plans": {
+    "Agent Collab Performance Fork": {
+      "file": "/mnt/data/ai-collab-template/plans/agent-collab-performance-fork.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Agent Collab Plan": {
+      "file": "/mnt/data/ai-collab-template/plans/agent-collab-plan.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Intent Release V0.24.0": {
+      "file": "/mnt/data/ai-collab-template/plans/intent-release-v0.24.0.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Plan": {
+      "file": "/mnt/data/ai-collab-template/plans/system-resilience/plan.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Tasks": {
+      "file": "/mnt/data/ai-collab-template/plans/system-resilience/tasks.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Retrospective Insights": {
+      "file": "/mnt/data/ai-collab-template/plans/self-evolve/retrospective-insights.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Context Compression Pipeline": {
+      "file": "/mnt/data/ai-collab-template/plans/template-pipeline-library/context-compression-pipeline.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Conversation To Pipeline": {
+      "file": "/mnt/data/ai-collab-template/plans/template-pipeline-library/conversation-to-pipeline.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Ethics Audit Pipeline": {
+      "file": "/mnt/data/ai-collab-template/plans/template-pipeline-library/ethics-audit-pipeline.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Fallback Resolution Pipeline": {
+      "file": "/mnt/data/ai-collab-template/plans/template-pipeline-library/fallback-resolution-pipeline.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "File Content Schema Audit Pipeline": {
+      "file": "/mnt/data/ai-collab-template/plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Plan Retrospective Pipeline": {
+      "file": "/mnt/data/ai-collab-template/plans/template-pipeline-library/plan-retrospective-pipeline.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Routine Gap Detection Pipeline": {
+      "file": "/mnt/data/ai-collab-template/plans/template-pipeline-library/routine-gap-detection-pipeline.json",
+      "status": "executed",
+      "steps": 1
+    },
+    "Suggest Checklist And Identity Updates During Session": {
+      "file": "/mnt/data/ai-collab-template/plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json",
+      "status": "executed",
+      "steps": 1
+    }
+  },
+  "checklists": [
+    "/mnt/data/ai-collab-template/framework/checklists/release-packaging-checklist.json"
+  ],
+  "pipelines": [
+    "/mnt/data/ai-collab-template/framework/pipelines/pipeline-release-vNEXT.json"
+  ]
 }

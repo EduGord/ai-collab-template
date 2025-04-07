@@ -1,0 +1,19 @@
+{
+  "name": "pipeline-release-vNEXT",
+  "agent": "planner-agent",
+  "description": "Automated packaging and publishing of framework release",
+  "trigger": "manual or milestone complete",
+  "checklist": "/mnt/data/ai-collab-template/framework/checklists/release-packaging-checklist.json",
+  "tasks": [
+    "Execute all steps in release-packaging-checklist.json",
+    "Generate clean .zip archive excluding .git and system files",
+    "Update changelog and AGENT_LOG.md",
+    "Write release manifest to docs/",
+    "Mark release status in memory-bank"
+  ],
+  "outputs": [
+    "Clean release archive",
+    "Manifest summary",
+    "Updated metadata and logs"
+  ]
+}

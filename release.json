@@ -1,0 +1,18 @@
+{
+  "tag": "vNEXT-r1",
+  "date": "2025-04-07T12:11:31.719324Z",
+  "type": "diff",
+  "author": "planner-agent",
+  "summary": "Initial framework release with agent lifecycle execution, plan bootstrapping, diff packaging, and memory/routing updates.",
+  "diff_zip": "ai-collab-template-vNEXT-diff.zip",
+  "manifest": "docs/next-release-manifest.md",
+  "checklist": "framework/checklists/release-packaging-checklist.json",
+  "pipeline": "framework/pipelines/pipeline-release-diff-vNEXT.json",
+  "memory_snapshot": "memory-bank/index.json",
+  "logs": [
+    "logs/executions/audit-agent-log-*.json",
+    "logs/executions/bootstrap-agent-log-*.json",
+    "logs/executions/router-agent-log-*.json"
+  ],
+  "framework_hash": "72bdb8ecba7f474d0163dde68029ba07b245b9606763edc6f0a1705b525ad5d0"
+}

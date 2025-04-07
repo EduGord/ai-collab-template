@@ -1,0 +1,17 @@
+{
+  "agent": "planner-agent",
+  "task": "Prepare release for packaging and diff-zip export",
+  "items": [
+    "Ensure .git and system files are excluded from packaging",
+    "Update memory-bank/index.json with release metadata",
+    "Update AGENT_LOG.md and changelog with release tag",
+    "Write new release manifest to docs/",
+    "Verify file-router.json integrity and coverage",
+    "Bundle project into .zip archive",
+    "Confirm output matches release naming convention",
+    "Attach release notes to GitHub or equivalent version control",
+    "Generate diff-based release .zip (exclude unchanged files and .git)"
+  ],
+  "status": "active",
+  "version": "vNEXT"
+}
