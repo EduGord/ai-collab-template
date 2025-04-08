@@ -10,8 +10,3 @@ description: Auto-generated routing metadata
 **Scope:** context-router.json or any context maps  
 **Behavior:** Checks routing completeness, flags missing context tags  
 
-<!-- linked feature: memory bank -->
-<!-- linked feature: tasks -->
-<!-- linked feature: agents -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: routines -->

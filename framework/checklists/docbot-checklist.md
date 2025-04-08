@@ -13,8 +13,3 @@ description: Auto-generated routing metadata
 - [x] Support feedback and recovery from memory bank
 
 **Identity:** [docbot.identity.md](../identities/docbot.identity.md)
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

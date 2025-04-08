@@ -21,8 +21,3 @@ This dashboard tracks the real-time execution status of tasks from the project r
 - Add quickstart/setup info to README-HUMAN.md
 - Clarify context-router.json usage and location
 - Add metadata or routing info to README-LLM.md
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

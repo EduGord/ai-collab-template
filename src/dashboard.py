@@ -12,8 +12,3 @@ def show_dashboard():
 
 if __name__ == "__main__":
     show_dashboard()
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

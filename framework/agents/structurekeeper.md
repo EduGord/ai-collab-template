@@ -9,8 +9,3 @@ description: Auto-generated routing metadata
 **Responsibilities:**  
 - Monitor existence of src/, tests/, docs/  
 - Ensure configs are named and located clearly  
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

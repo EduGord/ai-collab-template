@@ -26,8 +26,3 @@ def render_graph():
 
 if __name__ == "__main__":
     render_graph()
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

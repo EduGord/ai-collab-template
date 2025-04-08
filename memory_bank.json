@@ -1,543 +1,263 @@
-[
-  {
-    "id": "cli-001",
-    "title": "Inject CLI utility for task listing",
-    "status": "pending",
-    "description": "TBD",
-    "priority": "medium",
-    "version": "v1.0",
-    "tags": [
-      "task",
-      "agent",
-      "llm"
-    ],
-    "trigger": "manual",
-    "agent": "unassigned",
-    "task_id": "task-tbd"
-  },
-  {
-    "id": "cli-002",
-    "title": "Implement agent status tracker in memory",
-    "status": "pending",
-    "description": "TBD",
-    "priority": "medium",
-    "version": "v1.0",
-    "tags": [
-      "task",
-      "agent",
-      "llm"
-    ],
-    "trigger": "manual",
-    "agent": "unassigned",
-    "task_id": "task-tbd"
-  },
-  {
-    "id": "cli-003",
-    "title": "Render task dashboard in terminal or markdown",
-    "status": "pending",
-    "description": "TBD",
-    "priority": "medium",
-    "version": "v1.0",
-    "tags": [
-      "task",
-      "agent",
-      "llm"
-    ],
-    "trigger": "manual",
-    "agent": "unassigned",
-    "task_id": "task-tbd"
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "continuous-evolution-cycle",
-    "description": "Let agents self-generate, prioritize, and execute future iterations of framework improvements based on logs, state, and feedback.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "growth-loop",
-    "tags": [
-      "evolution",
-      "simulation",
-      "llm",
-      "feedback",
-      "growth"
-    ]
-  },
-  {
-    "agent": "planner",
-    "task_id": "agent-goal-generation",
-    "description": "Each agent reflects on logs, tasks, specs, and current state to generate meaningful next-step goals and evolution roadmap entries.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "evolution-feedback",
-    "tags": [
-      "roadmap",
-      "goals",
-      "evolution",
-      "multi-agent"
-    ]
-  },
-  {
-    "agent": "docbot",
-    "task_id": "docbot-onboarding-doc",
-    "description": "Generate a clear onboarding doc that introduces users to agent roles, pipelines, memory, and task system.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "roadmap-evolution",
-    "tags": [
-      "onboarding",
-      "documentation"
-    ]
-  },
-  {
-    "agent": "schemaenforcer",
-    "task_id": "schema-version-lock",
-    "description": "Make schema-config.json version-aware with backwards compatibility support and changelog.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "roadmap-evolution",
-    "tags": [
-      "schema",
-      "versioning"
-    ]
-  },
-  {
-    "agent": "feedbacker",
-    "task_id": "feedbacker-monthly-summary",
-    "description": "Summarize log-based execution results by agent, task, and time period.",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "roadmap-evolution",
-    "tags": [
-      "feedback",
-      "summary"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "llm-routing-runtime",
-    "description": "Add capability for llm-assistant to dynamically suggest alternate task paths during execution",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "roadmap-evolution",
-    "tags": [
-      "routing",
-      "llm",
-      "assist"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "discovery-intent-cycle",
-    "description": "Let agents propose and align around the next major phase based on internal memory, logs, and feature growth.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "feedback-loop",
-    "tags": [
-      "discovery",
-      "intent",
-      "next-evolution"
-    ]
-  },
-  {
-    "agent": "planner",
-    "task_id": "planner-timeline-cycles",
-    "description": "Define scheduled goal targets with expected timelines and retro review triggers.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "intent-v18",
-    "tags": [
-      "timeline",
-      "planner",
-      "schedule"
-    ]
-  },
-  {
-    "agent": "docbot",
-    "task_id": "docbot-version-changelog",
-    "description": "Generate docs summarizing changes for each past release (v1 \u2192 v18).",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "intent-v18",
-    "tags": [
-      "docs",
-      "changelog",
-      "versions"
-    ]
-  },
-  {
-    "agent": "schemaenforcer",
-    "task_id": "schema-runtime-validation",
-    "description": "Inject dynamic validation for schema fields in active configurations.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "intent-v18",
-    "tags": [
-      "schema",
-      "validation",
-      "runtime"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "llm-context-suggestions",
-    "description": "Trigger suggestion logic from logs, memory, pipeline state while LLM operates.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "intent-v18",
-    "tags": [
-      "llm",
-      "routing",
-      "context"
-    ]
-  },
-  {
-    "agent": "feedbacker",
-    "task_id": "feedbacker-anomaly-detection",
-    "description": "Scan logs over time and surface unexpected task or agent behaviors.",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "intent-v18",
-    "tags": [
-      "feedback",
-      "anomaly",
-      "logs"
-    ]
-  },
-  {
-    "agent": "planner",
-    "task_id": "planner-milestone-calendar",
-    "description": "Introduce due dates, time-based triggers and planning hooks into task flow.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "intent-v19",
-    "tags": [
-      "milestone",
-      "calendar",
-      "planner"
-    ]
-  },
-  {
-    "agent": "docbot",
-    "task_id": "docbot-summary-cards",
-    "description": "Summarize each documentation file into LLM-friendly metadata cards.",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "intent-v19",
-    "tags": [
-      "docs",
-      "summary",
-      "cards"
-    ]
-  },
-  {
-    "agent": "schemaenforcer",
-    "task_id": "schema-diff-viewer",
-    "description": "Generate a diff viewer between schema-config versions with changelog projection.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "intent-v19",
-    "tags": [
-      "schema",
-      "diff",
-      "tools"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "llm-memory-tracker",
-    "description": "Track and visualize memory impact by execution thread for future optimization.",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "intent-v19",
-    "tags": [
-      "llm",
-      "memory",
-      "runtime"
-    ]
-  },
-  {
-    "agent": "feedbacker",
-    "task_id": "feedbacker-trend-analysis",
-    "description": "Aggregate execution log signals and generate weekly reports.",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "intent-v19",
-    "tags": [
-      "feedback",
-      "trend",
-      "logs"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "framework-live-deployment-mode",
-    "description": "Activate real-time mode where all LLM interactions follow and modify framework state live.",
-    "priority": "critical",
-    "status": "active",
-    "trigger": "user-declared-live-use",
-    "tags": [
-      "live",
-      "deployment",
-      "orchestration",
-      "framework"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "rebuild-core-structure",
-    "description": "Recreate any missing directories under core/ required for checklists, identities, and routines.",
-    "priority": "critical",
-    "status": "completed",
-    "trigger": "live-repair",
-    "tags": [
-      "infrastructure",
-      "repair",
-      "core",
-      "live-mode"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "trigger-user-checklist",
-    "description": "Trigger checklist to validate live session structure, agent alignment, and readiness for continuous ops.",
-    "priority": "critical",
-    "status": "completed",
-    "trigger": "user-live-init",
-    "tags": [
-      "checklist",
-      "live",
-      "human-user"
-    ]
-  },
-  {
-    "agent": "feedbacker",
-    "task_id": "feedback-loop-from-user",
-    "description": "Use feedbacker to simulate summary of issues or needs based on human-user\u2019s live session logs.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "user-live-init",
-    "tags": [
-      "feedback",
-      "user",
-      "live-mode"
-    ]
-  },
-  {
-    "agent": "planner",
-    "task_id": "agent-alignment-scan",
-    "description": "Ensure that all agent responsibilities and pipelines align with user identity goals and checklist.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "user-live-init",
-    "tags": [
-      "alignment",
-      "identity",
-      "pipeline"
-    ]
-  },
-  {
-    "agent": "planner",
-    "task_id": "user-goal-setting",
-    "description": "Generate, log, and execute user-proposed goals based on current framework state and evolution needs.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "live-user-postcheck",
-    "tags": [
-      "goal",
-      "user",
-      "intent"
-    ]
-  },
-  {
-    "agent": "feedbacker",
-    "task_id": "log-replay-for-improvement",
-    "description": "Let feedbacker and llm-assistant replay logs to surface blind spots or drift in behavior.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "live-user-postcheck",
-    "tags": [
-      "log",
-      "drift",
-      "gap-detection"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "snapshot-live-user-release",
-    "description": "Package current working version with all identity and feedback cycles completed after human-user integration.",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "live-user-postcheck",
-    "tags": [
-      "release",
-      "snapshot",
-      "user"
-    ]
-  },
-  {
-    "agent": "structurekeeper",
-    "task_id": "refactor-root-structure",
-    "description": "Move non-core README and config files into organized folders like /docs and /meta to keep root clean.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "live-reorg-cleanup",
-    "tags": [
-      "structure",
-      "docs",
-      "organization"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "generate-file-router",
-    "description": "Scan project files and write a file-router map linking metadata, agents, tasks, and purpose of each file.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "live-reorg-cleanup",
-    "tags": [
-      "routing",
-      "metadata",
-      "index"
-    ]
-  },
-  {
-    "agent": "docbot",
-    "task_id": "update-checklist-doc-links",
-    "description": "Patch routines, checklists, and identity files to reflect new routing paths after folder restructure.",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "live-reorg-cleanup",
-    "tags": [
-      "patch",
-      "docs",
-      "routing"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "audit-v21-before-v22",
-    "description": "Trigger pipeline+checklist+routine audits to confirm everything is valid and ready for v22.",
-    "priority": "critical",
-    "status": "completed",
-    "trigger": "live-reorg-cleanup",
-    "tags": [
-      "audit",
-      "release",
-      "checklist",
-      "pipeline"
-    ]
-  },
-  {
-    "agent": "structurekeeper",
-    "task_id": "create-pipeline-folder",
-    "description": "Ensure pipelines folder exists so agents can run their orchestration triggers.",
-    "priority": "critical",
-    "status": "completed",
-    "trigger": "audit-v21-fix",
-    "tags": [
-      "fix",
-      "folder",
-      "agent",
-      "pipelines"
-    ]
-  },
-  {
-    "agent": "llm-assistant",
-    "task_id": "regenerate-file-router",
-    "description": "Scan all content and embed type, tags, linked agent, task purpose into file-router.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "audit-v21-fix",
-    "tags": [
-      "fix",
-      "metadata",
-      "routing"
-    ]
-  },
-  {
-    "agent": "planner",
-    "task_id": "begin-v23-cycle",
-    "description": "Initialize v23 intents and execution roadmap from recent audits and improvements.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "v22-closeout",
-    "tags": [
-      "v23",
-      "roadmap",
-      "next-cycle"
-    ]
-  },
-  {
-    "agent": "planner",
-    "task_id": "expand-longterm-agents",
-    "description": "Define agents like `governor`, `resiliencebot`, `simulant`, and related checklists/pipelines.",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "v22-closeout",
-    "tags": [
-      "agents",
-      "governance",
-      "scaling"
-    ]
-  },
-  {
-    "agent": "docbot",
-    "task_id": "review-checklist-coverage",
-    "description": "Ensure all checklists in core/checklists are actively linked to agents, routines, or identities.",
-    "priority": "medium",
-    "status": "completed",
-    "trigger": "v22-closeout",
-    "tags": [
-      "checklist",
-      "linkage",
-      "coverage"
-    ]
-  },
-  {
-    "agent": "structurekeeper",
-    "task_id": "fix-missing-core-agents",
-    "description": "Auto-generate required folder to complete framework compliance.",
-    "priority": "high",
-    "status": "completed",
-    "trigger": "v22-final-audit",
-    "tags": [
-      "fix",
-      "structure",
-      "compliance"
-    ]
-  },
-  {
-    "id": "task-fix-logs-v1",
-    "title": "Fix Logging System",
-    "description": "Ensure task execution logs are persisted and packaged with framework releases. Add structured logging to real-time interactions and update generate_framework_zip.py.",
-    "domain": "logging",
-    "agent": "agent.log.guardian",
-    "status": "completed",
-    "priority": "high",
-    "created_by": "framework-orchestrator",
-    "checklist": [
-      "Audit where logs should be persisted",
-      "Implement or patch logging hooks in task execution pipeline",
-      "Ensure logs/executions/ directory is created and populated",
-      "Update generate_framework_zip.py to include relevant logs",
-      "Validate with a mock run"
-    ]
-  },
-  {
-    "id": "task-fix-cli-v1",
-    "title": "Expand CLI Capabilities",
-    "description": "Improve CLI with onboarding, helper guides, simulated task runs, and testing. Include CLI simulation and replay mode using prompt-replay.json.",
-    "domain": "cli",
-    "agent": "agent.cli.builder",
-    "status": "completed",
-    "priority": "medium",
-    "created_by": "framework-orchestrator",
-    "checklist": [
-      "Review existing CLI implementation or scaffold new CLI structure",
-      "Add onboarding and simulated task flags",
-      "Integrate prompt-replay.json as test source",
-      "Write CLI documentation in docs/cli-guide.md",
-      "Create CLI interaction logs"
-    ]
+{
+  "memory": {
+    "release-v0.26.0-routed": {
+      "timestamp": "2025-04-08T03:02:13.621257Z",
+      "notes": "Categorized delta release (routed) with 3 files across 9 categories.",
+      "tags": [
+        "release",
+        "delta",
+        "routed"
+      ],
+      "categories": {
+        "tasks": [
+          "framework/release-diff-engine/tasks.json"
+        ],
+        "other": [
+          "framework/release-diff-engine/file-snapshot-v0.25.1.json",
+          "framework/release-diff-engine/pipeline-release-diff-aware.json"
+        ]
+      }
+    },
+    "release-v0.26.0-final": {
+      "timestamp": "2025-04-08T03:10:40.265237Z",
+      "notes": "Final categorized diffs logged and ready for routed ZIP generation.",
+      "tags": [
+        "release",
+        "delta",
+        "routed",
+        "final"
+      ],
+      "categories": {
+        "memory": [
+          "memory_bank.archived.json",
+          "memory_bank.json",
+          "memory_bank.corrupted.json",
+          "core/memory-bridge.json",
+          "core/memory_bank.json",
+          "core/task-bootstrap-and-memory-loading.json",
+          "core/operational/feature-sync-and-memory-audit.json",
+          "core/operational/self-healing-memory-sync.json",
+          "core/operational/sync-memory-feature-map.json",
+          "core/tasks/task-llm-memory-tracker.json",
+          "docs/memory-api.md",
+          "docs/memory-runner-docs.md",
+          "forecasts/bootstrap-agent/timeline-memory.json",
+          "framework/checklists/memory-enhancement-checklist.md",
+          "framework/checklists/runner-and-memory-checklist.md",
+          "framework/memory/design-architecture-updates.md",
+          "framework/memory/framework-capabilities.md",
+          "framework/memory/project-mission-and-alignment.md",
+          "framework/memory/project-review_structure-clarity.md",
+          "logs/memory-sync-log.json",
+          "memory-bank/index-context.md",
+          "memory-bank/index.json",
+          "memory-bank/memory-metadata.json",
+          "memory-bank/pattern-memory.json",
+          "memory-bank/audit-tasks/agent-group-improvement-tasks.json",
+          "memory-bank/audit-tasks/agent-identity-review.json",
+          "memory-bank/audit-tasks/follow-up-improvements.json",
+          "memory-bank/audit-tasks/full-project-audit.json",
+          "memory-bank/audit-tasks/full-resilience-audit.json",
+          "memory-bank/audit-tasks/log-index.json",
+          "memory-bank/evolving/pending-tasks.json",
+          "memory-bank/fixed/phase-10-temporal.json",
+          "memory-bank/fixed/phase-8-self-evolving.json",
+          "memory-bank/fixed/phase-9-federation.json",
+          "memory-bank/tasks/resilience-hardening-v1.json",
+          "runtime/shared_memory/messages.json",
+          "runtime/shared_memory/subscriptions.json",
+          "sandbox/simulations/memory-sync-corrida-001.json",
+          "schemas/memory.schema.json",
+          "schemas/synthesized-memory-index.json"
+        ],
+        "logs": [
+          "agents-spec/audit-agent/reflections/reasoning-logs/audit-retro-v23.json",
+          "agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/bootstrap-agent/reflections/reasoning-logs/bootstrap-agent-retro-v23.json",
+          "agents-spec/bootstrap-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/evolve-agent/reflections/reasoning-logs/evolve-retro-v23.json",
+          "agents-spec/evolve-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/logger-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/logger-agent/reflections/reasoning-logs/logger-agent-retro-v23.json",
+          "agents-spec/meta-agent/reflections/reasoning-logs/meta-agent-retro-v23.json",
+          "agents-spec/orchestrator-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/orchestrator-agent/reflections/reasoning-logs/orchestrator-retro-v23.json",
+          "agents-spec/org-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/org-agent/reflections/reasoning-logs/org-agent-retro-v23.json",
+          "agents-spec/planner-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/planner-agent/reflections/reasoning-logs/planner-retro-v23.json",
+          "agents-spec/proposal-review-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/proposal-review-agent/reflections/reasoning-logs/proposal-review-agent-retro-v23.json",
+          "agents-spec/recovery-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/recovery-agent/reflections/reasoning-logs/recovery-agent-retro-v23.json",
+          "agents-spec/router-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/router-agent/reflections/reasoning-logs/router-agent-retro-v23.json",
+          "agents-spec/tasking-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/tasking-agent/reflections/reasoning-logs/tasking-retro-v23.json",
+          "agents-spec/ux-agent/reflections/reasoning-logs/init-reflection.json",
+          "agents-spec/ux-agent/reflections/reasoning-logs/ux-agent-retro-v23.json",
+          "agents-spec/voting-agent/reflections/reasoning-logs/voting-agent-retro-v23.json",
+          "logs/evaluations/agent-compliance-v0.23.0.json",
+          "logs/evaluations/agent-evolution-scores.json",
+          "logs/evaluations/upgrade-responses.json",
+          "logs/executions/agent-registry-rebuild.json",
+          "logs/executions/audit-agent-log-2025-04-07T12_05_04.534409Z.json",
+          "logs/executions/bootstrap-agent-log-2025-04-07T12_05_04.534409Z.json",
+          "logs/executions/bootstrap-execution-001.json",
+          "logs/executions/cli-helper-guide.json",
+          "logs/executions/cli-simulated-mode-toggle.json",
+          "logs/executions/cli-usecase-tests.json",
+          "logs/executions/cli-ux-polish.json",
+          "logs/executions/execution-audit-agent-session.json",
+          "logs/executions/execution-batch-pipelines.json",
+          "logs/executions/execution-routine-gap-detection.json",
+          "logs/executions/extended-task-execution.json",
+          "logs/executions/feature-audit.json",
+          "logs/executions/final-introspection.json",
+          "logs/executions/final-orchestration-changelog.json",
+          "logs/executions/final-plan-cleanup-execution.json",
+          "logs/executions/final-structural-feature-audit.json",
+          "logs/executions/fix-cli-system-final.json",
+          "logs/executions/fix-cli-system-init.json",
+          "logs/executions/fix-cli-system.json",
+          "logs/executions/fix-logging-system-init.json",
+          "logs/executions/fix-logging-system.json",
+          "logs/executions/follow-up-task-execution-log.json",
+          "logs/executions/introspection-report.json",
+          "logs/executions/live-llm-task-execution.json",
+          "logs/executions/log-agent-output-standardization.json",
+          "logs/executions/log-folder-verification.json",
+          "logs/executions/log-link-manifest.json",
+          "logs/executions/log-version-packaging.json",
+          "logs/executions/orchestration-simulation.json",
+          "logs/executions/phase-8-routines.json",
+          "logs/executions/planner-agent@project-X-onboarding-2025-04-07T12_14_28.022943Z.json",
+          "logs/executions/recovery-sync.json",
+          "logs/executions/resilience-hardening-v1-log.json",
+          "logs/executions/router-agent-log-2025-04-07T12_05_04.534409Z.json",
+          "logs/executions/routine-audit-phase12.json",
+          "logs/executions/system-resilience-execution.json",
+          "logs/executions/task-fix-cli-v1.json",
+          "logs/executions/task-fix-logs-v1.json",
+          "logs/executions/vNEXT-r3-diff.json",
+          "logs/executions/release-pipeline-enhancement-log.json"
+        ],
+        "schemas": [
+          "schemas/agent-evolution-score.json",
+          "schemas/canonical-agent-instances.json",
+          "schemas/canonical-agent-model-metadata.json",
+          "schemas/canonical-agent-model.json",
+          "schemas/context-router.schema-lifecycle.json",
+          "schemas/context-router.schema-metadata.json",
+          "schemas/context-router.schema.json",
+          "schemas/debate-vote.json",
+          "schemas/feature.schema-lifecycle.json",
+          "schemas/feature.schema-metadata.json",
+          "schemas/feature.schema.json",
+          "schemas/forkable-plan.json",
+          "schemas/lifecycle-metadata.json",
+          "schemas/pipeline.schema-lifecycle.json",
+          "schemas/pipeline.schema-metadata.json",
+          "schemas/pipeline.schema.json",
+          "schemas/routine-manifest.schema-lifecycle.json",
+          "schemas/routine-manifest.schema-metadata.json",
+          "schemas/routine-manifest.schema.json",
+          "schemas/schema-index-lifecycle.json",
+          "schemas/schema-index.json",
+          "schemas/schema-index.repaired.json",
+          "schemas/schema-metadata-metadata.json",
+          "schemas/schema-metadata.json",
+          "schemas/schema-version-tracker-lifecycle.json",
+          "schemas/schema-version-tracker.json",
+          "schemas/version-history.json"
+        ],
+        "goals": [
+          "goals/goal-boot.json",
+          "goals/goal-docbot-6aff77.json",
+          "goals/goal-feedbacker-d6efda.json",
+          "goals/goal-forecaster-3adeea.json",
+          "goals/goal-reviewkeeper-e833d4.json",
+          "goals/goal-roadmap-boot.json",
+          "goals/goal-schemaenforcer-51f700.json",
+          "goals/goal-threads.json",
+          "goals/goal-timeline.json"
+        ],
+        "tasks": [
+          "tasks.json",
+          "tasks.corrupted.json",
+          "core/tasks/task-agent-alignment-scan.json",
+          "core/tasks/task-agent-goal-generation.json",
+          "core/tasks/task-audit-v21-before-v22.json",
+          "core/tasks/task-begin-v23-cycle.json",
+          "core/tasks/task-continuous-evolution-cycle.json",
+          "core/tasks/task-create-pipeline-folder.json",
+          "core/tasks/task-discovery-intent-cycle.json",
+          "core/tasks/task-docbot-onboarding-doc.json",
+          "core/tasks/task-docbot-summary-cards.json",
+          "core/tasks/task-docbot-version-changelog.json",
+          "core/tasks/task-document-folder-structure-guidelines.json",
+          "core/tasks/task-enhance-file-router-metadata.json",
+          "core/tasks/task-expand-longterm-agents.json",
+          "core/tasks/task-feedback-loop-from-user.json",
+          "core/tasks/task-feedbacker-anomaly-detection.json",
+          "core/tasks/task-feedbacker-monthly-summary.json",
+          "core/tasks/task-feedbacker-trend-analysis.json",
+          "core/tasks/task-fix-missing-core-agents.json",
+          "core/tasks/task-framework-live-deployment-mode.json",
+          "core/tasks/task-generate-file-router.json",
+          "core/tasks/task-implement-cross-reference-system.json",
+          "core/tasks/task-llm-context-suggestions.json",
+          "core/tasks/task-llm-routing-runtime.json",
+          "core/tasks/task-log-replay-for-improvement.json",
+          "core/tasks/task-planner-milestone-calendar.json",
+          "core/tasks/task-planner-task-grouping.json",
+          "core/tasks/task-planner-timeline-cycles.json",
+          "core/tasks/task-rebuild-core-structure.json",
+          "core/tasks/task-refactor-root-structure.json",
+          "core/tasks/task-regenerate-file-router.json",
+          "core/tasks/task-review-checklist-coverage.json",
+          "core/tasks/task-runtime-discovery-metadata-update.json",
+          "core/tasks/task-schema-diff-viewer.json",
+          "core/tasks/task-schema-runtime-validation.json",
+          "core/tasks/task-schema-version-lock.json",
+          "core/tasks/task-setup-metadata-validation-pipeline.json",
+          "core/tasks/task-simulate-onboarding-sequence.json",
+          "core/tasks/task-snapshot-live-user-release.json",
+          "core/tasks/task-task-tbd.json",
+          "core/tasks/task-trigger-user-checklist.json",
+          "core/tasks/task-update-checklist-doc-links.json",
+          "core/tasks/task-user-goal-setting.json",
+          "framework/tasks/tasks.json",
+          "framework/release-diff-engine/tasks.json",
+          "plans/agent-srp-cleanup/tasks.json",
+          "plans/bootstrap/tasks.json",
+          "plans/extend-agent-abstractions/tasks.json",
+          "plans/feature-audit/tasks.json",
+          "plans/final-audit-fix/tasks.json",
+          "plans/fine-tune/tasks.json",
+          "plans/fix-content/tasks.json",
+          "plans/onboarding-agent-bootstrap/tasks.json",
+          "plans/onboarding-refinement-patch/tasks.json",
+          "plans/org-knowledge-agent-bootstrap/tasks.json",
+          "plans/reuse-corrida-elements/tasks.json",
+          "plans/root-collaboration-bootstrap/tasks.json",
+          "plans/self-evolving/tasks.json",
+          "plans/system-resilience/tasks.json",
+          "tasks/README.md"
+        ],
+        "pipelines": [
+          "framework/pipelines/agent_task_pipeline.yaml",
+          "framework/pipelines/docbot-auto-pipeline.yaml",
+          "framework/pipelines/feedbacker-auto-pipeline.yaml",
+          "framework/pipelines/forecaster-auto-pipeline.yaml",
+          "framework/pipelines/pipeline-release-vNEXT.json",
+          "framework/pipelines/planner-auto-pipeline.yaml",
+          "framework/pipelines/realtime-llm-pipeline.yaml",
+          "framework/pipelines/release-diff-pipeline.yaml",
+          "framework/pipelines/schemaenforcer-auto-pipeline.yaml",
+          "pipelines/README.md"
+        ]
+      }
+    }
   }
-]
+}

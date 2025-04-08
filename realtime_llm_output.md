@@ -26,8 +26,3 @@ description: Auto-generated routing metadata
 }
 ```
 
-<!-- linked feature: memory bank -->
-<!-- linked feature: tasks -->
-<!-- linked feature: agents -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: routines -->

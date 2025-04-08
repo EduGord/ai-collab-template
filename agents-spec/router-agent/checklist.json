@@ -6,7 +6,3 @@
   "Run lint-memory-index.py for missing memory links",
   "Auto-repair router and memory index if gaps found"
 ]
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

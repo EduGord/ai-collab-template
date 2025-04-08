@@ -10,7 +10,3 @@ description: Auto-generated routing metadata
 - Unify or link documentation sources  
 - Ensure clarity and usability for humans and LLMs  
 
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

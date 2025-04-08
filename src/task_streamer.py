@@ -21,8 +21,3 @@ def stream():
 
 if __name__ == "__main__":
     stream()
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

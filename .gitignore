@@ -83,8 +83,8 @@ sandbox/
 # - HANDOFF_PROMPT_*.md
 
 # 🔐 Keep these tracked for integrity
-!logs/
-!logs/executions/
-!logs/executions/*.json
-!pipeline-release-*.json
-!HANDOFF_PROMPT_*.md
+#!logs/
+#!logs/executions/
+#!logs/executions/*.json
+#!pipeline-release-*.json
+#!HANDOFF_PROMPT_*.md

@@ -3,7 +3,3 @@
   "formats": ["markdown", "json"],
   "personas": ["planner", "reviewer", "executor"]
 }
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

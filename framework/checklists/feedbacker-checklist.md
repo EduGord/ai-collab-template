@@ -13,8 +13,3 @@ description: Auto-generated routing metadata
 - [x] Support feedback and recovery from memory bank
 
 **Identity:** [feedbacker.identity.md](../identities/feedbacker.identity.md)
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

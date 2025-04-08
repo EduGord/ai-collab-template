@@ -25,8 +25,3 @@ if __name__ == "__main__":
         print("Usage: python task_editor.py <task_id> <new_status>")
     else:
         update_status(sys.argv[1], sys.argv[2])
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

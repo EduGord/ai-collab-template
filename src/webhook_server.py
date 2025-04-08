@@ -31,8 +31,3 @@ def run(server_class=HTTPServer, handler_class=WebhookHandler, port=8080):
 
 if __name__ == "__main__":
     run()
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

@@ -6,8 +6,3 @@ from pipeline_runner import run_pipeline
 if __name__ == "__main__":
     memory = Memory()
     run_pipeline(memory)
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

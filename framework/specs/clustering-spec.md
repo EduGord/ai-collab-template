@@ -18,8 +18,3 @@ description: Auto-generated routing metadata
 ## Policy
 - Round-robin within zone
 - Broadcast between zones via `messages.json` + `subscriptions.json`
-
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

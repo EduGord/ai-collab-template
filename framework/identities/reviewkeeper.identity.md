@@ -12,7 +12,3 @@ description: Auto-generated routing metadata
 **Checklist:** [reviewkeeper-checklist.md](../checklists/reviewkeeper-checklist.md)  
 
 **Backlinks:** [reviewkeeper-checklist.md](../checklists/reviewkeeper-checklist.md)
-
-<!-- linked feature: memory bank -->
-<!-- linked feature: pipelines -->
-<!-- linked feature: agents -->

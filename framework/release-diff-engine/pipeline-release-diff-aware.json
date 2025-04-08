@@ -1,0 +1,12 @@
+{
+  "id": "pipeline-release-diff-aware",
+  "version": "v0.25.1",
+  "description": "Safely create diff-based release using checksums, file-router, and metadata.",
+  "tasks": [
+    "T-FILE-HASH",
+    "T-FILE-DIFF",
+    "T-GEN-DELTA-ZIP",
+    "T-MEMORY-NOTE",
+    "T-UPDATE-ROUTER"
+  ]
+}
