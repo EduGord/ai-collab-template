@@ -1,0 +1,1830 @@
+[
+  {
+    "id": "validate-frontend-ux-mapping",
+    "description": "Confirmar se campos com requiredIf e visibleIf est\u00e3o aparecendo na etapa correta do wizard",
+    "priority": "high",
+    "category": "frontend",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent"
+  },
+  {
+    "id": "kpi-evaluation-logging",
+    "description": "Implementar estrutura de log para decis\u00f5es dos agentes de treino e valida\u00e7\u00e3o",
+    "priority": "medium",
+    "category": "orchestration",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot"
+  },
+  {
+    "id": "test-submission-edge-cases",
+    "description": "Rodar submiss\u00f5es reais com dados extremos e validar regras de seguran\u00e7a",
+    "priority": "high",
+    "category": "validation",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer"
+  },
+  {
+    "id": "agent-readme-missing",
+    "description": "Criar README.md explicativo em cada pasta de agente com escopo e exemplos de uso",
+    "priority": "low",
+    "category": "documentation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "review-routines-and-pending-tasks",
+    "description": "Revisar rotineiramente os arquivos project-todo.json e project-routines.json para garantir que nada est\u00e1 esquecido ou desatualizado",
+    "priority": "high",
+    "category": "orchestration",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "migrate-to-hybrid-memory-bank",
+    "description": "Adotar estrutura h\u00edbrida de documenta\u00e7\u00e3o persistente inspirada no Cursor Memory Bank para melhorar recupera\u00e7\u00e3o de contexto e onboarding de agentes.",
+    "priority": "high",
+    "category": "architecture",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "create-memory-bank-markdown-files",
+    "description": "Criar arquivos Markdown principais (projectBrief.md, activeContext.md, techContext.md, systemPatterns.md, etc.) com conte\u00fado inicial baseado nos arquivos .json existentes.",
+    "priority": "high",
+    "category": "documentation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "cross-validate-checklists-after-migration",
+    "description": "Revalidar todas as checklists dos agentes ap\u00f3s cria\u00e7\u00e3o dos arquivos de mem\u00f3ria persistente para garantir consist\u00eancia e cobertura.",
+    "priority": "high",
+    "category": "validation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "review-dev-agent-architecture-post-migration",
+    "description": "Assumir papel de dev-agent e revisar se arquitetura e organiza\u00e7\u00e3o do projeto continuam otimizadas ap\u00f3s ado\u00e7\u00e3o da estrutura h\u00edbrida.",
+    "priority": "high",
+    "category": "architecture",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "run-identity-checks-for-all-agents",
+    "description": "Assumir cada identidade dos agentes (training, frontend, dev, orchestrator) e validar se seu escopo est\u00e1 adequado, atualizado e completo ap\u00f3s a migra\u00e7\u00e3o.",
+    "priority": "medium",
+    "category": "agents",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "review-routines-and-todo-post-migration",
+    "description": "Revisar se todas as rotinas e tarefas pendentes do projeto est\u00e3o atualizadas e refletem a nova estrutura h\u00edbrida.",
+    "priority": "medium",
+    "category": "orchestration",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "document-memory-bank-usage-guidelines",
+    "description": "Criar instru\u00e7\u00f5es claras para humanos e IAs explicando como utilizar os novos arquivos Markdown da mem\u00f3ria persistente no contexto do projeto.",
+    "priority": "high",
+    "category": "documentation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "rename-core-jsons-for-clarity",
+    "description": "Renomear arquivos .json que guiam agentes (como ia-context.json) para nomes mais descritivos e com peso sem\u00e2ntico, ex: agents-map.json, routing-config.json, etc.",
+    "priority": "low",
+    "category": "refactor",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster"
+  },
+  {
+    "id": "plan-memory-bank-hybrid-migration",
+    "description": "Planejar ado\u00e7\u00e3o da arquitetura h\u00edbrida: manter JSONs para automa\u00e7\u00e3o e valida\u00e7\u00e3o r\u00edgida, e introduzir arquivos Markdown para persist\u00eancia de contexto e documenta\u00e7\u00e3o humana.",
+    "priority": "high",
+    "category": "architecture",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster"
+  },
+  {
+    "id": "create-memory-bank-docs",
+    "description": "Criar arquivos Markdown (projectBrief, productContext, activeContext, systemPatterns, techContext, progress) com base na estrutura do Cursor Memory Bank e integr\u00e1-los \u00e0 estrutura atual.",
+    "priority": "high",
+    "category": "documentation",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent"
+  },
+  {
+    "id": "validate-checklists-vs-memory-bank",
+    "description": "Verificar se os novos arquivos Markdown est\u00e3o corretamente mapeados nos checklists e rotinas.",
+    "priority": "medium",
+    "category": "validation",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent"
+  },
+  {
+    "id": "dev-agent-review-post-migration",
+    "description": "Assumir identidade do agente de desenvolvimento para revisar toda a estrutura do projeto ap\u00f3s ado\u00e7\u00e3o h\u00edbrida.",
+    "priority": "high",
+    "category": "audit",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "agent-identity-full-check",
+    "description": "Assumir identidade de todos os agentes (training, dev, frontend, orchestrator) e verificar se todos est\u00e3o com arquivos, escopo e comportamento esperados.",
+    "priority": "high",
+    "category": "identity-check",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "revisit-routines-and-dependencies",
+    "description": "Revisar se todas as rotinas e depend\u00eancias est\u00e3o atualizadas e compat\u00edveis com a nova estrutura h\u00edbrida.",
+    "priority": "high",
+    "category": "audit",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "document-memory-bank-usage",
+    "description": "Criar instru\u00e7\u00f5es claras sobre a nova estrutura do memory bank para humanos e IAs, com caminhos, exemplos e como evoluir esses documentos.",
+    "priority": "medium",
+    "category": "documentation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "create-training-kpi-core-checklist",
+    "description": "Criar checklist principal de valida\u00e7\u00e3o para o training-agent cobrindo todas as regras e arquivos de contexto",
+    "priority": "high",
+    "category": "checklist",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "complete-identity-dev-agent",
+    "description": "Revisar e completar identidade do agente dev-agent \u2014 campos ausentes: coreResponsibilities, inputContract, outputContract, collaboratesWith, tone, contextResponsibilities, enabledByDefault",
+    "priority": "high",
+    "category": "identity",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "complete-identity-frontend-agent",
+    "description": "Revisar e completar identidade do agente frontend-agent \u2014 campos ausentes: coreResponsibilities, inputContract, outputContract, collaboratesWith, tone, contextResponsibilities, enabledByDefault",
+    "priority": "high",
+    "category": "identity",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "complete-identity-training-specialist",
+    "description": "Revisar e completar identidade do agente training-specialist \u2014 campos ausentes: coreResponsibilities, inputContract, outputContract, collaboratesWith, tone, contextResponsibilities, enabledByDefault",
+    "priority": "high",
+    "category": "identity",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "review-routines-after-architecture-change",
+    "description": "Revisar se novas rotinas devem ser adicionadas ap\u00f3s mudan\u00e7as recentes (Memory Bank, reformula\u00e7\u00e3o de identidade, checklists)",
+    "priority": "medium",
+    "category": "routines",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot"
+  },
+  {
+    "id": "expand-memory-bank-with-rich-context",
+    "description": "Expandir o Memory Bank com mais hist\u00f3rico do projeto, instru\u00e7\u00f5es de navega\u00e7\u00e3o para IAs, e se\u00e7\u00f5es fixas/vari\u00e1veis para persist\u00eancia contextual eficiente.",
+    "priority": "high",
+    "category": "documentation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "review-project-structure-and-routing",
+    "description": "Revisar \u00e1rvore de diret\u00f3rios e organiza\u00e7\u00e3o de arquivos. Separar schemas, specs e implementa\u00e7\u00f5es; reavaliar roteamento de IA e agrupamentos l\u00f3gicos.",
+    "priority": "medium",
+    "category": "architecture",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "create-python-utils-for-agents",
+    "description": "Agrupar l\u00f3gicas \u00fateis utilizadas ao longo do projeto em scripts Python reutiliz\u00e1veis, como validadores, normalizadores, leitores de contexto, etc.",
+    "priority": "medium",
+    "category": "tools",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "document-memory-bank-usage-for-agents",
+    "description": "Criar instru\u00e7\u00f5es nos arquivos de identidade dos agentes e no core map sobre como utilizar e se beneficiar dos arquivos Markdown do Memory Bank.",
+    "priority": "high",
+    "category": "documentation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "review-identities-after-agent-expansion",
+    "description": "Revisar todas as identidades ap\u00f3s segrega\u00e7\u00e3o e adi\u00e7\u00e3o de novos agentes (docs-agent, support-agent). Garantir que cada um est\u00e1 com responsabilidades bem definidas e sem sobreposi\u00e7\u00e3o.",
+    "priority": "high",
+    "category": "identity-check",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "create-new-specialized-agents",
+    "description": "Criar diret\u00f3rios, identidades e checklists para os agentes: governance-agent, tooling-agent, ux-review-agent, compliance-agent, planner-agent, tasking-agent.",
+    "priority": "high",
+    "category": "identity-structure",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "assign-agent-responsibilities",
+    "description": "Definir e documentar claramente as responsabilidades exclusivas de cada novo agente e como interagem entre si.",
+    "priority": "high",
+    "category": "role-definition",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "update-memory-bank-with-new-agent-network",
+    "description": "Atualizar os arquivos do Memory Bank com o novo organograma de agentes e suas responsabilidades.",
+    "priority": "high",
+    "category": "documentation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "revalidate-agent-architecture-integrity",
+    "description": "Revalidar se todos os agentes existentes e novos possuem identidades, checklists e est\u00e3o corretamente posicionados na estrutura.",
+    "priority": "high",
+    "category": "validation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "validate-new-agent-identities",
+    "description": "Garantir que cada novo agente tenha sua identidade bem definida conforme recomenda\u00e7\u00e3o dos agentes existentes.",
+    "priority": "high",
+    "category": "identity-validation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "generate-missing-checklists-for-agents",
+    "description": "Verificar se todos os agentes possuem checklists abrangentes e atualizados, e gerar os que estiverem faltando.",
+    "priority": "high",
+    "category": "checklist-validation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "verify-and-extend-project-routines",
+    "description": "Revisar todas as rotinas do projeto e garantir que as novas funcionalidades e agentes estejam contemplados.",
+    "priority": "high",
+    "category": "routine-review",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "discuss-agent-polling-and-protocol-architecture",
+    "description": "Analisar viabilidade e valor de criar um agente especializado em polling entre agentes e/ou definir um protocolo can\u00f4nico de comunica\u00e7\u00e3o entre agentes.",
+    "priority": "medium",
+    "category": "agent-architecture",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "register-llm-session-routing-routine",
+    "description": "Criar rotina que garante que sempre que o usu\u00e1rio interagir com uma LLM generalista, os agentes planner, tasking e docs sejam ativados para gerar tarefas, enriquecer mem\u00f3ria e manter consist\u00eancia.",
+    "priority": "high",
+    "category": "llm-integration",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "auto-detect-tooling-opportunities-from-llm",
+    "description": "Criar mecanismo que permita ao tooling-agent identificar padr\u00f5es durante intera\u00e7\u00f5es com LLM e sugerir scripts utilit\u00e1rios reutiliz\u00e1veis.",
+    "priority": "high",
+    "category": "tooling",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "suggest-checklist-and-identity-updates-during-session",
+    "description": "Definir rotina para que agentes possam detectar necessidades de atualizar identidades, checklists e rotinas durante intera\u00e7\u00f5es e sugerir automaticamente revis\u00f5es.",
+    "priority": "high",
+    "category": "governance",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "review-spec-and-migrated-files-by-agents",
+    "description": "Cada agente deve revisar os arquivos restantes da pasta /spec e os migrados para verificar se est\u00e3o nos locais corretos, com conte\u00fado adequado e atualiza\u00e7\u00e3o de responsabilidade clara.",
+    "priority": "high",
+    "category": "agents",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "review-schemas-and-propose-improvements",
+    "description": "Cada agente deve revisar os arquivos de schemas (.json) do projeto e identificar melhorias estruturais, atributos faltantes ou refatora\u00e7\u00f5es.",
+    "priority": "high",
+    "category": "schemas",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "cross-agent-identity-and-checklist-review",
+    "description": "Cada agente deve revisar as identidades e checklists dos outros agentes, buscando lacunas, duplica\u00e7\u00f5es ou oportunidades de melhoria.",
+    "priority": "high",
+    "category": "governance",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "cross-review-forum-coordination",
+    "description": "Orchestrator deve conduzir f\u00f3rum entre agentes com base nas autocr\u00edticas e revis\u00f5es cruzadas. Planner estrutura, dev-agent otimiza e governance valida.",
+    "priority": "high",
+    "category": "orchestration",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "include-cross-review-in-routines",
+    "description": "Adicionar como rotina peri\u00f3dica a valida\u00e7\u00e3o cruzada entre identidades, checklists, rotinas e responsabilidades dos agentes.",
+    "priority": "medium",
+    "category": "routines",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "promote-strategic-discussions-between-agents",
+    "description": "Orchestrator deve organizar discuss\u00f5es entre os agentes sobre o estado atual do projeto para propor melhorias t\u00e9cnicas, estruturais e de documenta\u00e7\u00e3o.",
+    "priority": "high",
+    "category": "orchestration",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "review-existing-schemas-with-agents",
+    "description": "Todos os agentes devem revisar os arquivos de schema existentes (.json) e validar se s\u00e3o completos ou se precisam de extens\u00e3o/refatora\u00e7\u00e3o.",
+    "priority": "high",
+    "category": "schemas",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "validate-agent-files-against-schemas",
+    "description": "Validar que todos os arquivos dos agentes (identity, checklists, etc) seguem os schemas definidos corretamente.",
+    "priority": "high",
+    "category": "validation",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "agent-priority-suggestions-for-evolution",
+    "description": "Cada agente deve propor suas principais sugest\u00f5es de evolu\u00e7\u00e3o para o projeto, com foco em qualidade, manuten\u00e7\u00e3o e extensibilidade.",
+    "priority": "high",
+    "category": "planning",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "execute-architecture-review-pipeline",
+    "description": "Executar a pipeline de revis\u00e3o arquitetural com orquestra\u00e7\u00e3o completa",
+    "priority": "high",
+    "category": "orchestration",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T14:47:26.246505Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper"
+  },
+  {
+    "id": "register-validate-all-agents-pipeline",
+    "description": "Criar e registrar a rotina validate-all-agents com execu\u00e7\u00e3o autom\u00e1tica via automator-agent",
+    "priority": "medium",
+    "category": "automation",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T14:47:26.246505Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent"
+  },
+  {
+    "id": "execute-register-llm-session-routing-routine",
+    "description": "Executar rotina register-llm-session-routing-routine assumindo identidade de orchestrator-agent",
+    "priority": "high",
+    "category": "execution",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T14:47:26.246505Z",
+    "executedBy": "realtime-llm-assistant",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "assignedTo": "schemaenforcer"
+  },
+  {
+    "id": "execute-auto-detect-tooling-opportunities-from-llm",
+    "description": "Executar rotina auto-detect-tooling-opportunities-from-llm assumindo identidade de tooling-agent",
+    "priority": "high",
+    "category": "execution",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T14:47:26.246505Z",
+    "executedBy": "realtime-llm-assistant",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "assignedTo": "forecaster"
+  },
+  {
+    "id": "execute-suggest-checklist-and-identity-updates-during-session",
+    "description": "Executar rotina suggest-checklist-and-identity-updates-during-session assumindo identidade de governance-agent",
+    "priority": "high",
+    "category": "execution",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T14:47:26.246505Z",
+    "executedBy": "realtime-llm-assistant",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "assignedTo": "planner-agent"
+  },
+  {
+    "id": "execute-ui-review-pipeline",
+    "description": "Executar rotina ui-review-pipeline assumindo identidade de ux-review-agent",
+    "priority": "high",
+    "category": "execution",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T14:47:26.246505Z",
+    "executedBy": "realtime-llm-assistant",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "assignedTo": "docbot"
+  },
+  {
+    "id": "execute-safe-automation-pipeline",
+    "description": "Executar rotina safe-automation-pipeline assumindo identidade de automator-agent",
+    "priority": "high",
+    "category": "execution",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T14:47:26.246505Z",
+    "executedBy": "realtime-llm-assistant",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "assignedTo": "proposal-review-agent"
+  },
+  {
+    "id": "execute-identity-governance-audit",
+    "description": "Executar rotina identity-governance-audit assumindo identidade de governance-agent",
+    "priority": "high",
+    "category": "execution",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T14:47:26.246505Z",
+    "executedBy": "realtime-llm-assistant",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "assignedTo": "structurekeeper"
+  },
+  {
+    "id": "execute-generate-plan-feedback-log",
+    "description": "Executar rotina generate-plan-feedback-log assumindo identidade de planner-agent",
+    "priority": "high",
+    "category": "execution",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T14:47:26.246505Z",
+    "executedBy": "realtime-llm-assistant",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "assignedTo": "tasking-agent"
+  },
+  {
+    "id": "execute-context-holder-migration-plan-v1",
+    "description": "Executar plano incremental de evolu\u00e7\u00e3o do memory-bank para contexto estruturado e distribu\u00eddo entre agentes",
+    "priority": "high",
+    "category": "architecture",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T15:14:56.924561Z",
+    "executedBy": "realtime-llm-assistant",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "assignedTo": "proposal-review-agent"
+  },
+  {
+    "id": "context-plan-task-44b86983",
+    "description": "Criar script snapshot-memory-bank.py",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "forecaster",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-c50e6307",
+    "description": "Criar diret\u00f3rios archive/, logs/context/, deprecated/",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "proposal-review-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-4daaf1b8",
+    "description": "Criar script validator-md-structure.py",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "proposal-review-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-8da29b6f",
+    "description": "Atualizar arquivos fixos do contexto (projectBrief.md, techContext.md, etc)",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "planner-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-4e11f2ff",
+    "description": "Atualizar systemPatterns.md e guidelines.md",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "audit-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-bfd67ed9",
+    "description": "Atualizar spec-index.md com links atualizados",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "schemaenforcer",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-fd3da9b0",
+    "description": "Criar e manter pending-automation.md",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "feedbacker",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-c9f32ddf",
+    "description": "Criar e manter plans-log.md",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "docbot",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-ff104755",
+    "description": "Criar e manter intent-patterns.md",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "schemaenforcer",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-e5654f97",
+    "description": "Criar e manter weekly.md",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "proposal-review-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-fac430ae",
+    "description": "Automatizar atualiza\u00e7\u00f5es do activeContext.md",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "forecaster",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-9cef8581",
+    "description": "Consolidar fatos em progress.md",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "audit-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-89e77641",
+    "description": "Inserir sum\u00e1rios em progress.md",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "proposal-review-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-fd8f2f74",
+    "description": "Gerar script sync-json-to-md.py",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "router-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-f3c13c0e",
+    "description": "Executar valida\u00e7\u00e3o final dos arquivos .md",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "tasking-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-c38ee5a7",
+    "description": "Congelar vers\u00e3o v1 do novo memory-bank",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "tasking-agent",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "context-plan-task-dcc77f71",
+    "description": "Atualizar changelog e README t\u00e9cnico",
+    "priority": "high",
+    "category": "context",
+    "status": "done \u2705 (executed by framework)",
+    "assignedTo": "forecaster",
+    "createdAt": "2025-03-29T15:15:11.302787Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "task-603a1d0a",
+    "description": "Criar e registrar a rotina routine-gap-detection-pipeline.json",
+    "priority": "high",
+    "category": "architecture",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T15:39:08.324680Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "task-5b05e6a6",
+    "description": "Criar e registrar a rotina pipeline-template-library.json",
+    "priority": "high",
+    "category": "architecture",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T15:39:08.324680Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "task-49895b89",
+    "description": "Criar e registrar a rotina conversation-to-pipeline.json",
+    "priority": "high",
+    "category": "architecture",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T15:39:08.324680Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "task-f4969ec9",
+    "description": "Criar e registrar a rotina fallback-resolution-pipeline.json",
+    "priority": "high",
+    "category": "architecture",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T15:39:08.324680Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "id": "task-b70e43ac",
+    "description": "Criar e registrar a rotina autoindex-pipeline.json",
+    "priority": "high",
+    "category": "architecture",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by framework)",
+    "createdAt": "2025-03-29T15:39:08.324680Z",
+    "completedAt": "2025-04-07T05:22:10.834866",
+    "executedBy": "realtime-llm-assistant"
+  },
+  {
+    "taskId": "DOC-TUTORIALS-001",
+    "title": "Generate or Fix Agent Execution + Assumption Tutorials",
+    "status": "done \u2705 (executed by framework)",
+    "category": "documentation",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "GOV-UPGRADE-001",
+    "title": "Add Governance Routine for Upgrade Validation and Rollback Logic",
+    "status": "done \u2705 (executed by framework)",
+    "category": "governance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "DOC-ONBOARDING-001",
+    "title": "Generate Onboarding + Tutorial Documentation Templates",
+    "status": "done \u2705 (executed by framework)",
+    "category": "documentation",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "GOV-RESILIENCE-001",
+    "title": "Add Resilience-Focused Governance Routines (Rollback, Re-entry, Recovery)",
+    "status": "done \u2705 (executed by framework)",
+    "category": "governance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PHASE-021",
+    "title": "Begin Phase 21 \u2013 Auto-Versioning, Changelog Diffing, and Rollback Framework",
+    "status": "done \u2705 (executed by framework)",
+    "category": "evolution",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-001",
+    "title": "[GROUP-REVIEW-1] \u2192 Unify checklist schema across agents",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "bootstrap-agent",
+      "evolve-agent",
+      "router-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-1",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-002",
+    "title": "[GROUP-REVIEW-1] \u2192 Ensure all agents link at least one schema, routine, and plan",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "bootstrap-agent",
+      "evolve-agent",
+      "router-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-1",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-003",
+    "title": "[GROUP-REVIEW-1] \u2192 Create a shared agent-tool manifest or capability registry",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "bootstrap-agent",
+      "evolve-agent",
+      "router-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-1",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-004",
+    "title": "[GROUP-REVIEW-1] \u2192 Improve agent onboarding references in `/docs`",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "bootstrap-agent",
+      "evolve-agent",
+      "router-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-1",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-005",
+    "title": "[GROUP-REVIEW-1] \u2192 Add agent-to-agent protocol specs or comms simulation routines",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "bootstrap-agent",
+      "evolve-agent",
+      "router-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-1",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-006",
+    "title": "[GROUP-REVIEW-2] \u2192 Unify checklist schema across agents",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "planner-agent",
+      "orchestrator-agent",
+      "tasking-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-2",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-007",
+    "title": "[GROUP-REVIEW-2] \u2192 Ensure all agents link at least one schema, routine, and plan",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "planner-agent",
+      "orchestrator-agent",
+      "tasking-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-2",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-008",
+    "title": "[GROUP-REVIEW-2] \u2192 Create a shared agent-tool manifest or capability registry",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "planner-agent",
+      "orchestrator-agent",
+      "tasking-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-2",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-009",
+    "title": "[GROUP-REVIEW-2] \u2192 Improve agent onboarding references in `/docs`",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "planner-agent",
+      "orchestrator-agent",
+      "tasking-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-2",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-010",
+    "title": "[GROUP-REVIEW-2] \u2192 Add agent-to-agent protocol specs or comms simulation routines",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "planner-agent",
+      "orchestrator-agent",
+      "tasking-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-2",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-011",
+    "title": "[GROUP-REVIEW-3] \u2192 Unify checklist schema across agents",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "audit-agent",
+      "proposal-review-agent",
+      "recovery-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-3",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-012",
+    "title": "[GROUP-REVIEW-3] \u2192 Ensure all agents link at least one schema, routine, and plan",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "audit-agent",
+      "proposal-review-agent",
+      "recovery-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-3",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-013",
+    "title": "[GROUP-REVIEW-3] \u2192 Create a shared agent-tool manifest or capability registry",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "audit-agent",
+      "proposal-review-agent",
+      "recovery-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-3",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-014",
+    "title": "[GROUP-REVIEW-3] \u2192 Improve agent onboarding references in `/docs`",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "audit-agent",
+      "proposal-review-agent",
+      "recovery-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-3",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-015",
+    "title": "[GROUP-REVIEW-3] \u2192 Add agent-to-agent protocol specs or comms simulation routines",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "audit-agent",
+      "proposal-review-agent",
+      "recovery-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-3",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-016",
+    "title": "[GROUP-REVIEW-4] \u2192 Unify checklist schema across agents",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "voting-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-4",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-017",
+    "title": "[GROUP-REVIEW-4] \u2192 Ensure all agents link at least one schema, routine, and plan",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "voting-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-4",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-018",
+    "title": "[GROUP-REVIEW-4] \u2192 Create a shared agent-tool manifest or capability registry",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "voting-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-4",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-019",
+    "title": "[GROUP-REVIEW-4] \u2192 Improve agent onboarding references in `/docs`",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "voting-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-4",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PLNR-GROUP-TASK-020",
+    "title": "[GROUP-REVIEW-4] \u2192 Add agent-to-agent protocol specs or comms simulation routines",
+    "status": "done \u2705 (executed by framework)",
+    "category": "planner-expansion",
+    "assignedAgent": "planner-agent",
+    "sourceGroup": [
+      "voting-agent"
+    ],
+    "parentTask": "GROUP-REVIEW-4",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PHASE-022",
+    "title": "Define Canonical Pipeline Model and Index",
+    "status": "done \u2705 (executed by framework)",
+    "category": "schema-design",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PHASE-023",
+    "title": "Implement Agent Communication Protocol and Message Contracts",
+    "status": "done \u2705 (executed by framework)",
+    "category": "agent-architecture",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PHASE-024",
+    "title": "Enable Execution Replay and Patch Memory/State Hooks",
+    "status": "done \u2705 (executed by framework)",
+    "category": "evaluation-engine",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PHASE-025",
+    "title": "Define Cross-Agent Memory Access Model and Bridge",
+    "status": "done \u2705 (executed by framework)",
+    "category": "memory-management",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PHASE-026",
+    "title": "Create AI Entry Protocol for Role Awareness and Re-entry",
+    "status": "done \u2705 (executed by framework)",
+    "category": "llm-entrypoint",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "PHASE-027",
+    "title": "Design and Implement Recovery Mode and State Contract",
+    "status": "done \u2705 (executed by framework)",
+    "category": "resilience",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-clarify-readme-entry",
+    "title": "Define main README entrypoint",
+    "description": "Choose one README file as the central hub or consolidate READMEs into a unified format with TOC.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-folder-structure",
+    "title": "Establish standard folder structure",
+    "description": "Add src/, tests/, and docs/ directories where applicable to improve maintainability.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-context-router-clarify",
+    "title": "Clarify context-router.json purpose",
+    "description": "Move file to config/ and/or rename for clarity. Example: llm-context-router.json.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-readme-human-expand",
+    "title": "Expand README-HUMAN.md with setup and usage",
+    "description": "Include setup instructions, environment requirements, and common CLI commands.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-add-test-scaffolding",
+    "title": "Initialize unit test structure",
+    "description": "Create test boilerplate in `tests/` folder and validate imports.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-api-schema-validation",
+    "title": "Define and validate API schema",
+    "description": "If applicable, document or validate OpenAPI schema or endpoint contracts.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-init-agent-pipelines",
+    "title": "Setup agent pipeline logic",
+    "description": "Define pipelines between memory, tasks, logs, and agents. Use YAML or JSON schemas.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-add-coverage-scan",
+    "title": "Generate code coverage report",
+    "description": "Use coverage.py or similar tool to measure test coverage in `src/`.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-automated-review-pass",
+    "title": "Perform automated code and doc review",
+    "description": "Run reviewkeeper on all files and produce suggestions or flags in logs.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-improve-test-coverage",
+    "title": "Improve test coverage in core modules",
+    "description": "Add specific test cases to increase coverage in `core.py` and `utils.py`.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-enhance-readmes",
+    "title": "Merge or link multiple README files",
+    "description": "Unify `README.md`, `README-HUMAN.md`, and `README-LLM.md` or create a hub index.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-schema-validate-router",
+    "title": "Validate context-router schema",
+    "description": "Ensure `llm-context-router.json` follows consistent schema, possibly add schema reference.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-expand-test-core",
+    "title": "Add real assertions to `test_core.py`",
+    "description": "Go beyond the placeholder test and assert real functionality.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "routine-feedback-audit",
+    "title": "Add weekly audit routine for feedback loops",
+    "description": "Ensure `feedbacker` checks logs and updates `evaluation.md` after each pipeline cycle.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "routine-forecast-refresh",
+    "title": "Create monthly forecast refresh routine",
+    "description": "Forecaster should analyze new logs and memory once per month to refresh `forecast.md`.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "docbot-check-identity-links",
+    "title": "Validate that all identities link to their checklists and docs",
+    "description": "Add backlinks from identity files to checklists and linked files to improve discoverability.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "missing-checklists-reviewkeeper",
+    "title": "Create checklist for reviewkeeper responsibilities",
+    "description": "Define structured responsibilities for reviewkeeper including trigger points and review types.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "agent-state-dash",
+    "title": "Build live agent state dashboard",
+    "description": "Summarize agent status, responsibilities, and recent activity using CLI and memory service.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "mission-drift-watchdog",
+    "title": "Introduce routine for mission/goals drift checks",
+    "description": "Ensure ongoing alignment between `plan.md`, `mission`, and generated task flow.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "wh-sim-001",
+    "title": "Simulated pipeline via webhook",
+    "description": "Run full cycle from external ingestion to feedback summary.",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "docbot-checklink-review",
+    "title": "Ensure all docs link back to agent identity files",
+    "description": "Bi-directionally link identity files and the docs/checklists they reference or manage.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "structurekeeper-validate-paths",
+    "title": "Validate checklist and pipeline paths for all agents",
+    "description": "Ensure folder and file structure used in checklists/pipelines exists and matches framework.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "reviewkeeper-pipeline-mapping",
+    "title": "Map reviewkeeper actions to specific pipeline events",
+    "description": "Ensure reviewkeeper knows when to trigger based on `*.py`, `*.md`, and config changes.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "coveragebot-report-diff",
+    "title": "Add diff-based coverage reporting",
+    "description": "Have coveragebot compare current vs previous reports and highlight changes.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "llmrouter-routing-validation",
+    "title": "Validate llm-router has example inputs and edge cases",
+    "description": "Simulate incoming requests to router and check fallback/target coverage.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "schemaenforcer-strictness-levels",
+    "title": "Add strictness levels to schema checks",
+    "description": "Allow schemaenforcer to be configured for 'warn' or 'fail' mode per file.",
+    "priority": "low",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "feedbacker-flag-patterns",
+    "title": "Enable feedbacker to detect repeated agent errors or patterns",
+    "description": "Detect issues in logs like skipped logs, missing identity links, repeated failures.",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "forecaster-trend-tracker",
+    "title": "Implement trend tracking log for forecaster",
+    "description": "Add file to track predictions and actual outcomes for validation of forecast models.",
+    "priority": "low",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "planner-task-meta-checker",
+    "title": "Check if all tasks include description, status, and priority",
+    "description": "Ensure all planned/generated tasks are compliant with canonical structure.",
+    "priority": "high",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "realtime-llm-prompt-resolver",
+    "title": "Add structured JSON response support to realtime_llm_output",
+    "description": "Standardize output blocks for LLM integration in `realtime_llm_output.md`",
+    "priority": "medium",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "T1",
+    "desc": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "T2",
+    "desc": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "T3",
+    "desc": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "G1-T1",
+    "goal": "Enhance Agent Collaboration",
+    "agent": "planner-agent",
+    "action": "decompose-goal",
+    "description": "Analyze dependencies and required routines for goal G1",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "G1-T2",
+    "goal": "Enhance Agent Collaboration",
+    "agent": "orchestrator-agent",
+    "action": "assign-plan",
+    "description": "Create and route a plan to achieve goal G1",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "G2-T1",
+    "goal": "Enable Sandbox Simulations",
+    "agent": "planner-agent",
+    "action": "decompose-goal",
+    "description": "Analyze dependencies and required routines for goal G2",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "taskId": "G2-T2",
+    "goal": "Enable Sandbox Simulations",
+    "agent": "orchestrator-agent",
+    "action": "assign-plan",
+    "description": "Create and route a plan to achieve goal G2",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by framework)",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-generate-onboarding-core-context-module",
+    "title": "Generate Onboarding Context Module",
+    "description": "Create a memory and logic module that allows LLMs to summarize core concepts and artifacts automatically.",
+    "linked_agent": "realtime-llm-assistant",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-link-onboarding-to-reflections-and-router",
+    "title": "Link Onboarding Content to Router and Reflections",
+    "description": "Ensure onboarding docs are routable and accessible by any agent reflection engine.",
+    "linked_agent": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-summarize-docs-for-agent-memory",
+    "title": "Summarize Project Docs into Agent Memory Entries",
+    "description": "UX agent summarizes onboarding documents and key frameworks into long-term memory with routable IDs.",
+    "linked_agent": "ux-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-author-auto-onboard-md",
+    "title": "Write AUTO-ONBOARD.md as default narrative entrypoint",
+    "description": "Create a human+agent-readable markdown file that narratively explains the system on load.",
+    "linked_agent": "ux-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-route-onboard-docs",
+    "title": "Route AUTO-ONBOARD.md and universal onboarding reflection in file-router",
+    "description": "Patch file-router to include narrative onboarding files with context tags.",
+    "linked_agent": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-inject-first-response-hook",
+    "title": "Link onboarding memory and doc into realtime-llm-assistant startup logic",
+    "description": "Ensure the assistant loads onboarding context on ZIP uploads or new sessions.",
+    "linked_agent": "realtime-llm-assistant",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-test-simulated-load",
+    "title": "Simulate a new session ZIP load to validate onboarding response",
+    "description": "Ensure system narrates its structure and guidance as intended.",
+    "linked_agent": "realtime-llm-assistant",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-design-org-agent-spec",
+    "title": "Design Agent Identity and Heuristics",
+    "description": "Define the organizational knowledge agent\u2019s identity, checklist, lifecycle, and decision heuristics.",
+    "linked_agent": "realtime-llm-assistant",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-automated-cataloging-logic",
+    "title": "Implement Classification and Cataloging Logic",
+    "description": "Develop ML/NLP methods to classify and tag documents automatically.",
+    "linked_agent": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-document-summarizer-module",
+    "title": "Create Document and Meeting Summarizer",
+    "description": "Use NLP summarization techniques to extract key points from documents and logs.",
+    "linked_agent": "ux-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-semantic-retrieval-index",
+    "title": "Build Semantic Information Retrieval Engine",
+    "description": "Develop search functionality with semantic indexing and relevance scoring.",
+    "linked_agent": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-integrate-productivity-systems",
+    "title": "Integrate with Productivity Tools",
+    "description": "Enable connections to project tools like calendars, Trello, Notion, etc.",
+    "linked_agent": "realtime-llm-assistant",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-usage-reporting-dashboard",
+    "title": "Create Analytics and Reporting Dashboard",
+    "description": "Log usage and effectiveness data. Display insights in an interactive dashboard.",
+    "linked_agent": "logger-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-validate-canonical-agent-compliance",
+    "title": "Validate Canonical Compliance for All Agents",
+    "description": "Scan and report any agent missing required fields or files per the canonical-agent-model v2.",
+    "linked_agent": "realtime-llm-assistant",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-patch-incomplete-agents",
+    "title": "Patch Non-Compliant Agents to Match Canonical Model",
+    "description": "Generate missing files for all incomplete agents using reference schema.",
+    "linked_agent": "realtime-llm-assistant",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-bootstrap-memory-bank",
+    "title": "Bootstrap Memory Bank for Root Plan",
+    "description": "Seed foundational prompt as long-term memory. Enable memory routing logic and file tagging.",
+    "linked_agent": "bootstrap-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-create-root-orchestrator-agent",
+    "title": "Create Root Orchestrator Agent",
+    "description": "Establish agent responsible for context validation, memory syncs, and orchestrating canonical plans.",
+    "linked_agent": "orchestrator-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-register-prompt-as-reflection",
+    "title": "Register Foundational Prompt as Agent Reflection",
+    "description": "Store original user prompt as a formal agent reflection for dynamic reasoning reference.",
+    "linked_agent": "orchestrator-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-validate-file-router-logic",
+    "title": "Validate File Routing Metadata and Inference",
+    "description": "Ensure that file-router guides the AI based on metadata for context inclusion/exclusion.",
+    "linked_agent": "router-agent",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  },
+  {
+    "id": "task-bootstrap-log-resumable-pipeline",
+    "title": "Bootstrap Logging Layer and Resume Protocol",
+    "description": "Implement task logging for resumable pipeline execution and agent awareness.",
+    "linked_agent": "realtime-llm-assistant",
+    "status": "done \u2705 (executed by framework)",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "completedAt": "2025-04-07T05:22:10.834866"
+  }
+]

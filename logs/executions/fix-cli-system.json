@@ -1,0 +1,8 @@
+{
+  "task_id": "fix-cli-system",
+  "agent": "realtime-llm-agent",
+  "status": "completed",
+  "description": "Enhance CLI usability with:\n- Simulated CLI test cases for onboarding and standard flows\n- A toggle for simulated mode (on/off)\n- Helper guides and onboarding walkthroughs\n- Examples based on previous real usage\n",
+  "completed_at": "2025-04-08T01:55:52.858526Z",
+  "framework_policy": "strict-follow-framework"
+}

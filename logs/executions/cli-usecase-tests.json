@@ -1,0 +1,8 @@
+{
+  "task_id": "cli-usecase-tests",
+  "agent": "planner-agent",
+  "status": "completed",
+  "description": "",
+  "completed_at": "2025-04-08T01:55:52.860780Z",
+  "framework_policy": "strict-follow-framework"
+}

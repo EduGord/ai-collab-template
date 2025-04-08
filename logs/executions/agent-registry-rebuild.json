@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-04-08T01:53:41.191055Z",
+  "action": "rebuild",
+  "agents_detected": [
+    "audit-agent",
+    "bootstrap-agent",
+    "evolve-agent",
+    "logger-agent",
+    "meta-agent",
+    "orchestrator-agent",
+    "org-agent",
+    "planner-agent",
+    "proposal-review-agent",
+    "recovery-agent",
+    "router-agent",
+    "tasking-agent",
+    "ux-agent",
+    "voting-agent"
+  ]
+}

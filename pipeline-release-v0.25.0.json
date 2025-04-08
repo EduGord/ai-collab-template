@@ -1,0 +1,34 @@
+{
+  "id": "pipeline-release-v0.25.0",
+  "version": "v0.25.0",
+  "date": "2025-04-08T02:17:22.395739",
+  "include": [
+    "agents-spec/audit-agent/agent-ledger.json",
+    "agents-spec/audit-agent/agent-state.json",
+    "plans/template-pipeline-library/routine-gap-detection-pipeline.json",
+    "logs/executions/execution-routine-gap-detection.json",
+    "logs/executions/execution-batch-pipelines.json",
+    "logs/executions/execution-audit-agent-session.json",
+    "logs/memory-sync-log.json",
+    "memory-bank/pattern-memory.json",
+    "memory-bank/index.json",
+    "memory-bank/memory-metadata.json",
+    "memory-bank/audit-tasks/agent-group-improvement-tasks.json",
+    "memory-bank/tasks/resilience-hardening-v1.json"
+  ],
+  "notes": [
+    "Includes new routine-gap-detection pipeline",
+    "Agent ledger/state updates post task assignment",
+    "Execution logs from orchestration session",
+    "Memory bank and logging policies validated"
+  ],
+  "enforced_policies": {
+    "logging_policy_enforced": true,
+    "agent_identity_required": [
+      "logger-agent"
+    ],
+    "task_required": [
+      "enforce-log-inclusion-policy"
+    ]
+  }
+}

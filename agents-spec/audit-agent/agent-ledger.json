@@ -3,5 +3,700 @@
   "status": "active",
   "tasks_completed": [],
   "current_focus": "post-v0.23.0 retrospective",
-  "last_updated": "2025-04-07T05:49:59.566566"
+  "last_updated": "2025-04-07T05:49:59.566566",
+  "assigned_tasks": [
+    {
+      "task_id": "plan-for-define-feature-manifest",
+      "description": "Create or resolve goal/task reference: 'define-feature-manifest'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-enrich-doc-how-to-add-agent",
+      "description": "Create or resolve goal/task reference: 'enrich-doc-how-to-add-agent'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-fix-llm-session-router-routine",
+      "description": "Create or resolve goal/task reference: 'fix-llm-session-router-routine'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-T3",
+      "description": "Create or resolve goal/task reference: 'T3'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-usage-reporting-dashboard",
+      "description": "Create or resolve goal/task reference: 'task-usage-reporting-dashboard'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-add-feature-audit-routine",
+      "description": "Create or resolve goal/task reference: 'add-feature-audit-routine'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-enrich-intent-json",
+      "description": "Create or resolve goal/task reference: 'enrich-intent-json'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-bootstrap-memory-bank",
+      "description": "Create or resolve goal/task reference: 'task-bootstrap-memory-bank'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-expand-canonical-models-with-router-schema",
+      "description": "Create or resolve goal/task reference: 'expand-canonical-models-with-router-schema'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-design-org-agent-spec",
+      "description": "Create or resolve goal/task reference: 'task-design-org-agent-spec'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-register-prompt-as-reflection",
+      "description": "Create or resolve goal/task reference: 'task-register-prompt-as-reflection'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-generate-onboarding-core-context-module",
+      "description": "Create or resolve goal/task reference: 'task-generate-onboarding-core-context-module'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-register-reflection-for-audit-failures",
+      "description": "Create or resolve goal/task reference: 'register-reflection-for-audit-failures'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-expand-memory-bridge",
+      "description": "Create or resolve goal/task reference: 'expand-memory-bridge'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-compare-routine-efficiency",
+      "description": "Create or resolve goal/task reference: 'compare-routine-efficiency'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-patch-incomplete-agents",
+      "description": "Create or resolve goal/task reference: 'task-patch-incomplete-agents'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-specify-feedback-integrator",
+      "description": "Create or resolve goal/task reference: 'specify-feedback-integrator'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-import-quick-pipeline-doc",
+      "description": "Create or resolve goal/task reference: 'import-quick-pipeline-doc'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-add-router-validator-tool",
+      "description": "Create or resolve goal/task reference: 'add-router-validator-tool'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-test-simulated-load",
+      "description": "Create or resolve goal/task reference: 'task-test-simulated-load'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-generate-routine-gap-detection",
+      "description": "Create or resolve goal/task reference: 'generate-routine-gap-detection'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-author-auto-onboard-md",
+      "description": "Create or resolve goal/task reference: 'task-author-auto-onboard-md'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-add-self-healing-routine-template",
+      "description": "Create or resolve goal/task reference: 'add-self-healing-routine-template'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-validate-canonical-agent-compliance",
+      "description": "Create or resolve goal/task reference: 'task-validate-canonical-agent-compliance'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-rebuild-memory-bank-index-dynamically",
+      "description": "Create or resolve goal/task reference: 'rebuild-memory-bank-index-dynamically'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-enhance-canonical-model-with-routines",
+      "description": "Create or resolve goal/task reference: 'enhance-canonical-model-with-routines'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-link-onboarding-to-reflections-and-router",
+      "description": "Create or resolve goal/task reference: 'task-link-onboarding-to-reflections-and-router'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-create-proposal-review-agent",
+      "description": "Create or resolve goal/task reference: 'create-proposal-review-agent'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-write-manual-mode-guide",
+      "description": "Create or resolve goal/task reference: 'write-manual-mode-guide'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-expand-router-agent-tools",
+      "description": "Create or resolve goal/task reference: 'expand-router-agent-tools'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-fix-bootstrap-plan-format",
+      "description": "Create or resolve goal/task reference: 'fix-bootstrap-plan-format'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-rebuild-context-router-dynamically",
+      "description": "Create or resolve goal/task reference: 'rebuild-context-router-dynamically'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-enrich-documentation-with-concepts",
+      "description": "Create or resolve goal/task reference: 'enrich-documentation-with-concepts'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-integrate-productivity-systems",
+      "description": "Create or resolve goal/task reference: 'task-integrate-productivity-systems'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-standardize-pipeline-format",
+      "description": "Create or resolve goal/task reference: 'standardize-pipeline-format'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-T1",
+      "description": "Create or resolve goal/task reference: 'T1'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-update-agent-checklists-for-memory-updates",
+      "description": "Create or resolve goal/task reference: 'update-agent-checklists-for-memory-updates'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-add-system-resilience-checklist",
+      "description": "Create or resolve goal/task reference: 'add-system-resilience-checklist'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-setup-agent-messages",
+      "description": "Create or resolve goal/task reference: 'setup-agent-messages'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-generate-refactor-suggestions",
+      "description": "Create or resolve goal/task reference: 'generate-refactor-suggestions'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-refine-routines-formatting",
+      "description": "Create or resolve goal/task reference: 'refine-routines-formatting'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-import-tasking-agent",
+      "description": "Create or resolve goal/task reference: 'import-tasking-agent'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-fix-routine-metadata",
+      "description": "Create or resolve goal/task reference: 'fix-routine-metadata'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-create-audit-agent",
+      "description": "Create or resolve goal/task reference: 'create-audit-agent'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-import-orchestrator-agent",
+      "description": "Create or resolve goal/task reference: 'import-orchestrator-agent'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-validate-and-version-pipelines",
+      "description": "Create or resolve goal/task reference: 'validate-and-version-pipelines'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-import-planner-agent",
+      "description": "Create or resolve goal/task reference: 'import-planner-agent'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-automated-cataloging-logic",
+      "description": "Create or resolve goal/task reference: 'task-automated-cataloging-logic'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-link-ledger-to-planner-outputs",
+      "description": "Create or resolve goal/task reference: 'link-ledger-to-planner-outputs'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-T2",
+      "description": "Create or resolve goal/task reference: 'T2'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-create-feature-schema",
+      "description": "Create or resolve goal/task reference: 'create-feature-schema'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-inject-first-response-hook",
+      "description": "Create or resolve goal/task reference: 'task-inject-first-response-hook'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-generate-system-evolve-cycle",
+      "description": "Create or resolve goal/task reference: 'generate-system-evolve-cycle'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-add-memory-index-linter",
+      "description": "Create or resolve goal/task reference: 'add-memory-index-linter'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-generalize-routine-manifest",
+      "description": "Create or resolve goal/task reference: 'generalize-routine-manifest'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-create-recovery-agent",
+      "description": "Create or resolve goal/task reference: 'create-recovery-agent'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-generate-self-review-hook",
+      "description": "Create or resolve goal/task reference: 'generate-self-review-hook'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-enrich-doc-example-workflows",
+      "description": "Create or resolve goal/task reference: 'enrich-doc-example-workflows'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-audit-and-update-agent-identities",
+      "description": "Create or resolve goal/task reference: 'audit-and-update-agent-identities'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-create-root-orchestrator-agent",
+      "description": "Create or resolve goal/task reference: 'task-create-root-orchestrator-agent'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-improve-router-agent-checklist",
+      "description": "Create or resolve goal/task reference: 'improve-router-agent-checklist'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-validate-agent-to-agent-delegation",
+      "description": "Create or resolve goal/task reference: 'validate-agent-to-agent-delegation'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-validate-file-router-logic",
+      "description": "Create or resolve goal/task reference: 'task-validate-file-router-logic'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-refine-canonical-models",
+      "description": "Create or resolve goal/task reference: 'refine-canonical-models'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-improve-readme",
+      "description": "Create or resolve goal/task reference: 'improve-readme'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-document-summarizer-module",
+      "description": "Create or resolve goal/task reference: 'task-document-summarizer-module'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-summarize-docs-for-agent-memory",
+      "description": "Create or resolve goal/task reference: 'task-summarize-docs-for-agent-memory'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-extend-audit-agent-checklist",
+      "description": "Create or resolve goal/task reference: 'extend-audit-agent-checklist'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-route-onboard-docs",
+      "description": "Create or resolve goal/task reference: 'task-route-onboard-docs'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-expand-checklists-with-corrida-logic",
+      "description": "Create or resolve goal/task reference: 'expand-checklists-with-corrida-logic'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-benchmark-agent-tokens",
+      "description": "Create or resolve goal/task reference: 'benchmark-agent-tokens'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-bootstrap-log-resumable-pipeline",
+      "description": "Create or resolve goal/task reference: 'task-bootstrap-log-resumable-pipeline'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-document-context-coherence-loop",
+      "description": "Create or resolve goal/task reference: 'document-context-coherence-loop'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-task-semantic-retrieval-index",
+      "description": "Create or resolve goal/task reference: 'task-semantic-retrieval-index'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "plan-for-generate-llm-session-router",
+      "description": "Create or resolve goal/task reference: 'generate-llm-session-router'",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "high",
+      "type": "goal-definition"
+    },
+    {
+      "task_id": "link-goal-G2",
+      "description": "Link unreferenced goal 'G2' to an appropriate plan",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "medium",
+      "type": "goal-linking"
+    },
+    {
+      "task_id": "link-goal-G1",
+      "description": "Link unreferenced goal 'G1' to an appropriate plan",
+      "status": "pending",
+      "assigned_to": "audit-agent",
+      "created_at": "2025-04-08T02:13:44.909263",
+      "priority": "medium",
+      "type": "goal-linking"
+    }
+  ]
 }

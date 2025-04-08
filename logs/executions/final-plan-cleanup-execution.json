@@ -1,0 +1,731 @@
+[
+  {
+    "task_file": "plans/agent-srp-cleanup/tasks.json",
+    "task_id": "T1",
+    "description": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077681"
+  },
+  {
+    "task_file": "plans/agent-srp-cleanup/tasks.json",
+    "task_id": "T2",
+    "description": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077692"
+  },
+  {
+    "task_file": "plans/agent-srp-cleanup/tasks.json",
+    "task_id": "T3",
+    "description": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077696"
+  },
+  {
+    "task_file": "plans/bootstrap/tasks.json",
+    "task_id": "T1",
+    "description": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077701"
+  },
+  {
+    "task_file": "plans/bootstrap/tasks.json",
+    "task_id": "T2",
+    "description": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077705"
+  },
+  {
+    "task_file": "plans/bootstrap/tasks.json",
+    "task_id": "T3",
+    "description": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077709"
+  },
+  {
+    "task_file": "plans/extend-agent-abstractions/tasks.json",
+    "task_id": "unknown--8663745998831479330",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077721"
+  },
+  {
+    "task_file": "plans/extend-agent-abstractions/tasks.json",
+    "task_id": "unknown--5779595630799224039",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077731"
+  },
+  {
+    "task_file": "plans/extend-agent-abstractions/tasks.json",
+    "task_id": "unknown--3932536513683319336",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077739"
+  },
+  {
+    "task_file": "plans/extend-agent-abstractions/tasks.json",
+    "task_id": "unknown-6241728412942720849",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077747"
+  },
+  {
+    "task_file": "plans/feature-audit/tasks.json",
+    "task_id": "T1",
+    "description": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077752"
+  },
+  {
+    "task_file": "plans/feature-audit/tasks.json",
+    "task_id": "T2",
+    "description": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077756"
+  },
+  {
+    "task_file": "plans/feature-audit/tasks.json",
+    "task_id": "T3",
+    "description": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077760"
+  },
+  {
+    "task_file": "plans/final-audit-fix/tasks.json",
+    "task_id": "T1",
+    "description": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077764"
+  },
+  {
+    "task_file": "plans/final-audit-fix/tasks.json",
+    "task_id": "T2",
+    "description": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077768"
+  },
+  {
+    "task_file": "plans/final-audit-fix/tasks.json",
+    "task_id": "T3",
+    "description": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077772"
+  },
+  {
+    "task_file": "plans/fine-tune/tasks.json",
+    "task_id": "T1",
+    "description": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077776"
+  },
+  {
+    "task_file": "plans/fine-tune/tasks.json",
+    "task_id": "T2",
+    "description": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077781"
+  },
+  {
+    "task_file": "plans/fine-tune/tasks.json",
+    "task_id": "T3",
+    "description": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077784"
+  },
+  {
+    "task_file": "plans/fix-content/tasks.json",
+    "task_id": "T1",
+    "description": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077788"
+  },
+  {
+    "task_file": "plans/fix-content/tasks.json",
+    "task_id": "T2",
+    "description": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077792"
+  },
+  {
+    "task_file": "plans/fix-content/tasks.json",
+    "task_id": "T3",
+    "description": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077796"
+  },
+  {
+    "task_file": "plans/onboarding-agent-bootstrap/tasks.json",
+    "task_id": "task-generate-onboarding-core-context-module",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077799"
+  },
+  {
+    "task_file": "plans/onboarding-agent-bootstrap/tasks.json",
+    "task_id": "task-link-onboarding-to-reflections-and-router",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077819"
+  },
+  {
+    "task_file": "plans/onboarding-agent-bootstrap/tasks.json",
+    "task_id": "task-summarize-docs-for-agent-memory",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077823"
+  },
+  {
+    "task_file": "plans/onboarding-refinement-patch/tasks.json",
+    "task_id": "task-author-auto-onboard-md",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077828"
+  },
+  {
+    "task_file": "plans/onboarding-refinement-patch/tasks.json",
+    "task_id": "task-route-onboard-docs",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077832"
+  },
+  {
+    "task_file": "plans/onboarding-refinement-patch/tasks.json",
+    "task_id": "task-inject-first-response-hook",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077836"
+  },
+  {
+    "task_file": "plans/onboarding-refinement-patch/tasks.json",
+    "task_id": "task-test-simulated-load",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077840"
+  },
+  {
+    "task_file": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "task_id": "task-design-org-agent-spec",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077845"
+  },
+  {
+    "task_file": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "task_id": "task-automated-cataloging-logic",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077849"
+  },
+  {
+    "task_file": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "task_id": "task-document-summarizer-module",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077853"
+  },
+  {
+    "task_file": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "task_id": "task-semantic-retrieval-index",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077856"
+  },
+  {
+    "task_file": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "task_id": "task-integrate-productivity-systems",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077861"
+  },
+  {
+    "task_file": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "task_id": "task-usage-reporting-dashboard",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077864"
+  },
+  {
+    "task_file": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "task_id": "task-patch-incomplete-agents",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077868"
+  },
+  {
+    "task_file": "plans/reuse-corrida-elements/tasks.json",
+    "task_id": "T1",
+    "description": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077872"
+  },
+  {
+    "task_file": "plans/reuse-corrida-elements/tasks.json",
+    "task_id": "T2",
+    "description": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077877"
+  },
+  {
+    "task_file": "plans/reuse-corrida-elements/tasks.json",
+    "task_id": "T3",
+    "description": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077880"
+  },
+  {
+    "task_file": "plans/root-collaboration-bootstrap/tasks.json",
+    "task_id": "task-bootstrap-memory-bank",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077885"
+  },
+  {
+    "task_file": "plans/root-collaboration-bootstrap/tasks.json",
+    "task_id": "task-create-root-orchestrator-agent",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077889"
+  },
+  {
+    "task_file": "plans/root-collaboration-bootstrap/tasks.json",
+    "task_id": "task-register-prompt-as-reflection",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077892"
+  },
+  {
+    "task_file": "plans/root-collaboration-bootstrap/tasks.json",
+    "task_id": "task-validate-file-router-logic",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077895"
+  },
+  {
+    "task_file": "plans/root-collaboration-bootstrap/tasks.json",
+    "task_id": "task-bootstrap-log-resumable-pipeline",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077899"
+  },
+  {
+    "task_file": "plans/self-evolving/tasks.json",
+    "task_id": "T1",
+    "description": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077903"
+  },
+  {
+    "task_file": "plans/self-evolving/tasks.json",
+    "task_id": "T2",
+    "description": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077906"
+  },
+  {
+    "task_file": "plans/self-evolving/tasks.json",
+    "task_id": "T3",
+    "description": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077909"
+  },
+  {
+    "task_file": "plans/system-resilience/tasks.json",
+    "task_id": "T1",
+    "description": "Scan all pipeline files for compliance",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077913"
+  },
+  {
+    "task_file": "plans/system-resilience/tasks.json",
+    "task_id": "T2",
+    "description": "Generate audit logs for missing metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077916"
+  },
+  {
+    "task_file": "plans/system-resilience/tasks.json",
+    "task_id": "T3",
+    "description": "Prepare feedback files for all agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077920"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--311402043978980991",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077928"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--3803432273617403984",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077934"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--9203448165499328242",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077941"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--102991273648685174",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077947"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--4983261701417561982",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077956"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-1635178919183327484",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077966"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--7275554207264698440",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077976"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-5001655293107412247",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077984"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-4953780002487015455",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.077993"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--2179723806730178620",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078001"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-5864356991221035636",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078009"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--7811169169553376896",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078018"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--1540543582157641383",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078027"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-4049615306494364370",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078035"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--1599674566296663435",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078042"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-2683789627880086576",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078050"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-7894995235482755625",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078057"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--1422967153652050379",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078064"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--8136680452736688739",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078072"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--7905467852317121440",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078079"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--4610035014777740620",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078086"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-7996101161138938743",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078096"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-7098975422654518073",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078103"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-9118998328934748459",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078111"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--7659774094587580484",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078118"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-8542882362294673006",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078124"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--7329078130347995665",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078130"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-102868719176948004",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078135"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-3750243557344785998",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078141"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown-6781555988091912021",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078146"
+  },
+  {
+    "task_file": "memory-bank/evolving/pending-tasks.json",
+    "task_id": "unknown--5285710758828442427",
+    "description": "No description",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (plan cleanup executed)",
+    "completedAt": "2025-04-07T05:25:49.078151"
+  }
+]

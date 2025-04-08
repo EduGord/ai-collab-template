@@ -1,0 +1,450 @@
+[
+  {
+    "task_file": "core/tasks/task-agent-alignment-scan.json",
+    "task_id": "task-agent-alignment-scan",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837617"
+  },
+  {
+    "task_file": "core/tasks/task-agent-goal-generation.json",
+    "task_id": "task-agent-goal-generation",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837631"
+  },
+  {
+    "task_file": "core/tasks/task-audit-v21-before-v22.json",
+    "task_id": "task-audit-v21-before-v22",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837636"
+  },
+  {
+    "task_file": "core/tasks/task-begin-v23-cycle.json",
+    "task_id": "task-begin-v23-cycle",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837640"
+  },
+  {
+    "task_file": "core/tasks/task-continuous-evolution-cycle.json",
+    "task_id": "task-continuous-evolution-cycle",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837645"
+  },
+  {
+    "task_file": "core/tasks/task-create-pipeline-folder.json",
+    "task_id": "task-create-pipeline-folder",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837649"
+  },
+  {
+    "task_file": "core/tasks/task-discovery-intent-cycle.json",
+    "task_id": "task-discovery-intent-cycle",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837653"
+  },
+  {
+    "task_file": "core/tasks/task-docbot-onboarding-doc.json",
+    "task_id": "task-docbot-onboarding-doc",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837660"
+  },
+  {
+    "task_file": "core/tasks/task-docbot-summary-cards.json",
+    "task_id": "task-docbot-summary-cards",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837665"
+  },
+  {
+    "task_file": "core/tasks/task-docbot-version-changelog.json",
+    "task_id": "task-docbot-version-changelog",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837669"
+  },
+  {
+    "task_file": "core/tasks/task-document-folder-structure-guidelines.json",
+    "task_id": "task-document-folder-structure-guidelines",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837673"
+  },
+  {
+    "task_file": "core/tasks/task-enhance-file-router-metadata.json",
+    "task_id": "task-enhance-file-router-metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837677"
+  },
+  {
+    "task_file": "core/tasks/task-expand-longterm-agents.json",
+    "task_id": "task-expand-longterm-agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837681"
+  },
+  {
+    "task_file": "core/tasks/task-feedback-loop-from-user.json",
+    "task_id": "task-feedback-loop-from-user",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837684"
+  },
+  {
+    "task_file": "core/tasks/task-feedbacker-anomaly-detection.json",
+    "task_id": "task-feedbacker-anomaly-detection",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837688"
+  },
+  {
+    "task_file": "core/tasks/task-feedbacker-monthly-summary.json",
+    "task_id": "task-feedbacker-monthly-summary",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837692"
+  },
+  {
+    "task_file": "core/tasks/task-feedbacker-trend-analysis.json",
+    "task_id": "task-feedbacker-trend-analysis",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837695"
+  },
+  {
+    "task_file": "core/tasks/task-fix-missing-core-agents.json",
+    "task_id": "task-fix-missing-core-agents",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837699"
+  },
+  {
+    "task_file": "core/tasks/task-framework-live-deployment-mode.json",
+    "task_id": "task-framework-live-deployment-mode",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837703"
+  },
+  {
+    "task_file": "core/tasks/task-generate-file-router.json",
+    "task_id": "task-generate-file-router",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837707"
+  },
+  {
+    "task_file": "core/tasks/task-implement-cross-reference-system.json",
+    "task_id": "task-implement-cross-reference-system",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837713"
+  },
+  {
+    "task_file": "core/tasks/task-llm-context-suggestions.json",
+    "task_id": "task-llm-context-suggestions",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837717"
+  },
+  {
+    "task_file": "core/tasks/task-llm-memory-tracker.json",
+    "task_id": "task-llm-memory-tracker",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837720"
+  },
+  {
+    "task_file": "core/tasks/task-llm-routing-runtime.json",
+    "task_id": "task-llm-routing-runtime",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837724"
+  },
+  {
+    "task_file": "core/tasks/task-log-replay-for-improvement.json",
+    "task_id": "task-log-replay-for-improvement",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837727"
+  },
+  {
+    "task_file": "core/tasks/task-planner-milestone-calendar.json",
+    "task_id": "task-planner-milestone-calendar",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837731"
+  },
+  {
+    "task_file": "core/tasks/task-planner-task-grouping.json",
+    "task_id": "task-planner-task-grouping",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837734"
+  },
+  {
+    "task_file": "core/tasks/task-planner-timeline-cycles.json",
+    "task_id": "task-planner-timeline-cycles",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837738"
+  },
+  {
+    "task_file": "core/tasks/task-rebuild-core-structure.json",
+    "task_id": "task-rebuild-core-structure",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837742"
+  },
+  {
+    "task_file": "core/tasks/task-refactor-root-structure.json",
+    "task_id": "task-refactor-root-structure",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837747"
+  },
+  {
+    "task_file": "core/tasks/task-regenerate-file-router.json",
+    "task_id": "task-regenerate-file-router",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837751"
+  },
+  {
+    "task_file": "core/tasks/task-review-checklist-coverage.json",
+    "task_id": "task-review-checklist-coverage",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "docbot",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837754"
+  },
+  {
+    "task_file": "core/tasks/task-runtime-discovery-metadata-update.json",
+    "task_id": "task-runtime-discovery-metadata-update",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837758"
+  },
+  {
+    "task_file": "core/tasks/task-setup-metadata-validation-pipeline.json",
+    "task_id": "task-setup-metadata-validation-pipeline",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837763"
+  },
+  {
+    "task_file": "core/tasks/task-simulate-onboarding-sequence.json",
+    "task_id": "task-simulate-onboarding-sequence",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "router-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837767"
+  },
+  {
+    "task_file": "core/tasks/task-snapshot-live-user-release.json",
+    "task_id": "task-snapshot-live-user-release",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837771"
+  },
+  {
+    "task_file": "core/tasks/task-task-tbd.json",
+    "task_id": "task-task-tbd",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837774"
+  },
+  {
+    "task_file": "core/tasks/task-trigger-user-checklist.json",
+    "task_id": "task-trigger-user-checklist",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837778"
+  },
+  {
+    "task_file": "core/tasks/task-update-checklist-doc-links.json",
+    "task_id": "task-update-checklist-doc-links",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837782"
+  },
+  {
+    "task_file": "core/tasks/task-user-goal-setting.json",
+    "task_id": "task-user-goal-setting",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837785"
+  },
+  {
+    "task_file": "core/operational/feature-sync-and-memory-audit.json",
+    "task_id": "feature-sync-and-memory-audit",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "audit-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837789"
+  },
+  {
+    "task_file": "core/operational/finalize-project-integrity.json",
+    "task_id": "finalize-project-integrity",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837793"
+  },
+  {
+    "task_file": "core/operational/lifecycle.json",
+    "task_id": "lifecycle",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "forecaster",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837796"
+  },
+  {
+    "task_file": "core/operational/llm-session-router.json",
+    "task_id": "llm-session-router",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837800"
+  },
+  {
+    "task_file": "core/operational/pattern-audit.json",
+    "task_id": "pattern-audit",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837803"
+  },
+  {
+    "task_file": "core/operational/routine-gap-detection.json",
+    "task_id": "routine-gap-detection",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "structurekeeper",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837807"
+  },
+  {
+    "task_file": "core/operational/routine-manifest.json",
+    "task_id": "routine-manifest",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837811"
+  },
+  {
+    "task_file": "core/operational/routine-metadata.json",
+    "task_id": "routine-metadata",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837814"
+  },
+  {
+    "task_file": "core/operational/self-healing-memory-sync.json",
+    "task_id": "self-healing-memory-sync",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "planner-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837818"
+  },
+  {
+    "task_file": "core/operational/self-introspection.json",
+    "task_id": "self-introspection",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "schemaenforcer",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837821"
+  },
+  {
+    "task_file": "core/operational/self-review-hook.json",
+    "task_id": "self-review-hook",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837825"
+  },
+  {
+    "task_file": "core/operational/sync-memory-feature-map.json",
+    "task_id": "sync-memory-feature-map",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "proposal-review-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837828"
+  },
+  {
+    "task_file": "core/operational/system-evolve-cycle.json",
+    "task_id": "system-evolve-cycle",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837832"
+  },
+  {
+    "task_file": "core/operational/validate-canonical-models.json",
+    "task_id": "validate-canonical-models",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837836"
+  },
+  {
+    "task_file": "core/operational/validate-full-framework-state.json",
+    "task_id": "validate-full-framework-state",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "tasking-agent",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837839"
+  },
+  {
+    "task_file": "core/operational/validate-project-structure.json",
+    "task_id": "validate-project-structure",
+    "executedBy": "realtime-llm-assistant",
+    "assignedTo": "feedbacker",
+    "status": "done \u2705 (executed by extended framework)",
+    "completedAt": "2025-04-07T05:24:32.837843"
+  }
+]
