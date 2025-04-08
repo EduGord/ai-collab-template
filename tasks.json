@@ -15,5 +15,39 @@
       "memory",
       "logs"
     ]
+  },
+  {
+    "id": "task-50c0b1ef",
+    "title": "Initialize intelligent file router metadata",
+    "description": "Ensure all files are correctly tagged and referenced for routing purposes.",
+    "priority": "high",
+    "status": "pending",
+    "tags": [
+      "routing",
+      "metadata",
+      "llm"
+    ]
+  },
+  {
+    "id": "task-a303f6bd",
+    "title": "Link checklists and identities",
+    "description": "Ensure every checklist points to an identity and vice versa.",
+    "priority": "medium",
+    "status": "pending",
+    "tags": [
+      "consistency",
+      "docbot"
+    ]
+  },
+  {
+    "id": "task-77f2cc0c",
+    "title": "Sync schema coverage",
+    "description": "Audit all JSON configs and add them to `schema-config.json` with proper tags.",
+    "priority": "medium",
+    "status": "pending",
+    "tags": [
+      "schema",
+      "config"
+    ]
   }
 ]
