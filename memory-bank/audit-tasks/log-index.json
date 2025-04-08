@@ -1,0 +1,50 @@
+{
+  "generated_by": "orchestrator",
+  "timestamp": "2025-04-08T01:45:18.575811Z",
+  "logs_indexed": {
+    "memory_bank_logs": [
+      "/mnt/data/ai-collab-template/memory-bank/index.json",
+      "/mnt/data/ai-collab-template/memory-bank/memory-metadata.json",
+      "/mnt/data/ai-collab-template/memory-bank/pattern-memory.json",
+      "/mnt/data/ai-collab-template/memory-bank/audit-tasks/agent-group-improvement-tasks.json",
+      "/mnt/data/ai-collab-template/memory-bank/audit-tasks/agent-identity-review.json",
+      "/mnt/data/ai-collab-template/memory-bank/audit-tasks/follow-up-improvements.json",
+      "/mnt/data/ai-collab-template/memory-bank/audit-tasks/full-project-audit.json",
+      "/mnt/data/ai-collab-template/memory-bank/audit-tasks/full-resilience-audit.json",
+      "/mnt/data/ai-collab-template/memory-bank/evolving/pending-tasks.json",
+      "/mnt/data/ai-collab-template/memory-bank/fixed/phase-10-temporal.json",
+      "/mnt/data/ai-collab-template/memory-bank/fixed/phase-8-self-evolving.json",
+      "/mnt/data/ai-collab-template/memory-bank/fixed/phase-9-federation.json",
+      "/mnt/data/ai-collab-template/memory-bank/tasks/resilience-hardening-v1.json"
+    ],
+    "agent_log_files": [
+      "/mnt/data/ai-collab-template/logs/evaluations/agent-compliance-v0.23.0.json",
+      "/mnt/data/ai-collab-template/logs/evaluations/agent-evolution-scores.json",
+      "/mnt/data/ai-collab-template/logs/evaluations/upgrade-responses.json",
+      "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-2025-04-07T12_05_04.534409Z.json",
+      "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-2025-04-07T12_05_04.534409Z.json",
+      "/mnt/data/ai-collab-template/logs/executions/bootstrap-execution-001.json",
+      "/mnt/data/ai-collab-template/logs/executions/extended-task-execution.json",
+      "/mnt/data/ai-collab-template/logs/executions/feature-audit.json",
+      "/mnt/data/ai-collab-template/logs/executions/final-introspection.json",
+      "/mnt/data/ai-collab-template/logs/executions/final-orchestration-changelog.json",
+      "/mnt/data/ai-collab-template/logs/executions/final-plan-cleanup-execution.json",
+      "/mnt/data/ai-collab-template/logs/executions/final-structural-feature-audit.json",
+      "/mnt/data/ai-collab-template/logs/executions/follow-up-task-execution-log.json",
+      "/mnt/data/ai-collab-template/logs/executions/introspection-report.json",
+      "/mnt/data/ai-collab-template/logs/executions/live-llm-task-execution.json",
+      "/mnt/data/ai-collab-template/logs/executions/orchestration-simulation.json",
+      "/mnt/data/ai-collab-template/logs/executions/phase-8-routines.json",
+      "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-2025-04-07T12_14_28.022943Z.json",
+      "/mnt/data/ai-collab-template/logs/executions/recovery-sync.json",
+      "/mnt/data/ai-collab-template/logs/executions/resilience-hardening-v1-log.json",
+      "/mnt/data/ai-collab-template/logs/executions/router-agent-log-2025-04-07T12_05_04.534409Z.json",
+      "/mnt/data/ai-collab-template/logs/executions/routine-audit-phase12.json",
+      "/mnt/data/ai-collab-template/logs/executions/system-resilience-execution.json",
+      "/mnt/data/ai-collab-template/logs/executions/task-fix-cli-v1.json",
+      "/mnt/data/ai-collab-template/logs/executions/task-fix-logs-v1.json",
+      "/mnt/data/ai-collab-template/logs/executions/vNEXT-r3-diff.json",
+      "/mnt/data/ai-collab-template/logs/executions/fix-logging-system-init.json"
+    ]
+  }
+}

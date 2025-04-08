@@ -15,5 +15,46 @@
     "Clean release archive",
     "Manifest summary",
     "Updated metadata and logs"
+  ],
+  "steps": [
+    {
+      "id": "include-logs",
+      "description": "Ensure logs from logs/executions are included in the release archive and version manifest.",
+      "action": "copy_logs_to_release",
+      "source": "logs/executions",
+      "target": "release/logs"
+    },
+    {
+      "id": "generate-release-summary",
+      "description": "Collect and output all modified, added, deleted, or generated files and artifacts for packaging.",
+      "action": "generate_release_manifest",
+      "outputs": [
+        "release/summary/modified.json",
+        "release/summary/added.json",
+        "release/summary/deleted.json",
+        "release/summary/all-release-artifacts.zip",
+        "release/summary/log-index.json",
+        "release/summary/memory-bank-state.json"
+      ],
+      "include": [
+        "logs/",
+        "memory-bank/",
+        "schemas/",
+        "framework/",
+        "agents/",
+        "agents-spec/",
+        "plans/",
+        "pipelines/",
+        "core/",
+        "docs/",
+        "*.json",
+        "*.yaml",
+        "*.yml",
+        "*.md",
+        "*.txt",
+        "*.puml",
+        "logs/executions/"
+      ]
+    }
   ]
 }

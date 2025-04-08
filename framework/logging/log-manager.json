@@ -1,0 +1,17 @@
+{
+  "id": "log-manager",
+  "description": "Centralized logging utility for agent tasks, pipelines, and real-time execution output.",
+  "folders": {
+    "task_logs": "logs/executions/",
+    "error_logs": "logs/errors/",
+    "agent_logs": "logs/agents/"
+  },
+  "pipeline_integration": true,
+  "version_manifest_tracking": true,
+  "log_format": "json",
+  "policies": {
+    "retain_logs_per_version": true,
+    "include_logs_in_release_zip": true,
+    "timestamp_format": "ISO8601"
+  }
+}
