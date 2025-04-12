@@ -1,3 +1,0 @@
-* Enhanced AI capabilities: Experience more intelligent code completions, improved code generation, and faster response times thanks to the latest advancements in Gemini models.
-* Streamlined UI: A redesigned user interface provides a cleaner and more intuitive development experience, making it easier to navigate and manage your projects.
-* Improved performance: Enjoy faster build times, smoother debugging, and overall enhanced responsiveness of the development environment.

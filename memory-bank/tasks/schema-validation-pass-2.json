@@ -1,9 +1,0 @@
-{
-  "event": "schema-validation-pass-2",
-  "timestamp": "2025-04-12T18:45:00Z",
-  "validated_files": 25,
-  "output_log": "/mnt/data/ai-collab-template/logs/schema-validation/schema-validation-pass-2.json",
-  "status": "partial",
-  "agent": "docbot",
-  "routine": "regenerate-system-snapshot"
-}

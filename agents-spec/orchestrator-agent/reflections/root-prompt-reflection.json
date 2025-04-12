@@ -1,7 +1,0 @@
-{
-  "type": "foundational-reflection",
-  "title": "Initial User Intent Prompt",
-  "source": "User-provided first message of the framework project",
-  "linked_goal": "root-collaboration-bootstrap",
-  "insight": "This prompt defines the meta-goal of building a resilient, modular, agent-assisted collaboration system that addresses LLM context limitations and orchestrates long-term, large-scale human\u2013AI interaction. It introduces the importance of memory routing, resumable pipelines, and canonical data models."
-}

@@ -1,8 +1,0 @@
-{
-  "task_id": "cli-ux-polish",
-  "agent": "planner-agent",
-  "status": "completed",
-  "description": "",
-  "completed_at": "2025-04-08T01:55:52.861006Z",
-  "framework_policy": "strict-follow-framework"
-}

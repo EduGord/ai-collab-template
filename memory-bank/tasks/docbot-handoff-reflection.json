@@ -1,7 +1,0 @@
-{
-  "agent": "docbot",
-  "type": "post-handoff-reflection",
-  "status": "pending-review",
-  "summary": "Snapshot closed. All logs, audits, trust, and fallback passed. Awaiting validation for new agents, schemas, and planning cycle for v0.30.0.",
-  "timestamp": "2025-04-12T20:30:00Z"
-}

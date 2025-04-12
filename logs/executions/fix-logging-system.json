@@ -1,8 +1,0 @@
-{
-  "task_id": "fix-logging-system",
-  "agent": "realtime-llm-agent",
-  "status": "completed",
-  "description": "Ensure logs of task executions from real-time LLMs are persisted correctly.\n- Store logs in appropriate folders.\n- Include logs during release packaging.\n- Verify logs are attached to version manifests.\n",
-  "completed_at": "2025-04-08T01:55:52.858063Z",
-  "framework_policy": "strict-follow-framework"
-}

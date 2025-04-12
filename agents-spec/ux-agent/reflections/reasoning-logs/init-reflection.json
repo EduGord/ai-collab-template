@@ -1,5 +1,0 @@
-{
-  "type": "init",
-  "source": "System bootstrap",
-  "insight": "The UX Agent is designed to be the human-facing eye within the agent network. It reduces overload and ensures user comfort while interacting with multi-agent pipelines."
-}
