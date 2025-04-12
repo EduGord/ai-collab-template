@@ -1,0 +1,249 @@
+{
+  "rules": [
+    {
+      "pattern": "src/**",
+      "agent": "file_content_agent",      
+      "description": "Source code files",
+      "context": "This rule applies to all source code files within the 'src' directory, which are the primary files containing the application's logic."
+    },
+    {
+      "pattern": "docs/**",
+      "agent": "documentation_agent",
+      "description": "Documentation files",
+      "context": "This rule applies to files located within the 'docs' directory, typically containing user guides, API documentation, or other informational content."
+    },
+    {
+      "pattern": "*.md",
+      "agent": "documentation_agent",
+      "description": "Markdown files",
+      "context": "This rule applies to all Markdown files, often used for documentation, READMEs, or other descriptive text."
+    },
+    {
+      "pattern": "tests/**",
+      "agent": "testing_agent",
+      "description": "Test files",
+      "context": "This rule applies to files within the 'tests' directory, which should contain unit tests, integration tests, or other testing-related code."
+    },
+    {
+      "pattern": "*.json",
+      "agent": "configuration_agent",
+      "description": "JSON configuration files",
+      "context": "This rule applies to all JSON files, which typically contain configuration settings, data structures, or other structured information."
+    },
+    {
+      "pattern": "*.yaml",
+      "agent": "configuration_agent",
+      "description": "YAML configuration files",
+      "context": "This rule applies to all YAML files, often used for configuration or data serialization."
+    },
+    {
+      "pattern": "agents-spec/audit-agent/**",
+      "agent": "agent_spec_agent",
+      "description": "Agent specification files for audit-agent",
+      "context": "These rules apply to the specification files for the audit-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/bootstrap-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for bootstrap-agent",
+        "context": "These rules apply to the specification files for the bootstrap-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/evolve-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for evolve-agent",
+        "context": "These rules apply to the specification files for the evolve-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/logger-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for logger-agent",
+        "context": "These rules apply to the specification files for the logger-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/meta-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for meta-agent",
+        "context": "These rules apply to the specification files for the meta-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/orchestrator-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for orchestrator-agent",
+        "context": "These rules apply to the specification files for the orchestrator-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/org-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for org-agent",
+        "context": "These rules apply to the specification files for the org-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/planner-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for planner-agent",
+        "context": "These rules apply to the specification files for the planner-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/proposal-review-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for proposal-review-agent",
+        "context": "These rules apply to the specification files for the proposal-review-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/recovery-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for recovery-agent",
+        "context": "These rules apply to the specification files for the recovery-agent, providing details about its behavior and configuration."
+    },
+        
+    {
+      "pattern": "memory-bank/index.json",
+      "agent": "memory_index_agent",
+      "description": "Memory bank index file",
+      "context": "This rule applies to the memory bank index file, which provides an overview of the contents and organization of the memory bank."
+    },
+    {
+      "pattern": "core/tasks/**",
+      "agent": "core_tasks_agent",
+      "description": "Core task definition files",
+      "context": "These rules apply to files within the `core/tasks/` directory, which define the various tasks that the system can perform."
+    },
+    {
+        "pattern": "task-graph/**",
+        "agent": "task_graph_agent",
+        "description": "Task graph definition files",
+        "context": "This rule applies to files within the `task-graph/` directory, which define task graphs representing complex workflows and dependencies."
+    },
+    {
+      "pattern": "core/routines/**",
+      "agent": "core_routines_agent",
+      "description": "Core routine definition files",
+      "context": "These rules apply to files within the `core/routines/` directory, which define automated routines and workflows."
+    },
+    {
+      "pattern": "core/operational/**",
+      "agent": "core_operational_agent",
+      "description": "Core operational logic files",
+      "context": "These rules apply to files within the `core/operational/` directory, which handle the system's operational logic and processes."
+    },
+    {
+        "pattern": "framework/pipelines/*.yaml",
+        "agent": "pipeline_agent",
+        "description": "Pipeline definition files",
+        "context": "This rule applies to YAML files within the `framework/pipelines/` directory, which define the system's processing pipelines."
+    },
+    {
+      "pattern": "framework/checklists/**",
+      "agent": "framework_checklists_agent",
+      "description": "Framework checklist definition files",
+      "context": "These rules apply to files within the `framework/checklists/` directory, which define checklists used for various processes and validations."
+    },
+    {
+      "pattern": "framework/routines/**",
+      "agent": "framework_routines_agent",
+      "description": "Framework routine definition files",
+      "context": "These rules apply to files within the `framework/routines/` directory, which define reusable routines within the framework."
+    },
+    {
+      "pattern": "framework/agents/**",
+      "agent": "framework_agents_agent",
+      "description": "Framework agent definition files",
+      "context": "These rules apply to files within the `framework/agents/` directory, which define the core agents of the system."
+    },
+    {
+      "pattern": "framework/memory/**",
+      "agent": "framework_memory_agent",
+      "description": "Framework memory management files",
+      "context": "These rules apply to files within the `framework/memory/` directory, which handle memory management and data structures within the framework."
+    },
+    {
+        "pattern": "*/agent-ledger.json",
+        "agent": "agent_ledger_agent",
+        "description": "Agent ledger files",
+        "context": "This rule applies to agent ledger files, which track the state and history of individual agents. These files can be located in various directories."
+    },
+       {
+        "pattern": "agents-spec/router-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for router-agent",
+        "context": "These rules apply to the specification files for the router-agent, providing details about its behavior and configuration."
+    },
+        {
+        "pattern": "agents-spec/tasking-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for tasking-agent",
+        "context": "These rules apply to the specification files for the tasking-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/ux-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for ux-agent",
+        "context": "These rules apply to the specification files for the ux-agent, providing details about its behavior and configuration."
+    },
+    {
+        "pattern": "agents-spec/voting-agent/**",
+        "agent": "agent_spec_agent",
+        "description": "Agent specification files for voting-agent",
+        "context": "These rules apply to the specification files for the voting-agent, providing details about its behavior and configuration."
+    },
+
+        {
+        "pattern": "schemas/*-lifecycle.json",
+        "agent": "schema_management_agent",
+        "description": "Lifecycle management schemas",
+        "context": "These rules apply to schemas related to lifecycle management of various entities within the system."
+    },
+    {
+        "pattern": "schemas/*-metadata.json",
+        "agent": "schema_management_agent",
+        "description": "Metadata schemas",
+        "context": "These rules apply to schemas defining metadata structures for different components of the system."
+    },
+    {
+        "pattern": "schemas/*-schema.json",
+        "agent": "schema_management_agent",
+        "description": "Core schema definitions",
+        "context": "These rules apply to core schema definitions for various entities and processes within the system."
+    },
+
+
+
+
+
+
+      "agent": "schema_agent",
+      "description": "JSON schema definition files",
+      "context": "These rules apply to JSON schema files used for data validation and structure definitions within the project."
+    },
+    {
+      "pattern": "logs/**",
+      "agent": "logging_agent",
+      "description": "Log files",
+      "context": "These rules apply to all log files generated by the system, which are crucial for monitoring and debugging."
+    },
+      {
+      "pattern": "memory-bank/**",
+      "agent": "memory_agent",
+      "description": "Memory bank files",
+      "context": "These rules apply to files within the memory bank, which stores various forms of data and knowledge used by the system."
+    },
+    {
+      "pattern": "plans/**",
+      "agent": "planning_agent",
+      "description": "Execution plan files",
+      "context": "These rules apply to files containing execution plans for various tasks and processes within the system."
+    },
+       {
+
+        "pattern": "schemas/*.json",
+
+
+
+
+      "agent": "schema_agent",
+      "description": "JSON schema definition files",
+      "context": "These rules apply to JSON schema files used for data validation and structure definitions within the project."
+    }
+   ]
+}
