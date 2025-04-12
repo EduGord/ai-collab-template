@@ -1,0 +1,5214 @@
+[
+  {
+    "pipeline": "framework/pipelines/agent_task_pipeline.yaml",
+    "linked_agent": "org-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/feedbacker-auto-pipeline.yaml",
+    "linked_agent": "feedbacker"
+  },
+  {
+    "pipeline": "framework/pipelines/market-bidding-cycle.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/market-bidding-cycle.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/market-bidding-cycle.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/market-bidding-cycle.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/pipeline-release-vNEXT.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-0-context-schema-routing.yaml",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-0-context-schema-routing.yaml",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-0-context-schema-routing.yaml",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-0-context-schema-routing.yaml",
+    "linked_agent": "router-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-0-context-schema-routing.yaml",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-1-schema-patching-cleanup-execution.yaml",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-1-schema-patching-cleanup-execution.yaml",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-1-schema-patching-cleanup-execution.yaml",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-1-schema-patching-cleanup-execution.yaml",
+    "linked_agent": "router-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-2-validation-export-indexing.yaml",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-2-validation-export-indexing.yaml",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-2-validation-export-indexing.yaml",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "pipeline": "framework/pipelines/recovery-phase-2-validation-export-indexing.yaml",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "pipeline": "framework/release-diff-engine/pipeline-release-diff-aware.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-performance-fork.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/agent-collab-plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/documentation-update-plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/intent-release-v0.24.0.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "feedbacker"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-10-routing-autonomy.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "feedbacker"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11-swarm-memory-convergence.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-12-agent-market-economy.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "feedbacker"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13-agent-challenges-and-reflection.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "feedbacker"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-9-system-evolution.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "proposal-review-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "recovery-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/agent-srp-cleanup/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/plan.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/extend-agent-abstractions/tasks.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "audit-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/feature-audit/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/final-audit-fix/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fine-tune/plan.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/fix-content/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/onboarding-refinement-patch/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "org-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "feedbacker"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/convergence-routines.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "feedbacker"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-11/swarm-routines-proposed.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/agent-strategy-adaptation-001.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "feedbacker"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/consensus-cascade-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-13/challenges/reflection-race-001.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/reuse-corrida-elements/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "bootstrap-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/root-collaboration-bootstrap/tasks.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/self-evolving/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-resilience/plan.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "evolve-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "feedbacker"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "logger-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "meta-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "router-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "linked_agent": "ux-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "orchestrator-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "linked_agent": "planner-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  },
+  {
+    "plan": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "linked_agent": "tasking-agent"
+  }
+]

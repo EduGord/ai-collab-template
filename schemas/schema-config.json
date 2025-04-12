@@ -1,0 +1,175 @@
+{
+  "generated": "2025-04-12T19:25:00Z",
+  "schemas": [
+    {
+      "path": "schemas/agent-challenge.schema.json",
+      "id": "agent-challenge.schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/agent-evolution-score.json",
+      "id": "agent-evolution-score",
+      "status": "active"
+    },
+    {
+      "path": "schemas/agent-marketplace.schema.json",
+      "id": "agent-marketplace.schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/canonical-agent-instances.json",
+      "id": "canonical-agent-instances",
+      "status": "active"
+    },
+    {
+      "path": "schemas/canonical-agent-model-metadata.json",
+      "id": "canonical-agent-model-metadata",
+      "status": "active"
+    },
+    {
+      "path": "schemas/canonical-agent-model.json",
+      "id": "canonical-agent-model",
+      "status": "active"
+    },
+    {
+      "path": "schemas/context-router.schema-lifecycle.json",
+      "id": "context-router.schema-lifecycle",
+      "status": "active"
+    },
+    {
+      "path": "schemas/context-router.schema-metadata.json",
+      "id": "context-router.schema-metadata",
+      "status": "active"
+    },
+    {
+      "path": "schemas/context-router.schema.json",
+      "id": "context-router.schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/debate-vote.json",
+      "id": "debate-vote",
+      "status": "active"
+    },
+    {
+      "path": "schemas/dynamic-agent-routing.schema.json",
+      "id": "dynamic-agent-routing.schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/feature.schema-lifecycle.json",
+      "id": "feature.schema-lifecycle",
+      "status": "active"
+    },
+    {
+      "path": "schemas/feature.schema-metadata.json",
+      "id": "feature.schema-metadata",
+      "status": "active"
+    },
+    {
+      "path": "schemas/feature.schema.json",
+      "id": "feature.schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/forkable-plan.json",
+      "id": "forkable-plan",
+      "status": "active"
+    },
+    {
+      "path": "schemas/lifecycle-metadata.json",
+      "id": "lifecycle-metadata",
+      "status": "active"
+    },
+    {
+      "path": "schemas/memory-fusion.schema.json",
+      "id": "memory-fusion.schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/memory.schema.json",
+      "id": "memory.schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/pipeline.schema-lifecycle.json",
+      "id": "pipeline.schema-lifecycle",
+      "status": "active"
+    },
+    {
+      "path": "schemas/pipeline.schema-metadata.json",
+      "id": "pipeline.schema-metadata",
+      "status": "active"
+    },
+    {
+      "path": "schemas/pipeline.schema.json",
+      "id": "pipeline.schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/routine-manifest.schema-lifecycle.json",
+      "id": "routine-manifest.schema-lifecycle",
+      "status": "active"
+    },
+    {
+      "path": "schemas/routine-manifest.schema-metadata.json",
+      "id": "routine-manifest.schema-metadata",
+      "status": "active"
+    },
+    {
+      "path": "schemas/routine-manifest.schema.json",
+      "id": "routine-manifest.schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/routing-rules-schema.json",
+      "id": "routing-rules-schema",
+      "status": "active"
+    },
+    {
+      "path": "schemas/schema-index-lifecycle.json",
+      "id": "schema-index-lifecycle",
+      "status": "active"
+    },
+    {
+      "path": "schemas/schema-index.json",
+      "id": "schema-index",
+      "status": "active"
+    },
+    {
+      "path": "schemas/schema-index.repaired.json",
+      "id": "schema-index.repaired",
+      "status": "active"
+    },
+    {
+      "path": "schemas/schema-metadata-metadata.json",
+      "id": "schema-metadata-metadata",
+      "status": "active"
+    },
+    {
+      "path": "schemas/schema-metadata.json",
+      "id": "schema-metadata",
+      "status": "active"
+    },
+    {
+      "path": "schemas/schema-version-tracker-lifecycle.json",
+      "id": "schema-version-tracker-lifecycle",
+      "status": "active"
+    },
+    {
+      "path": "schemas/schema-version-tracker.json",
+      "id": "schema-version-tracker",
+      "status": "active"
+    },
+    {
+      "path": "schemas/synthesized-memory-index.json",
+      "id": "synthesized-memory-index",
+      "status": "active"
+    },
+    {
+      "path": "schemas/version-history.json",
+      "id": "version-history",
+      "status": "active"
+    }
+  ]
+}
