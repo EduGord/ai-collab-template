@@ -1,0 +1,22 @@
+{
+  "mission_id": "resilience-hardening-phase2",
+  "goal": "Elevate routine robustness by expanding fallback coverage and audit traceability.",
+  "agents": [
+    "docbot",
+    "planner-agent",
+    "meta-agent"
+  ],
+  "checkpoints": [
+    "Run resilience audit snapshot every milestone",
+    "Simulate fallback on routing/pipeline/identity errors",
+    "Log recovery workflows into memory-bank",
+    "Patch planner state with resilience forecasts"
+  ],
+  "status": "active",
+  "linked_docs": [
+    "docs/system-resilience-audit-summary.md",
+    "memory-bank/audit-tasks/system-resilience-audit-snapshot.json",
+    "logs/simulations/simulated-docbot-checklist-failure.json"
+  ],
+  "timestamp": "2025-04-12T19:45:00Z"
+}

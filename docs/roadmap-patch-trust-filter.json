@@ -1,0 +1,13 @@
+{
+  "patch_id": "trust-weighted-roadmap-filter",
+  "timestamp": "2025-04-12T20:30:00Z",
+  "priority_agents": [
+    "docbot",
+    "planner-agent"
+  ],
+  "deprioritized": [
+    "meta-agent"
+  ],
+  "description": "Tasks requiring fallback-unconfirmed or low-checklist agents will be deferred to next phase unless explicitly promoted.",
+  "status": "applied"
+}

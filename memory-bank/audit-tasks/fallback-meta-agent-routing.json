@@ -1,0 +1,9 @@
+{
+  "type": "resilience-test",
+  "agent": "meta-agent",
+  "outcome": "fallback confirmed",
+  "timestamp": "2025-04-12T20:15:00Z",
+  "trigger": "routing schema collision",
+  "status": "recovered",
+  "logged_as": "/mnt/data/ai-collab-template/logs/simulations/simulated-meta-agent-routing-failure.json"
+}

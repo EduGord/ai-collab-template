@@ -1,7 +1,7 @@
 {
   "agent": "planner-agent",
   "goal_id": "integrate-snapshot-sync",
-  "milestone": "v0.28.0",
+  "milestone": "v0.29.0",
   "description": "Ensure routine snapshot sync is embedded in milestone planning cycles.",
   "dependencies": [
     "snapshot-sync-pipeline",
@@ -20,6 +20,20 @@
     {
       "id": "log-to-roadmap",
       "action": "Log snapshot diff link to v0.28.0 milestone logs"
+    },
+    {
+      "id": "phase2-roadmap-integration",
+      "action": "Link roadmap-v0.29.0-tasks.json into active planning phase"
+    },
+    {
+      "id": "resilience-audit-ack",
+      "action": "Ingest and reflect audit snapshot in milestone planner state",
+      "linked_report": "docs/system-resilience-audit-summary.md"
+    },
+    {
+      "id": "recurring-resilience-audit",
+      "action": "Trigger resilience audit every milestone checkpoint and log to memory-bank",
+      "linked_routine": "resilience-hardening-phase2"
     }
   ]
 }

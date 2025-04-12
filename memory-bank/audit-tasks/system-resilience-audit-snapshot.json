@@ -1,0 +1,12 @@
+{
+  "event": "resilience-audit-snapshot",
+  "source": "docbot",
+  "timestamp": "2025-04-12T19:30:00Z",
+  "status": "partial",
+  "summary_path": "/mnt/data/ai-collab-template/docs/system-resilience-audit-summary.md",
+  "linked_to": [
+    "docs/system-snapshot.md",
+    "memory-bank/tasks/schema-validation-pass-1.json",
+    "memory-bank/tasks/schema-validation-feedback.json"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "event": "regenerate-system-snapshot",
+  "agent": "docbot",
+  "trigger": "schema-validation milestone pass 3",
+  "timestamp": "2025-04-12T19:10:00Z",
+  "routine": "regenerate-system-snapshot",
+  "outputs": [
+    "docs/system-snapshot.md",
+    "logs/snapshots/system-snapshot-diff.json"
+  ],
+  "linked_memory": [
+    "memory-bank/tasks/schema-validation-pass-1.json",
+    "memory-bank/tasks/schema-validation-pass-2.json",
+    "memory-bank/tasks/schema-validation-pass-3.json"
+  ],
+  "linked_checklist": "core/checklists/docbot-snapshot-checklist.yaml",
+  "linked_pipeline": "plans/template-pipeline-library/snapshot-sync-pipeline.json"
+}

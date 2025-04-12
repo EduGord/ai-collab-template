@@ -1,0 +1,12 @@
+{
+  "mission": "resilience-hardening-phase2",
+  "phase": "execution-started",
+  "status": "active",
+  "agents": [
+    "docbot",
+    "planner-agent",
+    "meta-agent"
+  ],
+  "timestamp": "2025-04-12T20:00:00Z",
+  "linked_milestone": "v0.29.0"
+}

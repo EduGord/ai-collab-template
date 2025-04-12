@@ -1,0 +1,11 @@
+{
+  "event": "schema-validation-pass-1",
+  "timestamp": "2025-04-12T18:30:00Z",
+  "validated_files": 25,
+  "output_log": "/mnt/data/ai-collab-template/logs/schema-validation/schema-validation-pass-1.json",
+  "markdown_summary": "/mnt/data/ai-collab-template/docs/schema-validation-report-pass-1.md",
+  "status": "partial",
+  "next_checkpoint": "/mnt/data/ai-collab-template/logs/schema-validation/validation-resume-checkpoint.json",
+  "agent": "docbot",
+  "routine": "regenerate-system-snapshot"
+}

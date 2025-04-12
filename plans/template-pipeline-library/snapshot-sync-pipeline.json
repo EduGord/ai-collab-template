@@ -1,8 +1,14 @@
 {
   "pipeline": "snapshot-sync-pipeline",
   "description": "Orchestrates the regeneration of the canonical system snapshot via docbot.",
-  "agents": ["docbot"],
-  "trigger": ["manual", "weekly", "post-merge"],
+  "agents": [
+    "docbot"
+  ],
+  "trigger": [
+    "manual",
+    "weekly",
+    "post-merge"
+  ],
   "stages": [
     {
       "name": "Initiate Snapshot Routine",
@@ -24,6 +30,12 @@
       "name": "Emit Change Summary",
       "action": "diff-to-log",
       "target": "logs/snapshots/system-snapshot-diff.json"
+    },
+    {
+      "name": "Fallback Invocation",
+      "action": "invoke-fallback-handler",
+      "on_failure": true,
+      "target": "fallback-resolution-pipeline.json"
     }
   ]
 }

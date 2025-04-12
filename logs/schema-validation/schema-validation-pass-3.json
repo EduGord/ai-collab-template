@@ -1,0 +1,2017 @@
+[
+  {
+    "file": "/mnt/data/ai-collab-template/agent-messages/proposal-review-agent/outbox/message-002.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agent-messages/recovery-agent/inbox/message-001.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agent-messages/recovery-agent/outbox/message-002.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agent-messages/router-agent/inbox/message-001.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agent-messages/router-agent/outbox/message-002.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agent-messages/tasking-agent/inbox/message-001.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agent-messages/tasking-agent/outbox/message-002.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/agent-ledger.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'tokens' is a required property",
+          "'reputation_score' is a required property",
+          "'load_index' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'role' is a required property",
+          "'description' is a required property",
+          "'traits' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/agent-metadata.json",
+    "error": "Extra data: line 43 column 1 (char 1137)"
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/agent-state.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/checklist.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "['Scan logs/ for recent execution results', 'Compare context-router with real filesystem', 'Ensure memory-bank/index.json references all active files', 'Generate diff reports if mismatches found', 'Log findings to audit-trail', 'Run validate-project-structure routine on version tags', 'Ensure feature-map.json is up to date with evolving plans'] is not of type 'object'"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "['Scan logs/ for recent execution results', 'Compare context-router with real filesystem', 'Ensure memory-bank/index.json references all active files', 'Generate diff reports if mismatches found', 'Log findings to audit-trail', 'Run validate-project-structure routine on version tags', 'Ensure feature-map.json is up to date with evolving plans'] is not of type 'object'"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "['Scan logs/ for recent execution results', 'Compare context-router with real filesystem', 'Ensure memory-bank/index.json references all active files', 'Generate diff reports if mismatches found', 'Log findings to audit-trail', 'Run validate-project-structure routine on version tags', 'Ensure feature-map.json is up to date with evolving plans'] is not of type 'object'"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "['Scan logs/ for recent execution results', 'Compare context-router with real filesystem', 'Ensure memory-bank/index.json references all active files', 'Generate diff reports if mismatches found', 'Log findings to audit-trail', 'Run validate-project-structure routine on version tags', 'Ensure feature-map.json is up to date with evolving plans'] is not of type 'object'"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "['Scan logs/ for recent execution results', 'Compare context-router with real filesystem', 'Ensure memory-bank/index.json references all active files', 'Generate diff reports if mismatches found', 'Log findings to audit-trail', 'Run validate-project-structure routine on version tags', 'Ensure feature-map.json is up to date with evolving plans'] is not of type 'object'"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "['Scan logs/ for recent execution results', 'Compare context-router with real filesystem', 'Ensure memory-bank/index.json references all active files', 'Generate diff reports if mismatches found', 'Log findings to audit-trail', 'Run validate-project-structure routine on version tags', 'Ensure feature-map.json is up to date with evolving plans'] is not of type 'object'"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "['Scan logs/ for recent execution results', 'Compare context-router with real filesystem', 'Ensure memory-bank/index.json references all active files', 'Generate diff reports if mismatches found', 'Log findings to audit-trail', 'Run validate-project-structure routine on version tags', 'Ensure feature-map.json is up to date with evolving plans'] is not of type 'object'"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/heuristics.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "[{'id': 'audit-basic-scope', 'trigger': 'task completion or version release', 'action': 'scan logs and agent plans for integrity violations', 'confidence': 0.9}, {'id': 'audit-anomaly-check', 'trigger': 'inconsistency in agent-state or file-router', 'action': 'flag for manual review or auto-repair proposal', 'confidence': 0.85}] is not of type 'object'"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "[{'id': 'audit-basic-scope', 'trigger': 'task completion or version release', 'action': 'scan logs and agent plans for integrity violations', 'confidence': 0.9}, {'id': 'audit-anomaly-check', 'trigger': 'inconsistency in agent-state or file-router', 'action': 'flag for manual review or auto-repair proposal', 'confidence': 0.85}] is not of type 'object'"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "[{'id': 'audit-basic-scope', 'trigger': 'task completion or version release', 'action': 'scan logs and agent plans for integrity violations', 'confidence': 0.9}, {'id': 'audit-anomaly-check', 'trigger': 'inconsistency in agent-state or file-router', 'action': 'flag for manual review or auto-repair proposal', 'confidence': 0.85}] is not of type 'object'"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "[{'id': 'audit-basic-scope', 'trigger': 'task completion or version release', 'action': 'scan logs and agent plans for integrity violations', 'confidence': 0.9}, {'id': 'audit-anomaly-check', 'trigger': 'inconsistency in agent-state or file-router', 'action': 'flag for manual review or auto-repair proposal', 'confidence': 0.85}] is not of type 'object'"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "[{'id': 'audit-basic-scope', 'trigger': 'task completion or version release', 'action': 'scan logs and agent plans for integrity violations', 'confidence': 0.9}, {'id': 'audit-anomaly-check', 'trigger': 'inconsistency in agent-state or file-router', 'action': 'flag for manual review or auto-repair proposal', 'confidence': 0.85}] is not of type 'object'"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "[{'id': 'audit-basic-scope', 'trigger': 'task completion or version release', 'action': 'scan logs and agent plans for integrity violations', 'confidence': 0.9}, {'id': 'audit-anomaly-check', 'trigger': 'inconsistency in agent-state or file-router', 'action': 'flag for manual review or auto-repair proposal', 'confidence': 0.85}] is not of type 'object'"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "[{'id': 'audit-basic-scope', 'trigger': 'task completion or version release', 'action': 'scan logs and agent plans for integrity violations', 'confidence': 0.9}, {'id': 'audit-anomaly-check', 'trigger': 'inconsistency in agent-state or file-router', 'action': 'flag for manual review or auto-repair proposal', 'confidence': 0.85}] is not of type 'object'"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/identity.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "canonical-agent-model.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'tokens' is a required property",
+          "'reputation_score' is a required property",
+          "'load_index' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/lifecycle.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/ux-profile.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/reflections/sample.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'content' is a required property",
+          "'tags' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/reflections/reasoning-logs/audit-retro-v23.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/agent-ledger.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/agent-metadata.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'traits' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/agent-state.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/checklist.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "['load template structure', 'generate scaffolding files', 'track progress'] is not of type 'object'"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "['load template structure', 'generate scaffolding files', 'track progress'] is not of type 'object'"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "['load template structure', 'generate scaffolding files', 'track progress'] is not of type 'object'"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "['load template structure', 'generate scaffolding files', 'track progress'] is not of type 'object'"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "['load template structure', 'generate scaffolding files', 'track progress'] is not of type 'object'"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "['load template structure', 'generate scaffolding files', 'track progress'] is not of type 'object'"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "['load template structure', 'generate scaffolding files', 'track progress'] is not of type 'object'"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/heuristics.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/identity.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "canonical-agent-model.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'tokens' is a required property",
+          "'reputation_score' is a required property",
+          "'load_index' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "/mnt/data/ai-collab-template/agents-spec/bootstrap-agent/lifecycle.json",
+    "valid_under": [
+      "agent-evolution-score.json",
+      "canonical-agent-model-metadata.json",
+      "context-router.schema-lifecycle.json",
+      "context-router.schema-metadata.json",
+      "context-router.schema.json",
+      "debate-vote.json",
+      "feature.schema-lifecycle.json",
+      "feature.schema-metadata.json",
+      "feature.schema.json",
+      "forkable-plan.json",
+      "lifecycle-metadata.json",
+      "pipeline.schema-lifecycle.json",
+      "pipeline.schema-metadata.json",
+      "pipeline.schema.json",
+      "routine-manifest.schema-lifecycle.json",
+      "routine-manifest.schema-metadata.json",
+      "routine-manifest.schema.json",
+      "schema-config.json",
+      "schema-index-lifecycle.json",
+      "schema-index.json",
+      "schema-metadata-metadata.json",
+      "schema-metadata.json",
+      "schema-version-tracker-lifecycle.json",
+      "schema-version-tracker.json",
+      "version-history.json"
+    ],
+    "failures": [
+      [
+        "agent-challenge.schema.json",
+        [
+          "'challenge_id' is a required property",
+          "'agents' is a required property",
+          "'objective' is a required property"
+        ]
+      ],
+      [
+        "agent-marketplace.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'tokens' is a required property",
+          "'reputation_score' is a required property"
+        ]
+      ],
+      [
+        "canonical-agent-model.json",
+        [
+          "'agent_id' is a required property",
+          "'role' is a required property",
+          "'description' is a required property"
+        ]
+      ],
+      [
+        "dynamic-agent-routing.schema.json",
+        [
+          "'agent_id' is a required property",
+          "'routing_criteria' is a required property",
+          "'routing_targets' is a required property"
+        ]
+      ],
+      [
+        "memory-fusion.schema.json",
+        [
+          "'fusion_id' is a required property",
+          "'agents' is a required property",
+          "'shared_slots' is a required property"
+        ]
+      ],
+      [
+        "memory.schema.json",
+        [
+          "'id' is a required property",
+          "'type' is a required property",
+          "'content' is a required property"
+        ]
+      ],
+      [
+        "routing-rules-schema.json",
+        [
+          "'rules' is a required property"
+        ]
+      ]
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "routine": "weekly-resilience-audit",
+  "trigger": [
+    "weekly-schedule",
+    "post-checklist-batch"
+  ],
+  "agent": "planner-agent",
+  "steps": [
+    {
+      "step": "validate-last-snapshot",
+      "source": "docs/system-snapshot.md"
+    },
+    {
+      "step": "run-audit-scan",
+      "source": "memory-bank/"
+    },
+    {
+      "step": "diff-against-trust-index",
+      "source": "meta/trust/trust-index.json"
+    },
+    {
+      "step": "write-resilience-report",
+      "target": "docs/system-resilience-audit-summary.md"
+    },
+    {
+      "step": "update-memory-bank",
+      "target": "memory-bank/audit-tasks/"
+    },
+    {
+      "step": "log-checklist-failures",
+      "target": "logs/resilience-issues/"
+    }
+  ]
+}

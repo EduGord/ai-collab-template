@@ -1,0 +1,42 @@
+[
+  {
+    "roadmap_id": "phase2-deep-integration",
+    "milestone": "v0.29.0",
+    "agent": "planner-agent",
+    "status": "open",
+    "tasks": [
+      {
+        "id": "schema-validation-pass",
+        "description": "Validate all JSON files in memory-bank, plans, and routines against referenced schemas.",
+        "assigned_to": "schemaenforcer",
+        "linked_schema": "schemas/canonical-agent-model.json"
+      },
+      {
+        "id": "identity-backfill",
+        "description": "Create identity.md and checklist.md for each active agent in agents-spec/",
+        "assigned_to": "docbot"
+      },
+      {
+        "id": "simulate-agent-failures",
+        "description": "Test fallback handling and pipeline resilience in agent simulations.",
+        "assigned_to": "planner-agent"
+      },
+      {
+        "id": "test-snapshot-sync",
+        "description": "Add test module to validate docbot routine execution and snapshot diff logging.",
+        "assigned_to": "testsuite"
+      },
+      {
+        "id": "feedback-linker",
+        "description": "Implement utility to convert memory-bank feedback into roadmap or checklist patches.",
+        "assigned_to": "docbot"
+      },
+      {
+        "id": "trust-index-map",
+        "description": "Generate trust-index.json linking agents to simulation results, checklist coverage, and reflection history.",
+        "assigned_to": "meta-agent"
+      }
+    ],
+    "timestamp": "2025-04-12T18:10:00Z"
+  }
+]
