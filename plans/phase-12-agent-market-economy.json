@@ -1,0 +1,26 @@
+{
+  "phase_id": "phase-12",
+  "title": "Phase 12 \u2013 Agent Market Simulation, Task Economy, Load Balancing",
+  "description": "Simulate agent-based task marketplaces to explore load balancing, reputation scoring, and economy-driven task prioritization using simulated tokens or weights.",
+  "status": "planning",
+  "initiated_by": "Framework OrchestratorGPT",
+  "timestamp": "2025-04-12T07:37:15.687335",
+  "objectives": [
+    "Introduce task tokenization and agent bidding mechanism",
+    "Enable load-aware routing based on past execution footprint",
+    "Launch agent reputation scoring for decision weighting",
+    "Track resource usage to inform marketplace dynamics"
+  ],
+  "candidate_agents": [
+    "planner-agent",
+    "tasking-agent",
+    "meta-agent",
+    "logger-agent"
+  ],
+  "next_steps": [
+    "Draft marketplace schema and governance constraints",
+    "Simulate agent token bidding scenario",
+    "Attach load reports to agent metadata",
+    "Route tasks using token-weighted selectors"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "pipeline_id": "market-bidding-cycle",
+  "status": "active",
+  "description": "Recurring background bidding routine for tokenized task allocation.",
+  "interval": "per-task",
+  "phases": [
+    "load-agent-market-snapshot",
+    "simulate-bidding-round",
+    "log-results-and-assign",
+    "update-token-balance"
+  ],
+  "triggered_by": [
+    "task-available"
+  ],
+  "agents": [
+    "planner-agent",
+    "tasking-agent",
+    "logger-agent",
+    "meta-agent"
+  ]
+}

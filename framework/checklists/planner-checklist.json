@@ -20,6 +20,10 @@
     {
       "name": "archive-review",
       "status": "staged"
+    },
+    {
+      "name": "autonomy-governance",
+      "status": "active"
     }
   ]
 }

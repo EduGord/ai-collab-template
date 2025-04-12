@@ -1,0 +1,54 @@
+[
+  {
+    "agent_id": "planner-agent",
+    "tokens": 120,
+    "reputation_score": 0.92,
+    "load_index": 0.3,
+    "bidding_history": [
+      {
+        "task_id": "market-task-001",
+        "bid": 20,
+        "status": "lost"
+      }
+    ]
+  },
+  {
+    "agent_id": "tasking-agent",
+    "tokens": 95,
+    "reputation_score": 0.85,
+    "load_index": 0.45,
+    "bidding_history": [
+      {
+        "task_id": "market-task-001",
+        "bid": 20,
+        "status": "lost"
+      }
+    ]
+  },
+  {
+    "agent_id": "meta-agent",
+    "tokens": 60,
+    "reputation_score": 0.78,
+    "load_index": 0.5,
+    "bidding_history": [
+      {
+        "task_id": "market-task-001",
+        "bid": 20,
+        "status": "lost"
+      }
+    ]
+  },
+  {
+    "agent_id": "logger-agent",
+    "tokens": 20,
+    "reputation_score": 0.88,
+    "load_index": 0.25,
+    "bidding_history": [
+      {
+        "task_id": "market-task-001",
+        "bid": 20,
+        "status": "won"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "negotiation_id": "n001",
+    "participants": [
+      "planner-agent",
+      "tasking-agent"
+    ],
+    "topic": "ownership of roadmap-task-t001",
+    "outcome": "co-managed via shared checklist",
+    "timestamp": "2025-04-12T07:35:59.862989"
+  },
+  {
+    "negotiation_id": "n002",
+    "participants": [
+      "schemaenforcer",
+      "tasking-agent"
+    ],
+    "topic": "priority of schema-drift enforcement during audit sweeps",
+    "outcome": "delegated to schemaenforcer with review by planner-agent",
+    "timestamp": "2025-04-12T07:35:59.863048"
+  }
+]

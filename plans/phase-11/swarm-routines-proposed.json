@@ -1,0 +1,24 @@
+[
+  {
+    "routine_id": "swarm-decision-cascade-v1",
+    "description": "Enables sequential fallback decisions across agents in swarm cluster",
+    "status": "proposed",
+    "agents": [
+      "orchestrator-agent",
+      "tasking-agent",
+      "ux-agent"
+    ],
+    "timestamp": "2025-04-12T07:35:59.863502"
+  },
+  {
+    "routine_id": "memory-quality-scorer-v1",
+    "description": "Ranks memory entries for reuse, decay, or snapshot retention",
+    "status": "proposed",
+    "agents": [
+      "feedbacker",
+      "meta-agent",
+      "logger-agent"
+    ],
+    "timestamp": "2025-04-12T07:35:59.863518"
+  }
+]

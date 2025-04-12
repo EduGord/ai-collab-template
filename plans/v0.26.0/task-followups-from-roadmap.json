@@ -1,0 +1,47 @@
+[
+  {
+    "plan_id": "plan-resolved-tbd-001",
+    "linked_agent": "schemaenforcer",
+    "origin": "v0.26.0-roadmap",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "status": "pending",
+    "timestamp": "2025-04-12T07:31:02.243794",
+    "source_task": "resolved-tbd-001"
+  },
+  {
+    "plan_id": "plan-resolved-tbd-002",
+    "linked_agent": "tasking-agent",
+    "origin": "v0.26.0-roadmap",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "status": "pending",
+    "timestamp": "2025-04-12T07:31:02.243817",
+    "source_task": "resolved-tbd-002"
+  },
+  {
+    "plan_id": "plan-resolved-tbd-003",
+    "linked_agent": "schemaenforcer",
+    "origin": "v0.26.0-roadmap",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "status": "pending",
+    "timestamp": "2025-04-12T07:31:02.243825",
+    "source_task": "resolved-tbd-003"
+  },
+  {
+    "plan_id": "plan-resolved-tbd-004",
+    "linked_agent": "tasking-agent",
+    "origin": "v0.26.0-roadmap",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "status": "pending",
+    "timestamp": "2025-04-12T07:31:02.243833",
+    "source_task": "resolved-tbd-004"
+  },
+  {
+    "plan_id": "plan-resolved-tbd-005",
+    "linked_agent": "schemaenforcer",
+    "origin": "v0.26.0-roadmap",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "status": "pending",
+    "timestamp": "2025-04-12T07:31:02.243839",
+    "source_task": "resolved-tbd-005"
+  }
+]

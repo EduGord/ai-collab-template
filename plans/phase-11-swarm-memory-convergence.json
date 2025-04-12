@@ -1,0 +1,19 @@
+{
+  "phase_id": "phase-11",
+  "title": "Phase 11 \u2013 Swarm Orchestration, Live Feedback Memory, Agent Convergence",
+  "status": "planning",
+  "initiated_by": "Framework OrchestratorGPT",
+  "timestamp": "2025-04-12T07:33:10.869184",
+  "goals": [
+    "Enable swarm orchestration across multi-agent tasks",
+    "Integrate feedback scoring into long-term memory",
+    "Converge redundant agent roles with heuristic learning",
+    "Prototype inter-agent negotiation protocols"
+  ],
+  "candidate_agents": [
+    "evolve-agent",
+    "feedbacker",
+    "tasking-agent",
+    "meta-agent"
+  ]
+}

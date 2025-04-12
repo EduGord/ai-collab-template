@@ -1,0 +1,30 @@
+[
+  {
+    "agent": "planner-agent",
+    "tokens": 120,
+    "reputation": 0.92,
+    "load": 0.3,
+    "bid_history": 1
+  },
+  {
+    "agent": "tasking-agent",
+    "tokens": 95,
+    "reputation": 0.85,
+    "load": 0.45,
+    "bid_history": 1
+  },
+  {
+    "agent": "meta-agent",
+    "tokens": 60,
+    "reputation": 0.78,
+    "load": 0.5,
+    "bid_history": 1
+  },
+  {
+    "agent": "logger-agent",
+    "tokens": 20,
+    "reputation": 0.88,
+    "load": 0.25,
+    "bid_history": 1
+  }
+]

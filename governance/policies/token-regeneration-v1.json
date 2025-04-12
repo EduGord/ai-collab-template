@@ -1,0 +1,18 @@
+{
+  "ruleset_id": "token-regeneration-v1",
+  "regeneration_conditions": [
+    {
+      "condition": "task_completed",
+      "tokens_earned": 10
+    },
+    {
+      "condition": "task_optimized",
+      "tokens_earned": 5
+    },
+    {
+      "condition": "task_delayed_or_failed",
+      "tokens_earned": 0
+    }
+  ],
+  "notes": "Token regeneration encourages task throughput and reward efficiency."
+}

@@ -1,0 +1,12 @@
+{
+  "policy_id": "marketplace-governance-v1",
+  "status": "proposed",
+  "principles": [
+    "No agent may bid if load_index exceeds max threshold (e.g. 0.8)",
+    "Bids are weighted by reputation_score \u00d7 bid \u00d7 inverse load_index",
+    "Agents regenerate tokens only when completing validated tasks",
+    "Reputation scoring must be explainable, auditable, and memory-backed"
+  ],
+  "timestamp": "2025-04-12T07:37:56.833180",
+  "proposed_by": "Framework OrchestratorGPT"
+}
