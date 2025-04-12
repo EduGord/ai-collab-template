@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "properties": {
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pattern",
+          "context"
+        ],
+        "properties": {
+          "pattern": {
+            "type": "string",
+            "description": "File path pattern (e.g., using glob syntax)"
+          },
+          "context": {
+            "type": "object",
+            "required": ["type", "level"],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "static",
+                  "dynamic"
+                ],
+                "description": "Context type"
+              },
+              "level": {
+                "type": "string",
+                "enum": [
+                  "core",
+                  "relevant",
+                  "background"
+                ],
+                "description": "Context level"
+              },
+              "parameters": {
+                "type": "object",
+                "description": "Context-specific parameters"
+              }
+            }
+          },
+          "metadata": {
+            "type": "object",
+            "description": "Metadata about the file or rule"
+          },
+          "description": {
+            "type": "string",
+            "description": "Purpose of the rule"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "rules"
+  ]
+}

@@ -992,6 +992,68 @@
       "title": "Design and Implement Recovery Mode and State Contract",
       "status": "pending",
       "category": "resilience"
+    },
+    {
+      "taskId": "ROUTER-IMPROVE-001",
+      "title": "Define a Flexible Schema",
+      "description": "Design a new schema for routing rules that allows for more complex logic and dynamic context loading. Consider using a more expressive language than JSON.",
+      "status": "pending",
+      "category": "file-routing-improvement",
+      "priority": "high",
+      "assignedTo": "router-agent"
+    },
+    {
+      "taskId": "ROUTER-IMPROVE-002",
+      "title": "Develop Dynamic Context Loading Algorithms",
+      "description": "Implement algorithms that analyze task content, metadata, and file relationships to determine the most relevant files for inclusion in the context.",
+      "status": "pending",
+      "category": "file-routing-improvement",
+      "priority": "high",
+      "assignedTo": "router-agent"
+    },
+    {
+      "taskId": "ROUTER-IMPROVE-003",
+      "title": "Implement Context Levels",
+      "description": "Introduce different levels of context (e.g., core, relevant, background) and develop mechanisms for managing them.",
+      "status": "pending",
+      "category": "file-routing-improvement",
+      "priority": "high",
+      "assignedTo": "router-agent"
+    },
+    {
+      "taskId": "ROUTER-IMPROVE-004",
+      "title": "Create Metadata Enrichment Tools",
+      "description": "Develop tools for adding metadata to files and maintaining a metadata index. This metadata should include file type, keywords, dependencies, last modified timestamp, and a relevance score.",
+      "status": "pending",
+      "category": "file-routing-improvement",
+      "priority": "high",
+      "assignedTo": "tooling-agent"
+    },
+    {
+      "taskId": "ROUTER-IMPROVE-005",
+      "title": "Design Intelligent Routing Logic",
+      "description": "Enhance the routing logic to consider relationships between files and the current task, automatically including related files as needed.",
+      "status": "pending",
+      "category": "file-routing-improvement",
+      "priority": "high",
+      "assignedTo": "router-agent"
+    },
+    {
+      "taskId": "ROUTER-IMPROVE-006",
+      "title": "Implement User Control Mechanisms",
+      "description": "Create user interfaces or commands that allow users to influence the context by specifying relevant files, modules, keywords, or topics.",
+      "status": "pending",
+      "category": "file-routing-improvement",
+      "priority": "medium"
+    },
+    {
+      "taskId": "ROUTER-IMPROVE-007",
+      "title": "Incorporate Learning and Adaptation",
+      "description": "Integrate learning algorithms that allow the routing system to adapt its behavior over time based on past interactions.",
+      "status": "pending",
+      "category": "file-routing-improvement",
+      "priority": "medium",
+      "assignedTo": "evolve-agent"
     }
   ]
 }
