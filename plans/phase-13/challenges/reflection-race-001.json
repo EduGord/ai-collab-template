@@ -1,0 +1,25 @@
+{
+  "challenge_id": "reflection-race-001",
+  "agents": [
+    "planner-agent",
+    "evolve-agent"
+  ],
+  "objective": "Design and propose a recovery-aware task loop for interrupted pipeline execution.",
+  "scoring_criteria": {
+    "accuracy": 0.4,
+    "efficiency": 0.2,
+    "collaboration": 0.2,
+    "reflection_quality": 0.2
+  },
+  "reflection_protocol": {
+    "phases": [
+      "review-logs",
+      "self-score",
+      "propose-diff"
+    ],
+    "requires_summary": true,
+    "feedback_hooks": true
+  },
+  "status": "pending",
+  "timestamp": "2025-04-12T07:53:13.765851"
+}

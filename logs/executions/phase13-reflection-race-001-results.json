@@ -1,0 +1,28 @@
+[
+  {
+    "challenge_id": "reflection-race-001",
+    "agent": "planner-agent",
+    "execution_summary": "Proposed task-loop scaffold with recovery checkpoints and roadmap fallback link.",
+    "scores": {
+      "accuracy": 0.38,
+      "efficiency": 0.18,
+      "collaboration": 0.2,
+      "reflection_quality": 0.18
+    },
+    "reflected": true,
+    "diff_proposal": "Add recovery-checkpoint hook to planner checklist + task fallback in roadmap taskmap"
+  },
+  {
+    "challenge_id": "reflection-race-001",
+    "agent": "evolve-agent",
+    "execution_summary": "Proposed evolution-phase annotation for pipelines plus log scoring filter.",
+    "scores": {
+      "accuracy": 0.36,
+      "efficiency": 0.2,
+      "collaboration": 0.18,
+      "reflection_quality": 0.2
+    },
+    "reflected": true,
+    "diff_proposal": "Embed evolution-phase marker in pipelines and checklist diff history log"
+  }
+]

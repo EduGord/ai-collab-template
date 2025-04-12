@@ -1,0 +1,80 @@
+[
+  {
+    "task_id": "fix-9ecb67b1",
+    "title": "planner-agent: Add task-phase sync routine to checklist",
+    "description": "Add task-phase sync routine to checklist.",
+    "agent": "planner-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:45:43.403526"
+  },
+  {
+    "task_id": "fix-79ac487b",
+    "title": "planner-agent: Create roadmap diff logging utility",
+    "description": "Create roadmap diff logging utility.",
+    "agent": "planner-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:45:43.404200"
+  },
+  {
+    "task_id": "fix-ee963dc2",
+    "title": "tasking-agent: Patch recovery phase into tasking-agent checklist",
+    "description": "Patch recovery phase into tasking-agent checklist.",
+    "agent": "tasking-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:45:43.404451"
+  },
+  {
+    "task_id": "fix-d2dbd4d5",
+    "title": "tasking-agent: Route CLI outputs to logger-agent log channels",
+    "description": "Route CLI outputs to logger-agent log channels.",
+    "agent": "tasking-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:45:43.404754"
+  },
+  {
+    "task_id": "fix-6e63d9d2",
+    "title": "docbot: Regenerate identity documentation from canonical model",
+    "description": "Regenerate identity documentation from canonical model.",
+    "agent": "docbot",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:45:43.404871"
+  },
+  {
+    "task_id": "fix-1849e862",
+    "title": "docbot: Link docbot checklist to schema validation outputs",
+    "description": "Link docbot checklist to schema validation outputs.",
+    "agent": "docbot",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:45:43.404991"
+  }
+]

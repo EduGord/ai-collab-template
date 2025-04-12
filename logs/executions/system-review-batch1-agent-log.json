@@ -1,0 +1,67 @@
+[
+  {
+    "agent": "planner-agent",
+    "reviewed_by": "Framework OrchestratorGPT",
+    "issues_found": [
+      "Missing goal-phase binding index",
+      "Checklist lacks dynamic roadmap sync hook"
+    ],
+    "recommendations": [
+      "Add task-phase sync routine",
+      "Create roadmap diff log"
+    ],
+    "timestamp": "2025-04-12T07:44:51.248193"
+  },
+  {
+    "agent": "tasking-agent",
+    "reviewed_by": "Framework OrchestratorGPT",
+    "issues_found": [
+      "No recovery hook in checklist",
+      "CLI utilities not linked to runtime logs"
+    ],
+    "recommendations": [
+      "Patch recovery phase to checklist",
+      "Route CLI logs to logger-agent"
+    ],
+    "timestamp": "2025-04-12T07:44:51.248248"
+  },
+  {
+    "agent": "docbot",
+    "reviewed_by": "Framework OrchestratorGPT",
+    "issues_found": [
+      "Outdated identity doc",
+      "Checklist missing schema linking step"
+    ],
+    "recommendations": [
+      "Regenerate identity doc",
+      "Link checklist to canonical schema coverage"
+    ],
+    "timestamp": "2025-04-12T07:44:51.248261"
+  },
+  {
+    "agent": "docbot",
+    "reviewed_by": "Framework OrchestratorGPT",
+    "issues_found": [
+      "Outdated identity doc",
+      "Checklist missing schema linking step"
+    ],
+    "recommendations": [
+      "Regenerate identity doc",
+      "Link checklist to canonical schema coverage"
+    ],
+    "timestamp": "2025-04-12T07:44:51.248270"
+  },
+  {
+    "agent": "planner-agent",
+    "reviewed_by": "Framework OrchestratorGPT",
+    "issues_found": [
+      "Missing goal-phase binding index",
+      "Checklist lacks dynamic roadmap sync hook"
+    ],
+    "recommendations": [
+      "Add task-phase sync routine",
+      "Create roadmap diff log"
+    ],
+    "timestamp": "2025-04-12T07:44:51.248278"
+  }
+]

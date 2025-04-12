@@ -1,0 +1,80 @@
+[
+  {
+    "task_id": "fix-5e6ddb65",
+    "title": "orchestrator-agent: Add resilience fallback checklist phase",
+    "description": "Add resilience fallback checklist phase.",
+    "agent": "orchestrator-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:48:36.392797"
+  },
+  {
+    "task_id": "fix-33b74e8d",
+    "title": "orchestrator-agent: Create pipeline-to-task dependency audit tool",
+    "description": "Create pipeline-to-task dependency audit tool.",
+    "agent": "orchestrator-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:48:36.393274"
+  },
+  {
+    "task_id": "fix-1ee208e1",
+    "title": "evolve-agent: Enable reflection-triggered update proposals",
+    "description": "Enable reflection-triggered update proposals.",
+    "agent": "evolve-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:48:36.393664"
+  },
+  {
+    "task_id": "fix-7a2dd043",
+    "title": "evolve-agent: Add evolution goal criteria to checklist",
+    "description": "Add evolution goal criteria to checklist.",
+    "agent": "evolve-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:48:36.393940"
+  },
+  {
+    "task_id": "fix-c2c7a781",
+    "title": "router-agent: Add token-routing pipeline review task to checklist",
+    "description": "Add token-routing pipeline review task to checklist.",
+    "agent": "router-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:48:36.394061"
+  },
+  {
+    "task_id": "fix-2f15ddf8",
+    "title": "router-agent: Link checklist to dynamic routing schema file",
+    "description": "Link checklist to dynamic routing schema file.",
+    "agent": "router-agent",
+    "status": "pending",
+    "tags": [
+      "agent-review",
+      "identity-upgrade",
+      "checklist-fix"
+    ],
+    "timestamp": "2025-04-12T07:48:36.394282"
+  }
+]

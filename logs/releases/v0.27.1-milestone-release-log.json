@@ -1,0 +1,16 @@
+{
+  "version": "v0.27.1",
+  "label": "Agent Review and System Hardening",
+  "timestamp": "2025-04-12T07:52:33.059200",
+  "status": "released",
+  "based_on": "v0.27.0",
+  "includes": [
+    "Full agent identity and checklist review (11 agents)",
+    "22 improvement tasks registered and dispatched",
+    "Schema, pipeline, UX, routing, logging, governance upgrades",
+    "Motivation memory and reflection upgrade scaffolding",
+    "Upgrade plan: agent-review-upgrade-plan-v1"
+  ],
+  "log": "logs/executions/agent-review-upgrade-plan-log.json",
+  "bundle": "ai-collab-template-post-review-v0271.zip"
+}
