@@ -9706,5 +9706,101 @@
     "category": "agent",
     "agent": null,
     "status": "active"
+  },
+  "docs/agents/orchestrator-agent.md": {
+    "path": "docs/agents/orchestrator-agent.md",
+    "category": "profile",
+    "agent": "orchestrator-agent",
+    "status": "active"
+  },
+  "docs/agents/planner-agent.md": {
+    "path": "docs/agents/planner-agent.md",
+    "category": "profile",
+    "agent": "planner-agent",
+    "status": "active"
+  },
+  "docs/agents/tasking-agent.md": {
+    "path": "docs/agents/tasking-agent.md",
+    "category": "profile",
+    "agent": "tasking-agent",
+    "status": "active"
+  },
+  "docs/agents/docs-agent.md": {
+    "path": "docs/agents/docs-agent.md",
+    "category": "profile",
+    "agent": "docs-agent",
+    "status": "active"
+  },
+  "docs/agents/governance-agent.md": {
+    "path": "docs/agents/governance-agent.md",
+    "category": "profile",
+    "agent": "governance-agent",
+    "status": "active"
+  },
+  "docs/agents/tooling-agent.md": {
+    "path": "docs/agents/tooling-agent.md",
+    "category": "profile",
+    "agent": "tooling-agent",
+    "status": "active"
+  },
+  "docs/agents/training-specialist.md": {
+    "path": "docs/agents/training-specialist.md",
+    "category": "profile",
+    "agent": "training-specialist",
+    "status": "active"
+  },
+  "docs/agents/frontend-agent.md": {
+    "path": "docs/agents/frontend-agent.md",
+    "category": "profile",
+    "agent": "frontend-agent",
+    "status": "active"
+  },
+  "docs/agents/support-agent.md": {
+    "path": "docs/agents/support-agent.md",
+    "category": "profile",
+    "agent": "support-agent",
+    "status": "active"
+  },
+  "docs/agents/compliance-agent.md": {
+    "path": "docs/agents/compliance-agent.md",
+    "category": "profile",
+    "agent": "compliance-agent",
+    "status": "active"
+  },
+  "docs/agents/ux-review-agent.md": {
+    "path": "docs/agents/ux-review-agent.md",
+    "category": "profile",
+    "agent": "ux-review-agent",
+    "status": "active"
+  },
+  "docs/agents/dev-agent.md": {
+    "path": "docs/agents/dev-agent.md",
+    "category": "profile",
+    "agent": "dev-agent",
+    "status": "active"
+  },
+  "docs/agents/intent-parser-agent.md": {
+    "path": "docs/agents/intent-parser-agent.md",
+    "category": "profile",
+    "agent": "intent-parser-agent",
+    "status": "active"
+  },
+  "docs/agents/automator-agent.md": {
+    "path": "docs/agents/automator-agent.md",
+    "category": "profile",
+    "agent": "automator-agent",
+    "status": "active"
+  },
+  "docs/agents/narrator-agent.md": {
+    "path": "docs/agents/narrator-agent.md",
+    "category": "profile",
+    "agent": "narrator-agent",
+    "status": "active"
+  },
+  "docs/AGENT_MODEL_INDEX.md": {
+    "path": "docs/AGENT_MODEL_INDEX.md",
+    "category": "meta",
+    "agent": null,
+    "status": "active"
   }
 }
