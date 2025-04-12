@@ -1,0 +1,47 @@
+[
+  {
+    "roadmap_id": "resolved-tbd-001",
+    "agent": "planner-agent",
+    "milestone": "v0.26.0",
+    "status": "staged",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
+    "timestamp": "2025-04-12T07:18:22.940377"
+  },
+  {
+    "roadmap_id": "resolved-tbd-002",
+    "agent": "planner-agent",
+    "milestone": "v0.26.0",
+    "status": "staged",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
+    "timestamp": "2025-04-12T07:18:22.940436"
+  },
+  {
+    "roadmap_id": "resolved-tbd-003",
+    "agent": "planner-agent",
+    "milestone": "v0.26.0",
+    "status": "staged",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
+    "timestamp": "2025-04-12T07:18:22.940448"
+  },
+  {
+    "roadmap_id": "resolved-tbd-004",
+    "agent": "planner-agent",
+    "milestone": "v0.26.0",
+    "status": "staged",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
+    "timestamp": "2025-04-12T07:18:22.940456"
+  },
+  {
+    "roadmap_id": "resolved-tbd-005",
+    "agent": "planner-agent",
+    "milestone": "v0.26.0",
+    "status": "staged",
+    "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
+    "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
+    "timestamp": "2025-04-12T07:18:22.940463"
+  }
+]

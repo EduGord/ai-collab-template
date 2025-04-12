@@ -1,12 +1,17 @@
 {
-  "id": "pipeline-release-diff-aware",
   "version": "v0.25.1",
-  "description": "Safely create diff-based release using checksums, file-router, and metadata.",
-  "tasks": [
-    "T-FILE-HASH",
-    "T-FILE-DIFF",
-    "T-GEN-DELTA-ZIP",
-    "T-MEMORY-NOTE",
-    "T-UPDATE-ROUTER"
-  ]
+  "changes": {
+    "added_files": [
+      "logs/executions/patched-missing-agent-descriptions.json",
+      "logs/executions/root-collab-validation-run.json",
+      "schemas/canonical-agent-instances.json",
+      "logs/executions/forecast-task-forecaster-log.json",
+      "docs/generated/generated-docbot-docs.md",
+      "logs/executions/fixed-meta-agent-heuristics-log.json",
+      "logs/executions/full-system-audit-log.json",
+      "logs/executions/runtime-scale-docbot-log.json"
+    ],
+    "removed_files": []
+  },
+  "summary": "Release v0.25.1 introduces 8 new files and removes 0."
 }

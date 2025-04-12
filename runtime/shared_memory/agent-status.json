@@ -1,0 +1,27 @@
+{
+  "planner-agent": {
+    "pending": 0,
+    "active": 1,
+    "completed": 2
+  },
+  "schemaenforcer": {
+    "pending": 0,
+    "active": 0,
+    "completed": 3
+  },
+  "orchestrator-agent": {
+    "pending": 0,
+    "active": 0,
+    "completed": 2
+  },
+  "docbot": {
+    "pending": 0,
+    "active": 0,
+    "completed": 1
+  },
+  "tasking-agent": {
+    "pending": 0,
+    "active": 1,
+    "completed": 1
+  }
+}

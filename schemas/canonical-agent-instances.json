@@ -10,7 +10,10 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "bootstrap-agent",
+    "description": "initial planner and project generator",
+    "traits": []
   },
   {
     "agentId": "evolve-agent",
@@ -23,7 +26,10 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "evolve-agent",
+    "description": "Scans the system for architectural evolution opportunities, routine gaps, and agent upgrade signals",
+    "traits": []
   },
   {
     "agentId": "router-agent",
@@ -36,7 +42,10 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "router-agent",
+    "description": "Adapts context-router.json based on LLM session and memory state",
+    "traits": []
   },
   {
     "agentId": "planner-agent",
@@ -49,7 +58,10 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "planner-agent",
+    "description": "Decomposes user intent into tasks, maps dependencies, suggests flows",
+    "traits": []
   },
   {
     "agentId": "orchestrator-agent",
@@ -62,7 +74,10 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "orchestrator-agent",
+    "description": "Coordinates task execution, tracks plan state, resolves race conditions",
+    "traits": []
   },
   {
     "agentId": "tasking-agent",
@@ -75,7 +90,10 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "tasking-agent",
+    "description": "Assigns tasks to capable agents and logs expectations",
+    "traits": []
   },
   {
     "agentId": "audit-agent",
@@ -88,7 +106,10 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "audit-agent",
+    "description": "Handles audit logs, memory validation, and context inspections",
+    "traits": []
   },
   {
     "agentId": "proposal-review-agent",
@@ -101,7 +122,10 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "proposal-review-agent",
+    "description": "Reviews generated plans for consistency and alignment with original intent",
+    "traits": []
   },
   {
     "agentId": "recovery-agent",
@@ -114,7 +138,10 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "recovery-agent",
+    "description": "Handles failed routines, agent breakdowns, and retry logic",
+    "traits": []
   },
   {
     "agentId": "voting-agent",
@@ -127,6 +154,9 @@
       "plans/agent-collab-performance-fork.json"
     ],
     "status": "active",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "agent_id": "voting-agent",
+    "description": "Resolve conflicts and evaluate competing agent outputs",
+    "traits": []
   }
 ]

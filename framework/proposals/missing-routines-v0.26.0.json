@@ -1,0 +1,18 @@
+[
+  {
+    "routine_id": "agent-runtime-snapshot-v1",
+    "description": "Capture real-time execution context of each agent",
+    "status": "identified",
+    "proposed_by": "evolve-agent",
+    "created_by": "Framework OrchestratorGPT",
+    "timestamp": "2025-04-12T07:19:58.541524"
+  },
+  {
+    "routine_id": "phase-transition-audit-v1",
+    "description": "Track agent responsibilities during phase transitions",
+    "status": "identified",
+    "proposed_by": "evolve-agent",
+    "created_by": "Framework OrchestratorGPT",
+    "timestamp": "2025-04-12T07:19:58.541589"
+  }
+]

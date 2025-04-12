@@ -1,0 +1,15 @@
+[
+  {
+    "task": "cli-003",
+    "agent": "tasking-agent",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "completed",
+    "timestamp": "2025-04-12T07:17:14.604761",
+    "description": "Render task dashboard in terminal (CLI) and markdown formats",
+    "features": [
+      "Markdown-based overview for docs rendering",
+      "Terminal preview using shared task state and agent snapshots",
+      "Dashboard includes: task ID, title, agent, status"
+    ]
+  }
+]

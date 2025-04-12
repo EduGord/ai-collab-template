@@ -1,0 +1,47 @@
+[
+  {
+    "task_id": "resolved-tbd-001",
+    "agent": "planner-agent",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "reviewed",
+    "timestamp": "2025-04-12T07:18:22.940377",
+    "resolution": "Hold for next milestone planning",
+    "next_step": "Document scope and link to feature roadmap"
+  },
+  {
+    "task_id": "resolved-tbd-002",
+    "agent": "planner-agent",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "reviewed",
+    "timestamp": "2025-04-12T07:18:22.940436",
+    "resolution": "Hold for next milestone planning",
+    "next_step": "Document scope and link to feature roadmap"
+  },
+  {
+    "task_id": "resolved-tbd-003",
+    "agent": "planner-agent",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "reviewed",
+    "timestamp": "2025-04-12T07:18:22.940448",
+    "resolution": "Hold for next milestone planning",
+    "next_step": "Document scope and link to feature roadmap"
+  },
+  {
+    "task_id": "resolved-tbd-004",
+    "agent": "planner-agent",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "reviewed",
+    "timestamp": "2025-04-12T07:18:22.940456",
+    "resolution": "Hold for next milestone planning",
+    "next_step": "Document scope and link to feature roadmap"
+  },
+  {
+    "task_id": "resolved-tbd-005",
+    "agent": "planner-agent",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "reviewed",
+    "timestamp": "2025-04-12T07:18:22.940463",
+    "resolution": "Hold for next milestone planning",
+    "next_step": "Document scope and link to feature roadmap"
+  }
+]

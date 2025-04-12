@@ -1,0 +1,59 @@
+[
+  {
+    "agent_id": "planner-agent",
+    "routing_criteria": [
+      {
+        "trigger": "new_phase_detected",
+        "condition": "plan_required",
+        "priority": "high"
+      }
+    ],
+    "routing_targets": [
+      "tasking-agent",
+      "schemaenforcer",
+      "logger-agent"
+    ]
+  },
+  {
+    "agent_id": "ux-agent",
+    "routing_criteria": [
+      {
+        "trigger": "ux_event_change",
+        "condition": "user_interaction_spike",
+        "priority": "medium"
+      }
+    ],
+    "routing_targets": [
+      "feedbacker",
+      "logger-agent"
+    ]
+  },
+  {
+    "agent_id": "evolve-agent",
+    "routing_criteria": [
+      {
+        "trigger": "routine_gap_identified",
+        "condition": "unlinked_task_found",
+        "priority": "high"
+      }
+    ],
+    "routing_targets": [
+      "planner-agent",
+      "schemaenforcer"
+    ]
+  },
+  {
+    "agent_id": "router-agent",
+    "routing_criteria": [
+      {
+        "trigger": "routing_schema_update",
+        "condition": "new_agent_onboarded",
+        "priority": "critical"
+      }
+    ],
+    "routing_targets": [
+      "orchestrator-agent",
+      "tasking-agent"
+    ]
+  }
+]

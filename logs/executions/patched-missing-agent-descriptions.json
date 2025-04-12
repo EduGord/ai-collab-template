@@ -1,0 +1,23 @@
+[
+  {
+    "task": "patch-missing-agent-descriptions",
+    "agents": [
+      "bootstrap-agent",
+      "evolve-agent",
+      "router-agent",
+      "planner-agent",
+      "orchestrator-agent",
+      "tasking-agent",
+      "audit-agent",
+      "proposal-review-agent",
+      "recovery-agent",
+      "voting-agent"
+    ],
+    "status": "completed",
+    "executed_by": "Framework OrchestratorGPT",
+    "routine": "root-collab-validation",
+    "phase": "2",
+    "timestamp": "2025-04-12T07:07:37.214190",
+    "note": "Patched missing description fields using agent roles."
+  }
+]
