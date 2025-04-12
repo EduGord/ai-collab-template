@@ -5,7 +5,7 @@ def zip_project(source_dir, output_filename):
     with zipfile.ZipFile(output_filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for root, dirs, files in os.walk(source_dir):
             for file in files:
-                if ['.git', '.idea'] in root:
+                if '.git' in root or '.idea' in root:
                     continue
                 filepath = os.path.join(root, file)
                 arcname = os.path.relpath(filepath, source_dir)
