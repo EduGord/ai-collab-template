@@ -12,6 +12,19 @@ This isn’t just a repo — it’s a living system.
 
 ---
 
+## 🎯 Task Planning Process
+
+This framework uses a structured approach to manage tasks, ensuring clarity, efficiency, and traceability. Here's how it works:
+
+1.  **Intent Decomposition:** When you have a goal or an objective, the `planner-agent` steps in. It breaks down your intent into smaller, manageable tasks.
+2.  **Dependency Mapping:** The `planner-agent` then identifies any dependencies between these tasks. For example, one task might need to be completed before another can begin. This creates a logical sequence of execution.
+3.  **Pipeline Assignment:** Once tasks are defined, they are often assigned to relevant pipelines. Pipelines are automated workflows that guide the execution of one or more tasks. For instance, the `agent_task_pipeline.yaml` orchestrates many actions across multiple agents.
+4.  **Agent Execution:** Each task is assigned to an appropriate agent. Agents are specialized entities designed to perform specific functions.
+5. **Checklists:** Agents are guided by checklists, like `planner-checklist.md`, which define specific steps and conditions to be met for a task.
+
+**Example Flow:**
+
+
 ## 🧭 What This Is
 
 This framework enables:

@@ -3,15 +3,15 @@
     {
         "task_id": "main",
         "description": "Improve Documentation and Onboarding",
-        "agent": "planner-agent",
-        "dependencies": ["update-auto-onboard", "update-planner-identity", "update-agent-task-pipeline", "update-planner-checklist"],
-        "status": "open"
+        "agent": "org-agent",
+        "dependencies": [\"update-auto-onboard\", \"update-planner-identity\", \"update-agent-task-pipeline\", \"update-planner-checklist\"],
+        "status": "completed"
     },
     {
       "task_id": "update-auto-onboard",
       "description": "Update `AUTO-ONBOARD.md` to explain the task planning process.",
       "agent": "docbot-agent",
-          "dependencies": [],
+      "dependencies": [],
       "status": "completed"
     },
     {
@@ -23,19 +23,19 @@
     }
     ,
     {
-        "task_id": "update-agent-task-pipeline",
-        "description": "Update documentation for the `agent_task_pipeline.yaml` pipeline.",
-        "agent": "docbot-agent",
-          "dependencies": [],
-        "status": "pending"
+      "task_id": "update-agent-task-pipeline",
+      "description": "As the `org-agent`, update the documentation for the `agent_task_pipeline.yaml` pipeline to ensure it accurately reflects its role in the project's task management and knowledge organization.",
+      "agent": "org-agent",
+      "dependencies": [],
+      "status": "completed"
     }
     ,
     {
         "task_id": "update-planner-checklist",
-        "description": "Update documentation for the `planner-checklist.md` checklist.",
-        "agent": "docbot-agent",
+        "description": "As the `org-agent`, update the documentation for the `planner-checklist.md` checklist to ensure it aligns with the project's knowledge organization and accurately describes its purpose in guiding the `planner-agent`.",
+        "agent": "org-agent",
         "dependencies": [],
-        "status": "open"
+        "status": "completed"
     }
   ]
 }

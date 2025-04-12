@@ -1,16 +1,29 @@
-# description: Auto-generated routing metadata
+# As the org-agent, this file documents the agent-task-pipeline.
+# This pipeline is central to the framework's task management and knowledge organization.
+# It automates the initial processing and organization of new tasks and updated files.
 pipeline:
   name: "agent-task-pipeline"
+  # Triggers:
+  # This pipeline is triggered in two primary scenarios:
   trigger: ["task.created", "file.updated"]
+  #   1. task.created: Whenever a new task is created within the system.
+  #   2. file.updated: Whenever a file within the project's directory is modified.
+
+  # Steps:
+  # The pipeline executes the following steps in sequence:
   steps:
+    # - docbot: Processes markdown files.
     - agent: docbot
       on: ["README*", "*.md"]
+    # - structurekeeper: Processes JSON files.
     - agent: structurekeeper
       on: ["*.json", "*/"]
+    # - log: Logs the pipeline's activity.
     - log: agent_log
+    # - status: Updates the task dashboard.
     - status: update_task_dashboard
 
-# Root alignment validation step
-
+  # Root alignment validation step:
+  # This is a consistency check that run a routine.
   - id: root-meta-alignment-check
     routine: root-collab-validation
