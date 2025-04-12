@@ -1,0 +1,62 @@
+[
+  {
+    "agent": "orchestrator-agent",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "executed",
+    "phase": "recovery-diagnosis",
+    "timestamp": "2025-04-12T17:39:40.311553",
+    "issues_found": [
+      "Pipeline references out of sync",
+      "Missing checklist refs in 5 agents"
+    ],
+    "tasks_registered": [
+      "rebuild-pipeline-index",
+      "sync-agent-checklists"
+    ]
+  },
+  {
+    "agent": "planner-agent",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "executed",
+    "phase": "recovery-diagnosis",
+    "timestamp": "2025-04-12T17:39:40.311611",
+    "issues_found": [
+      "Unscoped execution logs",
+      "Missing task-agent linkage in recovery tasks"
+    ],
+    "tasks_registered": [
+      "plan-log-task-index",
+      "patch-missing-agent-links"
+    ]
+  },
+  {
+    "agent": "router-agent",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "executed",
+    "phase": "recovery-diagnosis",
+    "timestamp": "2025-04-12T17:39:40.311627",
+    "issues_found": [
+      "Files in root not mapped in file-router",
+      "Orphan files in backup/ and tmp/"
+    ],
+    "tasks_registered": [
+      "update-file-router-metadata",
+      "generate-routing-suggestions"
+    ]
+  },
+  {
+    "agent": "schemaenforcer",
+    "executed_by": "Framework OrchestratorGPT",
+    "status": "executed",
+    "phase": "recovery-diagnosis",
+    "timestamp": "2025-04-12T17:39:40.311641",
+    "issues_found": [
+      "Schemas missing in checklist + identity links",
+      "Outdated schema-config.json"
+    ],
+    "tasks_registered": [
+      "sync-schema-links",
+      "update-schema-config-registry"
+    ]
+  }
+]

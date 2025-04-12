@@ -1,0 +1,106 @@
+[
+  {
+    "task_id": "fix-cc72d75e",
+    "title": "orchestrator-agent: rebuild-pipeline-index",
+    "description": "rebuild-pipeline-index",
+    "agent": "orchestrator-agent",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T17:42:10.070521"
+  },
+  {
+    "task_id": "fix-e5e78487",
+    "title": "orchestrator-agent: sync-agent-checklists",
+    "description": "sync-agent-checklists",
+    "agent": "orchestrator-agent",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T17:42:10.070885"
+  },
+  {
+    "task_id": "fix-9fa559b5",
+    "title": "planner-agent: plan-log-task-index",
+    "description": "plan-log-task-index",
+    "agent": "planner-agent",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T17:42:10.071273"
+  },
+  {
+    "task_id": "fix-1a41ac71",
+    "title": "planner-agent: patch-missing-agent-links",
+    "description": "patch-missing-agent-links",
+    "agent": "planner-agent",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T17:42:10.071450"
+  },
+  {
+    "task_id": "fix-fe8e8d97",
+    "title": "router-agent: update-file-router-metadata",
+    "description": "update-file-router-metadata",
+    "agent": "router-agent",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T17:42:10.071644"
+  },
+  {
+    "task_id": "fix-efdb9d4d",
+    "title": "router-agent: generate-routing-suggestions",
+    "description": "generate-routing-suggestions",
+    "agent": "router-agent",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T17:42:10.071833"
+  },
+  {
+    "task_id": "fix-4d437aeb",
+    "title": "schemaenforcer: sync-schema-links",
+    "description": "sync-schema-links",
+    "agent": "schemaenforcer",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T17:42:10.071973"
+  },
+  {
+    "task_id": "fix-d70ee5ef",
+    "title": "schemaenforcer: update-schema-config-registry",
+    "description": "update-schema-config-registry",
+    "agent": "schemaenforcer",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T17:42:10.072250"
+  }
+]

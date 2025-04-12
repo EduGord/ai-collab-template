@@ -1,0 +1,24 @@
+{
+  "pipeline_id": "recovery-phase-2-validation-export-indexing",
+  "label": "Phase 2 \u2013 Validation, Export, and Reindexing for Resilience and Long-Term Recovery",
+  "description": "Ensure all new additions and resolved issues are routed, indexed, linked, and documented. Generate final export and prepare stable milestone bundle.",
+  "phases": [
+    {
+      "name": "final-validation-export",
+      "agents": [
+        "orchestrator-agent",
+        "docbot",
+        "meta-agent",
+        "logger-agent"
+      ],
+      "steps": [
+        "Revalidate all routing and schema metadata",
+        "Ensure all new features are referenced in README/docs/tasks/schemas",
+        "Generate commit changelog and milestone",
+        "Trigger export of stable full-validated project zip"
+      ]
+    }
+  ],
+  "status": "pending",
+  "timestamp": "2025-04-12T17:44:13.444266"
+}
