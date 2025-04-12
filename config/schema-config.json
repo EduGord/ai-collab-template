@@ -3,6 +3,22 @@
     "config/llm-context-router.json": "warn",
     "docs/api-schema.yaml": "fail",
     "llm-context-router.json": "warn",
-    "schema-config.json": "warn"
+    "schema-config.json": "warn",
+    "schemas/**/*.json": "warn",
+    "agents-spec/**/*.json": "warn",
+    "framework/pipelines/agent_task_pipeline.yaml": "warn",
+    "framework/pipelines/docbot-auto-pipeline.yaml": "warn",
+    "framework/pipelines/feedbacker-auto-pipeline.yaml": "warn",
+    "framework/pipelines/forecaster-auto-pipeline.yaml": "warn",
+    "framework/pipelines/pipeline-release-vNEXT.json": "warn",
+    "framework/pipelines/planner-auto-pipeline.yaml": "warn",
+    "framework/pipelines/realtime-llm-pipeline.yaml": "warn",
+    "framework/pipelines/release-diff-pipeline.yaml": "warn",
+    "framework/pipelines/schemaenforcer-auto-pipeline.yaml": "warn",
+    "framework/routines/project-maintenance-sweep.yaml": "warn",
+    "framework/routines/routine-feedbacker-weekly.yaml": "warn",
+    "framework/routines/routine-forecaster-monthly.yaml": "warn",
+    "framework/routines/routine-realtime-llm.yaml": "warn",
+    "framework/routines/routine-recovery-bootstrap.yaml": "warn"
   }
 }

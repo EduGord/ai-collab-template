@@ -1,15 +1,18 @@
 {
-  "agent": "org-agent",
-  "automatic_classification": true,
-  "semantic_search_enabled": true,
-  "summarization_capable": true,
-  "integration_ready": true,
-  "privacy_enforcement": true,
-  "items": [
+  "title": "Organizational Agent Core Checklist",
+  "related_files": [],
+  "checks": [
     {
-      "id": "example-item",
-      "description": "Define checklist content here",
-      "status": "pending"
+      "id": "ORG-CHECK-001",
+      "description": "Ensure the organizational agent has access to the current project structure and conventions.",
+      "status": "pending",
+      "tags": ["access", "project", "structure"]
+    },
+    {
+      "id": "ORG-CHECK-002",
+      "description": "Verify that the organizational agent is capable of automatically classifying and tagging new content.",
+      "status": "pending",
+      "tags": ["classification", "tagging", "automation"]
     }
   ]
 }

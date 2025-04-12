@@ -1,23 +1,41 @@
 {
   "agent": "tasking-agent",
+  "description": "The Tasking Agent is responsible for breaking down complex tasks into smaller, manageable subtasks, assigning them to appropriate agents, and tracking their progress.",
   "domains": [
     "planning",
     "execution"
   ],
+  "specialized_role": "Task Decomposition and Assignment",
   "inputs": [
     "intent.json",
     "task-spec.json"
   ],
   "outputs": [
-    "execution-log.json"
+    "execution-log.json",
+    "task-graph.json"
   ],
   "decisionScope": [
     "task-assignment",
     "pipeline-selection"
   ],
   "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": []
+    "delegatesTo": [
+      "execution-agent",
+      "planning-agent"
+    ],
+    "supervisedBy": [
+      "orchestrator-agent"
+    ],
+    "relatedTo": [
+      "planner-agent"
+    ]
+  },
+  "operational_procedures": "Uses task-spec.json to decompose tasks and generate subtasks. Assigns subtasks based on agent capabilities and availability.",
+  "execution_metrics": "Tracks subtask completion status, resource usage, and execution time.",
+  "dependencies": [
+    "orchestrator-agent",
+    "planner-agent",
+    "execution-agent"
+  ]
   }
 }

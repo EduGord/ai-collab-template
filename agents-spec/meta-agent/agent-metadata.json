@@ -1,27 +1,43 @@
 {
   "agent": "meta-agent",
+  "description": "The meta-agent is responsible for overseeing the system's evolution and the coordination of other agents. It analyzes system-state and agent feedback to make high-level decisions.",
   "domains": [
     "system",
     "coordination",
     "evolution"
   ],
+  "specialized_role": "System Overseer",
   "inputs": [
     "system-state",
     "agent-feedback"
   ],
   "outputs": [
     "adaptation-plans",
-    "coordination-signals"
+    "coordination-signals",
+    "evolution-directives"
   ],
-  "decisionScope": [
+  "decision_scope": [
     "system-adaptation",
-    "agent-coordination"
+    "agent-coordination",
+    "resource-allocation",
+    "goal-realignment"
   ],
   "relationships": {
     "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": [
-      "all-other-agents"
+    "supervised_by": [],
+    "depends_on": [
+        "logger-agent",
+        "audit-agent"
+    ],
+    "related_to": [
+        "all-other-agents"
     ]
-  }
+  },
+    "operational_procedures": "The meta-agent relies on detailed analysis of logs and audits from other agents to make its decisions. It is designed to analyze the overall state of the system, identify areas for improvement, and make decisions that impact the structure, goals, and actions of other agents.",
+  "decision_parameters": {
+        "evolution_threshold": "0.85",
+        "coordination_urgency": "medium"
+  },
+  "execution_metrics": ["token_usage", "execution_time", "error_rate"],
+  "ui_aspects": "The Meta-agent has low visual priority, but its feedback loop will be visible in summary dashboards."
 }

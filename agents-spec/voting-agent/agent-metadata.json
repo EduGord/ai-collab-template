@@ -1,30 +1,44 @@
 {
-  "agent": "voting-agent",
-  "domains": [
-    "conflict-resolution",
-    "evaluation",
-    "decision-making"
-  ],
-  "inputs": [
-    "competing-outputs",
-    "evaluation-criteria",
-    "agent-feedback"
-  ],
-  "outputs": [
-    "resolved-output",
-    "evaluation-report",
-    "decision"
-  ],
-  "decisionScope": [
-    "output-selection",
-    "conflict-resolution-strategy"
-  ],
-  "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": [
-      "all-other-agents",
-      "orchestrator-agent"
-    ]
+    "agent": "voting-agent",
+    "description": "The voting-agent is responsible for resolving conflicts and making decisions based on competing outputs, evaluation criteria, and agent feedback. It plays a crucial role in selecting the best output and determining conflict resolution strategies.",
+    "domains": [
+        "conflict-resolution",
+        "evaluation",
+        "decision-making"
+    ],
+    "inputs": [
+        "competing-outputs",
+        "evaluation-criteria",
+        "agent-feedback"
+    ],
+    "outputs": [
+        "resolved-output",
+        "evaluation-report",
+        "decision"
+    ],
+    "decisionScope": [
+        "output-selection",
+        "conflict-resolution-strategy"
+    ],
+    "dependencies": [],
+    "hierarchy": {
+        "parent": null,
+        "specializedRole": "decision-maker"
+    },
+    "operationalProcedures": [
+        "Evaluate competing outputs against specified criteria.",
+        "Gather and analyze agent feedback.",
+        "Apply conflict resolution strategies.",
+        "Generate an evaluation report and decision."
+    ],
+    "executionMetrics": [
+        "tokenUsage",
+        "estimatedCost",
+        "executionHistory"
+    ],
+    "uiAspects": {},
+    "relationships": {
+        "relatedTo": ["all-other-agents", "orchestrator-agent"]
+    }
   }
 }

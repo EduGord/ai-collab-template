@@ -1,23 +1,45 @@
 {
   "agent": "org-agent",
+  "description": "The Org-Agent is responsible for overseeing and managing tasks and pipelines within the system. It ensures proper task assignment and efficient pipeline selection to meet overall project objectives.",
   "domains": [
     "planning",
     "execution"
   ],
+  "specialized_role": "Task and Pipeline Management",
   "inputs": [
     "intent.json",
     "task-spec.json"
   ],
   "outputs": [
-    "execution-log.json"
+    "execution-log.json",
+    "task-assignment-log.json",
+    "pipeline-selection-log.json"
   ],
   "decisionScope": [
     "task-assignment",
     "pipeline-selection"
   ],
   "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": []
+    "delegatesTo": [
+      "tasking-agent",
+      "planner-agent",
+      "router-agent"
+    ],
+    "supervisedBy": [
+      "meta-agent",
+      "orchestrator-agent"
+    ],
+    "relatedTo": [
+      "evolve-agent",
+      "logger-agent"
+    ]
+  },
+  "operational_procedures": "The Org-Agent follows a set of predefined procedures for assigning tasks and selecting pipelines based on the current project state, available resources, and dependencies.",
+  "decision_making_parameters": "The Org-Agent uses heuristics and preferences to prioritize tasks and select the most efficient pipelines. It also takes into account the execution metrics of past tasks.",
+  "execution_metrics": [
+    "task-completion-rate",
+    "pipeline-efficiency",
+    "resource-utilization"
+  ]
   }
 }

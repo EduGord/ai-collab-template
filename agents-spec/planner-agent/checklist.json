@@ -1,6 +1,12 @@
 [
-  "Parse current intent or goal from user or plan",
-  "Break down into atomic tasks",
-  "Define dependencies and agent assignments",
-  "Log task plan and return feedback loop suggestions"
+  {
+    "title": "Planning Agent Core Checklist",
+    "related_files": [],
+    "check_items": [
+      { "item": "Parse current intent or goal from user or plan", "checked": false},
+      { "item": "Break down into atomic tasks", "checked": false },
+      { "item": "Define dependencies and agent assignments", "checked": false },
+      { "item": "Log task plan and return feedback loop suggestions", "checked": false}
+    ]
+  }
 ]

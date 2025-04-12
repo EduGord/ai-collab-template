@@ -1,0 +1,46 @@
+{
+  "title": "Voting Agent Checklist",
+  "related_files": [],
+  "check_items": [
+    {
+      "description": "Verify that the voting agent has been initialized correctly.",
+      "status": "pending"
+    },
+    {
+      "description": "Check that the voting agent has access to the list of eligible voters.",
+      "status": "pending"
+    },
+    {
+      "description": "Ensure the voting agent can receive and process votes correctly.",
+      "status": "pending"
+    },
+    {
+      "description": "Confirm that the voting agent can accurately tally votes.",
+      "status": "pending"
+    },
+    {
+      "description": "Verify the voting agent can determine the winning outcome based on the votes.",
+      "status": "pending"
+    },
+    {
+      "description": "Ensure the voting agent can handle edge cases, such as ties or invalid votes.",
+      "status": "pending"
+    },
+    {
+      "description": "Check that the voting agent can communicate the voting results effectively.",
+      "status": "pending"
+    },
+    {
+      "description": "Confirm that the voting agent maintains a secure and auditable record of all votes.",
+      "status": "pending"
+    },
+    {
+      "description": "Verify that the voting agent adheres to the specified voting rules and procedures.",
+      "status": "pending"
+    },
+    {
+      "description": "Ensure the voting agent can be reset or reconfigured for new votes, if necessary.",
+      "status": "pending"
+    }
+  ]
+}

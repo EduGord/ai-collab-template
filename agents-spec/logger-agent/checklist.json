@@ -1,15 +1,17 @@
 {
-  "agent": "logger-agent",
-  "structured_log_format": "memory.schema.json",
-  "resumable_pipelines_enabled": true,
-  "retrospective_analysis_hook": true,
-  "log_integrity_checks": true,
-  "linked_to_memory_bank": true,
-  "items": [
+  "title": "Logger Agent Operational Checklist",
+  "related_files": [
+    "memory.schema.json",
+    "agent-metadata.json"
+  ],
+  "check_items": [
     {
-      "id": "example-item",
-      "description": "Define checklist content here",
+      "description": "Verify that logs adhere to the defined structured_log_format (memory.schema.json).",
       "status": "pending"
-    }
+    },
+    {"description": "Confirm that resumable pipelines are enabled for log processing.", "status": "pending"},
+    {"description": "Ensure that retrospective analysis hooks are properly implemented.", "status": "pending"},
+    {"description": "Validate that log integrity checks are active and functioning.", "status": "pending"},
+    {"description": "Confirm that the agent is properly linked to the memory bank.", "status": "pending"}
   ]
 }

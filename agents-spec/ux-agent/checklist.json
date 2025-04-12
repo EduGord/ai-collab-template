@@ -1,15 +1,21 @@
 {
-  "agent": "ux-agent",
-  "user_feedback_processing": true,
-  "log_summary_enabled": true,
-  "pipeline_interaction_analysis": true,
-  "reflection_reporting": true,
-  "plan_recommendation_flagging": true,
-  "items": [
+  "title": "UX Agent Core Checklist",
+  "related_files": [
+    "agents-spec/ux-agent/agent-metadata.json",
+    "agents-spec/ux-agent/ux-profile.json"
+  ],
+  "check_items": [
     {
-      "id": "example-item",
-      "description": "Define checklist content here",
-      "status": "pending"
+      "id": "UX-CHECK-001",
+      "description": "Process user feedback and update UX profiles.",
+      "status": "pending",
+      "tags": ["feedback", "ux-profile", "update"]
+    },
+    {
+      "id": "UX-CHECK-002",
+      "description": "Analyze pipeline interactions and identify areas for improvement.",
+      "status": "pending",
+      "tags": ["pipeline", "analysis", "improvement"]
     }
   ]
 }

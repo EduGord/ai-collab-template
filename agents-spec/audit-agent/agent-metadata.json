@@ -1,23 +1,43 @@
 {
   "agent": "audit-agent",
+  "description": "The audit agent is responsible for reviewing and validating the state of the system. It ensures consistency, adherence to standards, and proper functioning of other agents.",
   "domains": [
-    "planning",
-    "execution"
+    "audit",
+    "validation",
+    "compliance"
   ],
   "inputs": [
-    "intent.json",
-    "task-spec.json"
+    "system-state",
+    "agent-specifications",
+    "schemas"
   ],
   "outputs": [
-    "execution-log.json"
+    "audit-report",
+    "validation-feedback"
   ],
   "decisionScope": [
-    "task-assignment",
-    "pipeline-selection"
+    "system-consistency",
+    "schema-validation",
+    "agent-compliance"
   ],
   "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": []
+    "delegatesTo": [
+        "recovery-agent"
+    ],
+    "supervisedBy": [
+      "orchestrator-agent"
+    ],
+    "relatedTo": [
+        "planner-agent",
+        "router-agent",
+        "evolve-agent"
+    ]
+  },
+  "hierarchy": "peer",
+  "specializedRole": "system auditor",
+  "operationalProcedures": "review checklists, validate schemas, check logs",
+  "decisionParameters": "prioritize critical errors, follow audit trail",
+  "executionMetrics": "token usage, audit duration, number of errors found",
+  "uiAspects": "provide audit report summaries, display error highlights"
   }
 }

@@ -1,30 +1,45 @@
 {
   "agent": "ux-agent",
+  "description": "The ux-agent is responsible for analyzing user feedback, suggesting improvements to user experience, and summarizing interactions for other agents. It interfaces directly with UI aspects.",
   "domains": [
     "user-experience",
     "analysis",
     "feedback"
   ],
-  "inputs": [
-    "agent-outputs",
-    "user-feedback",
-    "logs"
+  "dependencies": [
+    "logger-agent"
   ],
-  "outputs": [
-    "feedback-suggestions",
-    "summaries",
-    "corrections"
-  ],
+  "hierarchy": {
+    "role": "specialized",
+    "parent": null
+  },
+  "inputs": ["agent-outputs", "user-feedback", "logs"],
+  "outputs": ["feedback-suggestions", "summaries", "corrections"],
   "decisionScope": [
-    "feedback-prioritization",
-    "summary-generation"
+    "feedback-prioritization", 
+    "summary-generation" 
+  ],
+  "operationalProcedures": {
+    "checklistRef": "checklist.json",
+    "heuristicsRef": "heuristics.json"
+  },
+  "decisionMakingParameters": {
+    "prioritizationCriteria": ["urgency", "impact", "frequency"],
+    "summaryStyle": ["concise", "detailed"]
+  },
+  "executionMetrics": {
+    "tokenUsage": "tracked",
+    "estimatedCost": "monitored",
+    "history": "logged"
+  },
+  "uiAspects": {
+    "uiElements": ["feedback-form", "summary-report"],
+    "visualPriority": "high",
+    "feedbackLoopSettings": "immediate"
   ],
   "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": [
-      "all-other-agents",
-      "logger-agent"
-    ]
+    "delegatesTo": [], 
+    "supervisedBy": [], 
+    "relatedTo": ["all-other-agents", "logger-agent"]
   }
 }

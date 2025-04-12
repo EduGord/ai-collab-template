@@ -9,6 +9,27 @@
         "routed"
       ],
       "categories": {
+          "agent-model-extensions": [
+            "schemas/canonical-agent-model.json",
+            "schemas/canonical-agent-model-metadata.json"
+        ],
+        "agent-definition-conventions": [
+            "docs/how-to-add-agent.md",
+            "docs/how-to-assume-agent.md"
+        ],
+        "standardized-checklist-structures":[
+            "framework/checklists/advanced-checklist.md"
+        ],
+        "memory": [
+            "framework/memory/design-architecture-updates.md"
+        ],
+      "notes": "Categorized delta release (routed) with 3 files across 9 categories.",
+      "tags": [
+        "release",
+        "delta",
+        "routed"
+      ],
+      "categories": {
         "tasks": [
           "framework/release-diff-engine/tasks.json"
         ],

@@ -1,23 +1,35 @@
 {
   "agent": "recovery-agent",
+  "description": "This agent specializes in recovering from failures and ensuring system resilience. It monitors the execution of tasks and pipelines, identifies failures, and initiates recovery procedures.",
   "domains": [
     "planning",
-    "execution"
+    "execution",
+    "monitoring",
+    "recovery"
   ],
   "inputs": [
     "intent.json",
     "task-spec.json"
   ],
   "outputs": [
-    "execution-log.json"
+    "execution-log.json",
+    "recovery-plan.json"
   ],
   "decisionScope": [
     "task-assignment",
-    "pipeline-selection"
+    "pipeline-selection",
+    "retry-logic",
+    "fallback-mechanisms"
   ],
+  "operationalProcedures": "The recovery-agent defines procedures for retrying failed tasks, selecting alternative pipelines, and invoking fallback mechanisms.",
+  "executionMetrics": ["successRate", "recoveryTime", "resourceUsage"],
+  "dependencies": ["logger-agent", "orchestrator-agent"],
+  "hierarchy": "This agent operates at a supervisory level, ensuring the integrity of task and pipeline execution.",
+  "specializedRoles": ["failure-detection", "recovery-initiation"],
+  "uiAspects": "This agent does not directly interact with users, however, it provides detailed logs and reports of recovery activities.",
   "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": []
+    "delegatesTo": ["tasking-agent"],
+    "supervisedBy": ["orchestrator-agent"],
+    "relatedTo": ["audit-agent"]
   }
 }

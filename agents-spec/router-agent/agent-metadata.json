@@ -1,23 +1,40 @@
 {
   "agent": "router-agent",
+  "description": "The Router Agent is responsible for directing tasks and intents to the appropriate agents and pipelines. It ensures efficient task assignment and pipeline selection based on the context and nature of the request.",
   "domains": [
     "planning",
-    "execution"
+    "execution",
+    "routing"
   ],
   "inputs": [
     "intent.json",
-    "task-spec.json"
+    "task-spec.json",
+    "agent-state.json"
   ],
   "outputs": [
-    "execution-log.json"
+    "execution-log.json",
+    "routing-log.json"
   ],
   "decisionScope": [
     "task-assignment",
     "pipeline-selection"
   ],
   "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": []
+    "delegatesTo": [
+      "tasking-agent",
+      "planner-agent",
+      "orchestrator-agent",
+      "evolve-agent"
+    ],
+    "supervisedBy": [
+      "meta-agent"
+    ],
+    "relatedTo": ["all"]
+  },
+  "operationalProcedures": "The Router Agent uses a set of heuristics and decision-making parameters to assess incoming intents and task specifications. Based on this assessment, it determines the most suitable agent or pipeline for handling the request. The routing process also updates the agent-state.json with relevant progress and context information.",
+    "executionMetrics":{
+        "token_usage":"tracks token usage",
+        "request_latency":"tracks request latency"
+    }
   }
 }

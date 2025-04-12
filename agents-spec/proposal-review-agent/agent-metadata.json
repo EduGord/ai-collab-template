@@ -1,23 +1,40 @@
 {
-  "agent": "proposal-review-agent",
-  "domains": [
-    "planning",
-    "execution"
+  "agent_id": "proposal-review-agent",
+  "agent_name": "Proposal Review Agent",
+  "description": "Reviews and evaluates proposals to ensure they meet the project's goals and specifications.",
+  "specialized_roles": [
+    "proposal_evaluator",
+    "quality_assurance"
   ],
-  "inputs": [
-    "intent.json",
-    "task-spec.json"
+  "dependencies": [
+    "planner-agent",
+    "tasking-agent"
   ],
-  "outputs": [
-    "execution-log.json"
-  ],
-  "decisionScope": [
-    "task-assignment",
-    "pipeline-selection"
-  ],
-  "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": []
+  "hierarchy": "subordinate",
+  "operational_procedures": {
+    "checklists_reference": "checklist.json",
+    "heuristics_reference": "heuristics.json"
+  },
+  "decision_making_parameters": {
+    "evaluation_criteria": [
+      "feasibility",
+      "relevance",
+      "completeness",
+      "resource_utilization"
+    ],
+    "scoring_mechanism": "weighted_average"
+  },
+  "execution_metrics": {
+    "token_usage": "tracked",
+    "estimated_cost": "tracked"
+  },
+  "ui_aspects": {
+    "visual_priority": "medium"
+  },
+  "domains": ["planning", "execution", "review"],
+    "inputs": ["intent.json", "task-spec.json"],
+    "outputs": ["execution-log.json"],
+    "decision_scope": ["proposal-acceptance", "proposal-rejection", "task-assignment", "pipeline-selection"],
+    "relationships": {"delegates_to": [],"supervised_by": ["meta-agent"],"related_to": ["orchestrator-agent"]}
   }
 }

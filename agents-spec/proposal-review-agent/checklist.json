@@ -1,6 +1,13 @@
-[
-  "Receive generated plan from planner-agent",
-  "Check if steps align with objective",
-  "Ensure schema expectations match plan output",
-  "Add approval or send back revision feedback"
-]
+{
+  "title": "Proposal Review Agent Checklist",
+  "related_files": [
+    "agents-spec/planner-agent/",
+    "agents-spec/proposal-review-agent/"
+  ],
+  "check_items": [
+    {"description": "Receive generated plan from planner-agent"},
+    {"description": "Check if steps align with objective"},
+    {"description": "Ensure schema expectations match plan output"},
+    {"description": "Add approval or send back revision feedback"}
+  ]
+}

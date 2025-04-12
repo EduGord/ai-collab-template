@@ -1,5 +1,6 @@
 {
   "agent": "orchestrator-agent",
+  "description": "The orchestrator-agent is responsible for managing and coordinating the activities of other agents, ensuring tasks are completed efficiently and in accordance with the overall goals of the system.",
   "domains": [
     "planning",
     "execution"
@@ -15,9 +16,36 @@
     "task-assignment",
     "pipeline-selection"
   ],
+  "operationalProcedures": [
+    "Task decomposition and distribution",
+    "Resource allocation",
+    "Monitoring task execution",
+    "Dynamic adjustment of task priorities",
+    "Conflict resolution between agents",
+    "Exception handling and recovery",
+    "Goal alignment and tracking"
+  ],
+  "decisionMakingParameters": {
+    "taskPriority": "Assessed based on urgency and importance of the task.",
+    "agentCapabilities": "Determines which agents are best suited for a given task.",
+    "resourceAvailability": "Considers current resource load and allocation.",
+    "dependencyConstraints": "Ensures tasks are executed in the correct order.",
+    "executionMetrics": "Utilizes metrics such as estimated time and cost to optimize task distribution."
+  },
+  "executionMetrics": {
+    "tokenUsage": "Tracks token usage for LLM interactions.",
+    "estimatedCost": "Monitors the cost of executing tasks.",
+    "executionHistory": "Maintains a detailed history of executed tasks.",
+    "successRate": "Calculates the success rate of task completions."
+  },
+  "uiAspects": {
+    "uiElements": "Provides data visualizations of tasks, progress, dependencies, and agent interactions.",
+    "visualPriority": "Highlights critical tasks and issues.",
+    "feedbackLoopSettings": "Allows configuration of real-time updates and feedback mechanisms."
+  },
   "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": []
+    "delegatesTo": [ "tasking-agent","planner-agent", "router-agent", "org-agent" ],
+    "supervisedBy": ["meta-agent"],
+    "relatedTo": ["evolve-agent","audit-agent", "recovery-agent"]
   }
 }

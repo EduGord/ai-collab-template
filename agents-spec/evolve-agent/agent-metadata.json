@@ -1,23 +1,40 @@
 {
   "agent": "evolve-agent",
+  "description": "The evolve-agent is responsible for continuously improving and adapting the system's capabilities. It analyzes system performance, identifies areas for enhancement, and implements changes to improve efficiency and effectiveness.",
   "domains": [
     "planning",
-    "execution"
+    "execution",
+    "optimization",
+    "adaptation"
   ],
   "inputs": [
     "intent.json",
     "task-spec.json"
   ],
   "outputs": [
-    "execution-log.json"
+    "execution-log.json",
+    "improvement-proposals.json",
+    "updated-system-components.json"
   ],
   "decisionScope": [
     "task-assignment",
-    "pipeline-selection"
+    "pipeline-selection",
+    "system-component-updates",
+    "resource-allocation"
   ],
   "relationships": {
-    "delegatesTo": [],
-    "supervisedBy": [],
-    "relatedTo": []
-  }
+    "delegatesTo": [
+      "planner-agent",
+      "tasking-agent"
+    ],
+    "supervisedBy": [
+      "meta-agent"
+    ],
+    "relatedTo": [
+      "audit-agent",
+      "recovery-agent"
+    ]
+  },
+  "executionMetrics": ["tokenUsage", "estimatedCost", "executionHistory"],
+  "operationalProcedures": ["routine-gap-detection", "self-introspection", "self-review-hook","system-evolve-cycle"]
 }
