@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MemoryFusionSchema",
+  "type": "object",
+  "required": [
+    "fusion_id",
+    "agents",
+    "shared_slots",
+    "conflict_resolution"
+  ],
+  "properties": {
+    "fusion_id": {
+      "type": "string"
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of agents sharing fused memory space"
+    },
+    "shared_slots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slot_id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "schema_ref": {
+            "type": "string"
+          },
+          "update_policy": {
+            "type": "string",
+            "enum": [
+              "overwrite",
+              "append",
+              "merge",
+              "weighted-average"
+            ]
+          }
+        },
+        "required": [
+          "slot_id",
+          "schema_ref",
+          "update_policy"
+        ]
+      }
+    },
+    "conflict_resolution": {
+      "type": "object",
+      "properties": {
+        "strategy": {
+          "type": "string",
+          "enum": [
+            "majority",
+            "most-recent",
+            "trust-rank",
+            "manual"
+          ]
+        },
+        "threshold": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "strategy"
+      ]
+    }
+  }
+}

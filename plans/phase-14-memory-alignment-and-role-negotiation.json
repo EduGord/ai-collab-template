@@ -1,0 +1,44 @@
+{
+  "phase_id": "phase-14",
+  "title": "Phase 14 \u2013 Memory Fusion, Strategic Alignment, Role Negotiation",
+  "description": "This phase builds deep long-term coordination across agents by merging memory cores, resolving overlapping strategies, and inferring mission alignment.",
+  "status": "planning",
+  "initiated_by": "Framework OrchestratorGPT",
+  "timestamp": "2025-04-12T16:53:44.099599",
+  "objectives": [
+    "Design memory fusion mechanism between overlapping agents",
+    "Unify strategic intent heuristics for roadmap and task goals",
+    "Log and converge conflicting strategies into common policies",
+    "Build a mission-aligned protocol for agent reasoning autonomy"
+  ],
+  "candidate_agents": [
+    "evolve-agent",
+    "meta-agent",
+    "planner-agent",
+    "feedbacker",
+    "logger-agent"
+  ],
+  "next_steps": [
+    "Draft memory fusion schema and routing hooks",
+    "Review all role overlap and redundancy logs",
+    "Generate mission-alignment scoring heuristics",
+    "Simulate negotiation for strategic protocol unification"
+  ],
+  "tasks": [
+    {
+      "task_id": "fix-8093546e",
+      "title": "File Hygiene & Folder Restructuring",
+      "description": "Search for unused files, temp files, and mislocated documents (especially in root/, tmp/, release/, or sandbox folders). Delete outdated versions, merge redundant copies, and reorganize content into the correct framework subfolders (e.g., tasks/, agents-spec/, docs/, etc.).",
+      "agent": "orchestrator-agent",
+      "status": "pending",
+      "tags": [
+        "cleanup",
+        "filesystem",
+        "merge",
+        "delete",
+        "organize"
+      ],
+      "timestamp": "2025-04-12T16:56:53.278046"
+    }
+  ]
+}

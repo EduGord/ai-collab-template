@@ -1,0 +1,92 @@
+[
+  {
+    "file": "agent_log.json",
+    "action": "Moved to /mnt/data/ai-collab-template-recovered/logs",
+    "status": "done"
+  },
+  {
+    "file": "AUTO-ONBOARD.md",
+    "action": "Moved to /mnt/data/ai-collab-template-recovered/docs",
+    "status": "done"
+  },
+  {
+    "file": "collab-etiquette.md",
+    "action": "Moved to /mnt/data/ai-collab-template-recovered/docs",
+    "status": "done"
+  },
+  {
+    "file": "agent_log.json",
+    "action": "move to logs/",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/agent_log.json'"
+  },
+  {
+    "file": "AUTO-ONBOARD.md",
+    "action": "move to docs/",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/AUTO-ONBOARD.md'"
+  },
+  {
+    "file": "collab-etiquette.md",
+    "action": "move to docs/",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/collab-etiquette.md'"
+  },
+  {
+    "file": "sandbox/sandbox-controller.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/sandbox-simulations.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/debate-vote-001.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/dryrun-001.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/fork-propagation-001.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/memory-sync-corrida-001.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/orchestrator-simulation-001.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/planner-simulation-001.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/planner-thread-aware-001.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/retrospective-bootstrap.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/sandbox-replay-001.json",
+    "action": "Deleted",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/simulations/upgrade-pipeline-001.json",
+    "action": "Deleted",
+    "status": "done"
+  }
+]

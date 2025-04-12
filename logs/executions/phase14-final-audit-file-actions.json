@@ -1,0 +1,3232 @@
+[
+  {
+    "file": ".release-changes.txt",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "agent-evolution.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agent-registry.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agent_log.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "AGENT_LOG.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "AUTO-ONBOARD.md",
+    "action": "move to agents-spec/",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/AUTO-ONBOARD.md'"
+  },
+  {
+    "file": "changelog-agent.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "collab-etiquette.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "consensus-engine.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "debate-protocol.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "delegation-protocol.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "eval-hooks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "external-agent-descriptors.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "failsafe-agent.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "feedback-integrator-agent.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "feedback-propagation.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "file-router.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "goal-tree.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "HANDOFF_PROMPT_NEXT_SESSION.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "human-feedback.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "llm-capabilities.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "manual-mode.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "memory_bank.archived.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory_bank.corrupted.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory_bank.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "override-rules.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "performance-milestones.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "persona-guide.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "pipeline-playground.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "pipeline-release-v0.25.0.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "prompt-replay.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "README.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "realtime_llm_output.md",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "realtime_llm_prompt.txt",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "release.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "routing-rules.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "task-graph-agent-srp-cleanup.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "task-graph-feature-audit.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "task-graph-final-audit-fix.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "task-graph-fine-tune.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "task-graph-fix-content.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "task-graph-reuse.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "task-graph-system-resilience.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "task-graph.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "tasks.corrupted.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "tasks.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "version-manifest-v0.23.0-pre.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/audit-agent/inbox/message-001.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/audit-agent/outbox/message-002.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/bootstrap-agent/inbox/message-001.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/bootstrap-agent/inbox/sample-message.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agent-messages/bootstrap-agent/outbox/message-002.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/evolve-agent/inbox/message-001.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/evolve-agent/outbox/message-002.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/orchestrator-agent/inbox/handoff-coldstart-v0.23.0-pre.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/orchestrator-agent/inbox/message-001.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/orchestrator-agent/outbox/message-002.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/planner-agent/inbox/message-001.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/planner-agent/outbox/message-002.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/proposal-review-agent/inbox/message-001.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/proposal-review-agent/outbox/message-002.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/recovery-agent/inbox/message-001.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/recovery-agent/outbox/message-002.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/router-agent/inbox/message-001.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/router-agent/outbox/message-002.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/tasking-agent/inbox/message-001.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agent-messages/tasking-agent/outbox/message-002.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents/README.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/audit-agent/agent-ledger.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/audit-agent/agent-metadata.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/audit-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/audit-agent/checklist.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/audit-agent/heuristics.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/audit-agent/identity.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/audit-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/audit-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/audit-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/audit-agent/reflections/reasoning-logs/audit-retro-v23.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/agent-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/agent-state.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/checklist.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/heuristics.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/identity.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/ux-profile.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/reflections/reasoning-logs/bootstrap-agent-retro-v23.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/evolve-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/evolve-agent/agent-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/evolve-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/evolve-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/evolve-agent/heuristics.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/evolve-agent/identity.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/evolve-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/evolve-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/routine-gap-detection.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/self-introspection.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/self-review-hook.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/system-evolve-cycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/reasoning-logs/evolve-retro-v23.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/feedbacker/identity.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/logger-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/logger-agent/agent-metadata.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/logger-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/logger-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/logger-agent/heuristics.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/logger-agent/identity.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/logger-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/logger-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/logger-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/logger-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/logger-agent/reflections/reasoning-logs/logger-agent-retro-v23.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/meta-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/meta-agent/agent-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/meta-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/meta-agent/checklist.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/meta-agent/heuristics.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/meta-agent/identity.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/meta-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/meta-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/meta-agent/reflections/mentor-review-001.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/meta-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/meta-agent/reflections/reasoning-logs/meta-agent-retro-v23.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/agent-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/heuristics.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/identity.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/root-meta-collab.checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/root-meta-collab.identity.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/checklists/core-checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/reflections/root-prompt-reflection.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/reflections/reasoning-logs/orchestrator-retro-v23.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/org-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/org-agent/agent-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/org-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/org-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/org-agent/heuristics.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/org-agent/identity.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/org-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/org-agent/ux-profile.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/org-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/org-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/org-agent/reflections/reasoning-logs/org-agent-retro-v23.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/planner-agent/agent-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/heuristics.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/identity.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/planner-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/checklists/core-checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/reflections/sample.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/planner-agent/reflections/reasoning-logs/planner-retro-v23.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/agent-metadata.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/heuristics.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/identity.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/reflections/reasoning-logs/proposal-review-agent-retro-v23.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/recovery-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/recovery-agent/agent-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/recovery-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/recovery-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/recovery-agent/heuristics.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/recovery-agent/identity.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/recovery-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/recovery-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/recovery-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/recovery-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/recovery-agent/reflections/reasoning-logs/recovery-agent-retro-v23.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/router-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/router-agent/agent-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/router-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/router-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/router-agent/heuristics.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/router-agent/identity.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/router-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/router-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/router-agent/reflections/llm-session-router.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/router-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/router-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/router-agent/reflections/reasoning-logs/router-agent-retro-v23.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/tasking-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/tasking-agent/agent-metadata.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/tasking-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/tasking-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/tasking-agent/heuristics.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/tasking-agent/identity.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/tasking-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/tasking-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/tasking-agent/checklists/core-checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/tasking-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/tasking-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/tasking-agent/reflections/reasoning-logs/tasking-retro-v23.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/ux-agent/agent-ledger.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/ux-agent/agent-metadata.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/ux-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/ux-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/ux-agent/heuristics.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/ux-agent/identity.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/ux-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/ux-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/ux-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/ux-agent/reflections/reasoning-logs/init-reflection.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/ux-agent/reflections/reasoning-logs/ux-agent-retro-v23.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/voting-agent/agent-ledger.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/voting-agent/agent-metadata.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/voting-agent/agent-state.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/voting-agent/checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/voting-agent/identity.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/voting-agent/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/voting-agent/ux-profile.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "agents-spec/voting-agent/reflections/sample.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "agents-spec/voting-agent/reflections/reasoning-logs/voting-agent-retro-v23.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "canonical-model/routine-definition.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "checklists/README.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "config/llm-context-router.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "config/schema-config.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/forecast-task-docbot.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/forecast-task-feedbacker.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/forecast-task-forecaster.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/forecast-task-planner.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/forecast-task-schemaenforcer.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/memory-bridge.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/memory_bank.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-agent-check-docbot.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-agent-check-feedbacker.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-agent-check-forecaster.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-agent-check-planner.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-agent-check-schemaenforcer.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-agent-driven-evolution.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-agent-identity-review.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-bootstrap-and-memory-loading.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-feature-ref-linking.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-full-system-audit.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-global-resilience-audit.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-ongoing-validation-cycle.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-restructure-root-layout.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/task-runtime-scale-docbot.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-runtime-scale-feedbacker.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/task-runtime-scale-forecaster.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/task-runtime-scale-planner.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-runtime-scale-schemaenforcer.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/task-seed-docbot-phase-task.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-seed-feedbacker-phase-task.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-seed-forecaster-phase-task.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-seed-planner-phase-task.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-seed-schemaenforcer-phase-task.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-simulate-zone-relay.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/task-task-tbd.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/checklists/user-live-session-checklist.yaml",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/conversational/debate.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/evaluation/calculate-agent-evolution-score.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/evaluation/plan-retrospective.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/evaluation/sandbox-replay.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "core/governance/enforce-resilience-logic.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/governance/validate-upgrade-proposals.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/identities/user.yaml",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/feature-sync-and-memory-audit.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/finalize-project-integrity.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/lifecycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/operational/llm-session-router.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/pattern-audit.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/routine-gap-detection.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/operational/routine-manifest.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/routine-metadata.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/operational/self-healing-memory-sync.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/self-introspection.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/self-review-hook.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/sync-memory-feature-map.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/operational/system-evolve-cycle.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/validate-canonical-models.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/validate-full-framework-state.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/operational/validate-project-structure.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/routines/full-system-stabilization.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/routines/live-deployment-feedback-cycle.yaml",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/routines/root-collab-validation.yaml",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-agent-alignment-scan.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-agent-goal-generation.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-audit-v21-before-v22.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-begin-v23-cycle.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-continuous-evolution-cycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-create-pipeline-folder.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-discovery-intent-cycle.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-docbot-onboarding-doc.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-docbot-summary-cards.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-docbot-version-changelog.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-document-folder-structure-guidelines.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-enhance-file-router-metadata.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-expand-longterm-agents.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-feedback-loop-from-user.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-feedbacker-anomaly-detection.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-feedbacker-monthly-summary.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-feedbacker-trend-analysis.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-fix-missing-core-agents.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-framework-live-deployment-mode.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-generate-file-router.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-implement-cross-reference-system.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-llm-context-suggestions.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-llm-memory-tracker.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-llm-routing-runtime.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-log-replay-for-improvement.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-planner-milestone-calendar.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-planner-task-grouping.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-planner-timeline-cycles.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-rebuild-core-structure.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-refactor-root-structure.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-regenerate-file-router.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-review-checklist-coverage.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-runtime-discovery-metadata-update.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-schema-diff-viewer.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-schema-runtime-validation.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-schema-version-lock.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "core/tasks/task-setup-metadata-validation-pipeline.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-simulate-onboarding-sequence.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-snapshot-live-user-release.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-task-tbd.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-trigger-user-checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-update-checklist-doc-links.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "core/tasks/task-user-goal-setting.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "deployment/cluster-zones.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "deployment/deploy-config.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "diary/agent.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "diary/human.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/api-schema.yaml",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "docs/asset-map.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/cli-dashboard.md",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "docs/cli-updates.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "docs/context-coherence-loop.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/design-principles.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "docs/dev-diary.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/evaluation.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/example-workflows.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "docs/external-integration.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/feedback-summary-v17.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "docs/final_comprehensive_project_summary.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "docs/folder-structure-proposal.md",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "docs/forecast-history.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "docs/forecast.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "docs/governance.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "docs/how-to-add-agent.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/how-to-assume-agent.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/how-to-extend-pipeline.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "docs/intent-discovery-v18.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "docs/intent-discovery-v19.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/intents.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/memory-api.md",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "docs/memory-runner-docs.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "docs/navigation-index.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/ONBOARDING.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/plan.md",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "docs/PROJECT-TASKS.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "docs/quick-pipeline-format.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "docs/README-HUMAN.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/README-LLM.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "docs/README-ONBOARDING.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/README-QUICK-PIPELINE.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/README.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/registered-template.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "docs/retrospective-v0.23.0.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/reviewkeeper-report.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "docs/roadmap-agent-goal-proposals.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/roadmap-matrix.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/roadmap-v0.24.0.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/roadmap-v0.25.1.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/roadmap-v0.26.0-tasks.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "docs/ROADMAP.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/router-schema-reference.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "docs/routines-index.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/system-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/system-index.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/system-resilience-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/task-dependencies.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/task-graph-doc.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "docs/webhook-integration.md",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "docs/generated/generated-docbot-docs.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "docs/generated/phase12-market-token-dashboard.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/generated/task-dashboard.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "docs/release-notes/v0.23.0-pre.md",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "evaluation-results/bootstrap/eval.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "evaluations/README.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "features/feature-map.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "feedback-cards/audit-agent-card.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "feedback-cards/bootstrap-agent-card.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "feedback-cards/evolve-agent-card.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "feedback-cards/orchestrator-agent-card.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "feedback-cards/planner-agent-card.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "feedback-cards/proposal-review-agent-card.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "feedback-cards/recovery-agent-card.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "feedback-cards/router-agent-card.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "feedback-cards/tasking-agent-card.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "feedbacks/feedback-docbot.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "feedbacks/feedback-feedbacker.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "feedbacks/feedback-forecaster.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "feedbacks/feedback-planner.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "feedbacks/feedback-schemaenforcer.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "forecasts/forecast-docbot.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "forecasts/forecast-feedbacker.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "forecasts/forecast-forecaster.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "forecasts/forecast-planner.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "forecasts/forecast-schemaenforcer.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "forecasts/bootstrap-agent/timeline-memory.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "framework/agents/docbot.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/agents/structurekeeper.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/advanced-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/cli-interface-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/docbot-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/docs-restructure-checklist.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/expansion-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/external-integration-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/feedbacker-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/forecaster-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/integration-graph-checklist.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/logger-checklist.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "framework/checklists/memory-enhancement-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/orchestrator-checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/planner-checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/planner-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/planner-feedback-forecast-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/release-packaging-checklist.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/reviewkeeper-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/router-checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/runner-and-memory-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/schemaenforcer-checklist.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/schemaenforcer-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/checklists/structurekeeper-checklist.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/execution/AGENT_LOG.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/execution/TASK_EXECUTION_DASHBOARD.md",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "framework/experimental/inter-agent-negotiation-prototype.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/identities/coveragebot.identity.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "framework/identities/docbot.identity.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/identities/feedbacker.identity.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "framework/identities/forecaster.identity.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "framework/identities/llmrouter.identity.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "framework/identities/planner.identity.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "framework/identities/realtime-llm-assistant.identity.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/identities/reviewkeeper.identity.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/identities/schemaenforcer.identity.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "framework/identities/structurekeeper.identity.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "framework/logging/log-manager.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "framework/memory/design-architecture-updates.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "framework/memory/framework-capabilities.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/memory/project-mission-and-alignment.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/memory/project-review_structure-clarity.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/agent_task_pipeline.yaml",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/docbot-auto-pipeline.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/feedbacker-auto-pipeline.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/forecaster-auto-pipeline.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/market-bidding-cycle.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/pipeline-release-vNEXT.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/planner-auto-pipeline.yaml",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/realtime-llm-pipeline.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/release-diff-pipeline.yaml",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "framework/pipelines/schemaenforcer-auto-pipeline.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/proposals/missing-routines-v0.26.0.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "framework/reflections/universal-onboarding-reflection.md",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "framework/release-diff-engine/file-snapshot-v0.25.1.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "framework/release-diff-engine/file-snapshot-v0.26.0.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "framework/release-diff-engine/pipeline-release-diff-aware.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "framework/release-diff-engine/tasks.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "framework/routines/project-maintenance-sweep.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/routines/routine-feedbacker-weekly.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/routines/routine-forecaster-monthly.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/routines/routine-realtime-llm.yaml",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "framework/routines/routine-recovery-bootstrap.yaml",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "framework/routing/dynamic-agent-routing-config.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "framework/specs/clustering-spec.md",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "framework/specs/collaborative-network-spec.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "framework/tasks/tasks.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "goals/goal-boot.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "goals/goal-docbot-6aff77.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "goals/goal-feedbacker-d6efda.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "goals/goal-forecaster-3adeea.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "goals/goal-reviewkeeper-e833d4.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "goals/goal-roadmap-boot.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "goals/goal-schemaenforcer-51f700.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "goals/goal-threads.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "goals/goal-timeline.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "governance/co-creation-protocol.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "governance/lifecycle-policy.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "governance/trust-orchestration.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "governance/audit-trail/2025-04-06-generated.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "governance/policies/marketplace-governance-v1.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "governance/policies/swarm-governance-v1.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "governance/policies/token-regeneration-v1.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "governance/rules/rule-agents-cannot-edit-pipeline-map.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "identities/README.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "intents/intent-evolve-system.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "intents/intent-scale-multi-agent-runtime.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "intents/intent-types.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "memory-bank/index-context.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/index.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/memory-metadata.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/pattern-memory.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/audit-tasks/agent-group-improvement-tasks.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/audit-tasks/agent-identity-review.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/audit-tasks/follow-up-improvements.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/audit-tasks/full-project-audit.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/audit-tasks/full-resilience-audit.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/audit-tasks/log-index.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/evolving/pending-tasks.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/fixed/phase-10-temporal.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/fixed/phase-8-self-evolving.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/fixed/phase-9-federation.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/tasks/improvements-from-agent-review-batch1.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/tasks/improvements-from-agent-review-batch2.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/tasks/improvements-from-agent-review-batch3.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/tasks/improvements-from-agent-review-batch4.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/tasks/improvements-from-phase13-reflection-race-001.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/tasks/resilience-hardening-v1.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "memory-bank/tasks/system-review-generated-tasks.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "meta/active-context.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "meta/file-router.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "meta/file-router.repaired.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "meta/intent.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "meta/handoff/handoff-coldstart-v0.23.0-pre.md",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "meta/handoff/handoff-coldstart-v0.24.0-pre.md",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "missions/04-fork-a-plan.md",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "missions/onboarding.md",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "pipelines/README.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "plans/agent-collab-performance-fork.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/agent-collab-plan.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/documentation-update-plan.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/intent-release-v0.24.0.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "plans/phase-10-routing-autonomy.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/phase-11-swarm-memory-convergence.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "plans/phase-12-agent-market-economy.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "plans/phase-13-agent-challenges-and-reflection.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "plans/phase-9-system-evolution.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/agent-srp-cleanup/plan.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/agent-srp-cleanup/tasks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/bootstrap/plan.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/bootstrap/tasks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/extend-agent-abstractions/plan.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/extend-agent-abstractions/tasks.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/feature-audit/plan.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/feature-audit/tasks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/final-audit-fix/plan.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/final-audit-fix/tasks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/fine-tune/plan.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/fine-tune/tasks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/fix-content/plan.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/fix-content/tasks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/onboarding-agent-bootstrap/plan.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/onboarding-agent-bootstrap/tasks.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "plans/onboarding-refinement-patch/plan.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/onboarding-refinement-patch/tasks.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/phase-11/convergence-routines.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "plans/phase-11/swarm-routines-proposed.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "plans/phase-13/challenges/reflection-race-001.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "plans/reuse-corrida-elements/plan.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "plans/reuse-corrida-elements/tasks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/root-collaboration-bootstrap/plan.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/root-collaboration-bootstrap/tasks.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "plans/self-evolve/retrospective-insights.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/self-evolving/plan.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/self-evolving/tasks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/system-resilience/plan.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/system-resilience/tasks.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/template-pipeline-library/context-compression-pipeline.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "plans/template-pipeline-library/ethics-audit-pipeline.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "plans/template-pipeline-library/routine-gap-detection-pipeline.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "routines/README.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "runtime/scheduled_tasks.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "runtime/marketplace/agent-market-snapshots.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "runtime/shared_memory/agent-status.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "runtime/shared_memory/messages.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "runtime/shared_memory/subscriptions.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "sandbox/sandbox-controller.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/sandbox-controller.json'"
+  },
+  {
+    "file": "sandbox/sandbox-simulations.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/sandbox-simulations.json'"
+  },
+  {
+    "file": "sandbox/simulations/debate-vote-001.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/debate-vote-001.json'"
+  },
+  {
+    "file": "sandbox/simulations/dryrun-001.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/dryrun-001.json'"
+  },
+  {
+    "file": "sandbox/simulations/fork-propagation-001.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/fork-propagation-001.json'"
+  },
+  {
+    "file": "sandbox/simulations/memory-sync-corrida-001.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/memory-sync-corrida-001.json'"
+  },
+  {
+    "file": "sandbox/simulations/orchestrator-simulation-001.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/orchestrator-simulation-001.json'"
+  },
+  {
+    "file": "sandbox/simulations/planner-simulation-001.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/planner-simulation-001.json'"
+  },
+  {
+    "file": "sandbox/simulations/planner-thread-aware-001.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/planner-thread-aware-001.json'"
+  },
+  {
+    "file": "sandbox/simulations/retrospective-bootstrap.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/retrospective-bootstrap.json'"
+  },
+  {
+    "file": "sandbox/simulations/sandbox-replay-001.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/sandbox-replay-001.json'"
+  },
+  {
+    "file": "sandbox/simulations/upgrade-pipeline-001.json",
+    "action": "delete",
+    "status": "ERROR: [Errno 2] No such file or directory: '/mnt/data/ai-collab-template-recovered/sandbox/simulations/upgrade-pipeline-001.json'"
+  },
+  {
+    "file": "schemas/agent-challenge.schema.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/agent-evolution-score.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "schemas/agent-marketplace.schema.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/canonical-agent-instances.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/canonical-agent-model-metadata.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "schemas/canonical-agent-model.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/context-router.schema-lifecycle.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/context-router.schema-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/context-router.schema.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/debate-vote.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "schemas/dynamic-agent-routing.schema.json",
+    "action": "moved to schemas/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/feature.schema-lifecycle.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/feature.schema-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/feature.schema.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "schemas/forkable-plan.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/lifecycle-metadata.json",
+    "action": "deleted",
+    "status": "done"
+  },
+  {
+    "file": "schemas/memory.schema.json",
+    "action": "moved to memory-bank/tasks/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/pipeline.schema-lifecycle.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/pipeline.schema-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/pipeline.schema.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/routine-manifest.schema-lifecycle.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/routine-manifest.schema-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/routine-manifest.schema.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "schemas/routing-rules-schema.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "schemas/schema-index-lifecycle.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/schema-index.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "schemas/schema-index.repaired.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "schemas/schema-metadata-metadata.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/schema-metadata.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "schemas/schema-version-tracker-lifecycle.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/schema-version-tracker.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/synthesized-memory-index.json",
+    "action": "moved to agents-spec/",
+    "status": "done"
+  },
+  {
+    "file": "schemas/version-history.json",
+    "action": "kept",
+    "status": "unchanged"
+  },
+  {
+    "file": "simulations/sim-agent-collab.yaml",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "simulations/onboarding/phase1-simulation.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "task-graph/task-graph-root-collaboration-bootstrap.json",
+    "action": "moved to plans/",
+    "status": "done"
+  },
+  {
+    "file": "tasks/README.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "tests/README.md",
+    "action": "moved to docs/",
+    "status": "done"
+  },
+  {
+    "file": "tooling/README.md",
+    "action": "moved to docs/",
+    "status": "done"
+  }
+]

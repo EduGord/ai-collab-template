@@ -1,0 +1,41 @@
+[
+  {
+    "task_id": "fix-3b7d0120",
+    "title": "tasking-agent: Refactor tasking checklist to import planner phases when shared",
+    "description": "Refactor tasking checklist to import planner phases when shared.",
+    "agent": "tasking-agent",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T16:53:44.098484"
+  },
+  {
+    "task_id": "fix-716b5e71",
+    "title": "planner-agent: Add fallback routing protocol to route tasks between tasking/planner based on load",
+    "description": "Add fallback routing protocol to route tasks between tasking/planner based on load.",
+    "agent": "planner-agent",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T16:53:44.099121"
+  },
+  {
+    "task_id": "fix-6a259717",
+    "title": "evolve-agent: Track overlapping agents and propose future merge or divergence strategies",
+    "description": "Track overlapping agents and propose future merge or divergence strategies.",
+    "agent": "evolve-agent",
+    "status": "pending",
+    "tags": [
+      "agent-challenge",
+      "consensus",
+      "strategy"
+    ],
+    "timestamp": "2025-04-12T16:53:44.099299"
+  }
+]
