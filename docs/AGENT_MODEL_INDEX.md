@@ -1,17 +1,32 @@
 # Canonical Agent Model Index
 
-- [orchestrator-agent](docs/agents/orchestrator-agent.md)
-- [planner-agent](docs/agents/planner-agent.md)
-- [tasking-agent](docs/agents/tasking-agent.md)
-- [docs-agent](docs/agents/docs-agent.md)
-- [governance-agent](docs/agents/governance-agent.md)
-- [tooling-agent](docs/agents/tooling-agent.md)
-- [training-specialist](docs/agents/training-specialist.md)
-- [frontend-agent](docs/agents/frontend-agent.md)
-- [support-agent](docs/agents/support-agent.md)
-- [compliance-agent](docs/agents/compliance-agent.md)
-- [ux-review-agent](docs/agents/ux-review-agent.md)
-- [dev-agent](docs/agents/dev-agent.md)
-- [intent-parser-agent](docs/agents/intent-parser-agent.md)
-- [automator-agent](docs/agents/automator-agent.md)
-- [narrator-agent](docs/agents/narrator-agent.md)
+This index outlines the core agents within the system and their responsibilities.
+
+## Core Agents
+
+- docbot – handles docs
+- structurekeeper – schema/memory alignment
+- taskrouter – file/task routing
+
+## Specialized Agents
+
+- conceptweaver – concept indexing
+- identity – delegation and conflict resolution
+
+## Others
+
+- orchestrator-agent
+- planner-agent
+- tasking-agent
+- docs-agent
+- governance-agent
+- tooling-agent
+- training-specialist
+- frontend-agent
+- support-agent
+- compliance-agent
+- ux-review
+- dev-agent
+- intent-parser
+- automator-agent
+- narrator-agent

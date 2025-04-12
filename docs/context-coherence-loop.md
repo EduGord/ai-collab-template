@@ -1,16 +1,9 @@
 # Context Coherence Loop
 
-To prevent context drift:
+To prevent context fragmentation, the project enforces this loop between plans, memory, and agents.
 
-1. Each agent must update router and memory index after adding files
-2. A validator and linter must be run after each plan
-3. A self-healing routine must auto-fix any discovered gaps
-4. Reflection must be logged on audit failures
-5. A version bump should trigger introspection
+## Principles
 
---- 
-
-This document is currently under construction.
-
-🛠️ To be filled with guidance, structure, and examples for:  
-- context coherence loop
+- Agents cache and propagate memory
+- Plans define shared intent
+- Logs and checklists ensure auditability

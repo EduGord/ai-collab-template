@@ -1,21 +1,9 @@
-
 # Design Principles
 
-This template embodies the following concepts:
-- Memory-guided interaction
-- Reflective agents and feedback loops
-- Schema-driven routines and pipelines
-- Modular, audit-ready system design
+This template embodies modularity, explainability, and collaborative scale.
 
-It is built from scratch to help LLMs and humans efficiently collaborate over long and complex sessions.
+## Foundations
 
-## Canonical Data Models
-
-The `/schemas/canonical-agent-model.json` schema provides a foundational contract to unify agent identity, lifecycle, and operational boundaries.
-
----
-
-This document is currently under construction.
-
-🛠️ To be filled with guidance, structure, and examples for:  
-- design principles
+- Memory-first architecture
+- Decentralized task orchestration
+- Transparent execution pipelines

@@ -5,10 +5,10 @@ pipeline:
   steps:
     - agent: realtime-llm-assistant
       on: ["*"]
+
     - write: realtime_llm_output.md
+
     - log: agent_log
 
-# Root alignment validation step
-
-  - id: root-meta-alignment-check
-    routine: root-collab-validation
+    - id: root-meta-alignment-check
+      routine: root-collab-validation

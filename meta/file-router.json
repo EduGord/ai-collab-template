@@ -1,4596 +1,5042 @@
 {
-  "llm-capabilities.json": {
-    "lines": 19,
-    "size": 265,
-    "type": "agent",
+  ".gitignore": {
+    "lines": 90,
+    "size": 1205,
+    "type": "",
     "tags": [
-      "agent"
+      ""
     ],
-    "linked_agent": "\"agent\","
+    "linked_agent": "unknown"
   },
-  "debate-protocol.json": {
-    "lines": 4,
-    "size": 106,
-    "type": "agent",
+  ".releaseignore": {
+    "lines": 20,
+    "size": 252,
+    "type": "",
     "tags": [
-      "agent"
+      ""
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "delegation-protocol.json": {
-    "lines": 6,
-    "size": 140,
-    "type": "agent",
+  "agent-evolution.json": {
+    "lines": 16,
+    "size": 340,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "agent-registry.json": {
     "lines": 147,
     "size": 2950,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "override-rules.json": {
-    "lines": 6,
-    "size": 179,
-    "type": "agent",
+  "AGENT_LOG.md": {
+    "lines": 416,
+    "size": 29402,
+    "type": "md",
     "tags": [
-      "agent"
+      "md"
     ],
-    "linked_agent": "\"pause\" },"
+    "linked_agent": "unknown"
   },
-  "manual-mode.md": {
-    "lines": 6,
-    "size": 209,
-    "type": "agent",
+  "AUTO-ONBOARD.md": {
+    "lines": 72,
+    "size": 2910,
+    "type": "md",
     "tags": [
-      "agent",
-      "routine"
+      "md"
     ],
-    "linked_agent": ""
+    "linked_agent": "unknown"
   },
-  "failsafe-agent.json": {
-    "lines": 11,
-    "size": 196,
-    "type": "agent",
+  "changelog-agent.json": {
+    "lines": 873,
+    "size": 28027,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "eval-hooks.json": {
-    "lines": 11,
-    "size": 224,
-    "type": "agent",
+  "CHANGELOG.md": {
+    "lines": 23,
+    "size": 911,
+    "type": "md",
     "tags": [
-      "agent",
-      "routine"
+      "md"
     ],
-    "linked_agent": null
-  },
-  "human-feedback.json": {
-    "lines": 5,
-    "size": 115,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"Bootstrapped quickly and cleanly.\"}"
-  },
-  "feedback-integrator-agent.json": {
-    "lines": 11,
-    "size": 300,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "agent-evolution.json": {
-    "lines": 5,
-    "size": 93,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "performance-milestones.json": {
-    "lines": 5,
-    "size": 90,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "persona-guide.json": {
-    "lines": 9,
-    "size": 232,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "collab-etiquette.md": {
-    "lines": 8,
-    "size": 218,
-    "type": "agent",
+    "lines": 10,
+    "size": 204,
+    "type": "md",
     "tags": [
-      "agent"
+      "md"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "task-graph.json": {
-    "lines": 24,
-    "size": 500,
-    "type": "agent",
+  "consensus-engine.json": {
+    "lines": 7,
+    "size": 113,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine"
+      "json"
     ],
-    "linked_agent": "\"evolve-agent\""
+    "linked_agent": "unknown"
   },
-  "feedback-propagation.json": {
-    "lines": 9,
-    "size": 164,
-    "type": "agent",
+  "debate-protocol.json": {
+    "lines": 4,
+    "size": 106,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "delegation-protocol.json": {
+    "lines": 6,
+    "size": 140,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "eval-hooks.json": {
+    "lines": 7,
+    "size": 120,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "external-agent-descriptors.json": {
     "lines": 12,
     "size": 193,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "consensus-engine.json": {
+  "failsafe-agent.json": {
+    "lines": 7,
+    "size": 92,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "feedback-integrator-agent.json": {
     "lines": 11,
-    "size": 217,
-    "type": "agent",
+    "size": 300,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "prompt-replay.json": {
-    "lines": 14,
-    "size": 267,
-    "type": "agent",
+  "feedback-propagation.json": {
+    "lines": 9,
+    "size": 164,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "task-graph-fix-content.json": {
-    "lines": 24,
-    "size": 471,
-    "type": "agent",
+  "file-router.json": {
+    "lines": 9806,
+    "size": 322075,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": "\"evolve-agent\""
+    "linked_agent": "unknown"
   },
-  "task-graph-reuse.json": {
-    "lines": 16,
-    "size": 323,
-    "type": "agent",
+  "generate_framework_zip.py": {
+    "lines": 20,
+    "size": 802,
+    "type": "py",
     "tags": [
-      "agent",
-      "routine"
+      "py"
     ],
-    "linked_agent": "\"evolve-agent\""
-  },
-  "task-graph-fine-tune.json": {
-    "lines": 33,
-    "size": 764,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": "\"evolve-agent\","
-  },
-  "changelog-agent.json": {
-    "lines": 13,
-    "size": 578,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "task-graph-system-resilience.json": {
-    "lines": 34,
-    "size": 825,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": "\"router-agent\""
-  },
-  "task-graph-final-audit-fix.json": {
-    "lines": 19,
-    "size": 384,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": "\"evolve-agent\""
-  },
-  "task-graph-agent-srp-cleanup.json": {
-    "lines": 19,
-    "size": 376,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": "\"evolve-agent\""
-  },
-  "task-graph-feature-audit.json": {
-    "lines": 16,
-    "size": 302,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": "\"evolve-agent\""
-  },
-  "pipeline-playground.md": {
-    "lines": 8,
-    "size": 177,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "goal-tree.json": {
     "lines": 28,
     "size": 644,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "realtime_llm_prompt.txt": {
-    "lines": 8,
-    "size": 292,
-    "type": "agent",
+  "human-feedback.json": {
+    "lines": 5,
+    "size": 115,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "realtime_llm_output.md": {
-    "lines": 27,
-    "size": 589,
-    "type": "agent",
+  "llm-capabilities.json": {
+    "lines": 19,
+    "size": 265,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "AGENT_LOG.md": {
-    "lines": 326,
-    "size": 23834,
-    "type": "agent",
+  "manual-mode.md": {
+    "lines": 12,
+    "size": 294,
+    "type": "md",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "md"
     ],
-    "linked_agent": null
-  },
-  "tasks.json": {
-    "lines": 41,
-    "size": 1028,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "memory_bank.archived.json": {
     "lines": 135,
     "size": 3216,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "task_id",
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"planner\","
+    "linked_agent": "unknown"
   },
   "memory_bank.json": {
-    "lines": 738,
-    "size": 19297,
-    "type": "agent",
+    "lines": 284,
+    "size": 14338,
+    "type": "json",
     "tags": [
-      "task_id",
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"agent\","
+    "linked_agent": "unknown"
   },
-  "agents-spec/bootstrap-agent/identity.json": {
-    "lines": 8,
-    "size": 180,
-    "type": "agent",
+  "override-rules.json": {
+    "lines": 6,
+    "size": 179,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/bootstrap-agent/checklist.json": {
+  "performance-milestones.json": {
     "lines": 5,
-    "size": 180,
-    "type": "agent",
+    "size": 80,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/bootstrap-agent/agent-state.json": {
-    "lines": 8,
-    "size": 164,
-    "type": "agent",
+  "persona-guide.json": {
+    "lines": 5,
+    "size": 128,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/bootstrap-agent/ux-profile.json": {
+  "pipeline-playground.md": {
     "lines": 9,
-    "size": 208,
-    "type": "agent",
+    "size": 165,
+    "type": "md",
     "tags": [
-      "agent"
+      "md"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/bootstrap-agent/agent-metadata.json": {
-    "lines": 23,
-    "size": 355,
-    "type": "agent",
+  "prompt-replay.json": {
+    "lines": 10,
+    "size": 163,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": "\"bootstrap-agent\","
+    "linked_agent": "unknown"
+  },
+  "routing-rules.json": {
+    "lines": 282,
+    "size": 13133,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "task-graph-agent-srp-cleanup.json": {
+    "lines": 19,
+    "size": 376,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "task-graph-feature-audit.json": {
+    "lines": 16,
+    "size": 302,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "task-graph-final-audit-fix.json": {
+    "lines": 19,
+    "size": 384,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "task-graph-fine-tune.json": {
+    "lines": 33,
+    "size": 764,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "task-graph-fix-content.json": {
+    "lines": 24,
+    "size": 471,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "task-graph-reuse.json": {
+    "lines": 16,
+    "size": 323,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "task-graph-system-resilience.json": {
+    "lines": 34,
+    "size": 825,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "task-graph.json": {
+    "lines": 24,
+    "size": 500,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "tasks.json": {
+    "lines": 209,
+    "size": 15014,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/audit-agent/agent-ledger.json": {
+    "lines": 702,
+    "size": 24521,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/audit-agent/agent-metadata.json": {
+    "lines": 43,
+    "size": 1138,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/audit-agent/agent-state.json": {
+    "lines": 8,
+    "size": 156,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/audit-agent/checklist.json": {
+    "lines": 9,
+    "size": 363,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/audit-agent/heuristics.json": {
+    "lines": 14,
+    "size": 376,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/audit-agent/identity.json": {
+    "lines": 19,
+    "size": 429,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/audit-agent/lifecycle.json": {
+    "lines": 4,
+    "size": 47,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/audit-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 176,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json": {
+    "lines": 17,
+    "size": 489,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "agents-spec/bootstrap-agent/agent-ledger.json": {
-    "lines": 9,
-    "size": 174,
-    "type": "agent",
+    "lines": 5,
+    "size": 70,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "agents-spec/bootstrap-agent/agent-metadata.json": {
+    "lines": 45,
+    "size": 1088,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/bootstrap-agent/agent-state.json": {
+    "lines": 4,
+    "size": 42,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/bootstrap-agent/checklist.json": {
+    "lines": 1,
+    "size": 76,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "agents-spec/bootstrap-agent/heuristics.json": {
-    "lines": 20,
-    "size": 345,
-    "type": "agent",
+    "lines": 16,
+    "size": 241,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/bootstrap-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 161,
-    "type": "agent",
+  "agents-spec/bootstrap-agent/identity.json": {
+    "lines": 13,
+    "size": 292,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "agents-spec/bootstrap-agent/ux-profile.json": {
+    "lines": 5,
+    "size": 104,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "agents-spec/bootstrap-agent/reflections/sample.json": {
-    "lines": 9,
-    "size": 226,
-    "type": "agent",
+    "lines": 5,
+    "size": 122,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "agents-spec/bootstrap-agent/reflections/reasoning-logs/init-reflection.json": {
-    "lines": 10,
-    "size": 316,
-    "type": "agent",
+    "lines": 6,
+    "size": 194,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
-  },
-  "agents-spec/evolve-agent/identity.json": {
-    "lines": 8,
-    "size": 236,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/evolve-agent/checklist.json": {
-    "lines": 7,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/evolve-agent/agent-metadata.json": {
-    "lines": 23,
-    "size": 352,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"evolve-agent\","
+    "linked_agent": "unknown"
   },
   "agents-spec/evolve-agent/agent-ledger.json": {
-    "lines": 9,
-    "size": 174,
-    "type": "agent",
+    "lines": 5,
+    "size": 70,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "agents-spec/evolve-agent/agent-metadata.json": {
+    "lines": 40,
+    "size": 1086,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/evolve-agent/agent-state.json": {
+    "lines": 6,
+    "size": 106,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/evolve-agent/checklist.json": {
+    "lines": 15,
+    "size": 460,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "agents-spec/evolve-agent/heuristics.json": {
-    "lines": 20,
-    "size": 345,
-    "type": "agent",
+    "lines": 16,
+    "size": 241,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "agents-spec/evolve-agent/identity.json": {
+    "lines": 14,
+    "size": 424,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "agents-spec/evolve-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 161,
-    "type": "agent",
+    "lines": 4,
+    "size": 47,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "agents-spec/evolve-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 177,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "agents-spec/evolve-agent/reflections/routine-gap-detection.json": {
     "lines": 7,
-    "size": 245,
-    "type": "agent",
+    "size": 227,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine"
+      "json"
     ],
-    "linked_agent": "\"evolve-agent\","
-  },
-  "agents-spec/evolve-agent/reflections/self-review-hook.json": {
-    "lines": 7,
-    "size": 243,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"evolve-agent\","
-  },
-  "agents-spec/evolve-agent/reflections/system-evolve-cycle.json": {
-    "lines": 7,
-    "size": 243,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"evolve-agent\","
+    "linked_agent": "unknown"
   },
   "agents-spec/evolve-agent/reflections/self-introspection.json": {
     "lines": 7,
-    "size": 318,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"evolve-agent\","
-  },
-  "agents-spec/evolve-agent/reflections/reasoning-logs/init-reflection.json": {
-    "lines": 10,
-    "size": 316,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/router-agent/identity.json": {
-    "lines": 13,
-    "size": 282,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/router-agent/checklist.json": {
-    "lines": 12,
-    "size": 398,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/router-agent/agent-metadata.json": {
-    "lines": 23,
-    "size": 352,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"router-agent\","
-  },
-  "agents-spec/router-agent/agent-ledger.json": {
-    "lines": 9,
-    "size": 174,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/router-agent/heuristics.json": {
-    "lines": 20,
-    "size": 345,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/router-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 161,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/router-agent/reflections/llm-session-router.json": {
-    "lines": 7,
-    "size": 249,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"router-agent\","
-  },
-  "agents-spec/router-agent/reflections/reasoning-logs/init-reflection.json": {
-    "lines": 10,
-    "size": 316,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/planner-agent/identity.json": {
-    "lines": 12,
-    "size": 268,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/planner-agent/checklist.json": {
-    "lines": 6,
-    "size": 191,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/planner-agent/agent-metadata.json": {
-    "lines": 23,
-    "size": 353,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "agents-spec/planner-agent/agent-ledger.json": {
-    "lines": 9,
-    "size": 174,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/planner-agent/heuristics.json": {
-    "lines": 20,
-    "size": 345,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/planner-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 161,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/planner-agent/checklists/core-checklist.json": {
-    "lines": 12,
-    "size": 317,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/planner-agent/reflections/reasoning-logs/init-reflection.json": {
-    "lines": 10,
-    "size": 316,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/orchestrator-agent/identity.json": {
-    "lines": 12,
-    "size": 287,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/orchestrator-agent/checklist.json": {
-    "lines": 6,
-    "size": 170,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/orchestrator-agent/agent-metadata.json": {
-    "lines": 23,
-    "size": 358,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"orchestrator-agent\","
-  },
-  "agents-spec/orchestrator-agent/agent-ledger.json": {
-    "lines": 9,
-    "size": 174,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/orchestrator-agent/heuristics.json": {
-    "lines": 20,
-    "size": 345,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/orchestrator-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 161,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/orchestrator-agent/checklists/core-checklist.json": {
-    "lines": 16,
-    "size": 639,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/orchestrator-agent/reflections/reasoning-logs/init-reflection.json": {
-    "lines": 10,
-    "size": 316,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/tasking-agent/identity.json": {
-    "lines": 11,
-    "size": 237,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/tasking-agent/checklist.json": {
-    "lines": 6,
-    "size": 176,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/tasking-agent/agent-metadata.json": {
-    "lines": 23,
-    "size": 353,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"tasking-agent\","
-  },
-  "agents-spec/tasking-agent/agent-ledger.json": {
-    "lines": 9,
-    "size": 174,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/tasking-agent/heuristics.json": {
-    "lines": 20,
-    "size": 345,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/tasking-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 161,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/tasking-agent/checklists/core-checklist.json": {
-    "lines": 14,
-    "size": 387,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/tasking-agent/reflections/reasoning-logs/init-reflection.json": {
-    "lines": 10,
-    "size": 316,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/audit-agent/identity.json": {
-    "lines": 13,
-    "size": 277,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/audit-agent/checklist.json": {
-    "lines": 14,
-    "size": 531,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/audit-agent/agent-metadata.json": {
-    "lines": 23,
-    "size": 351,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"audit-agent\","
-  },
-  "agents-spec/audit-agent/agent-ledger.json": {
-    "lines": 9,
-    "size": 174,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/audit-agent/heuristics.json": {
-    "lines": 20,
-    "size": 345,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/audit-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 161,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json": {
-    "lines": 10,
-    "size": 316,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/proposal-review-agent/identity.json": {
-    "lines": 12,
     "size": 300,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/proposal-review-agent/checklist.json": {
+  "agents-spec/evolve-agent/reflections/self-review-hook.json": {
+    "lines": 7,
+    "size": 225,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/evolve-agent/reflections/system-evolve-cycle.json": {
+    "lines": 7,
+    "size": 225,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/logger-agent/agent-ledger.json": {
+    "lines": 5,
+    "size": 77,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/logger-agent/agent-metadata.json": {
+    "lines": 46,
+    "size": 1100,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/logger-agent/agent-state.json": {
     "lines": 6,
-    "size": 189,
-    "type": "agent",
+    "size": 106,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/proposal-review-agent/agent-metadata.json": {
-    "lines": 23,
-    "size": 361,
-    "type": "agent",
+  "agents-spec/logger-agent/checklist.json": {
+    "lines": 17,
+    "size": 735,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": "\"proposal-review-agent\","
+    "linked_agent": "unknown"
   },
-  "agents-spec/proposal-review-agent/agent-ledger.json": {
+  "agents-spec/logger-agent/heuristics.json": {
+    "lines": 16,
+    "size": 287,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/logger-agent/identity.json": {
+    "lines": 21,
+    "size": 585,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/logger-agent/lifecycle.json": {
     "lines": 9,
-    "size": 174,
-    "type": "agent",
+    "size": 107,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/proposal-review-agent/heuristics.json": {
-    "lines": 20,
-    "size": 345,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/proposal-review-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 161,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/proposal-review-agent/reflections/reasoning-logs/init-reflection.json": {
+  "agents-spec/logger-agent/ux-profile.json": {
     "lines": 10,
-    "size": 316,
-    "type": "agent",
+    "size": 177,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/recovery-agent/identity.json": {
-    "lines": 12,
-    "size": 266,
-    "type": "agent",
+  "agents-spec/meta-agent/agent-ledger.json": {
+    "lines": 5,
+    "size": 75,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/recovery-agent/checklist.json": {
+  "agents-spec/meta-agent/agent-metadata.json": {
+    "lines": 43,
+    "size": 1438,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/meta-agent/agent-state.json": {
     "lines": 6,
-    "size": 187,
-    "type": "agent",
+    "size": 104,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/recovery-agent/agent-metadata.json": {
-    "lines": 23,
-    "size": 354,
-    "type": "agent",
+  "agents-spec/meta-agent/checklist.json": {
+    "lines": 1,
+    "size": 57,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": "\"recovery-agent\","
+    "linked_agent": "unknown"
   },
-  "agents-spec/recovery-agent/agent-ledger.json": {
-    "lines": 9,
-    "size": 174,
-    "type": "agent",
+  "agents-spec/meta-agent/heuristics.json": {
+    "lines": 6,
+    "size": 169,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "agents-spec/recovery-agent/heuristics.json": {
-    "lines": 20,
-    "size": 345,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/recovery-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 161,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/recovery-agent/reflections/reasoning-logs/init-reflection.json": {
-    "lines": 10,
-    "size": 316,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agents-spec/voting-agent/identity.json": {
+  "agents-spec/meta-agent/identity.json": {
     "lines": 15,
-    "size": 316,
-    "type": "agent",
+    "size": 434,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "agents-spec/meta-agent/lifecycle.json": {
+    "lines": 9,
+    "size": 105,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/meta-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 175,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "agents-spec/meta-agent/reflections/mentor-review-001.json": {
     "lines": 14,
-    "size": 386,
-    "type": "agent",
+    "size": 368,
+    "type": "json",
     "tags": [
-      "agent",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"meta-agent\","
+    "linked_agent": "unknown"
+  },
+  "agents-spec/orchestrator-agent/agent-ledger.json": {
+    "lines": 5,
+    "size": 70,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/orchestrator-agent/agent-metadata.json": {
+    "lines": 51,
+    "size": 2046,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/orchestrator-agent/agent-state.json": {
+    "lines": 6,
+    "size": 112,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/orchestrator-agent/checklist.json": {
+    "lines": 14,
+    "size": 505,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/orchestrator-agent/heuristics.json": {
+    "lines": 16,
+    "size": 241,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/orchestrator-agent/identity.json": {
+    "lines": 21,
+    "size": 496,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/orchestrator-agent/lifecycle.json": {
+    "lines": 4,
+    "size": 47,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/orchestrator-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 183,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/orchestrator-agent/checklists/core-checklist.json": {
+    "lines": 20,
+    "size": 345,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/org-agent/agent-ledger.json": {
+    "lines": 4,
+    "size": 50,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/org-agent/agent-metadata.json": {
+    "lines": 45,
+    "size": 1386,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/org-agent/agent-state.json": {
+    "lines": 5,
+    "size": 79,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/org-agent/checklist.json": {
+    "lines": 18,
+    "size": 581,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/org-agent/heuristics.json": {
+    "lines": 20,
+    "size": 375,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/org-agent/identity.json": {
+    "lines": 24,
+    "size": 697,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/org-agent/lifecycle.json": {
+    "lines": 8,
+    "size": 80,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/org-agent/ux-profile.json": {
+    "lines": 9,
+    "size": 168,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/planner-agent/agent-ledger.json": {
+    "lines": 5,
+    "size": 70,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/planner-agent/agent-metadata.json": {
+    "lines": 34,
+    "size": 1279,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/planner-agent/agent-state.json": {
+    "lines": 6,
+    "size": 107,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/planner-agent/checklist.json": {
+    "lines": 12,
+    "size": 431,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/planner-agent/heuristics.json": {
+    "lines": 16,
+    "size": 241,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/planner-agent/identity.json": {
+    "lines": 21,
+    "size": 472,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/planner-agent/lifecycle.json": {
+    "lines": 4,
+    "size": 47,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/planner-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 178,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/planner-agent/checklists/core-checklist.json": {
+    "lines": 20,
+    "size": 345,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/proposal-review-agent/agent-ledger.json": {
+    "lines": 5,
+    "size": 70,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/proposal-review-agent/agent-metadata.json": {
+    "lines": 40,
+    "size": 1218,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/proposal-review-agent/agent-state.json": {
+    "lines": 6,
+    "size": 115,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/proposal-review-agent/checklist.json": {
+    "lines": 13,
+    "size": 435,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/proposal-review-agent/heuristics.json": {
+    "lines": 16,
+    "size": 241,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/proposal-review-agent/identity.json": {
+    "lines": 21,
+    "size": 509,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/proposal-review-agent/lifecycle.json": {
+    "lines": 4,
+    "size": 47,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/proposal-review-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 186,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/recovery-agent/agent-ledger.json": {
+    "lines": 5,
+    "size": 70,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/recovery-agent/agent-metadata.json": {
+    "lines": 35,
+    "size": 1333,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/recovery-agent/agent-state.json": {
+    "lines": 6,
+    "size": 108,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/recovery-agent/checklist.json": {
+    "lines": 14,
+    "size": 349,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/recovery-agent/heuristics.json": {
+    "lines": 16,
+    "size": 241,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/recovery-agent/identity.json": {
+    "lines": 21,
+    "size": 457,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/recovery-agent/lifecycle.json": {
+    "lines": 4,
+    "size": 47,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/recovery-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 179,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/router-agent/agent-ledger.json": {
+    "lines": 5,
+    "size": 70,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/router-agent/agent-metadata.json": {
+    "lines": 40,
+    "size": 1267,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/router-agent/agent-state.json": {
+    "lines": 6,
+    "size": 106,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/router-agent/checklist.json": {
+    "lines": 17,
+    "size": 687,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/router-agent/heuristics.json": {
+    "lines": 16,
+    "size": 241,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/router-agent/identity.json": {
+    "lines": 19,
+    "size": 433,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/router-agent/lifecycle.json": {
+    "lines": 4,
+    "size": 47,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/router-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 177,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/router-agent/reflections/llm-session-router.json": {
+    "lines": 7,
+    "size": 231,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/tasking-agent/agent-ledger.json": {
+    "lines": 5,
+    "size": 70,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/tasking-agent/agent-metadata.json": {
+    "lines": 41,
+    "size": 1084,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/tasking-agent/agent-state.json": {
+    "lines": 6,
+    "size": 107,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/tasking-agent/checklist.json": {
+    "lines": 22,
+    "size": 699,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/tasking-agent/heuristics.json": {
+    "lines": 16,
+    "size": 241,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/tasking-agent/identity.json": {
+    "lines": 19,
+    "size": 413,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/tasking-agent/lifecycle.json": {
+    "lines": 4,
+    "size": 47,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/tasking-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 178,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/tasking-agent/checklists/core-checklist.json": {
+    "lines": 20,
+    "size": 345,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/ux-agent/agent-metadata.json": {
+    "lines": 45,
+    "size": 1277,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/ux-agent/agent-state.json": {
+    "lines": 6,
+    "size": 102,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/ux-agent/checklist.json": {
+    "lines": 21,
+    "size": 581,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/ux-agent/heuristics.json": {
+    "lines": 16,
+    "size": 329,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/ux-agent/identity.json": {
+    "lines": 27,
+    "size": 695,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/ux-agent/lifecycle.json": {
+    "lines": 9,
+    "size": 103,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/ux-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 173,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/voting-agent/agent-ledger.json": {
+    "lines": 5,
+    "size": 77,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/voting-agent/agent-metadata.json": {
+    "lines": 44,
+    "size": 1305,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/voting-agent/agent-state.json": {
+    "lines": 6,
+    "size": 106,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/voting-agent/checklist.json": {
+    "lines": 46,
+    "size": 1451,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/voting-agent/identity.json": {
+    "lines": 24,
+    "size": 522,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/voting-agent/lifecycle.json": {
+    "lines": 9,
+    "size": 107,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "agents-spec/voting-agent/ux-profile.json": {
+    "lines": 10,
+    "size": 177,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "canonical-model/routine-definition.json": {
     "lines": 26,
     "size": 500,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent",
-      "routine"
+      "json"
     ],
-    "linked_agent": null
-  },
-  "memory-bank/index.json": {
-    "lines": 22,
-    "size": 650,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "memory-bank/memory-metadata.json": {
-    "lines": 27,
-    "size": 509,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "memory-bank/pattern-memory.json": {
-    "lines": 15,
-    "size": 472,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "memory-bank/fixed/phase-8-self-evolving.json": {
-    "lines": 16,
-    "size": 619,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "memory-bank/fixed/phase-9-federation.json": {
-    "lines": 16,
-    "size": 619,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "memory-bank/fixed/phase-10-temporal.json": {
-    "lines": 16,
-    "size": 612,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "memory-bank/evolving/pending-tasks.json": {
-    "lines": 997,
-    "size": 39965,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "memory-bank/audit-tasks/full-project-audit.json": {
-    "lines": 20,
-    "size": 758,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "memory-bank/audit-tasks/full-resilience-audit.json": {
-    "lines": 84,
-    "size": 3910,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "memory-bank/audit-tasks/agent-identity-review.json": {
-    "lines": 144,
-    "size": 4929,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": "Self-review of capabilities, checklist, links and identity\","
-  },
-  "memory-bank/audit-tasks/agent-group-improvement-tasks.json": {
-    "lines": 135,
-    "size": 5348,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "logs/executions/bootstrap-execution-001.json": {
-    "lines": 20,
-    "size": 518,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": "\"bootstrap-agent\","
-  },
-  "logs/executions/phase-8-routines.json": {
-    "lines": 26,
-    "size": 720,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": "\"evolve-agent\","
-  },
-  "logs/executions/orchestration-simulation.json": {
-    "lines": 28,
-    "size": 479,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "logs/executions/introspection-report.json": {
-    "lines": 183,
-    "size": 7230,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "logs/executions/system-resilience-execution.json": {
-    "lines": 13,
-    "size": 427,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "logs/executions/final-introspection.json": {
-    "lines": 65,
-    "size": 2245,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "logs/executions/feature-audit.json": {
-    "lines": 19,
-    "size": 504,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "logs/executions/final-structural-feature-audit.json": {
-    "lines": 24,
-    "size": 617,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "logs/executions/recovery-sync.json": {
-    "lines": 72,
-    "size": 3527,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "logs/executions/routine-audit-phase12.json": {
-    "lines": 14,
-    "size": 282,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "logs/evaluations/agent-evolution-scores.json": {
-    "lines": 30,
-    "size": 581,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "logs/evaluations/upgrade-responses.json": {
-    "lines": 16,
-    "size": 510,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/schema-metadata.json": {
-    "lines": 8,
-    "size": 190,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/routine-manifest.schema.json": {
-    "lines": 17,
-    "size": 387,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": "\"agent\","
-  },
-  "schemas/pipeline.schema.json": {
-    "lines": 23,
-    "size": 454,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/context-router.schema.json": {
-    "lines": 25,
-    "size": 472,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/feature.schema.json": {
-    "lines": 38,
-    "size": 740,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/schema-version-tracker.json": {
-    "lines": 154,
-    "size": 3617,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "schemas/schema-metadata-metadata.json": {
-    "lines": 15,
-    "size": 229,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"agent\""
-  },
-  "schemas/routine-manifest.schema-metadata.json": {
-    "lines": 15,
-    "size": 237,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": "\"agent\""
-  },
-  "schemas/pipeline.schema-metadata.json": {
-    "lines": 15,
-    "size": 229,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"agent\""
-  },
-  "schemas/context-router.schema-metadata.json": {
-    "lines": 15,
-    "size": 235,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"agent\""
-  },
-  "schemas/feature.schema-metadata.json": {
-    "lines": 15,
-    "size": 228,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"agent\""
-  },
-  "schemas/schema-index.json": {
-    "lines": 13,
-    "size": 279,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "schemas/lifecycle-metadata.json": {
-    "lines": 15,
-    "size": 212,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "schemas/routine-manifest.schema-lifecycle.json": {
-    "lines": 6,
-    "size": 69,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/pipeline.schema-lifecycle.json": {
-    "lines": 6,
-    "size": 69,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/context-router.schema-lifecycle.json": {
-    "lines": 6,
-    "size": 69,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/feature.schema-lifecycle.json": {
-    "lines": 6,
-    "size": 69,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/schema-version-tracker-lifecycle.json": {
-    "lines": 6,
-    "size": 69,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/schema-index-lifecycle.json": {
-    "lines": 6,
-    "size": 69,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/debate-vote.json": {
-    "lines": 9,
-    "size": 104,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"agent\","
-  },
-  "schemas/forkable-plan.json": {
-    "lines": 25,
-    "size": 446,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/canonical-agent-model.json": {
-    "lines": 25,
-    "size": 447,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/canonical-agent-model-metadata.json": {
-    "lines": 9,
-    "size": 215,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/canonical-agent-instances.json": {
-    "lines": 132,
-    "size": 3433,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "schemas/agent-evolution-score.json": {
-    "lines": 16,
-    "size": 264,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "schemas/version-history.json": {
-    "lines": 16,
-    "size": 403,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/agent-collab-plan.json": {
-    "lines": 11,
-    "size": 268,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/agent-collab-performance-fork.json": {
-    "lines": 12,
-    "size": 279,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "plans/bootstrap/plan.json": {
-    "lines": 8,
-    "size": 207,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/bootstrap/tasks.json": {
-    "lines": 16,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/self-evolving/plan.json": {
-    "lines": 15,
-    "size": 347,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "plans/self-evolving/tasks.json": {
-    "lines": 16,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/fix-content/plan.json": {
-    "lines": 14,
-    "size": 329,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/fix-content/tasks.json": {
-    "lines": 16,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/reuse-corrida-elements/plan.json": {
-    "lines": 14,
-    "size": 362,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "plans/reuse-corrida-elements/tasks.json": {
-    "lines": 16,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/extend-agent-abstractions/plan.json": {
-    "lines": 13,
-    "size": 314,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/extend-agent-abstractions/tasks.json": {
-    "lines": 32,
-    "size": 905,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "plans/fine-tune/plan.json": {
-    "lines": 17,
-    "size": 469,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "plans/fine-tune/tasks.json": {
-    "lines": 16,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/system-resilience/plan.json": {
-    "lines": 20,
-    "size": 642,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "plans/system-resilience/tasks.json": {
-    "lines": 16,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/final-audit-fix/plan.json": {
-    "lines": 14,
-    "size": 356,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "plans/final-audit-fix/tasks.json": {
-    "lines": 16,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/agent-srp-cleanup/plan.json": {
-    "lines": 14,
-    "size": 341,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "plans/agent-srp-cleanup/tasks.json": {
-    "lines": 16,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/feature-audit/plan.json": {
-    "lines": 14,
-    "size": 357,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "plans/feature-audit/tasks.json": {
-    "lines": 16,
-    "size": 278,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "plans/template-pipeline-library/context-compression-pipeline.json": {
-    "lines": 15,
-    "size": 338,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"narrator-agent\","
-  },
-  "plans/template-pipeline-library/conversation-to-pipeline.json": {
-    "lines": 22,
-    "size": 531,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"orchestrator-agent\","
-  },
-  "plans/template-pipeline-library/ethics-audit-pipeline.json": {
-    "lines": 14,
-    "size": 253,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"compliance-agent\","
-  },
-  "plans/template-pipeline-library/fallback-resolution-pipeline.json": {
-    "lines": 22,
-    "size": 542,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"automator-agent\","
-  },
-  "plans/template-pipeline-library/file-content-schema-audit-pipeline.json": {
-    "lines": 39,
-    "size": 882,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "plans/template-pipeline-library/routine-gap-detection-pipeline.json": {
-    "lines": 30,
-    "size": 749,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "plans/template-pipeline-library/plan-retrospective-pipeline.json": {
-    "lines": 15,
-    "size": 321,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json": {
-    "lines": 21,
-    "size": 721,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "plans/self-evolve/retrospective-insights.json": {
-    "lines": 13,
-    "size": 250,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "simulations/sim-agent-collab.yaml": {
-    "lines": 6,
-    "size": 183,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "simulations/onboarding/phase1-simulation.json": {
-    "lines": 12,
-    "size": 233,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "missions/onboarding.md": {
-    "lines": 6,
-    "size": 169,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "missions/04-fork-a-plan.md": {
-    "lines": 14,
-    "size": 315,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "docs/how-to-add-agent.md": {
-    "lines": 13,
-    "size": 414,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/design-principles.md": {
-    "lines": 13,
-    "size": 489,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "docs/example-workflows.md": {
-    "lines": 10,
-    "size": 283,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "docs/system-checklist.md": {
-    "lines": 7,
-    "size": 286,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/routines-index.md": {
-    "lines": 7,
-    "size": 367,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "docs/quick-pipeline-format.md": {
-    "lines": 14,
-    "size": 281,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "docs/system-resilience-checklist.md": {
-    "lines": 8,
-    "size": 380,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/context-coherence-loop.md": {
-    "lines": 9,
-    "size": 329,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "docs/README-QUICK-PIPELINE.md": {
-    "lines": 46,
-    "size": 2325,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/how-to-extend-pipeline.md": {
-    "lines": 6,
-    "size": 270,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "docs/system-index.json": {
-    "lines": 42,
-    "size": 1016,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "docs/how-to-assume-agent.md": {
-    "lines": 10,
-    "size": 378,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/api-schema.yaml": {
-    "lines": 16,
-    "size": 287,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "docs/reviewkeeper-report.md": {
-    "lines": 14,
-    "size": 551,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "docs/router-schema-reference.md": {
-    "lines": 26,
-    "size": 599,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "docs/PROJECT-TASKS.md": {
-    "lines": 61,
-    "size": 1365,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/memory-runner-docs.md": {
-    "lines": 56,
-    "size": 1211,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/memory-api.md": {
-    "lines": 58,
-    "size": 1129,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/cli-dashboard.md": {
-    "lines": 57,
-    "size": 1096,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/governance.md": {
-    "lines": 51,
-    "size": 1157,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/plan.md": {
-    "lines": 65,
-    "size": 1320,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/evaluation.md": {
-    "lines": 100,
-    "size": 3858,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/dev-diary.md": {
-    "lines": 516,
-    "size": 27631,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/intents.md": {
-    "lines": 49,
-    "size": 1069,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/task-dependencies.md": {
-    "lines": 61,
-    "size": 1208,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/forecast.md": {
-    "lines": 59,
-    "size": 1169,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/external-integration.md": {
-    "lines": 57,
-    "size": 1121,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/webhook-integration.md": {
-    "lines": 60,
-    "size": 1056,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/task-graph-doc.md": {
-    "lines": 54,
-    "size": 1024,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/forecast-history.md": {
-    "lines": 50,
-    "size": 975,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/roadmap.md": {
-    "lines": 75,
-    "size": 1730,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/roadmap-matrix.md": {
-    "lines": 53,
-    "size": 1747,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/navigation-index.json": {
-    "lines": 1755,
-    "size": 74082,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/folder-structure-proposal.md": {
-    "lines": 37,
-    "size": 1305,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "docs/README.md": {
-    "lines": 61,
-    "size": 1185,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/registered-template.json": {
-    "lines": 15,
-    "size": 386,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "docs/roadmap-agent-goal-proposals.json": {
-    "lines": 25,
-    "size": 549,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"docbot\","
-  },
-  "docs/feedback-summary-v17.md": {
-    "lines": 16,
-    "size": 620,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "docs/intent-discovery-v18.json": {
-    "lines": 30,
-    "size": 758,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"planner\","
-  },
-  "docs/intent-discovery-v19.json": {
-    "lines": 30,
-    "size": 725,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"planner\","
-  },
-  "docs/README-LLM.md": {
-    "lines": 11,
-    "size": 373,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "docs/README-HUMAN.md": {
-    "lines": 40,
-    "size": 817,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "docs/README-ONBOARDING.md": {
-    "lines": 8,
-    "size": 319,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "evaluation-results/bootstrap/eval.json": {
-    "lines": 9,
-    "size": 219,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/bootstrap-agent/inbox/sample-message.json": {
-    "lines": 5,
-    "size": 123,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/bootstrap-agent/inbox/message-001.json": {
-    "lines": 9,
-    "size": 180,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/bootstrap-agent/outbox/message-002.json": {
-    "lines": 9,
-    "size": 181,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/evolve-agent/inbox/message-001.json": {
-    "lines": 9,
-    "size": 177,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/evolve-agent/outbox/message-002.json": {
-    "lines": 9,
-    "size": 178,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/router-agent/inbox/message-001.json": {
-    "lines": 9,
-    "size": 177,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/router-agent/outbox/message-002.json": {
-    "lines": 9,
-    "size": 178,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/planner-agent/inbox/message-001.json": {
-    "lines": 9,
-    "size": 178,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/planner-agent/outbox/message-002.json": {
-    "lines": 9,
-    "size": 179,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/orchestrator-agent/inbox/message-001.json": {
-    "lines": 9,
-    "size": 183,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/orchestrator-agent/outbox/message-002.json": {
-    "lines": 9,
-    "size": 184,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/tasking-agent/inbox/message-001.json": {
-    "lines": 9,
-    "size": 178,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/tasking-agent/outbox/message-002.json": {
-    "lines": 9,
-    "size": 179,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/audit-agent/inbox/message-001.json": {
-    "lines": 9,
-    "size": 176,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/audit-agent/outbox/message-002.json": {
-    "lines": 9,
-    "size": 177,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/proposal-review-agent/inbox/message-001.json": {
-    "lines": 9,
-    "size": 186,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/proposal-review-agent/outbox/message-002.json": {
-    "lines": 9,
-    "size": 187,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/recovery-agent/inbox/message-001.json": {
-    "lines": 9,
-    "size": 179,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "agent-messages/recovery-agent/outbox/message-002.json": {
-    "lines": 9,
-    "size": 180,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "forecasts/forecast-docbot.json": {
-    "lines": 9,
-    "size": 176,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": "\"docbot\","
-  },
-  "forecasts/forecast-schemaenforcer.json": {
-    "lines": 10,
-    "size": 209,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"schemaenforcer\","
-  },
-  "forecasts/forecast-planner.json": {
-    "lines": 10,
-    "size": 206,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"planner\","
-  },
-  "forecasts/forecast-forecaster.json": {
-    "lines": 9,
-    "size": 187,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": "\"forecaster\","
-  },
-  "forecasts/forecast-feedbacker.json": {
-    "lines": 10,
-    "size": 182,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"feedbacker\","
-  },
-  "forecasts/bootstrap-agent/timeline-memory.json": {
-    "lines": 10,
-    "size": 206,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "intents/intent-types.json": {
-    "lines": 8,
-    "size": 115,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "intents/intent-evolve-system.json": {
-    "lines": 15,
-    "size": 361,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "intents/intent-scale-multi-agent-runtime.json": {
-    "lines": 16,
-    "size": 412,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": "\"agent\","
-  },
-  "diary/agent.json": {
-    "lines": 6,
-    "size": 83,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"bootstrap-agent\","
-  },
-  "diary/human.json": {
-    "lines": 10,
-    "size": 328,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "features/feature-map.json": {
-    "lines": 175,
-    "size": 4752,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "feedback-cards/bootstrap-agent-card.json": {
-    "lines": 6,
-    "size": 122,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"bootstrap-agent\","
-  },
-  "feedback-cards/evolve-agent-card.json": {
-    "lines": 6,
-    "size": 119,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"evolve-agent\","
-  },
-  "feedback-cards/router-agent-card.json": {
-    "lines": 6,
-    "size": 119,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"router-agent\","
-  },
-  "feedback-cards/planner-agent-card.json": {
-    "lines": 6,
-    "size": 120,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "feedback-cards/orchestrator-agent-card.json": {
-    "lines": 6,
-    "size": 125,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"orchestrator-agent\","
-  },
-  "feedback-cards/tasking-agent-card.json": {
-    "lines": 6,
-    "size": 120,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"tasking-agent\","
-  },
-  "feedback-cards/audit-agent-card.json": {
-    "lines": 6,
-    "size": 118,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"audit-agent\","
-  },
-  "feedback-cards/proposal-review-agent-card.json": {
-    "lines": 6,
-    "size": 128,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"proposal-review-agent\","
-  },
-  "feedback-cards/recovery-agent-card.json": {
-    "lines": 6,
-    "size": 121,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"recovery-agent\","
-  },
-  "governance/lifecycle-policy.json": {
-    "lines": 23,
-    "size": 469,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "governance/co-creation-protocol.json": {
-    "lines": 34,
-    "size": 601,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"agent\","
-  },
-  "governance/trust-orchestration.json": {
-    "lines": 22,
-    "size": 557,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "governance/audit-trail/-generated.json": {
-    "lines": 7,
-    "size": 156,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "governance/rules/rule-agents-cannot-edit-pipeline-map.json": {
-    "lines": 10,
-    "size": 221,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "sandbox/sandbox-controller.json": {
-    "lines": 10,
-    "size": 185,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "sandbox/sandbox-simulations.json": {
-    "lines": 12,
-    "size": 258,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "sandbox/simulations/dryrun-001.json": {
-    "lines": 19,
-    "size": 352,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "sandbox/simulations/planner-simulation-001.json": {
-    "lines": 57,
-    "size": 1855,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "sandbox/simulations/orchestrator-simulation-001.json": {
-    "lines": 12,
-    "size": 293,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"orchestrator-agent\","
-  },
-  "sandbox/simulations/retrospective-bootstrap.json": {
-    "lines": 18,
-    "size": 439,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "sandbox/simulations/debate-vote-001.json": {
-    "lines": 19,
-    "size": 398,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "sandbox/simulations/upgrade-pipeline-001.json": {
-    "lines": 26,
-    "size": 728,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": "\"meta-agent\","
-  },
-  "sandbox/simulations/planner-thread-aware-001.json": {
-    "lines": 22,
-    "size": 563,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "sandbox/simulations/memory-sync-corrida-001.json": {
-    "lines": 12,
-    "size": 267,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"router-agent\","
-  },
-  "sandbox/simulations/fork-propagation-001.json": {
-    "lines": 13,
-    "size": 325,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "sandbox/simulations/sandbox-replay-001.json": {
-    "lines": 8,
-    "size": 264,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"planner-agent\","
-  },
-  "goals/goal-threads.json": {
-    "lines": 40,
-    "size": 798,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "goals/goal-timeline.json": {
-    "lines": 34,
-    "size": 727,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "goals/goal-roadmap-boot.json": {
-    "lines": 6,
-    "size": 191,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "goals/goal-boot.json": {
-    "lines": 10,
-    "size": 187,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "goals/goal-schemaenforcer-51f700.json": {
-    "lines": 15,
-    "size": 356,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "goals/goal-docbot-6aff77.json": {
-    "lines": 15,
-    "size": 356,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "goals/goal-feedbacker-d6efda.json": {
-    "lines": 10,
-    "size": 189,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "goals/goal-forecaster-3adeea.json": {
-    "lines": 10,
-    "size": 180,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "goals/goal-reviewkeeper-e833d4.json": {
-    "lines": 15,
-    "size": 357,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/memory/project-review_structure-clarity.md": {
-    "lines": 3,
-    "size": 284,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/memory/framework-capabilities.md": {
-    "lines": 49,
-    "size": 1700,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/memory/design-architecture-updates.md": {
-    "lines": 12,
-    "size": 475,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/memory/project-mission-and-alignment.md": {
-    "lines": 53,
-    "size": 3147,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/tasks/tasks.json": {
-    "lines": 182,
-    "size": 6964,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/docs-restructure-checklist.md": {
-    "lines": 11,
-    "size": 381,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/expansion-checklist.md": {
-    "lines": 5,
-    "size": 295,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/advanced-checklist.md": {
-    "lines": 5,
-    "size": 254,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/runner-and-memory-checklist.md": {
-    "lines": 5,
-    "size": 249,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/memory-enhancement-checklist.md": {
-    "lines": 5,
-    "size": 227,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/cli-interface-checklist.md": {
-    "lines": 5,
-    "size": 188,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/planner-feedback-forecast-checklist.md": {
-    "lines": 6,
-    "size": 277,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/reviewkeeper-checklist.md": {
-    "lines": 7,
-    "size": 370,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/external-integration-checklist.md": {
-    "lines": 4,
-    "size": 217,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/integration-graph-checklist.md": {
-    "lines": 9,
-    "size": 310,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/structurekeeper-checklist.md": {
-    "lines": 9,
-    "size": 428,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/planner-checklist.md": {
-    "lines": 14,
-    "size": 482,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/schemaenforcer-checklist.md": {
-    "lines": 14,
-    "size": 517,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/docbot-checklist.md": {
-    "lines": 14,
-    "size": 477,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/feedbacker-checklist.md": {
-    "lines": 14,
-    "size": 497,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/checklists/forecaster-checklist.md": {
-    "lines": 14,
-    "size": 497,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/agents/docbot.md": {
-    "lines": 10,
-    "size": 352,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/agents/structurekeeper.md": {
-    "lines": 10,
-    "size": 327,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/routines/project-maintenance-sweep.yaml": {
-    "lines": 11,
-    "size": 332,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/routines/routine-feedbacker-weekly.yaml": {
-    "lines": 8,
-    "size": 192,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/routines/routine-forecaster-monthly.yaml": {
-    "lines": 7,
-    "size": 163,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/routines/routine-realtime-llm.yaml": {
-    "lines": 9,
-    "size": 279,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/routines/routine-recovery-bootstrap.yaml": {
-    "lines": 10,
-    "size": 308,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/execution/TASK_EXECUTION_DASHBOARD.md": {
-    "lines": 22,
-    "size": 682,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/execution/AGENT_LOG.md": {
-    "lines": 69,
-    "size": 4852,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/docbot.identity.md": {
-    "lines": 12,
-    "size": 454,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/structurekeeper.identity.md": {
-    "lines": 12,
-    "size": 415,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/coveragebot.identity.md": {
-    "lines": 10,
-    "size": 300,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/reviewkeeper.identity.md": {
-    "lines": 12,
-    "size": 499,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/llmrouter.identity.md": {
-    "lines": 11,
-    "size": 408,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/schemaenforcer.identity.md": {
-    "lines": 10,
-    "size": 334,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/feedbacker.identity.md": {
-    "lines": 5,
-    "size": 252,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/forecaster.identity.md": {
-    "lines": 10,
-    "size": 337,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/planner.identity.md": {
-    "lines": 10,
-    "size": 324,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/identities/realtime-llm-assistant.identity.md": {
-    "lines": 7,
-    "size": 371,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/pipelines/agent_task_pipeline.yaml": {
-    "lines": 10,
-    "size": 256,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "docbot"
-  },
-  "framework/pipelines/realtime-llm-pipeline.yaml": {
-    "lines": 8,
-    "size": 236,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "realtime-llm-assistant"
-  },
-  "framework/pipelines/planner-auto-pipeline.yaml": {
-    "lines": 7,
-    "size": 137,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "planner"
-  },
-  "framework/pipelines/schemaenforcer-auto-pipeline.yaml": {
-    "lines": 7,
-    "size": 151,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "schemaenforcer"
-  },
-  "framework/pipelines/docbot-auto-pipeline.yaml": {
-    "lines": 7,
-    "size": 135,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "docbot"
-  },
-  "framework/pipelines/feedbacker-auto-pipeline.yaml": {
-    "lines": 7,
-    "size": 143,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "feedbacker"
-  },
-  "framework/pipelines/forecaster-auto-pipeline.yaml": {
-    "lines": 7,
-    "size": 143,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "forecaster"
-  },
-  "framework/specs/collaborative-network-spec.md": {
-    "lines": 20,
-    "size": 554,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "framework/specs/clustering-spec.md": {
-    "lines": 19,
-    "size": 476,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/main.py": {
-    "lines": 13,
-    "size": 300,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/pipeline_runner.py": {
-    "lines": 9,
-    "size": 307,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/memory_service.py": {
-    "lines": 33,
-    "size": 871,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/agent_status.py": {
-    "lines": 16,
-    "size": 372,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/dashboard.py": {
-    "lines": 19,
-    "size": 431,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/task_editor.py": {
-    "lines": 32,
-    "size": 883,
-    "type": "agent",
-    "tags": [
-      "task_id",
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/agent_state_dashboard.py": {
-    "lines": 21,
-    "size": 495,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/agent_control.py": {
-    "lines": 38,
-    "size": 895,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/api_ingest.py": {
-    "lines": 25,
-    "size": 664,
-    "type": "agent",
-    "tags": [
-      "task_id",
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/task_streamer.py": {
-    "lines": 28,
-    "size": 707,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/webhook_server.py": {
-    "lines": 38,
-    "size": 1140,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "src/task_graph.py": {
-    "lines": 33,
-    "size": 903,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "config/llm-context-router.json": {
     "lines": 624,
     "size": 19441,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "config/schema-config.json": {
+    "lines": 24,
+    "size": 1141,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/forecast-task-docbot.json": {
     "lines": 12,
-    "size": 284,
-    "type": "agent",
+    "size": 346,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "feedbacks/feedback-planner.json": {
-    "lines": 9,
-    "size": 163,
-    "type": "agent",
+  "core/forecast-task-feedbacker.json": {
+    "lines": 13,
+    "size": 349,
+    "type": "json",
     "tags": [
-      "agent",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"planner\","
+    "linked_agent": "unknown"
   },
-  "feedbacks/feedback-schemaenforcer.json": {
-    "lines": 9,
-    "size": 177,
-    "type": "agent",
+  "core/forecast-task-forecaster.json": {
+    "lines": 12,
+    "size": 368,
+    "type": "json",
     "tags": [
-      "agent",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"schemaenforcer\","
+    "linked_agent": "unknown"
   },
-  "feedbacks/feedback-docbot.json": {
-    "lines": 9,
-    "size": 161,
-    "type": "agent",
+  "core/forecast-task-planner.json": {
+    "lines": 13,
+    "size": 387,
+    "type": "json",
     "tags": [
-      "agent",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"docbot\","
+    "linked_agent": "unknown"
   },
-  "feedbacks/feedback-feedbacker.json": {
-    "lines": 9,
-    "size": 169,
-    "type": "agent",
+  "core/forecast-task-schemaenforcer.json": {
+    "lines": 13,
+    "size": 402,
+    "type": "json",
     "tags": [
-      "agent",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"feedbacker\","
-  },
-  "feedbacks/feedback-forecaster.json": {
-    "lines": 9,
-    "size": 169,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": "\"forecaster\","
-  },
-  "deployment/deploy-config.json": {
-    "lines": 55,
-    "size": 954,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "deployment/cluster-zones.json": {
-    "lines": 62,
-    "size": 1099,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/memory_bank.json": {
-    "lines": 305,
-    "size": 7759,
-    "type": "agent",
-    "tags": [
-      "task_id",
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": "\"agent\","
+    "linked_agent": "unknown"
   },
   "core/memory-bridge.json": {
     "lines": 22,
     "size": 370,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": "\"agent\","
+    "linked_agent": "unknown"
   },
-  "core/task-agent-check-planner.json": {
-    "lines": 60,
-    "size": 1124,
-    "type": "agent",
+  "core/memory_bank.json": {
+    "lines": 305,
+    "size": 7759,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"agent\""
-  },
-  "core/task-agent-check-schemaenforcer.json": {
-    "lines": 60,
-    "size": 1152,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": "\"agent\""
+    "linked_agent": "unknown"
   },
   "core/task-agent-check-docbot.json": {
-    "lines": 60,
-    "size": 1120,
-    "type": "agent",
+    "lines": 14,
+    "size": 320,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"agent\""
+    "linked_agent": "unknown"
   },
   "core/task-agent-check-feedbacker.json": {
-    "lines": 60,
-    "size": 1136,
-    "type": "agent",
+    "lines": 14,
+    "size": 336,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"agent\""
+    "linked_agent": "unknown"
   },
   "core/task-agent-check-forecaster.json": {
-    "lines": 60,
-    "size": 1136,
-    "type": "agent",
+    "lines": 14,
+    "size": 336,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"agent\""
+    "linked_agent": "unknown"
   },
-  "core/forecast-task-docbot.json": {
-    "lines": 56,
-    "size": 1112,
-    "type": "agent",
+  "core/task-agent-check-planner.json": {
+    "lines": 14,
+    "size": 324,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/forecast-task-schemaenforcer.json": {
-    "lines": 59,
-    "size": 1202,
-    "type": "agent",
+  "core/task-agent-check-schemaenforcer.json": {
+    "lines": 14,
+    "size": 352,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
-  },
-  "core/forecast-task-planner.json": {
-    "lines": 55,
-    "size": 1117,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/forecast-task-forecaster.json": {
-    "lines": 56,
-    "size": 1131,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/forecast-task-feedbacker.json": {
-    "lines": 57,
-    "size": 1118,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-task-tbd.json": {
-    "lines": 59,
-    "size": 989,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": "\"agent\","
-  },
-  "core/task-seed-docbot-phase-task.json": {
-    "lines": 59,
-    "size": 1108,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-seed-planner-phase-task.json": {
-    "lines": 59,
-    "size": 1112,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-seed-schemaenforcer-phase-task.json": {
-    "lines": 59,
-    "size": 1140,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-seed-feedbacker-phase-task.json": {
-    "lines": 59,
-    "size": 1124,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-seed-forecaster-phase-task.json": {
-    "lines": 59,
-    "size": 1124,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-runtime-scale-planner.json": {
-    "lines": 59,
-    "size": 1104,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-runtime-scale-docbot.json": {
-    "lines": 59,
-    "size": 1102,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-runtime-scale-schemaenforcer.json": {
-    "lines": 59,
-    "size": 1118,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-runtime-scale-feedbacker.json": {
-    "lines": 59,
-    "size": 1110,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-runtime-scale-forecaster.json": {
-    "lines": 59,
-    "size": 1110,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-simulate-zone-relay.json": {
-    "lines": 60,
-    "size": 1146,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-full-system-audit.json": {
-    "lines": 50,
-    "size": 986,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "core/task-agent-driven-evolution.json": {
-    "lines": 60,
-    "size": 1208,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/task-bootstrap-and-memory-loading.json": {
     "lines": 14,
-    "size": 423,
-    "type": "agent",
+    "size": 408,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "core/task-agent-identity-review.json": {
     "lines": 14,
     "size": 415,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/task-global-resilience-audit.json": {
-    "lines": 19,
-    "size": 663,
-    "type": "agent",
+  "core/task-bootstrap-and-memory-loading.json": {
+    "lines": 14,
+    "size": 423,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "core/task-feature-ref-linking.json": {
     "lines": 14,
     "size": 450,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "core/task-full-system-audit.json": {
+    "lines": 14,
+    "size": 357,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/task-global-resilience-audit.json": {
+    "lines": 14,
+    "size": 495,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "core/task-ongoing-validation-cycle.json": {
     "lines": 14,
     "size": 422,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "core/task-restructure-root-layout.json": {
     "lines": 14,
     "size": 422,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/operational/routine-metadata.json": {
-    "lines": 52,
-    "size": 955,
-    "type": "agent",
+  "core/task-runtime-scale-docbot.json": {
+    "lines": 13,
+    "size": 302,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/operational/routine-gap-detection.json": {
-    "lines": 48,
-    "size": 971,
-    "type": "agent",
+  "core/task-runtime-scale-feedbacker.json": {
+    "lines": 13,
+    "size": 310,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/operational/self-review-hook.json": {
-    "lines": 55,
-    "size": 1051,
-    "type": "agent",
+  "core/task-runtime-scale-forecaster.json": {
+    "lines": 13,
+    "size": 310,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "core/task-runtime-scale-planner.json": {
+    "lines": 13,
+    "size": 304,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/task-runtime-scale-schemaenforcer.json": {
+    "lines": 13,
+    "size": 318,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/task-seed-docbot-phase-task.json": {
+    "lines": 13,
+    "size": 308,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/task-seed-feedbacker-phase-task.json": {
+    "lines": 13,
+    "size": 324,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/task-seed-forecaster-phase-task.json": {
+    "lines": 13,
+    "size": 324,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/task-seed-planner-phase-task.json": {
+    "lines": 13,
+    "size": 312,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/task-seed-schemaenforcer-phase-task.json": {
+    "lines": 13,
+    "size": 340,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/task-simulate-zone-relay.json": {
+    "lines": 14,
+    "size": 346,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/task-task-tbd.json": {
+    "lines": 13,
+    "size": 189,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/checklists/docbot-snapshot-checklist.yaml": {
+    "lines": 17,
+    "size": 664,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/checklists/user-live-session-checklist.yaml": {
+    "lines": 8,
+    "size": 356,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/conversational/debate.json": {
+    "lines": 14,
+    "size": 319,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/evaluation/calculate-agent-evolution-score.json": {
+    "lines": 16,
+    "size": 503,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/evaluation/plan-retrospective.json": {
+    "lines": 10,
+    "size": 279,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/evaluation/sandbox-replay.json": {
+    "lines": 15,
+    "size": 434,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/governance/enforce-resilience-logic.json": {
+    "lines": 10,
+    "size": 330,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/governance/validate-upgrade-proposals.json": {
+    "lines": 10,
+    "size": 333,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/identities/user.yaml": {
+    "lines": 17,
+    "size": 475,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/operational/feature-sync-and-memory-audit.json": {
+    "lines": 10,
+    "size": 414,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/operational/finalize-project-integrity.json": {
+    "lines": 164,
+    "size": 7693,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/operational/lifecycle.json": {
+    "lines": 3,
+    "size": 31,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "core/operational/llm-session-router.json": {
-    "lines": 56,
-    "size": 1110,
-    "type": "agent",
+    "lines": 10,
+    "size": 310,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/operational/system-evolve-cycle.json": {
-    "lines": 55,
-    "size": 1069,
-    "type": "agent",
+  "core/operational/pattern-audit.json": {
+    "lines": 15,
+    "size": 444,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/operational/self-introspection.json": {
-    "lines": 55,
-    "size": 1157,
-    "type": "agent",
+  "core/operational/regenerate-system-snapshot.json": {
+    "lines": 14,
+    "size": 717,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "core/operational/routine-gap-detection.json": {
+    "lines": 10,
+    "size": 309,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/operational/routine-manifest.json": {
+    "lines": 233,
+    "size": 7591,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/operational/routine-metadata.json": {
+    "lines": 6,
+    "size": 155,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "core/operational/self-healing-memory-sync.json": {
     "lines": 55,
     "size": 1120,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/operational/validate-project-structure.json": {
-    "lines": 52,
-    "size": 1089,
-    "type": "agent",
+  "core/operational/self-introspection.json": {
+    "lines": 12,
+    "size": 390,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/operational/routine-manifest.json": {
-    "lines": 269,
-    "size": 8220,
-    "type": "agent",
+  "core/operational/self-review-hook.json": {
+    "lines": 9,
+    "size": 251,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
-  },
-  "core/operational/lifecycle.json": {
-    "lines": 49,
-    "size": 831,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/operational/finalize-project-integrity.json": {
-    "lines": 192,
-    "size": 8198,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/operational/validate-canonical-models.json": {
-    "lines": 55,
-    "size": 1171,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/operational/pattern-audit.json": {
-    "lines": 57,
-    "size": 1181,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/operational/feature-sync-and-memory-audit.json": {
-    "lines": 52,
-    "size": 1147,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "core/operational/sync-memory-feature-map.json": {
-    "lines": 53,
-    "size": 1121,
-    "type": "agent",
+    "lines": 11,
+    "size": 387,
+    "type": "json",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "core/operational/system-evolve-cycle.json": {
+    "lines": 9,
+    "size": 269,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/operational/validate-canonical-models.json": {
+    "lines": 11,
+    "size": 405,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "core/operational/validate-full-framework-state.json": {
-    "lines": 54,
-    "size": 1171,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/evaluation/plan-retrospective.json": {
-    "lines": 54,
-    "size": 1048,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/evaluation/sandbox-replay.json": {
-    "lines": 57,
-    "size": 1165,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/evaluation/calculate-agent-evolution-score.json": {
-    "lines": 56,
-    "size": 1202,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/conversational/debate.json": {
-    "lines": 56,
-    "size": 1049,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/governance/validate-upgrade-proposals.json": {
-    "lines": 56,
-    "size": 1133,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/governance/enforce-resilience-logic.json": {
-    "lines": 52,
-    "size": 1061,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-simulate-onboarding-sequence.json": {
-    "lines": 14,
-    "size": 436,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-continuous-evolution-cycle.json": {
-    "lines": 15,
-    "size": 409,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-agent-goal-generation.json": {
-    "lines": 14,
-    "size": 407,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-docbot-onboarding-doc.json": {
     "lines": 12,
-    "size": 337,
-    "type": "agent",
+    "size": 440,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/tasks/task-planner-task-grouping.json": {
-    "lines": 12,
-    "size": 337,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-schema-version-lock.json": {
-    "lines": 12,
-    "size": 304,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-feedbacker-monthly-summary.json": {
-    "lines": 12,
-    "size": 307,
-    "type": "agent",
+  "core/operational/validate-project-structure.json": {
+    "lines": 10,
+    "size": 358,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/tasks/task-llm-routing-runtime.json": {
-    "lines": 13,
-    "size": 340,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-discovery-intent-cycle.json": {
-    "lines": 13,
-    "size": 359,
-    "type": "agent",
+  "core/operational/weekly-resilience-audit.json": {
+    "lines": 34,
+    "size": 728,
+    "type": "json",
     "tags": [
-      "agent"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "core/tasks/task-planner-timeline-cycles.json": {
-    "lines": 13,
-    "size": 323,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-docbot-version-changelog.json": {
-    "lines": 13,
-    "size": 316,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-schema-runtime-validation.json": {
-    "lines": 13,
-    "size": 313,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-llm-context-suggestions.json": {
-    "lines": 13,
-    "size": 325,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-feedbacker-anomaly-detection.json": {
-    "lines": 13,
-    "size": 309,
-    "type": "agent",
+  "core/routines/full-system-stabilization.yaml": {
+    "lines": 29,
+    "size": 1009,
+    "type": "yaml",
     "tags": [
-      "agent"
+      "yaml"
     ],
-    "linked_agent": null
-  },
-  "core/tasks/task-planner-milestone-calendar.json": {
-    "lines": 13,
-    "size": 320,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-docbot-summary-cards.json": {
-    "lines": 13,
-    "size": 295,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-schema-diff-viewer.json": {
-    "lines": 13,
-    "size": 306,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-llm-memory-tracker.json": {
-    "lines": 13,
-    "size": 312,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-feedbacker-trend-analysis.json": {
-    "lines": 13,
-    "size": 300,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-rebuild-core-structure.json": {
-    "lines": 14,
-    "size": 392,
-    "type": "task",
-    "tags": [
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-trigger-user-checklist.json": {
-    "lines": 13,
-    "size": 356,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-feedback-loop-from-user.json": {
-    "lines": 13,
-    "size": 338,
-    "type": "task",
-    "tags": [
-      "routine"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-agent-alignment-scan.json": {
-    "lines": 13,
-    "size": 342,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-user-goal-setting.json": {
-    "lines": 13,
-    "size": 325,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-log-replay-for-improvement.json": {
-    "lines": 13,
-    "size": 354,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-snapshot-live-user-release.json": {
-    "lines": 13,
-    "size": 371,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-refactor-root-structure.json": {
-    "lines": 13,
-    "size": 369,
-    "type": "task",
-    "tags": [],
-    "linked_agent": null
-  },
-  "core/tasks/task-generate-file-router.json": {
-    "lines": 13,
-    "size": 345,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-update-checklist-doc-links.json": {
-    "lines": 13,
-    "size": 348,
-    "type": "task",
-    "tags": [
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-audit-v21-before-v22.json": {
-    "lines": 14,
-    "size": 377,
-    "type": "task",
-    "tags": [
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/tasks/task-create-pipeline-folder.json": {
-    "lines": 14,
-    "size": 355,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": "\"agent\","
-  },
-  "core/tasks/task-regenerate-file-router.json": {
-    "lines": 13,
-    "size": 329,
-    "type": "agent",
-    "tags": [
-      "agent"
-    ],
-    "linked_agent": null
-  },
-  "core/identities/user.yaml": {
-    "lines": 16,
-    "size": 428,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "routine",
-      "checklist"
-    ],
-    "linked_agent": null
-  },
-  "core/checklists/user-live-session-checklist.yaml": {
-    "lines": 8,
-    "size": 346,
-    "type": "agent",
-    "tags": [
-      "agent",
-      "checklist"
-    ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "core/routines/live-deployment-feedback-cycle.yaml": {
     "lines": 8,
     "size": 356,
-    "type": "agent",
+    "type": "yaml",
     "tags": [
-      "agent"
+      "yaml"
     ],
-    "linked_agent": "feedbacker"
+    "linked_agent": "unknown"
   },
-  "runtime/shared_memory/messages.json": {
+  "core/routines/root-collab-validation.yaml": {
+    "lines": 28,
+    "size": 922,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-agent-alignment-scan.json": {
+    "lines": 13,
+    "size": 342,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-agent-goal-generation.json": {
+    "lines": 14,
+    "size": 407,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-audit-v21-before-v22.json": {
+    "lines": 14,
+    "size": 377,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-begin-v23-cycle.json": {
+    "lines": 13,
+    "size": 301,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-continuous-evolution-cycle.json": {
+    "lines": 15,
+    "size": 409,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-create-pipeline-folder.json": {
+    "lines": 14,
+    "size": 355,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-discovery-intent-cycle.json": {
+    "lines": 13,
+    "size": 359,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-docbot-onboarding-doc.json": {
+    "lines": 12,
+    "size": 337,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-docbot-summary-cards.json": {
+    "lines": 13,
+    "size": 295,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-docbot-version-changelog.json": {
+    "lines": 13,
+    "size": 316,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-document-folder-structure-guidelines.json": {
+    "lines": 13,
+    "size": 471,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-enhance-file-router-metadata.json": {
+    "lines": 13,
+    "size": 474,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-expand-longterm-agents.json": {
+    "lines": 13,
+    "size": 360,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-feedback-loop-from-user.json": {
+    "lines": 13,
+    "size": 338,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-feedbacker-anomaly-detection.json": {
+    "lines": 13,
+    "size": 309,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-feedbacker-monthly-summary.json": {
+    "lines": 12,
+    "size": 307,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-feedbacker-trend-analysis.json": {
+    "lines": 13,
+    "size": 300,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-fix-missing-core-agents.json": {
+    "lines": 13,
+    "size": 306,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-framework-live-deployment-mode.json": {
+    "lines": 14,
+    "size": 376,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-generate-file-router.json": {
+    "lines": 13,
+    "size": 345,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-implement-cross-reference-system.json": {
+    "lines": 13,
+    "size": 468,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-llm-context-suggestions.json": {
+    "lines": 13,
+    "size": 325,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-llm-memory-tracker.json": {
+    "lines": 13,
+    "size": 312,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-llm-routing-runtime.json": {
+    "lines": 13,
+    "size": 340,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-log-replay-for-improvement.json": {
+    "lines": 13,
+    "size": 354,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-planner-milestone-calendar.json": {
+    "lines": 13,
+    "size": 320,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-planner-task-grouping.json": {
+    "lines": 12,
+    "size": 337,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-planner-timeline-cycles.json": {
+    "lines": 13,
+    "size": 323,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-rebuild-core-structure.json": {
+    "lines": 14,
+    "size": 392,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-refactor-root-structure.json": {
+    "lines": 13,
+    "size": 369,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-regenerate-file-router.json": {
+    "lines": 13,
+    "size": 329,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-review-checklist-coverage.json": {
+    "lines": 20,
+    "size": 476,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-runtime-discovery-metadata-update.json": {
+    "lines": 13,
+    "size": 514,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-schema-diff-viewer.json": {
+    "lines": 13,
+    "size": 306,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-schema-runtime-validation.json": {
+    "lines": 13,
+    "size": 313,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-schema-version-lock.json": {
+    "lines": 12,
+    "size": 304,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-setup-metadata-validation-pipeline.json": {
+    "lines": 13,
+    "size": 497,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-simulate-onboarding-sequence.json": {
+    "lines": 14,
+    "size": 436,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-snapshot-live-user-release.json": {
+    "lines": 13,
+    "size": 371,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-task-tbd.json": {
+    "lines": 13,
+    "size": 209,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-trigger-user-checklist.json": {
+    "lines": 20,
+    "size": 494,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-update-checklist-doc-links.json": {
+    "lines": 20,
+    "size": 486,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "core/tasks/task-user-goal-setting.json": {
+    "lines": 13,
+    "size": 325,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "deployment/cluster-zones.json": {
+    "lines": 16,
+    "size": 299,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "deployment/deploy-config.json": {
+    "lines": 11,
+    "size": 187,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/AGENT_MODEL_INDEX.md": {
+    "lines": 14,
+    "size": 347,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/api-schema.yaml": {
+    "lines": 12,
+    "size": 183,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/asset-map.md": {
+    "lines": 16,
+    "size": 256,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/cli-dashboard.md": {
+    "lines": 20,
+    "size": 446,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/context-coherence-loop.md": {
+    "lines": 9,
+    "size": 248,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/design-principles.md": {
+    "lines": 9,
+    "size": 210,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/dev-diary.md": {
+    "lines": 555,
+    "size": 29322,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/evaluation.md": {
+    "lines": 69,
+    "size": 3313,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/example-workflows.md": {
+    "lines": 16,
+    "size": 374,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/external-integration.md": {
+    "lines": 21,
+    "size": 480,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/feedback-summary-v17.md": {
+    "lines": 22,
+    "size": 714,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/final_comprehensive_project_summary.md": {
+    "lines": 39,
+    "size": 1074,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/folder-structure-proposal.md": {
+    "lines": 43,
+    "size": 1404,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/forecast-history.md": {
+    "lines": 11,
+    "size": 296,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/forecast.md": {
+    "lines": 19,
+    "size": 451,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/governance.md": {
+    "lines": 22,
+    "size": 608,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/how-to-add-agent.md": {
+    "lines": 20,
+    "size": 560,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/how-to-assume-agent.md": {
+    "lines": 16,
+    "size": 471,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/how-to-extend-pipeline.md": {
+    "lines": 6,
+    "size": 166,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/intent-discovery-v18.json": {
+    "lines": 30,
+    "size": 758,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/intent-discovery-v19.json": {
+    "lines": 30,
+    "size": 725,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/intents.md": {
+    "lines": 19,
+    "size": 512,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/memory-api.md": {
+    "lines": 22,
+    "size": 476,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/memory-runner-docs.md": {
+    "lines": 21,
+    "size": 598,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/navigation-index.json": {
+    "lines": 1755,
+    "size": 74052,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/ONBOARDING.md": {
+    "lines": 81,
+    "size": 2162,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/plan.md": {
+    "lines": 25,
+    "size": 598,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/PROJECT-TASKS.md": {
+    "lines": 24,
+    "size": 716,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/quick-pipeline-format.md": {
+    "lines": 18,
+    "size": 323,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/README-HUMAN.md": {
+    "lines": 46,
+    "size": 903,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/README-LLM.md": {
+    "lines": 13,
+    "size": 353,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/README-ONBOARDING.md": {
     "lines": 68,
-    "size": 1228,
-    "type": "agent",
+    "size": 1727,
+    "type": "md",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "md"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "runtime/shared_memory/subscriptions.json": {
-    "lines": 63,
-    "size": 1021,
-    "type": "agent",
+  "docs/README-QUICK-PIPELINE.md": {
+    "lines": 54,
+    "size": 2471,
+    "type": "md",
     "tags": [
-      "agent",
-      "routine",
-      "checklist"
+      "md"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
-  "meta/intent.json": {
-    "lines": 5,
+  "docs/README.md": {
+    "lines": 55,
+    "size": 2553,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/registered-template.json": {
+    "lines": 15,
+    "size": 368,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/retrospective-v0.23.0.md": {
+    "lines": 258,
+    "size": 6406,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/reviewkeeper-report.md": {
+    "lines": 20,
+    "size": 644,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/roadmap-agent-goal-proposals.json": {
+    "lines": 25,
+    "size": 549,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/roadmap-matrix.md": {
+    "lines": 17,
+    "size": 1100,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/roadmap-patch-trust-filter.json": {
+    "lines": 13,
+    "size": 338,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/roadmap-v0.24.0.md": {
+    "lines": 34,
+    "size": 1209,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/roadmap-v0.25.1.md": {
+    "lines": 29,
+    "size": 770,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/roadmap-v0.26.0-tasks.json": {
+    "lines": 57,
+    "size": 2035,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/roadmap-v0.29.0-tasks.json": {
+    "lines": 42,
+    "size": 1436,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/roadmap.md": {
+    "lines": 21,
+    "size": 806,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/router-schema-reference.md": {
+    "lines": 32,
+    "size": 696,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/routines-index.md": {
+    "lines": 15,
+    "size": 507,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/system-checklist.md": {
+    "lines": 14,
+    "size": 452,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/system-index.json": {
+    "lines": 42,
+    "size": 1016,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/system-resilience-checklist.md": {
+    "lines": 15,
+    "size": 532,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/task-dependencies.md": {
+    "lines": 22,
+    "size": 530,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/task-graph-doc.md": {
+    "lines": 14,
+    "size": 312,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/webhook-integration.md": {
+    "lines": 20,
+    "size": 349,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/agents/docs-agent.md": {
+    "lines": 88,
+    "size": 2097,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/agents/frontend-agent.md": {
+    "lines": 26,
+    "size": 233,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/diagrams/snapshot-introspection-diagram.puml": {
+    "lines": 20,
+    "size": 689,
+    "type": "puml",
+    "tags": [
+      "puml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "docs/generated/phase12-market-token-dashboard.json": {
+    "lines": 30,
+    "size": 477,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "features/feature-map.json": {
+    "lines": 175,
+    "size": 4752,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "feedbacks/feedback-docbot.json": {
+    "lines": 9,
+    "size": 161,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "feedbacks/feedback-feedbacker.json": {
+    "lines": 9,
+    "size": 169,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "feedbacks/feedback-forecaster.json": {
+    "lines": 9,
+    "size": 169,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "feedbacks/feedback-planner.json": {
+    "lines": 9,
+    "size": 163,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "feedbacks/feedback-schemaenforcer.json": {
+    "lines": 9,
+    "size": 177,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "forecasts/forecast-docbot.json": {
+    "lines": 9,
+    "size": 176,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "forecasts/forecast-feedbacker.json": {
+    "lines": 10,
+    "size": 182,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "forecasts/forecast-forecaster.json": {
+    "lines": 9,
+    "size": 187,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "forecasts/forecast-planner.json": {
+    "lines": 10,
     "size": 206,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent",
-      "routine"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
+  },
+  "forecasts/forecast-schemaenforcer.json": {
+    "lines": 10,
+    "size": 209,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "forecasts/bootstrap-agent/timeline-memory.json": {
+    "lines": 6,
+    "size": 92,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/agents/docbot.md": {
+    "lines": 12,
+    "size": 328,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/agents/structurekeeper.md": {
+    "lines": 11,
+    "size": 311,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/advanced-checklist.md": {
+    "lines": 11,
+    "size": 346,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/cli-interface-checklist.md": {
+    "lines": 11,
+    "size": 285,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/docbot-checklist.md": {
+    "lines": 15,
+    "size": 462,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/docs-restructure-checklist.md": {
+    "lines": 12,
+    "size": 376,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/expansion-checklist.md": {
+    "lines": 11,
+    "size": 388,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/external-integration-checklist.md": {
+    "lines": 10,
+    "size": 321,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/feedbacker-checklist.md": {
+    "lines": 15,
+    "size": 486,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/forecaster-checklist.md": {
+    "lines": 15,
+    "size": 486,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/integration-graph-checklist.md": {
+    "lines": 10,
+    "size": 306,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/logger-checklist.json": {
+    "lines": 21,
+    "size": 476,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/memory-enhancement-checklist.md": {
+    "lines": 11,
+    "size": 329,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/orchestrator-checklist.json": {
+    "lines": 25,
+    "size": 540,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/planner-checklist.md": {
+    "lines": 36,
+    "size": 2497,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/planner-feedback-forecast-checklist.md": {
+    "lines": 12,
+    "size": 386,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/release-packaging-checklist.json": {
+    "lines": 17,
+    "size": 671,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/reviewkeeper-checklist.md": {
+    "lines": 13,
+    "size": 466,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/router-checklist.json": {
+    "lines": 21,
+    "size": 453,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/runner-and-memory-checklist.md": {
+    "lines": 11,
+    "size": 350,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/schemaenforcer-checklist.md": {
+    "lines": 15,
+    "size": 510,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/checklists/structurekeeper-checklist.md": {
+    "lines": 15,
+    "size": 527,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/execution/AGENT_LOG.md": {
+    "lines": 75,
+    "size": 4935,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/execution/TASK_EXECUTION_DASHBOARD.md": {
+    "lines": 23,
+    "size": 675,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/coveragebot.identity.md": {
+    "lines": 11,
+    "size": 289,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/docbot.identity.md": {
+    "lines": 14,
+    "size": 439,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/feedbacker.identity.md": {
+    "lines": 11,
+    "size": 345,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/forecaster.identity.md": {
+    "lines": 11,
+    "size": 325,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/llmrouter.identity.md": {
+    "lines": 12,
+    "size": 332,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/planner.identity.md": {
+    "lines": 11,
+    "size": 309,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/realtime-llm-assistant.identity.md": {
+    "lines": 30,
+    "size": 820,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/reviewkeeper.identity.md": {
+    "lines": 14,
+    "size": 490,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/schemaenforcer.identity.md": {
+    "lines": 11,
+    "size": 326,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/identities/structurekeeper.identity.md": {
+    "lines": 13,
+    "size": 408,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/logging/log-manager.json": {
+    "lines": 17,
+    "size": 483,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/memory/design-architecture-updates.md": {
+    "lines": 18,
+    "size": 576,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/memory/framework-capabilities.md": {
+    "lines": 55,
+    "size": 1796,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/memory/project-mission-and-alignment.md": {
+    "lines": 59,
+    "size": 3250,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/memory/project-review_structure-clarity.md": {
+    "lines": 9,
+    "size": 390,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/agent_task_pipeline.yaml": {
+    "lines": 25,
+    "size": 644,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/docbot-auto-pipeline.yaml": {
+    "lines": 8,
+    "size": 182,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/feedbacker-auto-pipeline.yaml": {
+    "lines": 8,
+    "size": 190,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/forecaster-auto-pipeline.yaml": {
+    "lines": 8,
+    "size": 190,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/market-bidding-cycle.json": {
+    "lines": 21,
+    "size": 463,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/pipeline-release-vNEXT.json": {
+    "lines": 60,
+    "size": 1807,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/planner-auto-pipeline.yaml": {
+    "lines": 8,
+    "size": 184,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/realtime-llm-pipeline.yaml": {
+    "lines": 15,
+    "size": 360,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/recovery-phase-0-context-schema-routing.yaml": {
+    "lines": 25,
+    "size": 957,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/recovery-phase-1-schema-patching-cleanup-execution.yaml": {
+    "lines": 25,
+    "size": 852,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/recovery-phase-2-validation-export-indexing.yaml": {
+    "lines": 24,
+    "size": 850,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/release-diff-pipeline.yaml": {
+    "lines": 23,
+    "size": 776,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/pipelines/schemaenforcer-auto-pipeline.yaml": {
+    "lines": 8,
+    "size": 198,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/release-diff-engine/pipeline-release-diff-aware.json": {
+    "lines": 17,
+    "size": 614,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/release-diff-engine/tasks.json": {
+    "lines": 20,
+    "size": 654,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/routines/project-maintenance-sweep.yaml": {
+    "lines": 12,
+    "size": 379,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/routines/routine-feedbacker-weekly.yaml": {
+    "lines": 9,
+    "size": 239,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/routines/routine-forecaster-monthly.yaml": {
+    "lines": 8,
+    "size": 210,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/routines/routine-realtime-llm.yaml": {
+    "lines": 10,
+    "size": 326,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/routines/routine-recovery-bootstrap.yaml": {
+    "lines": 11,
+    "size": 355,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/routing/dynamic-agent-routing-config.json": {
+    "lines": 59,
+    "size": 1143,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/specs/clustering-spec.md": {
+    "lines": 20,
+    "size": 460,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/specs/collaborative-network-spec.md": {
+    "lines": 26,
+    "size": 636,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "framework/tasks/tasks.json": {
+    "lines": 182,
+    "size": 6964,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "goals/goal-boot.json": {
+    "lines": 10,
+    "size": 187,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "goals/goal-docbot-6aff77.json": {
+    "lines": 10,
+    "size": 187,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "goals/goal-feedbacker-d6efda.json": {
+    "lines": 10,
+    "size": 189,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "goals/goal-forecaster-3adeea.json": {
+    "lines": 10,
+    "size": 180,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "goals/goal-reviewkeeper-e833d4.json": {
+    "lines": 10,
+    "size": 188,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "goals/goal-roadmap-boot.json": {
+    "lines": 6,
+    "size": 191,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "goals/goal-schemaenforcer-51f700.json": {
+    "lines": 10,
+    "size": 187,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "goals/goal-threads.json": {
+    "lines": 40,
+    "size": 768,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "goals/goal-timeline.json": {
+    "lines": 34,
+    "size": 677,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "governance/co-creation-protocol.json": {
+    "lines": 34,
+    "size": 601,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "governance/lifecycle-policy.json": {
+    "lines": 5,
+    "size": 175,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "governance/trust-orchestration.json": {
+    "lines": 6,
+    "size": 180,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "governance/audit-trail/2025-04-06-generated.json": {
+    "lines": 3,
+    "size": 52,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "governance/policies/marketplace-governance-v1.json": {
+    "lines": 12,
+    "size": 463,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "governance/policies/swarm-governance-v1.json": {
+    "lines": 16,
+    "size": 483,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "governance/policies/token-regeneration-v1.json": {
+    "lines": 18,
+    "size": 395,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "governance/rules/rule-agents-cannot-edit-pipeline-map.json": {
+    "lines": 6,
+    "size": 178,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "intents/intent-evolve-system.json": {
+    "lines": 15,
+    "size": 361,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "intents/intent-scale-multi-agent-runtime.json": {
+    "lines": 16,
+    "size": 412,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "intents/intent-types.json": {
+    "lines": 8,
+    "size": 115,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/index-context.md": {
+    "lines": 22,
+    "size": 546,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/index.json": {
+    "lines": 345,
+    "size": 13904,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/memory-metadata.json": {
+    "lines": 27,
+    "size": 509,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/pattern-memory.json": {
+    "lines": 30,
+    "size": 788,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/audit-tasks/agent-group-improvement-tasks.json": {
+    "lines": 163,
+    "size": 6153,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/audit-tasks/agent-identity-review.json": {
+    "lines": 144,
+    "size": 4929,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/audit-tasks/follow-up-improvements.json": {
+    "lines": 72,
+    "size": 2548,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/audit-tasks/full-project-audit.json": {
+    "lines": 20,
+    "size": 740,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/audit-tasks/full-resilience-audit.json": {
+    "lines": 84,
+    "size": 3882,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/evolving/pending-tasks.json": {
+    "lines": 1059,
+    "size": 41457,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/fixed/phase-10-temporal.json": {
+    "lines": 16,
+    "size": 612,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/fixed/phase-8-self-evolving.json": {
+    "lines": 16,
+    "size": 619,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/fixed/phase-9-federation.json": {
+    "lines": 16,
+    "size": 619,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/improvements-from-agent-review-batch1.json": {
+    "lines": 80,
+    "size": 2142,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/improvements-from-agent-review-batch2.json": {
+    "lines": 80,
+    "size": 2342,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/improvements-from-agent-review-batch3.json": {
+    "lines": 80,
+    "size": 2162,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/improvements-from-agent-review-batch4.json": {
+    "lines": 54,
+    "size": 1480,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/improvements-from-consensus-cascade-001.json": {
+    "lines": 41,
+    "size": 1233,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/improvements-from-phase13-reflection-race-001.json": {
+    "lines": 28,
+    "size": 836,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/improvements-from-strategy-adaptation-001.json": {
+    "lines": 41,
+    "size": 1221,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/recovery-phase-0-tasks.json": {
+    "lines": 106,
+    "size": 2478,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/system-review-generated-tasks.json": {
+    "lines": 197,
+    "size": 7537,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "memory-bank/tasks/system-self-review-missing-and-resilience-todos.json": {
+    "lines": 54,
+    "size": 1712,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   },
   "meta/active-context.json": {
     "lines": 14,
     "size": 327,
-    "type": "agent",
+    "type": "json",
     "tags": [
-      "agent",
-      "checklist"
+      "json"
     ],
-    "linked_agent": null
+    "linked_agent": "unknown"
   },
   "meta/file-router.json": {
-    "lines": 4482,
-    "size": 90240,
-    "type": "agent",
+    "lines": 4596,
+    "size": 86927,
+    "type": "json",
     "tags": [
-      "task_id",
-      "agent",
-      "routine",
-      "checklist"
+      "json"
     ],
-    "linked_agent": "\"agent\","
+    "linked_agent": "unknown"
   },
-  "routes": [
-    {
-      "path": "agents-spec/ux-agent/",
-      "description": "Spec files for the UX Agent, including identity, checklist, heuristics, and reflections.",
-      "tags": [
-        "agent",
-        "ux",
-        "feedback",
-        "user-centric"
-      ],
-      "include_in_context": true
-    },
-    {
-      "path": "schemas/canonical-agent-model.json",
-      "description": "Defines the canonical schema for agents in the system.",
-      "tags": [
-        "schema",
-        "canonical",
-        "agent-model"
-      ],
-      "include_in_context": true
-    },
-    {
-      "path": "agents-spec/",
-      "description": "Root directory for all agent specifications and identities.",
-      "tags": [
-        "agents",
-        "specs",
-        "routing"
-      ],
-      "include_in_context": false
-    },
-    {
-      "path": "framework/reflections/universal-onboarding-reflection.md",
-      "description": "Universal onboarding reflection for agents and humans to understand the core concepts and structure of the framework.",
-      "tags": [
-        "onboarding",
-        "reflection",
-        "core",
-        "long_term"
-      ],
-      "include_in_context": true
-    },
-    {
-      "path": "docs/README-ONBOARDING.md",
-      "description": "Human-readable onboarding entry point for understanding and extending the project.",
-      "tags": [
-        "onboarding",
-        "docs",
-        "human"
-      ],
-      "include_in_context": true
-    },
-    {
-      "path": "docs/final_comprehensive_project_summary.md",
-      "description": "High-level summary of system goals, agents, pipelines, and capabilities.",
-      "tags": [
-        "onboarding",
-        "summary",
-        "reference"
-      ],
-      "include_in_context": true
-    },
-    {
-      "path": "AUTO-ONBOARD.md",
-      "description": "Narrative entrypoint file for onboarding humans and LLMs to this framework.",
-      "tags": [
-        "onboarding",
-        "narrative",
-        "top-priority"
-      ],
-      "include_in_context": true
-    }
-  ],
-  "canonical-model/audit-reflection.schema.json": {
-    "type": "schema",
+  "meta/intent-register-snapshot-introspection.json": {
+    "lines": 19,
+    "size": 610,
+    "type": "json",
     "tags": [
-      "audit",
-      "reflection",
-      "canonical"
+      "json"
     ],
+    "linked_agent": "unknown"
+  },
+  "meta/intent.json": {
+    "lines": 5,
+    "size": 206,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "meta/routine-backlinks.json": {
+    "lines": 5214,
+    "size": 138413,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "meta/snapshot-introspection-manifest.json": {
+    "lines": 24,
+    "size": 708,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "meta/intents/regenerate-system-snapshot-intent.json": {
+    "lines": 18,
+    "size": 623,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "meta/trust/trust-index.json": {
+    "lines": 24,
+    "size": 620,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "missions/04-fork-a-plan.md": {
+    "lines": 14,
+    "size": 315,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "missions/onboarding.md": {
     "lines": 8,
-    "size": 1059
+    "size": 149,
+    "type": "md",
+    "tags": [
+      "md"
+    ],
+    "linked_agent": "unknown"
+  },
+  "missions/resilience-hardening-phase2.json": {
+    "lines": 22,
+    "size": 698,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/agent-collab-performance-fork.json": {
+    "lines": 12,
+    "size": 279,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/agent-collab-plan.json": {
+    "lines": 11,
+    "size": 250,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/intent-release-v0.24.0.json": {
+    "lines": 62,
+    "size": 3416,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/phase-10-routing-autonomy.json": {
+    "lines": 26,
+    "size": 925,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/phase-11-swarm-memory-convergence.json": {
+    "lines": 19,
+    "size": 567,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/phase-12-agent-market-economy.json": {
+    "lines": 26,
+    "size": 992,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/phase-13-agent-challenges-and-reflection.json": {
+    "lines": 27,
+    "size": 913,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/phase-14-memory-alignment-and-role-negotiation.json": {
+    "lines": 44,
+    "size": 1669,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/phase-9-system-evolution.json": {
+    "lines": 17,
+    "size": 561,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/agent-srp-cleanup/plan.json": {
+    "lines": 14,
+    "size": 323,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/agent-srp-cleanup/tasks.json": {
+    "lines": 16,
+    "size": 278,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/bootstrap/plan.json": {
+    "lines": 4,
+    "size": 103,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/bootstrap/tasks.json": {
+    "lines": 16,
+    "size": 278,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/extend-agent-abstractions/plan.json": {
+    "lines": 13,
+    "size": 296,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/extend-agent-abstractions/tasks.json": {
+    "lines": 32,
+    "size": 905,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/feature-audit/plan.json": {
+    "lines": 14,
+    "size": 339,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/feature-audit/tasks.json": {
+    "lines": 16,
+    "size": 278,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/final-audit-fix/plan.json": {
+    "lines": 14,
+    "size": 338,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/final-audit-fix/tasks.json": {
+    "lines": 16,
+    "size": 278,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/fine-tune/plan.json": {
+    "lines": 17,
+    "size": 451,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/fine-tune/tasks.json": {
+    "lines": 16,
+    "size": 278,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/fix-content/plan.json": {
+    "lines": 14,
+    "size": 311,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/fix-content/tasks.json": {
+    "lines": 16,
+    "size": 278,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/onboarding-agent-bootstrap/plan.json": {
+    "lines": 27,
+    "size": 911,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/onboarding-agent-bootstrap/tasks.json": {
+    "lines": 25,
+    "size": 980,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/onboarding-refinement-patch/plan.json": {
+    "lines": 30,
+    "size": 1152,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/onboarding-refinement-patch/tasks.json": {
+    "lines": 32,
+    "size": 1250,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/org-knowledge-agent-bootstrap/plan.json": {
+    "lines": 34,
+    "size": 1175,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/org-knowledge-agent-bootstrap/tasks.json": {
+    "lines": 60,
+    "size": 2368,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/phase-11/swarm-routines-proposed.json": {
+    "lines": 24,
+    "size": 570,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/phase-13/challenges/reflection-race-001.json": {
+    "lines": 25,
+    "size": 555,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json": {
+    "lines": 35,
+    "size": 1408,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/reuse-corrida-elements/plan.json": {
+    "lines": 14,
+    "size": 344,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/reuse-corrida-elements/tasks.json": {
+    "lines": 16,
+    "size": 278,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/root-collaboration-bootstrap/plan.json": {
+    "lines": 33,
+    "size": 1020,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/root-collaboration-bootstrap/tasks.json": {
+    "lines": 39,
+    "size": 1535,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/self-evolve/retrospective-insights.json": {
+    "lines": 13,
+    "size": 250,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/self-evolving/plan.json": {
+    "lines": 15,
+    "size": 329,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/self-evolving/tasks.json": {
+    "lines": 16,
+    "size": 278,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/system-resilience/plan.json": {
+    "lines": 20,
+    "size": 624,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/system-resilience/planner-goals-extension.json": {
+    "lines": 39,
+    "size": 1219,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/system-resilience/tasks.json": {
+    "lines": 16,
+    "size": 278,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/system-upgrade/agent-review-upgrade-plan-v1.json": {
+    "lines": 46,
+    "size": 1439,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/template-pipeline-library/context-compression-pipeline.json": {
+    "lines": 15,
+    "size": 338,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/template-pipeline-library/conversation-to-pipeline.json": {
+    "lines": 22,
+    "size": 531,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/template-pipeline-library/ethics-audit-pipeline.json": {
+    "lines": 14,
+    "size": 253,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/template-pipeline-library/fallback-resolution-pipeline.json": {
+    "lines": 22,
+    "size": 542,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/template-pipeline-library/file-content-schema-audit-pipeline.json": {
+    "lines": 39,
+    "size": 882,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/template-pipeline-library/plan-retrospective-pipeline.json": {
+    "lines": 15,
+    "size": 321,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/template-pipeline-library/routine-gap-detection-pipeline.json": {
+    "lines": 29,
+    "size": 1000,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/template-pipeline-library/snapshot-sync-pipeline.json": {
+    "lines": 41,
+    "size": 992,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json": {
+    "lines": 28,
+    "size": 951,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "plans/v0.26.0/task-followups-from-roadmap.json": {
+    "lines": 47,
+    "size": 1545,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/agent-challenge.schema.json": {
+    "lines": 60,
+    "size": 1142,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/agent-evolution-score.json": {
+    "lines": 16,
+    "size": 264,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/agent-marketplace.schema.json": {
+    "lines": 57,
+    "size": 1055,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/canonical-agent-instances.json": {
+    "lines": 27,
+    "size": 590,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/canonical-agent-model-metadata.json": {
+    "lines": 9,
+    "size": 198,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/canonical-agent-model.json": {
+    "lines": 65,
+    "size": 1499,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/context-router.schema-lifecycle.json": {
+    "lines": 6,
+    "size": 69,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/context-router.schema-metadata.json": {
+    "lines": 15,
+    "size": 235,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/context-router.schema.json": {
+    "lines": 21,
+    "size": 368,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/debate-vote.json": {
+    "lines": 9,
+    "size": 104,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/dynamic-agent-routing.schema.json": {
+    "lines": 42,
+    "size": 784,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/feature.schema-lifecycle.json": {
+    "lines": 6,
+    "size": 69,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/feature.schema-metadata.json": {
+    "lines": 15,
+    "size": 228,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/feature.schema.json": {
+    "lines": 34,
+    "size": 636,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/forkable-plan.json": {
+    "lines": 25,
+    "size": 446,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/lifecycle-metadata.json": {
+    "lines": 15,
+    "size": 194,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/memory-fusion.schema.json": {
+    "lines": 74,
+    "size": 1488,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/memory.schema.json": {
+    "lines": 67,
+    "size": 1578,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/pipeline.schema-lifecycle.json": {
+    "lines": 6,
+    "size": 69,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/pipeline.schema-metadata.json": {
+    "lines": 15,
+    "size": 229,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/pipeline.schema.json": {
+    "lines": 23,
+    "size": 454,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/routine-manifest.schema-lifecycle.json": {
+    "lines": 6,
+    "size": 69,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/routine-manifest.schema-metadata.json": {
+    "lines": 15,
+    "size": 237,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/routine-manifest.schema.json": {
+    "lines": 17,
+    "size": 387,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/routing-rules-schema.json": {
+    "lines": 59,
+    "size": 1498,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/schema-config.json": {
+    "lines": 175,
+    "size": 4428,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/schema-index-lifecycle.json": {
+    "lines": 6,
+    "size": 69,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/schema-index.json": {
+    "lines": 9,
+    "size": 175,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/schema-index.repaired.json": {
+    "lines": 1,
+    "size": 2,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/schema-metadata-metadata.json": {
+    "lines": 15,
+    "size": 229,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/schema-metadata.json": {
+    "lines": 4,
+    "size": 86,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/schema-version-tracker-lifecycle.json": {
+    "lines": 6,
+    "size": 69,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/schema-version-tracker.json": {
+    "lines": 154,
+    "size": 3347,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/synthesized-memory-index.json": {
+    "lines": 4426,
+    "size": 108693,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "schemas/version-history.json": {
+    "lines": 12,
+    "size": 299,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "simulations/sim-agent-collab.yaml": {
+    "lines": 7,
+    "size": 230,
+    "type": "yaml",
+    "tags": [
+      "yaml"
+    ],
+    "linked_agent": "unknown"
+  },
+  "simulations/onboarding/phase1-simulation.json": {
+    "lines": 12,
+    "size": 233,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/agent_control.py": {
+    "lines": 36,
+    "size": 847,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/agent_state_dashboard.py": {
+    "lines": 21,
+    "size": 495,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/agent_status.py": {
+    "lines": 16,
+    "size": 372,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/api_ingest.py": {
+    "lines": 25,
+    "size": 664,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/dashboard.py": {
+    "lines": 14,
+    "size": 326,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/main.py": {
+    "lines": 8,
+    "size": 195,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/memory_service.py": {
+    "lines": 33,
+    "size": 871,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/pipeline_runner.py": {
+    "lines": 9,
+    "size": 307,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/task_editor.py": {
+    "lines": 27,
+    "size": 778,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/task_graph.py": {
+    "lines": 28,
+    "size": 798,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/task_streamer.py": {
+    "lines": 23,
+    "size": 602,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "src/webhook_server.py": {
+    "lines": 33,
+    "size": 1035,
+    "type": "py",
+    "tags": [
+      "py"
+    ],
+    "linked_agent": "unknown"
+  },
+  "task-graph/task-graph-root-collaboration-bootstrap.json": {
+    "lines": 46,
+    "size": 1400,
+    "type": "json",
+    "tags": [
+      "json"
+    ],
+    "linked_agent": "unknown"
   }
 }
