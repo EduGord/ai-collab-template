@@ -1,0 +1,29 @@
+{
+  "pipeline": "snapshot-sync-pipeline",
+  "description": "Orchestrates the regeneration of the canonical system snapshot via docbot.",
+  "agents": ["docbot"],
+  "trigger": ["manual", "weekly", "post-merge"],
+  "stages": [
+    {
+      "name": "Initiate Snapshot Routine",
+      "agent": "docbot",
+      "routine": "regenerate-system-snapshot",
+      "checklist": "docbot-snapshot-checklist"
+    },
+    {
+      "name": "Log Snapshot Version",
+      "action": "append-version-tag",
+      "target": "docs/system-snapshot.md"
+    },
+    {
+      "name": "Validate Output",
+      "action": "schema-validate",
+      "target": "docs/system-snapshot.md"
+    },
+    {
+      "name": "Emit Change Summary",
+      "action": "diff-to-log",
+      "target": "logs/snapshots/system-snapshot-diff.json"
+    }
+  ]
+}

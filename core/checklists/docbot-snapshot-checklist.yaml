@@ -1,0 +1,17 @@
+agent: docbot
+routine: regenerate-system-snapshot
+checklist:
+  - id: load-memory-index
+    task: Ensure latest memory index file is parsed successfully
+  - id: scan-roadmaps
+    task: Aggregate roadmap phases and unresolved tasks
+  - id: map-memory-links
+    task: Match evolving memory entries to agents and plans
+  - id: validate-schema-refs
+    task: Confirm all listed schemas exist and are referenced
+  - id: generate-snapshot-md
+    task: Write `system-snapshot.md` in consistent format
+  - id: diff-log-record
+    task: Compare against previous version and log changes
+  - id: tag-snapshot-version
+    task: Annotate version and timestamp in generated file

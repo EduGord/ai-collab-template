@@ -1,0 +1,24 @@
+{
+  "manifest": "snapshot-introspection",
+  "linked_assets": {
+    "routine": "regenerate-system-snapshot",
+    "checklist": "docbot-snapshot-checklist",
+    "pipeline": "snapshot-sync-pipeline",
+    "planner_goal": "planner-goals-extension",
+    "target_doc": "docs/system-snapshot.md",
+    "diff_log": "logs/snapshots/system-snapshot-diff.json"
+  },
+  "dependencies": [
+    "memory-bank/index.json",
+    "docs/ROADMAP.md",
+    "schemas/canonical-agent-model.json",
+    "plans/system-resilience/tasks.json"
+  ],
+  "agents_involved": ["docbot", "planner-agent"],
+  "outputs": [
+    "Canonical snapshot report",
+    "Version-tagged diff log",
+    "Milestone-linked validation task"
+  ],
+  "status": "active"
+}

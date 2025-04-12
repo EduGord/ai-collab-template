@@ -1,0 +1,20 @@
+@startuml SnapshotIntrospection
+actor User
+agent Docbot
+agent PlannerAgent
+file "system-snapshot.md" as Snapshot
+file "system-snapshot-diff.json" as DiffLog
+package "Routine + Checklist" {
+  Docbot --> Snapshot : regenerate-system-snapshot
+  Docbot --> DiffLog : compare & log diff
+}
+package "Pipeline Execution" {
+  User --> PlannerAgent : roadmap trigger or milestone
+  PlannerAgent --> Docbot : invoke snapshot-sync-pipeline
+}
+package "Registry" {
+  Snapshot --> "snapshot-introspection-manifest" : linked output
+  "snapshot-introspection-manifest" --> "intent-register-snapshot-introspection"
+  "intent-register-snapshot-introspection" --> Docbot : defines activation context
+}
+@enduml

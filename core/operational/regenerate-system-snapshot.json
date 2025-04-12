@@ -1,0 +1,14 @@
+{
+  "routine": "regenerate-system-snapshot",
+  "trigger": ["on-log-update", "on-memory-edit", "on-checklist-change", "weekly-schedule"],
+  "agent": "docbot",
+  "steps": [
+    { "step": "load-memory-index", "source": "memory-bank/index.json" },
+    { "step": "parse-roadmaps", "source": ["docs/ROADMAP.md", "docs/roadmap-v*.md"] },
+    { "step": "collect-unresolved-memory", "source": "memory-bank/evolving/" },
+    { "step": "check-agent-task-links", "source": "memory-bank/tasks/" },
+    { "step": "validate-schema-refs", "source": "schemas/*.json" },
+    { "step": "write-system-snapshot", "target": "docs/system-snapshot.md" },
+    { "step": "log-diff", "target": "logs/snapshots/system-snapshot-diff.json" }
+  ]
+}

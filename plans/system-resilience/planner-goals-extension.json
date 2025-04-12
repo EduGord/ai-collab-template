@@ -1,0 +1,25 @@
+{
+  "agent": "planner-agent",
+  "goal_id": "integrate-snapshot-sync",
+  "milestone": "v0.28.0",
+  "description": "Ensure routine snapshot sync is embedded in milestone planning cycles.",
+  "dependencies": [
+    "snapshot-sync-pipeline",
+    "docbot-snapshot-checklist"
+  ],
+  "tasks": [
+    {
+      "id": "snapshot-sync-init",
+      "action": "Schedule pipeline trigger post-weekly review",
+      "linked_pipeline": "snapshot-sync-pipeline"
+    },
+    {
+      "id": "validate-docbot-checklist",
+      "action": "Confirm all checklist items pass before roadmap updates"
+    },
+    {
+      "id": "log-to-roadmap",
+      "action": "Log snapshot diff link to v0.28.0 milestone logs"
+    }
+  ]
+}
