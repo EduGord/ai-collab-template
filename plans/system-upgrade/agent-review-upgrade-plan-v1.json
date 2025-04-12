@@ -3,7 +3,7 @@
   "title": "Agent Self-Review Upgrades and System Hardening Plan",
   "description": "This plan coordinates the application of improvements discovered during the agent identity and checklist audit. It includes upgrades to checklists, documentation, logs, schemas, pipelines, and governance compliance to increase long-term resilience.",
   "status": "active",
-  "timestamp": "2025-04-12T07:50:53.404609",
+  "timestamp": "T.404609",
   "tasks": [
     {
       "source_file": "memory-bank/tasks/improvements-from-agent-review-batch1.json",

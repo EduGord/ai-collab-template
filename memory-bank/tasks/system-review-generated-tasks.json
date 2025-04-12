@@ -10,7 +10,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.903037"
+    "timestamp": "T.903037"
   },
   {
     "task_id": "improve-4f6394cd",
@@ -23,7 +23,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.903391"
+    "timestamp": "T.903391"
   },
   {
     "task_id": "improve-43ab4b02",
@@ -36,7 +36,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.903624"
+    "timestamp": "T.903624"
   },
   {
     "task_id": "improve-45202497",
@@ -49,7 +49,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.904165"
+    "timestamp": "T.904165"
   },
   {
     "task_id": "improve-1c121ce4",
@@ -62,7 +62,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.904413"
+    "timestamp": "T.904413"
   },
   {
     "task_id": "improve-4e4ee708",
@@ -75,7 +75,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.904755"
+    "timestamp": "T.904755"
   },
   {
     "task_id": "improve-949c1ada",
@@ -88,7 +88,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.904862"
+    "timestamp": "T.904862"
   },
   {
     "task_id": "improve-37f5b575",
@@ -101,7 +101,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.904918"
+    "timestamp": "T.904918"
   },
   {
     "task_id": "improve-065608ac",
@@ -114,7 +114,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.904956"
+    "timestamp": "T.904956"
   },
   {
     "task_id": "improve-6dbfee59",
@@ -127,7 +127,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.904996"
+    "timestamp": "T.904996"
   },
   {
     "task_id": "improve-50a01b8a",
@@ -140,7 +140,7 @@
       "identity-check",
       "pipeline-audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.905081"
+    "timestamp": "T.905081"
   },
   {
     "task_id": "improve-32693eaa",
@@ -153,7 +153,7 @@
       "agent-introspection",
       "markdown"
     ],
-    "timestamp": "2025-04-12T07:43:46.905518"
+    "timestamp": "T.905518"
   },
   {
     "task_id": "improve-10904f80",
@@ -166,7 +166,7 @@
       "compliance",
       "audit"
     ],
-    "timestamp": "2025-04-12T07:43:46.905584"
+    "timestamp": "T.905584"
   },
   {
     "task_id": "improve-54cf7289",
@@ -179,7 +179,7 @@
       "plan-index",
       "task-sync"
     ],
-    "timestamp": "2025-04-12T07:43:46.905623"
+    "timestamp": "T.905623"
   },
   {
     "task_id": "improve-55614dd2",
@@ -192,6 +192,6 @@
       "goal-tracking",
       "memory-cohesion"
     ],
-    "timestamp": "2025-04-12T07:43:46.905638"
+    "timestamp": "T.905638"
   }
 ]

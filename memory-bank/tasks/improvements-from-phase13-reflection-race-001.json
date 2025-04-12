@@ -10,7 +10,7 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:54:04.305532"
+    "timestamp": "T.305532"
   },
   {
     "task_id": "fix-367aef75",
@@ -23,6 +23,6 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:54:04.305952"
+    "timestamp": "T.305952"
   }
 ]

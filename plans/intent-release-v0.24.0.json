@@ -1,7 +1,7 @@
 {
   "version": "v0.24.0",
   "status": "draft",
-  "timestamp": "2025-04-07T06:04:31.385029",
+  "timestamp": "T.385029",
   "summary": "Auto-generated from retrospective of v0.23.0-pre across 14 agents.",
   "key_insights": [
     "\u2705 Evolved `evolve-task-1`: Review all plans and routines for missing logic",

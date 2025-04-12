@@ -10,7 +10,7 @@
       ],
       "owner": "meta-agent",
       "priority": "critical",
-      "start": "2025-04-01",
+      "start": "",
       "status": "active"
     },
     {
@@ -21,7 +21,7 @@
         "G5"
       ],
       "owner": "planner-agent",
-      "start": "2025-04-06",
+      "start": "",
       "status": "initiated"
     },
     {
@@ -33,7 +33,7 @@
       ],
       "owner": "router-agent",
       "priority": "high",
-      "start": "2025-04-06",
+      "start": "",
       "status": "new"
     }
   ]

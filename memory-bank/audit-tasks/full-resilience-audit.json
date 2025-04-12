@@ -2,7 +2,7 @@
   "taskId": "MB-RESILIENCE-002",
   "title": "Resilience & Comprehension Audit \u2014 Agent Framework Compliance",
   "summary": "Audit across agents, routines, identity files, checklist structure, tutorials, and metadata routing.",
-  "timestamp": "2025-04-06T21:50:00Z",
+  "timestamp": "TZ",
   "issues": {
     "missingAgentFields": [
       "agents-spec/bootstrap-agent/identity.json",
@@ -67,7 +67,7 @@
       "governance/lifecycle-policy.json",
       "governance/co-creation-protocol.json",
       "governance/trust-orchestration.json",
-      "governance/audit-trail/2025-04-06-generated.json",
+      "governance/audit-trail/-generated.json",
       "governance/rules/rule-agents-cannot-edit-pipeline-map.json"
     ]
   },

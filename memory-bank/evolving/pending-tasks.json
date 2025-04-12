@@ -7,7 +7,7 @@
       "priority": "high",
       "category": "frontend",
       "status": "done \u2705 (schema-validated)",
-      "completedAt": "2025-03-29T08:06:43.251433Z"
+      "completedAt": "T.251433Z"
     },
     {
       "id": "kpi-evaluation-logging",
@@ -15,7 +15,7 @@
       "priority": "medium",
       "category": "orchestration",
       "status": "done \u2705 (schema-validated)",
-      "completedAt": "2025-03-29T08:08:45.742009Z"
+      "completedAt": "T.742009Z"
     },
     {
       "id": "test-submission-edge-cases",
@@ -23,7 +23,7 @@
       "priority": "high",
       "category": "validation",
       "status": "done \u2705 (schema-validated)",
-      "completedAt": "2025-03-29T08:06:43.251444Z"
+      "completedAt": "T.251444Z"
     },
     {
       "id": "agent-readme-missing",
@@ -94,7 +94,7 @@
       "priority": "low",
       "category": "refactor",
       "status": "done \u2705 (schema-validated)",
-      "completedAt": "2025-03-29T08:55:06.361698Z"
+      "completedAt": "T.361698Z"
     },
     {
       "id": "plan-memory-bank-hybrid-migration",
@@ -102,7 +102,7 @@
       "priority": "high",
       "category": "architecture",
       "status": "done \u2705 (schema-validated)",
-      "completedAt": "2025-03-29T08:55:06.361710Z"
+      "completedAt": "T.361710Z"
     },
     {
       "id": "create-memory-bank-docs",
@@ -110,7 +110,7 @@
       "priority": "high",
       "category": "documentation",
       "status": "done \u2705 (schema-validated)",
-      "completedAt": "2025-03-29T08:55:06.361713Z"
+      "completedAt": "T.361713Z"
     },
     {
       "id": "validate-checklists-vs-memory-bank",
@@ -118,7 +118,7 @@
       "priority": "medium",
       "category": "validation",
       "status": "done \u2705 (schema-validated)",
-      "completedAt": "2025-03-29T08:55:06.361715Z"
+      "completedAt": "T.361715Z"
     },
     {
       "id": "dev-agent-review-post-migration",
@@ -182,7 +182,7 @@
       "priority": "medium",
       "category": "routines",
       "status": "done \u2705 (schema-validated)",
-      "completedAt": "2025-03-29T08:55:06.361720Z"
+      "completedAt": "T.361720Z"
     },
     {
       "id": "expand-memory-bank-with-rich-context",
@@ -365,8 +365,8 @@
       "priority": "high",
       "category": "orchestration",
       "status": "done \u2705 (executed-by-tony)",
-      "createdAt": "2025-03-29T14:47:26.246505Z",
-      "completedAt": "2025-03-29T14:48:49.044351Z"
+      "createdAt": "T.246505Z",
+      "completedAt": "T.044351Z"
     },
     {
       "id": "register-validate-all-agents-pipeline",
@@ -374,8 +374,8 @@
       "priority": "medium",
       "category": "automation",
       "status": "done \u2705 (executed-by-tony)",
-      "createdAt": "2025-03-29T14:47:26.246505Z",
-      "completedAt": "2025-03-29T15:01:32.380294Z"
+      "createdAt": "T.246505Z",
+      "completedAt": "T.380294Z"
     },
     {
       "id": "execute-register-llm-session-routing-routine",
@@ -383,9 +383,9 @@
       "priority": "high",
       "category": "execution",
       "status": "done \u2705 (executed-by-agent)",
-      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "createdAt": "T.246505Z",
       "executedBy": "orchestrator-agent",
-      "completedAt": "2025-03-29T15:04:24.635496Z"
+      "completedAt": "T.635496Z"
     },
     {
       "id": "execute-auto-detect-tooling-opportunities-from-llm",
@@ -393,9 +393,9 @@
       "priority": "high",
       "category": "execution",
       "status": "done \u2705 (executed-by-agent)",
-      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "createdAt": "T.246505Z",
       "executedBy": "tooling-agent",
-      "completedAt": "2025-03-29T15:04:24.635512Z"
+      "completedAt": "T.635512Z"
     },
     {
       "id": "execute-suggest-checklist-and-identity-updates-during-session",
@@ -403,9 +403,9 @@
       "priority": "high",
       "category": "execution",
       "status": "done \u2705 (executed-by-agent)",
-      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "createdAt": "T.246505Z",
       "executedBy": "governance-agent",
-      "completedAt": "2025-03-29T15:04:24.635518Z"
+      "completedAt": "T.635518Z"
     },
     {
       "id": "execute-ui-review-pipeline",
@@ -413,9 +413,9 @@
       "priority": "high",
       "category": "execution",
       "status": "done \u2705 (executed-by-agent)",
-      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "createdAt": "T.246505Z",
       "executedBy": "ux-review-agent",
-      "completedAt": "2025-03-29T15:04:24.635526Z"
+      "completedAt": "T.635526Z"
     },
     {
       "id": "execute-safe-automation-pipeline",
@@ -423,9 +423,9 @@
       "priority": "high",
       "category": "execution",
       "status": "done \u2705 (executed-by-agent)",
-      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "createdAt": "T.246505Z",
       "executedBy": "automator-agent",
-      "completedAt": "2025-03-29T15:04:24.635529Z"
+      "completedAt": "T.635529Z"
     },
     {
       "id": "execute-identity-governance-audit",
@@ -433,9 +433,9 @@
       "priority": "high",
       "category": "execution",
       "status": "done \u2705 (executed-by-agent)",
-      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "createdAt": "T.246505Z",
       "executedBy": "governance-agent",
-      "completedAt": "2025-03-29T15:04:24.635532Z"
+      "completedAt": "T.635532Z"
     },
     {
       "id": "execute-generate-plan-feedback-log",
@@ -443,9 +443,9 @@
       "priority": "high",
       "category": "execution",
       "status": "done \u2705 (executed-by-agent)",
-      "createdAt": "2025-03-29T14:47:26.246505Z",
+      "createdAt": "T.246505Z",
       "executedBy": "planner-agent",
-      "completedAt": "2025-03-29T15:04:24.635534Z"
+      "completedAt": "T.635534Z"
     },
     {
       "id": "execute-context-holder-migration-plan-v1",
@@ -453,9 +453,9 @@
       "priority": "high",
       "category": "architecture",
       "status": "done \u2705 (executed-by-tony)",
-      "createdAt": "2025-03-29T15:14:56.924561Z",
+      "createdAt": "T.924561Z",
       "executedBy": "orchestrator-agent",
-      "completedAt": "2025-03-29T15:14:56.924568Z"
+      "completedAt": "T.924568Z"
     },
     {
       "id": "context-plan-task-44b86983",
@@ -464,8 +464,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "tooling-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409526Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409526Z"
     },
     {
       "id": "context-plan-task-c50e6307",
@@ -474,8 +474,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "dev-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409537Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409537Z"
     },
     {
       "id": "context-plan-task-4daaf1b8",
@@ -484,8 +484,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "governance-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409540Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409540Z"
     },
     {
       "id": "context-plan-task-8da29b6f",
@@ -494,8 +494,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "docs-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409543Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409543Z"
     },
     {
       "id": "context-plan-task-4e11f2ff",
@@ -504,8 +504,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "governance-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409545Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409545Z"
     },
     {
       "id": "context-plan-task-bfd67ed9",
@@ -514,8 +514,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "dev-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409547Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409547Z"
     },
     {
       "id": "context-plan-task-fd3da9b0",
@@ -524,8 +524,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "automator-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409550Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409550Z"
     },
     {
       "id": "context-plan-task-c9f32ddf",
@@ -534,8 +534,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "planner-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409552Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409552Z"
     },
     {
       "id": "context-plan-task-ff104755",
@@ -544,8 +544,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "intent-parser-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409554Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409554Z"
     },
     {
       "id": "context-plan-task-e5654f97",
@@ -554,8 +554,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "narrator-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409556Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409556Z"
     },
     {
       "id": "context-plan-task-fac430ae",
@@ -564,8 +564,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "automator-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409558Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409558Z"
     },
     {
       "id": "context-plan-task-9cef8581",
@@ -574,8 +574,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "docs-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409560Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409560Z"
     },
     {
       "id": "context-plan-task-89e77641",
@@ -584,8 +584,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "narrator-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409563Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409563Z"
     },
     {
       "id": "context-plan-task-fd8f2f74",
@@ -594,8 +594,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "tooling-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409564Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409564Z"
     },
     {
       "id": "context-plan-task-f3c13c0e",
@@ -604,8 +604,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "governance-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409567Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409567Z"
     },
     {
       "id": "context-plan-task-c38ee5a7",
@@ -614,8 +614,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "orchestrator-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409568Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409568Z"
     },
     {
       "id": "context-plan-task-dcc77f71",
@@ -624,8 +624,8 @@
       "category": "context",
       "status": "done \u2705 (executed-by-agent)",
       "assignedTo": "dev-agent",
-      "createdAt": "2025-03-29T15:15:11.302787Z",
-      "completedAt": "2025-03-29T15:25:20.409570Z"
+      "createdAt": "T.302787Z",
+      "completedAt": "T.409570Z"
     },
     {
       "id": "task-603a1d0a",
@@ -634,8 +634,8 @@
       "category": "architecture",
       "assignedTo": "planner-agent",
       "status": "done \u2705 (executed-by-tony)",
-      "createdAt": "2025-03-29T15:39:08.324680Z",
-      "completedAt": "2025-03-29T15:39:08.324680Z"
+      "createdAt": "T.324680Z",
+      "completedAt": "T.324680Z"
     },
     {
       "id": "task-5b05e6a6",
@@ -644,8 +644,8 @@
       "category": "architecture",
       "assignedTo": "docs-agent",
       "status": "done \u2705 (executed-by-tony)",
-      "createdAt": "2025-03-29T15:39:08.324680Z",
-      "completedAt": "2025-03-29T15:39:08.324680Z"
+      "createdAt": "T.324680Z",
+      "completedAt": "T.324680Z"
     },
     {
       "id": "task-49895b89",
@@ -654,8 +654,8 @@
       "category": "architecture",
       "assignedTo": "orchestrator-agent",
       "status": "done \u2705 (executed-by-tony)",
-      "createdAt": "2025-03-29T15:39:08.324680Z",
-      "completedAt": "2025-03-29T15:39:08.324680Z"
+      "createdAt": "T.324680Z",
+      "completedAt": "T.324680Z"
     },
     {
       "id": "task-f4969ec9",
@@ -664,8 +664,8 @@
       "category": "architecture",
       "assignedTo": "governance-agent",
       "status": "done \u2705 (executed-by-tony)",
-      "createdAt": "2025-03-29T15:39:08.324680Z",
-      "completedAt": "2025-03-29T15:39:08.324680Z"
+      "createdAt": "T.324680Z",
+      "completedAt": "T.324680Z"
     },
     {
       "id": "task-b70e43ac",
@@ -674,8 +674,8 @@
       "category": "architecture",
       "assignedTo": "tooling-agent",
       "status": "done \u2705 (executed-by-tony)",
-      "createdAt": "2025-03-29T15:39:08.324680Z",
-      "completedAt": "2025-03-29T15:39:08.324680Z"
+      "createdAt": "T.324680Z",
+      "completedAt": "T.324680Z"
     },
     {
       "taskId": "DOC-TUTORIALS-001",

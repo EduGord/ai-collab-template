@@ -8729,8 +8729,8 @@
     "agent": null,
     "status": "active"
   },
-  "governance/audit-trail/2025-04-06-generated.json": {
-    "path": "governance/audit-trail/2025-04-06-generated.json",
+  "governance/audit-trail/-generated.json": {
+    "path": "governance/audit-trail/-generated.json",
     "category": "uncategorized",
     "agent": null,
     "status": "active"
@@ -8783,14 +8783,14 @@
     "agent": null,
     "status": "active"
   },
-  "logs/executions/audit-agent-log-2025-04-07T12_05_04.534409Z.json": {
-    "path": "logs/executions/audit-agent-log-2025-04-07T12_05_04.534409Z.json",
+  "logs/executions/audit-agent-log-T12_05_04.534409Z.json": {
+    "path": "logs/executions/audit-agent-log-T12_05_04.534409Z.json",
     "category": "agent",
     "agent": null,
     "status": "active"
   },
-  "logs/executions/bootstrap-agent-log-2025-04-07T12_05_04.534409Z.json": {
-    "path": "logs/executions/bootstrap-agent-log-2025-04-07T12_05_04.534409Z.json",
+  "logs/executions/bootstrap-agent-log-T12_05_04.534409Z.json": {
+    "path": "logs/executions/bootstrap-agent-log-T12_05_04.534409Z.json",
     "category": "agent",
     "agent": null,
     "status": "active"
@@ -8867,8 +8867,8 @@
     "agent": null,
     "status": "active"
   },
-  "logs/executions/planner-agent@project-X-onboarding-2025-04-07T12_14_28.022943Z.json": {
-    "path": "logs/executions/planner-agent@project-X-onboarding-2025-04-07T12_14_28.022943Z.json",
+  "logs/executions/planner-agent@project-X-onboarding-T12_14_28.022943Z.json": {
+    "path": "logs/executions/planner-agent@project-X-onboarding-T12_14_28.022943Z.json",
     "category": "agent",
     "agent": null,
     "status": "active"
@@ -8879,8 +8879,8 @@
     "agent": null,
     "status": "active"
   },
-  "logs/executions/router-agent-log-2025-04-07T12_05_04.534409Z.json": {
-    "path": "logs/executions/router-agent-log-2025-04-07T12_05_04.534409Z.json",
+  "logs/executions/router-agent-log-T12_05_04.534409Z.json": {
+    "path": "logs/executions/router-agent-log-T12_05_04.534409Z.json",
     "category": "agent",
     "agent": null,
     "status": "active"
@@ -9677,20 +9677,20 @@
     "agent": null,
     "status": "active"
   },
-  "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-2025-04-07T12:05:04.534409Z.json": {
-    "path": "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-2025-04-07T12:05:04.534409Z.json",
+  "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-T.534409Z.json": {
+    "path": "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-T.534409Z.json",
     "category": "agent",
     "agent": null,
     "status": "active"
   },
-  "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-2025-04-07T12:05:04.534409Z.json": {
-    "path": "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-2025-04-07T12:05:04.534409Z.json",
+  "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-T.534409Z.json": {
+    "path": "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-T.534409Z.json",
     "category": "agent",
     "agent": null,
     "status": "active"
   },
-  "/mnt/data/ai-collab-template/logs/executions/router-agent-log-2025-04-07T12:05:04.534409Z.json": {
-    "path": "/mnt/data/ai-collab-template/logs/executions/router-agent-log-2025-04-07T12:05:04.534409Z.json",
+  "/mnt/data/ai-collab-template/logs/executions/router-agent-log-T.534409Z.json": {
+    "path": "/mnt/data/ai-collab-template/logs/executions/router-agent-log-T.534409Z.json",
     "category": "agent",
     "agent": null,
     "status": "active"
@@ -9701,8 +9701,8 @@
     "agent": null,
     "status": "active"
   },
-  "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-2025-04-07T12:14:28.022943Z.json": {
-    "path": "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-2025-04-07T12:14:28.022943Z.json",
+  "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-T.022943Z.json": {
+    "path": "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-T.022943Z.json",
     "category": "agent",
     "agent": null,
     "status": "active"

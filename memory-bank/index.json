@@ -20,7 +20,7 @@
       ],
       "origin": "system",
       "linked_to": "ux-agent",
-      "timestamp": "2025-04-07T01:34:05.898237Z"
+      "timestamp": "T.898237Z"
     },
     {
       "id": "agent-logger-bootstrap",
@@ -33,7 +33,7 @@
       ],
       "origin": "system",
       "linked_to": "logger-agent",
-      "timestamp": "2025-04-07T01:34:05.898237Z"
+      "timestamp": "T.898237Z"
     },{
       "id": "file-routing-improvements",
       "content": "Scaffolded Logger Agent to track structured execution logs and enable resumability.",
@@ -44,7 +44,7 @@
       ],
       "origin": "system",
       "linked_to": "logger-agent",
-      "timestamp": "2025-04-07T01:34:05.898237Z"
+      "timestamp": "T.898237Z"
     },
     {
       "id": "canonical-model-link",
@@ -56,7 +56,7 @@
       ],
       "origin": "system",
       "linked_to": "file-router",
-      "timestamp": "2025-04-07T01:34:05.898237Z"
+      "timestamp": "T.898237Z"
     },
     {
       "id": "org-agent-canonical-compliance",
@@ -69,7 +69,7 @@
       ],
       "origin": "realtime-llm-assistant",
       "linked_to": "org-agent",
-      "timestamp": "2025-04-07T01:46:41.076046Z"
+      "timestamp": "T.076046Z"
     },
     {
       "id": "agent-compliance-scan",
@@ -83,7 +83,7 @@
       ],
       "origin": "realtime-llm-assistant",
       "linked_to": "agent-model-canonical",
-      "timestamp": "2025-04-07T01:46:41.076046Z"
+      "timestamp": "T.076046Z"
     },
     {
       "id": "project-onboarding-core-context",
@@ -96,7 +96,7 @@
       ],
       "origin": "realtime-llm-assistant",
       "linked_to": "system",
-      "timestamp": "2025-04-07T01:46:41.076046Z"
+      "timestamp": "T.076046Z"
     },
     {
       "id": "onboarding-file-router-patch",
@@ -109,7 +109,7 @@
       ],
       "origin": "router-agent",
       "linked_to": "file-router",
-      "timestamp": "2025-04-07T01:46:41.076046Z"
+      "timestamp": "T.076046Z"
     },
     {
       "id": "full-system-stabilization-routine",
@@ -123,7 +123,7 @@
       ],
       "origin": "realtime-llm-assistant",
       "linked_to": "core/routines/full-system-stabilization.yaml",
-      "timestamp": "2025-04-07T01:46:41.076046Z"
+      "timestamp": "T.076046Z"
     },
     {
       "id": "auto-onboard-route",
@@ -136,16 +136,16 @@
       ],
       "origin": "router-agent",
       "linked_to": "AUTO-ONBOARD.md",
-      "timestamp": "2025-04-07T01:46:41.076046Z"
+      "timestamp": "T.076046Z"
     }
   ],
   "logs": [
-    "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-2025-04-07T12:05:04.534409Z.json",
-    "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-2025-04-07T12:05:04.534409Z.json",
-    "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-2025-04-07T12:14:28.022943Z.json",
-    "/mnt/data/ai-collab-template/logs/executions/router-agent-log-2025-04-07T12:05:04.534409Z.json",
-    "logs/executions/audit-agent-log-2025-04-07T12_05_04.534409Z.json",
-    "logs/executions/bootstrap-agent-log-2025-04-07T12_05_04.534409Z.json",
+    "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-T.534409Z.json",
+    "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-T.534409Z.json",
+    "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-T.022943Z.json",
+    "/mnt/data/ai-collab-template/logs/executions/router-agent-log-T.534409Z.json",
+    "logs/executions/audit-agent-log-T12_05_04.534409Z.json",
+    "logs/executions/bootstrap-agent-log-T12_05_04.534409Z.json",
     "logs/executions/bootstrap-execution-001.json",
     "logs/executions/extended-task-execution.json",
     "logs/executions/feature-audit.json",
@@ -158,10 +158,10 @@
     "logs/executions/live-llm-task-execution.json",
     "logs/executions/orchestration-simulation.json",
     "logs/executions/phase-8-routines.json",
-    "logs/executions/planner-agent@project-X-onboarding-2025-04-07T12_14_28.022943Z.json",
+    "logs/executions/planner-agent@project-X-onboarding-T12_14_28.022943Z.json",
     "logs/executions/recovery-sync.json",
     "logs/executions/resilience-hardening-v1-log.json",
-    "logs/executions/router-agent-log-2025-04-07T12_05_04.534409Z.json",
+    "logs/executions/router-agent-log-T12_05_04.534409Z.json",
     "logs/executions/routine-audit-phase12.json",
     "logs/executions/system-resilience-execution.json",
     "logs/executions/vNEXT-r3-diff.json"
@@ -209,9 +209,9 @@
       ],
       "pipelines": [],
       "logs": [
-        "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-2025-04-07T12:05:04.534409Z.json",
-        "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-2025-04-07T12:05:04.534409Z.json",
-        "/mnt/data/ai-collab-template/logs/executions/router-agent-log-2025-04-07T12:05:04.534409Z.json"
+        "/mnt/data/ai-collab-template/logs/executions/audit-agent-log-T.534409Z.json",
+        "/mnt/data/ai-collab-template/logs/executions/bootstrap-agent-log-T.534409Z.json",
+        "/mnt/data/ai-collab-template/logs/executions/router-agent-log-T.534409Z.json"
       ],
       "pending_tasks": []
     },
@@ -226,7 +226,7 @@
       "checklists": [],
       "pipelines": [],
       "logs": [
-        "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-2025-04-07T12:14:28.022943Z.json"
+        "/mnt/data/ai-collab-template/logs/executions/planner-agent@project-X-onboarding-T.022943Z.json"
       ],
       "pending_tasks": []
     }

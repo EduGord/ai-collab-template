@@ -21,6 +21,6 @@ Allow agents to exchange memory references, task intents, and feedback.
   "to": "planner",
   "intent": "schedule_adjustment",
   "payload": {"phase": "observability", "priority": "urgent"},
-  "timestamp": "2025-04-06T22:00:00Z"
+  "timestamp": "TZ"
 }
 ```

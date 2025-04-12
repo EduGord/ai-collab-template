@@ -2,7 +2,7 @@
   "event": "regenerate-system-snapshot",
   "agent": "docbot",
   "trigger": "schema-validation milestone pass 3",
-  "timestamp": "2025-04-12T19:10:00Z",
+  "timestamp": "TZ",
   "routine": "regenerate-system-snapshot",
   "outputs": [
     "docs/system-snapshot.md",

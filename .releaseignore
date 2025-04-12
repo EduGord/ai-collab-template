@@ -1,0 +1,20 @@
+# Volatile runtime data
+logs/
+sandbox/
+runtime/shared_memory/
+evaluation-results/
+diary/
+agent-messages/
+feedback-cards/
+
+# Dev artifacts
+*.bak
+*.tmp
+*.log
+
+# LLM traces
+realtime_llm_output.md
+realtime_llm_prompt.txt
+
+# Legacy or backup states
+archive/

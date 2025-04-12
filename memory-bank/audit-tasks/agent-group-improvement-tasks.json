@@ -135,28 +135,28 @@
   {
     "agent": "realtime-llm-agent",
     "task": "fix-cli-system",
-    "timestamp": "2025-04-08T01:46:54.559643Z",
+    "timestamp": "T.559643Z",
     "action": "initiated with strict framework enforcement",
     "notes": "CLI improvement process tracked under resilience-hardening-v1.json"
   },
   {
     "agent": "realtime-llm-agent",
     "task": "cli-helper-guide",
-    "timestamp": "2025-04-08T01:48:37.623814Z",
+    "timestamp": "T.623814Z",
     "action": "executed",
     "notes": "Create CLI onboarding helper guide"
   },
   {
     "agent": "realtime-llm-agent",
     "task": "cli-usecase-tests",
-    "timestamp": "2025-04-08T01:48:37.624041Z",
+    "timestamp": "T.624041Z",
     "action": "executed",
     "notes": "Add simulated CLI test cases based on common use"
   },
   {
     "agent": "realtime-llm-agent",
     "task": "cli-ux-polish",
-    "timestamp": "2025-04-08T01:48:37.624616Z",
+    "timestamp": "T.624616Z",
     "action": "executed",
     "notes": "Polish CLI UX and CLI prompt logic"
   }

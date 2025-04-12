@@ -10,7 +10,7 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:50:15.050024"
+    "timestamp": "T.050024"
   },
   {
     "task_id": "fix-615ef2a1",
@@ -23,7 +23,7 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:50:15.050508"
+    "timestamp": "T.050508"
   },
   {
     "task_id": "fix-3e8f80de",
@@ -36,7 +36,7 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:50:15.050982"
+    "timestamp": "T.050982"
   },
   {
     "task_id": "fix-7289ba2d",
@@ -49,6 +49,6 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:50:15.051080"
+    "timestamp": "T.051080"
   }
 ]

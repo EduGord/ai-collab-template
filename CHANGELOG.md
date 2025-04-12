@@ -1,6 +1,6 @@
 # 📦 Changelog – AI-Collab Template
 
-## [v0.29.0-pre] – 2025-04-12
+## [v0.29.0-pre] – 
 
 ### ✨ Added
 - Resilience audit summary (`system-resilience-audit-summary.md`)

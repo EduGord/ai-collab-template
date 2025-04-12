@@ -1,7 +1,7 @@
 [
   {
     "version": "v1.3",
-    "timestamp": "2025-04-06T16:38:38.874580",
+    "timestamp": "T.874580",
     "summary": "Full refinement completed. Canonical models, agent specs, routines, pipelines, and documentation updated and abstracted from corrida-poc.",
     "actions": [
       "Updated all agent identities and checklists",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "timestamp": "2025-04-07T05:23:03.207225",
+    "timestamp": "T.207225",
     "author": "realtime-llm-assistant",
     "event": "Executed and completed all pending tasks using smart agent assignment.",
     "log_ref": "logs/executions/live-llm-task-execution.json",

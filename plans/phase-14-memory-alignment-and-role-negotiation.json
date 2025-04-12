@@ -4,7 +4,7 @@
   "description": "This phase builds deep long-term coordination across agents by merging memory cores, resolving overlapping strategies, and inferring mission alignment.",
   "status": "planning",
   "initiated_by": "Framework OrchestratorGPT",
-  "timestamp": "2025-04-12T16:53:44.099599",
+  "timestamp": "T.099599",
   "objectives": [
     "Design memory fusion mechanism between overlapping agents",
     "Unify strategic intent heuristics for roadmap and task goals",
@@ -38,7 +38,7 @@
         "delete",
         "organize"
       ],
-      "timestamp": "2025-04-12T16:56:53.278046"
+      "timestamp": "T.278046"
     }
   ]
 }

@@ -6,9 +6,9 @@
     "status": "assigned",
     "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
     "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
-    "timestamp": "2025-04-12T07:18:22.940377",
+    "timestamp": "T.940377",
     "assigned_to": "schemaenforcer",
-    "assignment_timestamp": "2025-04-12T07:31:02.243349"
+    "assignment_timestamp": "T.243349"
   },
   {
     "roadmap_id": "resolved-tbd-002",
@@ -17,9 +17,9 @@
     "status": "assigned",
     "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
     "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
-    "timestamp": "2025-04-12T07:18:22.940436",
+    "timestamp": "T.940436",
     "assigned_to": "tasking-agent",
-    "assignment_timestamp": "2025-04-12T07:31:02.243407"
+    "assignment_timestamp": "T.243407"
   },
   {
     "roadmap_id": "resolved-tbd-003",
@@ -28,9 +28,9 @@
     "status": "assigned",
     "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
     "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
-    "timestamp": "2025-04-12T07:18:22.940448",
+    "timestamp": "T.940448",
     "assigned_to": "schemaenforcer",
-    "assignment_timestamp": "2025-04-12T07:31:02.243419"
+    "assignment_timestamp": "T.243419"
   },
   {
     "roadmap_id": "resolved-tbd-004",
@@ -39,9 +39,9 @@
     "status": "assigned",
     "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
     "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
-    "timestamp": "2025-04-12T07:18:22.940456",
+    "timestamp": "T.940456",
     "assigned_to": "tasking-agent",
-    "assignment_timestamp": "2025-04-12T07:31:02.243431"
+    "assignment_timestamp": "T.243431"
   },
   {
     "roadmap_id": "resolved-tbd-005",
@@ -50,8 +50,8 @@
     "status": "assigned",
     "description": "Follow-up on resolved-tbd task and document scope for planner integration.",
     "linked_log": "logs/executions/planner-review-resolved-tbd-log.json",
-    "timestamp": "2025-04-12T07:18:22.940463",
+    "timestamp": "T.940463",
     "assigned_to": "schemaenforcer",
-    "assignment_timestamp": "2025-04-12T07:31:02.243442"
+    "assignment_timestamp": "T.243442"
   }
 ]

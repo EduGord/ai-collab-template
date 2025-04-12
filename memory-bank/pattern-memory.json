@@ -11,13 +11,13 @@
       "recommendedFix": "add active-context awareness in all agent checklists"
     }
   ],
-  "lastUpdated": "2025-04-06T20:45:00Z",
+  "lastUpdated": "TZ",
   "log_snapshot": {
     "summary": {
       "memory_logs": 13,
       "agent_logs": 27
     },
-    "last_sync": "2025-04-08T01:45:18.579574Z"
+    "last_sync": "T.579574Z"
   },
   "logging_policy_enforced": {
     "enforced": true,

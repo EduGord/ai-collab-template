@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-04-06T18:00:00Z",
+  "timestamp": "TZ",
   "task": "Phase 9 boot",
   "preTaskThought": "This upgrade improves goal planning fidelity.",
   "postTaskReflection": "Successfully linked goal-tree to planner logic."

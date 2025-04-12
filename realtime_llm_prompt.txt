@@ -1,8 +1,0 @@
-# Prompt Channel – LLM Input Trigger
-
-This file is read by the `realtime-llm-assistant` agent. Use it to:
-- Submit plans, requests, summaries
-- Reference task metadata (id, priority, description)
-- Trigger schema, forecast, or feedback routines
-
-[Format: JSON blocks or Markdown proposals]

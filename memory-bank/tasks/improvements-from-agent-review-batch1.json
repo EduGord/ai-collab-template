@@ -10,7 +10,7 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:45:43.403526"
+    "timestamp": "T.403526"
   },
   {
     "task_id": "fix-79ac487b",
@@ -23,7 +23,7 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:45:43.404200"
+    "timestamp": "T.404200"
   },
   {
     "task_id": "fix-ee963dc2",
@@ -36,7 +36,7 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:45:43.404451"
+    "timestamp": "T.404451"
   },
   {
     "task_id": "fix-d2dbd4d5",
@@ -49,7 +49,7 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:45:43.404754"
+    "timestamp": "T.404754"
   },
   {
     "task_id": "fix-6e63d9d2",
@@ -62,7 +62,7 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:45:43.404871"
+    "timestamp": "T.404871"
   },
   {
     "task_id": "fix-1849e862",
@@ -75,6 +75,6 @@
       "identity-upgrade",
       "checklist-fix"
     ],
-    "timestamp": "2025-04-12T07:45:43.404991"
+    "timestamp": "T.404991"
   }
 ]

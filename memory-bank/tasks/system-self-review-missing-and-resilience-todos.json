@@ -10,7 +10,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:25:08.810406"
+    "timestamp": "T.810406"
   },
   {
     "task_id": "fix-14072d0f",
@@ -23,7 +23,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:25:08.810745"
+    "timestamp": "T.810745"
   },
   {
     "task_id": "fix-dee21530",
@@ -36,7 +36,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:25:08.810964"
+    "timestamp": "T.810964"
   },
   {
     "task_id": "fix-24be84db",
@@ -49,6 +49,6 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:25:08.811221"
+    "timestamp": "T.811221"
   }
 ]

@@ -1,9 +1,0 @@
-{
-  "from": "planner-agent",
-  "to": "tasking-agent",
-  "intent": "coordinate-task",
-  "payload": {
-    "message": "Let's collaborate on plan review."
-  },
-  "linkedTask": null
-}

@@ -1,89 +1,89 @@
 {
   "project": "running-plan-v1",
-  "lastUpdated": "2025-03-29T07:56:13.603566Z",
+  "lastUpdated": "T.603566Z",
   "files": [
     {
       "file": "schemas/form-schema.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "schemas/validation-schema.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "schemas/running-plan-form.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "schemas/running-plan-validation-rules.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "spec/context-spec.md",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "spec/frontend-implementation-spec.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "spec/global-guidelines.md",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "spec/evolution-proposals.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "spec/logs-schema.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "project-todo.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "agents-spec/training-agent/checklists/checklist-index.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "agents-spec/training-agent/identity.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "agents-spec/dev-agent/identity.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     },
     {
       "file": "agents-spec/frontend-agent/identity.json",
       "version": "1.0.0",
-      "updatedAt": "2025-03-29T07:56:13.603566Z",
+      "updatedAt": "T.603566Z",
       "status": "stable"
     }
   ],

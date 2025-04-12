@@ -10,7 +10,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T16:53:44.098484"
+    "timestamp": "T.098484"
   },
   {
     "task_id": "fix-716b5e71",
@@ -23,7 +23,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T16:53:44.099121"
+    "timestamp": "T.099121"
   },
   {
     "task_id": "fix-6a259717",
@@ -36,6 +36,6 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T16:53:44.099299"
+    "timestamp": "T.099299"
   }
 ]

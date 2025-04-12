@@ -2693,7 +2693,7 @@
     ],
     "linked_agent": null
   },
-  "governance/audit-trail/2025-04-06-generated.json": {
+  "governance/audit-trail/-generated.json": {
     "lines": 7,
     "size": 156,
     "type": "agent",

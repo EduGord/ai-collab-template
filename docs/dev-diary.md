@@ -397,7 +397,7 @@ description: Auto-generated routing metadata
 - 🧭 Patched metadata in: `evaluation-results/bootstrap/eval.json`
 - 🧭 Patched metadata in: `forecasts/bootstrap-agent/timeline-memory.json`
 - 🧭 Patched metadata in: `governance/lifecycle-policy.json`
-- 🧭 Patched metadata in: `governance/audit-trail/2025-04-06-generated.json`
+- 🧭 Patched metadata in: `governance/audit-trail/-generated.json`
 - 🧭 Patched metadata in: `sandbox/sandbox-controller.json`
 - 🧭 Patched metadata in: `sandbox/sandbox-simulations.json`
 - 🧭 Patched metadata in: `framework/checklists/docs-restructure-checklist.md`
@@ -521,7 +521,7 @@ description: Auto-generated routing metadata
 - tasks_dir: ✅
 - metadata_completeness: ❌
 
-## [Resilience Cycle - 2025-04-07T00:05:19.318893]
+## [Resilience Cycle - T.318893]
 - Rebound memory task to file: task-tbd
 - Rebound memory task to file: task-tbd
 - Rebound memory task to file: task-tbd

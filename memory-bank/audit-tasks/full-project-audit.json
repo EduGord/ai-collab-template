@@ -2,7 +2,7 @@
   "taskId": "MB-FULL-AUDIT-001",
   "title": "Audit Project Tree for Broken Links, Missing Docs, and Stale Content",
   "summary": "Scanned entire project for unresolved references, empty or outdated files. Logged all to memory.",
-  "timestamp": "2025-04-06T21:30:00Z",
+  "timestamp": "TZ",
   "missingReferences": [
     "schemas/canonical-agent-instances.json",
     "schemas/canonical-agent-instances.json"

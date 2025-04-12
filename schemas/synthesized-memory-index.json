@@ -5,7 +5,7 @@
     "size": 358,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750088Z"
+    "last_synced": "T.750088Z"
   },
   {
     "path": "agent-registry.json",
@@ -13,7 +13,7 @@
     "size": 2950,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750141Z"
+    "last_synced": "T.750141Z"
   },
   {
     "path": "AGENT_LOG.md",
@@ -21,7 +21,7 @@
     "size": 28516,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750590Z"
+    "last_synced": "T.750590Z"
   },
   {
     "path": "AUTO-ONBOARD.md",
@@ -29,7 +29,7 @@
     "size": 1630,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750623Z"
+    "last_synced": "T.750623Z"
   },
   {
     "path": "changelog-agent.json",
@@ -37,7 +37,7 @@
     "size": 578,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750631Z"
+    "last_synced": "T.750631Z"
   },
   {
     "path": "collab-etiquette.md",
@@ -45,7 +45,7 @@
     "size": 218,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750637Z"
+    "last_synced": "T.750637Z"
   },
   {
     "path": "consensus-engine.json",
@@ -53,7 +53,7 @@
     "size": 217,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750643Z"
+    "last_synced": "T.750643Z"
   },
   {
     "path": "debate-protocol.json",
@@ -61,7 +61,7 @@
     "size": 106,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750653Z"
+    "last_synced": "T.750653Z"
   },
   {
     "path": "delegation-protocol.json",
@@ -69,7 +69,7 @@
     "size": 140,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750661Z"
+    "last_synced": "T.750661Z"
   },
   {
     "path": "eval-hooks.json",
@@ -77,7 +77,7 @@
     "size": 224,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750668Z"
+    "last_synced": "T.750668Z"
   },
   {
     "path": "external-agent-descriptors.json",
@@ -85,7 +85,7 @@
     "size": 193,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750675Z"
+    "last_synced": "T.750675Z"
   },
   {
     "path": "failsafe-agent.json",
@@ -93,7 +93,7 @@
     "size": 196,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750682Z"
+    "last_synced": "T.750682Z"
   },
   {
     "path": "feedback-integrator-agent.json",
@@ -101,7 +101,7 @@
     "size": 300,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750688Z"
+    "last_synced": "T.750688Z"
   },
   {
     "path": "feedback-propagation.json",
@@ -109,7 +109,7 @@
     "size": 164,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750693Z"
+    "last_synced": "T.750693Z"
   },
   {
     "path": "goal-tree.json",
@@ -117,7 +117,7 @@
     "size": 644,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750699Z"
+    "last_synced": "T.750699Z"
   },
   {
     "path": "human-feedback.json",
@@ -125,7 +125,7 @@
     "size": 115,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750704Z"
+    "last_synced": "T.750704Z"
   },
   {
     "path": "llm-capabilities.json",
@@ -133,7 +133,7 @@
     "size": 265,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750708Z"
+    "last_synced": "T.750708Z"
   },
   {
     "path": "manual-mode.md",
@@ -141,7 +141,7 @@
     "size": 209,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.750713Z"
+    "last_synced": "T.750713Z"
   },
   {
     "path": "memory_bank.archived.json",
@@ -149,7 +149,7 @@
     "size": 3216,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751126Z"
+    "last_synced": "T.751126Z"
   },
   {
     "path": "memory_bank.json",
@@ -157,7 +157,7 @@
     "size": 13152,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751233Z"
+    "last_synced": "T.751233Z"
   },
   {
     "path": "override-rules.json",
@@ -165,7 +165,7 @@
     "size": 179,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751242Z"
+    "last_synced": "T.751242Z"
   },
   {
     "path": "performance-milestones.json",
@@ -173,7 +173,7 @@
     "size": 90,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751247Z"
+    "last_synced": "T.751247Z"
   },
   {
     "path": "persona-guide.json",
@@ -181,7 +181,7 @@
     "size": 232,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751252Z"
+    "last_synced": "T.751252Z"
   },
   {
     "path": "pipeline-playground.md",
@@ -189,7 +189,7 @@
     "size": 177,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751256Z"
+    "last_synced": "T.751256Z"
   },
   {
     "path": "prompt-replay.json",
@@ -197,7 +197,7 @@
     "size": 267,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751261Z"
+    "last_synced": "T.751261Z"
   },
   {
     "path": "realtime_llm_output.md",
@@ -205,7 +205,7 @@
     "size": 589,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751267Z"
+    "last_synced": "T.751267Z"
   },
   {
     "path": "realtime_llm_prompt.txt",
@@ -213,7 +213,7 @@
     "size": 290,
     "type": "txt",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751273Z"
+    "last_synced": "T.751273Z"
   },
   {
     "path": "task-graph-agent-srp-cleanup.json",
@@ -221,7 +221,7 @@
     "size": 376,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751279Z"
+    "last_synced": "T.751279Z"
   },
   {
     "path": "task-graph-feature-audit.json",
@@ -229,7 +229,7 @@
     "size": 302,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751285Z"
+    "last_synced": "T.751285Z"
   },
   {
     "path": "task-graph-final-audit-fix.json",
@@ -237,7 +237,7 @@
     "size": 384,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751290Z"
+    "last_synced": "T.751290Z"
   },
   {
     "path": "task-graph-fine-tune.json",
@@ -245,7 +245,7 @@
     "size": 764,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751296Z"
+    "last_synced": "T.751296Z"
   },
   {
     "path": "task-graph-fix-content.json",
@@ -253,7 +253,7 @@
     "size": 471,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751302Z"
+    "last_synced": "T.751302Z"
   },
   {
     "path": "task-graph-reuse.json",
@@ -261,7 +261,7 @@
     "size": 323,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751307Z"
+    "last_synced": "T.751307Z"
   },
   {
     "path": "task-graph-system-resilience.json",
@@ -269,7 +269,7 @@
     "size": 825,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751314Z"
+    "last_synced": "T.751314Z"
   },
   {
     "path": "task-graph.json",
@@ -277,7 +277,7 @@
     "size": 500,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751320Z"
+    "last_synced": "T.751320Z"
   },
   {
     "path": "tasks.json",
@@ -285,7 +285,7 @@
     "size": 1028,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751327Z"
+    "last_synced": "T.751327Z"
   },
   {
     "path": "agent-messages/audit-agent/inbox/message-001.json",
@@ -293,7 +293,7 @@
     "size": 176,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751333Z"
+    "last_synced": "T.751333Z"
   },
   {
     "path": "agent-messages/audit-agent/outbox/message-002.json",
@@ -301,7 +301,7 @@
     "size": 177,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751338Z"
+    "last_synced": "T.751338Z"
   },
   {
     "path": "agent-messages/bootstrap-agent/inbox/message-001.json",
@@ -309,7 +309,7 @@
     "size": 180,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751342Z"
+    "last_synced": "T.751342Z"
   },
   {
     "path": "agent-messages/bootstrap-agent/inbox/sample-message.json",
@@ -317,7 +317,7 @@
     "size": 123,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751348Z"
+    "last_synced": "T.751348Z"
   },
   {
     "path": "agent-messages/bootstrap-agent/outbox/message-002.json",
@@ -325,7 +325,7 @@
     "size": 181,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751363Z"
+    "last_synced": "T.751363Z"
   },
   {
     "path": "agent-messages/evolve-agent/inbox/message-001.json",
@@ -333,7 +333,7 @@
     "size": 177,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751368Z"
+    "last_synced": "T.751368Z"
   },
   {
     "path": "agent-messages/evolve-agent/outbox/message-002.json",
@@ -341,7 +341,7 @@
     "size": 178,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751372Z"
+    "last_synced": "T.751372Z"
   },
   {
     "path": "agent-messages/orchestrator-agent/inbox/message-001.json",
@@ -349,7 +349,7 @@
     "size": 183,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751376Z"
+    "last_synced": "T.751376Z"
   },
   {
     "path": "agent-messages/orchestrator-agent/outbox/message-002.json",
@@ -357,7 +357,7 @@
     "size": 184,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751381Z"
+    "last_synced": "T.751381Z"
   },
   {
     "path": "agent-messages/planner-agent/inbox/message-001.json",
@@ -365,7 +365,7 @@
     "size": 178,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751385Z"
+    "last_synced": "T.751385Z"
   },
   {
     "path": "agent-messages/planner-agent/outbox/message-002.json",
@@ -373,7 +373,7 @@
     "size": 179,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751389Z"
+    "last_synced": "T.751389Z"
   },
   {
     "path": "agent-messages/proposal-review-agent/inbox/message-001.json",
@@ -381,7 +381,7 @@
     "size": 186,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751394Z"
+    "last_synced": "T.751394Z"
   },
   {
     "path": "agent-messages/proposal-review-agent/outbox/message-002.json",
@@ -389,7 +389,7 @@
     "size": 187,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751399Z"
+    "last_synced": "T.751399Z"
   },
   {
     "path": "agent-messages/recovery-agent/inbox/message-001.json",
@@ -397,7 +397,7 @@
     "size": 179,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751403Z"
+    "last_synced": "T.751403Z"
   },
   {
     "path": "agent-messages/recovery-agent/outbox/message-002.json",
@@ -405,7 +405,7 @@
     "size": 180,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751407Z"
+    "last_synced": "T.751407Z"
   },
   {
     "path": "agent-messages/router-agent/inbox/message-001.json",
@@ -413,7 +413,7 @@
     "size": 177,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751411Z"
+    "last_synced": "T.751411Z"
   },
   {
     "path": "agent-messages/router-agent/outbox/message-002.json",
@@ -421,7 +421,7 @@
     "size": 178,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751416Z"
+    "last_synced": "T.751416Z"
   },
   {
     "path": "agent-messages/tasking-agent/inbox/message-001.json",
@@ -429,7 +429,7 @@
     "size": 178,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751420Z"
+    "last_synced": "T.751420Z"
   },
   {
     "path": "agent-messages/tasking-agent/outbox/message-002.json",
@@ -437,7 +437,7 @@
     "size": 179,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751424Z"
+    "last_synced": "T.751424Z"
   },
   {
     "path": "agents-spec/audit-agent/agent-ledger.json",
@@ -445,7 +445,7 @@
     "size": 174,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751429Z"
+    "last_synced": "T.751429Z"
   },
   {
     "path": "agents-spec/audit-agent/agent-metadata.json",
@@ -453,7 +453,7 @@
     "size": 351,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751435Z"
+    "last_synced": "T.751435Z"
   },
   {
     "path": "agents-spec/audit-agent/agent-state.json",
@@ -461,7 +461,7 @@
     "size": 105,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751440Z"
+    "last_synced": "T.751440Z"
   },
   {
     "path": "agents-spec/audit-agent/checklist.json",
@@ -469,7 +469,7 @@
     "size": 531,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751445Z"
+    "last_synced": "T.751445Z"
   },
   {
     "path": "agents-spec/audit-agent/heuristics.json",
@@ -477,7 +477,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751451Z"
+    "last_synced": "T.751451Z"
   },
   {
     "path": "agents-spec/audit-agent/identity.json",
@@ -485,7 +485,7 @@
     "size": 277,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751455Z"
+    "last_synced": "T.751455Z"
   },
   {
     "path": "agents-spec/audit-agent/lifecycle.json",
@@ -493,7 +493,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751460Z"
+    "last_synced": "T.751460Z"
   },
   {
     "path": "agents-spec/audit-agent/ux-profile.json",
@@ -501,7 +501,7 @@
     "size": 176,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751464Z"
+    "last_synced": "T.751464Z"
   },
   {
     "path": "agents-spec/audit-agent/reflections/sample.json",
@@ -509,7 +509,7 @@
     "size": 162,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751468Z"
+    "last_synced": "T.751468Z"
   },
   {
     "path": "agents-spec/audit-agent/reflections/reasoning-logs/init-reflection.json",
@@ -517,7 +517,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751473Z"
+    "last_synced": "T.751473Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/agent-ledger.json",
@@ -525,7 +525,7 @@
     "size": 174,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751477Z"
+    "last_synced": "T.751477Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/agent-metadata.json",
@@ -533,7 +533,7 @@
     "size": 355,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751482Z"
+    "last_synced": "T.751482Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/agent-state.json",
@@ -541,7 +541,7 @@
     "size": 164,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751486Z"
+    "last_synced": "T.751486Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/checklist.json",
@@ -549,7 +549,7 @@
     "size": 180,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751490Z"
+    "last_synced": "T.751490Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/heuristics.json",
@@ -557,7 +557,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751495Z"
+    "last_synced": "T.751495Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/identity.json",
@@ -565,7 +565,7 @@
     "size": 180,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751498Z"
+    "last_synced": "T.751498Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/lifecycle.json",
@@ -573,7 +573,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751502Z"
+    "last_synced": "T.751502Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/ux-profile.json",
@@ -581,7 +581,7 @@
     "size": 205,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751508Z"
+    "last_synced": "T.751508Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/reflections/sample.json",
@@ -589,7 +589,7 @@
     "size": 226,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751513Z"
+    "last_synced": "T.751513Z"
   },
   {
     "path": "agents-spec/bootstrap-agent/reflections/reasoning-logs/init-reflection.json",
@@ -597,7 +597,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751517Z"
+    "last_synced": "T.751517Z"
   },
   {
     "path": "agents-spec/evolve-agent/agent-ledger.json",
@@ -605,7 +605,7 @@
     "size": 174,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751521Z"
+    "last_synced": "T.751521Z"
   },
   {
     "path": "agents-spec/evolve-agent/agent-metadata.json",
@@ -613,7 +613,7 @@
     "size": 352,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751527Z"
+    "last_synced": "T.751527Z"
   },
   {
     "path": "agents-spec/evolve-agent/agent-state.json",
@@ -621,7 +621,7 @@
     "size": 106,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751531Z"
+    "last_synced": "T.751531Z"
   },
   {
     "path": "agents-spec/evolve-agent/checklist.json",
@@ -629,7 +629,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751536Z"
+    "last_synced": "T.751536Z"
   },
   {
     "path": "agents-spec/evolve-agent/heuristics.json",
@@ -637,7 +637,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751541Z"
+    "last_synced": "T.751541Z"
   },
   {
     "path": "agents-spec/evolve-agent/identity.json",
@@ -645,7 +645,7 @@
     "size": 236,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751545Z"
+    "last_synced": "T.751545Z"
   },
   {
     "path": "agents-spec/evolve-agent/lifecycle.json",
@@ -653,7 +653,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751550Z"
+    "last_synced": "T.751550Z"
   },
   {
     "path": "agents-spec/evolve-agent/ux-profile.json",
@@ -661,7 +661,7 @@
     "size": 177,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751554Z"
+    "last_synced": "T.751554Z"
   },
   {
     "path": "agents-spec/evolve-agent/reflections/routine-gap-detection.json",
@@ -669,7 +669,7 @@
     "size": 245,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751559Z"
+    "last_synced": "T.751559Z"
   },
   {
     "path": "agents-spec/evolve-agent/reflections/sample.json",
@@ -677,7 +677,7 @@
     "size": 163,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751563Z"
+    "last_synced": "T.751563Z"
   },
   {
     "path": "agents-spec/evolve-agent/reflections/self-introspection.json",
@@ -685,7 +685,7 @@
     "size": 318,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751567Z"
+    "last_synced": "T.751567Z"
   },
   {
     "path": "agents-spec/evolve-agent/reflections/self-review-hook.json",
@@ -693,7 +693,7 @@
     "size": 243,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751572Z"
+    "last_synced": "T.751572Z"
   },
   {
     "path": "agents-spec/evolve-agent/reflections/system-evolve-cycle.json",
@@ -701,7 +701,7 @@
     "size": 243,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751576Z"
+    "last_synced": "T.751576Z"
   },
   {
     "path": "agents-spec/evolve-agent/reflections/reasoning-logs/init-reflection.json",
@@ -709,7 +709,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751581Z"
+    "last_synced": "T.751581Z"
   },
   {
     "path": "agents-spec/logger-agent/agent-ledger.json",
@@ -717,7 +717,7 @@
     "size": 77,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751586Z"
+    "last_synced": "T.751586Z"
   },
   {
     "path": "agents-spec/logger-agent/agent-metadata.json",
@@ -725,7 +725,7 @@
     "size": 168,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751590Z"
+    "last_synced": "T.751590Z"
   },
   {
     "path": "agents-spec/logger-agent/agent-state.json",
@@ -733,7 +733,7 @@
     "size": 106,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751594Z"
+    "last_synced": "T.751594Z"
   },
   {
     "path": "agents-spec/logger-agent/checklist.json",
@@ -741,7 +741,7 @@
     "size": 359,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751599Z"
+    "last_synced": "T.751599Z"
   },
   {
     "path": "agents-spec/logger-agent/heuristics.json",
@@ -749,7 +749,7 @@
     "size": 287,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751604Z"
+    "last_synced": "T.751604Z"
   },
   {
     "path": "agents-spec/logger-agent/identity.json",
@@ -757,7 +757,7 @@
     "size": 517,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751609Z"
+    "last_synced": "T.751609Z"
   },
   {
     "path": "agents-spec/logger-agent/lifecycle.json",
@@ -765,7 +765,7 @@
     "size": 107,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751614Z"
+    "last_synced": "T.751614Z"
   },
   {
     "path": "agents-spec/logger-agent/ux-profile.json",
@@ -773,7 +773,7 @@
     "size": 177,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751619Z"
+    "last_synced": "T.751619Z"
   },
   {
     "path": "agents-spec/logger-agent/reflections/sample.json",
@@ -781,7 +781,7 @@
     "size": 163,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751623Z"
+    "last_synced": "T.751623Z"
   },
   {
     "path": "agents-spec/logger-agent/reflections/reasoning-logs/init-reflection.json",
@@ -789,7 +789,7 @@
     "size": 225,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751627Z"
+    "last_synced": "T.751627Z"
   },
   {
     "path": "agents-spec/meta-agent/agent-ledger.json",
@@ -797,7 +797,7 @@
     "size": 75,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751632Z"
+    "last_synced": "T.751632Z"
   },
   {
     "path": "agents-spec/meta-agent/agent-metadata.json",
@@ -805,7 +805,7 @@
     "size": 164,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751636Z"
+    "last_synced": "T.751636Z"
   },
   {
     "path": "agents-spec/meta-agent/agent-state.json",
@@ -813,7 +813,7 @@
     "size": 104,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751640Z"
+    "last_synced": "T.751640Z"
   },
   {
     "path": "agents-spec/meta-agent/lifecycle.json",
@@ -821,7 +821,7 @@
     "size": 105,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751644Z"
+    "last_synced": "T.751644Z"
   },
   {
     "path": "agents-spec/meta-agent/ux-profile.json",
@@ -829,7 +829,7 @@
     "size": 175,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751649Z"
+    "last_synced": "T.751649Z"
   },
   {
     "path": "agents-spec/meta-agent/reflections/mentor-review-001.json",
@@ -837,7 +837,7 @@
     "size": 386,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751668Z"
+    "last_synced": "T.751668Z"
   },
   {
     "path": "agents-spec/meta-agent/reflections/sample.json",
@@ -845,7 +845,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751675Z"
+    "last_synced": "T.751675Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/agent-ledger.json",
@@ -853,7 +853,7 @@
     "size": 174,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751682Z"
+    "last_synced": "T.751682Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/agent-metadata.json",
@@ -861,7 +861,7 @@
     "size": 358,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751689Z"
+    "last_synced": "T.751689Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/agent-state.json",
@@ -869,7 +869,7 @@
     "size": 112,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751696Z"
+    "last_synced": "T.751696Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/checklist.json",
@@ -877,7 +877,7 @@
     "size": 170,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751702Z"
+    "last_synced": "T.751702Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/heuristics.json",
@@ -885,7 +885,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751709Z"
+    "last_synced": "T.751709Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/identity.json",
@@ -893,7 +893,7 @@
     "size": 287,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751716Z"
+    "last_synced": "T.751716Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/lifecycle.json",
@@ -901,7 +901,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751720Z"
+    "last_synced": "T.751720Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/root-meta-collab.checklist.json",
@@ -909,7 +909,7 @@
     "size": 420,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751725Z"
+    "last_synced": "T.751725Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/root-meta-collab.identity.json",
@@ -917,7 +917,7 @@
     "size": 615,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751731Z"
+    "last_synced": "T.751731Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/ux-profile.json",
@@ -925,7 +925,7 @@
     "size": 183,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751735Z"
+    "last_synced": "T.751735Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/checklists/core-checklist.json",
@@ -933,7 +933,7 @@
     "size": 832,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751741Z"
+    "last_synced": "T.751741Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/reflections/root-prompt-reflection.json",
@@ -941,7 +941,7 @@
     "size": 519,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751746Z"
+    "last_synced": "T.751746Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/reflections/sample.json",
@@ -949,7 +949,7 @@
     "size": 169,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751750Z"
+    "last_synced": "T.751750Z"
   },
   {
     "path": "agents-spec/orchestrator-agent/reflections/reasoning-logs/init-reflection.json",
@@ -957,7 +957,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751755Z"
+    "last_synced": "T.751755Z"
   },
   {
     "path": "agents-spec/org-agent/agent-ledger.json",
@@ -965,7 +965,7 @@
     "size": 50,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751758Z"
+    "last_synced": "T.751758Z"
   },
   {
     "path": "agents-spec/org-agent/agent-metadata.json",
@@ -973,7 +973,7 @@
     "size": 355,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751763Z"
+    "last_synced": "T.751763Z"
   },
   {
     "path": "agents-spec/org-agent/agent-state.json",
@@ -981,7 +981,7 @@
     "size": 79,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751767Z"
+    "last_synced": "T.751767Z"
   },
   {
     "path": "agents-spec/org-agent/checklist.json",
@@ -989,7 +989,7 @@
     "size": 328,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751771Z"
+    "last_synced": "T.751771Z"
   },
   {
     "path": "agents-spec/org-agent/heuristics.json",
@@ -997,7 +997,7 @@
     "size": 375,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751775Z"
+    "last_synced": "T.751775Z"
   },
   {
     "path": "agents-spec/org-agent/identity.json",
@@ -1005,7 +1005,7 @@
     "size": 632,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751780Z"
+    "last_synced": "T.751780Z"
   },
   {
     "path": "agents-spec/org-agent/lifecycle.json",
@@ -1013,7 +1013,7 @@
     "size": 80,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751785Z"
+    "last_synced": "T.751785Z"
   },
   {
     "path": "agents-spec/org-agent/ux-profile.json",
@@ -1021,7 +1021,7 @@
     "size": 168,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751788Z"
+    "last_synced": "T.751788Z"
   },
   {
     "path": "agents-spec/org-agent/reflections/sample.json",
@@ -1029,7 +1029,7 @@
     "size": 133,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751792Z"
+    "last_synced": "T.751792Z"
   },
   {
     "path": "agents-spec/org-agent/reflections/reasoning-logs/init-reflection.json",
@@ -1037,7 +1037,7 @@
     "size": 295,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751806Z"
+    "last_synced": "T.751806Z"
   },
   {
     "path": "agents-spec/planner-agent/agent-ledger.json",
@@ -1045,7 +1045,7 @@
     "size": 174,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751810Z"
+    "last_synced": "T.751810Z"
   },
   {
     "path": "agents-spec/planner-agent/agent-metadata.json",
@@ -1053,7 +1053,7 @@
     "size": 353,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751815Z"
+    "last_synced": "T.751815Z"
   },
   {
     "path": "agents-spec/planner-agent/agent-state.json",
@@ -1061,7 +1061,7 @@
     "size": 107,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751819Z"
+    "last_synced": "T.751819Z"
   },
   {
     "path": "agents-spec/planner-agent/checklist.json",
@@ -1069,7 +1069,7 @@
     "size": 191,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751823Z"
+    "last_synced": "T.751823Z"
   },
   {
     "path": "agents-spec/planner-agent/heuristics.json",
@@ -1077,7 +1077,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751827Z"
+    "last_synced": "T.751827Z"
   },
   {
     "path": "agents-spec/planner-agent/identity.json",
@@ -1085,7 +1085,7 @@
     "size": 268,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751832Z"
+    "last_synced": "T.751832Z"
   },
   {
     "path": "agents-spec/planner-agent/lifecycle.json",
@@ -1093,7 +1093,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751836Z"
+    "last_synced": "T.751836Z"
   },
   {
     "path": "agents-spec/planner-agent/ux-profile.json",
@@ -1101,7 +1101,7 @@
     "size": 178,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751840Z"
+    "last_synced": "T.751840Z"
   },
   {
     "path": "agents-spec/planner-agent/checklists/core-checklist.json",
@@ -1109,7 +1109,7 @@
     "size": 484,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751845Z"
+    "last_synced": "T.751845Z"
   },
   {
     "path": "agents-spec/planner-agent/reflections/sample.json",
@@ -1117,7 +1117,7 @@
     "size": 164,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751850Z"
+    "last_synced": "T.751850Z"
   },
   {
     "path": "agents-spec/planner-agent/reflections/reasoning-logs/init-reflection.json",
@@ -1125,7 +1125,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751854Z"
+    "last_synced": "T.751854Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/agent-ledger.json",
@@ -1133,7 +1133,7 @@
     "size": 174,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751858Z"
+    "last_synced": "T.751858Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/agent-metadata.json",
@@ -1141,7 +1141,7 @@
     "size": 361,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751863Z"
+    "last_synced": "T.751863Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/agent-state.json",
@@ -1149,7 +1149,7 @@
     "size": 115,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751867Z"
+    "last_synced": "T.751867Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/checklist.json",
@@ -1157,7 +1157,7 @@
     "size": 189,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751871Z"
+    "last_synced": "T.751871Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/heuristics.json",
@@ -1165,7 +1165,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751876Z"
+    "last_synced": "T.751876Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/identity.json",
@@ -1173,7 +1173,7 @@
     "size": 300,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751880Z"
+    "last_synced": "T.751880Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/lifecycle.json",
@@ -1181,7 +1181,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751884Z"
+    "last_synced": "T.751884Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/ux-profile.json",
@@ -1189,7 +1189,7 @@
     "size": 186,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751888Z"
+    "last_synced": "T.751888Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/reflections/sample.json",
@@ -1197,7 +1197,7 @@
     "size": 172,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751893Z"
+    "last_synced": "T.751893Z"
   },
   {
     "path": "agents-spec/proposal-review-agent/reflections/reasoning-logs/init-reflection.json",
@@ -1205,7 +1205,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751897Z"
+    "last_synced": "T.751897Z"
   },
   {
     "path": "agents-spec/recovery-agent/agent-ledger.json",
@@ -1213,7 +1213,7 @@
     "size": 174,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751901Z"
+    "last_synced": "T.751901Z"
   },
   {
     "path": "agents-spec/recovery-agent/agent-metadata.json",
@@ -1221,7 +1221,7 @@
     "size": 354,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751905Z"
+    "last_synced": "T.751905Z"
   },
   {
     "path": "agents-spec/recovery-agent/agent-state.json",
@@ -1229,7 +1229,7 @@
     "size": 108,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751909Z"
+    "last_synced": "T.751909Z"
   },
   {
     "path": "agents-spec/recovery-agent/checklist.json",
@@ -1237,7 +1237,7 @@
     "size": 187,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751913Z"
+    "last_synced": "T.751913Z"
   },
   {
     "path": "agents-spec/recovery-agent/heuristics.json",
@@ -1245,7 +1245,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751918Z"
+    "last_synced": "T.751918Z"
   },
   {
     "path": "agents-spec/recovery-agent/identity.json",
@@ -1253,7 +1253,7 @@
     "size": 266,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751922Z"
+    "last_synced": "T.751922Z"
   },
   {
     "path": "agents-spec/recovery-agent/lifecycle.json",
@@ -1261,7 +1261,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751926Z"
+    "last_synced": "T.751926Z"
   },
   {
     "path": "agents-spec/recovery-agent/ux-profile.json",
@@ -1269,7 +1269,7 @@
     "size": 179,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751930Z"
+    "last_synced": "T.751930Z"
   },
   {
     "path": "agents-spec/recovery-agent/reflections/sample.json",
@@ -1277,7 +1277,7 @@
     "size": 165,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751934Z"
+    "last_synced": "T.751934Z"
   },
   {
     "path": "agents-spec/recovery-agent/reflections/reasoning-logs/init-reflection.json",
@@ -1285,7 +1285,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751939Z"
+    "last_synced": "T.751939Z"
   },
   {
     "path": "agents-spec/router-agent/agent-ledger.json",
@@ -1293,7 +1293,7 @@
     "size": 174,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751945Z"
+    "last_synced": "T.751945Z"
   },
   {
     "path": "agents-spec/router-agent/agent-metadata.json",
@@ -1301,7 +1301,7 @@
     "size": 352,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751952Z"
+    "last_synced": "T.751952Z"
   },
   {
     "path": "agents-spec/router-agent/agent-state.json",
@@ -1309,7 +1309,7 @@
     "size": 106,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751959Z"
+    "last_synced": "T.751959Z"
   },
   {
     "path": "agents-spec/router-agent/checklist.json",
@@ -1317,7 +1317,7 @@
     "size": 398,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751965Z"
+    "last_synced": "T.751965Z"
   },
   {
     "path": "agents-spec/router-agent/heuristics.json",
@@ -1325,7 +1325,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751973Z"
+    "last_synced": "T.751973Z"
   },
   {
     "path": "agents-spec/router-agent/identity.json",
@@ -1333,7 +1333,7 @@
     "size": 282,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751978Z"
+    "last_synced": "T.751978Z"
   },
   {
     "path": "agents-spec/router-agent/lifecycle.json",
@@ -1341,7 +1341,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751982Z"
+    "last_synced": "T.751982Z"
   },
   {
     "path": "agents-spec/router-agent/ux-profile.json",
@@ -1349,7 +1349,7 @@
     "size": 177,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751986Z"
+    "last_synced": "T.751986Z"
   },
   {
     "path": "agents-spec/router-agent/reflections/llm-session-router.json",
@@ -1357,7 +1357,7 @@
     "size": 249,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751991Z"
+    "last_synced": "T.751991Z"
   },
   {
     "path": "agents-spec/router-agent/reflections/sample.json",
@@ -1365,7 +1365,7 @@
     "size": 163,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751995Z"
+    "last_synced": "T.751995Z"
   },
   {
     "path": "agents-spec/router-agent/reflections/reasoning-logs/init-reflection.json",
@@ -1373,7 +1373,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.751999Z"
+    "last_synced": "T.751999Z"
   },
   {
     "path": "agents-spec/tasking-agent/agent-ledger.json",
@@ -1381,7 +1381,7 @@
     "size": 174,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752004Z"
+    "last_synced": "T.752004Z"
   },
   {
     "path": "agents-spec/tasking-agent/agent-metadata.json",
@@ -1389,7 +1389,7 @@
     "size": 353,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752009Z"
+    "last_synced": "T.752009Z"
   },
   {
     "path": "agents-spec/tasking-agent/agent-state.json",
@@ -1397,7 +1397,7 @@
     "size": 107,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752013Z"
+    "last_synced": "T.752013Z"
   },
   {
     "path": "agents-spec/tasking-agent/checklist.json",
@@ -1405,7 +1405,7 @@
     "size": 176,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752017Z"
+    "last_synced": "T.752017Z"
   },
   {
     "path": "agents-spec/tasking-agent/heuristics.json",
@@ -1413,7 +1413,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752021Z"
+    "last_synced": "T.752021Z"
   },
   {
     "path": "agents-spec/tasking-agent/identity.json",
@@ -1421,7 +1421,7 @@
     "size": 237,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752026Z"
+    "last_synced": "T.752026Z"
   },
   {
     "path": "agents-spec/tasking-agent/lifecycle.json",
@@ -1429,7 +1429,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752030Z"
+    "last_synced": "T.752030Z"
   },
   {
     "path": "agents-spec/tasking-agent/ux-profile.json",
@@ -1437,7 +1437,7 @@
     "size": 178,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752034Z"
+    "last_synced": "T.752034Z"
   },
   {
     "path": "agents-spec/tasking-agent/checklists/core-checklist.json",
@@ -1445,7 +1445,7 @@
     "size": 554,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752039Z"
+    "last_synced": "T.752039Z"
   },
   {
     "path": "agents-spec/tasking-agent/reflections/sample.json",
@@ -1453,7 +1453,7 @@
     "size": 164,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752044Z"
+    "last_synced": "T.752044Z"
   },
   {
     "path": "agents-spec/tasking-agent/reflections/reasoning-logs/init-reflection.json",
@@ -1461,7 +1461,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752049Z"
+    "last_synced": "T.752049Z"
   },
   {
     "path": "agents-spec/ux-agent/agent-ledger.json",
@@ -1469,7 +1469,7 @@
     "size": 73,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752055Z"
+    "last_synced": "T.752055Z"
   },
   {
     "path": "agents-spec/ux-agent/agent-metadata.json",
@@ -1477,7 +1477,7 @@
     "size": 160,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752059Z"
+    "last_synced": "T.752059Z"
   },
   {
     "path": "agents-spec/ux-agent/agent-state.json",
@@ -1485,7 +1485,7 @@
     "size": 102,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752063Z"
+    "last_synced": "T.752063Z"
   },
   {
     "path": "agents-spec/ux-agent/checklist.json",
@@ -1493,7 +1493,7 @@
     "size": 343,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752067Z"
+    "last_synced": "T.752067Z"
   },
   {
     "path": "agents-spec/ux-agent/heuristics.json",
@@ -1501,7 +1501,7 @@
     "size": 329,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752072Z"
+    "last_synced": "T.752072Z"
   },
   {
     "path": "agents-spec/ux-agent/identity.json",
@@ -1509,7 +1509,7 @@
     "size": 571,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752077Z"
+    "last_synced": "T.752077Z"
   },
   {
     "path": "agents-spec/ux-agent/lifecycle.json",
@@ -1517,7 +1517,7 @@
     "size": 103,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752081Z"
+    "last_synced": "T.752081Z"
   },
   {
     "path": "agents-spec/ux-agent/ux-profile.json",
@@ -1525,7 +1525,7 @@
     "size": 173,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752085Z"
+    "last_synced": "T.752085Z"
   },
   {
     "path": "agents-spec/ux-agent/reflections/sample.json",
@@ -1533,7 +1533,7 @@
     "size": 159,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752089Z"
+    "last_synced": "T.752089Z"
   },
   {
     "path": "agents-spec/ux-agent/reflections/reasoning-logs/init-reflection.json",
@@ -1541,7 +1541,7 @@
     "size": 237,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752094Z"
+    "last_synced": "T.752094Z"
   },
   {
     "path": "agents-spec/voting-agent/agent-ledger.json",
@@ -1549,7 +1549,7 @@
     "size": 77,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752099Z"
+    "last_synced": "T.752099Z"
   },
   {
     "path": "agents-spec/voting-agent/agent-metadata.json",
@@ -1557,7 +1557,7 @@
     "size": 168,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752103Z"
+    "last_synced": "T.752103Z"
   },
   {
     "path": "agents-spec/voting-agent/agent-state.json",
@@ -1565,7 +1565,7 @@
     "size": 106,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752106Z"
+    "last_synced": "T.752106Z"
   },
   {
     "path": "agents-spec/voting-agent/identity.json",
@@ -1573,7 +1573,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752111Z"
+    "last_synced": "T.752111Z"
   },
   {
     "path": "agents-spec/voting-agent/lifecycle.json",
@@ -1581,7 +1581,7 @@
     "size": 107,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752115Z"
+    "last_synced": "T.752115Z"
   },
   {
     "path": "agents-spec/voting-agent/ux-profile.json",
@@ -1589,7 +1589,7 @@
     "size": 177,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752119Z"
+    "last_synced": "T.752119Z"
   },
   {
     "path": "agents-spec/voting-agent/reflections/sample.json",
@@ -1597,7 +1597,7 @@
     "size": 163,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752124Z"
+    "last_synced": "T.752124Z"
   },
   {
     "path": "canonical-model/routine-definition.json",
@@ -1605,7 +1605,7 @@
     "size": 500,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752129Z"
+    "last_synced": "T.752129Z"
   },
   {
     "path": "config/llm-context-router.json",
@@ -1613,7 +1613,7 @@
     "size": 19441,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752214Z"
+    "last_synced": "T.752214Z"
   },
   {
     "path": "config/schema-config.json",
@@ -1621,7 +1621,7 @@
     "size": 284,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752219Z"
+    "last_synced": "T.752219Z"
   },
   {
     "path": "core/forecast-task-docbot.json",
@@ -1629,7 +1629,7 @@
     "size": 1112,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752226Z"
+    "last_synced": "T.752226Z"
   },
   {
     "path": "core/forecast-task-feedbacker.json",
@@ -1637,7 +1637,7 @@
     "size": 1118,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752233Z"
+    "last_synced": "T.752233Z"
   },
   {
     "path": "core/forecast-task-forecaster.json",
@@ -1645,7 +1645,7 @@
     "size": 1131,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752244Z"
+    "last_synced": "T.752244Z"
   },
   {
     "path": "core/forecast-task-planner.json",
@@ -1653,7 +1653,7 @@
     "size": 1117,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752251Z"
+    "last_synced": "T.752251Z"
   },
   {
     "path": "core/forecast-task-schemaenforcer.json",
@@ -1661,7 +1661,7 @@
     "size": 1202,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752257Z"
+    "last_synced": "T.752257Z"
   },
   {
     "path": "core/memory-bridge.json",
@@ -1669,7 +1669,7 @@
     "size": 370,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752261Z"
+    "last_synced": "T.752261Z"
   },
   {
     "path": "core/memory_bank.json",
@@ -1677,7 +1677,7 @@
     "size": 7759,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752303Z"
+    "last_synced": "T.752303Z"
   },
   {
     "path": "core/task-agent-check-docbot.json",
@@ -1685,7 +1685,7 @@
     "size": 1120,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752309Z"
+    "last_synced": "T.752309Z"
   },
   {
     "path": "core/task-agent-check-feedbacker.json",
@@ -1693,7 +1693,7 @@
     "size": 1136,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752315Z"
+    "last_synced": "T.752315Z"
   },
   {
     "path": "core/task-agent-check-forecaster.json",
@@ -1701,7 +1701,7 @@
     "size": 1136,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752321Z"
+    "last_synced": "T.752321Z"
   },
   {
     "path": "core/task-agent-check-planner.json",
@@ -1709,7 +1709,7 @@
     "size": 1124,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752326Z"
+    "last_synced": "T.752326Z"
   },
   {
     "path": "core/task-agent-check-schemaenforcer.json",
@@ -1717,7 +1717,7 @@
     "size": 1152,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752333Z"
+    "last_synced": "T.752333Z"
   },
   {
     "path": "core/task-agent-driven-evolution.json",
@@ -1725,7 +1725,7 @@
     "size": 1208,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752341Z"
+    "last_synced": "T.752341Z"
   },
   {
     "path": "core/task-agent-identity-review.json",
@@ -1733,7 +1733,7 @@
     "size": 415,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752348Z"
+    "last_synced": "T.752348Z"
   },
   {
     "path": "core/task-bootstrap-and-memory-loading.json",
@@ -1741,7 +1741,7 @@
     "size": 423,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752354Z"
+    "last_synced": "T.752354Z"
   },
   {
     "path": "core/task-feature-ref-linking.json",
@@ -1749,7 +1749,7 @@
     "size": 450,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752362Z"
+    "last_synced": "T.752362Z"
   },
   {
     "path": "core/task-full-system-audit.json",
@@ -1757,7 +1757,7 @@
     "size": 986,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752370Z"
+    "last_synced": "T.752370Z"
   },
   {
     "path": "core/task-global-resilience-audit.json",
@@ -1765,7 +1765,7 @@
     "size": 663,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752378Z"
+    "last_synced": "T.752378Z"
   },
   {
     "path": "core/task-ongoing-validation-cycle.json",
@@ -1773,7 +1773,7 @@
     "size": 422,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752382Z"
+    "last_synced": "T.752382Z"
   },
   {
     "path": "core/task-restructure-root-layout.json",
@@ -1781,7 +1781,7 @@
     "size": 422,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752387Z"
+    "last_synced": "T.752387Z"
   },
   {
     "path": "core/task-runtime-scale-docbot.json",
@@ -1789,7 +1789,7 @@
     "size": 1102,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752398Z"
+    "last_synced": "T.752398Z"
   },
   {
     "path": "core/task-runtime-scale-feedbacker.json",
@@ -1797,7 +1797,7 @@
     "size": 1110,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752404Z"
+    "last_synced": "T.752404Z"
   },
   {
     "path": "core/task-runtime-scale-forecaster.json",
@@ -1805,7 +1805,7 @@
     "size": 1110,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752413Z"
+    "last_synced": "T.752413Z"
   },
   {
     "path": "core/task-runtime-scale-planner.json",
@@ -1813,7 +1813,7 @@
     "size": 1104,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752419Z"
+    "last_synced": "T.752419Z"
   },
   {
     "path": "core/task-runtime-scale-schemaenforcer.json",
@@ -1821,7 +1821,7 @@
     "size": 1118,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752425Z"
+    "last_synced": "T.752425Z"
   },
   {
     "path": "core/task-seed-docbot-phase-task.json",
@@ -1829,7 +1829,7 @@
     "size": 1108,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752431Z"
+    "last_synced": "T.752431Z"
   },
   {
     "path": "core/task-seed-feedbacker-phase-task.json",
@@ -1837,7 +1837,7 @@
     "size": 1124,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752437Z"
+    "last_synced": "T.752437Z"
   },
   {
     "path": "core/task-seed-forecaster-phase-task.json",
@@ -1845,7 +1845,7 @@
     "size": 1124,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752443Z"
+    "last_synced": "T.752443Z"
   },
   {
     "path": "core/task-seed-planner-phase-task.json",
@@ -1853,7 +1853,7 @@
     "size": 1112,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752449Z"
+    "last_synced": "T.752449Z"
   },
   {
     "path": "core/task-seed-schemaenforcer-phase-task.json",
@@ -1861,7 +1861,7 @@
     "size": 1140,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752455Z"
+    "last_synced": "T.752455Z"
   },
   {
     "path": "core/task-simulate-zone-relay.json",
@@ -1869,7 +1869,7 @@
     "size": 1146,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752461Z"
+    "last_synced": "T.752461Z"
   },
   {
     "path": "core/task-task-tbd.json",
@@ -1877,7 +1877,7 @@
     "size": 989,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752468Z"
+    "last_synced": "T.752468Z"
   },
   {
     "path": "core/checklists/user-live-session-checklist.yaml",
@@ -1885,7 +1885,7 @@
     "size": 346,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752473Z"
+    "last_synced": "T.752473Z"
   },
   {
     "path": "core/conversational/debate.json",
@@ -1893,7 +1893,7 @@
     "size": 1049,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752479Z"
+    "last_synced": "T.752479Z"
   },
   {
     "path": "core/evaluation/calculate-agent-evolution-score.json",
@@ -1901,7 +1901,7 @@
     "size": 1202,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752485Z"
+    "last_synced": "T.752485Z"
   },
   {
     "path": "core/evaluation/plan-retrospective.json",
@@ -1909,7 +1909,7 @@
     "size": 1048,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752491Z"
+    "last_synced": "T.752491Z"
   },
   {
     "path": "core/evaluation/sandbox-replay.json",
@@ -1917,7 +1917,7 @@
     "size": 1165,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752497Z"
+    "last_synced": "T.752497Z"
   },
   {
     "path": "core/governance/enforce-resilience-logic.json",
@@ -1925,7 +1925,7 @@
     "size": 1061,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752502Z"
+    "last_synced": "T.752502Z"
   },
   {
     "path": "core/governance/validate-upgrade-proposals.json",
@@ -1933,7 +1933,7 @@
     "size": 1133,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752512Z"
+    "last_synced": "T.752512Z"
   },
   {
     "path": "core/identities/user.yaml",
@@ -1941,7 +1941,7 @@
     "size": 428,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752703Z"
+    "last_synced": "T.752703Z"
   },
   {
     "path": "core/operational/feature-sync-and-memory-audit.json",
@@ -1949,7 +1949,7 @@
     "size": 1147,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752712Z"
+    "last_synced": "T.752712Z"
   },
   {
     "path": "core/operational/finalize-project-integrity.json",
@@ -1957,7 +1957,7 @@
     "size": 8198,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752766Z"
+    "last_synced": "T.752766Z"
   },
   {
     "path": "core/operational/lifecycle.json",
@@ -1965,7 +1965,7 @@
     "size": 831,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752775Z"
+    "last_synced": "T.752775Z"
   },
   {
     "path": "core/operational/llm-session-router.json",
@@ -1973,7 +1973,7 @@
     "size": 1110,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752786Z"
+    "last_synced": "T.752786Z"
   },
   {
     "path": "core/operational/pattern-audit.json",
@@ -1981,7 +1981,7 @@
     "size": 1181,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752794Z"
+    "last_synced": "T.752794Z"
   },
   {
     "path": "core/operational/routine-gap-detection.json",
@@ -1989,7 +1989,7 @@
     "size": 971,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752804Z"
+    "last_synced": "T.752804Z"
   },
   {
     "path": "core/operational/routine-manifest.json",
@@ -1997,7 +1997,7 @@
     "size": 8135,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752857Z"
+    "last_synced": "T.752857Z"
   },
   {
     "path": "core/operational/routine-metadata.json",
@@ -2005,7 +2005,7 @@
     "size": 955,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752864Z"
+    "last_synced": "T.752864Z"
   },
   {
     "path": "core/operational/self-healing-memory-sync.json",
@@ -2013,7 +2013,7 @@
     "size": 1120,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752870Z"
+    "last_synced": "T.752870Z"
   },
   {
     "path": "core/operational/self-introspection.json",
@@ -2021,7 +2021,7 @@
     "size": 1157,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752878Z"
+    "last_synced": "T.752878Z"
   },
   {
     "path": "core/operational/self-review-hook.json",
@@ -2029,7 +2029,7 @@
     "size": 1051,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752886Z"
+    "last_synced": "T.752886Z"
   },
   {
     "path": "core/operational/sync-memory-feature-map.json",
@@ -2037,7 +2037,7 @@
     "size": 1121,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752896Z"
+    "last_synced": "T.752896Z"
   },
   {
     "path": "core/operational/system-evolve-cycle.json",
@@ -2045,7 +2045,7 @@
     "size": 1069,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752905Z"
+    "last_synced": "T.752905Z"
   },
   {
     "path": "core/operational/validate-canonical-models.json",
@@ -2053,7 +2053,7 @@
     "size": 1171,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752912Z"
+    "last_synced": "T.752912Z"
   },
   {
     "path": "core/operational/validate-full-framework-state.json",
@@ -2061,7 +2061,7 @@
     "size": 1171,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752918Z"
+    "last_synced": "T.752918Z"
   },
   {
     "path": "core/operational/validate-project-structure.json",
@@ -2069,7 +2069,7 @@
     "size": 1089,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752924Z"
+    "last_synced": "T.752924Z"
   },
   {
     "path": "core/routines/full-system-stabilization.yaml",
@@ -2077,7 +2077,7 @@
     "size": 1005,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752933Z"
+    "last_synced": "T.752933Z"
   },
   {
     "path": "core/routines/live-deployment-feedback-cycle.yaml",
@@ -2085,7 +2085,7 @@
     "size": 356,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752946Z"
+    "last_synced": "T.752946Z"
   },
   {
     "path": "core/routines/root-collab-validation.yaml",
@@ -2093,7 +2093,7 @@
     "size": 922,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752952Z"
+    "last_synced": "T.752952Z"
   },
   {
     "path": "core/tasks/task-agent-alignment-scan.json",
@@ -2101,7 +2101,7 @@
     "size": 342,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752956Z"
+    "last_synced": "T.752956Z"
   },
   {
     "path": "core/tasks/task-agent-goal-generation.json",
@@ -2109,7 +2109,7 @@
     "size": 407,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752961Z"
+    "last_synced": "T.752961Z"
   },
   {
     "path": "core/tasks/task-audit-v21-before-v22.json",
@@ -2117,7 +2117,7 @@
     "size": 377,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752966Z"
+    "last_synced": "T.752966Z"
   },
   {
     "path": "core/tasks/task-begin-v23-cycle.json",
@@ -2125,7 +2125,7 @@
     "size": 301,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752971Z"
+    "last_synced": "T.752971Z"
   },
   {
     "path": "core/tasks/task-continuous-evolution-cycle.json",
@@ -2133,7 +2133,7 @@
     "size": 409,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752975Z"
+    "last_synced": "T.752975Z"
   },
   {
     "path": "core/tasks/task-create-pipeline-folder.json",
@@ -2141,7 +2141,7 @@
     "size": 355,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752980Z"
+    "last_synced": "T.752980Z"
   },
   {
     "path": "core/tasks/task-discovery-intent-cycle.json",
@@ -2149,7 +2149,7 @@
     "size": 359,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752985Z"
+    "last_synced": "T.752985Z"
   },
   {
     "path": "core/tasks/task-docbot-onboarding-doc.json",
@@ -2157,7 +2157,7 @@
     "size": 337,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752990Z"
+    "last_synced": "T.752990Z"
   },
   {
     "path": "core/tasks/task-docbot-summary-cards.json",
@@ -2165,7 +2165,7 @@
     "size": 295,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752994Z"
+    "last_synced": "T.752994Z"
   },
   {
     "path": "core/tasks/task-docbot-version-changelog.json",
@@ -2173,7 +2173,7 @@
     "size": 316,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.752999Z"
+    "last_synced": "T.752999Z"
   },
   {
     "path": "core/tasks/task-document-folder-structure-guidelines.json",
@@ -2181,7 +2181,7 @@
     "size": 471,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753004Z"
+    "last_synced": "T.753004Z"
   },
   {
     "path": "core/tasks/task-enhance-file-router-metadata.json",
@@ -2189,7 +2189,7 @@
     "size": 474,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753008Z"
+    "last_synced": "T.753008Z"
   },
   {
     "path": "core/tasks/task-expand-longterm-agents.json",
@@ -2197,7 +2197,7 @@
     "size": 360,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753013Z"
+    "last_synced": "T.753013Z"
   },
   {
     "path": "core/tasks/task-feedback-loop-from-user.json",
@@ -2205,7 +2205,7 @@
     "size": 338,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753018Z"
+    "last_synced": "T.753018Z"
   },
   {
     "path": "core/tasks/task-feedbacker-anomaly-detection.json",
@@ -2213,7 +2213,7 @@
     "size": 309,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753025Z"
+    "last_synced": "T.753025Z"
   },
   {
     "path": "core/tasks/task-feedbacker-monthly-summary.json",
@@ -2221,7 +2221,7 @@
     "size": 307,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753031Z"
+    "last_synced": "T.753031Z"
   },
   {
     "path": "core/tasks/task-feedbacker-trend-analysis.json",
@@ -2229,7 +2229,7 @@
     "size": 300,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753044Z"
+    "last_synced": "T.753044Z"
   },
   {
     "path": "core/tasks/task-fix-missing-core-agents.json",
@@ -2237,7 +2237,7 @@
     "size": 306,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753051Z"
+    "last_synced": "T.753051Z"
   },
   {
     "path": "core/tasks/task-framework-live-deployment-mode.json",
@@ -2245,7 +2245,7 @@
     "size": 376,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753058Z"
+    "last_synced": "T.753058Z"
   },
   {
     "path": "core/tasks/task-generate-file-router.json",
@@ -2253,7 +2253,7 @@
     "size": 345,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753063Z"
+    "last_synced": "T.753063Z"
   },
   {
     "path": "core/tasks/task-implement-cross-reference-system.json",
@@ -2261,7 +2261,7 @@
     "size": 468,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753068Z"
+    "last_synced": "T.753068Z"
   },
   {
     "path": "core/tasks/task-llm-context-suggestions.json",
@@ -2269,7 +2269,7 @@
     "size": 325,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753072Z"
+    "last_synced": "T.753072Z"
   },
   {
     "path": "core/tasks/task-llm-memory-tracker.json",
@@ -2277,7 +2277,7 @@
     "size": 312,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753077Z"
+    "last_synced": "T.753077Z"
   },
   {
     "path": "core/tasks/task-llm-routing-runtime.json",
@@ -2285,7 +2285,7 @@
     "size": 340,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753082Z"
+    "last_synced": "T.753082Z"
   },
   {
     "path": "core/tasks/task-log-replay-for-improvement.json",
@@ -2293,7 +2293,7 @@
     "size": 354,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753086Z"
+    "last_synced": "T.753086Z"
   },
   {
     "path": "core/tasks/task-planner-milestone-calendar.json",
@@ -2301,7 +2301,7 @@
     "size": 320,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753091Z"
+    "last_synced": "T.753091Z"
   },
   {
     "path": "core/tasks/task-planner-task-grouping.json",
@@ -2309,7 +2309,7 @@
     "size": 337,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753095Z"
+    "last_synced": "T.753095Z"
   },
   {
     "path": "core/tasks/task-planner-timeline-cycles.json",
@@ -2317,7 +2317,7 @@
     "size": 323,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753100Z"
+    "last_synced": "T.753100Z"
   },
   {
     "path": "core/tasks/task-rebuild-core-structure.json",
@@ -2325,7 +2325,7 @@
     "size": 392,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753106Z"
+    "last_synced": "T.753106Z"
   },
   {
     "path": "core/tasks/task-refactor-root-structure.json",
@@ -2333,7 +2333,7 @@
     "size": 369,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753111Z"
+    "last_synced": "T.753111Z"
   },
   {
     "path": "core/tasks/task-regenerate-file-router.json",
@@ -2341,7 +2341,7 @@
     "size": 329,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753115Z"
+    "last_synced": "T.753115Z"
   },
   {
     "path": "core/tasks/task-review-checklist-coverage.json",
@@ -2349,7 +2349,7 @@
     "size": 476,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753119Z"
+    "last_synced": "T.753119Z"
   },
   {
     "path": "core/tasks/task-runtime-discovery-metadata-update.json",
@@ -2357,7 +2357,7 @@
     "size": 514,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753124Z"
+    "last_synced": "T.753124Z"
   },
   {
     "path": "core/tasks/task-schema-diff-viewer.json",
@@ -2365,7 +2365,7 @@
     "size": 306,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753129Z"
+    "last_synced": "T.753129Z"
   },
   {
     "path": "core/tasks/task-schema-runtime-validation.json",
@@ -2373,7 +2373,7 @@
     "size": 313,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753137Z"
+    "last_synced": "T.753137Z"
   },
   {
     "path": "core/tasks/task-schema-version-lock.json",
@@ -2381,7 +2381,7 @@
     "size": 304,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753141Z"
+    "last_synced": "T.753141Z"
   },
   {
     "path": "core/tasks/task-setup-metadata-validation-pipeline.json",
@@ -2389,7 +2389,7 @@
     "size": 497,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753146Z"
+    "last_synced": "T.753146Z"
   },
   {
     "path": "core/tasks/task-simulate-onboarding-sequence.json",
@@ -2397,7 +2397,7 @@
     "size": 436,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753151Z"
+    "last_synced": "T.753151Z"
   },
   {
     "path": "core/tasks/task-snapshot-live-user-release.json",
@@ -2405,7 +2405,7 @@
     "size": 371,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753156Z"
+    "last_synced": "T.753156Z"
   },
   {
     "path": "core/tasks/task-task-tbd.json",
@@ -2413,7 +2413,7 @@
     "size": 209,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753161Z"
+    "last_synced": "T.753161Z"
   },
   {
     "path": "core/tasks/task-trigger-user-checklist.json",
@@ -2421,7 +2421,7 @@
     "size": 494,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753165Z"
+    "last_synced": "T.753165Z"
   },
   {
     "path": "core/tasks/task-update-checklist-doc-links.json",
@@ -2429,7 +2429,7 @@
     "size": 486,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753170Z"
+    "last_synced": "T.753170Z"
   },
   {
     "path": "core/tasks/task-user-goal-setting.json",
@@ -2437,7 +2437,7 @@
     "size": 325,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753174Z"
+    "last_synced": "T.753174Z"
   },
   {
     "path": "deployment/cluster-zones.json",
@@ -2445,7 +2445,7 @@
     "size": 1099,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753180Z"
+    "last_synced": "T.753180Z"
   },
   {
     "path": "deployment/deploy-config.json",
@@ -2453,7 +2453,7 @@
     "size": 954,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753185Z"
+    "last_synced": "T.753185Z"
   },
   {
     "path": "diary/agent.json",
@@ -2461,7 +2461,7 @@
     "size": 83,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753190Z"
+    "last_synced": "T.753190Z"
   },
   {
     "path": "diary/human.json",
@@ -2469,7 +2469,7 @@
     "size": 328,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753194Z"
+    "last_synced": "T.753194Z"
   },
   {
     "path": "docs/api-schema.yaml",
@@ -2477,7 +2477,7 @@
     "size": 287,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753199Z"
+    "last_synced": "T.753199Z"
   },
   {
     "path": "docs/cli-dashboard.md",
@@ -2485,7 +2485,7 @@
     "size": 1096,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753205Z"
+    "last_synced": "T.753205Z"
   },
   {
     "path": "docs/context-coherence-loop.md",
@@ -2493,7 +2493,7 @@
     "size": 329,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753210Z"
+    "last_synced": "T.753210Z"
   },
   {
     "path": "docs/design-principles.md",
@@ -2501,7 +2501,7 @@
     "size": 489,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753214Z"
+    "last_synced": "T.753214Z"
   },
   {
     "path": "docs/dev-diary.md",
@@ -2509,7 +2509,7 @@
     "size": 28295,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753790Z"
+    "last_synced": "T.753790Z"
   },
   {
     "path": "docs/evaluation.md",
@@ -2517,7 +2517,7 @@
     "size": 3786,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753827Z"
+    "last_synced": "T.753827Z"
   },
   {
     "path": "docs/example-workflows.md",
@@ -2525,7 +2525,7 @@
     "size": 283,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753850Z"
+    "last_synced": "T.753850Z"
   },
   {
     "path": "docs/external-integration.md",
@@ -2533,7 +2533,7 @@
     "size": 1121,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753858Z"
+    "last_synced": "T.753858Z"
   },
   {
     "path": "docs/feedback-summary-v17.md",
@@ -2541,7 +2541,7 @@
     "size": 618,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753864Z"
+    "last_synced": "T.753864Z"
   },
   {
     "path": "docs/final_comprehensive_project_summary.md",
@@ -2549,7 +2549,7 @@
     "size": 953,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753874Z"
+    "last_synced": "T.753874Z"
   },
   {
     "path": "docs/folder-structure-proposal.md",
@@ -2557,7 +2557,7 @@
     "size": 1157,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753883Z"
+    "last_synced": "T.753883Z"
   },
   {
     "path": "docs/forecast-history.md",
@@ -2565,7 +2565,7 @@
     "size": 973,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753890Z"
+    "last_synced": "T.753890Z"
   },
   {
     "path": "docs/forecast.md",
@@ -2573,7 +2573,7 @@
     "size": 1167,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753897Z"
+    "last_synced": "T.753897Z"
   },
   {
     "path": "docs/governance.md",
@@ -2581,7 +2581,7 @@
     "size": 1157,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753904Z"
+    "last_synced": "T.753904Z"
   },
   {
     "path": "docs/how-to-add-agent.md",
@@ -2589,7 +2589,7 @@
     "size": 414,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753909Z"
+    "last_synced": "T.753909Z"
   },
   {
     "path": "docs/how-to-assume-agent.md",
@@ -2597,7 +2597,7 @@
     "size": 378,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753913Z"
+    "last_synced": "T.753913Z"
   },
   {
     "path": "docs/how-to-extend-pipeline.md",
@@ -2605,7 +2605,7 @@
     "size": 270,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753918Z"
+    "last_synced": "T.753918Z"
   },
   {
     "path": "docs/intent-discovery-v18.json",
@@ -2613,7 +2613,7 @@
     "size": 758,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753924Z"
+    "last_synced": "T.753924Z"
   },
   {
     "path": "docs/intent-discovery-v19.json",
@@ -2621,7 +2621,7 @@
     "size": 725,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753929Z"
+    "last_synced": "T.753929Z"
   },
   {
     "path": "docs/intents.md",
@@ -2629,7 +2629,7 @@
     "size": 1067,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753937Z"
+    "last_synced": "T.753937Z"
   },
   {
     "path": "docs/memory-api.md",
@@ -2637,7 +2637,7 @@
     "size": 1123,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753959Z"
+    "last_synced": "T.753959Z"
   },
   {
     "path": "docs/memory-runner-docs.md",
@@ -2645,7 +2645,7 @@
     "size": 1202,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.753969Z"
+    "last_synced": "T.753969Z"
   },
   {
     "path": "docs/navigation-index.json",
@@ -2653,7 +2653,7 @@
     "size": 74082,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754159Z"
+    "last_synced": "T.754159Z"
   },
   {
     "path": "docs/plan.md",
@@ -2661,7 +2661,7 @@
     "size": 1320,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754166Z"
+    "last_synced": "T.754166Z"
   },
   {
     "path": "docs/PROJECT-TASKS.md",
@@ -2669,7 +2669,7 @@
     "size": 1361,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754178Z"
+    "last_synced": "T.754178Z"
   },
   {
     "path": "docs/quick-pipeline-format.md",
@@ -2677,7 +2677,7 @@
     "size": 281,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754184Z"
+    "last_synced": "T.754184Z"
   },
   {
     "path": "docs/README-HUMAN.md",
@@ -2685,7 +2685,7 @@
     "size": 808,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754191Z"
+    "last_synced": "T.754191Z"
   },
   {
     "path": "docs/README-LLM.md",
@@ -2693,7 +2693,7 @@
     "size": 373,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754196Z"
+    "last_synced": "T.754196Z"
   },
   {
     "path": "docs/README-ONBOARDING.md",
@@ -2701,7 +2701,7 @@
     "size": 1624,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754207Z"
+    "last_synced": "T.754207Z"
   },
   {
     "path": "docs/README-QUICK-PIPELINE.md",
@@ -2709,7 +2709,7 @@
     "size": 2271,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754221Z"
+    "last_synced": "T.754221Z"
   },
   {
     "path": "docs/README.md",
@@ -2717,7 +2717,7 @@
     "size": 1173,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754231Z"
+    "last_synced": "T.754231Z"
   },
   {
     "path": "docs/registered-template.json",
@@ -2725,7 +2725,7 @@
     "size": 386,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754236Z"
+    "last_synced": "T.754236Z"
   },
   {
     "path": "docs/reviewkeeper-report.md",
@@ -2733,7 +2733,7 @@
     "size": 549,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754242Z"
+    "last_synced": "T.754242Z"
   },
   {
     "path": "docs/roadmap-agent-goal-proposals.json",
@@ -2741,7 +2741,7 @@
     "size": 549,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754247Z"
+    "last_synced": "T.754247Z"
   },
   {
     "path": "docs/roadmap-matrix.md",
@@ -2749,7 +2749,7 @@
     "size": 1734,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754259Z"
+    "last_synced": "T.754259Z"
   },
   {
     "path": "docs/roadmap.md",
@@ -2757,7 +2757,7 @@
     "size": 1730,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754267Z"
+    "last_synced": "T.754267Z"
   },
   {
     "path": "docs/router-schema-reference.md",
@@ -2765,7 +2765,7 @@
     "size": 599,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754272Z"
+    "last_synced": "T.754272Z"
   },
   {
     "path": "docs/routines-index.md",
@@ -2773,7 +2773,7 @@
     "size": 367,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754277Z"
+    "last_synced": "T.754277Z"
   },
   {
     "path": "docs/system-checklist.md",
@@ -2781,7 +2781,7 @@
     "size": 284,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754281Z"
+    "last_synced": "T.754281Z"
   },
   {
     "path": "docs/system-index.json",
@@ -2789,7 +2789,7 @@
     "size": 1016,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754287Z"
+    "last_synced": "T.754287Z"
   },
   {
     "path": "docs/system-resilience-checklist.md",
@@ -2797,7 +2797,7 @@
     "size": 380,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754292Z"
+    "last_synced": "T.754292Z"
   },
   {
     "path": "docs/task-dependencies.md",
@@ -2805,7 +2805,7 @@
     "size": 1208,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754298Z"
+    "last_synced": "T.754298Z"
   },
   {
     "path": "docs/task-graph-doc.md",
@@ -2813,7 +2813,7 @@
     "size": 1024,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754353Z"
+    "last_synced": "T.754353Z"
   },
   {
     "path": "docs/webhook-integration.md",
@@ -2821,7 +2821,7 @@
     "size": 1056,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754359Z"
+    "last_synced": "T.754359Z"
   },
   {
     "path": "evaluation-results/bootstrap/eval.json",
@@ -2829,7 +2829,7 @@
     "size": 219,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754365Z"
+    "last_synced": "T.754365Z"
   },
   {
     "path": "features/feature-map.json",
@@ -2837,7 +2837,7 @@
     "size": 4752,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754377Z"
+    "last_synced": "T.754377Z"
   },
   {
     "path": "feedback-cards/audit-agent-card.json",
@@ -2845,7 +2845,7 @@
     "size": 118,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754382Z"
+    "last_synced": "T.754382Z"
   },
   {
     "path": "feedback-cards/bootstrap-agent-card.json",
@@ -2853,7 +2853,7 @@
     "size": 122,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754394Z"
+    "last_synced": "T.754394Z"
   },
   {
     "path": "feedback-cards/evolve-agent-card.json",
@@ -2861,7 +2861,7 @@
     "size": 119,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754399Z"
+    "last_synced": "T.754399Z"
   },
   {
     "path": "feedback-cards/orchestrator-agent-card.json",
@@ -2869,7 +2869,7 @@
     "size": 125,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754405Z"
+    "last_synced": "T.754405Z"
   },
   {
     "path": "feedback-cards/planner-agent-card.json",
@@ -2877,7 +2877,7 @@
     "size": 120,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754411Z"
+    "last_synced": "T.754411Z"
   },
   {
     "path": "feedback-cards/proposal-review-agent-card.json",
@@ -2885,7 +2885,7 @@
     "size": 128,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754418Z"
+    "last_synced": "T.754418Z"
   },
   {
     "path": "feedback-cards/recovery-agent-card.json",
@@ -2893,7 +2893,7 @@
     "size": 121,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754424Z"
+    "last_synced": "T.754424Z"
   },
   {
     "path": "feedback-cards/router-agent-card.json",
@@ -2901,7 +2901,7 @@
     "size": 119,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754430Z"
+    "last_synced": "T.754430Z"
   },
   {
     "path": "feedback-cards/tasking-agent-card.json",
@@ -2909,7 +2909,7 @@
     "size": 120,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754435Z"
+    "last_synced": "T.754435Z"
   },
   {
     "path": "feedbacks/feedback-docbot.json",
@@ -2917,7 +2917,7 @@
     "size": 161,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754439Z"
+    "last_synced": "T.754439Z"
   },
   {
     "path": "feedbacks/feedback-feedbacker.json",
@@ -2925,7 +2925,7 @@
     "size": 169,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754444Z"
+    "last_synced": "T.754444Z"
   },
   {
     "path": "feedbacks/feedback-forecaster.json",
@@ -2933,7 +2933,7 @@
     "size": 169,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754448Z"
+    "last_synced": "T.754448Z"
   },
   {
     "path": "feedbacks/feedback-planner.json",
@@ -2941,7 +2941,7 @@
     "size": 163,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754452Z"
+    "last_synced": "T.754452Z"
   },
   {
     "path": "feedbacks/feedback-schemaenforcer.json",
@@ -2949,7 +2949,7 @@
     "size": 177,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754464Z"
+    "last_synced": "T.754464Z"
   },
   {
     "path": "forecasts/forecast-docbot.json",
@@ -2957,7 +2957,7 @@
     "size": 176,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754469Z"
+    "last_synced": "T.754469Z"
   },
   {
     "path": "forecasts/forecast-feedbacker.json",
@@ -2965,7 +2965,7 @@
     "size": 182,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754473Z"
+    "last_synced": "T.754473Z"
   },
   {
     "path": "forecasts/forecast-forecaster.json",
@@ -2973,7 +2973,7 @@
     "size": 187,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754478Z"
+    "last_synced": "T.754478Z"
   },
   {
     "path": "forecasts/forecast-planner.json",
@@ -2981,7 +2981,7 @@
     "size": 206,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754482Z"
+    "last_synced": "T.754482Z"
   },
   {
     "path": "forecasts/forecast-schemaenforcer.json",
@@ -2989,7 +2989,7 @@
     "size": 209,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754589Z"
+    "last_synced": "T.754589Z"
   },
   {
     "path": "forecasts/bootstrap-agent/timeline-memory.json",
@@ -2997,7 +2997,7 @@
     "size": 206,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754602Z"
+    "last_synced": "T.754602Z"
   },
   {
     "path": "framework/agents/docbot.md",
@@ -3005,7 +3005,7 @@
     "size": 352,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754610Z"
+    "last_synced": "T.754610Z"
   },
   {
     "path": "framework/agents/structurekeeper.md",
@@ -3013,7 +3013,7 @@
     "size": 327,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754617Z"
+    "last_synced": "T.754617Z"
   },
   {
     "path": "framework/checklists/advanced-checklist.md",
@@ -3021,7 +3021,7 @@
     "size": 254,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754624Z"
+    "last_synced": "T.754624Z"
   },
   {
     "path": "framework/checklists/cli-interface-checklist.md",
@@ -3029,7 +3029,7 @@
     "size": 188,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754630Z"
+    "last_synced": "T.754630Z"
   },
   {
     "path": "framework/checklists/docbot-checklist.md",
@@ -3037,7 +3037,7 @@
     "size": 477,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754638Z"
+    "last_synced": "T.754638Z"
   },
   {
     "path": "framework/checklists/docs-restructure-checklist.md",
@@ -3045,7 +3045,7 @@
     "size": 381,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754642Z"
+    "last_synced": "T.754642Z"
   },
   {
     "path": "framework/checklists/expansion-checklist.md",
@@ -3053,7 +3053,7 @@
     "size": 295,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754647Z"
+    "last_synced": "T.754647Z"
   },
   {
     "path": "framework/checklists/external-integration-checklist.md",
@@ -3061,7 +3061,7 @@
     "size": 217,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754653Z"
+    "last_synced": "T.754653Z"
   },
   {
     "path": "framework/checklists/feedbacker-checklist.md",
@@ -3069,7 +3069,7 @@
     "size": 497,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754658Z"
+    "last_synced": "T.754658Z"
   },
   {
     "path": "framework/checklists/forecaster-checklist.md",
@@ -3077,7 +3077,7 @@
     "size": 497,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754663Z"
+    "last_synced": "T.754663Z"
   },
   {
     "path": "framework/checklists/integration-graph-checklist.md",
@@ -3085,7 +3085,7 @@
     "size": 310,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754668Z"
+    "last_synced": "T.754668Z"
   },
   {
     "path": "framework/checklists/memory-enhancement-checklist.md",
@@ -3093,7 +3093,7 @@
     "size": 227,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754672Z"
+    "last_synced": "T.754672Z"
   },
   {
     "path": "framework/checklists/planner-checklist.md",
@@ -3101,7 +3101,7 @@
     "size": 482,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754676Z"
+    "last_synced": "T.754676Z"
   },
   {
     "path": "framework/checklists/planner-feedback-forecast-checklist.md",
@@ -3109,7 +3109,7 @@
     "size": 277,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754689Z"
+    "last_synced": "T.754689Z"
   },
   {
     "path": "framework/checklists/reviewkeeper-checklist.md",
@@ -3117,7 +3117,7 @@
     "size": 370,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754694Z"
+    "last_synced": "T.754694Z"
   },
   {
     "path": "framework/checklists/runner-and-memory-checklist.md",
@@ -3125,7 +3125,7 @@
     "size": 249,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754700Z"
+    "last_synced": "T.754700Z"
   },
   {
     "path": "framework/checklists/schemaenforcer-checklist.md",
@@ -3133,7 +3133,7 @@
     "size": 517,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754707Z"
+    "last_synced": "T.754707Z"
   },
   {
     "path": "framework/checklists/structurekeeper-checklist.md",
@@ -3141,7 +3141,7 @@
     "size": 428,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754714Z"
+    "last_synced": "T.754714Z"
   },
   {
     "path": "framework/execution/AGENT_LOG.md",
@@ -3149,7 +3149,7 @@
     "size": 4852,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754730Z"
+    "last_synced": "T.754730Z"
   },
   {
     "path": "framework/execution/TASK_EXECUTION_DASHBOARD.md",
@@ -3157,7 +3157,7 @@
     "size": 669,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754742Z"
+    "last_synced": "T.754742Z"
   },
   {
     "path": "framework/identities/coveragebot.identity.md",
@@ -3165,7 +3165,7 @@
     "size": 300,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754749Z"
+    "last_synced": "T.754749Z"
   },
   {
     "path": "framework/identities/docbot.identity.md",
@@ -3173,7 +3173,7 @@
     "size": 454,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754757Z"
+    "last_synced": "T.754757Z"
   },
   {
     "path": "framework/identities/feedbacker.identity.md",
@@ -3181,7 +3181,7 @@
     "size": 252,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754762Z"
+    "last_synced": "T.754762Z"
   },
   {
     "path": "framework/identities/forecaster.identity.md",
@@ -3189,7 +3189,7 @@
     "size": 337,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754766Z"
+    "last_synced": "T.754766Z"
   },
   {
     "path": "framework/identities/llmrouter.identity.md",
@@ -3197,7 +3197,7 @@
     "size": 408,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754772Z"
+    "last_synced": "T.754772Z"
   },
   {
     "path": "framework/identities/planner.identity.md",
@@ -3205,7 +3205,7 @@
     "size": 324,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754777Z"
+    "last_synced": "T.754777Z"
   },
   {
     "path": "framework/identities/realtime-llm-assistant.identity.md",
@@ -3213,7 +3213,7 @@
     "size": 715,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754786Z"
+    "last_synced": "T.754786Z"
   },
   {
     "path": "framework/identities/reviewkeeper.identity.md",
@@ -3221,7 +3221,7 @@
     "size": 499,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754793Z"
+    "last_synced": "T.754793Z"
   },
   {
     "path": "framework/identities/schemaenforcer.identity.md",
@@ -3229,7 +3229,7 @@
     "size": 334,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754799Z"
+    "last_synced": "T.754799Z"
   },
   {
     "path": "framework/identities/structurekeeper.identity.md",
@@ -3237,7 +3237,7 @@
     "size": 415,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754807Z"
+    "last_synced": "T.754807Z"
   },
   {
     "path": "framework/memory/design-architecture-updates.md",
@@ -3245,7 +3245,7 @@
     "size": 475,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754813Z"
+    "last_synced": "T.754813Z"
   },
   {
     "path": "framework/memory/framework-capabilities.md",
@@ -3253,7 +3253,7 @@
     "size": 1675,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754831Z"
+    "last_synced": "T.754831Z"
   },
   {
     "path": "framework/memory/project-mission-and-alignment.md",
@@ -3261,7 +3261,7 @@
     "size": 3086,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754862Z"
+    "last_synced": "T.754862Z"
   },
   {
     "path": "framework/memory/project-review_structure-clarity.md",
@@ -3269,7 +3269,7 @@
     "size": 284,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754869Z"
+    "last_synced": "T.754869Z"
   },
   {
     "path": "framework/pipelines/agent_task_pipeline.yaml",
@@ -3277,7 +3277,7 @@
     "size": 361,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754876Z"
+    "last_synced": "T.754876Z"
   },
   {
     "path": "framework/pipelines/docbot-auto-pipeline.yaml",
@@ -3285,7 +3285,7 @@
     "size": 135,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754883Z"
+    "last_synced": "T.754883Z"
   },
   {
     "path": "framework/pipelines/feedbacker-auto-pipeline.yaml",
@@ -3293,7 +3293,7 @@
     "size": 143,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754889Z"
+    "last_synced": "T.754889Z"
   },
   {
     "path": "framework/pipelines/forecaster-auto-pipeline.yaml",
@@ -3301,7 +3301,7 @@
     "size": 143,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754893Z"
+    "last_synced": "T.754893Z"
   },
   {
     "path": "framework/pipelines/planner-auto-pipeline.yaml",
@@ -3309,7 +3309,7 @@
     "size": 137,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754897Z"
+    "last_synced": "T.754897Z"
   },
   {
     "path": "framework/pipelines/realtime-llm-pipeline.yaml",
@@ -3317,7 +3317,7 @@
     "size": 341,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754902Z"
+    "last_synced": "T.754902Z"
   },
   {
     "path": "framework/pipelines/schemaenforcer-auto-pipeline.yaml",
@@ -3325,7 +3325,7 @@
     "size": 151,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754906Z"
+    "last_synced": "T.754906Z"
   },
   {
     "path": "framework/reflections/universal-onboarding-reflection.md",
@@ -3333,7 +3333,7 @@
     "size": 1711,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754918Z"
+    "last_synced": "T.754918Z"
   },
   {
     "path": "framework/routines/project-maintenance-sweep.yaml",
@@ -3341,7 +3341,7 @@
     "size": 332,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754922Z"
+    "last_synced": "T.754922Z"
   },
   {
     "path": "framework/routines/routine-feedbacker-weekly.yaml",
@@ -3349,7 +3349,7 @@
     "size": 192,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754926Z"
+    "last_synced": "T.754926Z"
   },
   {
     "path": "framework/routines/routine-forecaster-monthly.yaml",
@@ -3357,7 +3357,7 @@
     "size": 163,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754930Z"
+    "last_synced": "T.754930Z"
   },
   {
     "path": "framework/routines/routine-realtime-llm.yaml",
@@ -3365,7 +3365,7 @@
     "size": 279,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754935Z"
+    "last_synced": "T.754935Z"
   },
   {
     "path": "framework/routines/routine-recovery-bootstrap.yaml",
@@ -3373,7 +3373,7 @@
     "size": 308,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754939Z"
+    "last_synced": "T.754939Z"
   },
   {
     "path": "framework/specs/clustering-spec.md",
@@ -3381,7 +3381,7 @@
     "size": 476,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754944Z"
+    "last_synced": "T.754944Z"
   },
   {
     "path": "framework/specs/collaborative-network-spec.md",
@@ -3389,7 +3389,7 @@
     "size": 554,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754949Z"
+    "last_synced": "T.754949Z"
   },
   {
     "path": "framework/tasks/tasks.json",
@@ -3397,7 +3397,7 @@
     "size": 6964,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754971Z"
+    "last_synced": "T.754971Z"
   },
   {
     "path": "goals/goal-boot.json",
@@ -3405,7 +3405,7 @@
     "size": 187,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754975Z"
+    "last_synced": "T.754975Z"
   },
   {
     "path": "goals/goal-docbot-6aff77.json",
@@ -3413,7 +3413,7 @@
     "size": 356,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754980Z"
+    "last_synced": "T.754980Z"
   },
   {
     "path": "goals/goal-feedbacker-d6efda.json",
@@ -3421,7 +3421,7 @@
     "size": 189,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754984Z"
+    "last_synced": "T.754984Z"
   },
   {
     "path": "goals/goal-forecaster-3adeea.json",
@@ -3429,7 +3429,7 @@
     "size": 180,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754988Z"
+    "last_synced": "T.754988Z"
   },
   {
     "path": "goals/goal-reviewkeeper-e833d4.json",
@@ -3437,7 +3437,7 @@
     "size": 357,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754993Z"
+    "last_synced": "T.754993Z"
   },
   {
     "path": "goals/goal-roadmap-boot.json",
@@ -3445,7 +3445,7 @@
     "size": 191,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.754997Z"
+    "last_synced": "T.754997Z"
   },
   {
     "path": "goals/goal-schemaenforcer-51f700.json",
@@ -3453,7 +3453,7 @@
     "size": 356,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755001Z"
+    "last_synced": "T.755001Z"
   },
   {
     "path": "goals/goal-threads.json",
@@ -3461,7 +3461,7 @@
     "size": 798,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755009Z"
+    "last_synced": "T.755009Z"
   },
   {
     "path": "goals/goal-timeline.json",
@@ -3469,7 +3469,7 @@
     "size": 727,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755017Z"
+    "last_synced": "T.755017Z"
   },
   {
     "path": "governance/co-creation-protocol.json",
@@ -3477,7 +3477,7 @@
     "size": 601,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755025Z"
+    "last_synced": "T.755025Z"
   },
   {
     "path": "governance/lifecycle-policy.json",
@@ -3485,7 +3485,7 @@
     "size": 469,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755033Z"
+    "last_synced": "T.755033Z"
   },
   {
     "path": "governance/trust-orchestration.json",
@@ -3493,15 +3493,15 @@
     "size": 557,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755037Z"
+    "last_synced": "T.755037Z"
   },
   {
-    "path": "governance/audit-trail/2025-04-06-generated.json",
+    "path": "governance/audit-trail/-generated.json",
     "hash": "6282e08de7658f9cad56f890bd0f49e5",
     "size": 156,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755041Z"
+    "last_synced": "T.755041Z"
   },
   {
     "path": "governance/rules/rule-agents-cannot-edit-pipeline-map.json",
@@ -3509,7 +3509,7 @@
     "size": 221,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755045Z"
+    "last_synced": "T.755045Z"
   },
   {
     "path": "intents/intent-evolve-system.json",
@@ -3517,7 +3517,7 @@
     "size": 361,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755050Z"
+    "last_synced": "T.755050Z"
   },
   {
     "path": "intents/intent-scale-multi-agent-runtime.json",
@@ -3525,7 +3525,7 @@
     "size": 412,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755054Z"
+    "last_synced": "T.755054Z"
   },
   {
     "path": "intents/intent-types.json",
@@ -3533,7 +3533,7 @@
     "size": 115,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755058Z"
+    "last_synced": "T.755058Z"
   },
   {
     "path": "logs/evaluations/agent-evolution-scores.json",
@@ -3541,7 +3541,7 @@
     "size": 581,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755063Z"
+    "last_synced": "T.755063Z"
   },
   {
     "path": "logs/evaluations/upgrade-responses.json",
@@ -3549,7 +3549,7 @@
     "size": 510,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755068Z"
+    "last_synced": "T.755068Z"
   },
   {
     "path": "logs/executions/bootstrap-execution-001.json",
@@ -3557,7 +3557,7 @@
     "size": 518,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755073Z"
+    "last_synced": "T.755073Z"
   },
   {
     "path": "logs/executions/feature-audit.json",
@@ -3565,7 +3565,7 @@
     "size": 504,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755078Z"
+    "last_synced": "T.755078Z"
   },
   {
     "path": "logs/executions/final-introspection.json",
@@ -3573,7 +3573,7 @@
     "size": 2245,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755086Z"
+    "last_synced": "T.755086Z"
   },
   {
     "path": "logs/executions/final-structural-feature-audit.json",
@@ -3581,7 +3581,7 @@
     "size": 617,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755091Z"
+    "last_synced": "T.755091Z"
   },
   {
     "path": "logs/executions/introspection-report.json",
@@ -3589,7 +3589,7 @@
     "size": 7230,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755111Z"
+    "last_synced": "T.755111Z"
   },
   {
     "path": "logs/executions/orchestration-simulation.json",
@@ -3597,7 +3597,7 @@
     "size": 479,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755115Z"
+    "last_synced": "T.755115Z"
   },
   {
     "path": "logs/executions/phase-8-routines.json",
@@ -3605,7 +3605,7 @@
     "size": 720,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755121Z"
+    "last_synced": "T.755121Z"
   },
   {
     "path": "logs/executions/recovery-sync.json",
@@ -3613,7 +3613,7 @@
     "size": 3527,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755132Z"
+    "last_synced": "T.755132Z"
   },
   {
     "path": "logs/executions/routine-audit-phase12.json",
@@ -3621,7 +3621,7 @@
     "size": 282,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755136Z"
+    "last_synced": "T.755136Z"
   },
   {
     "path": "logs/executions/system-resilience-execution.json",
@@ -3629,7 +3629,7 @@
     "size": 427,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755140Z"
+    "last_synced": "T.755140Z"
   },
   {
     "path": "memory-bank/index.json",
@@ -3637,7 +3637,7 @@
     "size": 7064,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755157Z"
+    "last_synced": "T.755157Z"
   },
   {
     "path": "memory-bank/memory-metadata.json",
@@ -3645,7 +3645,7 @@
     "size": 509,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755162Z"
+    "last_synced": "T.755162Z"
   },
   {
     "path": "memory-bank/pattern-memory.json",
@@ -3653,7 +3653,7 @@
     "size": 472,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755167Z"
+    "last_synced": "T.755167Z"
   },
   {
     "path": "memory-bank/audit-tasks/agent-group-improvement-tasks.json",
@@ -3661,7 +3661,7 @@
     "size": 5348,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755183Z"
+    "last_synced": "T.755183Z"
   },
   {
     "path": "memory-bank/audit-tasks/agent-identity-review.json",
@@ -3669,7 +3669,7 @@
     "size": 4929,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755205Z"
+    "last_synced": "T.755205Z"
   },
   {
     "path": "memory-bank/audit-tasks/full-project-audit.json",
@@ -3677,7 +3677,7 @@
     "size": 758,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755211Z"
+    "last_synced": "T.755211Z"
   },
   {
     "path": "memory-bank/audit-tasks/full-resilience-audit.json",
@@ -3685,7 +3685,7 @@
     "size": 3910,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755223Z"
+    "last_synced": "T.755223Z"
   },
   {
     "path": "memory-bank/evolving/pending-tasks.json",
@@ -3693,7 +3693,7 @@
     "size": 39965,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755307Z"
+    "last_synced": "T.755307Z"
   },
   {
     "path": "memory-bank/fixed/phase-10-temporal.json",
@@ -3701,7 +3701,7 @@
     "size": 612,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755312Z"
+    "last_synced": "T.755312Z"
   },
   {
     "path": "memory-bank/fixed/phase-8-self-evolving.json",
@@ -3709,7 +3709,7 @@
     "size": 619,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755317Z"
+    "last_synced": "T.755317Z"
   },
   {
     "path": "memory-bank/fixed/phase-9-federation.json",
@@ -3717,7 +3717,7 @@
     "size": 619,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755322Z"
+    "last_synced": "T.755322Z"
   },
   {
     "path": "meta/active-context.json",
@@ -3725,7 +3725,7 @@
     "size": 327,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755327Z"
+    "last_synced": "T.755327Z"
   },
   {
     "path": "meta/file-router.json",
@@ -3733,7 +3733,7 @@
     "size": 86937,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755565Z"
+    "last_synced": "T.755565Z"
   },
   {
     "path": "meta/intent.json",
@@ -3741,7 +3741,7 @@
     "size": 206,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755570Z"
+    "last_synced": "T.755570Z"
   },
   {
     "path": "missions/04-fork-a-plan.md",
@@ -3749,7 +3749,7 @@
     "size": 315,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755574Z"
+    "last_synced": "T.755574Z"
   },
   {
     "path": "missions/onboarding.md",
@@ -3757,7 +3757,7 @@
     "size": 169,
     "type": "md",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755578Z"
+    "last_synced": "T.755578Z"
   },
   {
     "path": "plans/agent-collab-performance-fork.json",
@@ -3765,7 +3765,7 @@
     "size": 279,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755583Z"
+    "last_synced": "T.755583Z"
   },
   {
     "path": "plans/agent-collab-plan.json",
@@ -3773,7 +3773,7 @@
     "size": 268,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755588Z"
+    "last_synced": "T.755588Z"
   },
   {
     "path": "plans/agent-srp-cleanup/plan.json",
@@ -3781,7 +3781,7 @@
     "size": 341,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755592Z"
+    "last_synced": "T.755592Z"
   },
   {
     "path": "plans/agent-srp-cleanup/tasks.json",
@@ -3789,7 +3789,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755596Z"
+    "last_synced": "T.755596Z"
   },
   {
     "path": "plans/bootstrap/plan.json",
@@ -3797,7 +3797,7 @@
     "size": 207,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755601Z"
+    "last_synced": "T.755601Z"
   },
   {
     "path": "plans/bootstrap/tasks.json",
@@ -3805,7 +3805,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755605Z"
+    "last_synced": "T.755605Z"
   },
   {
     "path": "plans/extend-agent-abstractions/plan.json",
@@ -3813,7 +3813,7 @@
     "size": 314,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755610Z"
+    "last_synced": "T.755610Z"
   },
   {
     "path": "plans/extend-agent-abstractions/tasks.json",
@@ -3821,7 +3821,7 @@
     "size": 905,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755616Z"
+    "last_synced": "T.755616Z"
   },
   {
     "path": "plans/feature-audit/plan.json",
@@ -3829,7 +3829,7 @@
     "size": 357,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755620Z"
+    "last_synced": "T.755620Z"
   },
   {
     "path": "plans/feature-audit/tasks.json",
@@ -3837,7 +3837,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755624Z"
+    "last_synced": "T.755624Z"
   },
   {
     "path": "plans/final-audit-fix/plan.json",
@@ -3845,7 +3845,7 @@
     "size": 356,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755629Z"
+    "last_synced": "T.755629Z"
   },
   {
     "path": "plans/final-audit-fix/tasks.json",
@@ -3853,7 +3853,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755633Z"
+    "last_synced": "T.755633Z"
   },
   {
     "path": "plans/fine-tune/plan.json",
@@ -3861,7 +3861,7 @@
     "size": 469,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755637Z"
+    "last_synced": "T.755637Z"
   },
   {
     "path": "plans/fine-tune/tasks.json",
@@ -3869,7 +3869,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755641Z"
+    "last_synced": "T.755641Z"
   },
   {
     "path": "plans/fix-content/plan.json",
@@ -3877,7 +3877,7 @@
     "size": 329,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755646Z"
+    "last_synced": "T.755646Z"
   },
   {
     "path": "plans/fix-content/tasks.json",
@@ -3885,7 +3885,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755650Z"
+    "last_synced": "T.755650Z"
   },
   {
     "path": "plans/onboarding-agent-bootstrap/plan.json",
@@ -3893,7 +3893,7 @@
     "size": 911,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755656Z"
+    "last_synced": "T.755656Z"
   },
   {
     "path": "plans/onboarding-agent-bootstrap/tasks.json",
@@ -3901,7 +3901,7 @@
     "size": 980,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755661Z"
+    "last_synced": "T.755661Z"
   },
   {
     "path": "plans/onboarding-refinement-patch/plan.json",
@@ -3909,7 +3909,7 @@
     "size": 1152,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755668Z"
+    "last_synced": "T.755668Z"
   },
   {
     "path": "plans/onboarding-refinement-patch/tasks.json",
@@ -3917,7 +3917,7 @@
     "size": 1250,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755675Z"
+    "last_synced": "T.755675Z"
   },
   {
     "path": "plans/org-knowledge-agent-bootstrap/plan.json",
@@ -3925,7 +3925,7 @@
     "size": 1175,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755681Z"
+    "last_synced": "T.755681Z"
   },
   {
     "path": "plans/org-knowledge-agent-bootstrap/tasks.json",
@@ -3933,7 +3933,7 @@
     "size": 2368,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755689Z"
+    "last_synced": "T.755689Z"
   },
   {
     "path": "plans/reuse-corrida-elements/plan.json",
@@ -3941,7 +3941,7 @@
     "size": 362,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755694Z"
+    "last_synced": "T.755694Z"
   },
   {
     "path": "plans/reuse-corrida-elements/tasks.json",
@@ -3949,7 +3949,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755697Z"
+    "last_synced": "T.755697Z"
   },
   {
     "path": "plans/root-collaboration-bootstrap/plan.json",
@@ -3957,7 +3957,7 @@
     "size": 1020,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755704Z"
+    "last_synced": "T.755704Z"
   },
   {
     "path": "plans/root-collaboration-bootstrap/tasks.json",
@@ -3965,7 +3965,7 @@
     "size": 1535,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755711Z"
+    "last_synced": "T.755711Z"
   },
   {
     "path": "plans/self-evolve/retrospective-insights.json",
@@ -3973,7 +3973,7 @@
     "size": 250,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755715Z"
+    "last_synced": "T.755715Z"
   },
   {
     "path": "plans/self-evolving/plan.json",
@@ -3981,7 +3981,7 @@
     "size": 347,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755719Z"
+    "last_synced": "T.755719Z"
   },
   {
     "path": "plans/self-evolving/tasks.json",
@@ -3989,7 +3989,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755724Z"
+    "last_synced": "T.755724Z"
   },
   {
     "path": "plans/system-resilience/plan.json",
@@ -3997,7 +3997,7 @@
     "size": 642,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755729Z"
+    "last_synced": "T.755729Z"
   },
   {
     "path": "plans/system-resilience/tasks.json",
@@ -4005,7 +4005,7 @@
     "size": 278,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755733Z"
+    "last_synced": "T.755733Z"
   },
   {
     "path": "plans/template-pipeline-library/context-compression-pipeline.json",
@@ -4013,7 +4013,7 @@
     "size": 338,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755737Z"
+    "last_synced": "T.755737Z"
   },
   {
     "path": "plans/template-pipeline-library/conversation-to-pipeline.json",
@@ -4021,7 +4021,7 @@
     "size": 531,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755742Z"
+    "last_synced": "T.755742Z"
   },
   {
     "path": "plans/template-pipeline-library/ethics-audit-pipeline.json",
@@ -4029,7 +4029,7 @@
     "size": 253,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755746Z"
+    "last_synced": "T.755746Z"
   },
   {
     "path": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
@@ -4037,7 +4037,7 @@
     "size": 542,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755751Z"
+    "last_synced": "T.755751Z"
   },
   {
     "path": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
@@ -4045,7 +4045,7 @@
     "size": 882,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755757Z"
+    "last_synced": "T.755757Z"
   },
   {
     "path": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
@@ -4053,7 +4053,7 @@
     "size": 321,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755762Z"
+    "last_synced": "T.755762Z"
   },
   {
     "path": "plans/template-pipeline-library/routine-gap-detection-pipeline.json",
@@ -4061,7 +4061,7 @@
     "size": 749,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755767Z"
+    "last_synced": "T.755767Z"
   },
   {
     "path": "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json",
@@ -4069,7 +4069,7 @@
     "size": 951,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755772Z"
+    "last_synced": "T.755772Z"
   },
   {
     "path": "runtime/shared_memory/messages.json",
@@ -4077,7 +4077,7 @@
     "size": 1395,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755785Z"
+    "last_synced": "T.755785Z"
   },
   {
     "path": "runtime/shared_memory/subscriptions.json",
@@ -4085,7 +4085,7 @@
     "size": 1021,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755794Z"
+    "last_synced": "T.755794Z"
   },
   {
     "path": "sandbox/sandbox-controller.json",
@@ -4093,7 +4093,7 @@
     "size": 185,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755819Z"
+    "last_synced": "T.755819Z"
   },
   {
     "path": "sandbox/sandbox-simulations.json",
@@ -4101,7 +4101,7 @@
     "size": 258,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755825Z"
+    "last_synced": "T.755825Z"
   },
   {
     "path": "sandbox/simulations/debate-vote-001.json",
@@ -4109,7 +4109,7 @@
     "size": 398,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755832Z"
+    "last_synced": "T.755832Z"
   },
   {
     "path": "sandbox/simulations/dryrun-001.json",
@@ -4117,7 +4117,7 @@
     "size": 352,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755838Z"
+    "last_synced": "T.755838Z"
   },
   {
     "path": "sandbox/simulations/fork-propagation-001.json",
@@ -4125,7 +4125,7 @@
     "size": 325,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755845Z"
+    "last_synced": "T.755845Z"
   },
   {
     "path": "sandbox/simulations/memory-sync-corrida-001.json",
@@ -4133,7 +4133,7 @@
     "size": 267,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755852Z"
+    "last_synced": "T.755852Z"
   },
   {
     "path": "sandbox/simulations/orchestrator-simulation-001.json",
@@ -4141,7 +4141,7 @@
     "size": 293,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755859Z"
+    "last_synced": "T.755859Z"
   },
   {
     "path": "sandbox/simulations/planner-simulation-001.json",
@@ -4149,7 +4149,7 @@
     "size": 1855,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755869Z"
+    "last_synced": "T.755869Z"
   },
   {
     "path": "sandbox/simulations/planner-thread-aware-001.json",
@@ -4157,7 +4157,7 @@
     "size": 563,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755876Z"
+    "last_synced": "T.755876Z"
   },
   {
     "path": "sandbox/simulations/retrospective-bootstrap.json",
@@ -4165,7 +4165,7 @@
     "size": 439,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755881Z"
+    "last_synced": "T.755881Z"
   },
   {
     "path": "sandbox/simulations/sandbox-replay-001.json",
@@ -4173,7 +4173,7 @@
     "size": 264,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755886Z"
+    "last_synced": "T.755886Z"
   },
   {
     "path": "sandbox/simulations/upgrade-pipeline-001.json",
@@ -4181,7 +4181,7 @@
     "size": 728,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755891Z"
+    "last_synced": "T.755891Z"
   },
   {
     "path": "schemas/agent-evolution-score.json",
@@ -4189,7 +4189,7 @@
     "size": 264,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755896Z"
+    "last_synced": "T.755896Z"
   },
   {
     "path": "schemas/canonical-agent-instances.json",
@@ -4197,7 +4197,7 @@
     "size": 3433,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755906Z"
+    "last_synced": "T.755906Z"
   },
   {
     "path": "schemas/canonical-agent-model-metadata.json",
@@ -4205,7 +4205,7 @@
     "size": 198,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755912Z"
+    "last_synced": "T.755912Z"
   },
   {
     "path": "schemas/canonical-agent-model.json",
@@ -4213,7 +4213,7 @@
     "size": 1124,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755921Z"
+    "last_synced": "T.755921Z"
   },
   {
     "path": "schemas/context-router.schema-lifecycle.json",
@@ -4221,7 +4221,7 @@
     "size": 69,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755927Z"
+    "last_synced": "T.755927Z"
   },
   {
     "path": "schemas/context-router.schema-metadata.json",
@@ -4229,7 +4229,7 @@
     "size": 235,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755933Z"
+    "last_synced": "T.755933Z"
   },
   {
     "path": "schemas/context-router.schema.json",
@@ -4237,7 +4237,7 @@
     "size": 472,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755941Z"
+    "last_synced": "T.755941Z"
   },
   {
     "path": "schemas/debate-vote.json",
@@ -4245,7 +4245,7 @@
     "size": 104,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755947Z"
+    "last_synced": "T.755947Z"
   },
   {
     "path": "schemas/feature.schema-lifecycle.json",
@@ -4253,7 +4253,7 @@
     "size": 69,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755953Z"
+    "last_synced": "T.755953Z"
   },
   {
     "path": "schemas/feature.schema-metadata.json",
@@ -4261,7 +4261,7 @@
     "size": 228,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755959Z"
+    "last_synced": "T.755959Z"
   },
   {
     "path": "schemas/feature.schema.json",
@@ -4269,7 +4269,7 @@
     "size": 740,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755966Z"
+    "last_synced": "T.755966Z"
   },
   {
     "path": "schemas/forkable-plan.json",
@@ -4277,7 +4277,7 @@
     "size": 446,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755971Z"
+    "last_synced": "T.755971Z"
   },
   {
     "path": "schemas/lifecycle-metadata.json",
@@ -4285,7 +4285,7 @@
     "size": 212,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755975Z"
+    "last_synced": "T.755975Z"
   },
   {
     "path": "schemas/memory.schema.json",
@@ -4293,7 +4293,7 @@
     "size": 1578,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755982Z"
+    "last_synced": "T.755982Z"
   },
   {
     "path": "schemas/pipeline.schema-lifecycle.json",
@@ -4301,7 +4301,7 @@
     "size": 69,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755986Z"
+    "last_synced": "T.755986Z"
   },
   {
     "path": "schemas/pipeline.schema-metadata.json",
@@ -4309,7 +4309,7 @@
     "size": 229,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755990Z"
+    "last_synced": "T.755990Z"
   },
   {
     "path": "schemas/pipeline.schema.json",
@@ -4317,7 +4317,7 @@
     "size": 454,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755994Z"
+    "last_synced": "T.755994Z"
   },
   {
     "path": "schemas/routine-manifest.schema-lifecycle.json",
@@ -4325,7 +4325,7 @@
     "size": 69,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.755998Z"
+    "last_synced": "T.755998Z"
   },
   {
     "path": "schemas/routine-manifest.schema-metadata.json",
@@ -4333,7 +4333,7 @@
     "size": 237,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756002Z"
+    "last_synced": "T.756002Z"
   },
   {
     "path": "schemas/routine-manifest.schema.json",
@@ -4341,7 +4341,7 @@
     "size": 387,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756007Z"
+    "last_synced": "T.756007Z"
   },
   {
     "path": "schemas/schema-index-lifecycle.json",
@@ -4349,7 +4349,7 @@
     "size": 69,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756010Z"
+    "last_synced": "T.756010Z"
   },
   {
     "path": "schemas/schema-index.json",
@@ -4357,7 +4357,7 @@
     "size": 279,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756015Z"
+    "last_synced": "T.756015Z"
   },
   {
     "path": "schemas/schema-metadata-metadata.json",
@@ -4365,7 +4365,7 @@
     "size": 229,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756020Z"
+    "last_synced": "T.756020Z"
   },
   {
     "path": "schemas/schema-metadata.json",
@@ -4373,7 +4373,7 @@
     "size": 190,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756026Z"
+    "last_synced": "T.756026Z"
   },
   {
     "path": "schemas/schema-version-tracker-lifecycle.json",
@@ -4381,7 +4381,7 @@
     "size": 69,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756031Z"
+    "last_synced": "T.756031Z"
   },
   {
     "path": "schemas/schema-version-tracker.json",
@@ -4389,7 +4389,7 @@
     "size": 3617,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756047Z"
+    "last_synced": "T.756047Z"
   },
   {
     "path": "schemas/version-history.json",
@@ -4397,7 +4397,7 @@
     "size": 403,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756055Z"
+    "last_synced": "T.756055Z"
   },
   {
     "path": "simulations/sim-agent-collab.yaml",
@@ -4405,7 +4405,7 @@
     "size": 183,
     "type": "yaml",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756061Z"
+    "last_synced": "T.756061Z"
   },
   {
     "path": "simulations/onboarding/phase1-simulation.json",
@@ -4413,7 +4413,7 @@
     "size": 233,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756067Z"
+    "last_synced": "T.756067Z"
   },
   {
     "path": "task-graph/task-graph-root-collaboration-bootstrap.json",
@@ -4421,6 +4421,6 @@
     "size": 1400,
     "type": "json",
     "tags": [],
-    "last_synced": "2025-04-07T05:05:49.756075Z"
+    "last_synced": "T.756075Z"
   }
 ]

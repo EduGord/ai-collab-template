@@ -4,15 +4,15 @@
       "goalId": "G1",
       "events": [
         {
-          "timestamp": "2025-04-01",
+          "timestamp": "",
           "event": "Defined initial schema for messaging"
         },
         {
-          "timestamp": "2025-04-05",
+          "timestamp": "",
           "event": "Deployed planner-agent decomposition pipeline"
         },
         {
-          "timestamp": "2025-04-06",
+          "timestamp": "",
           "event": "Simulated orchestrator routing task"
         }
       ]
@@ -21,11 +21,11 @@
       "goalId": "G2",
       "events": [
         {
-          "timestamp": "2025-04-01",
+          "timestamp": "",
           "event": "Enabled sandbox dry-run mode"
         },
         {
-          "timestamp": "2025-04-06",
+          "timestamp": "",
           "event": "Logged planner-agent sandbox simulation"
         }
       ]

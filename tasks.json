@@ -4,7 +4,7 @@
     "title": "Improve diff-based release pipelines using file-router and checksums",
     "status": "pending",
     "assigned_to": "orchestrator-agent",
-    "created": "2025-04-08T03:05:48.474931Z",
+    "created": "T.474931Z",
     "description": "Fix and enhance the release version pipelines to:\n- Use file-router.json to scope diffs\n- Filter .md/.yaml/.json/.txt updates across memory, logs, models, goals\n- Use SHA256 checksums + timestamps to determine changes\n- Patch and register missing file routes\n- Generate accurate diff-based ZIPs\n- Update memory bank, release metadata, and agent logs",
     "tags": [
       "pipeline",

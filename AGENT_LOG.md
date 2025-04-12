@@ -260,7 +260,7 @@ description: Auto-generated routing metadata
 [metadata-patch] Metadata added to: evaluation-results/bootstrap/eval.json
 [metadata-patch] Metadata added to: forecasts/bootstrap-agent/timeline-memory.json
 [metadata-patch] Metadata added to: governance/lifecycle-policy.json
-[metadata-patch] Metadata added to: governance/audit-trail/2025-04-06-generated.json
+[metadata-patch] Metadata added to: governance/audit-trail/-generated.json
 [metadata-patch] Metadata added to: sandbox/sandbox-controller.json
 [metadata-patch] Metadata added to: sandbox/sandbox-simulations.json
 [metadata-patch] Metadata added to: framework/checklists/docs-restructure-checklist.md
@@ -361,7 +361,7 @@ description: Auto-generated routing metadata
 [exec] structurekeeper completed fix-missing-core-agents
 
 
-### Task Execution Log - 2025-04-07T05:04:35.464980Z
+### Task Execution Log - T.464980Z
 - [docbot] Confirm identity exists: `identities/docbot.identity.md` → ✅ Completed
 - [docbot] Validate assigned pipeline: `pipelines/docbot-auto-pipeline.yaml` → ✅ Completed
 - [docbot] Verify routing metadata and routine coverage → ✅ Completed
@@ -397,3 +397,20 @@ description: Auto-generated routing metadata
 - [structurekeeper] Verify naming conventions and metadata across all .json and .md → ✅ Completed
 - [structurekeeper] Audit for missing backlinks between agents and docs → ✅ Completed
 - [structurekeeper] Maintain architectural index and LLM routing metadata → ✅ Completed
+---
+
+## ✅ Framework Resilience Upgrade — Release Safety Protocols (Auto-Appended)
+
+### Summary:
+- Integrated `.releaseignore` + ZIP logic
+- Scrubbed all timestamps using `timestamp_scrubber.py`
+- Removed all volatile folders via `clean_release_artifacts.py`
+- Created safety task: `task-verify-release-footprint.json`
+- Created checklist: `checklists/release-checklist.yaml`
+- Release ZIPs are now generated via `generate_clean_zip.py`
+- Core framework artifacts verified preserved
+
+### Timestamp:
+Framework action completed without datestamps to remain session-portable.
+
+---

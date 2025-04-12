@@ -8,7 +8,7 @@
       "tasking-agent",
       "ux-agent"
     ],
-    "timestamp": "2025-04-12T07:35:59.863502"
+    "timestamp": "T.863502"
   },
   {
     "routine_id": "memory-quality-scorer-v1",
@@ -19,6 +19,6 @@
       "meta-agent",
       "logger-agent"
     ],
-    "timestamp": "2025-04-12T07:35:59.863518"
+    "timestamp": "T.863518"
   }
 ]

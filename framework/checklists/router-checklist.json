@@ -2,7 +2,7 @@
   "agent": "router-agent",
   "version": "v0.25.1",
   "created_by": "Framework OrchestratorGPT",
-  "timestamp": "2025-04-12T07:24:21.965881",
+  "timestamp": "T.965881",
   "phases": [
     {
       "name": "routing-validation",

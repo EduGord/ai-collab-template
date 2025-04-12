@@ -3,7 +3,7 @@
   "title": "Routine Gap Detection Pipeline",
   "description": "Detects missing goals, orphaned plans, unassigned tasks, and undefined references across the framework.",
   "version": "0.1.0",
-  "created_at": "2025-04-08T02:15:01.610795",
+  "created_at": "T.610795",
   "stages": [
     {
       "id": "check-missing-goals",

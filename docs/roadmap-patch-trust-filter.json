@@ -1,6 +1,6 @@
 {
   "patch_id": "trust-weighted-roadmap-filter",
-  "timestamp": "2025-04-12T20:30:00Z",
+  "timestamp": "TZ",
   "priority_agents": [
     "docbot",
     "planner-agent"

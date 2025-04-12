@@ -1,7 +1,7 @@
 {
   "agent": "meta-agent",
   "type": "self-review",
-  "timestamp": "2025-04-06T20:45:00Z",
+  "timestamp": "TZ",
   "insights": [
     "Canonical model enabled agent normalization",
     "Need checklist propagation automation",

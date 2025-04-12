@@ -10,7 +10,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:42:10.070521"
+    "timestamp": "T.070521"
   },
   {
     "task_id": "fix-e5e78487",
@@ -23,7 +23,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:42:10.070885"
+    "timestamp": "T.070885"
   },
   {
     "task_id": "fix-9fa559b5",
@@ -36,7 +36,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:42:10.071273"
+    "timestamp": "T.071273"
   },
   {
     "task_id": "fix-1a41ac71",
@@ -49,7 +49,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:42:10.071450"
+    "timestamp": "T.071450"
   },
   {
     "task_id": "fix-fe8e8d97",
@@ -62,7 +62,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:42:10.071644"
+    "timestamp": "T.071644"
   },
   {
     "task_id": "fix-efdb9d4d",
@@ -75,7 +75,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:42:10.071833"
+    "timestamp": "T.071833"
   },
   {
     "task_id": "fix-4d437aeb",
@@ -88,7 +88,7 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:42:10.071973"
+    "timestamp": "T.071973"
   },
   {
     "task_id": "fix-d70ee5ef",
@@ -101,6 +101,6 @@
       "consensus",
       "strategy"
     ],
-    "timestamp": "2025-04-12T17:42:10.072250"
+    "timestamp": "T.072250"
   }
 ]
