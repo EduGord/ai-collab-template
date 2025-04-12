@@ -1,8 +1,3 @@
----
-title: design-principles.md
-type: md
-description: Auto-generated routing metadata
----
 
 # Design Principles
 
@@ -17,3 +12,10 @@ It is built from scratch to help LLMs and humans efficiently collaborate over lo
 ## Canonical Data Models
 
 The `/schemas/canonical-agent-model.json` schema provides a foundational contract to unify agent identity, lifecycle, and operational boundaries.
+
+---
+
+This document is currently under construction.
+
+🛠️ To be filled with guidance, structure, and examples for:  
+- design principles

@@ -1,13 +1,14 @@
----
-title: system-checklist.md
-type: md
-description: Auto-generated routing metadata
----
-
 # Project Stabilization Checklist
-- [x] Identity and checklists created for bootstrap + evolve agents
-- [x] Memory bank and context router operational
-- [x] Reflection system live
-- [x] Routine and pipeline mapping complete
-- [x] Phase 1–8 plans executed
-- [x] Phase 9 planning staged
+- [ ] Identity and checklists created for bootstrap + evolve agents
+- [ ] Memory bank and context router operational
+- [ ] Reflection system live
+- [ ] Routine and pipeline mapping complete
+- [ ] All phases, plans, tasks executed
+- [ ] All phases, plans, tasks planning staged
+
+--- 
+
+This document is currently under construction.
+
+🛠️ To be filled with guidance, structure, and examples for:  
+- system checklist

@@ -5,14 +5,20 @@
     "voting-strategy",
     "agent-feedback-evaluator"
   ],
-  "dependencies": ["orchestrator-agent"],
+  "dependencies": [
+    "orchestrator-agent"
+  ],
   "agent_id": "voting-agent",
-  "traits": ["resolver", "evaluator"],
+  "traits": [
+    "resolver",
+    "evaluator"
+  ],
   "personality": {
     "tone": "neutral",
     "bias": "minimize conflict"
   },
   "capabilities": [],
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "agentId": "voting-agent"
 }

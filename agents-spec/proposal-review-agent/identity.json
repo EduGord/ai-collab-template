@@ -5,10 +5,17 @@
     "intent-analyzer",
     "schema-coverage-checker"
   ],
-  "dependencies": ["planner-agent"],
+  "dependencies": [
+    "planner-agent"
+  ],
   "agent_id": "proposal-review-agent",
-  "traits": ["reviewer", "analyzer", "checker"],
+  "traits": [
+    "reviewer",
+    "analyzer",
+    "checker"
+  ],
   "capabilities": [],
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "agentId": "proposal-review-agent"
 }

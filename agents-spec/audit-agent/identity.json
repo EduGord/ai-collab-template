@@ -7,8 +7,13 @@
     "diff-scanner"
   ],
   "agent_id": "audit-agent",
-  "traits": ["validator", "indexer", "scanner"],
+  "traits": [
+    "validator",
+    "indexer",
+    "scanner"
+  ],
   "capabilities": [],
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "agentId": "audit-agent"
 }

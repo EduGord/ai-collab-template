@@ -13,5 +13,9 @@
     "task-bootstrap-log-resumable-pipeline"
   ],
   "linked_to": "realtime-llm-assistant",
-  "persistent_memory_tag": "logs"
+  "persistent_memory_tag": "logs",
+  "agentId": "logger-agent",
+  "capabilities": [
+    "logging"
+  ]
 }

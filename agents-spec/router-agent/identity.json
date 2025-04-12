@@ -7,8 +7,13 @@
     "memory-pruner"
   ],
   "agent_id": "router-agent",
-  "traits": ["adapter", "matcher", "pruner"],
+  "traits": [
+    "adapter",
+    "matcher",
+    "pruner"
+  ],
   "capabilities": [],
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "agentId": "router-agent"
 }

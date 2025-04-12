@@ -1,19 +1,5 @@
 {
-  "promotionRules": {
-    "minSuccessRate": 0.85,
-    "minExecutionCount": 5,
-    "requiredTags": [
-      "stable"
-    ]
-  },
-  "deprecationRules": {
-    "failureThreshold": 3,
-    "inactiveDays": 30,
-    "manualOverride": true
-  },
-  "upgradeFlow": [
-    "evaluate execution stats",
-    "log upgrade recommendation",
-    "generate checklist-upgrade tasks"
-  ]
+  "title": "Lifecycle Policy",
+  "description": "Defines the versioning, deprecation, and upgrade lifecycle rules for agents and pipelines.",
+  "enforcedBy": "audit-agent"
 }

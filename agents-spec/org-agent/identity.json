@@ -16,5 +16,9 @@
     "task-semantic-retrieval-index"
   ],
   "linked_plan": "org-knowledge-agent-bootstrap",
-  "persistent_memory_tag": "org-mgmt"
+  "persistent_memory_tag": "org-mgmt",
+  "agentId": "org-agent",
+  "capabilities": [
+    "general"
+  ]
 }

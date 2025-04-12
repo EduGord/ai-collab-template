@@ -5,10 +5,17 @@
     "goal-parser",
     "pipeline-proposer"
   ],
-  "dependencies": ["tasking-agent"],
+  "dependencies": [
+    "tasking-agent"
+  ],
   "agent_id": "planner-agent",
-  "traits": ["decomposer", "mapper", "proposer"],
+  "traits": [
+    "decomposer",
+    "mapper",
+    "proposer"
+  ],
   "capabilities": [],
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "agentId": "planner-agent"
 }

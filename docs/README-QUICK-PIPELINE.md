@@ -1,8 +1,3 @@
----
-title: README-QUICK-PIPELINE.md
-type: md
-description: Auto-generated routing metadata
----
 
 # 🚀 Guia de Reentrada Rápida na Pipeline
 
@@ -50,3 +45,10 @@ Fale com o `orchestrator-agent`. Ele organiza toda a operação do sistema.
 - `ui-review-pipeline`: revisão automática de interfaces
 - `identity-governance-audit`: auditoria de identidades
 - `generate-plan-feedback-log`: gera feedbacks estruturados de planos
+
+---
+
+This document is currently under construction.
+
+🛠️ To be filled with guidance, structure, and examples for:  
+- readme quick pipeline

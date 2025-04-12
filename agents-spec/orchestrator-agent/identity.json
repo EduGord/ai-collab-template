@@ -5,10 +5,17 @@
     "task-graph-sync",
     "agent-state-monitor"
   ],
-  "dependencies": ["planner-agent"],
+  "dependencies": [
+    "planner-agent"
+  ],
   "agent_id": "orchestrator-agent",
-  "traits": ["coordinator", "tracker", "resolver"],
+  "traits": [
+    "coordinator",
+    "tracker",
+    "resolver"
+  ],
   "capabilities": [],
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "agentId": "orchestrator-agent"
 }

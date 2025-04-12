@@ -4,10 +4,16 @@
   "tools": [
     "agent-capability-map"
   ],
-  "dependencies": ["orchestrator-agent"],
+  "dependencies": [
+    "orchestrator-agent"
+  ],
   "agent_id": "tasking-agent",
-  "traits": ["assigner", "logger"],
+  "traits": [
+    "assigner",
+    "logger"
+  ],
   "capabilities": [],
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "agentId": "tasking-agent"
 }

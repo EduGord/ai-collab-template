@@ -2,8 +2,13 @@
   "agent_id": "evolve-agent",
   "role": "Scans the system for architectural evolution opportunities, routine gaps, and agent upgrade signals",
   "description": "Scans the system for architectural evolution opportunities, routine gaps, and agent upgrade signals",
-  "traits": ["scanner", "analyzer", "updater"],
+  "traits": [
+    "scanner",
+    "analyzer",
+    "updater"
+  ],
   "capabilities": [],
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "agentId": "evolve-agent"
 }

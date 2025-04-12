@@ -1,162 +1,27 @@
-[
-  {
-    "agentId": "bootstrap-agent",
-    "role": "initial planner and project generator",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "bootstrap-agent",
-    "description": "initial planner and project generator",
-    "traits": []
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Canonical Agent Instances",
+  "type": "object",
+  "properties": {
+    "agentId": {
+      "type": "string",
+      "description": "Unique identifier of the agent instance"
+    },
+    "role": {
+      "type": "string",
+      "description": "Functional role of the agent in the system"
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of capabilities the agent has"
+    }
   },
-  {
-    "agentId": "evolve-agent",
-    "role": "Scans the system for architectural evolution opportunities, routine gaps, and agent upgrade signals",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "evolve-agent",
-    "description": "Scans the system for architectural evolution opportunities, routine gaps, and agent upgrade signals",
-    "traits": []
-  },
-  {
-    "agentId": "router-agent",
-    "role": "Adapts context-router.json based on LLM session and memory state",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "router-agent",
-    "description": "Adapts context-router.json based on LLM session and memory state",
-    "traits": []
-  },
-  {
-    "agentId": "planner-agent",
-    "role": "Decomposes user intent into tasks, maps dependencies, suggests flows",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "planner-agent",
-    "description": "Decomposes user intent into tasks, maps dependencies, suggests flows",
-    "traits": []
-  },
-  {
-    "agentId": "orchestrator-agent",
-    "role": "Coordinates task execution, tracks plan state, resolves race conditions",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "orchestrator-agent",
-    "description": "Coordinates task execution, tracks plan state, resolves race conditions",
-    "traits": []
-  },
-  {
-    "agentId": "tasking-agent",
-    "role": "Assigns tasks to capable agents and logs expectations",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "tasking-agent",
-    "description": "Assigns tasks to capable agents and logs expectations",
-    "traits": []
-  },
-  {
-    "agentId": "audit-agent",
-    "role": "Handles audit logs, memory validation, and context inspections",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "audit-agent",
-    "description": "Handles audit logs, memory validation, and context inspections",
-    "traits": []
-  },
-  {
-    "agentId": "proposal-review-agent",
-    "role": "Reviews generated plans for consistency and alignment with original intent",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "proposal-review-agent",
-    "description": "Reviews generated plans for consistency and alignment with original intent",
-    "traits": []
-  },
-  {
-    "agentId": "recovery-agent",
-    "role": "Handles failed routines, agent breakdowns, and retry logic",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "recovery-agent",
-    "description": "Handles failed routines, agent breakdowns, and retry logic",
-    "traits": []
-  },
-  {
-    "agentId": "voting-agent",
-    "role": "Resolve conflicts and evaluate competing agent outputs",
-    "capabilities": [],
-    "linkedSchemas": [
-      "schemas/canonical-agent-model.json"
-    ],
-    "linkedPlans": [
-      "plans/agent-collab-performance-fork.json"
-    ],
-    "status": "active",
-    "version": "1.0.0",
-    "agent_id": "voting-agent",
-    "description": "Resolve conflicts and evaluate competing agent outputs",
-    "traits": []
-  }
-]
+  "required": [
+    "agentId",
+    "role",
+    "capabilities"
+  ]
+}

@@ -1,9 +1,3 @@
----
-title: system-resilience-checklist.md
-type: md
-description: Auto-generated routing metadata
----
-
 # System Resilience Checklist
 
 - [ ] Verify context-router includes all valid project files
@@ -12,3 +6,10 @@ description: Auto-generated routing metadata
 - [ ] Ensure tooling can lint and repair the memory layout
 - [ ] Ensure self-healing routines are registered
 - [ ] Run system-introspection at each project version bump
+
+---
+
+This document is currently under construction.
+
+🛠️ To be filled with guidance, structure, and examples for:  
+- system resilience checklist

@@ -5,10 +5,17 @@
     "retry-loop-runner",
     "log-diff-analyzer"
   ],
-  "dependencies": ["logger-agent"],
+  "dependencies": [
+    "logger-agent"
+  ],
   "agent_id": "recovery-agent",
-  "traits": ["handler", "analyzer", "retrier"],
+  "traits": [
+    "handler",
+    "analyzer",
+    "retrier"
+  ],
   "capabilities": [],
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "agentId": "recovery-agent"
 }

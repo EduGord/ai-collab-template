@@ -1,7 +1,6 @@
----
-title: how-to-extend-pipeline.md
-type: md
-description: Auto-generated routing metadata
----
+# How To Extend Pipeline
 
-"# How to Extend a Pipeline\n\nInclude lifecycle metadata, debate logic, or sandbox simulation tags."
+This document is currently under construction.
+
+🛠️ To be filled with guidance, structure, and examples for:  
+- how to extend pipeline

@@ -1,21 +1,20 @@
-{
-  "title": "tasking-agent Core Checklist",
-  "relatedFiles": [
-    "logs/",
-    "memory-bank/",
-    "scripts/",
-    "form-schema.json"
-  ],
-  "checkItems": [
-    "\u2705 Criar tarefas a partir de intera\u00e7\u00f5es, comandos ou modifica\u00e7\u00f5es detectadas",
-    "\u2705 Manter o `90-task-pending-list.json` sempre atualizado",
-    "\u2705 Atribuir tarefas automaticamente a agentes respons\u00e1veis"
-  ],
-  "items": [
-    {
-      "id": "example-item",
-      "description": "Define checklist content here",
-      "status": "pending"
-    }
-  ]
-}
+[
+  {
+    "item": "Clear mission objectives",
+    "status": "pending",
+    "linkedFiles": [],
+    "notes": ""
+  },
+  {
+    "item": "Align with routing protocols",
+    "status": "pending",
+    "linkedFiles": [],
+    "notes": ""
+  },
+  {
+    "item": "Report execution results",
+    "status": "pending",
+    "linkedFiles": [],
+    "notes": ""
+  }
+]

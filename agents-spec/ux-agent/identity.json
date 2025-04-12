@@ -9,12 +9,19 @@
     "feedback-aware",
     "reflection-prone"
   ],
-  "dependencies": ["logger-agent"],
+  "dependencies": [
+    "logger-agent"
+  ],
   "entry_point_tasks": [
     "task-feedback-loop-from-user",
     "task-agent-alignment-scan",
     "task-trigger-user-checklist"
   ],
   "linked_to": "realtime-llm-assistant",
-  "persistent_memory_tag": "ux-feedback"
+  "persistent_memory_tag": "ux-feedback",
+  "agentId": "ux-agent",
+  "capabilities": [
+    "interface",
+    "design"
+  ]
 }

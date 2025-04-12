@@ -1,9 +1,3 @@
----
-title: context-coherence-loop.md
-type: md
-description: Auto-generated routing metadata
----
-
 # Context Coherence Loop
 
 To prevent context drift:
@@ -13,3 +7,10 @@ To prevent context drift:
 3. A self-healing routine must auto-fix any discovered gaps
 4. Reflection must be logged on audit failures
 5. A version bump should trigger introspection
+
+--- 
+
+This document is currently under construction.
+
+🛠️ To be filled with guidance, structure, and examples for:  
+- context coherence loop
