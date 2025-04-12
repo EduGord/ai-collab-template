@@ -1,4 +1,4 @@
-# Volatile runtime data
+# Volatile runtime data if all files associeted with them are completed and we dont need to use them on future resilience recovery pipelines runs
 logs/
 sandbox/
 runtime/shared_memory/
