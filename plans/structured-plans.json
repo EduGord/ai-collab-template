@@ -1,0 +1,43 @@
+{
+  "version": "auto-vNEXT",
+  "generated_by": "planner-agent",
+  "source_fragments": [
+    "task-graph-agent-srp-cleanup.json",
+    "task-graph-feature-audit.json",
+    "task-graph-final-audit-fix.json",
+    "task-graph-fine-tune.json",
+    "task-graph-fix-content.json",
+    "task-graph-reuse.json",
+    "task-graph-system-resilience.json",
+    "task-graph.json",
+    "docs/task-graph-doc.md",
+    "plans/agent-srp-cleanup/tasks.json",
+    "plans/bootstrap/tasks.json",
+    "plans/extend-agent-abstractions/tasks.json",
+    "plans/feature-audit/tasks.json",
+    "plans/final-audit-fix/tasks.json",
+    "plans/fine-tune/tasks.json",
+    "plans/fix-content/tasks.json",
+    "plans/onboarding-agent-bootstrap/tasks.json",
+    "plans/onboarding-refinement-patch/tasks.json",
+    "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "plans/reuse-corrida-elements/tasks.json",
+    "plans/root-collaboration-bootstrap/tasks.json",
+    "plans/self-evolving/tasks.json",
+    "plans/system-resilience/tasks.json",
+    "task-graph/task-graph-root-collaboration-bootstrap.json"
+  ],
+  "structure": {
+    "phases": [
+      "bootstrap",
+      "refinement",
+      "hardening"
+    ],
+    "includes": [
+      "plans/bootstrap/tasks.json",
+      "plans/self-evolving/tasks.json",
+      "plans/system-resilience/tasks.json"
+    ],
+    "status": "synthesized"
+  }
+}
