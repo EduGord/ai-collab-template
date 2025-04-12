@@ -1,10 +1,30 @@
 {
-  "version": "1.0",
-  "author": "system",
-  "created": "2025-04-07T01:46:41.076046Z",
-  "tags": [
-    "logger-agent",
-    "canonical"
+  "agent": "logger-agent",
+  "domains": [
+    "logging",
+    "monitoring",
+    "system"
   ],
-  "agent": "logger-agent"
+  "inputs": [
+    "execution-logs"
+  ],
+  "outputs": [
+    "structured-logs"
+  ],
+  "decisionScope": [
+    "log-formatting",
+    "log-routing"
+  ],
+  "relationships": {
+    "delegatesTo": [],
+    "supervisedBy": [],
+    "relatedTo": [
+      "orchestrator-agent",
+      "all-other-agents"
+    ]
+  }
 }
+
+
+
+

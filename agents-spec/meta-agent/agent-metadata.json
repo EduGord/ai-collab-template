@@ -1,10 +1,27 @@
 {
-  "version": "1.0",
-  "author": "system",
-  "created": "2025-04-07T01:46:41.076046Z",
-  "tags": [
-    "meta-agent",
-    "canonical"
+  "agent": "meta-agent",
+  "domains": [
+    "system",
+    "coordination",
+    "evolution"
   ],
-  "agent": "meta-agent"
+  "inputs": [
+    "system-state",
+    "agent-feedback"
+  ],
+  "outputs": [
+    "adaptation-plans",
+    "coordination-signals"
+  ],
+  "decisionScope": [
+    "system-adaptation",
+    "agent-coordination"
+  ],
+  "relationships": {
+    "delegatesTo": [],
+    "supervisedBy": [],
+    "relatedTo": [
+      "all-other-agents"
+    ]
+  }
 }

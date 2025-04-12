@@ -1,5 +1,5 @@
 {
-  "agent": "bootstrap-agent",
+  "agent": "org-agent",
   "domains": [
     "planning",
     "execution"

@@ -1,11 +1,13 @@
 {
-  "name": "planner-agent",
   "role": "Decomposes user intent into tasks, maps dependencies, suggests flows",
+  "description": "Decomposes user intent into tasks, maps dependencies, suggests flows",
   "tools": [
     "goal-parser",
     "pipeline-proposer"
   ],
-  "agentId": "planner-agent",
+  "dependencies": ["tasking-agent"],
+  "agent_id": "planner-agent",
+  "traits": ["decomposer", "mapper", "proposer"],
   "capabilities": [],
   "status": "active",
   "version": "1.0.0"

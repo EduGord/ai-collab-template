@@ -1,14 +1,17 @@
 {
   "role": "Resolve conflicts and evaluate competing agent outputs",
+  "description": "Resolve conflicts and evaluate competing agent outputs",
   "tools": [
     "voting-strategy",
     "agent-feedback-evaluator"
   ],
+  "dependencies": ["orchestrator-agent"],
+  "agent_id": "voting-agent",
+  "traits": ["resolver", "evaluator"],
   "personality": {
     "tone": "neutral",
     "bias": "minimize conflict"
   },
-  "agentId": "voting-agent",
   "capabilities": [],
   "status": "active",
   "version": "1.0.0"

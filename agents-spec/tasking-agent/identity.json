@@ -1,10 +1,12 @@
 {
-  "name": "tasking-agent",
   "role": "Assigns tasks to capable agents and logs expectations",
+  "description": "Assigns tasks to capable agents and logs expectations",
   "tools": [
     "agent-capability-map"
   ],
-  "agentId": "tasking-agent",
+  "dependencies": ["orchestrator-agent"],
+  "agent_id": "tasking-agent",
+  "traits": ["assigner", "logger"],
   "capabilities": [],
   "status": "active",
   "version": "1.0.0"

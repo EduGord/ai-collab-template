@@ -1,11 +1,13 @@
 {
-  "name": "recovery-agent",
   "role": "Handles failed routines, agent breakdowns, and retry logic",
+  "description": "Handles failed routines, agent breakdowns, and retry logic",
   "tools": [
     "retry-loop-runner",
     "log-diff-analyzer"
   ],
-  "agentId": "recovery-agent",
+  "dependencies": ["logger-agent"],
+  "agent_id": "recovery-agent",
+  "traits": ["handler", "analyzer", "retrier"],
   "capabilities": [],
   "status": "active",
   "version": "1.0.0"

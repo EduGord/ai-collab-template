@@ -1,10 +1,30 @@
 {
-  "version": "1.0",
-  "author": "system",
-  "created": "2025-04-07T01:46:41.076046Z",
-  "tags": [
-    "voting-agent",
-    "canonical"
+  "agent": "voting-agent",
+  "domains": [
+    "conflict-resolution",
+    "evaluation",
+    "decision-making"
   ],
-  "agent": "voting-agent"
+  "inputs": [
+    "competing-outputs",
+    "evaluation-criteria",
+    "agent-feedback"
+  ],
+  "outputs": [
+    "resolved-output",
+    "evaluation-report",
+    "decision"
+  ],
+  "decisionScope": [
+    "output-selection",
+    "conflict-resolution-strategy"
+  ],
+  "relationships": {
+    "delegatesTo": [],
+    "supervisedBy": [],
+    "relatedTo": [
+      "all-other-agents",
+      "orchestrator-agent"
+    ]
+  }
 }

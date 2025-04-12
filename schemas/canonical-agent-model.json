@@ -10,8 +10,11 @@
     "traits"
   ],
   "fields": [
+    "dependencies",
+    "agent_id",
+    "role",
+    "description",
     "agent",
-    "agentId",
     "agent_id",
     "automatic_classification",
     "capabilities",
@@ -48,5 +51,15 @@
     "traits",
     "user_feedback_processing",
     "version"
-  ]
+  ],
+    "properties": {
+        "dependencies": {
+            "type": "array",
+            "description": "List of agent_ids that this agent depends on.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "capabilities": {"description": "List of standardized capability names."}
+    }
 }

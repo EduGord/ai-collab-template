@@ -1,10 +1,30 @@
 {
-  "version": "1.0",
-  "author": "system",
-  "created": "2025-04-07T01:46:41.076046Z",
-  "tags": [
-    "ux-agent",
-    "canonical"
+  "agent": "ux-agent",
+  "domains": [
+    "user-experience",
+    "analysis",
+    "feedback"
   ],
-  "agent": "ux-agent"
+  "inputs": [
+    "agent-outputs",
+    "user-feedback",
+    "logs"
+  ],
+  "outputs": [
+    "feedback-suggestions",
+    "summaries",
+    "corrections"
+  ],
+  "decisionScope": [
+    "feedback-prioritization",
+    "summary-generation"
+  ],
+  "relationships": {
+    "delegatesTo": [],
+    "supervisedBy": [],
+    "relatedTo": [
+      "all-other-agents",
+      "logger-agent"
+    ]
+  }
 }

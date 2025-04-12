@@ -1,11 +1,13 @@
 {
-  "name": "orchestrator-agent",
   "role": "Coordinates task execution, tracks plan state, resolves race conditions",
+  "description": "Coordinates task execution, tracks plan state, resolves race conditions",
   "tools": [
     "task-graph-sync",
     "agent-state-monitor"
   ],
-  "agentId": "orchestrator-agent",
+  "dependencies": ["planner-agent"],
+  "agent_id": "orchestrator-agent",
+  "traits": ["coordinator", "tracker", "resolver"],
   "capabilities": [],
   "status": "active",
   "version": "1.0.0"

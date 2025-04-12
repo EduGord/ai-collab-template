@@ -1,7 +1,11 @@
 {
-  "name": "bootstrap-agent",
   "role": "initial planner and project generator",
-  "agentId": "bootstrap-agent",
+  "description": "Initial planner and project generator",
+  "agent_id": "bootstrap-agent",
+  "traits": [
+    "planner",
+    "generator"
+  ],
   "capabilities": [],
   "status": "active",
   "version": "1.0.0"

@@ -1,11 +1,13 @@
 {
-  "name": "proposal-review-agent",
   "role": "Reviews generated plans for consistency and alignment with original intent",
+  "description": "Reviews generated plans for consistency and alignment with original intent",
   "tools": [
     "intent-analyzer",
     "schema-coverage-checker"
   ],
-  "agentId": "proposal-review-agent",
+  "dependencies": ["planner-agent"],
+  "agent_id": "proposal-review-agent",
+  "traits": ["reviewer", "analyzer", "checker"],
   "capabilities": [],
   "status": "active",
   "version": "1.0.0"

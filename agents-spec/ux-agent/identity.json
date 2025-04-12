@@ -9,6 +9,7 @@
     "feedback-aware",
     "reflection-prone"
   ],
+  "dependencies": ["logger-agent"],
   "entry_point_tasks": [
     "task-feedback-loop-from-user",
     "task-agent-alignment-scan",
