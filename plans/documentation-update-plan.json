@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    {
+        "task_id": "main",
+        "description": "Improve Documentation and Onboarding",
+        "agent": "planner-agent",
+        "dependencies": ["update-auto-onboard", "update-planner-identity", "update-agent-task-pipeline", "update-planner-checklist"],
+        "status": "open"
+    },
+    {
+      "task_id": "update-auto-onboard",
+      "description": "Update `AUTO-ONBOARD.md` to explain the task planning process.",
+      "agent": "docbot-agent",
+          "dependencies": [],
+      "status": "completed"
+    },
+    {
+        "task_id": "update-planner-identity",
+        "description": "Enhance documentation for the `planner-agent` in its `identity.json` file.",
+        "agent": "docbot-agent",
+        "dependencies": [],
+        "status": "completed"
+    }
+    ,
+    {
+        "task_id": "update-agent-task-pipeline",
+        "description": "Update documentation for the `agent_task_pipeline.yaml` pipeline.",
+        "agent": "docbot-agent",
+          "dependencies": [],
+        "status": "pending"
+    }
+    ,
+    {
+        "task_id": "update-planner-checklist",
+        "description": "Update documentation for the `planner-checklist.md` checklist.",
+        "agent": "docbot-agent",
+        "dependencies": [],
+        "status": "open"
+    }
+  ]
+}
