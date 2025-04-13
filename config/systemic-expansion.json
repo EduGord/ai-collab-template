@@ -1,0 +1,13 @@
+{
+  "description": "Indexes all structural governance files and critical orchestration artifacts.",
+  "indexed_artifacts": [
+    "config/release-preferences.json",
+    "config/zip-integrity-checklist.json",
+    "config/release-readiness-audit.json",
+    "config/cleanup-before-release.json",
+    "pipelines/orchestrator-release-zip-pipeline.json",
+    "config/systemic-expansion.json"
+  ],
+  "maintainer": "orchestrator-agent",
+  "version": "1.0.1"
+}

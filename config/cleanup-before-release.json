@@ -1,0 +1,8 @@
+{
+  "actions": [
+    "remove_logs",
+    "delete_backups",
+    "strip_dev_artifacts",
+    "enforce_flat_zip_layout"
+  ]
+}

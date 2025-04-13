@@ -1,0 +1,38 @@
+{
+  "version": "1.0.1",
+  "strip_logs": true,
+  "allow_nested_zip": false,
+  "prune_backups": true,
+  "zip_structure": "flat",
+  "include_only": [
+    "README.md",
+    "CHANGELOG.md",
+    "config/",
+    "docs/",
+    "agents/",
+    "pipelines/",
+    "checklists/",
+    "schemas/",
+    "src/",
+    "LICENSE",
+    "README-HUMAN.md",
+    "README-LLM.md",
+    "README-ONBOARDING.md",
+    "AUTO-ONBOARD.md",
+    "ONBOARDING.md",
+    "main.py",
+    ".gitignore",
+    ".releaseignore"
+  ],
+  "exclude_patterns": [
+    "*.log",
+    "*.zip",
+    "__pycache__/",
+    "*.bak",
+    "logs/",
+    "backups/",
+    "temp/",
+    ".DS_Store"
+  ],
+  "manifest_path": "config/release-manifest.json"
+}

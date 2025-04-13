@@ -1,0 +1,12 @@
+{
+  "pipeline": "orchestrator-release-zip",
+  "description": "Builds and verifies final release ZIP using canonical structure and rules.",
+  "steps": [
+    "load_release_preferences",
+    "run_cleanup_actions",
+    "execute_readiness_audit",
+    "apply_integrity_checklist",
+    "generate_release_manifest",
+    "package_final_zip"
+  ]
+}

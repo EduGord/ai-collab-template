@@ -70,3 +70,13 @@ Everything here is:
 - ✅ Linked to tasks, routines, and reflections
 
 Welcome aboard. The system is live and ready to collaborate.
+
+## 🔗 Release Control Artifacts (Autolinked)
+
+The following files govern the release packaging and validation process:
+
+- `config/release-preferences.json`
+- `config/zip-integrity-checklist.json`
+- `config/release-readiness-audit.json`
+- `config/cleanup-before-release.json`
+- `pipelines/orchestrator-release-zip-pipeline.json`

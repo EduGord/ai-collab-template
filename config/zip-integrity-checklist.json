@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "no_nested_zip",
+    "no_logs_or_backups",
+    "flat_structure",
+    "only_included_files_present",
+    "manifest_matches_zip_contents"
+  ]
+}
