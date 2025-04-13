@@ -31,10 +31,31 @@
   "ui_aspects": {
     "visual_priority": "medium"
   },
-  "domains": ["planning", "execution", "review"],
-    "inputs": ["intent.json", "task-spec.json"],
-    "outputs": ["execution-log.json"],
-    "decision_scope": ["proposal-acceptance", "proposal-rejection", "task-assignment", "pipeline-selection"],
-    "relationships": {"delegates_to": [],"supervised_by": ["meta-agent"],"related_to": ["orchestrator-agent"]}
+  "domains": [
+    "planning",
+    "execution",
+    "review"
+  ],
+  "inputs": [
+    "intent.json",
+    "task-spec.json"
+  ],
+  "outputs": [
+    "execution-log.json"
+  ],
+  "decision_scope": [
+    "proposal-acceptance",
+    "proposal-rejection",
+    "task-assignment",
+    "pipeline-selection"
+  ],
+  "relationships": {
+    "delegates_to": [],
+    "supervised_by": [
+      "meta-agent"
+    ],
+    "related_to": [
+      "orchestrator-agent"
+    ]
   }
 }

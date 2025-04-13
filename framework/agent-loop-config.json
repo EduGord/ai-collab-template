@@ -1,0 +1,19 @@
+{
+  "pipeline": "agent-coordination-cycle.json",
+  "triggers": [
+    "post-plan-completion",
+    "weekly-schedule",
+    "insight-update"
+  ],
+  "agent_overseers": [
+    "scheduler-agent",
+    "evolve-agent",
+    "planner-agent"
+  ],
+  "feedback_channels": [
+    "reflections/",
+    "logs/executions/",
+    "reports/"
+  ],
+  "status": "active"
+}

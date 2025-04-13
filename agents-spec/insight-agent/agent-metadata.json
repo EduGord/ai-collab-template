@@ -1,0 +1,6 @@
+{
+  "agent_name": "insight-agent",
+  "description": "Analyzes project trends and suggests strategic insights.",
+  "domain": "analytics",
+  "role": "insight-generator"
+}

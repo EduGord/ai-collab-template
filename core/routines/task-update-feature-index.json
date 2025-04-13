@@ -1,0 +1,18 @@
+{
+  "name": "task-update-feature-index",
+  "description": "Scans all project files and updates the indexed features for search/discovery.",
+  "steps": [
+    {
+      "id": "scan-all-files",
+      "action": "walk_and_index_features"
+    },
+    {
+      "id": "update-memory-bank",
+      "action": "update_feature_index_json"
+    },
+    {
+      "id": "log-results",
+      "action": "store_update_log"
+    }
+  ]
+}

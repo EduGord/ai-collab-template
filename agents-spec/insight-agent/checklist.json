@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    {
+      "id": "trend-analysis-init",
+      "description": "Run baseline project trend analysis",
+      "status": "pending"
+    }
+  ]
+}

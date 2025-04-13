@@ -1,0 +1,8 @@
+{
+  "rules": [
+    "allocate-based-on-confidence",
+    "prioritize-idle-agents",
+    "increase-confidence-threshold-tuning"
+  ],
+  "last_updated": "2025-04-13T05:37:31.017118"
+}

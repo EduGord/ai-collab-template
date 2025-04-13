@@ -22,13 +22,31 @@
     "task-prioritization"
   ],
   "relationships": {
-    "delegatesTo": ["tasking-agent", "evolve-agent"],
-    "supervisedBy": ["orchestrator-agent"],
-    "relatedTo": ["meta-agent", "org-agent"],
-    "dependencies": ["memory-bank", "router-agent"]
+    "delegatesTo": [
+      "tasking-agent",
+      "evolve-agent"
+    ],
+    "supervisedBy": [
+      "orchestrator-agent"
+    ],
+    "relatedTo": [
+      "meta-agent",
+      "org-agent"
+    ],
+    "dependencies": [
+      "memory-bank",
+      "router-agent"
+    ]
   },
   "operationalProcedures": "The planner agent maintains a task queue, prioritizes tasks based on available information, and decides on the optimal order of execution. It also selects the appropriate pipeline for task execution and manages delegation to other agents.",
-  "executionMetrics": ["token-usage", "estimated-cost", "execution-time"],
-  "uiAspects": ["progress-bar", "task-list", "plan-visualization"]
-  }
+  "executionMetrics": [
+    "token-usage",
+    "estimated-cost",
+    "execution-time"
+  ],
+  "uiAspects": [
+    "progress-bar",
+    "task-list",
+    "plan-visualization"
+  ]
 }

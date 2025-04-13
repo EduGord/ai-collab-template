@@ -1,0 +1,30 @@
+{
+  "id": "plan-q2-cycle-delegation",
+  "title": "Delegation & Specialization Cycle",
+  "description": "Empower scheduler-agent and tasking-agent with refined delegation rules from insights and evolve-agent feedback.",
+  "objectives": [
+    "Fine-tune delegation heuristics",
+    "Distribute load across underutilized agents",
+    "Create feedback loop from evolve-agent \u2192 scheduler-agent"
+  ],
+  "agents_involved": [
+    "scheduler-agent",
+    "tasking-agent",
+    "evolve-agent"
+  ],
+  "checkpoints": [
+    {
+      "id": "delegation-rule-update",
+      "description": "Apply new heuristic tuning"
+    },
+    {
+      "id": "agent-load-redistribution",
+      "description": "Measure and balance task flow"
+    },
+    {
+      "id": "feedback-loop-test",
+      "description": "Verify response from evolve-agent to adjustments"
+    }
+  ],
+  "status": "planned"
+}

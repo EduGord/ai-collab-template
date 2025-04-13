@@ -1,0 +1,6 @@
+{
+  "rules": [
+    "detect-patterns",
+    "flag-anomalies"
+  ]
+}

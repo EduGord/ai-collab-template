@@ -1,0 +1,7 @@
+{
+  "pipeline": "agent-coordination-cycle.json",
+  "frequency": "daily",
+  "time": "03:00",
+  "enabled": true,
+  "last_run": "2025-04-13T053353"
+}

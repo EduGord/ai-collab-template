@@ -1,0 +1,30 @@
+{
+  "id": "plan-project-insight-sprint",
+  "title": "Insight Sprint \u2014 Strategic Analysis Phase",
+  "description": "Deploy the insight-agent to detect trends, anomalies, and strategic opportunities from logs, specs, and execution flows.",
+  "objectives": [
+    "Extract patterns from recent agent executions",
+    "Identify underutilized agents or bottlenecks",
+    "Generate weekly insight reports"
+  ],
+  "agents_involved": [
+    "insight-agent",
+    "reflection-agent",
+    "planner-agent"
+  ],
+  "checkpoints": [
+    {
+      "id": "insight-boot",
+      "description": "Initialize and verify insight-agent state"
+    },
+    {
+      "id": "trend-detection",
+      "description": "Run heuristic-based trend detection"
+    },
+    {
+      "id": "report-draft",
+      "description": "Compile and deliver insight report"
+    }
+  ],
+  "status": "planned"
+}

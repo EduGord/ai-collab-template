@@ -1,0 +1,26 @@
+{
+  "name": "agent-coordination-cycle",
+  "description": "Default cycle where agents validate, bid, clean, and prep for release.",
+  "steps": [
+    {
+      "id": "sweep-validation",
+      "use": "core/routines/task-full-sweep-validation-v40.json"
+    },
+    {
+      "id": "update-features",
+      "use": "core/routines/task-update-feature-index.json"
+    },
+    {
+      "id": "run-bidding",
+      "use": "framework/pipelines/market-bidding-cycle.json"
+    },
+    {
+      "id": "clean-orphans",
+      "use": "framework/pipelines/orphan-file-clean.json"
+    },
+    {
+      "id": "release-diff-aware",
+      "use": "framework/pipelines/pipeline-release-diff-aware.json"
+    }
+  ]
+}

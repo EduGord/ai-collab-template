@@ -22,15 +22,15 @@
   ],
   "relationships": {
     "delegatesTo": [
-        "recovery-agent"
+      "recovery-agent"
     ],
     "supervisedBy": [
       "orchestrator-agent"
     ],
     "relatedTo": [
-        "planner-agent",
-        "router-agent",
-        "evolve-agent"
+      "planner-agent",
+      "router-agent",
+      "evolve-agent"
     ]
   },
   "hierarchy": "peer",
@@ -39,5 +39,4 @@
   "decisionParameters": "prioritize critical errors, follow audit trail",
   "executionMetrics": "token usage, audit duration, number of errors found",
   "uiAspects": "provide audit report summaries, display error highlights"
-  }
 }

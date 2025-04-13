@@ -1,0 +1,22 @@
+{
+  "name": "task-full-sweep-validation-v40",
+  "description": "Validates all agents, governance policies, and checklists against project rules.",
+  "steps": [
+    {
+      "id": "validate-agents",
+      "action": "check_agent_specs_integrity"
+    },
+    {
+      "id": "validate-governance",
+      "action": "crosscheck_governance_with_checklists"
+    },
+    {
+      "id": "validate-file-routing",
+      "action": "match_file_routes_to_meta"
+    },
+    {
+      "id": "log-results",
+      "action": "store_validation_log"
+    }
+  ]
+}

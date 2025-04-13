@@ -19,5 +19,12 @@
       "status": "pending"
     }
   ],
-  "$schema": "schemas/agent-schema.json"
+  "$schema": "schemas/agent-schema.json",
+  "tasks": [
+    {
+      "id": "task-coordination-binding",
+      "description": "Link tasking-agent to scheduler-agent and bidding pipeline.",
+      "status": "pending"
+    }
+  ]
 }
