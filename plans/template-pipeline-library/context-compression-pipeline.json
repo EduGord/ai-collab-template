@@ -11,5 +11,6 @@
       "agent": "docs-agent",
       "action": "format compressed output"
     }
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

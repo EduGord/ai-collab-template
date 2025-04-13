@@ -11,5 +11,6 @@
       "agent": "docs-agent",
       "action": "document findings"
     }
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

@@ -1751,5 +1751,6 @@
     "core/governance/enforce-resilience-logic.json",
     "runtime/shared_memory/messages.json",
     "runtime/shared_memory/subscriptions.json"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

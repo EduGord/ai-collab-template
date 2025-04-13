@@ -13,5 +13,6 @@
     "run-task-graph",
     "trigger-reflection"
   ],
-  "last_updated": "2025-04-12T23:47:29.964278"
+  "last_updated": "2025-04-12T23:47:29.964278",
+  "$schema": "schemas/default-schema.json"
 }

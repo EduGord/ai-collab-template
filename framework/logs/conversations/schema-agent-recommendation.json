@@ -1,0 +1,8 @@
+{
+  "from": "schema-agent",
+  "to": "orchestrator-agent",
+  "type": "recommendation",
+  "topic": "schema patching",
+  "message": "Files without `$schema` key should be linked to domain schemas like `agent-schema.json`, `routing-schema.json`, etc.",
+  "timestamp": "auto"
+}

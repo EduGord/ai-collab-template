@@ -3,10 +3,10 @@
   "routines": [
     {
       "id": "remind-checklist-review",
-      "description": "Revisar checklists dos agentes após qualquer modificação em campos do formulário",
+      "description": "Revisar checklists dos agentes ap\u00f3s qualquer modifica\u00e7\u00e3o em campos do formul\u00e1rio",
       "frequency": "manual",
       "triggeredBy": [
-        "mudança em running-plan-form.json"
+        "mudan\u00e7a em running-plan-form.json"
       ],
       "assignedTo": "orchestrator-agent"
     },
@@ -15,7 +15,7 @@
       "description": "Revalidar KPIs se as regras forem alteradas ou os objetivos forem ampliados",
       "frequency": "manual",
       "triggeredBy": [
-        "modificação em running-plan-validation-rules.json",
+        "modifica\u00e7\u00e3o em running-plan-validation-rules.json",
         "novos objetivos"
       ],
       "assignedTo": "training-agent"
@@ -25,16 +25,16 @@
       "description": "Atualizar project-versions.json se qualquer schema ou spec for alterado",
       "frequency": "manual",
       "triggeredBy": [
-        "modificação em *.json"
+        "modifica\u00e7\u00e3o em *.json"
       ],
       "assignedTo": "dev-agent"
     },
     {
       "id": "review-checklists-on-form-change",
-      "description": "Revisar checklists do training-agent após mudanças no formulário",
+      "description": "Revisar checklists do training-agent ap\u00f3s mudan\u00e7as no formul\u00e1rio",
       "frequency": "manual",
       "triggeredBy": [
-        "modificação em schemas/running-plan-form.json"
+        "modifica\u00e7\u00e3o em schemas/running-plan-form.json"
       ],
       "relatedFields": [
         "agents-spec/training-agent/checklists/"
@@ -43,11 +43,11 @@
     },
     {
       "id": "review-pipeline-map",
-      "description": "Verificar consistência do fluxo da pipeline após qualquer mudança em agentes ou sequência",
+      "description": "Verificar consist\u00eancia do fluxo da pipeline ap\u00f3s qualquer mudan\u00e7a em agentes ou sequ\u00eancia",
       "frequency": "manual",
       "triggeredBy": [
-        "mudança em ia-context.json",
-        "inclusão de agentes"
+        "mudan\u00e7a em ia-context.json",
+        "inclus\u00e3o de agentes"
       ],
       "relatedFields": [
         "spec/pipeline-map.json"
@@ -56,11 +56,11 @@
     },
     {
       "id": "review-ia-context-after-evolution",
-      "description": "Revisar ia-context.json após qualquer modificação estrutural no projeto",
+      "description": "Revisar ia-context.json ap\u00f3s qualquer modifica\u00e7\u00e3o estrutural no projeto",
       "frequency": "manual",
       "triggeredBy": [
         "evolution-proposals.json",
-        "modificação em arquivos de agentes"
+        "modifica\u00e7\u00e3o em arquivos de agentes"
       ],
       "relatedFields": [
         "ia-context.json"
@@ -69,10 +69,10 @@
     },
     {
       "id": "revalidate-validation-rules-after-schema-changes",
-      "description": "Reavaliar as regras de validação sempre que houver mudanças nos campos do schema",
+      "description": "Reavaliar as regras de valida\u00e7\u00e3o sempre que houver mudan\u00e7as nos campos do schema",
       "frequency": "manual",
       "triggeredBy": [
-        "modificação em schemas/running-plan-form.json"
+        "modifica\u00e7\u00e3o em schemas/running-plan-form.json"
       ],
       "relatedFields": [
         "schemas/running-plan-validation-rules.json"
@@ -81,10 +81,10 @@
     },
     {
       "id": "review-context-spec-after-schema-or-pipeline-change",
-      "description": "Atualizar context-spec.md após mudanças no pipeline, schema ou agentes",
+      "description": "Atualizar context-spec.md ap\u00f3s mudan\u00e7as no pipeline, schema ou agentes",
       "frequency": "manual",
       "triggeredBy": [
-        "mudança em pipeline-map.json",
+        "mudan\u00e7a em pipeline-map.json",
         "schema.json",
         "agentes"
       ],
@@ -95,10 +95,10 @@
     },
     {
       "id": "revisar-checklists-quando-formulario-alterado",
-      "description": "Revisar todas as checklists do training-agent sempre que o formulário mudar",
+      "description": "Revisar todas as checklists do training-agent sempre que o formul\u00e1rio mudar",
       "frequency": "manual",
       "triggeredBy": [
-        "modificação em running-plan-form.json"
+        "modifica\u00e7\u00e3o em running-plan-form.json"
       ],
       "relatedFields": [
         "agents-spec/training-agent/checklists/"
@@ -107,11 +107,11 @@
     },
     {
       "id": "revisar-mapa-pipeline-apos-modificacoes-agentes",
-      "description": "Revisar pipeline-map.json após adicionar, remover ou alterar agentes e etapas",
+      "description": "Revisar pipeline-map.json ap\u00f3s adicionar, remover ou alterar agentes e etapas",
       "frequency": "manual",
       "triggeredBy": [
-        "mudança em ia-context.json",
-        "alterações em agents-spec/"
+        "mudan\u00e7a em ia-context.json",
+        "altera\u00e7\u00f5es em agents-spec/"
       ],
       "relatedFields": [
         "spec/pipeline-map.json"
@@ -120,11 +120,11 @@
     },
     {
       "id": "revisar-ia-context-apos-expansao",
-      "description": "Verificar consistência de ia-context.json após evolução de agentes ou novas tarefas",
+      "description": "Verificar consist\u00eancia de ia-context.json ap\u00f3s evolu\u00e7\u00e3o de agentes ou novas tarefas",
       "frequency": "manual",
       "triggeredBy": [
-        "adição de agentes",
-        "mudanças de identidade"
+        "adi\u00e7\u00e3o de agentes",
+        "mudan\u00e7as de identidade"
       ],
       "relatedFields": [
         "ia-context.json"
@@ -133,10 +133,10 @@
     },
     {
       "id": "verificar-consistencia-das-regras-de-validacao",
-      "description": "Auditar alterações em running-plan-validation-rules.json e revisar implicações nos KPIs",
+      "description": "Auditar altera\u00e7\u00f5es em running-plan-validation-rules.json e revisar implica\u00e7\u00f5es nos KPIs",
       "frequency": "manual",
       "triggeredBy": [
-        "alteração no arquivo de regras"
+        "altera\u00e7\u00e3o no arquivo de regras"
       ],
       "relatedFields": [
         "schemas/running-plan-validation-rules.json"
@@ -145,11 +145,11 @@
     },
     {
       "id": "atualizar-context-spec-apos-grandes-modificacoes",
-      "description": "Revisar o contexto geral do projeto após mudanças significativas nas regras ou agentes",
+      "description": "Revisar o contexto geral do projeto ap\u00f3s mudan\u00e7as significativas nas regras ou agentes",
       "frequency": "manual",
       "triggeredBy": [
-        "alteração em schemas",
-        "alterações em specs"
+        "altera\u00e7\u00e3o em schemas",
+        "altera\u00e7\u00f5es em specs"
       ],
       "relatedFields": [
         "spec/context-spec.md"
@@ -158,21 +158,21 @@
     },
     {
       "id": "review-training-checklists",
-      "description": "Revisar os checklists do agente de treino se o schema do formulário ou regras forem modificadas",
+      "description": "Revisar os checklists do agente de treino se o schema do formul\u00e1rio ou regras forem modificadas",
       "frequency": "manual",
       "triggeredBy": [
-        "mudança em running-plan-form.json",
-        "alteração em running-plan-validation-rules.json"
+        "mudan\u00e7a em running-plan-form.json",
+        "altera\u00e7\u00e3o em running-plan-validation-rules.json"
       ],
       "assignedTo": "training-agent"
     },
     {
       "id": "review-pipeline-map",
-      "description": "Verificar se a sequência de execução entre agentes ainda está atualizada",
+      "description": "Verificar se a sequ\u00eancia de execu\u00e7\u00e3o entre agentes ainda est\u00e1 atualizada",
       "frequency": "manual",
       "triggeredBy": [
-        "inclusão de novos agentes",
-        "mudança em etapas do fluxo"
+        "inclus\u00e3o de novos agentes",
+        "mudan\u00e7a em etapas do fluxo"
       ],
       "assignedTo": "orchestrator-agent"
     },
@@ -181,18 +181,18 @@
       "description": "Confirmar se o roteamento e escopos dos agentes ainda refletem o projeto real",
       "frequency": "manual",
       "triggeredBy": [
-        "mudança de escopo de agentes",
-        "adição de novos arquivos",
+        "mudan\u00e7a de escopo de agentes",
+        "adi\u00e7\u00e3o de novos arquivos",
         "nova identidade"
       ],
       "assignedTo": "orchestrator-agent"
     },
     {
       "id": "review-validation-rules",
-      "description": "Revalidar regras e lógica de KPIs após ajustes estruturais ou novas metas",
+      "description": "Revalidar regras e l\u00f3gica de KPIs ap\u00f3s ajustes estruturais ou novas metas",
       "frequency": "manual",
       "triggeredBy": [
-        "mudança em running-plan-validation-rules.json"
+        "mudan\u00e7a em running-plan-validation-rules.json"
       ],
       "assignedTo": "training-agent"
     },
@@ -201,33 +201,34 @@
       "description": "Atualizar contexto geral se novos arquivos, agentes ou objetivos forem definidos",
       "frequency": "manual",
       "triggeredBy": [
-        "expansão do projeto",
-        "alteração de objetivos",
+        "expans\u00e3o do projeto",
+        "altera\u00e7\u00e3o de objetivos",
         "nova persona"
       ],
       "assignedTo": "orchestrator-agent"
     },
     {
       "id": "validate-agent-identity-integrity",
-      "description": "Assumir identidade de cada agente e verificar se escopo, arquivos e comportamento estão completos e atualizados.",
+      "description": "Assumir identidade de cada agente e verificar se escopo, arquivos e comportamento est\u00e3o completos e atualizados.",
       "frequency": "manual",
       "triggeredBy": [
-        "modificações no projeto",
-        "mudança no pipeline",
+        "modifica\u00e7\u00f5es no projeto",
+        "mudan\u00e7a no pipeline",
         "novos agentes"
       ],
       "assignedTo": "orchestrator-agent"
     },
     {
       "id": "update-memory-bank-docs",
-      "description": "Revisar e atualizar os arquivos do Memory Bank com base no progresso, contexto ativo e mudanças de arquitetura.",
+      "description": "Revisar e atualizar os arquivos do Memory Bank com base no progresso, contexto ativo e mudan\u00e7as de arquitetura.",
       "frequency": "manual",
       "triggeredBy": [
-        "mudança de contexto",
+        "mudan\u00e7a de contexto",
         "nova arquitetura",
-        "expansão de escopo"
+        "expans\u00e3o de escopo"
       ],
       "assignedTo": "orchestrator-agent"
     }
-  ]
+  ],
+  "$schema": "schemas/routine-schema.json"
 }

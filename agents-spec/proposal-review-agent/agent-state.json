@@ -2,5 +2,6 @@
   "status": "initialized",
   "memory_pointer": null,
   "assigned_tasks": [],
-  "agent": "proposal-review-agent"
+  "agent": "proposal-review-agent",
+  "$schema": "schemas/agent-schema.json"
 }

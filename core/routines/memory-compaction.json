@@ -11,5 +11,6 @@
     "Merge related fragments or delete low-value data",
     "Update memory-bank and regenerate index"
   ],
-  "status": "ready"
+  "status": "ready",
+  "$schema": "schemas/memory-schema.json"
 }

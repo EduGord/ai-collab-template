@@ -20,5 +20,6 @@
     "framework/routines/routine-forecaster-monthly.yaml": "warn",
     "framework/routines/routine-realtime-llm.yaml": "warn",
     "framework/routines/routine-recovery-bootstrap.yaml": "warn"
-  }
+  },
+  "$schema": "schemas/default-schema.json"
 }

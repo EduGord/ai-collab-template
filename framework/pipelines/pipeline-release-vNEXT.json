@@ -56,5 +56,6 @@
         "logs/executions/"
       ]
     }
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

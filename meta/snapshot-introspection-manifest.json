@@ -14,11 +14,15 @@
     "schemas/canonical-agent-model.json",
     "plans/system-resilience/tasks.json"
   ],
-  "agents_involved": ["docbot", "planner-agent"],
+  "agents_involved": [
+    "docbot",
+    "planner-agent"
+  ],
   "outputs": [
     "Canonical snapshot report",
     "Version-tagged diff log",
     "Milestone-linked validation task"
   ],
-  "status": "active"
+  "status": "active",
+  "$schema": "schemas/default-schema.json"
 }

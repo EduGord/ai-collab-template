@@ -8,5 +8,6 @@
     "feedback",
     "summary"
   ],
-  "owner": "feedbacker"
+  "owner": "feedbacker",
+  "$schema": "schemas/task-schema.json"
 }

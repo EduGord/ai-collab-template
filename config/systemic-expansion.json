@@ -9,5 +9,6 @@
     "config/systemic-expansion.json"
   ],
   "maintainer": "orchestrator-agent",
-  "version": "1.0.1"
+  "version": "1.0.1",
+  "$schema": "schemas/default-schema.json"
 }

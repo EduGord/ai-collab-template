@@ -12,5 +12,6 @@
       "if": "agent-error-detected",
       "then": "capture-exception-context"
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

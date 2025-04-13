@@ -10,5 +10,6 @@
     "routine",
     "agent"
   ],
-  "owner": "schemaenforcer"
+  "owner": "schemaenforcer",
+  "$schema": "schemas/agent-schema.json"
 }

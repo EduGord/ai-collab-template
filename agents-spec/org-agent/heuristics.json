@@ -16,5 +16,6 @@
       "if": "usage-patterns-identified",
       "then": "adjust-indexing-weighting"
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

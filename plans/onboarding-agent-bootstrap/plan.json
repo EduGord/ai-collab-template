@@ -23,5 +23,6 @@
     "framework/identities/",
     "schemas/canonical-agent-model.json",
     "docs/final_comprehensive_project_summary.md"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

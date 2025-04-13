@@ -26,5 +26,6 @@
       "intent": "Start trend analysis over time (weekly log summaries)",
       "priority": "medium"
     }
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

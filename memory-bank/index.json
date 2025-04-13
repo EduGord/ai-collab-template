@@ -19,5 +19,6 @@
   "auditTasks": [
     "checklists",
     "task-validation"
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

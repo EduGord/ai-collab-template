@@ -1,6 +1,11 @@
 {
   "goal": "Rebuild high-level roadmap and phase-based execution strategy for all active agents.",
   "status": "pending",
-  "tags": ["roadmap", "boot", "governance"],
-  "owner": "planner"
+  "tags": [
+    "roadmap",
+    "boot",
+    "governance"
+  ],
+  "owner": "planner",
+  "$schema": "schemas/goal-schema.json"
 }

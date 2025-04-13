@@ -15,5 +15,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "tasking-agent"
+  "agentId": "tasking-agent",
+  "$schema": "schemas/agent-schema.json"
 }

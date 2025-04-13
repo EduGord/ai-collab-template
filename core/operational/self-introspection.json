@@ -7,6 +7,6 @@
     "log result in introspection-report.json",
     "suggest tasks for any inconsistencies"
   ],
-  "description": "This routine audits the framework itself to ensure runtime behaviors follow defined templates."
+  "description": "This routine audits the framework itself to ensure runtime behaviors follow defined templates.",
+  "$schema": "schemas/default-schema.json"
 }
-

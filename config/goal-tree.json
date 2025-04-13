@@ -24,5 +24,6 @@
       ],
       "progress": 0.0
     }
-  ]
+  ],
+  "$schema": "schemas/goal-schema.json"
 }

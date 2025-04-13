@@ -22,5 +22,6 @@
       "type": "string",
       "required": false
     }
-  ]
+  ],
+  "$schema": "schemas/routine-schema.json"
 }

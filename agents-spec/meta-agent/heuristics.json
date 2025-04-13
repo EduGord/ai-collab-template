@@ -2,5 +2,6 @@
   "description": "Auto-generated placeholder for meta-agent heuristics.",
   "patterns": [],
   "decisions": [],
-  "scope": "meta-analysis and orchestration alignment"
+  "scope": "meta-analysis and orchestration alignment",
+  "$schema": "schemas/agent-schema.json"
 }

@@ -10,5 +10,6 @@
       "context": "structure hygiene enforcement",
       "status": "active"
     }
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

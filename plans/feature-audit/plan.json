@@ -10,5 +10,6 @@
     "audit-agent",
     "evolve-agent"
   ],
-  "timestamp": "T.381068"
+  "timestamp": "T.381068",
+  "$schema": "schemas/default-schema.json"
 }

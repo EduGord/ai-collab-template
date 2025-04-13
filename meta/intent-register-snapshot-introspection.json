@@ -1,9 +1,18 @@
 {
   "intent_id": "snapshot-introspection-loop",
   "description": "Maintain continuous, versioned introspection of system state via docbot.",
-  "scope": ["docbot", "planner-agent"],
+  "scope": [
+    "docbot",
+    "planner-agent"
+  ],
   "linked_manifest": "snapshot-introspection-manifest",
-  "context_tags": ["introspection", "resilience", "memory", "roadmap", "snapshot"],
+  "context_tags": [
+    "introspection",
+    "resilience",
+    "memory",
+    "roadmap",
+    "snapshot"
+  ],
   "priority": "high",
   "activation_conditions": [
     "weekly-cycle",
@@ -15,5 +24,6 @@
     "logs/snapshots/system-snapshot-diff.json"
   ],
   "versioned": true,
-  "status": "registered"
+  "status": "registered",
+  "$schema": "schemas/default-schema.json"
 }

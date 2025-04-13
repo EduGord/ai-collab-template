@@ -8,5 +8,6 @@
     "Reputation scoring must be explainable, auditable, and memory-backed"
   ],
   "timestamp": "T.833180",
-  "proposed_by": "Framework OrchestratorGPT"
+  "proposed_by": "Framework OrchestratorGPT",
+  "$schema": "schemas/default-schema.json"
 }

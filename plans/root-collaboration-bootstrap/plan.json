@@ -29,5 +29,6 @@
   "pipelines": [
     "framework/pipelines/realtime-llm-pipeline.yaml",
     "framework/pipelines/agent_task_pipeline.yaml"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

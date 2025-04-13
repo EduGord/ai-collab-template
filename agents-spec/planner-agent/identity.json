@@ -17,5 +17,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "planner-agent"
+  "agentId": "planner-agent",
+  "$schema": "schemas/agent-schema.json"
 }

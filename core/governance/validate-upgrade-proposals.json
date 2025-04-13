@@ -6,5 +6,6 @@
     "Check proposal version bump",
     "Ensure rollback tag and rollback source is present",
     "Log validation result to upgrade-validation.json"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

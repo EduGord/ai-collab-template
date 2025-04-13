@@ -11,5 +11,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "meta-agent"
+  "agentId": "meta-agent",
+  "$schema": "schemas/agent-schema.json"
 }

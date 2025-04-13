@@ -20,5 +20,6 @@
       "audit_participation": true
     }
   },
-  "score_model": "simple-coverage + fallback-tested"
+  "score_model": "simple-coverage + fallback-tested",
+  "$schema": "schemas/default-schema.json"
 }

@@ -1,7 +1,11 @@
 {
   "routines": {
     "bootstrap-init": {
-      "expect": ["folder structure created", "files initialized"]
+      "expect": [
+        "folder structure created",
+        "files initialized"
+      ]
     }
-  }
+  },
+  "$schema": "schemas/default-schema.json"
 }

@@ -6,5 +6,6 @@
     "sentiment",
     "audit",
     "UX"
-  ]
+  ],
+  "$schema": "schemas/feedback-schema.json"
 }

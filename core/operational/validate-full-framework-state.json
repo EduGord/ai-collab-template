@@ -8,5 +8,6 @@
     "Check docs/ and schemas/ contain referenced files",
     "Ensure routines/*/ contain valid metadata and version tags"
   ],
-  "status": "active"
+  "status": "active",
+  "$schema": "schemas/default-schema.json"
 }

@@ -15,5 +15,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "router-agent"
+  "agentId": "router-agent",
+  "$schema": "schemas/agent-schema.json"
 }

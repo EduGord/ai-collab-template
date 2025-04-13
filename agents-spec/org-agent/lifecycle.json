@@ -4,5 +4,6 @@
     "active",
     "reflecting",
     "archived"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

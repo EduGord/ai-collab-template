@@ -2,5 +2,6 @@
   "status": "initialized",
   "memory_pointer": null,
   "assigned_tasks": [],
-  "agent": "router-agent"
+  "agent": "router-agent",
+  "$schema": "schemas/agent-schema.json"
 }

@@ -11,5 +11,6 @@
     "Create checklist suggestions or trigger warnings",
     "Log audit result to execution-feedback"
   ],
-  "status": "active"
+  "status": "active",
+  "$schema": "schemas/default-schema.json"
 }

@@ -6,5 +6,6 @@
     "review",
     "consistency"
   ],
-  "owner": "reviewkeeper"
+  "owner": "reviewkeeper",
+  "$schema": "schemas/goal-schema.json"
 }

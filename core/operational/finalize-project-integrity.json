@@ -160,5 +160,6 @@
     "sandbox/simulations/orchestrator-simulation-001.json",
     "sandbox/simulations/upgrade-pipeline-001.json"
   ],
-  "missingDocs": []
+  "missingDocs": [],
+  "$schema": "schemas/default-schema.json"
 }

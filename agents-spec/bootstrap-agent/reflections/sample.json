@@ -1,5 +1,6 @@
 {
   "task": "init-template",
   "result": "success",
-  "thought": "A reusable script saved time during folder creation."
+  "thought": "A reusable script saved time during folder creation.",
+  "$schema": "schemas/agent-schema.json"
 }

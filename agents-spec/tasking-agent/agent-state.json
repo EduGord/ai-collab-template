@@ -2,5 +2,6 @@
   "status": "initialized",
   "memory_pointer": null,
   "assigned_tasks": [],
-  "agent": "tasking-agent"
+  "agent": "tasking-agent",
+  "$schema": "schemas/agent-schema.json"
 }

@@ -17,5 +17,6 @@
       "type": "string",
       "required": false
     }
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

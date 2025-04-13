@@ -8,5 +8,6 @@
   "status": "active",
   "priority": "high",
   "owned_by": "orchestrator-agent",
-  "version": "v1.0"
+  "version": "v1.0",
+  "$schema": "schemas/goal-schema.json"
 }

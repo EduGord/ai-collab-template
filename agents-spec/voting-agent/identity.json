@@ -20,5 +20,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "voting-agent"
+  "agentId": "voting-agent",
+  "$schema": "schemas/agent-schema.json"
 }

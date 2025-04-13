@@ -6,5 +6,6 @@
     "Check memory bank and router coverage against feature spec",
     "Log results to logs/executions/feature-audit.json"
   ],
-  "description": "This routine enforces structural compliance with system-wide expectations"
+  "description": "This routine enforces structural compliance with system-wide expectations",
+  "$schema": "schemas/default-schema.json"
 }

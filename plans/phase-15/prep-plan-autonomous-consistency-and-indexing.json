@@ -31,5 +31,6 @@
     "Execute all listed tasks using framework checklists",
     "Validate schema-routing and doc index",
     "Export zip snapshot of stable post-audit version"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

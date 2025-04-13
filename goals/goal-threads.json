@@ -36,5 +36,6 @@
       "start": "",
       "status": "new"
     }
-  ]
+  ],
+  "$schema": "schemas/goal-schema.json"
 }

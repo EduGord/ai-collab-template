@@ -12,5 +12,6 @@
     "Analyze reflection quality and task success",
     "Assign trust and evolution scores",
     "Store results per agent"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

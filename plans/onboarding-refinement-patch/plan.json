@@ -26,5 +26,6 @@
   ],
   "pipelines": [
     "framework/pipelines/realtime-llm-pipeline.yaml"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

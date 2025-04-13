@@ -1,6 +1,10 @@
 {
   "events": [
-    {"date": "", "event": "Project initialized"}
+    {
+      "date": "",
+      "event": "Project initialized"
+    }
   ],
-  "projections": []
+  "projections": [],
+  "$schema": "schemas/agent-schema.json"
 }

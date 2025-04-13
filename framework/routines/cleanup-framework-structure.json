@@ -22,5 +22,6 @@
     "routing-validation"
   ],
   "version": "v1.0",
-  "last_updated": "auto"
+  "last_updated": "auto",
+  "$schema": "schemas/routine-schema.json"
 }

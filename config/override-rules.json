@@ -1,6 +1,15 @@
 {
   "rules": [
-    {"agent": "*", "condition": "manual-override", "action": "pause" },
-    {"agent": "bootstrap-agent", "condition": "recursion-detected", "action": "halt" }
-  ]
+    {
+      "agent": "*",
+      "condition": "manual-override",
+      "action": "pause"
+    },
+    {
+      "agent": "bootstrap-agent",
+      "condition": "recursion-detected",
+      "action": "halt"
+    }
+  ],
+  "$schema": "schemas/default-schema.json"
 }

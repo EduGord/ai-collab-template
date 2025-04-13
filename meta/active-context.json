@@ -10,5 +10,6 @@
     "bootstrap-agent"
   ],
   "intentScope": "initialize-template",
-  "planPhase": "scaffold-generated"
+  "planPhase": "scaffold-generated",
+  "$schema": "schemas/default-schema.json"
 }

@@ -1,4 +1,5 @@
 {
   "status": "stable",
-  "lastReviewed": ""
+  "lastReviewed": "",
+  "$schema": "schemas/agent-schema.json"
 }

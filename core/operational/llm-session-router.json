@@ -6,5 +6,6 @@
     "Filter by relevance to plan objective",
     "Apply route rules and return context scope"
   ],
-  "description": "Routes session context for LLMs based on task and plan"
+  "description": "Routes session context for LLMs based on task and plan",
+  "$schema": "schemas/default-schema.json"
 }

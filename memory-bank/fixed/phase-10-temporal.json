@@ -12,5 +12,6 @@
     "prompt-replay.json for full interaction capture",
     "timeline-memory.json extension with future expectations",
     "diary/agent.json and diary/human.json for narrative memory"
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

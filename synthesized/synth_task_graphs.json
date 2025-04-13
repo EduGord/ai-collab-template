@@ -185,5 +185,6 @@
         }
       }
     }
-  }
+  },
+  "$schema": "schemas/task-schema.json"
 }

@@ -9,13 +9,22 @@
       "id": "UX-CHECK-001",
       "description": "Process user feedback and update UX profiles.",
       "status": "pending",
-      "tags": ["feedback", "ux-profile", "update"]
+      "tags": [
+        "feedback",
+        "ux-profile",
+        "update"
+      ]
     },
     {
       "id": "UX-CHECK-002",
       "description": "Analyze pipeline interactions and identify areas for improvement.",
       "status": "pending",
-      "tags": ["pipeline", "analysis", "improvement"]
+      "tags": [
+        "pipeline",
+        "analysis",
+        "improvement"
+      ]
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

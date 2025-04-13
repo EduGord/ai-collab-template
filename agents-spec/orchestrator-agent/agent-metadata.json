@@ -44,8 +44,20 @@
     "feedbackLoopSettings": "Allows configuration of real-time updates and feedback mechanisms."
   },
   "relationships": {
-    "delegatesTo": [ "tasking-agent","planner-agent", "router-agent", "org-agent" ],
-    "supervisedBy": ["meta-agent"],
-    "relatedTo": ["evolve-agent","audit-agent", "recovery-agent"]
-  }
+    "delegatesTo": [
+      "tasking-agent",
+      "planner-agent",
+      "router-agent",
+      "org-agent"
+    ],
+    "supervisedBy": [
+      "meta-agent"
+    ],
+    "relatedTo": [
+      "evolve-agent",
+      "audit-agent",
+      "recovery-agent"
+    ]
+  },
+  "$schema": "schemas/agent-schema.json"
 }

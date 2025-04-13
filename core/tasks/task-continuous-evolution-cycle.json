@@ -11,5 +11,6 @@
     "feedback",
     "growth"
   ],
-  "owner": "llm-assistant"
+  "owner": "llm-assistant",
+  "$schema": "schemas/task-schema.json"
 }

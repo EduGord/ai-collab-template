@@ -3,5 +3,6 @@
   "default_on_boot": true,
   "notes": "Silent mode minimizes explanation and maximizes direct task execution.",
   "enforced_by": "user-directive",
-  "last_updated": "2025-04-12T23:47:29.964278"
+  "last_updated": "2025-04-12T23:47:29.964278",
+  "$schema": "schemas/default-schema.json"
 }

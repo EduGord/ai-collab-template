@@ -23,5 +23,6 @@
     "Enable reflection chain protocol",
     "Log scoring and feedback loops",
     "Simulate adaptive planning responses"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

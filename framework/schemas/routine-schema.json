@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Routine Schema",
+  "description": "Describes routines used to automate workflows or triggers.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "trigger": {
+      "type": "string"
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "checklist": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pipelines": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "trigger",
+    "agents"
+  ]
+}

@@ -13,5 +13,6 @@
     "cleanup-framework-structure"
   ],
   "status": "completed",
-  "timestamp": "auto"
+  "timestamp": "auto",
+  "$schema": "schemas/feedback-schema.json"
 }

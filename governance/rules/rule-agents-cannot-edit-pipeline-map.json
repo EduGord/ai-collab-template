@@ -2,5 +2,6 @@
   "ruleId": "RULE-001",
   "description": "Agents must not self-modify the pipeline map without multi-agent consensus.",
   "severity": "high",
-  "validatedBy": "planner-agent"
+  "validatedBy": "planner-agent",
+  "$schema": "schemas/agent-schema.json"
 }

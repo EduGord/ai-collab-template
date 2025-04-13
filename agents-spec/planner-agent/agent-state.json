@@ -2,5 +2,6 @@
   "status": "initialized",
   "memory_pointer": null,
   "assigned_tasks": [],
-  "agent": "planner-agent"
+  "agent": "planner-agent",
+  "$schema": "schemas/agent-schema.json"
 }

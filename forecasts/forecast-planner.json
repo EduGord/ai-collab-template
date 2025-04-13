@@ -6,5 +6,6 @@
     "timeline",
     "governance",
     "roadmap"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

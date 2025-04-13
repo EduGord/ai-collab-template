@@ -1,4 +1,5 @@
 {
   "executions": 1,
-  "lastSeen": "TZ"
+  "lastSeen": "TZ",
+  "$schema": "schemas/agent-schema.json"
 }

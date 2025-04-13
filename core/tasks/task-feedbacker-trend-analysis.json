@@ -9,5 +9,6 @@
     "trend",
     "logs"
   ],
-  "owner": "feedbacker"
+  "owner": "feedbacker",
+  "$schema": "schemas/task-schema.json"
 }

@@ -17,5 +17,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "orchestrator-agent"
+  "agentId": "orchestrator-agent",
+  "$schema": "schemas/agent-schema.json"
 }

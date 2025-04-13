@@ -12,5 +12,6 @@
   "scoring": {
     "complexityPenalty": 1.2,
     "reuseBonus": 1.5
-  }
+  },
+  "$schema": "schemas/agent-schema.json"
 }

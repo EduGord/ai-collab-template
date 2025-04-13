@@ -3,5 +3,6 @@
   "result": "gaps found in context-router and memory-bank",
   "agent": "evolve-agent",
   "thought": "The project lacked automatic syncing after new file additions. Future runs should patch router/memory as part of agent task completion.",
-  "timestamp": "T.823744"
+  "timestamp": "T.823744",
+  "$schema": "schemas/agent-schema.json"
 }

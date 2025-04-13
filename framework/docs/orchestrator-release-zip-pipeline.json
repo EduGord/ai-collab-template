@@ -35,5 +35,6 @@
       ]
     }
   ],
-  "status": "defined"
+  "status": "defined",
+  "$schema": "schemas/pipeline-schema.json"
 }

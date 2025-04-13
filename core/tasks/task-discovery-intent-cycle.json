@@ -9,5 +9,6 @@
     "intent",
     "next-evolution"
   ],
-  "owner": "llm-assistant"
+  "owner": "llm-assistant",
+  "$schema": "schemas/task-schema.json"
 }

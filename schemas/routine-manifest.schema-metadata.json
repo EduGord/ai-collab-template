@@ -11,5 +11,6 @@
   "exposedTo": [
     "human",
     "agent"
-  ]
+  ],
+  "$schema": "schemas/routine-schema.json"
 }

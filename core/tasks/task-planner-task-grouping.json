@@ -8,5 +8,6 @@
     "task-management",
     "planner"
   ],
-  "owner": "planner"
+  "owner": "planner",
+  "$schema": "schemas/task-schema.json"
 }

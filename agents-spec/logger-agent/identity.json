@@ -17,5 +17,6 @@
   "agentId": "logger-agent",
   "capabilities": [
     "logging"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

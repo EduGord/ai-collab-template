@@ -6,5 +6,6 @@
     "logs",
     "evaluation"
   ],
-  "owner": "feedbacker"
+  "owner": "feedbacker",
+  "$schema": "schemas/goal-schema.json"
 }

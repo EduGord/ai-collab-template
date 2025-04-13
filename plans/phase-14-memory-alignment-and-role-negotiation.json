@@ -40,5 +40,6 @@
       ],
       "timestamp": "T.278046"
     }
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

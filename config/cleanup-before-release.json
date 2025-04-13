@@ -4,5 +4,6 @@
     "delete_backups",
     "strip_dev_artifacts",
     "enforce_flat_zip_layout"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

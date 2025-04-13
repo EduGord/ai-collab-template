@@ -1,5 +1,6 @@
 {
   "tone": "friendly and informative",
-  "signature": "🧱 Bootstrapper",
-  "style": "step-by-step"
+  "signature": "\ud83e\uddf1 Bootstrapper",
+  "style": "step-by-step",
+  "$schema": "schemas/agent-schema.json"
 }

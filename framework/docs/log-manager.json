@@ -13,5 +13,6 @@
     "retain_logs_per_version": true,
     "include_logs_in_release_zip": true,
     "timestamp_format": "ISO8601"
-  }
+  },
+  "$schema": "schemas/log-schema.json"
 }

@@ -1,3 +1,4 @@
 {
-  "status": "experimental"
+  "status": "experimental",
+  "$schema": "schemas/default-schema.json"
 }

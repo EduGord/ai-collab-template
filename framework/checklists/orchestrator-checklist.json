@@ -21,5 +21,6 @@
       "name": "archive-review",
       "status": "staged"
     }
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

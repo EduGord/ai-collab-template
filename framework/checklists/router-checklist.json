@@ -17,5 +17,6 @@
       "status": "pending"
     }
   ],
-  "note": "Initialized checklist to support dynamic routing logic for Phase 10."
+  "note": "Initialized checklist to support dynamic routing logic for Phase 10.",
+  "$schema": "schemas/default-schema.json"
 }

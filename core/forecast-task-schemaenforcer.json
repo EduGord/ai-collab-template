@@ -9,5 +9,6 @@
     "schema",
     "audit"
   ],
-  "owner": "schemaenforcer"
+  "owner": "schemaenforcer",
+  "$schema": "schemas/task-schema.json"
 }

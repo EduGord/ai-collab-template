@@ -1,5 +1,6 @@
 {
   "executed_tasks": [],
   "last_updated": null,
-  "agent": "meta-agent"
+  "agent": "meta-agent",
+  "$schema": "schemas/agent-schema.json"
 }

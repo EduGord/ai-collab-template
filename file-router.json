@@ -52,5 +52,18 @@
   "framework/feedback/reflection-structure-hygiene-system.json": "/feedback/reflection-structure-hygiene-system.json",
   "framework/memory/memory_bank.archived.json": "/memory/memory_bank.archived.json",
   "framework/routing/override-rules.json": "/routing/override-rules.json",
-  "framework/logs/log-manager.json": "/logs/log-manager.json"
+  "framework/logs/log-manager.json": "/logs/log-manager.json",
+  "framework/version.json": "/version.json",
+  "framework/tooling/audit-schema-coverage.py": "/tooling/audit-schema-coverage.py",
+  "framework/logs/system/schema-coverage.json": "/logs/system/schema-coverage.json",
+  "framework/logs/conversations/schema-agent-recommendation.json": "/logs/conversations/schema-agent-recommendation.json",
+  "framework/feedback/reflection-schema-audit-001.json": "/feedback/reflection-schema-audit-001.json",
+  "framework/docs/AGENT_LOG.md": "/AGENT_LOG.md",
+  "framework/docs/docbot.identity.md": "/docbot.identity.md",
+  "framework/docs/forecaster.identity.md": "/forecaster.identity.md",
+  "framework/docs/realtime-llm-assistant.identity.md": "/realtime-llm-assistant.identity.md",
+  "framework/docs/reviewkeeper.identity.md": "/reviewkeeper.identity.md",
+  "framework/docs/collaborative-network-spec.md": "/collaborative-network-spec.md",
+  "framework/docs/schema-summaries/structure-hygiene.schema.md": "/schema-summaries/structure-hygiene.schema.md",
+  "$schema": "schemas/routing-schema.json"
 }

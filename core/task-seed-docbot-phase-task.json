@@ -9,5 +9,6 @@
     "planning",
     "expansion"
   ],
-  "owner": "docbot"
+  "owner": "docbot",
+  "$schema": "schemas/task-schema.json"
 }

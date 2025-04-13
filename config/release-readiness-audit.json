@@ -4,5 +4,6 @@
     "verify_agent_states",
     "validate_task_completion",
     "enforce_structure_rules"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

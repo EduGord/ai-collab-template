@@ -11,5 +11,6 @@
     "Propose updates to agent identities and pipelines.",
     "Log architectural changes in system-evolve-cycle.",
     "Ensure router and memory bank are patched after plan execution."
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

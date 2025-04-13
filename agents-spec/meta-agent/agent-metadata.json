@@ -26,18 +26,23 @@
     "delegatesTo": [],
     "supervised_by": [],
     "depends_on": [
-        "logger-agent",
-        "audit-agent"
+      "logger-agent",
+      "audit-agent"
     ],
     "related_to": [
-        "all-other-agents"
+      "all-other-agents"
     ]
   },
-    "operational_procedures": "The meta-agent relies on detailed analysis of logs and audits from other agents to make its decisions. It is designed to analyze the overall state of the system, identify areas for improvement, and make decisions that impact the structure, goals, and actions of other agents.",
+  "operational_procedures": "The meta-agent relies on detailed analysis of logs and audits from other agents to make its decisions. It is designed to analyze the overall state of the system, identify areas for improvement, and make decisions that impact the structure, goals, and actions of other agents.",
   "decision_parameters": {
-        "evolution_threshold": "0.85",
-        "coordination_urgency": "medium"
+    "evolution_threshold": "0.85",
+    "coordination_urgency": "medium"
   },
-  "execution_metrics": ["token_usage", "execution_time", "error_rate"],
-  "ui_aspects": "The Meta-agent has low visual priority, but its feedback loop will be visible in summary dashboards."
+  "execution_metrics": [
+    "token_usage",
+    "execution_time",
+    "error_rate"
+  ],
+  "ui_aspects": "The Meta-agent has low visual priority, but its feedback loop will be visible in summary dashboards.",
+  "$schema": "schemas/agent-schema.json"
 }

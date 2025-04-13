@@ -42,5 +42,6 @@
       "description": "Ensure the voting agent can be reset or reconfigured for new votes, if necessary.",
       "status": "pending"
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

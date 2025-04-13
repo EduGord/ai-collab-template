@@ -143,5 +143,6 @@
   "narrator-agent": {
     "role": "new",
     "description": "narrator-agent was added during architectural refactor for specific responsibility."
-  }
+  },
+  "$schema": "schemas/agent-schema.json"
 }

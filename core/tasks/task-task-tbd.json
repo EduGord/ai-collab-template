@@ -9,5 +9,6 @@
     "agent",
     "llm"
   ],
-  "owner": "unassigned"
+  "owner": "unassigned",
+  "$schema": "schemas/task-schema.json"
 }

@@ -9,5 +9,6 @@
     "docs",
     "organization"
   ],
-  "owner": "structurekeeper"
+  "owner": "structurekeeper",
+  "$schema": "schemas/task-schema.json"
 }

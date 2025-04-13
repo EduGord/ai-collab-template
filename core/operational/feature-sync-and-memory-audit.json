@@ -6,5 +6,6 @@
     "Scan /features/ and ensure every capability is mapped to routines/files/agents",
     "Scan memory-bank and rebuild index.json",
     "Ensure /docs/system-index.json reflects latest feature-map"
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

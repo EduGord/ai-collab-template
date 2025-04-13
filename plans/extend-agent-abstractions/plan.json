@@ -9,5 +9,6 @@
   "agents": [
     "evolve-agent"
   ],
-  "version": "v1.1"
+  "version": "v1.1",
+  "$schema": "schemas/agent-schema.json"
 }

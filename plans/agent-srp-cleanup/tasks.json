@@ -12,5 +12,6 @@
       "id": "T3",
       "desc": "Prepare feedback files for all agents"
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

@@ -23,5 +23,6 @@
       "agents-spec/*/identity.json",
       "docs/*"
     ]
-  }
+  },
+  "$schema": "schemas/memory-schema.json"
 }

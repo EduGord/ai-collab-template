@@ -1,5 +1,6 @@
 {
   "title": "Lifecycle Policy",
   "description": "Defines the versioning, deprecation, and upgrade lifecycle rules for agents and pipelines.",
-  "enforcedBy": "audit-agent"
+  "enforcedBy": "audit-agent",
+  "$schema": "schemas/default-schema.json"
 }

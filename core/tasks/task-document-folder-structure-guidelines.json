@@ -1,13 +1,14 @@
 {
-    "id": "document-folder-structure-guidelines",
-    "title": "Generate comprehensive folder structure documentation",
-    "description": "Create detailed documentation outlining the purpose, usage conventions, and expected content of all major folders (core, runtime, meta) and files within the project.",
-    "priority": "high",
-    "status": "queued",
-    "tags": [
-        "documentation",
-        "structure",
-        "organization"
-    ],
-    "owner": "docbot"
+  "id": "document-folder-structure-guidelines",
+  "title": "Generate comprehensive folder structure documentation",
+  "description": "Create detailed documentation outlining the purpose, usage conventions, and expected content of all major folders (core, runtime, meta) and files within the project.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "documentation",
+    "structure",
+    "organization"
+  ],
+  "owner": "docbot",
+  "$schema": "schemas/task-schema.json"
 }

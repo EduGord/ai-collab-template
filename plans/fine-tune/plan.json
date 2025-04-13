@@ -13,5 +13,6 @@
     "planner-agent"
   ],
   "timestamp": "T.338387",
-  "version": "v1.2"
+  "version": "v1.2",
+  "$schema": "schemas/default-schema.json"
 }

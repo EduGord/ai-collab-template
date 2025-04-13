@@ -18,5 +18,6 @@
         }
       ]
     }
-  }
+  },
+  "$schema": "schemas/feedback-schema.json"
 }

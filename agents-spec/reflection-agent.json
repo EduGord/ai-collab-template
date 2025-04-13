@@ -19,5 +19,6 @@
     "self-healing"
   ],
   "status": "active",
-  "last_run": null
+  "last_run": null,
+  "$schema": "schemas/agent-schema.json"
 }

@@ -30,5 +30,6 @@
       "step": "log-checklist-failures",
       "target": "logs/resilience-issues/"
     }
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

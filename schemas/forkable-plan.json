@@ -21,5 +21,6 @@
     ],
     "timeline": "2025-Q2",
     "parentPlan": "G1"
-  }
+  },
+  "$schema": "schemas/default-schema.json"
 }

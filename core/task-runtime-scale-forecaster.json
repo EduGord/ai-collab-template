@@ -9,5 +9,6 @@
     "distributed",
     "scale"
   ],
-  "owner": "forecaster"
+  "owner": "forecaster",
+  "$schema": "schemas/task-schema.json"
 }

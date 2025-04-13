@@ -6,5 +6,6 @@
     {
       "ai": "Created folder structure, identity, and memory index"
     }
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

@@ -58,5 +58,6 @@
     "Validate routing fallbacks",
     "Validate system-wide pipeline orchestration",
     "Verify file routing updates"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

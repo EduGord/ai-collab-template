@@ -6,5 +6,6 @@
     "pipelines",
     "docbot"
   ],
-  "owner": "docbot"
+  "owner": "docbot",
+  "$schema": "schemas/goal-schema.json"
 }

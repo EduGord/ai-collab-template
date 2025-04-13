@@ -35,6 +35,16 @@
       "recovery-agent"
     ]
   },
-  "executionMetrics": ["tokenUsage", "estimatedCost", "executionHistory"],
-  "operationalProcedures": ["routine-gap-detection", "self-introspection", "self-review-hook","system-evolve-cycle"]
+  "executionMetrics": [
+    "tokenUsage",
+    "estimatedCost",
+    "executionHistory"
+  ],
+  "operationalProcedures": [
+    "routine-gap-detection",
+    "self-introspection",
+    "self-review-hook",
+    "system-evolve-cycle"
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

@@ -4,5 +4,6 @@
   "assigned_tasks": [],
   "agent": "audit-agent",
   "last_assigned": "T.909263",
-  "task_count": 77
+  "task_count": 77,
+  "$schema": "schemas/agent-schema.json"
 }

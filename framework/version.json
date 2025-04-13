@@ -1,0 +1,9 @@
+{
+  "version": "v2.0-structured",
+  "label": "Structure Hygiene System Integrated",
+  "timestamp": "auto",
+  "routine": "cleanup-framework-structure",
+  "goal": "goal-structure-hygiene",
+  "status": "stable",
+  "$schema": "schemas/default-schema.json"
+}

@@ -14,5 +14,6 @@
       "tokens_earned": 0
     }
   ],
-  "notes": "Token regeneration encourages task throughput and reward efficiency."
+  "notes": "Token regeneration encourages task throughput and reward efficiency.",
+  "$schema": "schemas/default-schema.json"
 }

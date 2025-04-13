@@ -18,5 +18,6 @@
     "task",
     "agent",
     "llm"
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

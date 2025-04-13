@@ -6,5 +6,6 @@
     "compliance",
     "audit"
   ],
-  "owner": "schemaenforcer"
+  "owner": "schemaenforcer",
+  "$schema": "schemas/goal-schema.json"
 }

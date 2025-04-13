@@ -22,5 +22,6 @@
     "Simulate agent token bidding scenario",
     "Attach load reports to agent metadata",
     "Route tasks using token-weighted selectors"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

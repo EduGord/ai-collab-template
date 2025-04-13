@@ -21,5 +21,6 @@
       "agent": "llm-assistant",
       "goal": "Provide real-time re-routing during runtime decisions"
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

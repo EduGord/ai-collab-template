@@ -171,5 +171,6 @@
       "PHASE-027"
     ],
     "notes": "Global fallback procedure and state restoration"
-  }
+  },
+  "$schema": "schemas/default-schema.json"
 }

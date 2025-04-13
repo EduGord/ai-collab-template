@@ -12,5 +12,6 @@
     "self-review-hook.json for agent self-feedback and checklist updates",
     "llm-session-router.json for runtime memory adaptation",
     "system-evolve-cycle.json for post-project evolution planning"
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

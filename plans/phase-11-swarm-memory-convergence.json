@@ -15,5 +15,6 @@
     "feedbacker",
     "tasking-agent",
     "meta-agent"
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

@@ -10,5 +10,6 @@
     "agent",
     "pipelines"
   ],
-  "owner": "structurekeeper"
+  "owner": "structurekeeper",
+  "$schema": "schemas/pipeline-schema.json"
 }

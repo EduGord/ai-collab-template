@@ -12,5 +12,6 @@
     "Negotiate resource allocation fairly based on task urgency and intent alignment"
   ],
   "proposed_by": "Framework OrchestratorGPT",
-  "timestamp": "T.381145"
+  "timestamp": "T.381145",
+  "$schema": "schemas/default-schema.json"
 }

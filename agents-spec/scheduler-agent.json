@@ -9,5 +9,6 @@
     "contextual-priority"
   ],
   "output": "shared-task-queue.json",
-  "status": "active"
+  "status": "active",
+  "$schema": "schemas/agent-schema.json"
 }

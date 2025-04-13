@@ -12,5 +12,6 @@
       "string"
     ]
   },
-  "status": "draft"
+  "status": "draft",
+  "$schema": "schemas/agent-schema.json"
 }

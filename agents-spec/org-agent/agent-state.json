@@ -1,5 +1,6 @@
 {
   "status": "initialized",
   "memory_pointer": null,
-  "assigned_tasks": []
+  "assigned_tasks": [],
+  "$schema": "schemas/agent-schema.json"
 }

@@ -10,5 +10,6 @@
     "collect proposals",
     "apply voting strategy",
     "log result and notify winning agent"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

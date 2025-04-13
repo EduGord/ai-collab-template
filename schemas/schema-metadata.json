@@ -1,4 +1,5 @@
 {
   "description": "Metadata for schema evolution and validation.",
-  "schemas": []
+  "schemas": [],
+  "$schema": "schemas/default-schema.json"
 }

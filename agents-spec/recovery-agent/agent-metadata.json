@@ -22,14 +22,31 @@
     "fallback-mechanisms"
   ],
   "operationalProcedures": "The recovery-agent defines procedures for retrying failed tasks, selecting alternative pipelines, and invoking fallback mechanisms.",
-  "executionMetrics": ["successRate", "recoveryTime", "resourceUsage"],
-  "dependencies": ["logger-agent", "orchestrator-agent"],
+  "executionMetrics": [
+    "successRate",
+    "recoveryTime",
+    "resourceUsage"
+  ],
+  "dependencies": [
+    "logger-agent",
+    "orchestrator-agent"
+  ],
   "hierarchy": "This agent operates at a supervisory level, ensuring the integrity of task and pipeline execution.",
-  "specializedRoles": ["failure-detection", "recovery-initiation"],
+  "specializedRoles": [
+    "failure-detection",
+    "recovery-initiation"
+  ],
   "uiAspects": "This agent does not directly interact with users, however, it provides detailed logs and reports of recovery activities.",
   "relationships": {
-    "delegatesTo": ["tasking-agent"],
-    "supervisedBy": ["orchestrator-agent"],
-    "relatedTo": ["audit-agent"]
-  }
+    "delegatesTo": [
+      "tasking-agent"
+    ],
+    "supervisedBy": [
+      "orchestrator-agent"
+    ],
+    "relatedTo": [
+      "audit-agent"
+    ]
+  },
+  "$schema": "schemas/agent-schema.json"
 }

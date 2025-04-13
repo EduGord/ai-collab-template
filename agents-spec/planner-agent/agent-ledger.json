@@ -1,5 +1,6 @@
 {
   "executions": [],
   "totalTokens": 0,
-  "estimatedCostUSD": 0.0
+  "estimatedCostUSD": 0.0,
+  "$schema": "schemas/agent-schema.json"
 }

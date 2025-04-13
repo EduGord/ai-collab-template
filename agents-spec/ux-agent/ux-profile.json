@@ -6,5 +6,6 @@
   ],
   "visual_priority": "default",
   "feedback_loop_enabled": true,
-  "agent": "ux-agent"
+  "agent": "ux-agent",
+  "$schema": "schemas/agent-schema.json"
 }

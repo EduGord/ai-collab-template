@@ -8,5 +8,6 @@
     "generate-refactor-suggestions"
   ],
   "timeline": "2025-Q2",
-  "parentPlan": "G1"
+  "parentPlan": "G1",
+  "$schema": "schemas/agent-schema.json"
 }

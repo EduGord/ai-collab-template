@@ -35,5 +35,6 @@
       "action": "Trigger resilience audit every milestone checkpoint and log to memory-bank",
       "linked_routine": "resilience-hardening-phase2"
     }
-  ]
+  ],
+  "$schema": "schemas/goal-schema.json"
 }

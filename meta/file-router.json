@@ -5073,5 +5073,6 @@
     "simulations": "placeholder/simulations.md",
     "tests": "placeholder/tests.md",
     "tooling": "placeholder/tooling.md"
-  }
+  },
+  "$schema": "schemas/default-schema.json"
 }

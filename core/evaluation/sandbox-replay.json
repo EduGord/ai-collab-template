@@ -11,5 +11,6 @@
     "Trace agent output and context state",
     "Reproduce the decision chain",
     "Log replay results and divergence (if any)"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

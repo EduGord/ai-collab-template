@@ -14,5 +14,6 @@
     "memory-bank/tasks/schema-validation-pass-3.json"
   ],
   "linked_checklist": "core/checklists/docbot-snapshot-checklist.yaml",
-  "linked_pipeline": "plans/template-pipeline-library/snapshot-sync-pipeline.json"
+  "linked_pipeline": "plans/template-pipeline-library/snapshot-sync-pipeline.json",
+  "$schema": "schemas/default-schema.json"
 }

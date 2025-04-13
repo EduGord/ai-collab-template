@@ -38,5 +38,6 @@
   ],
   "schemas": [
     "schemas/canonical-agent-model.json"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

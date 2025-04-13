@@ -1,0 +1,13 @@
+{
+  "id": "reflection-schema-audit-001",
+  "type": "system-feedback",
+  "title": "Schema Coverage Audit",
+  "summary": "Initial schema audit revealed missing $schema fields in critical files. Patch planned using domain-specific schema linkage.",
+  "agents": [
+    "schema-agent",
+    "pandas-agent",
+    "logger-agent"
+  ],
+  "status": "in-progress",
+  "timestamp": "auto"
+}

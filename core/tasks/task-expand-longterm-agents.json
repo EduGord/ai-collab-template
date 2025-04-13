@@ -9,5 +9,6 @@
     "governance",
     "scaling"
   ],
-  "owner": "planner"
+  "owner": "planner",
+  "$schema": "schemas/agent-schema.json"
 }

@@ -6,5 +6,6 @@
     "identify uncovered routines",
     "suggest generation of new routines"
   ],
-  "description": "This routine enables agents to identify missing behaviors in the system."
+  "description": "This routine enables agents to identify missing behaviors in the system.",
+  "$schema": "schemas/routine-schema.json"
 }

@@ -16,5 +16,6 @@
     "description": "Patch file-router.json with any files not currently routed.",
     "status": "pending",
     "action": "Compare file list with router and add missing entries."
-  }
+  },
+  "$schema": "schemas/task-schema.json"
 }

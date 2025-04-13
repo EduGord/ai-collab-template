@@ -10,5 +10,6 @@
       "agent": "governance-agent",
       "action": "apply compliance flags"
     }
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

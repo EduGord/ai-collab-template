@@ -22,5 +22,6 @@
     "Propose new dynamic-routing schema",
     "Log UX governance triggers",
     "Align planner with autonomy boundaries per agent"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

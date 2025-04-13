@@ -1,5 +1,11 @@
 {
   "type": "bootstrap-template",
   "description": "Create and stabilize a memory-driven AI collaboration workspace",
-  "examples": ["onboard-agent", "plan-pipeline", "validate-routines", "evolve-schema"]
+  "examples": [
+    "onboard-agent",
+    "plan-pipeline",
+    "validate-routines",
+    "evolve-schema"
+  ],
+  "$schema": "schemas/default-schema.json"
 }

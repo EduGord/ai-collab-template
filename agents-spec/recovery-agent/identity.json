@@ -17,5 +17,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "recovery-agent"
+  "agentId": "recovery-agent",
+  "$schema": "schemas/agent-schema.json"
 }

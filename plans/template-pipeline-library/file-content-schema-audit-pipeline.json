@@ -35,5 +35,6 @@
       ],
       "output": "content-consensus.md"
     }
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

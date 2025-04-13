@@ -2,5 +2,6 @@
   "status": "stable",
   "linkedAgents": [
     "planner-agent"
-  ]
+  ],
+  "$schema": "schemas/routine-schema.json"
 }

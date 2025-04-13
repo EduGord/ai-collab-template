@@ -8,5 +8,6 @@
     "onboarding",
     "documentation"
   ],
-  "owner": "docbot"
+  "owner": "docbot",
+  "$schema": "schemas/task-schema.json"
 }

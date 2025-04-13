@@ -17,5 +17,6 @@
     "tasking-agent",
     "logger-agent",
     "meta-agent"
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

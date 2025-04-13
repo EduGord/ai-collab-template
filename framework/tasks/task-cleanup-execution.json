@@ -16,5 +16,6 @@
     "Route remaining files correctly",
     "Update logs and metadata",
     "Validate results"
-  ]
+  ],
+  "$schema": "schemas/task-schema.json"
 }

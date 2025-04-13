@@ -119,5 +119,6 @@
     "src/task_streamer.py",
     "src/webhook_server.py",
     "pipelines/orchestrator-release-zip-pipeline.json"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

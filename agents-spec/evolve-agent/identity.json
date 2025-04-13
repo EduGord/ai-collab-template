@@ -10,5 +10,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "evolve-agent"
+  "agentId": "evolve-agent",
+  "$schema": "schemas/agent-schema.json"
 }

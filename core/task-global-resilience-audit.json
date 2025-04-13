@@ -10,5 +10,6 @@
     "metadata",
     "routing"
   ],
-  "owner": "schemaenforcer"
+  "owner": "schemaenforcer",
+  "$schema": "schemas/task-schema.json"
 }

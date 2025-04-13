@@ -8,5 +8,6 @@
     "changedBy": "string",
     "timestamp": "datetime",
     "rollbackAvailable": "boolean"
-  }
+  },
+  "$schema": "schemas/default-schema.json"
 }

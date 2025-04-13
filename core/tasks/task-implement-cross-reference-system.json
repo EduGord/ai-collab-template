@@ -1,13 +1,14 @@
 {
-    "id": "implement-cross-reference-system",
-    "title": "Create cross-referencing system within file-router",
-    "description": "Design and integrate a backlinks-like referencing mechanism within the file-router.json, enabling navigation between tasks, routines, agents, checklists, and logs.",
-    "priority": "high",
-    "status": "queued",
-    "tags": [
-        "cross-reference",
-        "navigation",
-        "metadata"
-    ],
-    "owner": "llm-assistant"
+  "id": "implement-cross-reference-system",
+  "title": "Create cross-referencing system within file-router",
+  "description": "Design and integrate a backlinks-like referencing mechanism within the file-router.json, enabling navigation between tasks, routines, agents, checklists, and logs.",
+  "priority": "high",
+  "status": "queued",
+  "tags": [
+    "cross-reference",
+    "navigation",
+    "metadata"
+  ],
+  "owner": "llm-assistant",
+  "$schema": "schemas/task-schema.json"
 }

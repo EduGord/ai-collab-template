@@ -28,5 +28,6 @@
       "action": "assign-plan",
       "description": "Create and route a plan to achieve goal G2"
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

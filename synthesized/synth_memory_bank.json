@@ -135,5 +135,6 @@
         "archived": true
       }
     ]
-  }
+  },
+  "$schema": "schemas/memory-schema.json"
 }

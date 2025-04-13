@@ -7,5 +7,6 @@
     "Ensure each schema has metadata, usage links, and status",
     "Ensure docs/design-principles.md explains canonical schema layout"
   ],
-  "status": "required"
+  "status": "required",
+  "$schema": "schemas/default-schema.json"
 }

@@ -2,5 +2,6 @@
   "status": "initialized",
   "memory_pointer": null,
   "assigned_tasks": [],
-  "agent": "orchestrator-agent"
+  "agent": "orchestrator-agent",
+  "$schema": "schemas/agent-schema.json"
 }

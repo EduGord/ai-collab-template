@@ -10,5 +10,6 @@
     "validation",
     "resilience"
   ],
-  "owner": "planner"
+  "owner": "planner",
+  "$schema": "schemas/agent-schema.json"
 }

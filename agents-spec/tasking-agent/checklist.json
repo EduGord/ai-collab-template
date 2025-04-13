@@ -1,4 +1,4 @@
- {
+{
   "title": "Tasking Agent Core Checklist",
   "related_files": [],
   "check_items": [
@@ -14,9 +14,10 @@
       "description": "Assign the task to the appropriate agent and write the task details to the designated agent's inbox.",
       "status": "pending"
     },
-      {
+    {
       "description": "Monitor the execution logs for task completion status and update the task status accordingly.",
       "status": "pending"
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

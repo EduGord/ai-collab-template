@@ -8,5 +8,6 @@
     "docs",
     "coverage"
   ],
-  "owner": "docbot"
+  "owner": "docbot",
+  "$schema": "schemas/task-schema.json"
 }

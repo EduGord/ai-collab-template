@@ -8,15 +8,18 @@
         "required": [
           "pattern"
         ],
-        "properties": {         
-           "pattern": {
+        "properties": {
+          "pattern": {
             "type": "string",
             "description": "File path pattern (e.g., using glob syntax)"
           },
           "context": {
             "type": "object",
             "description": "Additional context or notes about the rule.",
-            "required": ["type", "level"],
+            "required": [
+              "type",
+              "level"
+            ],
             "properties": {
               "type": {
                 "type": "string",
@@ -55,5 +58,6 @@
   },
   "required": [
     "rules"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

@@ -9,5 +9,6 @@
     "planning",
     "expansion"
   ],
-  "owner": "planner"
+  "owner": "planner",
+  "$schema": "schemas/task-schema.json"
 }

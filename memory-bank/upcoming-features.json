@@ -10,5 +10,6 @@
   "related_files": [
     "plans/next-evolution-phase.json",
     "tasks/system-improvements.json"
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

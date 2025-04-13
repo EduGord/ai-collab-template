@@ -5,5 +5,6 @@
     "scan project memory for structural gaps",
     "append proposed features to next phase template"
   ],
-  "description": "Agent self-evolution cycle after major plan completions"
+  "description": "Agent self-evolution cycle after major plan completions",
+  "$schema": "schemas/default-schema.json"
 }

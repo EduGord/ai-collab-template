@@ -7,5 +7,6 @@
     "validate-agent-to-agent-delegation"
   ],
   "ownerAgent": "orchestrator-agent",
-  "timestamp": "TZ"
+  "timestamp": "TZ",
+  "$schema": "schemas/agent-schema.json"
 }

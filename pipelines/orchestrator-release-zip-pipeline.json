@@ -8,5 +8,6 @@
     "apply_integrity_checklist",
     "generate_release_manifest",
     "package_final_zip"
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

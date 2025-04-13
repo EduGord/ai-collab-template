@@ -11,5 +11,6 @@
     "framework",
     "resilient"
   ],
-  "status": "active"
+  "status": "active",
+  "$schema": "schemas/default-schema.json"
 }

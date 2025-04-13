@@ -37,5 +37,6 @@
       "on_failure": true,
       "target": "fallback-resolution-pipeline.json"
     }
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

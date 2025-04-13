@@ -39,5 +39,6 @@
       "plans/system-resilience/tasks.json"
     ],
     "status": "synthesized"
-  }
+  },
+  "$schema": "schemas/default-schema.json"
 }

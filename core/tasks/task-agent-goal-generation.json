@@ -10,5 +10,6 @@
     "evolution",
     "multi-agent"
   ],
-  "owner": "planner"
+  "owner": "planner",
+  "$schema": "schemas/agent-schema.json"
 }

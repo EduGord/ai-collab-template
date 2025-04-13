@@ -1,5 +1,9 @@
 {
   "bootstrap-agent": [
-    {"event": "project created", "timestamp": ""}
-  ]
+    {
+      "event": "project created",
+      "timestamp": ""
+    }
+  ],
+  "$schema": "schemas/default-schema.json"
 }

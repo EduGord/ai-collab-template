@@ -42,5 +42,6 @@
     "Dispatch improvements in grouped phases",
     "Track fix completion with logs + validation diff",
     "Export as recovery and governance update pack"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

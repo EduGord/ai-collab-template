@@ -20,5 +20,6 @@
   "agentId": "org-agent",
   "capabilities": [
     "general"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

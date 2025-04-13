@@ -6,5 +6,6 @@
   ],
   "visual_priority": "default",
   "feedback_loop_enabled": true,
-  "agent": "meta-agent"
+  "agent": "meta-agent",
+  "$schema": "schemas/agent-schema.json"
 }

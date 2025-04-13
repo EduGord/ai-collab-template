@@ -16,5 +16,6 @@
     "generate task priority system",
     "define linting rules",
     "start building control panel interface"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

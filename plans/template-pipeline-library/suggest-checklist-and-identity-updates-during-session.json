@@ -24,5 +24,6 @@
       "description": "Define checklist content here",
       "status": "pending"
     }
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

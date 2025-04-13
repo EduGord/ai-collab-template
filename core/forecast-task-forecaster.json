@@ -8,5 +8,6 @@
     "forecast",
     "governance"
   ],
-  "owner": "forecaster"
+  "owner": "forecaster",
+  "$schema": "schemas/task-schema.json"
 }

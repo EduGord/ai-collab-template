@@ -9,5 +9,6 @@
     "structure",
     "compliance"
   ],
-  "owner": "structurekeeper"
+  "owner": "structurekeeper",
+  "$schema": "schemas/agent-schema.json"
 }

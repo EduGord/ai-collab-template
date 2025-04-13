@@ -9,5 +9,6 @@
       "plan": "extend-agent-abstractions",
       "note": "Ledger and heuristics successfully adopted"
     }
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

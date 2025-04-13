@@ -13,5 +13,6 @@
       "timestamp": "T.404752",
       "result": "Appended Phase 9 proposal draft."
     }
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

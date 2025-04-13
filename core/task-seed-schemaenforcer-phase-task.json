@@ -9,5 +9,6 @@
     "planning",
     "expansion"
   ],
-  "owner": "schemaenforcer"
+  "owner": "schemaenforcer",
+  "$schema": "schemas/task-schema.json"
 }

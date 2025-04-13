@@ -26,5 +26,6 @@
     ],
     "registered_in": "pipeline-release-vNEXT.json",
     "backlog_task": "enforce-log-inclusion-policy"
-  }
+  },
+  "$schema": "schemas/memory-schema.json"
 }

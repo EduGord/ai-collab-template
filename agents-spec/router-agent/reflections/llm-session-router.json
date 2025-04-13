@@ -3,5 +3,6 @@
   "result": "completed",
   "agent": "router-agent",
   "thought": "Executed llm-session-router.json successfully. Outcome: Updated context-router.json dynamically.",
-  "timestamp": "T.404752"
+  "timestamp": "T.404752",
+  "$schema": "schemas/agent-schema.json"
 }

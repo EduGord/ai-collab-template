@@ -2,5 +2,6 @@
   "status": "initialized",
   "memory_pointer": null,
   "assigned_tasks": [],
-  "agent": "recovery-agent"
+  "agent": "recovery-agent",
+  "$schema": "schemas/agent-schema.json"
 }

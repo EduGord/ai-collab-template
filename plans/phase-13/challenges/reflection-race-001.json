@@ -21,5 +21,6 @@
     "feedback_hooks": true
   },
   "status": "pending",
-  "timestamp": "T.765851"
+  "timestamp": "T.765851",
+  "$schema": "schemas/default-schema.json"
 }

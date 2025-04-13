@@ -30,5 +30,6 @@
     "missions/",
     "diary/human.json",
     "sandbox/"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

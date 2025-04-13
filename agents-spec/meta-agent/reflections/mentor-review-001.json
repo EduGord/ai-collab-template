@@ -10,5 +10,6 @@
   "nextSteps": [
     "Add agent mentoring hooks to pipeline",
     "Auto-score agent checklists against pattern memory"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

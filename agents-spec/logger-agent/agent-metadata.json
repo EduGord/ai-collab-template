@@ -35,12 +35,15 @@
     "supervisedBy": [],
     "relatedTo": [
       "orchestrator-agent",
-      "all-other-agents" 
+      "all-other-agents"
     ]
   },
-   "dependencies" : ["all-other-agents"],
-    "ui_aspects": {
-        "visual_priority": "low",
-        "feedback_loop": "passive"
-  }
+  "dependencies": [
+    "all-other-agents"
+  ],
+  "ui_aspects": {
+    "visual_priority": "low",
+    "feedback_loop": "passive"
+  },
+  "$schema": "schemas/agent-schema.json"
 }

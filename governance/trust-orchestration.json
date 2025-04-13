@@ -2,5 +2,6 @@
   "title": "Trust Orchestration Protocol",
   "description": "Governs trust scores and delegation authority among agents.",
   "linkedSchemas": [],
-  "reviewFrequency": "monthly"
+  "reviewFrequency": "monthly",
+  "$schema": "schemas/default-schema.json"
 }

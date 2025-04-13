@@ -25,5 +25,6 @@
       "id": "report-findings",
       "description": "Summarize findings and emit checklist items or agent updates if necessary."
     }
-  ]
+  ],
+  "$schema": "schemas/pipeline-schema.json"
 }

@@ -620,5 +620,6 @@
         "voting-agent"
       ]
     }
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

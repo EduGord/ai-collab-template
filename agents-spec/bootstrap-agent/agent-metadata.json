@@ -19,7 +19,7 @@
     "pipeline-selection"
   ],
   "specializedRoles": [
-      "system-initializer"
+    "system-initializer"
   ],
   "relationships": {
     "delegatesTo": [
@@ -35,11 +35,12 @@
     ]
   },
   "operationalProcedures": {
-      "pre-startup-check": "verify dependencies",
-      "post-startup-check":"verify system stability"
+    "pre-startup-check": "verify dependencies",
+    "post-startup-check": "verify system stability"
   },
   "executionMetrics": {
     "tokenUsage": "recorded",
     "costEstimate": "tracked"
-  }
+  },
+  "$schema": "schemas/agent-schema.json"
 }

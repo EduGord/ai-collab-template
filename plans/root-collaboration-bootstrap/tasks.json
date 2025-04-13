@@ -35,5 +35,6 @@
       "linked_agent": "realtime-llm-assistant",
       "status": "pending"
     }
-  ]
+  ],
+  "$schema": "schemas/task-schema.json"
 }

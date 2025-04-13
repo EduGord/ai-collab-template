@@ -1,5 +1,13 @@
 {
   "tone": "collaborative, respectful",
-  "formats": ["markdown", "json"],
-  "personas": ["planner", "reviewer", "executor"]
+  "formats": [
+    "markdown",
+    "json"
+  ],
+  "personas": [
+    "planner",
+    "reviewer",
+    "executor"
+  ],
+  "$schema": "schemas/default-schema.json"
 }

@@ -7,5 +7,6 @@
     "Ensure memory-bank/index.json is updated",
     "Ensure feature-map includes latest routines and schema-linked tools"
   ],
-  "status": "active"
+  "status": "active",
+  "$schema": "schemas/memory-schema.json"
 }

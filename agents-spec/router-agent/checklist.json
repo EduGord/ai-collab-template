@@ -7,11 +7,30 @@
     "lint-memory-index.py"
   ],
   "checks": [
-    {"item": "Parse llm-capabilities.json", "status": "pending"},
-    {"item": "Modify context-router.json with session optimizations", "status": "pending"},
-    {"item": "Store versioned context router backup", "status": "pending"},
-    {"item": "Run validate-router.py to check coverage", "status": "pending"},
-    {"item": "Run lint-memory-index.py for missing memory links", "status": "pending"},
-    {"item": "Auto-repair router and memory index if gaps found", "status": "pending"}
-  ]
+    {
+      "item": "Parse llm-capabilities.json",
+      "status": "pending"
+    },
+    {
+      "item": "Modify context-router.json with session optimizations",
+      "status": "pending"
+    },
+    {
+      "item": "Store versioned context router backup",
+      "status": "pending"
+    },
+    {
+      "item": "Run validate-router.py to check coverage",
+      "status": "pending"
+    },
+    {
+      "item": "Run lint-memory-index.py for missing memory links",
+      "status": "pending"
+    },
+    {
+      "item": "Auto-repair router and memory index if gaps found",
+      "status": "pending"
+    }
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

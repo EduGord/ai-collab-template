@@ -12,5 +12,6 @@
       "if": "plan-execution-deviates-from-goal",
       "then": "raise-alignment-flag"
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

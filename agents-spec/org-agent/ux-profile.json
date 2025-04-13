@@ -5,5 +5,6 @@
     "semantic-query-view"
   ],
   "visual_priority": "contextual",
-  "feedback_loop_enabled": true
+  "feedback_loop_enabled": true,
+  "$schema": "schemas/agent-schema.json"
 }

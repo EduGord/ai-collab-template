@@ -6,5 +6,6 @@
     "planner",
     "governance"
   ],
-  "owner": "planner"
+  "owner": "planner",
+  "$schema": "schemas/goal-schema.json"
 }

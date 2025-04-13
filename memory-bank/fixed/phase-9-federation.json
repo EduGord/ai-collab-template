@@ -12,5 +12,6 @@
     "feedback-propagation.json for multi-agent voting loops",
     "external-agent-descriptors.json for peer registries",
     "consensus-engine.json for trust-weighted agent agreement"
-  ]
+  ],
+  "$schema": "schemas/memory-schema.json"
 }

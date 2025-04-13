@@ -10,5 +10,6 @@
     "message",
     "cluster"
   ],
-  "owner": "planner"
+  "owner": "planner",
+  "$schema": "schemas/task-schema.json"
 }

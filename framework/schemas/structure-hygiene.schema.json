@@ -22,5 +22,6 @@
     "planner-agent",
     "docs-agent",
     "logger-agent"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

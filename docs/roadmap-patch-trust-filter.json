@@ -9,5 +9,6 @@
     "meta-agent"
   ],
   "description": "Tasks requiring fallback-unconfirmed or low-checklist agents will be deferred to next phase unless explicitly promoted.",
-  "status": "applied"
+  "status": "applied",
+  "$schema": "schemas/default-schema.json"
 }

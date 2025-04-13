@@ -10,5 +10,6 @@
     "routine",
     "agent"
   ],
-  "owner": "forecaster"
+  "owner": "forecaster",
+  "$schema": "schemas/agent-schema.json"
 }

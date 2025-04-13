@@ -6,5 +6,6 @@
     "suggest plan or checklist updates",
     "write to retrospective-insights.json"
   ],
-  "description": "Retrospective review of plan performance to trigger evolution"
+  "description": "Retrospective review of plan performance to trigger evolution",
+  "$schema": "schemas/default-schema.json"
 }

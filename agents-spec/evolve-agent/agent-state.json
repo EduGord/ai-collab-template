@@ -2,5 +2,6 @@
   "status": "initialized",
   "memory_pointer": null,
   "assigned_tasks": [],
-  "agent": "evolve-agent"
+  "agent": "evolve-agent",
+  "$schema": "schemas/agent-schema.json"
 }

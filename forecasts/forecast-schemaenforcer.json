@@ -6,5 +6,6 @@
     "compliance",
     "schema",
     "audit"
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

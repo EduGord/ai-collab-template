@@ -34,5 +34,6 @@
     "temp/",
     ".DS_Store"
   ],
-  "manifest_path": "config/release-manifest.json"
+  "manifest_path": "config/release-manifest.json",
+  "$schema": "schemas/default-schema.json"
 }

@@ -6,13 +6,22 @@
       "id": "ORG-CHECK-001",
       "description": "Ensure the organizational agent has access to the current project structure and conventions.",
       "status": "pending",
-      "tags": ["access", "project", "structure"]
+      "tags": [
+        "access",
+        "project",
+        "structure"
+      ]
     },
     {
       "id": "ORG-CHECK-002",
       "description": "Verify that the organizational agent is capable of automatically classifying and tagging new content.",
       "status": "pending",
-      "tags": ["classification", "tagging", "automation"]
+      "tags": [
+        "classification",
+        "tagging",
+        "automation"
+      ]
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

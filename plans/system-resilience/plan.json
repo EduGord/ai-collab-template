@@ -16,5 +16,6 @@
     "evolve-agent",
     "router-agent"
   ],
-  "timestamp": "T.071124"
+  "timestamp": "T.071124",
+  "$schema": "schemas/default-schema.json"
 }

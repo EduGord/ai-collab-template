@@ -27,5 +27,6 @@
       "excluded",
       "deprecated"
     ]
-  }
+  },
+  "$schema": "schemas/default-schema.json"
 }

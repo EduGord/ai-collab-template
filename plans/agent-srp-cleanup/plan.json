@@ -10,5 +10,6 @@
   "agents": [
     "evolve-agent"
   ],
-  "timestamp": "T.449247"
+  "timestamp": "T.449247",
+  "$schema": "schemas/agent-schema.json"
 }

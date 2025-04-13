@@ -13,5 +13,6 @@
     "Generate diff-based release .zip (exclude unchanged files and .git)"
   ],
   "status": "active",
-  "version": "vNEXT"
+  "version": "vNEXT",
+  "$schema": "schemas/default-schema.json"
 }

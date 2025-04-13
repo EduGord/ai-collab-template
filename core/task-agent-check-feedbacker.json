@@ -10,5 +10,6 @@
     "routine",
     "agent"
   ],
-  "owner": "feedbacker"
+  "owner": "feedbacker",
+  "$schema": "schemas/agent-schema.json"
 }

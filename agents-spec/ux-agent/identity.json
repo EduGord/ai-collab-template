@@ -23,5 +23,6 @@
   "capabilities": [
     "interface",
     "design"
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

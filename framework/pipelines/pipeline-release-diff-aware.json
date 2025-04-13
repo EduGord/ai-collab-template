@@ -13,5 +13,6 @@
     ],
     "removed_files": []
   },
-  "summary": "Release v0.25.1 introduces 8 new files and removes 0."
+  "summary": "Release v0.25.1 introduces 8 new files and removes 0.",
+  "$schema": "schemas/pipeline-schema.json"
 }

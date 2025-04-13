@@ -11,5 +11,6 @@
     "evolve-agent",
     "router-agent"
   ],
-  "version": "v1.1"
+  "version": "v1.1",
+  "$schema": "schemas/default-schema.json"
 }

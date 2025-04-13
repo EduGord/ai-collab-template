@@ -6,5 +6,6 @@
     "Scan identity.json for fallback flag",
     "Ensure checklist includes recovery markers",
     "Enforce re-entry logic in context routing"
-  ]
+  ],
+  "$schema": "schemas/log-schema.json"
 }

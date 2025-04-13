@@ -21,5 +21,6 @@
       "linked_agent": "ux-agent",
       "status": "pending"
     }
-  ]
+  ],
+  "$schema": "schemas/agent-schema.json"
 }

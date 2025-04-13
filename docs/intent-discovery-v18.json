@@ -26,5 +26,6 @@
       "intent": "Launch anomaly detection on execution logs for drift",
       "priority": "medium"
     }
-  ]
+  ],
+  "$schema": "schemas/default-schema.json"
 }

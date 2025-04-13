@@ -16,5 +16,6 @@
       "description": "Define checklist content here",
       "status": "pending"
     }
-  ]
+  ],
+  "$schema": "schemas/task-schema.json"
 }

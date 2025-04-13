@@ -9,5 +9,6 @@
     "planning",
     "expansion"
   ],
-  "owner": "forecaster"
+  "owner": "forecaster",
+  "$schema": "schemas/task-schema.json"
 }

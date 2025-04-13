@@ -150,5 +150,6 @@
   "ui-review.json": {
     "version": "1.0.0",
     "status": "stable"
-  }
+  },
+  "$schema": "schemas/default-schema.json"
 }

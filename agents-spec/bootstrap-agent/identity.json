@@ -9,5 +9,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "bootstrap-agent"
+  "agentId": "bootstrap-agent",
+  "$schema": "schemas/agent-schema.json"
 }

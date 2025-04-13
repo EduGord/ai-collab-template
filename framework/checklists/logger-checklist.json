@@ -17,5 +17,6 @@
       "status": "pending"
     }
   ],
-  "init_note": "Logger agent initialized for distributed log coordination, phase 1 enabled."
+  "init_note": "Logger agent initialized for distributed log coordination, phase 1 enabled.",
+  "$schema": "schemas/log-schema.json"
 }

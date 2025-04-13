@@ -36,5 +36,6 @@
       "check": "tasks/system-improvements.json status == all done"
     }
   ],
-  "status": "pending"
+  "status": "pending",
+  "$schema": "schemas/default-schema.json"
 }

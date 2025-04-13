@@ -11,5 +11,6 @@
     "plans"
   ],
   "status": "stable",
-  "updated": "TZ"
+  "updated": "TZ",
+  "$schema": "schemas/default-schema.json"
 }

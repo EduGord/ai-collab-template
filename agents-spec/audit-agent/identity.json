@@ -15,5 +15,6 @@
   "capabilities": [],
   "status": "active",
   "version": "1.0.0",
-  "agentId": "audit-agent"
+  "agentId": "audit-agent",
+  "$schema": "schemas/agent-schema.json"
 }

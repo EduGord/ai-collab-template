@@ -13,5 +13,6 @@
     "agent": "evolve-agent",
     "logPath": "logs/executions/phase-8-routines.json",
     "contextType": "contextual"
-  }
+  },
+  "$schema": "schemas/routine-schema.json"
 }

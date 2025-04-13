@@ -19,5 +19,6 @@
       "parser": "llm-agent",
       "planner": "evolve-agent"
     }
-  }
+  },
+  "$schema": "schemas/pipeline-schema.json"
 }
