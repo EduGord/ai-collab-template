@@ -1,0 +1,11 @@
+{
+  "routine": "detect-zombie-artifacts",
+  "description": "Scans for obsolete, duplicated, or orphaned project files before release.",
+  "agent": "audit-agent",
+  "trigger": "pre-release",
+  "steps": [
+    "scan for *.bak, *.old, __trash__/",
+    "detect duplicated or unlinked files",
+    "log issues and suggest deletions"
+  ]
+}

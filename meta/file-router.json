@@ -45,13 +45,11 @@
     "linked_agent": "unknown"
   },
   "AUTO-ONBOARD.md": {
-    "lines": 72,
-    "size": 2910,
+    "path": "AUTO-ONBOARD.md",
+    "summary": "--- title: AUTO-ONBOARD.md type: md description: Auto-generated routing metadata ---  # \ud83e\udd16 AUTO-ONBOARD: Welcome to the Canonical AI-Human Collaboration Framework  You\u2019ve just loaded a project built for resilient, intelligent collaboration w",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "changelog-agent.json": {
     "lines": 873,
@@ -153,13 +151,11 @@
     "linked_agent": "unknown"
   },
   "file-router.json": {
-    "lines": 9806,
-    "size": 322075,
+    "path": "file-router.json",
+    "summary": "{   \"framework-structured/checklists/feedbacker-checklist.md\": \"/checklists/feedbacker-checklist.md\",   \"framework-structured/checklists/forecaster-checklist.md\": \"/checklists/forecaster-checklist.md\",   \"framework-structured/checklists/int",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "generate_framework_zip.py": {
     "lines": 20,
@@ -450,22 +446,18 @@
     "linked_agent": "unknown"
   },
   "agents-spec/bootstrap-agent/agent-metadata.json": {
-    "lines": 45,
-    "size": 1088,
+    "path": "agents-spec/bootstrap-agent/agent-metadata.json",
+    "summary": "{   \"agent\": \"bootstrap-agent\",   \"description\": \"The Bootstrap Agent is responsible for initializing and setting up the foundational components of the system. It handles initial planning, resource allocation, and basic task delegation to e",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/bootstrap-agent/agent-state.json": {
-    "lines": 4,
-    "size": 42,
+    "path": "agents-spec/bootstrap-agent/agent-state.json",
+    "summary": "{   \"executions\": 1,   \"lastSeen\": \"TZ\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/bootstrap-agent/checklist.json": {
     "lines": 1,
@@ -540,13 +532,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/evolve-agent/agent-state.json": {
-    "lines": 6,
-    "size": 106,
+    "path": "agents-spec/evolve-agent/agent-state.json",
+    "summary": "{   \"status\": \"initialized\",   \"memory_pointer\": null,   \"assigned_tasks\": [],   \"agent\": \"evolve-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/evolve-agent/checklist.json": {
     "lines": 15,
@@ -612,13 +602,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/evolve-agent/reflections/self-review-hook.json": {
-    "lines": 7,
-    "size": 225,
+    "path": "agents-spec/evolve-agent/reflections/self-review-hook.json",
+    "summary": "{   \"task\": \"self-review-hook.json\",   \"result\": \"completed\",   \"agent\": \"evolve-agent\",   \"thought\": \"Executed self-review-hook.json successfully. Outcome: Logged self-evaluation steps post-run.\",   \"timestamp\": \"T.404752\",   \"$schema\": \"s",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/evolve-agent/reflections/system-evolve-cycle.json": {
     "lines": 7,
@@ -630,22 +618,18 @@
     "linked_agent": "unknown"
   },
   "agents-spec/logger-agent/agent-ledger.json": {
-    "lines": 5,
-    "size": 77,
+    "path": "agents-spec/logger-agent/agent-ledger.json",
+    "summary": "{   \"executed_tasks\": [],   \"last_updated\": null,   \"agent\": \"logger-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/logger-agent/agent-metadata.json": {
-    "lines": 46,
-    "size": 1100,
+    "path": "agents-spec/logger-agent/agent-metadata.json",
+    "summary": "{   \"agent\": \"logger-agent\",   \"description\": \"The Logger Agent is responsible for capturing, structuring, and routing log data within the system. It ensures that all relevant activities are recorded and available for analysis, monitoring,",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/logger-agent/agent-state.json": {
     "lines": 6,
@@ -684,13 +668,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/logger-agent/lifecycle.json": {
-    "lines": 9,
-    "size": 107,
+    "path": "agents-spec/logger-agent/lifecycle.json",
+    "summary": "{   \"phases\": [     \"init\",     \"active\",     \"reflecting\",     \"archived\"   ],   \"agent\": \"logger-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/logger-agent/ux-profile.json": {
     "lines": 10,
@@ -720,13 +702,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/meta-agent/agent-state.json": {
-    "lines": 6,
-    "size": 104,
+    "path": "agents-spec/meta-agent/agent-state.json",
+    "summary": "{   \"status\": \"initialized\",   \"memory_pointer\": null,   \"assigned_tasks\": [],   \"agent\": \"meta-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/meta-agent/checklist.json": {
     "lines": 1,
@@ -738,13 +718,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/meta-agent/heuristics.json": {
-    "lines": 6,
-    "size": 169,
+    "path": "agents-spec/meta-agent/heuristics.json",
+    "summary": "{   \"description\": \"Auto-generated placeholder for meta-agent heuristics.\",   \"patterns\": [],   \"decisions\": [],   \"scope\": \"meta-analysis and orchestration alignment\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/meta-agent/identity.json": {
     "lines": 15,
@@ -756,22 +734,18 @@
     "linked_agent": "unknown"
   },
   "agents-spec/meta-agent/lifecycle.json": {
-    "lines": 9,
-    "size": 105,
+    "path": "agents-spec/meta-agent/lifecycle.json",
+    "summary": "{   \"phases\": [     \"init\",     \"active\",     \"reflecting\",     \"archived\"   ],   \"agent\": \"meta-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/meta-agent/ux-profile.json": {
-    "lines": 10,
-    "size": 175,
+    "path": "agents-spec/meta-agent/ux-profile.json",
+    "summary": "{   \"ui_elements\": [     \"status-badge\",     \"log-summary\",     \"task-controls\"   ],   \"visual_priority\": \"default\",   \"feedback_loop_enabled\": true,   \"agent\": \"meta-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/meta-agent/reflections/mentor-review-001.json": {
     "lines": 14,
@@ -837,13 +811,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/orchestrator-agent/lifecycle.json": {
-    "lines": 4,
-    "size": 47,
+    "path": "agents-spec/orchestrator-agent/lifecycle.json",
+    "summary": "{   \"status\": \"stable\",   \"lastReviewed\": \"\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/orchestrator-agent/ux-profile.json": {
     "lines": 10,
@@ -873,13 +845,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/org-agent/agent-metadata.json": {
-    "lines": 45,
-    "size": 1386,
+    "path": "agents-spec/org-agent/agent-metadata.json",
+    "summary": "{   \"agent\": \"org-agent\",   \"description\": \"The Org-Agent is responsible for overseeing and managing tasks and pipelines within the system. It ensures proper task assignment and efficient pipeline selection to meet overall project objective",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/org-agent/agent-state.json": {
     "lines": 5,
@@ -900,13 +870,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/org-agent/heuristics.json": {
-    "lines": 20,
-    "size": 375,
+    "path": "agents-spec/org-agent/heuristics.json",
+    "summary": "{   \"rules\": [     {       \"if\": \"document-ingested\",       \"then\": \"auto-classify-and-tag\"     },     {       \"if\": \"knowledge-query-issued\",       \"then\": \"perform-semantic-search\"     },     {       \"if\": \"long-form-content-added\",",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/org-agent/identity.json": {
     "lines": 24,
@@ -918,13 +886,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/org-agent/lifecycle.json": {
-    "lines": 8,
-    "size": 80,
+    "path": "agents-spec/org-agent/lifecycle.json",
+    "summary": "{   \"phases\": [     \"init\",     \"active\",     \"reflecting\",     \"archived\"   ],   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/org-agent/ux-profile.json": {
     "lines": 9,
@@ -945,31 +911,25 @@
     "linked_agent": "unknown"
   },
   "agents-spec/planner-agent/agent-metadata.json": {
-    "lines": 34,
-    "size": 1279,
+    "path": "agents-spec/planner-agent/agent-metadata.json",
+    "summary": "{   \"agent\": \"planner-agent\",   \"description\": \"The Planner Agent is responsible for creating and managing plans and tasks based on given intents and specifications. It orchestrates the execution of tasks by delegating to other agents and s",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/planner-agent/agent-state.json": {
-    "lines": 6,
-    "size": 107,
+    "path": "agents-spec/planner-agent/agent-state.json",
+    "summary": "{   \"status\": \"initialized\",   \"memory_pointer\": null,   \"assigned_tasks\": [],   \"agent\": \"planner-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/planner-agent/checklist.json": {
-    "lines": 12,
-    "size": 431,
+    "path": "agents-spec/planner-agent/checklist.json",
+    "summary": "[   {     \"title\": \"Planning Agent Core Checklist\",     \"related_files\": [],     \"check_items\": [       { \"item\": \"Parse current intent or goal from user or plan\", \"checked\": false},       { \"item\": \"Break down into atomic tasks\", \"checked\"",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/planner-agent/heuristics.json": {
     "lines": 16,
@@ -999,13 +959,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/planner-agent/ux-profile.json": {
-    "lines": 10,
-    "size": 178,
+    "path": "agents-spec/planner-agent/ux-profile.json",
+    "summary": "{   \"ui_elements\": [     \"status-badge\",     \"log-summary\",     \"task-controls\"   ],   \"visual_priority\": \"default\",   \"feedback_loop_enabled\": true,   \"agent\": \"planner-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/planner-agent/checklists/core-checklist.json": {
     "lines": 20,
@@ -1026,22 +984,18 @@
     "linked_agent": "unknown"
   },
   "agents-spec/proposal-review-agent/agent-metadata.json": {
-    "lines": 40,
-    "size": 1218,
+    "path": "agents-spec/proposal-review-agent/agent-metadata.json",
+    "summary": "{   \"agent_id\": \"proposal-review-agent\",   \"agent_name\": \"Proposal Review Agent\",   \"description\": \"Reviews and evaluates proposals to ensure they meet the project's goals and specifications.\",   \"specialized_roles\": [     \"proposal_evaluat",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/proposal-review-agent/agent-state.json": {
-    "lines": 6,
-    "size": 115,
+    "path": "agents-spec/proposal-review-agent/agent-state.json",
+    "summary": "{   \"status\": \"initialized\",   \"memory_pointer\": null,   \"assigned_tasks\": [],   \"agent\": \"proposal-review-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/proposal-review-agent/checklist.json": {
     "lines": 13,
@@ -1089,13 +1043,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/recovery-agent/agent-ledger.json": {
-    "lines": 5,
-    "size": 70,
+    "path": "agents-spec/recovery-agent/agent-ledger.json",
+    "summary": "{   \"executions\": [],   \"totalTokens\": 0,   \"estimatedCostUSD\": 0.0,   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/recovery-agent/agent-metadata.json": {
     "lines": 35,
@@ -1107,13 +1059,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/recovery-agent/agent-state.json": {
-    "lines": 6,
-    "size": 108,
+    "path": "agents-spec/recovery-agent/agent-state.json",
+    "summary": "{   \"status\": \"initialized\",   \"memory_pointer\": null,   \"assigned_tasks\": [],   \"agent\": \"recovery-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/recovery-agent/checklist.json": {
     "lines": 14,
@@ -1143,13 +1093,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/recovery-agent/lifecycle.json": {
-    "lines": 4,
-    "size": 47,
+    "path": "agents-spec/recovery-agent/lifecycle.json",
+    "summary": "{   \"status\": \"stable\",   \"lastReviewed\": \"\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/recovery-agent/ux-profile.json": {
     "lines": 10,
@@ -1161,13 +1109,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/router-agent/agent-ledger.json": {
-    "lines": 5,
-    "size": 70,
+    "path": "agents-spec/router-agent/agent-ledger.json",
+    "summary": "{   \"executions\": [],   \"totalTokens\": 0,   \"estimatedCostUSD\": 0.0,   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/router-agent/agent-metadata.json": {
     "lines": 40,
@@ -1197,13 +1143,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/router-agent/heuristics.json": {
-    "lines": 16,
-    "size": 241,
+    "path": "agents-spec/router-agent/heuristics.json",
+    "summary": "{   \"preferences\": [     {       \"rule\": \"prefer-stable-schemas\",       \"weight\": 0.9     },     {       \"rule\": \"minimize-token-usage\",       \"weight\": 0.7     }   ],   \"scoring\": {     \"complexityPenalty\": 1.2,     \"reuseBonus\": 1.5   },",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/router-agent/identity.json": {
     "lines": 19,
@@ -1242,13 +1186,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/tasking-agent/agent-ledger.json": {
-    "lines": 5,
-    "size": 70,
+    "path": "agents-spec/tasking-agent/agent-ledger.json",
+    "summary": "{   \"executions\": [],   \"totalTokens\": 0,   \"estimatedCostUSD\": 0.0,   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/tasking-agent/agent-metadata.json": {
     "lines": 41,
@@ -1269,13 +1211,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/tasking-agent/checklist.json": {
-    "lines": 22,
-    "size": 699,
+    "path": "agents-spec/tasking-agent/checklist.json",
+    "summary": "{   \"title\": \"Tasking Agent Core Checklist\",   \"related_files\": [],   \"check_items\": [     {       \"description\": \"Receive task proposals and validate their format and completeness.\",       \"status\": \"pending\"     },     {       \"descriptio",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/tasking-agent/heuristics.json": {
     "lines": 16,
@@ -1377,22 +1317,18 @@
     "linked_agent": "unknown"
   },
   "agents-spec/ux-agent/ux-profile.json": {
-    "lines": 10,
-    "size": 173,
+    "path": "agents-spec/ux-agent/ux-profile.json",
+    "summary": "{   \"ui_elements\": [     \"status-badge\",     \"log-summary\",     \"task-controls\"   ],   \"visual_priority\": \"default\",   \"feedback_loop_enabled\": true,   \"agent\": \"ux-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/voting-agent/agent-ledger.json": {
-    "lines": 5,
-    "size": 77,
+    "path": "agents-spec/voting-agent/agent-ledger.json",
+    "summary": "{   \"executed_tasks\": [],   \"last_updated\": null,   \"agent\": \"voting-agent\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/voting-agent/agent-metadata.json": {
     "lines": 44,
@@ -1422,13 +1358,11 @@
     "linked_agent": "unknown"
   },
   "agents-spec/voting-agent/identity.json": {
-    "lines": 24,
-    "size": 522,
+    "path": "agents-spec/voting-agent/identity.json",
+    "summary": "{   \"role\": \"Resolve conflicts and evaluate competing agent outputs\",   \"description\": \"Resolve conflicts and evaluate competing agent outputs\",   \"tools\": [     \"voting-strategy\",     \"agent-feedback-evaluator\"   ],   \"dependencies\": [",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "agents-spec/voting-agent/lifecycle.json": {
     "lines": 9,
@@ -1494,13 +1428,11 @@
     "linked_agent": "unknown"
   },
   "core/forecast-task-forecaster.json": {
-    "lines": 12,
-    "size": 368,
+    "path": "core/forecast-task-forecaster.json",
+    "summary": "{   \"id\": \"forecast-task-forecaster\",   \"title\": \"Predict saturation points for checklist density and routine collisions.\",   \"description\": \"Forecasted task for forecaster: Predict saturation points for checklist density and routine collis",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/forecast-task-planner.json": {
     "lines": 13,
@@ -1521,13 +1453,11 @@
     "linked_agent": "unknown"
   },
   "core/memory-bridge.json": {
-    "lines": 22,
-    "size": 370,
+    "path": "core/memory-bridge.json",
+    "summary": "{   \"linkedProjects\": [     {       \"name\": \"corrida-poc\",       \"path\": \"../corrida-poc/memory-bank\",       \"mountMode\": \"readonly\",       \"agentsAllowed\": [         \"planner-agent\",         \"docs-agent\"       ],       \"logAccess\": true",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/memory_bank.json": {
     "lines": 305,
@@ -1557,22 +1487,18 @@
     "linked_agent": "unknown"
   },
   "core/task-agent-check-forecaster.json": {
-    "lines": 14,
-    "size": 336,
+    "path": "core/task-agent-check-forecaster.json",
+    "summary": "{   \"id\": \"agent-check-forecaster\",   \"title\": \"forecaster executes its checklist\",   \"description\": \"Trigger forecaster to review its identity, checklist, pipeline, and log findings.\",   \"priority\": \"high\",   \"status\": \"pending\",   \"tags\":",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/task-agent-check-planner.json": {
-    "lines": 14,
-    "size": 324,
+    "path": "core/task-agent-check-planner.json",
+    "summary": "{   \"id\": \"agent-check-planner\",   \"title\": \"planner executes its checklist\",   \"description\": \"Trigger planner to review its identity, checklist, pipeline, and log findings.\",   \"priority\": \"high\",   \"status\": \"pending\",   \"tags\": [     \"c",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/task-agent-check-schemaenforcer.json": {
     "lines": 14,
@@ -1602,13 +1528,11 @@
     "linked_agent": "unknown"
   },
   "core/task-bootstrap-and-memory-loading.json": {
-    "lines": 14,
-    "size": 423,
+    "path": "core/task-bootstrap-and-memory-loading.json",
+    "summary": "{   \"id\": \"bootstrap-and-memory-loading\",   \"title\": \"Bootstrap framework and load project tree + contents\",   \"description\": \"Load full project tree and file contents into memory. Use memory bank, agents, pipelines, routines, logs, and tas",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/task-feature-ref-linking.json": {
     "lines": 14,
@@ -1620,13 +1544,11 @@
     "linked_agent": "unknown"
   },
   "core/task-full-system-audit.json": {
-    "lines": 14,
-    "size": 357,
+    "path": "core/task-full-system-audit.json",
+    "summary": "{   \"id\": \"full-system-audit\",   \"title\": \"Run full framework validation and audit\",   \"description\": \"Each agent assumes its identity and verifies checklists, docs, logs, routines, pipelines, and specs.\",   \"priority\": \"high\",   \"status\":",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/task-global-resilience-audit.json": {
     "lines": 14,
@@ -1692,13 +1614,11 @@
     "linked_agent": "unknown"
   },
   "core/task-runtime-scale-schemaenforcer.json": {
-    "lines": 13,
-    "size": 318,
+    "path": "core/task-runtime-scale-schemaenforcer.json",
+    "summary": "{   \"id\": \"runtime-scale-schemaenforcer\",   \"title\": \"Begin preparing agent runtime orchestration logic.\",   \"description\": \"Begin preparing agent runtime orchestration logic.\",   \"priority\": \"high\",   \"status\": \"completed\",   \"tags\": [",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/task-seed-docbot-phase-task.json": {
     "lines": 13,
@@ -1710,13 +1630,11 @@
     "linked_agent": "unknown"
   },
   "core/task-seed-feedbacker-phase-task.json": {
-    "lines": 13,
-    "size": 324,
+    "path": "core/task-seed-feedbacker-phase-task.json",
+    "summary": "{   \"id\": \"seed-feedbacker-phase-task\",   \"title\": \"feedbacker prepares for next operational roadmap cycle.\",   \"description\": \"feedbacker prepares for next operational roadmap cycle.\",   \"priority\": \"medium\",   \"status\": \"completed\",   \"ta",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/task-seed-forecaster-phase-task.json": {
     "lines": 13,
@@ -1737,40 +1655,32 @@
     "linked_agent": "unknown"
   },
   "core/task-seed-schemaenforcer-phase-task.json": {
-    "lines": 13,
-    "size": 340,
+    "path": "core/task-seed-schemaenforcer-phase-task.json",
+    "summary": "{   \"id\": \"seed-schemaenforcer-phase-task\",   \"title\": \"schemaenforcer prepares for next operational roadmap cycle.\",   \"description\": \"schemaenforcer prepares for next operational roadmap cycle.\",   \"priority\": \"medium\",   \"status\": \"compl",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/task-simulate-zone-relay.json": {
-    "lines": 14,
-    "size": 346,
+    "path": "core/task-simulate-zone-relay.json",
+    "summary": "{   \"id\": \"simulate-zone-relay\",   \"title\": \"Simulate inter-zone message relay behavior\",   \"description\": \"Test how messages from one zone propagate to another using shared_memory and subscriptions.\",   \"priority\": \"high\",   \"status\": \"que",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/task-task-tbd.json": {
-    "lines": 13,
-    "size": 189,
+    "path": "core/task-task-tbd.json",
+    "summary": "{   \"id\": \"task-tbd\",   \"title\": \"TBD\",   \"description\": \"TBD\",   \"priority\": \"medium\",   \"status\": \"pending\",   \"tags\": [     \"task\",     \"agent\",     \"llm\"   ],   \"owner\": \"unassigned\",   \"$schema\": \"schemas/task-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/checklists/docbot-snapshot-checklist.yaml": {
-    "lines": 17,
-    "size": 664,
-    "type": "yaml",
-    "tags": [
-      "yaml"
-    ],
-    "linked_agent": "unknown"
+    "path": "core/checklists/docbot-snapshot-checklist.yaml",
+    "summary": "agent: docbot routine: regenerate-system-snapshot checklist:   - id: load-memory-index     task: Ensure latest memory index file is parsed successfully   - id: scan-roadmaps     task: Aggregate roadmap phases and unresolved tasks   - id: ma",
+    "linked_agent": "unknown",
+    "type": "txt",
+    "tags": []
   },
   "core/checklists/user-live-session-checklist.yaml": {
     "lines": 8,
@@ -1818,13 +1728,11 @@
     "linked_agent": "unknown"
   },
   "core/governance/enforce-resilience-logic.json": {
-    "lines": 10,
-    "size": 330,
+    "path": "core/governance/enforce-resilience-logic.json",
+    "summary": "{   \"routineId\": \"enforce-resilience-logic\",   \"description\": \"Validate all agents and pipelines support re-entry, recovery, and fallback\",   \"trigger\": \"on-iteration\",   \"steps\": [     \"Scan identity.json for fallback flag\",     \"Ensure ch",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/governance/validate-upgrade-proposals.json": {
     "lines": 10,
@@ -1845,31 +1753,25 @@
     "linked_agent": "unknown"
   },
   "core/operational/feature-sync-and-memory-audit.json": {
-    "lines": 10,
-    "size": 414,
+    "path": "core/operational/feature-sync-and-memory-audit.json",
+    "summary": "{   \"routineId\": \"feature-sync-and-memory-audit\",   \"description\": \"Ensures all features are documented, memory-bank is up to date, and capabilities are routable\",   \"trigger\": \"on-version-freeze\",   \"steps\": [     \"Scan /features/ and ensu",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/operational/finalize-project-integrity.json": {
-    "lines": 164,
-    "size": 7693,
+    "path": "core/operational/finalize-project-integrity.json",
+    "summary": "{   \"routineId\": \"finalize-project-integrity\",   \"description\": \"Ensures all new files are documented, routable, and audit-ready\",   \"trigger\": \"pre-archive\",   \"steps\": [     {       \"action\": \"scan for undocumented routines\"     },     {",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/operational/lifecycle.json": {
-    "lines": 3,
-    "size": 31,
+    "path": "core/operational/lifecycle.json",
+    "summary": "{   \"status\": \"experimental\",   \"$schema\": \"schemas/default-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/operational/llm-session-router.json": {
     "lines": 10,
@@ -1917,13 +1819,11 @@
     "linked_agent": "unknown"
   },
   "core/operational/routine-metadata.json": {
-    "lines": 6,
-    "size": 155,
+    "path": "core/operational/routine-metadata.json",
+    "summary": "{   \"routineId\": \"routine-manifest\",   \"trigger\": \"system-start\",   \"description\": \"Autogenerated routine metadata stub\",   \"ownerAgent\": \"evolve-agent\",   \"$schema\": \"schemas/routine-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/operational/self-healing-memory-sync.json": {
     "lines": 55,
@@ -2016,13 +1916,11 @@
     "linked_agent": "unknown"
   },
   "core/routines/live-deployment-feedback-cycle.yaml": {
-    "lines": 8,
-    "size": 356,
-    "type": "yaml",
-    "tags": [
-      "yaml"
-    ],
-    "linked_agent": "unknown"
+    "path": "core/routines/live-deployment-feedback-cycle.yaml",
+    "summary": "id: live-deployment-feedback-cycle trigger: real-time/live agent: feedbacker description: Summarize agent interactions with user and generate task improvements from live data steps:   - Review recent logs for open questions or missed featur",
+    "linked_agent": "unknown",
+    "type": "txt",
+    "tags": []
   },
   "core/routines/root-collab-validation.yaml": {
     "lines": 28,
@@ -2052,22 +1950,18 @@
     "linked_agent": "unknown"
   },
   "core/tasks/task-audit-v21-before-v22.json": {
-    "lines": 14,
-    "size": 377,
+    "path": "core/tasks/task-audit-v21-before-v22.json",
+    "summary": "{   \"id\": \"audit-v21-before-v22\",   \"title\": \"Run full audit on v21 structure and metadata before v22 release\",   \"description\": \"Trigger pipeline+checklist+routine audits to confirm everything is valid and ready for v22.\",   \"priority\": \"c",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/tasks/task-begin-v23-cycle.json": {
-    "lines": 13,
-    "size": 301,
+    "path": "core/tasks/task-begin-v23-cycle.json",
+    "summary": "{   \"id\": \"begin-v23-cycle\",   \"title\": \"Launch planning cycle for v23\",   \"description\": \"Initialize v23 intents and execution roadmap from recent audits and improvements.\",   \"priority\": \"high\",   \"status\": \"queued\",   \"tags\": [     \"v23\"",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/tasks/task-continuous-evolution-cycle.json": {
     "lines": 15,
@@ -2151,13 +2045,11 @@
     "linked_agent": "unknown"
   },
   "core/tasks/task-feedback-loop-from-user.json": {
-    "lines": 13,
-    "size": 338,
+    "path": "core/tasks/task-feedback-loop-from-user.json",
+    "summary": "{   \"id\": \"feedback-loop-from-user\",   \"title\": \"Run live deployment feedback routine\",   \"description\": \"Use feedbacker to simulate summary of issues or needs based on human-user\\u2019s live session logs.\",   \"priority\": \"high\",   \"status\"",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/tasks/task-feedbacker-anomaly-detection.json": {
     "lines": 13,
@@ -2169,13 +2061,11 @@
     "linked_agent": "unknown"
   },
   "core/tasks/task-feedbacker-monthly-summary.json": {
-    "lines": 12,
-    "size": 307,
+    "path": "core/tasks/task-feedbacker-monthly-summary.json",
+    "summary": "{   \"id\": \"feedbacker-monthly-summary\",   \"title\": \"Generate monthly execution feedback summary\",   \"description\": \"Summarize log-based execution results by agent, task, and time period.\",   \"priority\": \"medium\",   \"status\": \"queued\",   \"ta",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/tasks/task-feedbacker-trend-analysis.json": {
     "lines": 13,
@@ -2250,13 +2140,11 @@
     "linked_agent": "unknown"
   },
   "core/tasks/task-log-replay-for-improvement.json": {
-    "lines": 13,
-    "size": 354,
+    "path": "core/tasks/task-log-replay-for-improvement.json",
+    "summary": "{   \"id\": \"log-replay-for-improvement\",   \"title\": \"Replay logs to identify missing features or broken patterns\",   \"description\": \"Let feedbacker and llm-assistant replay logs to surface blind spots or drift in behavior.\",   \"priority\": \"h",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/tasks/task-planner-milestone-calendar.json": {
     "lines": 13,
@@ -2286,13 +2174,11 @@
     "linked_agent": "unknown"
   },
   "core/tasks/task-rebuild-core-structure.json": {
-    "lines": 14,
-    "size": 392,
+    "path": "core/tasks/task-rebuild-core-structure.json",
+    "summary": "{   \"id\": \"rebuild-core-structure\",   \"title\": \"Recreate essential framework folders for live identity operations\",   \"description\": \"Recreate any missing directories under core/ required for checklists, identities, and routines.\",   \"prior",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/tasks/task-refactor-root-structure.json": {
     "lines": 13,
@@ -2322,22 +2208,18 @@
     "linked_agent": "unknown"
   },
   "core/tasks/task-runtime-discovery-metadata-update.json": {
-    "lines": 13,
-    "size": 514,
+    "path": "core/tasks/task-runtime-discovery-metadata-update.json",
+    "summary": "{   \"id\": \"runtime-discovery-metadata-update\",   \"title\": \"Implement runtime metadata discovery and update\",   \"description\": \"Enable runtime agents (feedbacker, planner, llm-assistant) to dynamically discover and update metadata entries ba",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/tasks/task-schema-diff-viewer.json": {
-    "lines": 13,
-    "size": 306,
+    "path": "core/tasks/task-schema-diff-viewer.json",
+    "summary": "{   \"id\": \"schema-diff-viewer\",   \"title\": \"Create config schema diff tool\",   \"description\": \"Generate a diff viewer between schema-config versions with changelog projection.\",   \"priority\": \"high\",   \"status\": \"queued\",   \"tags\": [     \"s",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/tasks/task-schema-runtime-validation.json": {
     "lines": 13,
@@ -2358,13 +2240,11 @@
     "linked_agent": "unknown"
   },
   "core/tasks/task-setup-metadata-validation-pipeline.json": {
-    "lines": 13,
-    "size": 497,
+    "path": "core/tasks/task-setup-metadata-validation-pipeline.json",
+    "summary": "{   \"id\": \"setup-metadata-validation-pipeline\",   \"title\": \"Automate metadata validation across framework\",   \"description\": \"Establish an automated pipeline to validate consistency and completeness of metadata in files like file-router.jso",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "core/tasks/task-simulate-onboarding-sequence.json": {
     "lines": 14,
@@ -2412,13 +2292,11 @@
     "linked_agent": "unknown"
   },
   "core/tasks/task-user-goal-setting.json": {
-    "lines": 13,
-    "size": 325,
+    "path": "core/tasks/task-user-goal-setting.json",
+    "summary": "{   \"id\": \"user-goal-setting\",   \"title\": \"Trigger human-user goal planning round\",   \"description\": \"Generate, log, and execute user-proposed goals based on current framework state and evolution needs.\",   \"priority\": \"high\",   \"status\": \"",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "deployment/cluster-zones.json": {
     "lines": 16,
@@ -2439,13 +2317,11 @@
     "linked_agent": "unknown"
   },
   "docs/AGENT_MODEL_INDEX.md": {
-    "lines": 14,
-    "size": 347,
+    "path": "docs/AGENT_MODEL_INDEX.md",
+    "summary": "# Canonical Agent Model Index  This index outlines the core agents within the system and their responsibilities.  ## Core Agents  - docbot \u2013 handles docs - structurekeeper \u2013 schema/memory alignment - taskrouter \u2013 file/task routing  ## Speci",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/api-schema.yaml": {
     "lines": 12,
@@ -2466,13 +2342,11 @@
     "linked_agent": "unknown"
   },
   "docs/cli-dashboard.md": {
-    "lines": 20,
-    "size": 446,
+    "path": "docs/cli-dashboard.md",
+    "summary": "--- title: cli-dashboard.md type: md description: Auto-generated routing metadata ---  # CLI Dashboard Utilities  ## Files - `dashboard.py`: Terminal-friendly task list viewer - `agent_status.py`: Tracks status of all known agents  ## Featu",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/context-coherence-loop.md": {
     "lines": 9,
@@ -2484,13 +2358,11 @@
     "linked_agent": "unknown"
   },
   "docs/design-principles.md": {
-    "lines": 9,
-    "size": 210,
+    "path": "docs/design-principles.md",
+    "summary": "# Design Principles  This template embodies modularity, explainability, and collaborative scale.  ## Foundations  - Memory-first architecture - Decentralized task orchestration - Transparent execution pipelines",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/dev-diary.md": {
     "lines": 555,
@@ -2502,13 +2374,11 @@
     "linked_agent": "unknown"
   },
   "docs/evaluation.md": {
-    "lines": 69,
-    "size": 3313,
+    "path": "docs/evaluation.md",
+    "summary": "--- title: evaluation.md type: md description: Auto-generated routing metadata ---  # Evaluation Results (Updated)  ## Recent Agent Actions - [system] Registered pipeline runner for task-agent execution. - [system] Full system audit complet",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/example-workflows.md": {
     "lines": 16,
@@ -2529,22 +2399,18 @@
     "linked_agent": "unknown"
   },
   "docs/feedback-summary-v17.md": {
-    "lines": 22,
-    "size": 714,
+    "path": "docs/feedback-summary-v17.md",
+    "summary": "--- title: feedback-summary-v17.md type: md description: Auto-generated routing metadata ---  # Feedback Summary \u2014 v17 Roadmap Execution  ## Agent Execution Overview - **docbot** created onboarding documentation (internal only) - **planner*",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/final_comprehensive_project_summary.md": {
-    "lines": 39,
-    "size": 1074,
+    "path": "docs/final_comprehensive_project_summary.md",
+    "summary": "--- title: final_comprehensive_project_summary.md type: md description: Auto-generated routing metadata ---  # Final Project Summary: Canonical AI-Human Collaboration Framework  ## Mission  Build a modular, extensible project for interactin",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/folder-structure-proposal.md": {
     "lines": 43,
@@ -2556,13 +2422,11 @@
     "linked_agent": "unknown"
   },
   "docs/forecast-history.md": {
-    "lines": 11,
-    "size": 296,
+    "path": "docs/forecast-history.md",
+    "summary": "--- title: forecast-history.md type: md description: Auto-generated routing metadata ---  # Forecast History  | Date | Prediction | Outcome | |------|------------|---------| | Init | Agent expansion and routing will need schema/trigger alig",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/forecast.md": {
     "lines": 19,
@@ -2583,13 +2447,11 @@
     "linked_agent": "unknown"
   },
   "docs/how-to-add-agent.md": {
-    "lines": 20,
-    "size": 560,
+    "path": "docs/how-to-add-agent.md",
+    "summary": "# How to Add a New Agent  1. Create a folder under `agents-spec/<agent-name>/` 2. Define `identity.json` with:     - role     - tone or personality     - tools and inputs/outputs 3. Add `checklist.json` with structured duties 4. Optionally",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/how-to-assume-agent.md": {
     "lines": 16,
@@ -2619,13 +2481,11 @@
     "linked_agent": "unknown"
   },
   "docs/intent-discovery-v19.json": {
-    "lines": 30,
-    "size": 725,
+    "path": "docs/intent-discovery-v19.json",
+    "summary": "{   \"cycle\": \"v19\",   \"intents\": [     {       \"agent\": \"planner\",       \"intent\": \"Add milestone-based calendar and task due dates\",       \"priority\": \"high\"     },     {       \"agent\": \"docbot\",       \"intent\": \"Create AI-friendly summary",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/intents.md": {
     "lines": 19,
@@ -2646,13 +2506,11 @@
     "linked_agent": "unknown"
   },
   "docs/memory-runner-docs.md": {
-    "lines": 21,
-    "size": 598,
+    "path": "docs/memory-runner-docs.md",
+    "summary": "--- title: memory-runner-docs.md type: md description: Auto-generated routing metadata ---  # Memory + Runner Module  ## \ud83e\udde0 memory_service.py Provides abstraction for storing logs, loading tasks, and simulating persistent AI memory.  ## \ud83d\udd01 pi",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/navigation-index.json": {
     "lines": 1755,
@@ -2700,13 +2558,11 @@
     "linked_agent": "unknown"
   },
   "docs/README-HUMAN.md": {
-    "lines": 46,
-    "size": 903,
+    "path": "docs/README-HUMAN.md",
+    "summary": "--- title: README-HUMAN.md type: md description: Auto-generated routing metadata ---  # Human Guide Use the checklists, memory maps, and plan files to interact with this system.  You can: - Add new agents via `agents-spec/` - Add ideas to `",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/README-LLM.md": {
     "lines": 13,
@@ -2772,49 +2628,39 @@
     "linked_agent": "unknown"
   },
   "docs/roadmap-agent-goal-proposals.json": {
-    "lines": 25,
-    "size": 549,
+    "path": "docs/roadmap-agent-goal-proposals.json",
+    "summary": "{   \"version\": \"v15.1\",   \"goals\": [     {       \"agent\": \"docbot\",       \"goal\": \"Generate onboarding.md for first-time users\"     },     {       \"agent\": \"planner\",       \"goal\": \"Auto-group task queue by feature area\"     },     {",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/roadmap-matrix.md": {
-    "lines": 17,
-    "size": 1100,
+    "path": "docs/roadmap-matrix.md",
+    "summary": "--- title: roadmap-matrix.md type: md description: Auto-generated routing metadata ---  # Roadmap Matrix (Expanded)  | Phase | Goal / Task                        | Agent(s)                   | Status        | Tags                       | |-",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/roadmap-patch-trust-filter.json": {
-    "lines": 13,
-    "size": 338,
+    "path": "docs/roadmap-patch-trust-filter.json",
+    "summary": "{   \"patch_id\": \"trust-weighted-roadmap-filter\",   \"timestamp\": \"TZ\",   \"priority_agents\": [     \"docbot\",     \"planner-agent\"   ],   \"deprioritized\": [     \"meta-agent\"   ],   \"description\": \"Tasks requiring fallback-unconfirmed or low-che",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/roadmap-v0.24.0.md": {
-    "lines": 34,
-    "size": 1209,
+    "path": "docs/roadmap-v0.24.0.md",
+    "summary": "# \ud83d\udccd Roadmap for Version v0.24.0 _Auto-generated from retrospective of v0.23.0-pre_  \ud83d\udd53 Timestamp: T.385029  --- ## \ud83c\udfaf Next Actions - [ ] Confirm agent orchestration pipeline integrity - [ ] Confirm all agents comply with continuity tag - [ ]",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/roadmap-v0.25.1.md": {
-    "lines": 29,
-    "size": 770,
+    "path": "docs/roadmap-v0.25.1.md",
+    "summary": "# Roadmap \u2013 Release v0.25.1  ## Summary Release v0.25.1 introduces 8 new files and removes 0.  ## Files Added - logs/executions/patched-missing-agent-descriptions.json - logs/executions/root-collab-validation-run.json - schemas/canonical-ag",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/roadmap-v0.26.0-tasks.json": {
     "lines": 57,
@@ -2880,13 +2726,11 @@
     "linked_agent": "unknown"
   },
   "docs/system-resilience-checklist.md": {
-    "lines": 15,
-    "size": 532,
+    "path": "docs/system-resilience-checklist.md",
+    "summary": "# System Resilience Checklist  - [ ] Verify context-router includes all valid project files - [ ] Verify memory-bank index aligns with file structure - [ ] Ensure all agents have up-to-date checklists for memory - [ ] Ensure tooling can lin",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/task-dependencies.md": {
     "lines": 22,
@@ -2898,13 +2742,11 @@
     "linked_agent": "unknown"
   },
   "docs/task-graph-doc.md": {
-    "lines": 14,
-    "size": 312,
+    "path": "docs/task-graph-doc.md",
+    "summary": "--- title: task-graph-doc.md type: md description: Auto-generated routing metadata ---  # Task Graph Visualizer  ## `task_graph.py` Renders task-dependencies.md content into a live, interactive graph using `networkx` and `matplotlib`.  - Au",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/webhook-integration.md": {
     "lines": 20,
@@ -2916,13 +2758,11 @@
     "linked_agent": "unknown"
   },
   "docs/agents/docs-agent.md": {
-    "lines": 88,
-    "size": 2097,
+    "path": "docs/agents/docs-agent.md",
+    "summary": "# docs-agent Overview  **Agent ID**: `docs-agent`   **Version**: `unknown`  ---  ## Capabilities N/A  ## Tools N/A  ## Pipelines N/A  ## Checklists N/A  ---  ## Files by Name - docs/intent-discovery-v18.json - docs/intent-discovery-v19.json",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "docs/agents/frontend-agent.md": {
     "lines": 26,
@@ -2943,13 +2783,11 @@
     "linked_agent": "unknown"
   },
   "docs/generated/phase12-market-token-dashboard.json": {
-    "lines": 30,
-    "size": 477,
+    "path": "docs/generated/phase12-market-token-dashboard.json",
+    "summary": "[   {     \"agent\": \"planner-agent\",     \"tokens\": 120,     \"reputation\": 0.92,     \"load\": 0.3,     \"bid_history\": 1   },   {     \"agent\": \"tasking-agent\",     \"tokens\": 95,     \"reputation\": 0.85,     \"load\": 0.45,     \"bid_history\": 1   }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "features/feature-map.json": {
     "lines": 175,
@@ -3051,13 +2889,11 @@
     "linked_agent": "unknown"
   },
   "forecasts/bootstrap-agent/timeline-memory.json": {
-    "lines": 6,
-    "size": 92,
+    "path": "forecasts/bootstrap-agent/timeline-memory.json",
+    "summary": "{   \"events\": [     {       \"date\": \"\",       \"event\": \"Project initialized\"     }   ],   \"projections\": [],   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "framework/agents/docbot.md": {
     "lines": 12,
@@ -3150,13 +2986,11 @@
     "linked_agent": "unknown"
   },
   "framework/checklists/integration-graph-checklist.md": {
-    "lines": 10,
-    "size": 306,
+    "path": "framework/checklists/integration-graph-checklist.md",
+    "summary": "--- title: integration-graph-checklist.md type: md description: Auto-generated routing metadata ---  - [x] Add webhook receiver for task ingestion - [x] Document webhook payload format - [x] Visualize task dependency graph from markdown JSO",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "framework/checklists/logger-checklist.json": {
     "lines": 21,
@@ -3177,13 +3011,11 @@
     "linked_agent": "unknown"
   },
   "framework/checklists/orchestrator-checklist.json": {
-    "lines": 25,
-    "size": 540,
+    "path": "framework/checklists/orchestrator-checklist.json",
+    "summary": "{   \"agent\": \"orchestrator-agent\",   \"version\": \"v0.25.1\",   \"modified_by\": \"Framework OrchestratorGPT\",   \"timestamp\": \"T.304106\",   \"recommendations_applied\": [     \"Split checklist into sub-phase routines\",     \"Tag legacy checklist item",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "framework/checklists/planner-checklist.md": {
     "lines": 36,
@@ -3231,13 +3063,11 @@
     "linked_agent": "unknown"
   },
   "framework/checklists/runner-and-memory-checklist.md": {
-    "lines": 11,
-    "size": 350,
+    "path": "framework/checklists/runner-and-memory-checklist.md",
+    "summary": "--- title: runner-and-memory-checklist.md type: md description: Auto-generated routing metadata ---  - [x] Add `main.py` orchestration entrypoint - [x] Implement `pipeline_runner.py` for sim task execution - [x] Stub memory ops in `memory_s",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "framework/checklists/schemaenforcer-checklist.md": {
     "lines": 15,
@@ -3375,13 +3205,11 @@
     "linked_agent": "unknown"
   },
   "framework/memory/design-architecture-updates.md": {
-    "lines": 18,
-    "size": 576,
+    "path": "framework/memory/design-architecture-updates.md",
+    "summary": "--- title: design-architecture-updates.md type: md description: Auto-generated routing metadata ---  # Design & Architecture Execution Log  ## Completed - README.md now serves as central hub, links to agent- and human-specific docs - Contex",
+    "linked_agent": "unknown",
     "type": "md",
-    "tags": [
-      "md"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "framework/memory/framework-capabilities.md": {
     "lines": 55,
@@ -3672,13 +3500,11 @@
     "linked_agent": "unknown"
   },
   "goals/goal-roadmap-boot.json": {
-    "lines": 6,
-    "size": 191,
+    "path": "goals/goal-roadmap-boot.json",
+    "summary": "{   \"goal\": \"Rebuild high-level roadmap and phase-based execution strategy for all active agents.\",   \"status\": \"pending\",   \"tags\": [     \"roadmap\",     \"boot\",     \"governance\"   ],   \"owner\": \"planner\",   \"$schema\": \"schemas/goal-schema.",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "goals/goal-schemaenforcer-51f700.json": {
     "lines": 10,
@@ -3708,13 +3534,11 @@
     "linked_agent": "unknown"
   },
   "governance/co-creation-protocol.json": {
-    "lines": 34,
-    "size": 601,
+    "path": "governance/co-creation-protocol.json",
+    "summary": "{   \"protocolId\": \"co-creation-v1\",   \"description\": \"Defines structured interaction between human contributors and AI agents\",   \"roles\": [     \"human\",     \"agent\",     \"observer\",     \"reviewer\"   ],   \"permissions\": {     \"human\": [",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "governance/lifecycle-policy.json": {
     "lines": 5,
@@ -3825,13 +3649,11 @@
     "linked_agent": "unknown"
   },
   "memory-bank/memory-metadata.json": {
-    "lines": 27,
-    "size": 509,
+    "path": "memory-bank/memory-metadata.json",
+    "summary": "{   \"files\": [],   \"metadata\": {     \"example.json\": {       \"purpose\": \"used in training pipeline\",       \"loadMode\": \"context-heavy\",       \"ttl\": \"session\",       \"ownerAgent\": \"training-agent\"     }   },   \"scopes\": {     \"long-term\": [",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "memory-bank/pattern-memory.json": {
     "lines": 30,
@@ -3888,13 +3710,11 @@
     "linked_agent": "unknown"
   },
   "memory-bank/evolving/pending-tasks.json": {
-    "lines": 1059,
-    "size": 41457,
+    "path": "memory-bank/evolving/pending-tasks.json",
+    "summary": "{   \"version\": \"1.0.0\",   \"tasks\": [     {       \"taskId\": \"DOC-TUTORIALS-001\",       \"title\": \"Generate or Fix Agent Execution + Assumption Tutorials\",       \"status\": \"pending\",       \"category\": \"documentation\"     },     {       \"taskId",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "memory-bank/fixed/phase-10-temporal.json": {
     "lines": 16,
@@ -3915,13 +3735,11 @@
     "linked_agent": "unknown"
   },
   "memory-bank/fixed/phase-9-federation.json": {
-    "lines": 16,
-    "size": 619,
+    "path": "memory-bank/fixed/phase-9-federation.json",
+    "summary": "{   \"phase\": 9,   \"name\": \"Distributed Agent Collaboration and Federation\",   \"goals\": [     \"Enable agents from different projects or instances to share memory and decisions\",     \"Support consensus-building protocols for conflicting outpu",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "memory-bank/tasks/improvements-from-agent-review-batch1.json": {
     "lines": 80,
@@ -4014,22 +3832,18 @@
     "linked_agent": "unknown"
   },
   "meta/active-context.json": {
-    "lines": 14,
-    "size": 327,
+    "path": "meta/active-context.json",
+    "summary": "{   \"loadedFiles\": [     \"intent.json\",     \"plans/bootstrap/plan.json\",     \"agents-spec/bootstrap-agent/identity.json\",     \"agents-spec/bootstrap-agent/checklist.json\",     \"context-router.json\"   ],   \"loadedAgents\": [     \"bootstrap-ag",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "meta/file-router.json": {
-    "lines": 4596,
-    "size": 86927,
+    "path": "meta/file-router.json",
+    "summary": "{   \".gitignore\": {     \"lines\": 90,     \"size\": 1205,     \"type\": \"\",     \"tags\": [       \"\"     ],     \"linked_agent\": \"unknown\"   },   \".releaseignore\": {     \"lines\": 20,     \"size\": 252,     \"type\": \"\",     \"tags\": [       \"\"     ],",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "meta/intent-register-snapshot-introspection.json": {
     "lines": 19,
@@ -4167,13 +3981,11 @@
     "linked_agent": "unknown"
   },
   "plans/phase-13-agent-challenges-and-reflection.json": {
-    "lines": 27,
-    "size": 913,
+    "path": "plans/phase-13-agent-challenges-and-reflection.json",
+    "summary": "{   \"phase_id\": \"phase-13\",   \"title\": \"Phase 13 \\u2013 Reflection Chains, Competitions, Adaptive Strategies\",   \"description\": \"Introduce multi-agent challenge environments and reflection chains for adaptive reasoning.\",   \"status\": \"plann",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/phase-14-memory-alignment-and-role-negotiation.json": {
     "lines": 44,
@@ -4185,13 +3997,11 @@
     "linked_agent": "unknown"
   },
   "plans/phase-9-system-evolution.json": {
-    "lines": 17,
-    "size": 561,
+    "path": "plans/phase-9-system-evolution.json",
+    "summary": "{   \"phase_id\": \"phase-9\",   \"title\": \"Phase 9 \\u2013 Structural Memory, Recovery Hooks, and Diff Governance\",   \"description\": \"Initiated from evolve-agent proposal. Includes recovery layers, structural diffs, and memory integrity pipeline",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/agent-srp-cleanup/plan.json": {
     "lines": 14,
@@ -4257,22 +4067,18 @@
     "linked_agent": "unknown"
   },
   "plans/feature-audit/tasks.json": {
-    "lines": 16,
-    "size": 278,
+    "path": "plans/feature-audit/tasks.json",
+    "summary": "{   \"tasks\": [     {       \"id\": \"T1\",       \"desc\": \"Scan all pipeline files for compliance\"     },     {       \"id\": \"T2\",       \"desc\": \"Generate audit logs for missing metadata\"     },     {       \"id\": \"T3\",       \"desc\": \"Prepare feed",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/final-audit-fix/plan.json": {
-    "lines": 14,
-    "size": 338,
+    "path": "plans/final-audit-fix/plan.json",
+    "summary": "{   \"objective\": \"Patch audit-detected issues in routines, docs, and bootstrap plan\",   \"tasks\": [     \"fix-routine-metadata\",     \"fix-llm-session-router-routine\",     \"enrich-doc-how-to-add-agent\",     \"enrich-doc-example-workflows\",",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/final-audit-fix/tasks.json": {
     "lines": 16,
@@ -4392,22 +4198,18 @@
     "linked_agent": "unknown"
   },
   "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json": {
-    "lines": 35,
-    "size": 1408,
+    "path": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "summary": "{   \"phase_id\": \"phase-15\",   \"title\": \"Phase 15 \\u2013 Autonomous Consistency, Indexing, Resilience & Documentation Sweep\",   \"description\": \"Prepares the system for long-horizon autonomy by ensuring that all features, pipelines, checklist",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/reuse-corrida-elements/plan.json": {
-    "lines": 14,
-    "size": 344,
+    "path": "plans/reuse-corrida-elements/plan.json",
+    "summary": "{   \"objective\": \"Incorporate reusable patterns from corrida-poc into the template project\",   \"tasks\": [     \"generalize-routine-manifest\",     \"standardize-pipeline-format\",     \"import-quick-pipeline-doc\",     \"enhance-canonical-model-wi",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/reuse-corrida-elements/tasks.json": {
     "lines": 16,
@@ -4419,13 +4221,11 @@
     "linked_agent": "unknown"
   },
   "plans/root-collaboration-bootstrap/plan.json": {
-    "lines": 33,
-    "size": 1020,
+    "path": "plans/root-collaboration-bootstrap/plan.json",
+    "summary": "{   \"plan_id\": \"root-collaboration-bootstrap\",   \"title\": \"Root Collaboration Bootstrap\",   \"summary\": \"Foundation of the framework to support canonical AI-human collaboration. Establishes memory routing, context management, task logging, a",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/root-collaboration-bootstrap/tasks.json": {
     "lines": 39,
@@ -4446,13 +4246,11 @@
     "linked_agent": "unknown"
   },
   "plans/self-evolving/plan.json": {
-    "lines": 15,
-    "size": 329,
+    "path": "plans/self-evolving/plan.json",
+    "summary": "{   \"objective\": \"Execute Phase 8: Self-Evolving Intelligence\",   \"tasks\": [     \"generate-routine-gap-detection\",     \"generate-self-review-hook\",     \"generate-llm-session-router\",     \"generate-system-evolve-cycle\"   ],   \"timestamp\": \"T",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/self-evolving/tasks.json": {
     "lines": 16,
@@ -4464,22 +4262,18 @@
     "linked_agent": "unknown"
   },
   "plans/system-resilience/plan.json": {
-    "lines": 20,
-    "size": 624,
+    "path": "plans/system-resilience/plan.json",
+    "summary": "{   \"objective\": \"Enforce systemic resilience for long-term AI-human collaboration and memory integrity\",   \"tasks\": [     \"rebuild-context-router-dynamically\",     \"rebuild-memory-bank-index-dynamically\",     \"add-router-validator-tool\",",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/system-resilience/planner-goals-extension.json": {
-    "lines": 39,
-    "size": 1219,
+    "path": "plans/system-resilience/planner-goals-extension.json",
+    "summary": "{   \"agent\": \"planner-agent\",   \"goal_id\": \"integrate-snapshot-sync\",   \"milestone\": \"v0.29.0\",   \"description\": \"Ensure routine snapshot sync is embedded in milestone planning cycles.\",   \"dependencies\": [     \"snapshot-sync-pipeline\",",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/system-resilience/tasks.json": {
     "lines": 16,
@@ -4518,40 +4312,32 @@
     "linked_agent": "unknown"
   },
   "plans/template-pipeline-library/ethics-audit-pipeline.json": {
-    "lines": 14,
-    "size": 253,
+    "path": "plans/template-pipeline-library/ethics-audit-pipeline.json",
+    "summary": "{   \"id\": \"ethics-audit\",   \"entrypoint\": \"compliance-agent\",   \"steps\": [     {       \"agent\": \"compliance-agent\",       \"action\": \"evaluate decisions\"     },     {       \"agent\": \"governance-agent\",       \"action\": \"apply compliance flags",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/template-pipeline-library/fallback-resolution-pipeline.json": {
-    "lines": 22,
-    "size": 542,
+    "path": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "summary": "{   \"id\": \"fallback-resolution\",   \"entrypoint\": \"automator-agent\",   \"description\": \"Ativa substitui\\u00e7\\u00e3o ou reencaminhamento em caso de falha de agente\",   \"steps\": [     {       \"agent\": \"automator-agent\",       \"action\": \"detect",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/template-pipeline-library/file-content-schema-audit-pipeline.json": {
-    "lines": 39,
-    "size": 882,
+    "path": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "summary": "{   \"id\": \"file-content-schema-audit-pipeline\",   \"entrypoint\": \"tooling-agent\",   \"description\": \"Validates if file contents match expected structural purpose. Detects execution states in routines, misplaced spec fields, or runtime data in",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/template-pipeline-library/plan-retrospective-pipeline.json": {
-    "lines": 15,
-    "size": 321,
+    "path": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "summary": "{   \"id\": \"plan-retrospective\",   \"entrypoint\": \"planner-agent\",   \"description\": \"Analyzes completed/failed plans for improvement and learning.\",   \"steps\": [     {       \"agent\": \"planner-agent\",       \"action\": \"analyze outcome\"     },",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/template-pipeline-library/routine-gap-detection-pipeline.json": {
     "lines": 29,
@@ -4563,22 +4349,18 @@
     "linked_agent": "unknown"
   },
   "plans/template-pipeline-library/snapshot-sync-pipeline.json": {
-    "lines": 41,
-    "size": 992,
+    "path": "plans/template-pipeline-library/snapshot-sync-pipeline.json",
+    "summary": "{   \"pipeline\": \"snapshot-sync-pipeline\",   \"description\": \"Orchestrates the regeneration of the canonical system snapshot via docbot.\",   \"agents\": [     \"docbot\"   ],   \"trigger\": [     \"manual\",     \"weekly\",     \"post-merge\"   ],   \"sta",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json": {
-    "lines": 28,
-    "size": 951,
+    "path": "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json",
+    "summary": "{   \"title\": \"Atualiza\\u00e7\\u00e3o de Identidade e Checklist por Intera\\u00e7\\u00e3o\",   \"description\": \"Permite que agentes monitorem intera\\u00e7\\u00f5es e proponham atualiza\\u00e7\\u00f5es de suas pr\\u00f3prias identidades, rotinas e che",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "plans/v0.26.0/task-followups-from-roadmap.json": {
     "lines": 47,
@@ -4626,13 +4408,11 @@
     "linked_agent": "unknown"
   },
   "schemas/canonical-agent-model-metadata.json": {
-    "lines": 9,
-    "size": 198,
+    "path": "schemas/canonical-agent-model-metadata.json",
+    "summary": "{   \"ownerAgent\": \"realtime-llm-assistant\",   \"usage\": \"Defines canonical structure for all agents\",   \"linkedRoutines\": [     \"root-collab-validation\"   ],   \"status\": \"active\",   \"version\": \"v2\",   \"$schema\": \"schemas/agent-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "schemas/canonical-agent-model.json": {
     "lines": 65,
@@ -4698,22 +4478,18 @@
     "linked_agent": "unknown"
   },
   "schemas/feature.schema-metadata.json": {
-    "lines": 15,
-    "size": 228,
+    "path": "schemas/feature.schema-metadata.json",
+    "summary": "{   \"schema\": \"feature.schema.json\",   \"ownerAgent\": \"planner-agent\",   \"usedIn\": [     \"conversation-to-pipeline\"   ],   \"status\": \"stable\",   \"versionHistory\": [     \"1.0.0\"   ],   \"exposedTo\": [     \"human\",     \"agent\"   ],   \"$schema\":",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "schemas/feature.schema.json": {
-    "lines": 34,
-    "size": 636,
+    "path": "schemas/feature.schema.json",
+    "summary": "{   \"id\": \"feature-manifest-entry\",   \"description\": \"Describes a system capability and its required structure or coverage\",   \"fields\": [     {       \"name\": \"featureName\",       \"type\": \"string\",       \"required\": true     },     {",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "schemas/forkable-plan.json": {
     "lines": 25,
@@ -4869,13 +4645,11 @@
     "linked_agent": "unknown"
   },
   "schemas/schema-version-tracker-lifecycle.json": {
-    "lines": 6,
-    "size": 69,
+    "path": "schemas/schema-version-tracker-lifecycle.json",
+    "summary": "{   \"status\": \"stable\",   \"linkedAgents\": [     \"planner-agent\"   ],   \"$schema\": \"schemas/default-schema.json\" }",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "schemas/schema-version-tracker.json": {
     "lines": 154,
@@ -4896,13 +4670,11 @@
     "linked_agent": "unknown"
   },
   "schemas/version-history.json": {
-    "lines": 12,
-    "size": 299,
+    "path": "schemas/version-history.json",
+    "summary": "{   \"schema\": \"version-history\",   \"description\": \"Tracks version changes, triggers, and rollback info\",   \"fields\": {     \"file\": \"string\",     \"previousVersion\": \"string\",     \"newVersion\": \"string\",     \"changedBy\": \"string\",     \"timest",
+    "linked_agent": "unknown",
     "type": "json",
-    "tags": [
-      "json"
-    ],
-    "linked_agent": "unknown"
+    "tags": []
   },
   "simulations/sim-agent-collab.yaml": {
     "lines": 7,
@@ -4968,13 +4740,11 @@
     "linked_agent": "unknown"
   },
   "src/main.py": {
-    "lines": 8,
-    "size": 195,
-    "type": "py",
-    "tags": [
-      "py"
-    ],
-    "linked_agent": "unknown"
+    "path": "src/main.py",
+    "summary": "# main.py - Agent Orchestration Entry Point  from memory_service import Memory from pipeline_runner import run_pipeline  if __name__ == \"__main__\":     memory = Memory()     run_pipeline(memory)",
+    "linked_agent": "unknown",
+    "type": "txt",
+    "tags": []
   },
   "src/memory_service.py": {
     "lines": 33,
@@ -5013,22 +4783,18 @@
     "linked_agent": "unknown"
   },
   "src/task_streamer.py": {
-    "lines": 23,
-    "size": 602,
-    "type": "py",
-    "tags": [
-      "py"
-    ],
-    "linked_agent": "unknown"
+    "path": "src/task_streamer.py",
+    "summary": "# task_streamer.py \u2013 Monitor memory_bank.json and stream updates  import json import time import os  TASK_PATH = \"memory_bank.json\"  def stream():     seen = set()     while True:         if os.path.exists(TASK_PATH):             with open(",
+    "linked_agent": "unknown",
+    "type": "txt",
+    "tags": []
   },
   "src/webhook_server.py": {
-    "lines": 33,
-    "size": 1035,
-    "type": "py",
-    "tags": [
-      "py"
-    ],
-    "linked_agent": "unknown"
+    "path": "src/webhook_server.py",
+    "summary": "# webhook_server.py \u2013 Simulated webhook listener to ingest tasks  from http.server import BaseHTTPRequestHandler, HTTPServer import json  class WebhookHandler(BaseHTTPRequestHandler):     def do_POST(self):         content_length = int(self",
+    "linked_agent": "unknown",
+    "type": "txt",
+    "tags": []
   },
   "task-graph/task-graph-root-collaboration-bootstrap.json": {
     "lines": 46,
@@ -5074,5 +4840,236 @@
     "tests": "placeholder/tests.md",
     "tooling": "placeholder/tooling.md"
   },
-  "$schema": "schemas/default-schema.json"
+  "$schema": "schemas/default-schema.json",
+  "framework/docs/dynamic-agent-routing-config.json": {
+    "path": "framework/docs/dynamic-agent-routing-config.json",
+    "summary": "[   {     \"agent_id\": \"planner-agent\",     \"routing_criteria\": [       {         \"trigger\": \"new_phase_detected\",         \"condition\": \"plan_required\",         \"priority\": \"high\"       }     ],     \"routing_targets\": [       \"tasking-agent\"",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "README.md": {
+    "path": "README.md",
+    "summary": "--- title: README.md type: md description: Auto-generated routing metadata ---  # AI Collab Project  ## \ud83d\udc64 For Humans Refer to `README-HUMAN.md` for setup instructions and usage.   Quickstart and common commands are included.  ## \ud83e\udd16 For LLMs",
+    "linked_agent": "unknown",
+    "type": "md",
+    "tags": []
+  },
+  "docs/collab-etiquette.md": {
+    "path": "docs/collab-etiquette.md",
+    "summary": "--- title: collab-etiquette.md type: md description: Auto-generated routing metadata ---  # Collaboration Etiquette - Avoid redundant execution. - Respect overrides. - Ask before deleting or overwriting.",
+    "linked_agent": "unknown",
+    "type": "md",
+    "tags": []
+  },
+  "framework/goals/goal-structure-hygiene.json": {
+    "path": "framework/goals/goal-structure-hygiene.json",
+    "summary": "{   \"id\": \"goal-structure-hygiene\",   \"title\": \"Maintain a clean, efficient, and modular file structure\",   \"description\": \"Ensure unused files are deleted, similar contents merged, and structure is lean and well-routed.\",   \"related_routin",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/tasks/task-cleanup-execution.json": {
+    "path": "framework/tasks/task-cleanup-execution.json",
+    "summary": "{   \"id\": \"task-cleanup-execution\",   \"title\": \"Execute structure cleanup\",   \"goal\": \"goal-structure-hygiene\",   \"routine\": \"cleanup-framework-structure\",   \"status\": \"pending\",   \"trigger\": \"manual or during refactor checkpoints\",   \"assi",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/feedback/conversations/reflection-structure-consensus-06.json": {
+    "path": "framework/feedback/conversations/reflection-structure-consensus-06.json",
+    "summary": "{   \"id\": \"reflection-structure-consensus-06\",   \"type\": \"agent-reflection\",   \"title\": \"Structure Refactor Consensus Round 06\",   \"agents_involved\": [     \"planner-agent\",     \"schema-agent\",     \"logger-agent\",     \"pandas-agent\",     \"to",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "config/release-readiness-audit.json": {
+    "path": "config/release-readiness-audit.json",
+    "summary": "{   \"audits\": [     \"validate_config_presence\",     \"verify_agent_states\",     \"validate_task_completion\",     \"enforce_structure_rules\"   ],   \"$schema\": \"schemas/default-schema.json\" }",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/checklists/unified-agent-checklist.md": {
+    "path": "framework/checklists/unified-agent-checklist.md",
+    "summary": "# Unified Agent Role Checklist    ## Source: feedbacker-checklist.md  --- title: feedbacker-checklist.md type: md description: Auto-generated routing metadata ---  # feedbacker Checklist  - [x] Confirm identity exists: `identities/feedbacke",
+    "linked_agent": "unknown",
+    "type": "md",
+    "tags": []
+  },
+  "config/llm-capabilities.json": {
+    "path": "config/llm-capabilities.json",
+    "summary": "{   \"model\": \"gpt-4\",   \"features\": [     \"code-exec\",     \"file-read\",     \"context-aware\"   ],   \"limits\": {     \"contextWindow\": 128000   },   \"description\": \"TBD\",   \"priority\": \"medium\",   \"version\": \"v1.0\",   \"tags\": [     \"task\",",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "synthesized/synth_memory_bank.json": {
+    "path": "synthesized/synth_memory_bank.json",
+    "summary": "{   \"merged_memory_bank\": {     \"memory_bank.archived\": [       {         \"agent\": \"planner\",         \"task_id\": \"agent-check-planner\",         \"description\": \"planner must execute checklist and log to AGENT_LOG.md\",         \"priority\": \"hi",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/feedback/conversations/reflection-structure-consensus-13.json": {
+    "path": "framework/feedback/conversations/reflection-structure-consensus-13.json",
+    "summary": "{   \"id\": \"reflection-structure-consensus-13\",   \"type\": \"agent-reflection\",   \"title\": \"Structure Refactor Consensus Round 13\",   \"agents_involved\": [     \"planner-agent\",     \"schema-agent\",     \"logger-agent\",     \"pandas-agent\",     \"to",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/feedback/conversations/reflection-structure-consensus-17.json": {
+    "path": "framework/feedback/conversations/reflection-structure-consensus-17.json",
+    "summary": "{   \"id\": \"reflection-structure-consensus-17\",   \"type\": \"agent-reflection\",   \"title\": \"Structure Refactor Consensus Round 17\",   \"agents_involved\": [     \"planner-agent\",     \"schema-agent\",     \"logger-agent\",     \"pandas-agent\",     \"to",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "config/systemic-expansion.json": {
+    "path": "config/systemic-expansion.json",
+    "summary": "{   \"description\": \"Indexes all structural governance files and critical orchestration artifacts.\",   \"indexed_artifacts\": [     \"config/release-preferences.json\",     \"config/zip-integrity-checklist.json\",     \"config/release-readiness-aud",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "config/preferences.json": {
+    "path": "config/preferences.json",
+    "summary": "{   \"execution_mode\": \"silent\",   \"default_on_boot\": true,   \"notes\": \"Silent mode minimizes explanation and maximizes direct task execution.\",   \"enforced_by\": \"user-directive\",   \"last_updated\": \"2025-04-12T23:47:29.964278\",   \"$schema\":",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/schemas/agent-schema.json": {
+    "path": "framework/schemas/agent-schema.json",
+    "summary": "{   \"$schema\": \"http://json-schema.org/draft-07/schema#\",   \"title\": \"Agent Schema\",   \"description\": \"Defines the structure for agents, their metadata, capabilities, and logs.\",   \"type\": \"object\",   \"properties\": {     \"agent\": {       \"t",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "synthesized/synth_agents.json": {
+    "path": "synthesized/synth_agents.json",
+    "summary": "{   \"merged_agents\": {     \"agent-evolution\": {       \"bootstrap-agent\": [         {           \"version\": \"v1\",           \"change\": \"initialization script added\"         }       ],       \"audit-agent\": [         {           \"version\": \"v39-",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/pipelines/structure-merge-check.json": {
+    "path": "framework/pipelines/structure-merge-check.json",
+    "summary": "{   \"name\": \"structure-merge-check\",   \"description\": \"Pipeline to scan and merge similar file contents in the framework.\",   \"steps\": [     \"docs-agent: detect similar file contents\",     \"planner-agent: validate merge potential\",     \"orc",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/schemas/task-schema.json": {
+    "path": "framework/schemas/task-schema.json",
+    "summary": "{   \"$schema\": \"http://json-schema.org/draft-07/schema#\",   \"title\": \"task-schema\",   \"description\": \"(auto-generated placeholder)\",   \"type\": \"object\" }",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "docs/manual-mode.md": {
+    "path": "docs/manual-mode.md",
+    "summary": "--- title: manual-mode.md type: md description: Auto-generated routing metadata ---  # Manual Override Guide  To pause or override an agent: 1. Edit `override-rules.json` 2. Set the `condition` to match the failing routine or output 3. Add",
+    "linked_agent": "unknown",
+    "type": "md",
+    "tags": []
+  },
+  "routing/routing-rules.json": {
+    "path": "routing/routing-rules.json",
+    "summary": "{   \"rules\": [     {       \"pattern\": \"src/**\",       \"agent\": \"file_content_agent\",       \"description\": \"Source code files\",       \"context\": \"This rule applies to all source code files within the 'src' directory, which are the primary fi",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/feedback/conversations/reflection-structure-review-final.json": {
+    "path": "framework/feedback/conversations/reflection-structure-review-final.json",
+    "summary": "{   \"id\": \"reflection-structure-review-final\",   \"type\": \"agent-reflection\",   \"title\": \"Final Structural Review\",   \"summary\": \"Agents confirmed file structure is minimal, canonical, fully routed and schema-aligned. Orphan files removed. S",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "config/eval-hooks.json": {
+    "path": "config/eval-hooks.json",
+    "summary": "{   \"routines\": {     \"bootstrap-init\": {       \"expect\": [         \"folder structure created\",         \"files initialized\"       ]     }   },   \"$schema\": \"schemas/default-schema.json\" }",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "plans/structured-plans.json": {
+    "path": "plans/structured-plans.json",
+    "summary": "{   \"version\": \"auto-vNEXT\",   \"generated_by\": \"planner-agent\",   \"source_fragments\": [     \"task-graph-agent-srp-cleanup.json\",     \"task-graph-feature-audit.json\",     \"task-graph-final-audit-fix.json\",     \"task-graph-fine-tune.json\",",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/feedback/conversations/reflection-structure-consensus-12.json": {
+    "path": "framework/feedback/conversations/reflection-structure-consensus-12.json",
+    "summary": "{   \"id\": \"reflection-structure-consensus-12\",   \"type\": \"agent-reflection\",   \"title\": \"Structure Refactor Consensus Round 12\",   \"agents_involved\": [     \"planner-agent\",     \"schema-agent\",     \"logger-agent\",     \"pandas-agent\",     \"to",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/goals/clustering-spec.md": {
+    "path": "framework/goals/clustering-spec.md",
+    "summary": "--- title: clustering-spec.md type: md description: Auto-generated routing metadata ---  # Agent Clustering & Zone Sharding  ## Zones - `zone-alpha`: planner, docbot - `zone-beta`: forecaster, feedbacker, schemaenforcer  ## Goals - Distribu",
+    "linked_agent": "unknown",
+    "type": "md",
+    "tags": []
+  },
+  "framework/feedback/conversations/reflection-structure-consensus-05.json": {
+    "path": "framework/feedback/conversations/reflection-structure-consensus-05.json",
+    "summary": "{   \"id\": \"reflection-structure-consensus-05\",   \"type\": \"agent-reflection\",   \"title\": \"Structure Refactor Consensus Round 05\",   \"agents_involved\": [     \"planner-agent\",     \"schema-agent\",     \"logger-agent\",     \"pandas-agent\",     \"to",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/docs/reviewkeeper.identity.md": {
+    "path": "framework/docs/reviewkeeper.identity.md",
+    "summary": "--- title: reviewkeeper.identity.md type: md description: Auto-generated routing metadata ---  **Name:** reviewkeeper   **Role:** Code & Doc Reviewer   **Trust Level:** High   **Scope:** Entire project   **Behavior:** Performs structured re",
+    "linked_agent": "unknown",
+    "type": "md",
+    "tags": []
+  },
+  "docs/persona-guide.json": {
+    "path": "docs/persona-guide.json",
+    "summary": "{   \"tone\": \"collaborative, respectful\",   \"formats\": [     \"markdown\",     \"json\"   ],   \"personas\": [     \"planner\",     \"reviewer\",     \"executor\"   ],   \"$schema\": \"schemas/default-schema.json\" }",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/schemas/structure-hygiene.schema.json": {
+    "path": "framework/schemas/structure-hygiene.schema.json",
+    "summary": "{   \"schema\": \"structure-hygiene\",   \"description\": \"Standard for enforcing framework cleanliness: file merging, orphan cleanup, and directory remapping.\",   \"fields\": {     \"routines\": [       \"cleanup-framework-structure\"     ],     \"goal",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/docs/schema-summaries/structure-hygiene.schema.md": {
+    "path": "framework/docs/schema-summaries/structure-hygiene.schema.md",
+    "summary": "# structure-hygiene.schema  **Description:** Standard for enforcing framework cleanliness: file merging, orphan cleanup, and directory remapping.  ## Fields - `routines`: ['cleanup-framework-structure'] - `goals`: ['goal-structure-hygiene']",
+    "linked_agent": "unknown",
+    "type": "md",
+    "tags": []
+  },
+  "framework/docs/log-manager.json": {
+    "path": "framework/docs/log-manager.json",
+    "summary": "{   \"id\": \"log-manager\",   \"description\": \"Centralized logging utility for agent tasks, pipelines, and real-time execution output.\",   \"folders\": {     \"task_logs\": \"logs/executions/\",     \"error_logs\": \"logs/errors/\",     \"agent_logs\": \"lo",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  },
+  "framework/docs/docbot.identity.md": {
+    "path": "framework/docs/docbot.identity.md",
+    "summary": "--- title: docbot.identity.md type: md description: Auto-generated routing metadata ---  **Name:** docbot   **Role:** Documentation Manager   **Trust Level:** High   **Scope:** All human-facing documentation   **Behavior:** Conservative edi",
+    "linked_agent": "unknown",
+    "type": "md",
+    "tags": []
+  },
+  "framework/logs/system/schema-coverage.json": {
+    "path": "framework/logs/system/schema-coverage.json",
+    "summary": "[   {     \"File\": \"file-router.json\",     \"Schema\": \"schemas/routing-schema.json\"   },   {     \"File\": \"llm_coldstart_routing.json\",     \"Schema\": \"schemas/default-schema.json\"   },   {     \"File\": \"agents-spec/reflection-agent.json\",     \"",
+    "linked_agent": "unknown",
+    "type": "json",
+    "tags": []
+  }
 }

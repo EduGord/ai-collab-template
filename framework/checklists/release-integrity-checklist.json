@@ -1,0 +1,8 @@
+{
+  "checklist": [
+    "Ensure file-router.json is expanded and valid",
+    "Confirm presence of all snapshot files in /snapshots",
+    "Check for unresolved tasks in memory-bank",
+    "Audit config/*.json against schema requirements"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "routine": "on-release-preflight",
+  "description": "Orchestrator-agent preflight validation hook before final release approval.",
+  "agent": "orchestrator-agent",
+  "trigger": "final release step",
+  "steps": [
+    "invoke validate-release-scope pipeline",
+    "run release-integrity-checklist",
+    "verify patched snapshot presence",
+    "block packaging if integrity fails"
+  ]
+}

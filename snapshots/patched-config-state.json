@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-04-13T04:41:46.529201Z",
+  "configs": [
+    "agent-registry.json",
+    "cleanup-before-release.json",
+    "eval-hooks.json",
+    "goal-tree.json",
+    "llm-capabilities.json",
+    "llm-context-router.json",
+    "override-rules.json",
+    "performance-milestones.json",
+    "preferences.json",
+    "prompt-replay.json",
+    "release-manifest.json",
+    "release-preferences.json",
+    "release-readiness-audit.json",
+    "schema-config.json",
+    "systemic-expansion.json",
+    "zip-integrity-checklist.json"
+  ],
+  "path": "config/",
+  "notes": "Post-orchestration cleanup and normalization of configuration files"
+}

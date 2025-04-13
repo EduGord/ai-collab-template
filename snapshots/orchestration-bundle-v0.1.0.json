@@ -1,0 +1,7 @@
+{
+  "snapshot_manifest": "/mnt/data/orchestration-snapshot-v0.1.0.json",
+  "task_graph": "/mnt/data/snapshots/task-graph-v0.1.0.json",
+  "pipeline_manifest": "/mnt/data/snapshots/active-pipeline-manifest-v0.1.0.json",
+  "patched_router": "/mnt/data/file-router.patched.json",
+  "generated_tasks": "/mnt/data/memory-bank/generated-checklist-tasks.json"
+}

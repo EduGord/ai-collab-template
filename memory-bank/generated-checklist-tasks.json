@@ -1,0 +1,162 @@
+[
+  {
+    "id": "gen-task-audit-agent-scan-logs--for-recen",
+    "agent": "audit-agent",
+    "source": "checklist-validation",
+    "description": "Scan logs/ for recent execution results",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-audit-agent-compare-context-rout",
+    "agent": "audit-agent",
+    "source": "checklist-validation",
+    "description": "Compare context-router with real filesystem",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-audit-agent-ensure-memory-bank-i",
+    "agent": "audit-agent",
+    "source": "checklist-validation",
+    "description": "Ensure memory-bank/index.json references all active files",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-audit-agent-generate-diff-report",
+    "agent": "audit-agent",
+    "source": "checklist-validation",
+    "description": "Generate diff reports if mismatches found",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-audit-agent-log-findings-to-audi",
+    "agent": "audit-agent",
+    "source": "checklist-validation",
+    "description": "Log findings to audit-trail",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-audit-agent-run-validate-project",
+    "agent": "audit-agent",
+    "source": "checklist-validation",
+    "description": "Run validate-project-structure routine on version tags",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-audit-agent-ensure-feature-map.j",
+    "agent": "audit-agent",
+    "source": "checklist-validation",
+    "description": "Ensure feature-map.json is up to date with evolving plans",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-bootstrap-agent-load-template-struct",
+    "agent": "bootstrap-agent",
+    "source": "checklist-validation",
+    "description": "load template structure",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-bootstrap-agent-generate-scaffolding",
+    "agent": "bootstrap-agent",
+    "source": "checklist-validation",
+    "description": "generate scaffolding files",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-bootstrap-agent-track-progress",
+    "agent": "bootstrap-agent",
+    "source": "checklist-validation",
+    "description": "track progress",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-checklists-{'item':-'clear-miss",
+    "agent": "checklists",
+    "source": "checklist-validation",
+    "description": "{'item': 'Clear mission objectives', 'status': 'pending', 'linkedFiles': [], 'notes': ''}",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-checklists-{'item':-'align-with",
+    "agent": "checklists",
+    "source": "checklist-validation",
+    "description": "{'item': 'Align with routing protocols', 'status': 'pending', 'linkedFiles': [], 'notes': ''}",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-checklists-{'item':-'report-exe",
+    "agent": "checklists",
+    "source": "checklist-validation",
+    "description": "{'item': 'Report execution results', 'status': 'pending', 'linkedFiles': [], 'notes': ''}",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-checklists-{'item':-'clear-miss",
+    "agent": "checklists",
+    "source": "checklist-validation",
+    "description": "{'item': 'Clear mission objectives', 'status': 'pending', 'linkedFiles': [], 'notes': ''}",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-checklists-{'item':-'align-with",
+    "agent": "checklists",
+    "source": "checklist-validation",
+    "description": "{'item': 'Align with routing protocols', 'status': 'pending', 'linkedFiles': [], 'notes': ''}",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-checklists-{'item':-'report-exe",
+    "agent": "checklists",
+    "source": "checklist-validation",
+    "description": "{'item': 'Report execution results', 'status': 'pending', 'linkedFiles': [], 'notes': ''}",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-checklists-{'item':-'clear-miss",
+    "agent": "checklists",
+    "source": "checklist-validation",
+    "description": "{'item': 'Clear mission objectives', 'status': 'pending', 'linkedFiles': [], 'notes': ''}",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-checklists-{'item':-'align-with",
+    "agent": "checklists",
+    "source": "checklist-validation",
+    "description": "{'item': 'Align with routing protocols', 'status': 'pending', 'linkedFiles': [], 'notes': ''}",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-checklists-{'item':-'report-exe",
+    "agent": "checklists",
+    "source": "checklist-validation",
+    "description": "{'item': 'Report execution results', 'status': 'pending', 'linkedFiles': [], 'notes': ''}",
+    "status": "todo",
+    "confidence": 0.7
+  },
+  {
+    "id": "gen-task-planner-agent-{'title':-'planning",
+    "agent": "planner-agent",
+    "source": "checklist-validation",
+    "description": "{'title': 'Planning Agent Core Checklist', 'related_files': [], 'check_items': [{'item': 'Parse current intent or goal from user or plan', 'checked': False}, {'item': 'Break down into atomic tasks', 'checked': False}, {'item': 'Define dependencies and agent assignments', 'checked': False}, {'item': 'Log task plan and return feedback loop suggestions', 'checked': False}]}",
+    "status": "todo",
+    "confidence": 0.7
+  }
+]

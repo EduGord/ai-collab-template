@@ -1,0 +1,12 @@
+{
+  "routine": "auto-patch-pipeline-outputs",
+  "description": "Automatically writes generated pipeline outputs (e.g. patched router, task snapshots) into the project tree before packaging.",
+  "agent": "orchestrator-agent",
+  "trigger": "before zip generation",
+  "steps": [
+    "scan for outputs in /mnt/data",
+    "copy or update into target project paths",
+    "log changes to memory-bank/logs/",
+    "validate write success"
+  ]
+}

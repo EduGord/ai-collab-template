@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "timestamp": "2025-04-13T04:24:00.164732Z",
+  "pipelines_ready": [
+    "/mnt/data/ai-collab-template/framework/pipelines/orphan-file-clean.json",
+    "/mnt/data/ai-collab-template/framework/pipelines/pipeline-release-vNEXT.json",
+    "/mnt/data/ai-collab-template/framework/pipelines/routing-validation.json",
+    "/mnt/data/ai-collab-template/framework/pipelines/structure-merge-check.json",
+    "/mnt/data/ai-collab-template/pipelines/orchestrator-release-zip-pipeline.json",
+    "/mnt/data/ai-collab-template/plans/template-pipeline-library/context-compression-pipeline.json",
+    "/mnt/data/ai-collab-template/plans/template-pipeline-library/conversation-to-pipeline.json",
+    "/mnt/data/ai-collab-template/plans/template-pipeline-library/ethics-audit-pipeline.json",
+    "/mnt/data/ai-collab-template/plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "/mnt/data/ai-collab-template/plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "/mnt/data/ai-collab-template/plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json"
+  ],
+  "maintenance_done": [
+    "/mnt/data/ai-collab-template/framework/pipelines/orphan-file-clean.json",
+    "/mnt/data/ai-collab-template/framework/pipelines/routing-validation.json",
+    "/mnt/data/ai-collab-template/framework/pipelines/structure-merge-check.json",
+    "/mnt/data/ai-collab-template/plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json"
+  ],
+  "task_graph_snapshot": "/mnt/data/snapshots/task-graph-v0.1.0.json",
+  "routing_patch": "/mnt/data/file-router.patched.json"
+}

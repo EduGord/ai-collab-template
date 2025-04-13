@@ -21,5 +21,7 @@
     "framework/routines/routine-realtime-llm.yaml": "warn",
     "framework/routines/routine-recovery-bootstrap.yaml": "warn"
   },
-  "$schema": "schemas/default-schema.json"
+  "$schema": "schemas/default-schema.json",
+  "default_schema": "schemas/default-schema.json",
+  "enforce_strict": true
 }

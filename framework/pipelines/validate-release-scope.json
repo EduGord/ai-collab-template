@@ -1,0 +1,10 @@
+{
+  "pipeline": "validate-release-scope",
+  "description": "Validates that all critical files are included in the release ZIP and no vital files are missing or malformed.",
+  "steps": [
+    "scan project recursively",
+    "simulate final zip file",
+    "compare against release manifest",
+    "block pipeline if validation fails"
+  ]
+}

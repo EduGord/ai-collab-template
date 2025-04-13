@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Framework Config Schema vNext",
+  "type": "object",
+  "required": [
+    "version",
+    "timestamp",
+    "$schema",
+    "description"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "$schema": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "include_only": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exclude_patterns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "manifest_path": {
+      "type": "string"
+    }
+  }
+}
