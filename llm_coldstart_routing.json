@@ -3,5 +3,6 @@
   "AUTO-ONBOARD.md": "agent onboarding",
   "agent-registry.json": "primary routing map",
   "agent-evolution.json": "agent generation templates",
-  "feedback-integrator-agent.json": "UX+log agent boot logic"
+  "feedback-integrator-agent.json": "UX+log agent boot logic",
+  "framework-structured/checklists/unified-agent-checklist.md": "Unified checklist for agent roles"
 }
