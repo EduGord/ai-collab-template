@@ -1,0 +1,9 @@
+{
+  "name": "structure-merge-check",
+  "description": "Pipeline to scan and merge similar file contents in the framework.",
+  "steps": [
+    "docs-agent: detect similar file contents",
+    "planner-agent: validate merge potential",
+    "orchestrator-agent: execute merge and log"
+  ]
+}

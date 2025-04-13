@@ -1,0 +1,26 @@
+{
+  "schema": "structure-hygiene",
+  "description": "Standard for enforcing framework cleanliness: file merging, orphan cleanup, and directory remapping.",
+  "fields": {
+    "routines": [
+      "cleanup-framework-structure"
+    ],
+    "goals": [
+      "goal-structure-hygiene"
+    ],
+    "pipelines": [
+      "structure-merge-check",
+      "orphan-file-clean",
+      "routing-validation"
+    ],
+    "tasks": [
+      "task-cleanup-execution"
+    ]
+  },
+  "agents_involved": [
+    "orchestrator-agent",
+    "planner-agent",
+    "docs-agent",
+    "logger-agent"
+  ]
+}

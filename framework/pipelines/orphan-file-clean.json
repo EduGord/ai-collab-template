@@ -1,0 +1,9 @@
+{
+  "name": "orphan-file-clean",
+  "description": "Identify and delete unreferenced or obsolete files in the project tree.",
+  "steps": [
+    "planner-agent: scan file-router and project structure",
+    "logger-agent: track orphaned files",
+    "orchestrator-agent: delete files and update routing"
+  ]
+}

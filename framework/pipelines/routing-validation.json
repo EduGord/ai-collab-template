@@ -1,0 +1,9 @@
+{
+  "name": "routing-validation",
+  "description": "Validate that all project files are routed and all routing entries exist.",
+  "steps": [
+    "orchestrator-agent: list project files",
+    "llmrouter-agent: check file-router coverage",
+    "logger-agent: log issues and recommendations"
+  ]
+}

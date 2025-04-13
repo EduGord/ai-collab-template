@@ -1,0 +1,14 @@
+{
+  "routines": [
+    "cleanup-framework-structure"
+  ],
+  "log": [
+    {
+      "event": "routine-added",
+      "routine": "cleanup-framework-structure",
+      "by": "orchestrator-agent",
+      "context": "structure hygiene enforcement",
+      "status": "active"
+    }
+  ]
+}

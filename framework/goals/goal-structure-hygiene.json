@@ -1,0 +1,12 @@
+{
+  "id": "goal-structure-hygiene",
+  "title": "Maintain a clean, efficient, and modular file structure",
+  "description": "Ensure unused files are deleted, similar contents merged, and structure is lean and well-routed.",
+  "related_routines": [
+    "cleanup-framework-structure"
+  ],
+  "status": "active",
+  "priority": "high",
+  "owned_by": "orchestrator-agent",
+  "version": "v1.0"
+}

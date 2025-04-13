@@ -41,5 +41,16 @@
   "framework-structured/goals/clustering-spec.md": "/goals/clustering-spec.md",
   "framework-structured/docs/collaborative-network-spec.md": "/docs/collaborative-network-spec.md",
   "framework-structured/goals/tasks.json": "/goals/tasks.json",
-  "framework-structured/checklists/unified-agent-checklist.md": "/checklists/unified-agent-checklist.md"
+  "framework-structured/checklists/unified-agent-checklist.md": "/checklists/unified-agent-checklist.md",
+  "framework/routines/cleanup-framework-structure.json": "/routines/cleanup-framework-structure.json",
+  "framework/goals/goal-structure-hygiene.json": "/goals/goal-structure-hygiene.json",
+  "framework/tasks/task-cleanup-execution.json": "/tasks/task-cleanup-execution.json",
+  "framework/pipelines/structure-merge-check.json": "/pipelines/structure-merge-check.json",
+  "framework/pipelines/orphan-file-clean.json": "/pipelines/orphan-file-clean.json",
+  "framework/pipelines/routing-validation.json": "/pipelines/routing-validation.json",
+  "framework/schemas/structure-hygiene.schema.json": "/schemas/structure-hygiene.schema.json",
+  "framework/feedback/reflection-structure-hygiene-system.json": "/feedback/reflection-structure-hygiene-system.json",
+  "framework/memory/memory_bank.archived.json": "/memory/memory_bank.archived.json",
+  "framework/routing/override-rules.json": "/routing/override-rules.json",
+  "framework/logs/log-manager.json": "/logs/log-manager.json"
 }

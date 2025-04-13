@@ -1,0 +1,20 @@
+{
+  "id": "task-cleanup-execution",
+  "title": "Execute structure cleanup",
+  "goal": "goal-structure-hygiene",
+  "routine": "cleanup-framework-structure",
+  "status": "pending",
+  "trigger": "manual or during refactor checkpoints",
+  "assigned_to": [
+    "orchestrator-agent",
+    "planner-agent",
+    "docs-agent"
+  ],
+  "checklist": [
+    "Identify unused and unreferenced files",
+    "Merge content where appropriate",
+    "Route remaining files correctly",
+    "Update logs and metadata",
+    "Validate results"
+  ]
+}

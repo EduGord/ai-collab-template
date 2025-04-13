@@ -1,0 +1,17 @@
+{
+  "id": "reflection-structure-hygiene-system",
+  "type": "system-feedback",
+  "title": "Structure Hygiene System Integration",
+  "summary": "Integrated full cleanup routine into orchestration, routing, planning, goals, tasks, pipelines, and schema.",
+  "agents": [
+    "orchestrator-agent",
+    "planner-agent",
+    "docs-agent",
+    "logger-agent"
+  ],
+  "routines": [
+    "cleanup-framework-structure"
+  ],
+  "status": "completed",
+  "timestamp": "auto"
+}

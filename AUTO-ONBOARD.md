@@ -80,3 +80,10 @@ The following files govern the release packaging and validation process:
 - `config/release-readiness-audit.json`
 - `config/cleanup-before-release.json`
 - `pipelines/orchestrator-release-zip-pipeline.json`
+
+---
+### Cleanup Routine
+This framework includes a cleanup routine (`cleanup-framework-structure`) that ensures file structure hygiene by merging, deleting, and rerouting project files. See:
+- `/routines/cleanup-framework-structure.json`
+- `/tasks/task-cleanup-execution.json`
+- `/goals/goal-structure-hygiene.json`

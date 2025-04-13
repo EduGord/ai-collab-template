@@ -1,0 +1,9 @@
+{
+  "enforce_routines": [
+    "cleanup-framework-structure"
+  ],
+  "agents_priority": [
+    "orchestrator-agent",
+    "planner-agent"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "latest_log": "reflection-structure-hygiene-system.json",
+  "pipeline_logs": [
+    "structure-merge-check",
+    "orphan-file-clean",
+    "routing-validation"
+  ],
+  "managed_by": "logger-agent"
+}

@@ -53,3 +53,10 @@ This project is now actively maintained by the **realtime-llm-assistant**, a liv
 - New changelog entry added: `changelog-agent.json`
 
 System status: ✅ Stable and synchronized
+
+---
+### Cleanup Routine
+This framework includes a cleanup routine (`cleanup-framework-structure`) that ensures file structure hygiene by merging, deleting, and rerouting project files. See:
+- `/routines/cleanup-framework-structure.json`
+- `/tasks/task-cleanup-execution.json`
+- `/goals/goal-structure-hygiene.json`

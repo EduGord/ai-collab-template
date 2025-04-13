@@ -1,0 +1,26 @@
+{
+  "name": "cleanup-framework-structure",
+  "description": "Routine to clean up unused files, merge similar documents, and route files into correct directories.",
+  "trigger": "pre-release or refactor cycles",
+  "agents": [
+    "orchestrator-agent",
+    "planner-agent",
+    "docs-agent",
+    "logger-agent"
+  ],
+  "checklist": [
+    "Scan for duplicate or similar file contents across the project",
+    "Merge content where similarity > 75% and semantic roles overlap",
+    "Delete unused/unreferenced files",
+    "Update `file-router.json` and `llm_coldstart_routing.json`",
+    "Revalidate routing with file system",
+    "Log all actions for traceability"
+  ],
+  "pipelines": [
+    "structure-merge-check",
+    "orphan-file-clean",
+    "routing-validation"
+  ],
+  "version": "v1.0",
+  "last_updated": "auto"
+}
