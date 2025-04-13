@@ -1,0 +1,7 @@
+{
+  "README.md": "bootstrap entry",
+  "AUTO-ONBOARD.md": "agent onboarding",
+  "agent-registry.json": "primary routing map",
+  "agent-evolution.json": "agent generation templates",
+  "feedback-integrator-agent.json": "UX+log agent boot logic"
+}
