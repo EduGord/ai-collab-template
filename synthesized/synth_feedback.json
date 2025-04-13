@@ -1,0 +1,22 @@
+{
+  "merged_feedback": {
+    "feedback-propagation": {
+      "description": "Forwards feedback signals across agents and projects",
+      "fields": [
+        "sourceAgent",
+        "targetAgents",
+        "signalType",
+        "weight"
+      ]
+    },
+    "human-feedback": {
+      "entries": [
+        {
+          "agent": "bootstrap-agent",
+          "score": 5,
+          "comment": "Bootstrapped quickly and cleanly."
+        }
+      ]
+    }
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "rules": [
-    {"if": "agent-busy", "delegateTo": "support-agent"},
-    {"if": "agent-lacks-scope", "delegateTo": "planner-agent"}
-  ]
-}

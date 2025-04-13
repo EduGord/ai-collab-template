@@ -1,0 +1,50 @@
+{
+  "merged_agents": {
+    "agent-evolution": {
+      "bootstrap-agent": [
+        {
+          "version": "v1",
+          "change": "initialization script added"
+        }
+      ],
+      "audit-agent": [
+        {
+          "version": "v39-finalization",
+          "change": "Added canonical schema for audit reflections",
+          "path": "canonical-model/audit-reflection.schema.json",
+          "timestamp": "T.832884"
+        }
+      ]
+    },
+    "external-agent-descriptors": {
+      "agents": [
+        {
+          "name": "planner-agent@project-X",
+          "url": "https://example.org/agent/planner",
+          "capabilities": [
+            "planning",
+            "advice"
+          ]
+        }
+      ]
+    },
+    "failsafe-agent": {
+      "checks": [
+        "output-safety",
+        "loop-detection",
+        "execution-thresholds"
+      ]
+    },
+    "feedback-integrator-agent": {
+      "identity": {
+        "role": "Monitors feedback and adjusts agent identity, tone, or checklist accordingly",
+        "source": "human-feedback.json"
+      },
+      "checklist": [
+        "Parse all feedback entries",
+        "Update agent checklists with high-signal inputs",
+        "Add reflection to evolution log"
+      ]
+    }
+  }
+}

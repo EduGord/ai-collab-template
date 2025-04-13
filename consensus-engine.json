@@ -1,7 +1,0 @@
-{
-  "strategy": "weighted-vote",
-  "rules": {
-    "trustBoostOnAccuracy": 0.1,
-    "penaltyOnFailure": 0.2
-  }
-}

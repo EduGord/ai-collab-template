@@ -5038,5 +5038,40 @@
       "json"
     ],
     "linked_agent": "unknown"
+  },
+  "synthesized": {
+    "synth_task_graphs.json": "synthesized/synth_task_graphs.json",
+    "synth_agents.json": "synthesized/synth_agents.json",
+    "synth_feedback.json": "synthesized/synth_feedback.json",
+    "synth_memory_bank.json": "synthesized/synth_memory_bank.json",
+    "synth_governance.json": "synthesized/synth_governance.json"
+  },
+  "framework_components": {
+    "memory_bank": "placeholder/memory_bank.md",
+    "tasks": "placeholder/tasks.md",
+    "agents": "placeholder/agents.md",
+    "logs": "placeholder/logs.md",
+    "pipelines": "placeholder/pipelines.md",
+    "checklists": "placeholder/checklists.md",
+    "identities": "placeholder/identities.md",
+    "routines": "placeholder/routines.md",
+    "documentation": "placeholder/documentation.md",
+    "goals": "placeholder/goals.md",
+    "specs": "placeholder/specs.md",
+    "definitions": "placeholder/definitions.md",
+    "schemas": "placeholder/schemas.md",
+    "config": "placeholder/config.md",
+    "diary": "placeholder/diary.md",
+    "evaluation": "placeholder/evaluation.md",
+    "features": "placeholder/features.md",
+    "feedbacks": "placeholder/feedbacks.md",
+    "forecasts": "placeholder/forecasts.md",
+    "governance": "placeholder/governance.md",
+    "intents": "placeholder/intents.md",
+    "missions": "placeholder/missions.md",
+    "plans": "placeholder/plans.md",
+    "simulations": "placeholder/simulations.md",
+    "tests": "placeholder/tests.md",
+    "tooling": "placeholder/tooling.md"
   }
 }

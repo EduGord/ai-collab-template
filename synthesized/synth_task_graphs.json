@@ -1,0 +1,189 @@
+{
+  "merged_task_graphs": {
+    "task-graph-agent-srp-cleanup": {
+      "tasks": {
+        "create-audit-agent": {
+          "agent": "evolve-agent"
+        },
+        "create-proposal-review-agent": {
+          "agent": "evolve-agent"
+        },
+        "create-recovery-agent": {
+          "agent": "evolve-agent"
+        },
+        "improve-router-agent-checklist": {
+          "agent": "evolve-agent"
+        },
+        "expand-router-agent-tools": {
+          "agent": "evolve-agent"
+        }
+      }
+    },
+    "task-graph-feature-audit": {
+      "tasks": {
+        "create-feature-schema": {
+          "agent": "evolve-agent"
+        },
+        "define-feature-manifest": {
+          "agent": "evolve-agent"
+        },
+        "add-feature-audit-routine": {
+          "agent": "audit-agent"
+        },
+        "extend-audit-agent-checklist": {
+          "agent": "audit-agent"
+        }
+      }
+    },
+    "task-graph-final-audit-fix": {
+      "tasks": {
+        "fix-routine-metadata": {
+          "agent": "evolve-agent"
+        },
+        "fix-llm-session-router-routine": {
+          "agent": "evolve-agent"
+        },
+        "enrich-doc-how-to-add-agent": {
+          "agent": "evolve-agent"
+        },
+        "enrich-doc-example-workflows": {
+          "agent": "evolve-agent"
+        },
+        "fix-bootstrap-plan-format": {
+          "agent": "evolve-agent"
+        }
+      }
+    },
+    "task-graph-fine-tune": {
+      "tasks": {
+        "refine-canonical-models": {
+          "agent": "evolve-agent",
+          "dependsOn": []
+        },
+        "audit-and-update-agent-identities": {
+          "agent": "planner-agent",
+          "dependsOn": []
+        },
+        "expand-checklists-with-corrida-logic": {
+          "agent": "planner-agent",
+          "dependsOn": [
+            "audit-and-update-agent-identities"
+          ]
+        },
+        "refine-routines-formatting": {
+          "agent": "evolve-agent",
+          "dependsOn": []
+        },
+        "validate-and-version-pipelines": {
+          "agent": "evolve-agent",
+          "dependsOn": []
+        },
+        "enrich-documentation-with-concepts": {
+          "agent": "planner-agent",
+          "dependsOn": [
+            "refine-canonical-models",
+            "expand-checklists-with-corrida-logic"
+          ]
+        }
+      }
+    },
+    "task-graph-fix-content": {
+      "tasks": {
+        "improve-readme": {
+          "dependsOn": [],
+          "agent": "evolve-agent"
+        },
+        "enrich-intent-json": {
+          "dependsOn": [],
+          "agent": "evolve-agent"
+        },
+        "expand-memory-bridge": {
+          "dependsOn": [],
+          "agent": "evolve-agent"
+        },
+        "write-manual-mode-guide": {
+          "dependsOn": [],
+          "agent": "evolve-agent"
+        },
+        "specify-feedback-integrator": {
+          "dependsOn": [],
+          "agent": "evolve-agent"
+        }
+      }
+    },
+    "task-graph-reuse": {
+      "tasks": {
+        "generalize-routine-manifest": {
+          "agent": "evolve-agent"
+        },
+        "standardize-pipeline-format": {
+          "agent": "evolve-agent"
+        },
+        "import-quick-pipeline-doc": {
+          "agent": "evolve-agent"
+        },
+        "enhance-canonical-model-with-routines": {
+          "agent": "evolve-agent"
+        }
+      }
+    },
+    "task-graph-system-resilience": {
+      "tasks": {
+        "rebuild-context-router-dynamically": {
+          "agent": "router-agent"
+        },
+        "rebuild-memory-bank-index-dynamically": {
+          "agent": "router-agent"
+        },
+        "add-router-validator-tool": {
+          "agent": "router-agent"
+        },
+        "add-memory-index-linter": {
+          "agent": "router-agent"
+        },
+        "register-reflection-for-audit-failures": {
+          "agent": "evolve-agent"
+        },
+        "add-self-healing-routine-template": {
+          "agent": "evolve-agent"
+        },
+        "expand-canonical-models-with-router-schema": {
+          "agent": "evolve-agent"
+        },
+        "add-system-resilience-checklist": {
+          "agent": "evolve-agent"
+        },
+        "update-agent-checklists-for-memory-updates": {
+          "agent": "evolve-agent"
+        },
+        "document-context-coherence-loop": {
+          "agent": "evolve-agent"
+        }
+      }
+    },
+    "task-graph": {
+      "tasks": {
+        "generate-routine-gap-detection": {
+          "dependsOn": [],
+          "agent": "evolve-agent"
+        },
+        "generate-self-review-hook": {
+          "dependsOn": [
+            "generate-routine-gap-detection"
+          ],
+          "agent": "evolve-agent"
+        },
+        "generate-llm-session-router": {
+          "dependsOn": [],
+          "agent": "router-agent"
+        },
+        "generate-system-evolve-cycle": {
+          "dependsOn": [
+            "generate-self-review-hook"
+          ],
+          "agent": "evolve-agent"
+        }
+      }
+    }
+  }
+}

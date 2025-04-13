@@ -1,9 +1,0 @@
-{
-  "agent": "forecaster",
-  "feedback": "forecaster confirmed checklist is complete and up to date.",
-  "tags": [
-    "execution",
-    "success",
-    "compliance"
-  ]
-}

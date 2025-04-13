@@ -1,7 +1,0 @@
-# description: Auto-generated routing metadata
-simulation:
-  name: agent-collaboration-run
-  agents: [docbot, planner, schemaenforcer, feedbacker, forecaster]
-  mode: round-robin
-  log: AGENT_LOG.md
-  entrypoint: memory_bank.json

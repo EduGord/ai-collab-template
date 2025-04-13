@@ -1,0 +1,34 @@
+{
+  "merged_governance": {
+    "consensus-engine": {
+      "strategy": "weighted-vote",
+      "rules": {
+        "trustBoostOnAccuracy": 0.1,
+        "penaltyOnFailure": 0.2
+      }
+    },
+    "debate-protocol": {
+      "structure": [
+        "propose",
+        "respond",
+        "vote"
+      ],
+      "rules": {
+        "maxRounds": 3,
+        "tieBreaker": "meta-agent"
+      }
+    },
+    "delegation-protocol": {
+      "rules": [
+        {
+          "if": "agent-busy",
+          "delegateTo": "support-agent"
+        },
+        {
+          "if": "agent-lacks-scope",
+          "delegateTo": "planner-agent"
+        }
+      ]
+    }
+  }
+}

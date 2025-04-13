@@ -1,7 +1,0 @@
-{
-  "checks": [
-    "output-safety",
-    "loop-detection",
-    "execution-thresholds"
-  ]
-}

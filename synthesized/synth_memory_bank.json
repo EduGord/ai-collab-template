@@ -1,0 +1,139 @@
+{
+  "merged_memory_bank": {
+    "memory_bank.archived": [
+      {
+        "agent": "planner",
+        "task_id": "agent-check-planner",
+        "description": "planner must execute checklist and log to AGENT_LOG.md",
+        "priority": "high",
+        "status": "completed",
+        "tags": [
+          "routine",
+          "autonomy"
+        ],
+        "trigger": "routine",
+        "archived": true
+      },
+      {
+        "agent": "schemaenforcer",
+        "task_id": "agent-check-schemaenforcer",
+        "description": "schemaenforcer must execute checklist and log to AGENT_LOG.md",
+        "priority": "high",
+        "status": "completed",
+        "tags": [
+          "routine",
+          "autonomy"
+        ],
+        "trigger": "routine",
+        "archived": true
+      },
+      {
+        "agent": "docbot",
+        "task_id": "agent-check-docbot",
+        "description": "docbot must execute checklist and log to AGENT_LOG.md",
+        "priority": "high",
+        "status": "completed",
+        "tags": [
+          "routine",
+          "autonomy"
+        ],
+        "trigger": "routine",
+        "archived": true
+      },
+      {
+        "agent": "feedbacker",
+        "task_id": "agent-check-feedbacker",
+        "description": "feedbacker must execute checklist and log to AGENT_LOG.md",
+        "priority": "high",
+        "status": "completed",
+        "tags": [
+          "routine",
+          "autonomy"
+        ],
+        "trigger": "routine",
+        "archived": true
+      },
+      {
+        "agent": "forecaster",
+        "task_id": "agent-check-forecaster",
+        "description": "forecaster must execute checklist and log to AGENT_LOG.md",
+        "priority": "high",
+        "status": "completed",
+        "tags": [
+          "routine",
+          "autonomy"
+        ],
+        "trigger": "routine",
+        "archived": true
+      },
+      {
+        "agent": "docbot",
+        "task_id": "forecast-task-docbot",
+        "description": "Generate markdown docs for all identity/checklist pairs and routines.",
+        "priority": "high",
+        "status": "completed",
+        "tags": [
+          "docs",
+          "coverage"
+        ],
+        "trigger": "forecast",
+        "archived": true
+      },
+      {
+        "agent": "schemaenforcer",
+        "task_id": "forecast-task-schemaenforcer",
+        "description": "Add changelog tracking for schema drift detection and enforce auto-patches.",
+        "priority": "medium",
+        "status": "completed",
+        "tags": [
+          "compliance",
+          "schema",
+          "audit"
+        ],
+        "trigger": "forecast",
+        "archived": true
+      },
+      {
+        "agent": "planner",
+        "task_id": "forecast-task-planner",
+        "description": "Introduce phase-aware scheduling of agents and register Gantt-style timeline.",
+        "priority": "high",
+        "status": "completed",
+        "tags": [
+          "timeline",
+          "governance",
+          "roadmap"
+        ],
+        "trigger": "forecast",
+        "archived": true
+      },
+      {
+        "agent": "forecaster",
+        "task_id": "forecast-task-forecaster",
+        "description": "Predict saturation points for checklist density and routine collisions.",
+        "priority": "low",
+        "status": "completed",
+        "tags": [
+          "forecast",
+          "governance"
+        ],
+        "trigger": "forecast",
+        "archived": true
+      },
+      {
+        "agent": "feedbacker",
+        "task_id": "forecast-task-feedbacker",
+        "description": "Create summarized sentiment analysis from execution logs.",
+        "priority": "medium",
+        "status": "completed",
+        "tags": [
+          "sentiment",
+          "audit",
+          "UX"
+        ],
+        "trigger": "forecast",
+        "archived": true
+      }
+    ]
+  }
+}
