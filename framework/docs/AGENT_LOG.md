@@ -73,3 +73,18 @@ description: Auto-generated routing metadata
 [system] Final routine sweep executed across all agents.
 [planner] Routine state logged to `evaluation.md`.
 [docbot] Closure state saved in `dev-diary.md`.
+
+### 🧊 Coldstart Bootstrap Snapshot Activated
+
+- **Date**: 2025-04-13
+- **Version**: `v0.1.0`
+- **Snapshot**: `meta/coldstart-snapshot-v0.1.0.json`
+- **Manifest**: `meta/canonical-manifest.json`
+- **Pipeline**: `plans/bootstrap/coldstart-bootstrap-pipeline.json`
+- **Tasks**:
+  - `task-generate-coldstart-snapshot`
+  - `task-compare-snapshot-with-live-files`
+  - `task-generate-canonical-manifest`
+- **Reflected in Agents**: `audit-agent`, `bootstrap-agent`, `evolve-agent`
+- **Schema-Linked**: `agent-schema`, `task-schema`, `plan-schema`, `pipeline-schema`
+- **Status**: ✅ Complete

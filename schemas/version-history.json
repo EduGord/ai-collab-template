@@ -9,5 +9,16 @@
     "timestamp": "datetime",
     "rollbackAvailable": "boolean"
   },
-  "$schema": "schemas/default-schema.json"
+  "$schema": "schemas/default-schema.json",
+  "entries": [
+    {
+      "id": "coldstart-bootstrap-v0.1.0",
+      "type": "snapshot",
+      "version": "v0.1.0",
+      "path": "meta/coldstart-snapshot-v0.1.0.json",
+      "linked-pipeline": "plans/bootstrap/coldstart-bootstrap-pipeline.json",
+      "timestamp": "2025-04-13T05:17:12.865363Z",
+      "summary": "Initial implementation of snapshot-based coldstart bootstrap system."
+    }
+  ]
 }

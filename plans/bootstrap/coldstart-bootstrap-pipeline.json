@@ -1,0 +1,38 @@
+{
+  "pipeline": "coldstart-bootstrap",
+  "version": "v0.1.0",
+  "description": "Generates coldstart snapshot and canonical manifest with schema-aware parsing and priority load ordering.",
+  "steps": [
+    {
+      "id": "generate-coldstart-snapshot",
+      "task": "task-generate-coldstart-snapshot",
+      "output": "meta/coldstart-snapshot-v0.1.0.json"
+    },
+    {
+      "id": "compare-snapshot-with-live",
+      "task": "task-compare-snapshot-with-live-files"
+    },
+    {
+      "id": "generate-canonical-manifest",
+      "task": "task-generate-canonical-manifest",
+      "output": "meta/canonical-manifest.json"
+    }
+  ],
+  "routing": {
+    "related-files": [
+      "meta/coldstart-snapshot-v0.1.0.json",
+      "meta/canonical-manifest.json"
+    ],
+    "schema-paths": [
+      "schemas/",
+      "framework/schemas/"
+    ],
+    "agent-paths": [
+      "agents-spec/"
+    ],
+    "task-paths": [
+      "core/tasks/",
+      "plans/*/tasks.json"
+    ]
+  }
+}

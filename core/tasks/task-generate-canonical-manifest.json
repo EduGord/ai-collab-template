@@ -1,0 +1,10 @@
+{
+  "task": "task-generate-canonical-manifest",
+  "version": "v0.1.0",
+  "description": "Crosslink files with their schemas, owning agents/tasks, and routing path into a canonical manifest.",
+  "output": [
+    "meta/canonical-manifest.json"
+  ],
+  "linked-pipeline": "coldstart-bootstrap",
+  "schema": "schemas/task-schema.json"
+}

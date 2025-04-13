@@ -1,0 +1,11 @@
+{
+  "task": "task-generate-coldstart-snapshot",
+  "version": "v0.1.0",
+  "description": "Scan and serialize current state into coldstart snapshot (agents, tasks, plans, pipelines, routing, logs).",
+  "input": [],
+  "output": [
+    "meta/coldstart-snapshot-v0.1.0.json"
+  ],
+  "linked-pipeline": "coldstart-bootstrap",
+  "schema": "schemas/task-schema.json"
+}

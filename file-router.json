@@ -65,5 +65,19 @@
   "framework/docs/reviewkeeper.identity.md": "/reviewkeeper.identity.md",
   "framework/docs/collaborative-network-spec.md": "/collaborative-network-spec.md",
   "framework/docs/schema-summaries/structure-hygiene.schema.md": "/schema-summaries/structure-hygiene.schema.md",
-  "$schema": "schemas/routing-schema.json"
+  "$schema": "schemas/routing-schema.json",
+  "meta/coldstart-snapshot-v0.1.0.json": {
+    "route": "meta",
+    "tag": "coldstart",
+    "load": "eager",
+    "linked-task": "task-generate-coldstart-snapshot",
+    "linked-pipeline": "coldstart-bootstrap"
+  },
+  "meta/canonical-manifest.json": {
+    "route": "meta",
+    "tag": "coldstart-manifest",
+    "load": "eager",
+    "linked-task": "task-generate-canonical-manifest",
+    "linked-pipeline": "coldstart-bootstrap"
+  }
 }

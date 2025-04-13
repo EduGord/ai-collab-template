@@ -1,0 +1,11 @@
+{
+  "task": "task-compare-snapshot-with-live-files",
+  "version": "v0.1.0",
+  "description": "Compare coldstart snapshot with live project structure for diff validation and consistency auditing.",
+  "input": [
+    "meta/coldstart-snapshot-v0.1.0.json"
+  ],
+  "output": [],
+  "linked-pipeline": "coldstart-bootstrap",
+  "schema": "schemas/task-schema.json"
+}

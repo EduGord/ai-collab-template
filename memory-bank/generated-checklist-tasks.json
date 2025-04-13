@@ -158,5 +158,20 @@
     "description": "{'title': 'Planning Agent Core Checklist', 'related_files': [], 'check_items': [{'item': 'Parse current intent or goal from user or plan', 'checked': False}, {'item': 'Break down into atomic tasks', 'checked': False}, {'item': 'Define dependencies and agent assignments', 'checked': False}, {'item': 'Log task plan and return feedback loop suggestions', 'checked': False}]}",
     "status": "todo",
     "confidence": 0.7
+  },
+  {
+    "task": "task-generate-coldstart-snapshot",
+    "linked-pipeline": "plans/bootstrap/coldstart-bootstrap-pipeline.json",
+    "origin": "coldstart-bootstrap-v0.1.0"
+  },
+  {
+    "task": "task-compare-snapshot-with-live-files",
+    "linked-pipeline": "plans/bootstrap/coldstart-bootstrap-pipeline.json",
+    "origin": "coldstart-bootstrap-v0.1.0"
+  },
+  {
+    "task": "task-generate-canonical-manifest",
+    "linked-pipeline": "plans/bootstrap/coldstart-bootstrap-pipeline.json",
+    "origin": "coldstart-bootstrap-v0.1.0"
   }
 ]

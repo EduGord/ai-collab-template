@@ -186,5 +186,19 @@
       }
     }
   },
-  "$schema": "schemas/task-schema.json"
+  "$schema": "schemas/task-schema.json",
+  "threads": [
+    {
+      "id": "coldstart-bootstrap-thread",
+      "tasks": [
+        "task-generate-coldstart-snapshot",
+        "task-compare-snapshot-with-live-files",
+        "task-generate-canonical-manifest"
+      ],
+      "pipeline": "plans/bootstrap/coldstart-bootstrap-pipeline.json",
+      "snapshot": "meta/coldstart-snapshot-v0.1.0.json",
+      "version": "v0.1.0",
+      "status": "complete"
+    }
+  ]
 }

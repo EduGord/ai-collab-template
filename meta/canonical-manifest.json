@@ -1,0 +1,3344 @@
+[
+  {
+    "file": "AUTO-ONBOARD.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "file-router.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "llm_coldstart_routing.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "README.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/reflection-agent.json",
+    "schema": "",
+    "owner": "reflection-agent.json",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/scheduler-agent.json",
+    "schema": "",
+    "owner": "scheduler-agent.json",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/audit-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "audit-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/audit-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "audit-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/audit-agent/agent-state.json",
+    "schema": "",
+    "owner": "audit-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/audit-agent/checklist.json",
+    "schema": "",
+    "owner": "audit-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/audit-agent/heuristics.json",
+    "schema": "",
+    "owner": "audit-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/audit-agent/identity.json",
+    "schema": "",
+    "owner": "audit-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/audit-agent/lifecycle.json",
+    "schema": "",
+    "owner": "audit-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/audit-agent/ux-profile.json",
+    "schema": "",
+    "owner": "audit-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "bootstrap-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "bootstrap-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/agent-state.json",
+    "schema": "",
+    "owner": "bootstrap-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/checklist.json",
+    "schema": "",
+    "owner": "bootstrap-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/heuristics.json",
+    "schema": "",
+    "owner": "bootstrap-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/identity.json",
+    "schema": "",
+    "owner": "bootstrap-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/ux-profile.json",
+    "schema": "",
+    "owner": "bootstrap-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/bootstrap-agent/reflections/sample.json",
+    "schema": "",
+    "owner": "bootstrap-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/agent-state.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/checklist.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/heuristics.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/identity.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/lifecycle.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/ux-profile.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/routine-gap-detection.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/self-introspection.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/self-review-hook.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/evolve-agent/reflections/system-evolve-cycle.json",
+    "schema": "",
+    "owner": "evolve-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/logger-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "logger-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/logger-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "logger-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/logger-agent/checklist.json",
+    "schema": "",
+    "owner": "logger-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/logger-agent/heuristics.json",
+    "schema": "",
+    "owner": "logger-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/logger-agent/identity.json",
+    "schema": "",
+    "owner": "logger-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/logger-agent/lifecycle.json",
+    "schema": "",
+    "owner": "logger-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/logger-agent/ux-profile.json",
+    "schema": "",
+    "owner": "logger-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/meta-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "meta-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/meta-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "meta-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/meta-agent/agent-state.json",
+    "schema": "",
+    "owner": "meta-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/meta-agent/checklist.json",
+    "schema": "",
+    "owner": "meta-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/meta-agent/heuristics.json",
+    "schema": "",
+    "owner": "meta-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/meta-agent/identity.json",
+    "schema": "",
+    "owner": "meta-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/meta-agent/lifecycle.json",
+    "schema": "",
+    "owner": "meta-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/meta-agent/ux-profile.json",
+    "schema": "",
+    "owner": "meta-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/meta-agent/reflections/mentor-review-001.json",
+    "schema": "",
+    "owner": "meta-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/agent-state.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/checklist.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/heuristics.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/identity.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/lifecycle.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/ux-profile.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/orchestrator-agent/checklists/core-checklist.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/org-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "org-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/org-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "org-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/org-agent/agent-state.json",
+    "schema": "",
+    "owner": "org-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/org-agent/checklist.json",
+    "schema": "",
+    "owner": "org-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/org-agent/heuristics.json",
+    "schema": "",
+    "owner": "org-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/org-agent/identity.json",
+    "schema": "",
+    "owner": "org-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/org-agent/lifecycle.json",
+    "schema": "",
+    "owner": "org-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/org-agent/ux-profile.json",
+    "schema": "",
+    "owner": "org-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/planner-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/planner-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/planner-agent/agent-state.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/planner-agent/checklist.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/planner-agent/heuristics.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/planner-agent/identity.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/planner-agent/lifecycle.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/planner-agent/ux-profile.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/planner-agent/checklists/core-checklist.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "proposal-review-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "proposal-review-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/agent-state.json",
+    "schema": "",
+    "owner": "proposal-review-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/checklist.json",
+    "schema": "",
+    "owner": "proposal-review-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/heuristics.json",
+    "schema": "",
+    "owner": "proposal-review-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/identity.json",
+    "schema": "",
+    "owner": "proposal-review-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/lifecycle.json",
+    "schema": "",
+    "owner": "proposal-review-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/proposal-review-agent/ux-profile.json",
+    "schema": "",
+    "owner": "proposal-review-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/recovery-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "recovery-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/recovery-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "recovery-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/recovery-agent/agent-state.json",
+    "schema": "",
+    "owner": "recovery-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/recovery-agent/checklist.json",
+    "schema": "",
+    "owner": "recovery-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/recovery-agent/heuristics.json",
+    "schema": "",
+    "owner": "recovery-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/recovery-agent/identity.json",
+    "schema": "",
+    "owner": "recovery-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/recovery-agent/lifecycle.json",
+    "schema": "",
+    "owner": "recovery-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/recovery-agent/ux-profile.json",
+    "schema": "",
+    "owner": "recovery-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/router-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "router-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/router-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "router-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/router-agent/agent-state.json",
+    "schema": "",
+    "owner": "router-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/router-agent/checklist.json",
+    "schema": "",
+    "owner": "router-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/router-agent/heuristics.json",
+    "schema": "",
+    "owner": "router-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/router-agent/identity.json",
+    "schema": "",
+    "owner": "router-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/router-agent/lifecycle.json",
+    "schema": "",
+    "owner": "router-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/router-agent/ux-profile.json",
+    "schema": "",
+    "owner": "router-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/router-agent/reflections/llm-session-router.json",
+    "schema": "",
+    "owner": "router-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/tasking-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/tasking-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/tasking-agent/agent-state.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/tasking-agent/checklist.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/tasking-agent/heuristics.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/tasking-agent/identity.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/tasking-agent/lifecycle.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/tasking-agent/ux-profile.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/tasking-agent/checklists/core-checklist.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/ux-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "ux-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/ux-agent/agent-state.json",
+    "schema": "",
+    "owner": "ux-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/ux-agent/checklist.json",
+    "schema": "",
+    "owner": "ux-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/ux-agent/heuristics.json",
+    "schema": "",
+    "owner": "ux-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/ux-agent/identity.json",
+    "schema": "",
+    "owner": "ux-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/ux-agent/lifecycle.json",
+    "schema": "",
+    "owner": "ux-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/ux-agent/ux-profile.json",
+    "schema": "",
+    "owner": "ux-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/voting-agent/agent-ledger.json",
+    "schema": "",
+    "owner": "voting-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/voting-agent/agent-metadata.json",
+    "schema": "",
+    "owner": "voting-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/voting-agent/agent-state.json",
+    "schema": "",
+    "owner": "voting-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/voting-agent/checklist.json",
+    "schema": "",
+    "owner": "voting-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/voting-agent/identity.json",
+    "schema": "",
+    "owner": "voting-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/voting-agent/lifecycle.json",
+    "schema": "",
+    "owner": "voting-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "agents-spec/voting-agent/ux-profile.json",
+    "schema": "",
+    "owner": "voting-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "canonical-model/routine-definition.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "checkpoints/index.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "checkpoints/session_boot.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/agent-registry.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/cleanup-before-release.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/eval-hooks.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/goal-tree.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/llm-capabilities.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/llm-context-router.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/override-rules.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/performance-milestones.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/preferences.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/prompt-replay.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/release-manifest.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/release-preferences.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/release-readiness-audit.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/schema-config.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/systemic-expansion.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/tasks.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "config/zip-integrity-checklist.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "control-panel/panel-config.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/forecast-task-docbot.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/forecast-task-feedbacker.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/forecast-task-forecaster.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/forecast-task-planner.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/forecast-task-schemaenforcer.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/memory-bridge.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/memory_bank.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-agent-check-docbot.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-agent-check-feedbacker.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-agent-check-forecaster.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-agent-check-planner.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-agent-check-schemaenforcer.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-agent-driven-evolution.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-agent-identity-review.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-bootstrap-and-memory-loading.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-feature-ref-linking.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-full-system-audit.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-global-resilience-audit.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-ongoing-validation-cycle.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-restructure-root-layout.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-runtime-scale-docbot.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-runtime-scale-feedbacker.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-runtime-scale-forecaster.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-runtime-scale-planner.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-runtime-scale-schemaenforcer.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-seed-docbot-phase-task.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-seed-feedbacker-phase-task.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-seed-forecaster-phase-task.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-seed-planner-phase-task.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-seed-schemaenforcer-phase-task.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-simulate-zone-relay.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/task-task-tbd.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/checklists/docbot-snapshot-checklist.yaml",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/checklists/user-live-session-checklist.yaml",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/conversational/debate.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/evaluation/calculate-agent-evolution-score.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/evaluation/plan-retrospective.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/evaluation/sandbox-replay.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/governance/enforce-resilience-logic.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/governance/validate-upgrade-proposals.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/identities/user.yaml",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/feature-sync-and-memory-audit.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/finalize-project-integrity.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/lifecycle.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/llm-session-router.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/pattern-audit.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/regenerate-system-snapshot.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/routine-gap-detection.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/routine-manifest.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/routine-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/self-healing-memory-sync.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/self-introspection.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/self-review-hook.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/sync-memory-feature-map.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/system-evolve-cycle.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/validate-canonical-models.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/validate-full-framework-state.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/validate-project-structure.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/operational/weekly-resilience-audit.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/routines/full-system-stabilization.yaml",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/routines/live-deployment-feedback-cycle.yaml",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/routines/memory-compaction.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/routines/root-collab-validation.yaml",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-agent-alignment-scan.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-agent-goal-generation.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-audit-v21-before-v22.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-begin-v23-cycle.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-continuous-evolution-cycle.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-create-pipeline-folder.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-discovery-intent-cycle.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-docbot-onboarding-doc.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-docbot-summary-cards.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-docbot-version-changelog.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-document-folder-structure-guidelines.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-enhance-file-router-metadata.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-expand-longterm-agents.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-feedback-loop-from-user.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-feedbacker-anomaly-detection.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-feedbacker-monthly-summary.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-feedbacker-trend-analysis.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-fix-missing-core-agents.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-framework-live-deployment-mode.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-generate-file-router.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-implement-cross-reference-system.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-llm-context-suggestions.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-llm-memory-tracker.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-llm-routing-runtime.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-log-replay-for-improvement.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-planner-milestone-calendar.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-planner-task-grouping.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-planner-timeline-cycles.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-rebuild-core-structure.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-refactor-root-structure.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-regenerate-file-router.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-review-checklist-coverage.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-runtime-discovery-metadata-update.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-schema-diff-viewer.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-schema-runtime-validation.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-schema-version-lock.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-setup-metadata-validation-pipeline.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-simulate-onboarding-sequence.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-snapshot-live-user-release.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-task-tbd.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-trigger-user-checklist.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-update-checklist-doc-links.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-user-goal-setting.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "docs/AGENT_MODEL_INDEX.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/api-schema.yaml",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/asset-map.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/CHANGELOG.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/cli-dashboard.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/collab-etiquette.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/context-coherence-loop.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/design-principles.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/dev-diary.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/evaluation.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/example-workflows.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/external-integration.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/feedback-summary-v17.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/final_comprehensive_project_summary.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/folder-structure-proposal.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/forecast-history.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/forecast.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/governance.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/how-to-add-agent.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/how-to-assume-agent.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/how-to-extend-pipeline.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/intent-discovery-v18.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/intent-discovery-v19.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/intents.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/manual-mode.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/memory-api.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/memory-runner-docs.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/navigation-index.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/ONBOARDING.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/persona-guide.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/plan.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/PROJECT-TASKS.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/quick-pipeline-format.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/README-HUMAN.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/README-LLM.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/README-ONBOARDING.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/README-QUICK-PIPELINE.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/registered-template.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/release-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/retrospective-v0.23.0.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/reviewkeeper-report.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/roadmap-agent-goal-proposals.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/roadmap-matrix.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/roadmap-patch-trust-filter.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/roadmap-v0.24.0.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/roadmap-v0.25.1.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/roadmap-v0.26.0-tasks.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/roadmap-v0.29.0-tasks.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/roadmap.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/router-schema-reference.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/routines-index.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/system-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/system-index.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/system-resilience-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/task-dependencies.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/task-graph-doc.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/webhook-integration.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/agents/docs-agent.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/agents/frontend-agent.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/diagrams/snapshot-introspection-diagram.puml",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "docs/generated/phase12-market-token-dashboard.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "features/feature-map.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  },
+  {
+    "file": "forecasts/forecast-docbot.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "forecasts/forecast-feedbacker.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "forecasts/forecast-forecaster.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "forecasts/forecast-planner.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "forecasts/forecast-schemaenforcer.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "forecasts/bootstrap-agent/timeline-memory.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/version.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/agents/coveragebot.identity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/agents/llmrouter.identity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/agents/schemaenforcer.identity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/agents/structurekeeper.identity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/integration-graph-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/logger-checklist.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/memory-enhancement-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/orchestrator-checklist.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/planner-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/planner-feedback-forecast-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/release-integrity-checklist.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/release-packaging-checklist.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/reviewkeeper-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/router-checklist.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/runner-and-memory-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/structurekeeper-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/unified-agent-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/checklists/unified-checklist.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/AGENT_LOG.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/collaborative-network-spec.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/docbot.identity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/dynamic-agent-routing-config.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/forecaster.identity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/log-manager.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/orchestrator-release-zip-pipeline.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/realtime-llm-assistant.identity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/reviewkeeper.identity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/tasks.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/validate-evolution-phase.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/docs/schema-summaries/structure-hygiene.schema.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/reflection-schema-audit-001.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/reflection-structure-hygiene-system.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-001.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-02.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-03.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-04.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-05.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-06.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-07.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-08.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-09.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-10.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-11.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-12.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-13.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-14.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-15.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-16.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-17.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-18.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-19.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-consensus-20.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/feedback/conversations/reflection-structure-review-final.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/goals/clustering-spec.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/goals/goal-structure-hygiene.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/goals/planner.identity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/goals/tasks.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/logs/log-manager.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/logs/conversations/schema-agent-recommendation.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/logs/system/schema-coverage.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/memory/design-architecture-updates.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/memory/framework-capabilities.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/memory/memory_bank.archived.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/memory/memory_bank.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/memory/project-mission-and-alignment.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/memory/project-review_structure-clarity.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/pipelines/market-bidding-cycle.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/pipelines/orphan-file-clean.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/pipelines/pipeline-release-diff-aware.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/pipelines/pipeline-release-vNEXT.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/pipelines/routing-validation.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/pipelines/structure-merge-check.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/pipelines/validate-release-scope.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/routines/auto-patch-pipeline-outputs.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/routines/cleanup-framework-structure.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/routines/detect-zombie-artifacts.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/routines/on-release-preflight.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/routing/override-rules.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/agent-schema.json",
+    "schema": "agent-schema.json",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/default-schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/feedback-schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/goal-schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/log-schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/memory-schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/pipeline-schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/routine-schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/routing-schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/structure-hygiene.schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/schemas/task-schema.json",
+    "schema": "task-schema.json",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/tasks/feedbacker.identity.md",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/tasks/task-cleanup-execution.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "framework/tasks/TASK_EXECUTION_DASHBOARD.md",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "goals/goal-boot.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "goals/goal-docbot-6aff77.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "goals/goal-feedbacker-d6efda.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "goals/goal-forecaster-3adeea.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "goals/goal-reviewkeeper-e833d4.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "goals/goal-roadmap-boot.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "goals/goal-schemaenforcer-51f700.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "goals/goal-threads.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "goals/goal-timeline.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "governance/co-creation-protocol.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "governance/lifecycle-policy.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "governance/linting-rules.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "governance/trust-orchestration.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "governance/policies/marketplace-governance-v1.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "governance/policies/swarm-governance-v1.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "governance/policies/token-regeneration-v1.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "governance/rules/rule-agents-cannot-edit-pipeline-map.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/control-state.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/generated-checklist-tasks.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/index-context.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/index.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/memory-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/pattern-memory.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/upcoming-features.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/evolving/pending-tasks.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/fixed/phase-10-temporal.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/fixed/phase-8-self-evolving.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "memory-bank/fixed/phase-9-federation.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "meta/active-context.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "meta/file-router.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "meta/intent-register-snapshot-introspection.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "meta/intent.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "meta/routine-backlinks.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "meta/snapshot-introspection-manifest.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "meta/intents/regenerate-system-snapshot-intent.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "meta/trust/trust-index.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "pipelines/orchestrator-release-zip-pipeline.json",
+    "schema": "",
+    "owner": "orchestrator-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/agent-collab-performance-fork.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/agent-collab-plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/intent-release-v0.24.0.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/next-evolution-phase.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/phase-10-routing-autonomy.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/phase-11-swarm-memory-convergence.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/phase-12-agent-market-economy.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/phase-13-agent-challenges-and-reflection.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/phase-14-memory-alignment-and-role-negotiation.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/phase-9-system-evolution.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/structured-plans.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/agent-srp-cleanup/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/agent-srp-cleanup/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/bootstrap/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/bootstrap/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/extend-agent-abstractions/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/extend-agent-abstractions/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/feature-audit/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/feature-audit/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/final-audit-fix/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/final-audit-fix/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/fine-tune/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/fine-tune/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/fix-content/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/fix-content/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/onboarding-agent-bootstrap/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/onboarding-agent-bootstrap/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/onboarding-refinement-patch/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/onboarding-refinement-patch/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/org-knowledge-agent-bootstrap/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/org-knowledge-agent-bootstrap/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/phase-11/swarm-routines-proposed.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/phase-13/challenges/reflection-race-001.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/phase-15/prep-plan-autonomous-consistency-and-indexing.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/reuse-corrida-elements/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/reuse-corrida-elements/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/root-collaboration-bootstrap/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/root-collaboration-bootstrap/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/self-evolve/retrospective-insights.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/self-evolving/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/self-evolving/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/system-resilience/plan.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/system-resilience/planner-goals-extension.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/system-resilience/resilience-upgrade-plan-v1.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/system-resilience/tasks.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/system-upgrade/agent-review-upgrade-plan-v1.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/template-pipeline-library/context-compression-pipeline.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/template-pipeline-library/conversation-to-pipeline.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/template-pipeline-library/ethics-audit-pipeline.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/template-pipeline-library/fallback-resolution-pipeline.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/template-pipeline-library/file-content-schema-audit-pipeline.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/template-pipeline-library/plan-retrospective-pipeline.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/template-pipeline-library/routine-gap-detection-pipeline.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/template-pipeline-library/snapshot-sync-pipeline.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/template-pipeline-library/suggest-checklist-and-identity-updates-during-session.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/v0.26.0/task-followups-from-roadmap.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "routing/pipeline-playground.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "routing/routing-rules.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/agent-challenge.schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/agent-evolution-score.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/agent-marketplace.schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/canonical-agent-instances.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/canonical-agent-model-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/canonical-agent-model.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/config-schema-vNext.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/context-router.schema-lifecycle.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/context-router.schema-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/context-router.schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/debate-vote.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/dynamic-agent-routing.schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/feature.schema-lifecycle.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/feature.schema-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/feature.schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/forkable-plan.json",
+    "schema": "forkable-plan.json",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/lifecycle-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/memory-fusion.schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/memory.schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/pipeline.schema-lifecycle.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/pipeline.schema-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/pipeline.schema.json",
+    "schema": "pipeline.schema.json",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/routine-manifest.schema-lifecycle.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/routine-manifest.schema-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/routine-manifest.schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/routing-rules-schema.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/schema-config.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/schema-index-lifecycle.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/schema-index.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/schema-index.repaired.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/schema-metadata-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/schema-metadata.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/schema-version-tracker-lifecycle.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/schema-version-tracker.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/synthesized-memory-index.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "schemas/version-history.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "snapshots/active-pipeline-manifest-v0.1.0.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "snapshots/orchestration-bundle-v0.1.0.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "snapshots/patched-config-state.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "snapshots/task-graph-v0.1.0.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "synthesized/synth_agents.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "synthesized/synth_feedback.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "synthesized/synth_governance.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "synthesized/synth_memory_bank.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "synthesized/synth_task_graphs.json",
+    "schema": "",
+    "owner": "system",
+    "route_type": "eager"
+  },
+  {
+    "file": "plans/bootstrap/coldstart-bootstrap-pipeline.json",
+    "schema": "",
+    "owner": "planner-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-generate-coldstart-snapshot.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-compare-snapshot-with-live-files.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "core/tasks/task-generate-canonical-manifest.json",
+    "schema": "",
+    "owner": "tasking-agent",
+    "route_type": "eager"
+  },
+  {
+    "file": "docs/coldstart.md",
+    "schema": "",
+    "owner": "system",
+    "route_type": "lazy"
+  }
+]
