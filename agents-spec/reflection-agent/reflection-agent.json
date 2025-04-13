@@ -20,5 +20,11 @@
   ],
   "status": "active",
   "last_run": null,
-  "$schema": "schemas/agent-schema.json"
+  "$schema": "schemas/agent-schema.json",
+  "path": "agents-spec/reflection-agent/reflection-agent.json",
+  "identity": "agents-spec/reflection-agent/identity.json",
+  "checklist": "agents-spec/reflection-agent/checklist.md",
+  "pipelines-dir": "agents-spec/reflection-agent/pipelines",
+  "tasks-dir": "agents-spec/reflection-agent/tasks",
+  "reflections-dir": "agents-spec/reflection-agent/reflections"
 }

@@ -1,0 +1,20 @@
+{
+  "id": "scheduler-agent",
+  "role": "task-priority-evaluator",
+  "description": "Assigns utility scores to tasks based on agent focus, urgency, and contextual value. Builds a shared task queue.",
+  "heuristics": [
+    "agent-focus",
+    "task-dependency-graph",
+    "recent-execution-history",
+    "contextual-priority"
+  ],
+  "output": "shared-task-queue.json",
+  "status": "active",
+  "$schema": "schemas/agent-schema.json",
+  "path": "agents-spec/scheduler-agent/scheduler-agent.json",
+  "identity": "agents-spec/scheduler-agent/identity.json",
+  "checklist": "agents-spec/scheduler-agent/checklist.md",
+  "pipelines-dir": "agents-spec/scheduler-agent/pipelines",
+  "tasks-dir": "agents-spec/scheduler-agent/tasks",
+  "reflections-dir": "agents-spec/scheduler-agent/reflections"
+}
