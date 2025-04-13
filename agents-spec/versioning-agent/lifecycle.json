@@ -1,0 +1,11 @@
+{
+  "phases": [
+    "init",
+    "monitoring",
+    "bump-pending",
+    "released",
+    "archived"
+  ],
+  "agent": "versioning-agent",
+  "$schema": "schemas/agent-schema.json"
+}

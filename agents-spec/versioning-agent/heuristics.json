@@ -1,0 +1,35 @@
+{
+  "rules": [
+    {
+      "if": "plan-structure-changes",
+      "then": "bump-minor-version"
+    },
+    {
+      "if": "agent-spec-added-or-removed",
+      "then": "bump-major-version"
+    },
+    {
+      "if": "schema-evolution-or-refactor",
+      "then": "flag-release-needed"
+    },
+    {
+      "if": "version-bump-confirmed",
+      "then": "generate-changelog"
+    }
+  ],
+  "preferences": [
+    {
+      "rule": "prefer-minor-bump-for-backward-compatible-changes",
+      "weight": 0.9
+    },
+    {
+      "rule": "minimize-fragmentation-across-snapshots",
+      "weight": 0.8
+    }
+  ],
+  "scoring": {
+    "complexityPenalty": 1.0,
+    "reuseBonus": 1.5
+  },
+  "$schema": "schemas/agent-schema.json"
+}

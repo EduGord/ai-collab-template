@@ -1,0 +1,29 @@
+{
+  "agent_id": "versioning-agent",
+  "agentId": "versioning-agent",
+  "role": "Manages semantic versioning, changelogs, and system version lifecycle",
+  "description": "Handles system versioning policies, changelog synthesis, and triggers release tasks based on plan, schema, or agent deltas.",
+  "traits": [
+    "tracker",
+    "version-controller",
+    "release-signal-emitter"
+  ],
+  "tools": [
+    "version-diff-scanner",
+    "changelog-generator"
+  ],
+  "dependencies": [
+    "planner-agent",
+    "logger-agent",
+    "evolve-agent",
+    "orchestrator-agent"
+  ],
+  "capabilities": [
+    "versioning",
+    "changelog",
+    "semantic-analysis"
+  ],
+  "status": "active",
+  "version": "1.0.0",
+  "$schema": "schemas/agent-schema.json"
+}
