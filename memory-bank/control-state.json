@@ -1,0 +1,13 @@
+{
+  "manual_mode": false,
+  "watchdog_enabled": true,
+  "auto_restore_checkpoint": true,
+  "registered_actions": [
+    "reload-agents",
+    "simulate-failure",
+    "flush-memory",
+    "run-task-graph",
+    "trigger-reflection"
+  ],
+  "synced_at": "2025-04-12T23:50:57.798995"
+}

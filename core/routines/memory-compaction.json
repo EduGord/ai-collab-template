@@ -1,0 +1,15 @@
+{
+  "id": "memory-compaction",
+  "description": "Scans memory-bank entries and consolidates or prunes redundant, outdated, or low-utility records.",
+  "trigger": [
+    "reflection-agent",
+    "manual"
+  ],
+  "steps": [
+    "Load all memory-bank entries",
+    "Evaluate utility, freshness, and linkage",
+    "Merge related fragments or delete low-value data",
+    "Update memory-bank and regenerate index"
+  ],
+  "status": "ready"
+}

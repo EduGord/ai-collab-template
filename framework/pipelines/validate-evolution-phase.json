@@ -1,0 +1,40 @@
+{
+  "id": "validate-evolution-phase",
+  "description": "Verifies that all major evolution tasks were completed and artifacts created correctly.",
+  "steps": [
+    {
+      "check": "plans/next-evolution-phase.json exists"
+    },
+    {
+      "check": "memory-bank/upcoming-features.json exists"
+    },
+    {
+      "check": "agents-spec/reflection-agent.json exists"
+    },
+    {
+      "check": "agents-spec/scheduler-agent.json exists"
+    },
+    {
+      "check": "core/routines/memory-compaction.json exists"
+    },
+    {
+      "check": "governance/linting-rules.json exists"
+    },
+    {
+      "check": "control-panel/panel-config.json exists"
+    },
+    {
+      "check": "memory-bank/control-state.json exists"
+    },
+    {
+      "check": "checkpoints/session_boot.json exists"
+    },
+    {
+      "check": "logs/evaluations/linting-report.json exists"
+    },
+    {
+      "check": "tasks/system-improvements.json status == all done"
+    }
+  ],
+  "status": "pending"
+}

@@ -1,0 +1,16 @@
+{
+  "task_list_name": "Agent Identity Audit",
+  "created": "2025-04-12T23:47:29.964278",
+  "tasks": [
+    {
+      "id": "review-reflection-agent",
+      "desc": "Assume identity of `reflection-agent` and review all related checklists, pipelines, tools, docs.",
+      "status": "pending"
+    },
+    {
+      "id": "review-scheduler-agent",
+      "desc": "Assume identity of `scheduler-agent` and review all related checklists, pipelines, tools, docs.",
+      "status": "pending"
+    }
+  ]
+}

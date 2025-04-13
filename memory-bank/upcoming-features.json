@@ -1,0 +1,14 @@
+{
+  "id": "evolution-phase-internal-notes",
+  "created": "2025-04-12T23:47:29.964278",
+  "tags": [
+    "evolution",
+    "phase-2",
+    "upgrade"
+  ],
+  "summary": "Planning and execution for improving orchestration engine to handle large-scale projects with checkpoints, heuristics, governance, and control systems.",
+  "related_files": [
+    "plans/next-evolution-phase.json",
+    "tasks/system-improvements.json"
+  ]
+}

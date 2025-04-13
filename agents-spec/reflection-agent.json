@@ -1,0 +1,23 @@
+{
+  "id": "reflection-agent",
+  "role": "meta-evaluator",
+  "purpose": "Periodically review agent states, memory usage, task relevance, and self-optimize framework behavior.",
+  "triggers": [
+    "manual",
+    "post-phase",
+    "weekly"
+  ],
+  "memory_scope": [
+    "agent-state",
+    "task-history",
+    "execution-logs",
+    "memory-bank"
+  ],
+  "routines": [
+    "memory-compaction",
+    "focus-update",
+    "self-healing"
+  ],
+  "status": "active",
+  "last_run": null
+}

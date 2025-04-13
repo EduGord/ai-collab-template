@@ -1,0 +1,31 @@
+{
+  "system": "linting-governance",
+  "created": "2025-04-12T23:47:29.964278",
+  "rules": {
+    "file_naming": {
+      "pattern": "^[a-z0-9\\-_.]+$",
+      "description": "File names must use kebab-case, dots, or underscores. No spaces or uppercase."
+    },
+    "json_structure": {
+      "require_top_level_keys": [
+        "id",
+        "description"
+      ],
+      "enforce_indentation": 2
+    },
+    "agent_spec_fields": {
+      "required": [
+        "id",
+        "role",
+        "status"
+      ]
+    },
+    "forbidden_folders": [
+      "tmp",
+      "backup",
+      "old",
+      "excluded",
+      "deprecated"
+    ]
+  }
+}

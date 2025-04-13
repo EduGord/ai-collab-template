@@ -1,0 +1,21 @@
+{
+  "task_list_name": "Agent Identity Fixes",
+  "created": "2025-04-12T23:47:29.964278",
+  "tasks": [
+    {
+      "id": "fix-reflection-agent-0",
+      "desc": "Add `tasks.json` linkage for agent `reflection-agent`",
+      "status": "pending"
+    },
+    {
+      "id": "fix-scheduler-agent-0",
+      "desc": "Add `tasks.json` linkage for agent `scheduler-agent`",
+      "status": "pending"
+    },
+    {
+      "id": "fix-scheduler-agent-1",
+      "desc": "Attach routines to `scheduler-agent` or update its spec.",
+      "status": "pending"
+    }
+  ]
+}

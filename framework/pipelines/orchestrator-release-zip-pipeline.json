@@ -1,0 +1,39 @@
+{
+  "id": "orchestrator-release-zip-pipeline",
+  "description": "Phased and agent-coordinated release ZIP generation with validation of deletions, merges, and updates.",
+  "phases": [
+    {
+      "phase": "scan-project-tree",
+      "agent": "orchestrator",
+      "description": "Scan file tree and track changes: new, deleted, merged, updated.",
+      "outputs": [
+        "project-diff.json"
+      ]
+    },
+    {
+      "phase": "validate-release-scope",
+      "agent": "reflection-agent",
+      "description": "Ensure no deleted or backup files are included; all updated/merged files are present.",
+      "outputs": [
+        "validated-file-list.json"
+      ]
+    },
+    {
+      "phase": "prepare-release-manifest",
+      "agent": "scheduler-agent",
+      "description": "Generate manifest for inclusion in release ZIP.",
+      "outputs": [
+        "release_manifest_v1.0.1.json"
+      ]
+    },
+    {
+      "phase": "finalize-and-generate-zip",
+      "agent": "orchestrator",
+      "description": "Use validated file list to create clean release ZIP.",
+      "outputs": [
+        "ai-collab-framework_v1.0.1.zip"
+      ]
+    }
+  ],
+  "status": "defined"
+}

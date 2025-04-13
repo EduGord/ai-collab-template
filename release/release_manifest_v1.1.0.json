@@ -1,0 +1,20 @@
+{
+  "release_id": "v1.1.0",
+  "timestamp": "2025-04-12T23:47:29.964278",
+  "changes": [
+    "Added checkpoint system",
+    "Initialized reflection-agent",
+    "Scaffolded memory compaction routine",
+    "Introduced heuristic scheduler with shared task queue",
+    "Created linting rules under governance",
+    "Scaffolded orchestration control panel config"
+  ],
+  "excluded": [
+    "tmp",
+    "backup",
+    "old",
+    "excluded",
+    "deprecated"
+  ],
+  "status": "complete"
+}

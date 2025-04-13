@@ -1,0 +1,17 @@
+{
+  "id": "orchestration-control-panel",
+  "description": "Interface toggles and diagnostics for managing orchestrator session state.",
+  "toggles": {
+    "manual_mode": false,
+    "watchdog_enabled": true,
+    "auto_restore_checkpoint": true
+  },
+  "actions": [
+    "reload-agents",
+    "simulate-failure",
+    "flush-memory",
+    "run-task-graph",
+    "trigger-reflection"
+  ],
+  "last_updated": "2025-04-12T23:47:29.964278"
+}
